@@ -3,8 +3,8 @@ import { blogPosts } from "@/data/banks";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog & Guides Hypothèque Immigrants",
-  description: "Articles et guides complets sur l'hypothèque pour immigrants au Canada.",
+  title: "Guides Hypothèque Immigrants Canada",
+  description: "Articles et guides complets sur l'hypothèque pour immigrants au Canada. Chaque guide vous rapproche de votre hypothèque.",
 };
 
 export default function BlogPage() {
@@ -19,7 +19,7 @@ export default function BlogPage() {
           Guides <em className="text-gold">Hypothèque</em> pour Immigrants
         </h1>
         <p className="text-gray-500 mb-12 max-w-xl">
-          Articles détaillés et guides pratiques pour naviguer le processus hypothécaire au Canada en tant qu&apos;immigrant.
+          Tout ce que vous devez savoir pour obtenir votre hypothèque au Canada en tant qu&apos;immigrant.
         </p>
 
         {/* Pillar Article */}
@@ -30,11 +30,15 @@ export default function BlogPage() {
           <span className="text-xs bg-gold text-white px-3 py-1 rounded-full uppercase tracking-wider">{pillar.category}</span>
           <h2 className="font-serif text-2xl md:text-3xl mt-4 mb-3 group-hover:text-gold transition">{pillar.title}</h2>
           <p className="text-gray-400 mb-4 max-w-xl">{pillar.description}</p>
-          <span className="text-xs text-gray-500">{pillar.readTime} de lecture</span>
+          <div className="flex gap-4 text-xs text-gray-500">
+            <span>{pillar.readTime} de lecture</span>
+            <span>&bull;</span>
+            <span>Trafic estimé : {pillar.estimatedTraffic}</span>
+          </div>
         </Link>
 
         {/* Grid */}
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-3 gap-6 mb-12">
           {clusters.map((post) => (
             <Link
               key={post.slug}
@@ -47,6 +51,18 @@ export default function BlogPage() {
               <span className="text-xs text-gray-400">{post.readTime} de lecture</span>
             </Link>
           ))}
+        </div>
+
+        {/* CTA */}
+        <div className="bg-gold-light rounded-2xl p-10 text-center">
+          <h2 className="font-serif text-2xl mb-4">Prêt à passer à l&apos;action ?</h2>
+          <p className="text-sm text-gray-500 mb-6">Découvrez combien vous pouvez emprunter en 5 minutes avec notre wizard gratuit.</p>
+          <Link
+            href="/wizard"
+            className="inline-block bg-gold text-white px-8 py-3.5 rounded-full font-bold hover:bg-gold-dark transition uppercase tracking-wider"
+          >
+            Commencer le Wizard
+          </Link>
         </div>
       </div>
     </section>

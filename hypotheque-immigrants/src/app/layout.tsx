@@ -5,22 +5,23 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: {
-    default: "Guide Hypothèque Immigrants Canada | Calculatrice & Wizard",
-    template: "%s | Hypothèque Immigrants Canada",
+    default: "Hypothèque Immigrants Canada | Obtenir Préapprobation Gratuite | guide-hypotheque.ca",
+    template: "%s | guide-hypotheque.ca",
   },
   description:
-    "Découvrez combien vous pouvez emprunter, quelles banques acceptent les immigrants, et comment obtenir votre hypothèque au Canada. Wizard interactif gratuit.",
+    "Obtenez votre préapprobation hypothécaire en 5 minutes. Wizard gratuit pour immigrants au Canada. Découvrez combien vous pouvez emprunter.",
   keywords: [
     "hypothèque immigrants",
     "hypothèque nouveaux arrivants",
     "hypothèque canada immigrants",
+    "préapprobation hypothèque",
     "guide hypothèque",
   ],
   openGraph: {
-    title: "Guide Hypothèque Immigrants Canada - Wizard Interactif",
+    title: "Hypothèque Immigrants Canada | Préapprobation Gratuite",
     description:
-      "Trouvez votre taux hypothécaire optimal et les meilleures banques pour immigrants.",
-    url: "https://hypotheque-immigrants-canada.com/",
+      "Obtenez votre préapprobation hypothécaire en 5 minutes. Wizard gratuit pour immigrants au Canada.",
+    url: "https://guide-hypotheque.ca/",
     type: "website",
     locale: "fr_CA",
   },

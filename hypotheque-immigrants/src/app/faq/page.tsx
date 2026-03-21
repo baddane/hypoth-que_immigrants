@@ -1,8 +1,8 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import { faqItems } from "@/data/banks";
-import type { Metadata } from "next";
 
 export default function FAQPage() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
@@ -15,10 +15,10 @@ export default function FAQPage() {
           FAQ Hypothèque <em className="text-gold">Immigrants</em>
         </h1>
         <p className="text-gray-500 mb-12 max-w-xl">
-          Réponses aux questions les plus fréquentes sur l&apos;hypothèque pour immigrants au Canada.
+          Réponses aux questions les plus fréquentes. Chaque réponse vous rapproche de votre hypothèque.
         </p>
 
-        <div className="space-y-3">
+        <div className="space-y-3 mb-12">
           {faqItems.map((faq, i) => (
             <div key={i} className="bg-white rounded-xl shadow-sm overflow-hidden">
               <button
@@ -37,11 +37,27 @@ export default function FAQPage() {
               </button>
               {openIndex === i && (
                 <div className="px-6 pb-5 text-sm text-gray-500 leading-relaxed border-t border-gray-100 pt-4">
-                  {faq.answer}
+                  <p className="mb-3">{faq.answer}</p>
+                  <Link href="/wizard" className="text-gold text-xs hover:underline font-medium">
+                    Découvrir mes options avec le wizard &rarr;
+                  </Link>
                 </div>
               )}
             </div>
           ))}
+        </div>
+
+        {/* CTA */}
+        <div className="bg-gray-900 text-white rounded-2xl p-10 text-center">
+          <h2 className="font-serif text-2xl mb-4">Vous avez d&apos;autres questions ?</h2>
+          <p className="text-gray-400 text-sm mb-6">Notre wizard analyse votre situation unique et vous connecte avec des experts.</p>
+          <Link
+            href="/wizard"
+            className="inline-block bg-gold text-white px-8 py-3.5 rounded-full font-bold hover:bg-gold-dark transition uppercase tracking-wider"
+          >
+            Commencer le Wizard Gratuit
+          </Link>
+          <p className="text-xs text-gray-500 mt-3">5 minutes &bull; Gratuit &bull; Sans engagement</p>
         </div>
 
         {/* Schema Markup */}

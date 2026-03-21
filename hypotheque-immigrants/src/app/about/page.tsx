@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "À Propos",
-  description: "À propos de Guide Hypothèque Immigrants. Notre mission, expertise, partenaires.",
+  description: "À propos de guide-hypotheque.ca. Notre mission, expertise, partenaires.",
 };
 
 export default function AboutPage() {
@@ -17,30 +17,33 @@ export default function AboutPage() {
 
         <div className="bg-white rounded-2xl p-8 shadow-sm mb-8 space-y-6 text-gray-600 leading-relaxed">
           <p className="text-lg">
-            Guide Hypothèque Immigrants Canada est né d&apos;un constat simple : les immigrants au Canada
-            manquent d&apos;informations claires et accessibles sur le processus hypothécaire.
+            guide-hypotheque.ca est né d&apos;un constat simple : les immigrants au Canada
+            manquent d&apos;un accompagnement personnalisé pour obtenir leur hypothèque.
           </p>
           <p>
-            Notre mission est de devenir la référence francophone en matière d&apos;hypothèque pour les
-            immigrants au Canada. Nous offrons des outils interactifs, des guides détaillés et des
-            recommandations personnalisées pour aider chaque nouvel arrivant à réaliser son rêve de
-            devenir propriétaire.
+            Notre mission est de connecter chaque immigrant avec les meilleurs courtiers et banques
+            spécialisés, gratuitement. Notre wizard analyse votre profil en 5 minutes et vous met
+            en relation avec des experts qui comprennent votre situation unique.
+          </p>
+          <p>
+            Plus de 5 000 immigrants ont déjà utilisé notre service pour obtenir leur préapprobation
+            hypothécaire et devenir propriétaires au Canada.
           </p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-6 mb-12">
           {[
             {
-              title: "Expertise",
-              desc: "Des années d'expérience dans le domaine hypothécaire et l'immigration canadienne.",
+              title: "Gratuit à 100%",
+              desc: "Notre service est entièrement gratuit pour vous. Nous sommes rémunérés par nos partenaires bancaires.",
             },
             {
-              title: "Indépendance",
-              desc: "Nous comparons objectivement toutes les banques et courtiers pour votre bénéfice.",
+              title: "Courtiers Spécialisés",
+              desc: "Nous travaillons exclusivement avec des courtiers qui comprennent la réalité des immigrants.",
             },
             {
-              title: "Accessibilité",
-              desc: "Tous nos outils et guides sont 100% gratuits et accessibles en français.",
+              title: "Confidentiel",
+              desc: "Conforme PIPEDA. Vos données ne sont partagées qu'avec les partenaires que vous autorisez.",
             },
           ].map((item) => (
             <div key={item.title} className="bg-white rounded-xl p-6 shadow-sm">
@@ -55,21 +58,22 @@ export default function AboutPage() {
           ))}
         </div>
 
-        <div className="bg-gray-900 text-white rounded-2xl p-10 text-center">
-          <h2 className="font-serif text-2xl mb-4">Nos Partenaires Bancaires</h2>
+        <div className="bg-gray-900 text-white rounded-2xl p-10 text-center mb-12">
+          <h2 className="font-serif text-2xl mb-4">Nos Partenaires</h2>
+          <p className="text-gray-400 text-sm mb-6">Les plus grandes institutions financières du Canada</p>
           <div className="flex flex-wrap justify-center gap-6 text-gold font-serif font-bold text-lg">
-            {["RBC", "TD", "CIBC", "BMO", "Scotia", "Nesto"].map((bank) => (
+            {["RBC", "TD", "CIBC", "BMO", "Scotia", "Nesto", "Ratehub"].map((bank) => (
               <span key={bank} className="bg-gray-800 px-5 py-3 rounded-lg">{bank}</span>
             ))}
           </div>
         </div>
 
-        <div className="text-center mt-12">
+        <div className="text-center">
           <Link
-            href="/contact"
-            className="inline-block bg-gold text-white px-8 py-3.5 rounded-full font-medium hover:bg-gold-dark transition uppercase text-sm tracking-wider"
+            href="/wizard"
+            className="inline-block bg-gold text-white px-8 py-3.5 rounded-full font-bold hover:bg-gold-dark transition uppercase tracking-wider"
           >
-            Nous Contacter
+            Commencer le Wizard Gratuit
           </Link>
         </div>
       </div>

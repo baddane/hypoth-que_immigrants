@@ -49,11 +49,11 @@ export default async function BlogPostPage({ params }: Props) {
           <span>Mis à jour récemment</span>
         </div>
 
-        {/* Article Content Placeholder */}
+        {/* Article Content */}
         <article className="prose prose-gray max-w-none">
           <div className="bg-white rounded-xl p-8 shadow-sm mb-8 space-y-6 text-gray-600 leading-relaxed">
             <p>
-              Ce guide couvre tout ce que vous devez savoir sur le sujet de <strong>{post.title.toLowerCase()}</strong>.
+              Ce guide couvre tout ce que vous devez savoir sur <strong>{post.title.toLowerCase()}</strong>.
               En tant qu&apos;immigrant au Canada, obtenir une hypothèque peut sembler complexe,
               mais avec les bonnes informations et la bonne préparation, c&apos;est tout à fait réalisable.
             </p>
@@ -62,8 +62,17 @@ export default async function BlogPostPage({ params }: Props) {
             <p>
               Le marché hypothécaire canadien offre plusieurs options pour les immigrants et les nouveaux arrivants.
               Les grandes banques canadiennes ont développé des programmes spécifiques pour faciliter l&apos;accès
-              à la propriété pour les immigrants, reconnaissant leur contribution importante à l&apos;économie canadienne.
+              à la propriété pour les immigrants.
             </p>
+
+            {/* Wizard CTA #1 */}
+            <div className="bg-gold-light rounded-xl p-6 not-prose">
+              <p className="font-medium text-sm mb-2">Découvrez votre capacité d&apos;emprunt</p>
+              <p className="text-xs text-gray-500 mb-3">Notre wizard gratuit analyse votre situation en 5 minutes.</p>
+              <Link href="/wizard" className="inline-block bg-gold text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-gold-dark transition">
+                Commencer le Wizard &rarr;
+              </Link>
+            </div>
 
             <h2 className="font-serif text-xl text-gray-900">Points clés à retenir</h2>
             <ul className="space-y-2">
@@ -74,23 +83,39 @@ export default async function BlogPostPage({ params }: Props) {
               <li>Certaines banques acceptent les clients sans historique de crédit canadien</li>
             </ul>
 
-            <h2 className="font-serif text-xl text-gray-900">Prochaines étapes</h2>
+            <h2 className="font-serif text-xl text-gray-900">Ce que vous devez préparer</h2>
             <p>
-              Utilisez notre <Link href="/wizard" className="text-gold hover:underline">wizard interactif</Link> pour
-              obtenir une évaluation personnalisée de votre situation, ou consultez
-              notre <Link href="/comparateur" className="text-gold hover:underline">comparateur de banques</Link> pour
-              trouver la meilleure institution pour votre profil.
+              Pour maximiser vos chances d&apos;approbation, préparez les documents suivants : passeport valide,
+              carte de résidence permanente ou permis de travail, preuve de revenus, relevés bancaires
+              des 3 derniers mois, et preuve d&apos;apport initial.
+            </p>
+
+            {/* Wizard CTA #2 */}
+            <div className="bg-gray-900 rounded-xl p-6 text-white not-prose">
+              <p className="font-medium text-sm mb-2">Prêt à passer à l&apos;action ?</p>
+              <p className="text-xs text-gray-400 mb-3">Recevez des offres personnalisées de courtiers spécialisés en hypothèques pour immigrants.</p>
+              <Link href="/wizard" className="inline-block bg-gold text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-gold-dark transition">
+                Commencer le Wizard Gratuit &rarr;
+              </Link>
+            </div>
+
+            <h2 className="font-serif text-xl text-gray-900">Les meilleures options pour vous</h2>
+            <p>
+              Chaque situation est unique. Votre statut d&apos;immigration, votre historique de crédit, votre revenu
+              et votre province affectent tous vos options. C&apos;est pourquoi notre{" "}
+              <Link href="/wizard" className="text-gold hover:underline">wizard interactif</Link> analyse
+              votre profil spécifique pour vous connecter aux meilleurs courtiers.
             </p>
           </div>
         </article>
 
-        {/* CTA */}
+        {/* Final CTA */}
         <div className="bg-gold-light rounded-xl p-8 text-center mb-12">
-          <h3 className="font-serif text-xl mb-3">Prêt à passer à l&apos;action ?</h3>
-          <p className="text-sm text-gray-500 mb-6">Découvrez votre capacité d&apos;emprunt en 5 minutes avec notre wizard gratuit.</p>
+          <h3 className="font-serif text-xl mb-3">Obtenez votre préapprobation en 5 minutes</h3>
+          <p className="text-sm text-gray-500 mb-6">Gratuit, confidentiel, sans engagement.</p>
           <Link
             href="/wizard"
-            className="inline-block bg-gold text-white px-6 py-3 rounded-full text-sm font-medium hover:bg-gold-dark transition uppercase tracking-wider"
+            className="inline-block bg-gold text-white px-8 py-3.5 rounded-full font-bold hover:bg-gold-dark transition uppercase tracking-wider"
           >
             Commencer le Wizard
           </Link>
@@ -122,7 +147,7 @@ export default async function BlogPostPage({ params }: Props) {
               description: post.description,
               author: {
                 "@type": "Organization",
-                name: "Guide Hypothèque Immigrants Canada",
+                name: "guide-hypotheque.ca",
               },
             }),
           }}

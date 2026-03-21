@@ -1,8 +1,9 @@
+import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Contactez-nous pour questions ou partenariats.",
+  description: "Contactez guide-hypotheque.ca pour questions ou partenariats.",
 };
 
 export default function ContactPage() {
@@ -14,10 +15,11 @@ export default function ContactPage() {
           Nous <em className="text-gold">Contacter</em>
         </h1>
         <p className="text-gray-500 mb-12">
-          Une question sur votre hypothèque ? Un partenariat ? Remplissez le formulaire ci-dessous.
+          Une question ? Un partenariat ? Remplissez le formulaire ci-dessous ou utilisez directement notre{" "}
+          <Link href="/wizard" className="text-gold hover:underline">wizard gratuit</Link>.
         </p>
 
-        <div className="bg-white rounded-2xl p-8 shadow-sm">
+        <div className="bg-white rounded-2xl p-8 shadow-sm mb-8">
           <form className="space-y-6">
             <div className="grid md:grid-cols-2 gap-6">
               <div>
@@ -38,57 +40,22 @@ export default function ContactPage() {
               </div>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-6">
-              <div>
-                <label className="block text-sm font-medium mb-2">Téléphone</label>
-                <input
-                  type="tel"
-                  className="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:border-gold"
-                  placeholder="+1 (xxx) xxx-xxxx"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-medium mb-2">Statut immigration</label>
-                <select className="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:border-gold">
-                  <option value="">Sélectionnez...</option>
-                  <option>Résident Permanent</option>
-                  <option>Travailleur Temporaire</option>
-                  <option>Citoyen Canadien</option>
-                  <option>En attente d&apos;immigration</option>
-                </select>
-              </div>
-            </div>
-
-            <div className="grid md:grid-cols-2 gap-6">
-              <div>
-                <label className="block text-sm font-medium mb-2">Province</label>
-                <select className="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:border-gold">
-                  <option value="">Sélectionnez...</option>
-                  <option>Ontario</option>
-                  <option>Québec</option>
-                  <option>Colombie-Britannique</option>
-                  <option>Alberta</option>
-                  <option>Autre</option>
-                </select>
-              </div>
-              <div>
-                <label className="block text-sm font-medium mb-2">Montant recherché</label>
-                <select className="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:border-gold">
-                  <option value="">Sélectionnez...</option>
-                  <option>Moins de 200 000 $</option>
-                  <option>200 000 $ - 400 000 $</option>
-                  <option>400 000 $ - 600 000 $</option>
-                  <option>Plus de 600 000 $</option>
-                </select>
-              </div>
+            <div>
+              <label className="block text-sm font-medium mb-2">Sujet</label>
+              <select className="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:border-gold">
+                <option>Question sur mon dossier</option>
+                <option>Partenariat courtier/banque</option>
+                <option>Support technique</option>
+                <option>Autre</option>
+              </select>
             </div>
 
             <div>
-              <label className="block text-sm font-medium mb-2">Message (optionnel)</label>
+              <label className="block text-sm font-medium mb-2">Message</label>
               <textarea
                 rows={4}
                 className="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:border-gold resize-none"
-                placeholder="Décrivez votre situation..."
+                placeholder="Décrivez votre question..."
               />
             </div>
 
@@ -99,6 +66,18 @@ export default function ContactPage() {
               Envoyer
             </button>
           </form>
+        </div>
+
+        {/* Quick redirect */}
+        <div className="bg-gold-light rounded-xl p-8 text-center">
+          <h3 className="font-serif text-xl mb-3">Besoin d&apos;aide pour votre hypothèque ?</h3>
+          <p className="text-sm text-gray-500 mb-6">Le moyen le plus rapide est notre wizard. En 5 minutes, vous recevrez des offres personnalisées.</p>
+          <Link
+            href="/wizard"
+            className="inline-block bg-gold text-white px-6 py-3 rounded-full text-sm font-bold hover:bg-gold-dark transition uppercase tracking-wider"
+          >
+            Commencer le Wizard
+          </Link>
         </div>
       </div>
     </section>

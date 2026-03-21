@@ -11,16 +11,14 @@ export default function Header() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-2">
-            <span className="w-8 h-8 bg-gold rounded-full flex items-center justify-center text-white font-bold text-sm">H</span>
+            <span className="w-8 h-8 bg-gold rounded-full flex items-center justify-center text-white font-bold text-sm">G</span>
             <span className="font-serif text-lg">
-              Hypothèque <span className="font-bold">Immigrants</span>
+              guide-<span className="font-bold">hypotheque</span>.ca
             </span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-8 text-sm">
             <Link href="/wizard" className="text-gray-600 hover:text-gray-900 transition">Wizard</Link>
-            <Link href="/comparateur" className="text-gray-600 hover:text-gray-900 transition">Comparateur</Link>
-            <Link href="/calculatrice" className="text-gray-600 hover:text-gray-900 transition">Calculatrice</Link>
             <Link href="/blog" className="text-gray-600 hover:text-gray-900 transition">Guides</Link>
             <Link href="/faq" className="text-gray-600 hover:text-gray-900 transition">FAQ</Link>
             <Link href="/about" className="text-gray-600 hover:text-gray-900 transition">À propos</Link>
@@ -31,7 +29,7 @@ export default function Header() {
               href="/wizard"
               className="bg-gold text-white px-5 py-2.5 rounded-full text-sm font-medium hover:bg-gold-dark transition"
             >
-              Bilan gratuit
+              Préapprobation Gratuite
             </Link>
           </div>
 
@@ -53,8 +51,6 @@ export default function Header() {
         {menuOpen && (
           <div className="md:hidden bg-white border-t border-gray-100 px-6 py-4 space-y-3">
             <Link href="/wizard" className="block text-gray-700 py-2" onClick={() => setMenuOpen(false)}>Wizard</Link>
-            <Link href="/comparateur" className="block text-gray-700 py-2" onClick={() => setMenuOpen(false)}>Comparateur</Link>
-            <Link href="/calculatrice" className="block text-gray-700 py-2" onClick={() => setMenuOpen(false)}>Calculatrice</Link>
             <Link href="/blog" className="block text-gray-700 py-2" onClick={() => setMenuOpen(false)}>Guides</Link>
             <Link href="/faq" className="block text-gray-700 py-2" onClick={() => setMenuOpen(false)}>FAQ</Link>
             <Link href="/about" className="block text-gray-700 py-2" onClick={() => setMenuOpen(false)}>À propos</Link>
@@ -63,18 +59,18 @@ export default function Header() {
               className="block bg-gold text-white px-5 py-2.5 rounded-full text-sm font-medium text-center mt-3"
               onClick={() => setMenuOpen(false)}
             >
-              Bilan gratuit
+              Préapprobation Gratuite
             </Link>
           </div>
         )}
       </header>
 
-      {/* Sticky bottom bar */}
+      {/* Sticky bottom CTA bar */}
       <div className="fixed bottom-0 left-0 right-0 z-50 bg-gray-900 text-white px-6 py-3 flex items-center justify-between text-sm">
         <span>
-          <span className="text-gold font-medium">Bilan Hypothécaire Gratuit</span>
+          <span className="text-gold font-medium">Préapprobation Gratuite</span>
           {" — "}
-          <span className="hidden sm:inline">Découvrez votre capacité d&apos;emprunt en 5 minutes.</span>
+          <span className="hidden sm:inline">Découvrez combien vous pouvez emprunter en 5 minutes.</span>
         </span>
         <Link
           href="/wizard"
