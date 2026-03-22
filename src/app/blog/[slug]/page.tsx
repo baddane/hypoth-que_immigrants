@@ -33,8 +33,7 @@ export default async function BlogPostPage({ params }: Props) {
   const post = getPostBySlug(slug);
   if (!post) notFound();
 
-  const entry = blogContentMap[slug];
-  const content = entry?.content;
+  const content = blogContentMap[slug];
   const relatedPosts = getRelatedPosts(slug, 4);
   const wizardHref = post.wizardVariant ? `/wizard/${post.wizardVariant}` : "/wizard";
 
