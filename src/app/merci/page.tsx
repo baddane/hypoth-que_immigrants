@@ -7,8 +7,6 @@ import { Suspense } from "react";
 function MerciContent() {
   const searchParams = useSearchParams();
   const prenom = searchParams.get("prenom") || "";
-  const quality = searchParams.get("quality") || "GOOD";
-
   return (
     <section className="py-20 bg-cream min-h-screen">
       <div className="max-w-2xl mx-auto px-6">
@@ -89,7 +87,7 @@ function MerciContent() {
           <h2 className="font-serif text-xl mb-6">En attendant, <em className="text-gold">préparez-vous</em></h2>
           <div className="space-y-4">
             <Link
-              href="/blog/documents-hypotheque"
+              href="/blog/preapprobation-hypotheque-immigrant"
               className="flex items-center gap-4 p-4 bg-cream rounded-xl hover:bg-gold/10 transition group"
             >
               <div className="w-10 h-10 bg-gold/10 rounded-lg flex items-center justify-center text-gold flex-shrink-0">
@@ -98,13 +96,13 @@ function MerciContent() {
                 </svg>
               </div>
               <div>
-                <h3 className="text-sm font-medium group-hover:text-gold transition">5 Documents Que Vous DEVEZ Préparer</h3>
+                <h3 className="text-sm font-medium group-hover:text-gold transition">Préapprobation : Documents et Étapes</h3>
                 <p className="text-xs text-gray-400">Checklist complète pour accélérer votre approbation</p>
               </div>
             </Link>
 
             <Link
-              href="/blog/hypotheque-immigrants-canada-guide"
+              href="/blog/hypotheque-travailleur-temporaire-5pourcent"
               className="flex items-center gap-4 p-4 bg-cream rounded-xl hover:bg-gold/10 transition group"
             >
               <div className="w-10 h-10 bg-gold/10 rounded-lg flex items-center justify-center text-gold flex-shrink-0">
