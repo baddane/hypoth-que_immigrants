@@ -4,6 +4,7 @@ import { blogPosts } from "@/data/blogPosts";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import WizardClient from "./WizardClient";
+import { SITE_URL, SITE_NAME } from "@/lib/constants";
 
 type Props = {
   params: Promise<{ variant: string }>;
@@ -23,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: v.title,
       description: v.heroDescription,
-      url: `https://guide-hypotheque.ca/wizard/${v.slug}`,
+      url: `${SITE_URL}/wizard/${v.slug}`,
       type: "website",
     },
   };
@@ -189,11 +190,11 @@ export default async function WizardVariantPage({ params }: Props) {
             "@type": "WebPage",
             name: v.title,
             description: v.heroDescription,
-            url: `https://guide-hypotheque.ca/wizard/${v.slug}`,
+            url: `${SITE_URL}/wizard/${v.slug}`,
             publisher: {
               "@type": "Organization",
-              name: "guide-hypotheque.ca",
-              url: "https://guide-hypotheque.ca",
+              name: SITE_NAME,
+              url: SITE_URL,
             },
           }),
         }}

@@ -29,10 +29,10 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-medium mb-4 uppercase text-xs tracking-wider">Guides</h4>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/blog/hypotheque-immigrants-canada-guide" className="hover:text-white transition">Guide Complet</Link></li>
-              <li><Link href="/blog/hypotheque-permis-travail" className="hover:text-white transition">Permis de Travail</Link></li>
-              <li><Link href="/blog/hypotheque-residence-permanente" className="hover:text-white transition">Résidence Permanente</Link></li>
-              <li><Link href="/blog/hypotheque-quebec" className="hover:text-white transition">Hypothèque Québec</Link></li>
+              <li><Link href="/blog/hypotheque-travailleur-temporaire-5pourcent" className="hover:text-white transition">Guide Complet</Link></li>
+              <li><Link href="/blog/hypotheque-permis-travail-ouvert" className="hover:text-white transition">Permis de Travail</Link></li>
+              <li><Link href="/blog/preapprobation-hypotheque-immigrant" className="hover:text-white transition">Préapprobation</Link></li>
+              <li><Link href="/blog/hypotheque-francophone-quebec" className="hover:text-white transition">Hypothèque Québec</Link></li>
             </ul>
           </div>
 

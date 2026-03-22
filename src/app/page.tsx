@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SITE_URL, SITE_NAME } from "@/lib/constants";
 
 const trustSignals = [
   { text: "5 000+ immigrants approuvés", icon: "check" },
@@ -257,8 +258,8 @@ export default function Home() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            name: "guide-hypotheque.ca",
-            url: "https://guide-hypotheque.ca",
+            name: SITE_NAME,
+            url: SITE_URL,
             description: "Service gratuit de préapprobation hypothécaire pour immigrants au Canada",
           }),
         }}

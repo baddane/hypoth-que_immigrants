@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { blogPosts } from "@/data/blogPosts";
 import { wizardVariants } from "@/data/wizardVariants";
+import { SITE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Guides Hypothèque Immigrants Canada",
     description: "22 guides complets pour obtenir votre hypothèque au Canada en tant qu'immigrant.",
-    url: "https://guide-hypotheque.ca/blog",
+    url: `${SITE_URL}/blog`,
     type: "website",
   },
 };

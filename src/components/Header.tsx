@@ -28,21 +28,21 @@ export default function Header() {
             </span>
           </Link>
 
-          <nav className="hidden md:flex items-center gap-8 text-sm">
+          <nav className="hidden md:flex items-center gap-8 text-sm" aria-label="Navigation principale">
             {/* Wizard with dropdown */}
             <div
               className="relative"
               onMouseEnter={() => setWizardDropdown(true)}
               onMouseLeave={() => setWizardDropdown(false)}
             >
-              <Link href="/wizard" className="text-gray-600 hover:text-gray-900 transition flex items-center gap-1">
+              <Link href="/wizard" className="text-gray-600 hover:text-gray-900 transition flex items-center gap-1" aria-expanded={wizardDropdown} aria-haspopup="true">
                 Wizard
-                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </Link>
               {wizardDropdown && (
-                <div className="absolute top-full left-0 mt-1 bg-white rounded-xl shadow-lg border border-gray-100 py-2 w-64 z-50">
+                <div className="absolute top-full left-0 mt-1 bg-white rounded-xl shadow-lg border border-gray-100 py-2 w-64 z-50" role="menu">
                   <Link
                     href="/wizard"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gold-light hover:text-gold transition"

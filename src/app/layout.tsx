@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: {
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
     title: "Hypothèque Immigrants Canada | Préapprobation Gratuite",
     description:
       "Obtenez votre préapprobation hypothécaire en 5 minutes. Wizard gratuit pour immigrants au Canada.",
-    url: "https://guide-hypotheque.ca/",
+    url: `${SITE_URL}/`,
     type: "website",
     locale: "fr_CA",
   },
