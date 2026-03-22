@@ -3,8 +3,19 @@
 import Link from "next/link";
 import { useState } from "react";
 
+const wizardLinks = [
+  { slug: "travailleur-temporaire", label: "Travailleur Temporaire", emoji: "🛂" },
+  { slug: "etudiant-international", label: "Étudiant International", emoji: "🎓" },
+  { slug: "resident-permanent", label: "Résident Permanent", emoji: "✅" },
+  { slug: "professionnel-reglemente", label: "Professionnel Réglementé", emoji: "👨‍⚕️" },
+  { slug: "travailleur-autonome", label: "Travailleur Autonome", emoji: "💼" },
+  { slug: "quebec", label: "Québec", emoji: "⚜️" },
+  { slug: "express", label: "Express 3 min", emoji: "⚡" },
+];
+
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [wizardDropdown, setWizardDropdown] = useState(false);
 
   return (
     <>
@@ -18,7 +29,41 @@ export default function Header() {
           </Link>
 
           <nav className="hidden md:flex items-center gap-8 text-sm">
-            <Link href="/wizard" className="text-gray-600 hover:text-gray-900 transition">Wizard</Link>
+            {/* Wizard with dropdown */}
+            <div
+              className="relative"
+              onMouseEnter={() => setWizardDropdown(true)}
+              onMouseLeave={() => setWizardDropdown(false)}
+            >
+              <Link href="/wizard" className="text-gray-600 hover:text-gray-900 transition flex items-center gap-1">
+                Wizard
+                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </Link>
+              {wizardDropdown && (
+                <div className="absolute top-full left-0 mt-1 bg-white rounded-xl shadow-lg border border-gray-100 py-2 w-64 z-50">
+                  <Link
+                    href="/wizard"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gold-light hover:text-gold transition"
+                  >
+                    Wizard Principal
+                  </Link>
+                  <div className="border-t border-gray-100 my-1" />
+                  {wizardLinks.map((w) => (
+                    <Link
+                      key={w.slug}
+                      href={`/wizard/${w.slug}`}
+                      className="flex items-center gap-2 px-4 py-2 text-sm text-gray-600 hover:bg-gold-light hover:text-gold transition"
+                    >
+                      <span>{w.emoji}</span>
+                      <span>{w.label}</span>
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+
             <Link href="/blog" className="text-gray-600 hover:text-gray-900 transition">Guides</Link>
             <Link href="/faq" className="text-gray-600 hover:text-gray-900 transition">FAQ</Link>
             <Link href="/about" className="text-gray-600 hover:text-gray-900 transition">À propos</Link>
@@ -48,9 +93,25 @@ export default function Header() {
           </button>
         </div>
 
+        {/* Mobile menu */}
         {menuOpen && (
-          <div className="md:hidden bg-white border-t border-gray-100 px-6 py-4 space-y-3">
-            <Link href="/wizard" className="block text-gray-700 py-2" onClick={() => setMenuOpen(false)}>Wizard</Link>
+          <div className="md:hidden bg-white border-t border-gray-100 px-6 py-4 space-y-1 max-h-[80vh] overflow-y-auto">
+            <Link href="/wizard" className="block text-gray-700 py-2 font-medium" onClick={() => setMenuOpen(false)}>
+              Wizard Principal
+            </Link>
+            <div className="pl-4 space-y-1 border-l-2 border-gold/20 ml-2">
+              {wizardLinks.map((w) => (
+                <Link
+                  key={w.slug}
+                  href={`/wizard/${w.slug}`}
+                  className="flex items-center gap-2 text-gray-600 py-1.5 text-sm"
+                  onClick={() => setMenuOpen(false)}
+                >
+                  <span>{w.emoji}</span>
+                  <span>{w.label}</span>
+                </Link>
+              ))}
+            </div>
             <Link href="/blog" className="block text-gray-700 py-2" onClick={() => setMenuOpen(false)}>Guides</Link>
             <Link href="/faq" className="block text-gray-700 py-2" onClick={() => setMenuOpen(false)}>FAQ</Link>
             <Link href="/about" className="block text-gray-700 py-2" onClick={() => setMenuOpen(false)}>À propos</Link>
