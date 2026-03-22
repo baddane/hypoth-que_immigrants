@@ -3,6 +3,7 @@ import { blogPosts, getPostBySlug, getRelatedPosts } from "@/data/blogPosts";
 import { blogContentMap } from "@/data/blogContent";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import { SITE_URL, SITE_NAME } from "@/lib/constants";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -22,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: post.title,
       description: post.description,
-      url: `https://guide-hypotheque.ca/blog/${post.slug}`,
+      url: `${SITE_URL}/blog/${post.slug}`,
       type: "article",
     },
   };
@@ -82,7 +83,20 @@ export default async function BlogPostPage({ params }: Props) {
         {/* Article body */}
         <article id="article-content" className="blog-article">
           <div className="space-y-6 text-gray-600 leading-relaxed">
-            {content}
+            {content || (
+              <div className="bg-white rounded-xl p-8 shadow-sm text-center">
+                <p className="text-lg font-serif mb-4">{post.description}</p>
+                <p className="text-sm text-gray-400 mb-6">
+                  Le contenu détaillé de cet article est en cours de rédaction. En attendant, utilisez notre wizard gratuit pour obtenir des recommandations personnalisées.
+                </p>
+                <Link
+                  href={wizardHref}
+                  className="inline-block bg-gold text-white px-8 py-3 rounded-full font-bold hover:bg-gold-dark transition uppercase tracking-wider"
+                >
+                  Commencer le Wizard
+                </Link>
+              </div>
+            )}
           </div>
         </article>
 
@@ -150,12 +164,12 @@ export default async function BlogPostPage({ params }: Props) {
                 dateModified: "2026-03-22",
                 author: {
                   "@type": "Organization",
-                  name: "guide-hypotheque.ca",
-                  url: "https://guide-hypotheque.ca",
+                  name: SITE_NAME,
+                  url: SITE_URL,
                 },
                 publisher: {
                   "@type": "Organization",
-                  name: "guide-hypotheque.ca",
+                  name: SITE_NAME,
                 },
               },
               {
@@ -166,19 +180,19 @@ export default async function BlogPostPage({ params }: Props) {
                     "@type": "ListItem",
                     position: 1,
                     name: "Accueil",
-                    item: "https://guide-hypotheque.ca",
+                    item: SITE_URL,
                   },
                   {
                     "@type": "ListItem",
                     position: 2,
                     name: "Guides",
-                    item: "https://guide-hypotheque.ca/blog",
+                    item: `${SITE_URL}/blog`,
                   },
                   {
                     "@type": "ListItem",
                     position: 3,
                     name: post.title,
-                    item: `https://guide-hypotheque.ca/blog/${post.slug}`,
+                    item: `${SITE_URL}/blog/${post.slug}`,
                   },
                 ],
               },
