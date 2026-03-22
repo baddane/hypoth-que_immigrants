@@ -1,12 +1,39 @@
-import Link from "next/link";
-import type { Metadata } from "next";
+"use client";
 
-export const metadata: Metadata = {
-  title: "Contact",
-  description: "Contactez guide-hypotheque.ca pour questions ou partenariats.",
-};
+import Link from "next/link";
+import { useState } from "react";
 
 export default function ContactPage() {
+  const [formData, setFormData] = useState({
+    nom: "",
+    email: "",
+    sujet: "Question sur mon dossier",
+    message: "",
+  });
+  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setStatus("sending");
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      if (res.ok) {
+        setStatus("sent");
+        setFormData({ nom: "", email: "", sujet: "Question sur mon dossier", message: "" });
+      } else {
+        setStatus("error");
+      }
+    } catch {
+      setStatus("error");
+    }
+  };
+
   return (
     <section className="py-20 bg-cream min-h-screen">
       <div className="max-w-3xl mx-auto px-6">
@@ -19,56 +46,89 @@ export default function ContactPage() {
           <Link href="/wizard" className="text-gold hover:underline">wizard gratuit</Link>.
         </p>
 
-        <div className="bg-white rounded-2xl p-8 shadow-sm mb-8">
-          <form className="space-y-6">
-            <div className="grid md:grid-cols-2 gap-6">
+        {status === "sent" ? (
+          <div className="bg-green-50 border border-green-200 rounded-2xl p-8 text-center mb-8">
+            <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+              </svg>
+            </div>
+            <h2 className="font-serif text-xl mb-2">Message envoyé !</h2>
+            <p className="text-sm text-gray-500">Nous vous répondrons dans les 24 à 48 heures.</p>
+          </div>
+        ) : (
+          <div className="bg-white rounded-2xl p-8 shadow-sm mb-8">
+            <form onSubmit={handleSubmit} className="space-y-6">
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <label htmlFor="contact-nom" className="block text-sm font-medium mb-2">Nom complet *</label>
+                  <input
+                    id="contact-nom"
+                    type="text"
+                    required
+                    value={formData.nom}
+                    onChange={(e) => setFormData({ ...formData, nom: e.target.value })}
+                    className="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:border-gold"
+                    placeholder="Jean Dupont"
+                  />
+                </div>
+                <div>
+                  <label htmlFor="contact-email" className="block text-sm font-medium mb-2">Email *</label>
+                  <input
+                    id="contact-email"
+                    type="email"
+                    required
+                    value={formData.email}
+                    onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                    className="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:border-gold"
+                    placeholder="jean@email.com"
+                  />
+                </div>
+              </div>
+
               <div>
-                <label className="block text-sm font-medium mb-2">Nom complet</label>
-                <input
-                  type="text"
+                <label htmlFor="contact-sujet" className="block text-sm font-medium mb-2">Sujet</label>
+                <select
+                  id="contact-sujet"
+                  value={formData.sujet}
+                  onChange={(e) => setFormData({ ...formData, sujet: e.target.value })}
                   className="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:border-gold"
-                  placeholder="Jean Dupont"
+                >
+                  <option>Question sur mon dossier</option>
+                  <option>Partenariat courtier/banque</option>
+                  <option>Support technique</option>
+                  <option>Autre</option>
+                </select>
+              </div>
+
+              <div>
+                <label htmlFor="contact-message" className="block text-sm font-medium mb-2">Message *</label>
+                <textarea
+                  id="contact-message"
+                  rows={4}
+                  required
+                  value={formData.message}
+                  onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                  className="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:border-gold resize-none"
+                  placeholder="Décrivez votre question..."
                 />
               </div>
-              <div>
-                <label className="block text-sm font-medium mb-2">Email</label>
-                <input
-                  type="email"
-                  className="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:border-gold"
-                  placeholder="jean@email.com"
-                />
-              </div>
-            </div>
 
-            <div>
-              <label className="block text-sm font-medium mb-2">Sujet</label>
-              <select className="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:border-gold">
-                <option>Question sur mon dossier</option>
-                <option>Partenariat courtier/banque</option>
-                <option>Support technique</option>
-                <option>Autre</option>
-              </select>
-            </div>
+              {status === "error" && (
+                <p className="text-sm text-red-500">Une erreur est survenue. Veuillez réessayer.</p>
+              )}
 
-            <div>
-              <label className="block text-sm font-medium mb-2">Message</label>
-              <textarea
-                rows={4}
-                className="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:border-gold resize-none"
-                placeholder="Décrivez votre question..."
-              />
-            </div>
+              <button
+                type="submit"
+                disabled={status === "sending"}
+                className="w-full bg-gold text-white py-3.5 rounded-xl font-medium hover:bg-gold-dark transition uppercase text-sm tracking-wider disabled:opacity-50"
+              >
+                {status === "sending" ? "Envoi en cours..." : "Envoyer"}
+              </button>
+            </form>
+          </div>
+        )}
 
-            <button
-              type="submit"
-              className="w-full bg-gold text-white py-3.5 rounded-xl font-medium hover:bg-gold-dark transition uppercase text-sm tracking-wider"
-            >
-              Envoyer
-            </button>
-          </form>
-        </div>
-
-        {/* Quick redirect */}
         <div className="bg-gold-light rounded-xl p-8 text-center">
           <h3 className="font-serif text-xl mb-3">Besoin d&apos;aide pour votre hypothèque ?</h3>
           <p className="text-sm text-gray-500 mb-6">Le moyen le plus rapide est notre wizard. En 5 minutes, vous recevrez des offres personnalisées.</p>
