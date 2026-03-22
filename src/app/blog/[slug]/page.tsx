@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { blogPosts } from "@/data/banks";
+import { blogPosts, getPostBySlug, getRelatedPosts } from "@/data/blogPosts";
 import { blogContentMap } from "@/data/blogContent";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -14,27 +14,35 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const post = blogPosts.find((p) => p.slug === slug);
+  const post = getPostBySlug(slug);
   if (!post) return {};
   return {
     title: post.title,
     description: post.description,
+    openGraph: {
+      title: post.title,
+      description: post.description,
+      url: `https://guide-hypotheque.ca/blog/${post.slug}`,
+      type: "article",
+    },
   };
 }
 
 export default async function BlogPostPage({ params }: Props) {
   const { slug } = await params;
-  const post = blogPosts.find((p) => p.slug === slug);
+  const post = getPostBySlug(slug);
   if (!post) notFound();
 
-  const content = blogContentMap[slug];
-  const otherPosts = blogPosts.filter((p) => p.slug !== slug).slice(0, 4);
+  const entry = blogContentMap[slug];
+  const content = entry?.content;
+  const relatedPosts = getRelatedPosts(slug, 4);
+  const wizardHref = post.wizardVariant ? `/wizard/${post.wizardVariant}` : "/wizard";
 
   return (
     <section className="py-20 bg-cream min-h-screen">
       <div className="max-w-3xl mx-auto px-6">
-        {/* Breadcrumb */}
-        <nav className="flex items-center gap-2 text-xs text-gray-400 mb-8">
+        {/* Breadcrumb with Schema */}
+        <nav className="flex items-center gap-2 text-xs text-gray-400 mb-8" aria-label="Fil d'Ariane">
           <Link href="/" className="hover:text-gold transition">Accueil</Link>
           <span>/</span>
           <Link href="/blog" className="hover:text-gold transition">Guides</Link>
@@ -47,7 +55,7 @@ export default async function BlogPostPage({ params }: Props) {
           {post.category}
         </span>
         <h1 className="font-serif text-3xl md:text-4xl mt-4 mb-4 leading-tight">{post.title}</h1>
-        <p className="text-gray-500 mb-4 text-lg">{post.description}</p>
+        <p className="text-gray-500 mb-2 text-lg">{post.subtitle}</p>
         <div className="flex items-center gap-4 text-xs text-gray-400 mb-10 pb-8 border-b border-gray-200">
           <span>{post.readTime} de lecture</span>
           <span>&bull;</span>
@@ -56,8 +64,24 @@ export default async function BlogPostPage({ params }: Props) {
           <span>guide-hypotheque.ca</span>
         </div>
 
-        {/* Article body — rendered from blogContent.tsx */}
-        <article className="blog-article">
+        {/* Table of contents - Quick nav for user */}
+        <div className="bg-white rounded-xl p-6 shadow-sm mb-10">
+          <p className="font-medium text-sm mb-3">Dans cet article :</p>
+          <ul className="space-y-1 text-sm text-gold">
+            <li>
+              <a href="#article-content" className="hover:underline">Lire le guide complet</a>
+            </li>
+            <li>
+              <Link href={wizardHref} className="hover:underline">Accéder au wizard personnalisé</Link>
+            </li>
+            <li>
+              <a href="#related" className="hover:underline">Articles connexes</a>
+            </li>
+          </ul>
+        </div>
+
+        {/* Article body */}
+        <article id="article-content" className="blog-article">
           <div className="space-y-6 text-gray-600 leading-relaxed">
             {content}
           </div>
@@ -66,25 +90,27 @@ export default async function BlogPostPage({ params }: Props) {
         {/* CTA final */}
         <div className="bg-gray-900 text-white rounded-2xl p-10 text-center my-12">
           <h2 className="font-serif text-2xl mb-4">
-            Recevez aussi vos <em className="text-gold">options hypothécaires</em>
+            Recevez vos <em className="text-gold">options hypothécaires</em>
           </h2>
           <p className="text-gray-400 text-sm mb-6 max-w-md mx-auto">
             Notre wizard gratuit analyse votre profil en 5 minutes et vous connecte avec les meilleurs courtiers spécialisés en hypothèques pour immigrants.
           </p>
           <Link
-            href="/wizard"
+            href={wizardHref}
             className="inline-block bg-gold text-white px-8 py-3.5 rounded-full font-bold hover:bg-gold-dark transition uppercase tracking-wider"
           >
-            Commencer le Wizard Gratuit
+            {post.wizardVariant ? `Wizard ${post.wizardVariant.replace("-", " ")}` : "Commencer le Wizard Gratuit"}
           </Link>
           <p className="text-xs text-gray-500 mt-3">Gratuit &bull; 5 minutes &bull; Sans engagement</p>
         </div>
 
-        {/* Autres guides */}
-        <div className="mb-12">
-          <h3 className="font-serif text-xl mb-6">Autres guides <em className="text-gold">Suisse</em></h3>
+        {/* Related articles - Maillage interne */}
+        <div id="related" className="mb-12">
+          <h3 className="font-serif text-xl mb-6">
+            Guides <em className="text-gold">connexes</em>
+          </h3>
           <div className="space-y-3">
-            {otherPosts.map((p) => (
+            {relatedPosts.map((p) => (
               <Link
                 key={p.slug}
                 href={`/blog/${p.slug}`}
@@ -97,33 +123,67 @@ export default async function BlogPostPage({ params }: Props) {
                 </div>
                 <div>
                   <h4 className="font-serif text-sm group-hover:text-gold transition">{p.title}</h4>
-                  <p className="text-xs text-gray-400 mt-1 line-clamp-1">{p.description}</p>
+                  <p className="text-xs text-gray-400 mt-1 line-clamp-1">{p.subtitle}</p>
+                  <span className="text-[10px] text-gray-400 mt-1 inline-block">{p.readTime} de lecture</span>
                 </div>
               </Link>
             ))}
           </div>
         </div>
 
-        {/* Schema */}
+        {/* All guides link */}
+        <div className="text-center mb-12">
+          <Link href="/blog" className="text-sm text-gold hover:underline">
+            Voir tous nos guides &rarr;
+          </Link>
+        </div>
+
+        {/* Schema - Article + BreadcrumbList */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Article",
-              headline: post.title,
-              description: post.description,
-              dateModified: "2026-03-22",
-              author: {
-                "@type": "Organization",
-                name: "guide-hypotheque.ca",
-                url: "https://guide-hypotheque.ca",
+            __html: JSON.stringify([
+              {
+                "@context": "https://schema.org",
+                "@type": "Article",
+                headline: post.title,
+                description: post.description,
+                dateModified: "2026-03-22",
+                author: {
+                  "@type": "Organization",
+                  name: "guide-hypotheque.ca",
+                  url: "https://guide-hypotheque.ca",
+                },
+                publisher: {
+                  "@type": "Organization",
+                  name: "guide-hypotheque.ca",
+                },
               },
-              publisher: {
-                "@type": "Organization",
-                name: "guide-hypotheque.ca",
+              {
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                itemListElement: [
+                  {
+                    "@type": "ListItem",
+                    position: 1,
+                    name: "Accueil",
+                    item: "https://guide-hypotheque.ca",
+                  },
+                  {
+                    "@type": "ListItem",
+                    position: 2,
+                    name: "Guides",
+                    item: "https://guide-hypotheque.ca/blog",
+                  },
+                  {
+                    "@type": "ListItem",
+                    position: 3,
+                    name: post.title,
+                    item: `https://guide-hypotheque.ca/blog/${post.slug}`,
+                  },
+                ],
               },
-            }),
+            ]),
           }}
         />
       </div>
