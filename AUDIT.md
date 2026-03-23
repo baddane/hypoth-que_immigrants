@@ -187,11 +187,11 @@ Les metadonnees n'incluent pas de `canonical` URL, ce qui peut causer des proble
 
 La barre CTA fixe en bas (`fixed bottom-0`) couvre potentiellement du contenu. Le layout ajoute `pb-14` mais certaines pages peuvent avoir des elements interactifs en bas.
 
-### 5.2 Le wizard ne gere pas la navigation browser
+### 5.2 ~~Le wizard ne gere pas la navigation browser~~ (RESOLU)
 
-Si l'utilisateur clique "Retour" dans le navigateur au milieu du wizard, il quitte completement le wizard au lieu de revenir a l'etape precedente.
+~~Si l'utilisateur clique "Retour" dans le navigateur au milieu du wizard, il quitte completement le wizard au lieu de revenir a l'etape precedente.~~
 
-**Correction** : Utiliser `window.history.pushState` ou un query param `?step=3` pour synchroniser l'etat du wizard avec l'historique browser.
+**Corrige** : `WizardCore` utilise `window.history.pushState` avec un query param `?step=N` pour synchroniser l'etat du wizard avec l'historique browser. Le bouton Retour du navigateur revient a l'etape precedente.
 
 ### 5.3 Pas de gestion d'erreur visible pour l'API
 
@@ -327,6 +327,6 @@ Seul ESLint est configure. Ajouter Prettier pour le formatage automatique.
 | P2 | Ajouter metadata au wizard principal | SEO |
 | P2 | Ajouter des tests (scoring + API + E2E) | Qualite |
 | P3 | Splitter banks.ts en modules | Architecture |
-| P3 | Gestion historique browser dans le wizard | UX |
+| ~~P3~~ | ~~Gestion historique browser dans le wizard~~ | ~~UX~~ RESOLU |
 | P3 | Ajouter OG images | Social/SEO |
 | P3 | CI/CD pipeline | DevOps |

@@ -1,7 +1,7 @@
 "use client";
 
-import { useState } from "react";
-import { useRouter } from "next/navigation";
+import { useState, useEffect, useCallback } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import { wizardSteps, calculateLeadScore } from "@/data/banks";
 import { validateLeadForm } from "@/lib/validation";
 
@@ -17,10 +17,22 @@ export default function WizardCore({
   ctaText = "VOIR MES OPTIONS",
 }: WizardCoreProps) {
   const router = useRouter();
+  const searchParams = useSearchParams();
 
   const stepsToShow = wizardSteps.filter((s) => !(s.id in defaultAnswers));
 
-  const [step, setStep] = useState(0);
+  const getInitialStep = () => {
+    const stepParam = searchParams.get("step");
+    if (stepParam) {
+      const parsed = parseInt(stepParam, 10);
+      if (!isNaN(parsed) && parsed >= 0 && parsed <= stepsToShow.length) {
+        return parsed;
+      }
+    }
+    return 0;
+  };
+
+  const [step, setStep] = useState(getInitialStep);
   const [answers, setAnswers] = useState<Record<string, string>>({ ...defaultAnswers });
   const [sliderValue, setSliderValue] = useState(80000);
 
@@ -35,20 +47,53 @@ export default function WizardCore({
   const [submitting, setSubmitting] = useState(false);
   const [formErrors, setFormErrors] = useState<Record<string, string>>({});
 
+  // Sync step changes to browser history
+  const updateUrl = useCallback((newStep: number) => {
+    const url = new URL(window.location.href);
+    if (newStep === 0) {
+      url.searchParams.delete("step");
+    } else {
+      url.searchParams.set("step", newStep.toString());
+    }
+    window.history.pushState({ wizardStep: newStep }, "", url.toString());
+  }, []);
+
+  // Listen for browser back/forward navigation
+  useEffect(() => {
+    const handlePopState = (event: PopStateEvent) => {
+      if (event.state && typeof event.state.wizardStep === "number") {
+        setStep(event.state.wizardStep);
+      } else {
+        setStep(0);
+      }
+    };
+
+    // Set initial history state
+    window.history.replaceState({ wizardStep: step }, "", window.location.href);
+
+    window.addEventListener("popstate", handlePopState);
+    return () => window.removeEventListener("popstate", handlePopState);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
   const totalSteps = stepsToShow.length + 1;
   const isLeadForm = step === stepsToShow.length;
   const progress = ((step + 1) / totalSteps) * 100;
 
+  const goToStep = useCallback((newStep: number) => {
+    setStep(newStep);
+    updateUrl(newStep);
+  }, [updateUrl]);
+
   const handleSelect = (value: string) => {
     const current = stepsToShow[step];
     setAnswers({ ...answers, [current.id]: value });
-    setStep(step + 1);
+    goToStep(step + 1);
   };
 
   const handleSliderSubmit = () => {
     const current = stepsToShow[step];
     setAnswers({ ...answers, [current.id]: sliderValue.toString() });
-    setStep(step + 1);
+    goToStep(step + 1);
   };
 
   const handleSubmit = async () => {
@@ -111,7 +156,7 @@ export default function WizardCore({
 
   const backButton = (
     <button
-      onClick={() => setStep(step - 1)}
+      onClick={() => goToStep(step - 1)}
       className="mt-6 text-sm text-gray-400 hover:text-gray-600 transition flex items-center gap-2"
     >
       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

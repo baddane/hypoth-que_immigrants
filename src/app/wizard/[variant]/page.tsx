@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import Link from "next/link";
 import { wizardVariants, getVariantBySlug } from "@/data/wizardVariants";
 import { blogPosts } from "@/data/blogPosts";
@@ -127,7 +128,9 @@ export default async function WizardVariantPage({ params }: Props) {
 
       {/* Wizard Form Section */}
       <section id="wizard-form" className="scroll-mt-20">
-        <WizardClient variantId={v.id} defaultAnswers={v.defaultAnswers} ctaText={v.ctaText} />
+        <Suspense>
+          <WizardClient variantId={v.id} defaultAnswers={v.defaultAnswers} ctaText={v.ctaText} />
+        </Suspense>
       </section>
 
       {/* Related Articles - Maillage interne */}

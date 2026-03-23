@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import type { Metadata } from "next";
 import WizardCore from "@/components/WizardCore";
 
@@ -8,5 +9,9 @@ export const metadata: Metadata = {
 };
 
 export default function WizardPage() {
-  return <WizardCore />;
+  return (
+    <Suspense>
+      <WizardCore />
+    </Suspense>
+  );
 }
