@@ -17,7 +17,7 @@ export default function InternalLink({ slug, children }: InternalLinkProps) {
   return (
     <Link
       href={`/blog/${slug}`}
-      className="text-gold hover:text-gold-dark underline underline-offset-2 transition"
+      className="text-primary hover:text-primary-dark underline underline-offset-2 transition"
     >
       {label}
     </Link>

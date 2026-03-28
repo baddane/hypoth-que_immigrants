@@ -41,19 +41,19 @@ export default async function WizardVariantPage({ params }: Props) {
   return (
     <>
       {/* Hero section */}
-      <section className="bg-cream min-h-[70vh] flex items-center">
+      <section className="bg-light-blue min-h-[70vh] flex items-center">
         <div className="max-w-7xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <span className="inline-flex items-center gap-2 text-sm bg-white rounded-full px-4 py-1.5 shadow-sm mb-6">
+            <span className="inline-flex items-center gap-2 text-sm bg-white rounded-lg px-4 py-1.5 shadow-sm mb-6 font-medium">
               <span>{v.badgeEmoji}</span>
-              <span className="font-medium">{v.badge}</span>
+              <span>{v.badge}</span>
             </span>
 
-            <h1 className="font-serif text-4xl md:text-5xl leading-tight mb-6 whitespace-pre-line">
+            <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-6 text-navy whitespace-pre-line">
               {v.heroTitle.split("\n").map((line, i) => (
                 <span key={i}>
                   {i === v.heroTitle.split("\n").length - 1 ? (
-                    <em className="text-gold">{line}</em>
+                    <span className="text-primary">{line}</span>
                   ) : (
                     <>
                       {line}
@@ -64,18 +64,18 @@ export default async function WizardVariantPage({ params }: Props) {
               ))}
             </h1>
 
-            <p className="text-gray-500 max-w-lg mb-8 text-lg">{v.heroDescription}</p>
+            <p className="text-dark/60 max-w-lg mb-8 text-lg">{v.heroDescription}</p>
 
             <a
               href="#wizard-form"
-              className="inline-block bg-gold text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-gold-dark transition uppercase tracking-wider shadow-lg shadow-gold/25 mb-8"
+              className="inline-block bg-primary text-white px-10 py-4 rounded-md font-bold text-lg hover:bg-white hover:text-primary border-2 border-primary transition uppercase tracking-wider mb-8"
             >
               {v.ctaText}
             </a>
 
             <ul className="space-y-2">
               {v.trustSignals.map((signal) => (
-                <li key={signal} className="flex items-center gap-3 text-sm text-gray-600">
+                <li key={signal} className="flex items-center gap-3 text-sm text-dark/70">
                   <span className="w-5 h-5 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
                     <svg className="w-3 h-3 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
@@ -89,33 +89,33 @@ export default async function WizardVariantPage({ params }: Props) {
 
           {/* Right side - Stats card */}
           <div className="hidden md:block">
-            <div className="bg-white rounded-2xl p-8 shadow-xl border border-gray-100">
+            <div className="bg-white rounded-xl p-8 shadow-[0_4px_16px_rgba(0,0,0,0.08)] border border-gray-100">
               <div className="text-center mb-6">
                 <div className="text-5xl mb-4">{v.badgeEmoji}</div>
-                <h3 className="font-serif text-xl mb-2">{v.badge}</h3>
-                <p className="text-sm text-gray-400">{v.subtitle}</p>
+                <h3 className="text-xl font-bold text-navy mb-2">{v.badge}</h3>
+                <p className="text-sm text-dark/40">{v.subtitle}</p>
               </div>
               <div className="space-y-4 mb-6">
                 <div className="flex justify-between items-center py-3 border-b border-gray-100">
-                  <span className="text-sm text-gray-500">Mise de fonds min.</span>
-                  <span className="font-bold text-gold">5%</span>
+                  <span className="text-sm text-dark/50">Mise de fonds min.</span>
+                  <span className="font-bold text-primary">5%</span>
                 </div>
                 <div className="flex justify-between items-center py-3 border-b border-gray-100">
-                  <span className="text-sm text-gray-500">Durée du wizard</span>
-                  <span className="font-bold text-gold">5 min</span>
+                  <span className="text-sm text-dark/50">Durée du wizard</span>
+                  <span className="font-bold text-primary">5 min</span>
                 </div>
                 <div className="flex justify-between items-center py-3 border-b border-gray-100">
-                  <span className="text-sm text-gray-500">Offres reçues</span>
-                  <span className="font-bold text-gold">24-48h</span>
+                  <span className="text-sm text-dark/50">Offres reçues</span>
+                  <span className="font-bold text-primary">24-48h</span>
                 </div>
                 <div className="flex justify-between items-center py-3">
-                  <span className="text-sm text-gray-500">Coût</span>
+                  <span className="text-sm text-dark/50">Coût</span>
                   <span className="font-bold text-green-600">Gratuit</span>
                 </div>
               </div>
               <a
                 href="#wizard-form"
-                className="block w-full bg-gold text-white text-center py-3 rounded-xl font-medium hover:bg-gold-dark transition"
+                className="block w-full bg-primary text-white text-center py-3 rounded-md font-semibold hover:bg-primary-dark transition"
               >
                 {v.ctaText}
               </a>
@@ -131,11 +131,11 @@ export default async function WizardVariantPage({ params }: Props) {
 
       {/* Related Articles - Maillage interne */}
       {relatedArticles.length > 0 && (
-        <section className="py-16 bg-cream">
+        <section className="py-16 bg-light-blue">
           <div className="max-w-6xl mx-auto px-6">
-            <p className="uppercase text-xs tracking-[0.3em] text-gold mb-4 text-center">Guides utiles</p>
-            <h2 className="font-serif text-2xl md:text-3xl text-center mb-8">
-              Articles pour <em className="text-gold">{v.badge}</em>
+            <p className="uppercase text-xs tracking-[0.3em] text-primary font-semibold mb-4 text-center">Guides utiles</p>
+            <h2 className="text-2xl md:text-3xl font-extrabold text-center text-navy mb-8">
+              Articles pour <span className="text-primary">{v.badge}</span>
             </h2>
             <div className="grid md:grid-cols-3 gap-6">
               {relatedArticles.map((post) =>
@@ -143,16 +143,16 @@ export default async function WizardVariantPage({ params }: Props) {
                   <Link
                     key={post.slug}
                     href={`/blog/${post.slug}`}
-                    className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition group"
+                    className="bg-white rounded-lg p-6 shadow-[0_2px_8px_rgba(0,0,0,0.06)] hover:shadow-md transition group"
                   >
-                    <span className="text-[10px] bg-gold/10 text-gold px-2 py-1 rounded-full uppercase tracking-wider">
+                    <span className="text-[10px] bg-primary/10 text-primary px-2 py-1 rounded-md uppercase tracking-wider font-semibold">
                       {post.category}
                     </span>
-                    <h3 className="font-serif text-lg mt-3 mb-2 group-hover:text-gold transition">
+                    <h3 className="text-lg font-bold text-navy mt-3 mb-2 group-hover:text-primary transition">
                       {post.title}
                     </h3>
-                    <p className="text-sm text-gray-400 mb-3 line-clamp-2">{post.subtitle}</p>
-                    <span className="text-xs text-gray-400">{post.readTime} de lecture</span>
+                    <p className="text-sm text-dark/40 mb-3 line-clamp-2">{post.subtitle}</p>
+                    <span className="text-xs text-dark/40">{post.readTime} de lecture</span>
                   </Link>
                 ) : null
               )}
@@ -164,19 +164,19 @@ export default async function WizardVariantPage({ params }: Props) {
       {/* Final CTA */}
       <section className="py-16 bg-white">
         <div className="max-w-3xl mx-auto px-6 text-center">
-          <h2 className="font-serif text-3xl mb-6">
-            Prêt à devenir <em className="text-gold">propriétaire ?</em>
+          <h2 className="text-3xl font-extrabold text-navy mb-6">
+            Prêt à devenir <span className="text-primary">propriétaire ?</span>
           </h2>
-          <p className="text-gray-500 mb-8 max-w-lg mx-auto">
+          <p className="text-dark/60 mb-8 max-w-lg mx-auto">
             Rejoignez les milliers d&apos;immigrants qui ont obtenu leur hypothèque grâce à notre wizard gratuit.
           </p>
           <a
             href="#wizard-form"
-            className="inline-block bg-gold text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-gold-dark transition uppercase tracking-wider shadow-lg shadow-gold/25"
+            className="inline-block bg-primary text-white px-10 py-4 rounded-md font-bold text-lg hover:bg-white hover:text-primary border-2 border-primary transition uppercase tracking-wider"
           >
             {v.ctaText}
           </a>
-          <p className="text-xs text-gray-400 mt-4">Gratuit &bull; 5 minutes &bull; Sans engagement</p>
+          <p className="text-xs text-dark/40 mt-4">Gratuit &bull; 5 minutes &bull; Sans engagement</p>
         </div>
       </section>
 

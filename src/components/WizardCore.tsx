@@ -96,13 +96,13 @@ export default function WizardCore({
   // Progress bar component
   const progressBar = (label: string) => (
     <div className="mb-10">
-      <div className="flex justify-between text-xs text-gray-400 mb-2">
+      <div className="flex justify-between text-xs text-dark/40 mb-2 font-medium">
         <span>{label}</span>
         <span>{Math.round(progress)}%</span>
       </div>
       <div className="w-full bg-gray-200 rounded-full h-1.5">
         <div
-          className="bg-gold rounded-full h-1.5 transition-all duration-500"
+          className="bg-primary rounded-full h-1.5 transition-all duration-500"
           style={{ width: `${progress}%` }}
         />
       </div>
@@ -112,7 +112,7 @@ export default function WizardCore({
   const backButton = (
     <button
       onClick={() => setStep(step - 1)}
-      className="mt-6 text-sm text-gray-400 hover:text-gray-600 transition flex items-center gap-2"
+      className="mt-6 text-sm text-dark/40 hover:text-dark/70 transition flex items-center gap-2"
     >
       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -124,7 +124,7 @@ export default function WizardCore({
   const reassurance = (texts: string[]) => (
     <div className="mt-6 space-y-2">
       {texts.map((text) => (
-        <p key={text} className="flex items-center gap-2 text-xs text-gray-400">
+        <p key={text} className="flex items-center gap-2 text-xs text-dark/40">
           <span className="text-green-500">&#10003;</span> {text}
         </p>
       ))}
@@ -134,37 +134,37 @@ export default function WizardCore({
   // Lead form (last step)
   if (isLeadForm) {
     return (
-      <section className="min-h-[85vh] bg-cream flex items-center">
+      <section className="min-h-[85vh] bg-light-blue flex items-center">
         <div className="max-w-lg mx-auto px-6 py-20 w-full">
           {progressBar("Dernière étape !")}
 
-          <h2 className="font-serif text-2xl md:text-3xl mb-2">Vos coordonnées</h2>
-          <p className="text-sm text-gray-400 mb-8">
+          <h2 className="text-2xl md:text-3xl font-extrabold text-navy mb-2">Vos coordonnées</h2>
+          <p className="text-sm text-dark/40 mb-8">
             Pour recevoir vos options hypothécaires personnalisées, entrez vos coordonnées ci-dessous.
           </p>
 
-          <div className="bg-white rounded-2xl p-8 shadow-sm space-y-5">
+          <div className="bg-white rounded-xl p-8 shadow-[0_4px_16px_rgba(0,0,0,0.08)] space-y-5">
             <div className="grid grid-cols-2 gap-4">
               <div>
-                <label htmlFor="prenom" className="block text-sm font-medium mb-1">Prénom *</label>
+                <label htmlFor="prenom" className="block text-sm font-medium text-navy mb-1">Prénom *</label>
                 <input
                   id="prenom"
                   type="text"
                   value={formData.prenom}
                   onChange={(e) => setFormData({ ...formData, prenom: e.target.value })}
-                  className={`w-full border rounded-lg px-4 py-3 focus:outline-none focus:border-gold ${formErrors.prenom ? "border-red-400" : "border-gray-200"}`}
+                  className={`w-full border rounded-lg px-4 py-3 focus:outline-none focus:border-primary ${formErrors.prenom ? "border-red-400" : "border-gray-200"}`}
                   placeholder="Prénom"
                 />
                 {formErrors.prenom && <p className="text-xs text-red-500 mt-1">{formErrors.prenom}</p>}
               </div>
               <div>
-                <label htmlFor="nom" className="block text-sm font-medium mb-1">Nom *</label>
+                <label htmlFor="nom" className="block text-sm font-medium text-navy mb-1">Nom *</label>
                 <input
                   id="nom"
                   type="text"
                   value={formData.nom}
                   onChange={(e) => setFormData({ ...formData, nom: e.target.value })}
-                  className={`w-full border rounded-lg px-4 py-3 focus:outline-none focus:border-gold ${formErrors.nom ? "border-red-400" : "border-gray-200"}`}
+                  className={`w-full border rounded-lg px-4 py-3 focus:outline-none focus:border-primary ${formErrors.nom ? "border-red-400" : "border-gray-200"}`}
                   placeholder="Nom"
                 />
                 {formErrors.nom && <p className="text-xs text-red-500 mt-1">{formErrors.nom}</p>}
@@ -172,38 +172,38 @@ export default function WizardCore({
             </div>
 
             <div>
-              <label htmlFor="email" className="block text-sm font-medium mb-1">Email *</label>
+              <label htmlFor="email" className="block text-sm font-medium text-navy mb-1">Email *</label>
               <input
                 id="email"
                 type="email"
                 value={formData.email}
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                className={`w-full border rounded-lg px-4 py-3 focus:outline-none focus:border-gold ${formErrors.email ? "border-red-400" : "border-gray-200"}`}
+                className={`w-full border rounded-lg px-4 py-3 focus:outline-none focus:border-primary ${formErrors.email ? "border-red-400" : "border-gray-200"}`}
                 placeholder="votre@email.com"
               />
               {formErrors.email && <p className="text-xs text-red-500 mt-1">{formErrors.email}</p>}
             </div>
 
             <div>
-              <label htmlFor="telephone" className="block text-sm font-medium mb-1">Téléphone *</label>
+              <label htmlFor="telephone" className="block text-sm font-medium text-navy mb-1">Téléphone *</label>
               <input
                 id="telephone"
                 type="tel"
                 value={formData.telephone}
                 onChange={(e) => setFormData({ ...formData, telephone: e.target.value })}
-                className={`w-full border rounded-lg px-4 py-3 focus:outline-none focus:border-gold ${formErrors.telephone ? "border-red-400" : "border-gray-200"}`}
+                className={`w-full border rounded-lg px-4 py-3 focus:outline-none focus:border-primary ${formErrors.telephone ? "border-red-400" : "border-gray-200"}`}
                 placeholder="+1 (xxx) xxx-xxxx"
               />
               {formErrors.telephone && <p className="text-xs text-red-500 mt-1">{formErrors.telephone}</p>}
             </div>
 
             <div>
-              <label htmlFor="meilleurMoment" className="block text-sm font-medium mb-1">Meilleur moment pour vous contacter</label>
+              <label htmlFor="meilleurMoment" className="block text-sm font-medium text-navy mb-1">Meilleur moment pour vous contacter</label>
               <select
                 id="meilleurMoment"
                 value={formData.meilleurMoment}
                 onChange={(e) => setFormData({ ...formData, meilleurMoment: e.target.value })}
-                className="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:border-gold"
+                className="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:border-primary"
               >
                 <option>Aujourd&apos;hui</option>
                 <option>Demain</option>
@@ -217,9 +217,9 @@ export default function WizardCore({
                 type="checkbox"
                 checked={formData.accepteContact}
                 onChange={(e) => setFormData({ ...formData, accepteContact: e.target.checked })}
-                className="mt-0.5 accent-gold"
+                className="mt-0.5 accent-primary"
               />
-              <span className="text-xs text-gray-500">
+              <span className="text-xs text-dark/50">
                 J&apos;accepte d&apos;être contacté par les courtiers et banques partenaires de guide-hypotheque.ca pour recevoir des offres hypothécaires.
               </span>
             </label>
@@ -227,7 +227,7 @@ export default function WizardCore({
             <button
               onClick={handleSubmit}
               disabled={submitting}
-              className="w-full bg-gold text-white py-4 rounded-xl font-bold text-lg hover:bg-gold-dark transition uppercase tracking-wider disabled:opacity-50 shadow-lg shadow-gold/25"
+              className="w-full bg-primary text-white py-4 rounded-md font-bold text-lg hover:bg-primary-dark transition uppercase tracking-wider disabled:opacity-50"
             >
               {submitting ? "Envoi en cours..." : ctaText}
             </button>
@@ -249,20 +249,20 @@ export default function WizardCore({
   const current = stepsToShow[step];
 
   return (
-    <section className="min-h-[85vh] bg-cream flex items-center">
+    <section className="min-h-[85vh] bg-light-blue flex items-center">
       <div className="max-w-2xl mx-auto px-6 py-20 w-full">
         {progressBar(`Étape ${step + 1} / ${totalSteps}`)}
 
-        <h2 className="font-serif text-2xl md:text-3xl mb-3">{current.question}</h2>
+        <h2 className="text-2xl md:text-3xl font-extrabold text-navy mb-3">{current.question}</h2>
         {current.help && (
-          <p className="text-sm text-gray-400 mb-6">{current.help}</p>
+          <p className="text-sm text-dark/40 mb-6">{current.help}</p>
         )}
 
         {"type" in current && current.type === "slider" ? (
           <div className="space-y-6">
-            <div className="bg-white rounded-2xl p-8 shadow-sm">
+            <div className="bg-white rounded-xl p-8 shadow-[0_4px_16px_rgba(0,0,0,0.08)]">
               <div className="text-center mb-6">
-                <span className="text-4xl font-serif font-bold text-gold">
+                <span className="text-4xl font-extrabold text-navy">
                   {sliderValue.toLocaleString("fr-CA")} $
                 </span>
               </div>
@@ -273,16 +273,16 @@ export default function WizardCore({
                 step={current.step}
                 value={sliderValue}
                 onChange={(e) => setSliderValue(Number(e.target.value))}
-                className="w-full accent-gold"
+                className="w-full accent-primary"
               />
-              <div className="flex justify-between text-xs text-gray-400 mt-2">
+              <div className="flex justify-between text-xs text-dark/40 mt-2">
                 <span>{current.min?.toLocaleString("fr-CA")} $</span>
                 <span>{current.max?.toLocaleString("fr-CA")} $+</span>
               </div>
             </div>
             <button
               onClick={handleSliderSubmit}
-              className="w-full bg-gold text-white py-4 rounded-xl font-medium hover:bg-gold-dark transition uppercase text-sm tracking-wider"
+              className="w-full bg-primary text-white py-4 rounded-md font-semibold hover:bg-primary-dark transition uppercase text-sm tracking-wider"
             >
               Continuer
             </button>
@@ -294,10 +294,10 @@ export default function WizardCore({
                 <button
                   key={option}
                   onClick={() => handleSelect(option)}
-                  className="w-full text-left bg-white rounded-xl px-6 py-4 hover:bg-gold hover:text-white transition group border border-gray-100 hover:border-gold"
+                  className="w-full text-left bg-white rounded-lg px-6 py-4 hover:bg-primary hover:text-white transition group border border-gray-200 hover:border-primary"
                 >
                   <span className="flex items-center justify-between">
-                    <span>{option}</span>
+                    <span className="font-medium">{option}</span>
                     <svg className="w-4 h-4 text-gray-300 group-hover:text-white transition" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>

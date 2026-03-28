@@ -46,45 +46,45 @@ export default function BlogPage() {
   const grouped = groupByCategory(otherPosts);
 
   return (
-    <section className="py-20 bg-cream min-h-screen">
+    <section className="py-20 bg-light-blue min-h-screen">
       <div className="max-w-6xl mx-auto px-6">
-        <p className="uppercase text-xs tracking-[0.3em] text-gold mb-4">Blog & Guides</p>
-        <h1 className="font-serif text-3xl md:text-5xl mb-4">
-          Guides <em className="text-gold">Hypothèque</em> pour Immigrants
+        <p className="uppercase text-xs tracking-[0.3em] text-primary font-semibold mb-4">Blog & Guides</p>
+        <h1 className="text-3xl md:text-5xl font-extrabold text-navy mb-4">
+          Guides <span className="text-primary">Hypothèque</span> pour Immigrants
         </h1>
-        <p className="text-gray-500 mb-12 max-w-xl">
+        <p className="text-dark/60 mb-12 max-w-xl">
           {blogPosts.length} guides complets pour obtenir votre hypothèque au Canada en tant qu&apos;immigrant. Chaque guide vous rapproche de votre propriété.
         </p>
 
         {/* Pillar Article - Featured */}
         <Link
           href={`/blog/${pillar.slug}`}
-          className="block bg-gray-900 text-white rounded-2xl p-10 mb-12 hover:bg-gray-800 transition group"
+          className="block bg-navy text-white rounded-xl p-10 mb-12 hover:bg-navy-light transition group"
         >
-          <span className="text-xs bg-gold text-white px-3 py-1 rounded-full uppercase tracking-wider">
+          <span className="text-xs bg-primary text-white px-3 py-1 rounded-md uppercase tracking-wider font-semibold">
             {pillar.category}
           </span>
-          <h2 className="font-serif text-2xl md:text-3xl mt-4 mb-3 group-hover:text-gold transition">
+          <h2 className="text-2xl md:text-3xl font-extrabold mt-4 mb-3 group-hover:text-primary transition">
             {pillar.title}
           </h2>
-          <p className="text-gray-400 mb-4 max-w-xl">{pillar.subtitle}</p>
-          <span className="text-xs text-gray-500">{pillar.readTime} de lecture</span>
+          <p className="text-white/50 mb-4 max-w-xl">{pillar.subtitle}</p>
+          <span className="text-xs text-white/40">{pillar.readTime} de lecture</span>
         </Link>
 
         {/* Wizard Variants - Quick access */}
         <div className="mb-12">
-          <h2 className="font-serif text-xl mb-6">
-            Wizards <em className="text-gold">spécialisés</em>
+          <h2 className="text-xl font-bold text-navy mb-6">
+            Wizards <span className="text-primary">spécialisés</span>
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             {wizardVariants.map((v) => (
               <Link
                 key={v.slug}
                 href={`/wizard/${v.slug}`}
-                className="bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition group text-center"
+                className="bg-white rounded-lg p-4 shadow-[0_2px_8px_rgba(0,0,0,0.06)] hover:shadow-md transition group text-center"
               >
                 <span className="text-2xl block mb-2">{v.badgeEmoji}</span>
-                <span className="text-sm font-medium group-hover:text-gold transition">{v.badge}</span>
+                <span className="text-sm font-medium text-navy group-hover:text-primary transition">{v.badge}</span>
               </Link>
             ))}
           </div>
@@ -96,7 +96,7 @@ export default function BlogPage() {
           if (!posts || posts.length === 0) return null;
           return (
             <div key={cat} className="mb-12">
-              <h2 className="font-serif text-xl mb-6">
+              <h2 className="text-xl font-bold text-navy mb-6">
                 {cat}
               </h2>
               <div className="grid md:grid-cols-3 gap-6">
@@ -104,21 +104,21 @@ export default function BlogPage() {
                   <Link
                     key={post.slug}
                     href={`/blog/${post.slug}`}
-                    className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition group"
+                    className="bg-white rounded-lg p-6 shadow-[0_2px_8px_rgba(0,0,0,0.06)] hover:shadow-md transition group"
                   >
-                    <span className="text-[10px] bg-gold/10 text-gold px-2 py-1 rounded-full uppercase tracking-wider">
+                    <span className="text-[10px] bg-primary/10 text-primary px-2 py-1 rounded-md uppercase tracking-wider font-semibold">
                       {post.category}
                     </span>
-                    <h3 className="font-serif text-lg mt-3 mb-2 group-hover:text-gold transition">
+                    <h3 className="text-lg font-bold text-navy mt-3 mb-2 group-hover:text-primary transition">
                       {post.title}
                     </h3>
-                    <p className="text-sm text-gray-400 mb-3 line-clamp-2">{post.subtitle}</p>
-                    <div className="flex items-center gap-2 text-xs text-gray-400">
+                    <p className="text-sm text-dark/40 mb-3 line-clamp-2">{post.subtitle}</p>
+                    <div className="flex items-center gap-2 text-xs text-dark/40">
                       <span>{post.readTime} de lecture</span>
                       {post.wizardVariant && (
                         <>
                           <span>&bull;</span>
-                          <span className="text-gold">Wizard dédié</span>
+                          <span className="text-primary font-medium">Wizard dédié</span>
                         </>
                       )}
                     </div>
@@ -130,14 +130,14 @@ export default function BlogPage() {
         })}
 
         {/* CTA */}
-        <div className="bg-gold-light rounded-2xl p-10 text-center">
-          <h2 className="font-serif text-2xl mb-4">Prêt à passer à l&apos;action ?</h2>
-          <p className="text-sm text-gray-500 mb-6">
+        <div className="bg-white rounded-xl p-10 text-center shadow-[0_4px_16px_rgba(0,0,0,0.08)]">
+          <h2 className="text-2xl font-extrabold text-navy mb-4">Prêt à passer à l&apos;action ?</h2>
+          <p className="text-sm text-dark/50 mb-6">
             Découvrez combien vous pouvez emprunter en 5 minutes avec notre wizard gratuit.
           </p>
           <Link
             href="/wizard"
-            className="inline-block bg-gold text-white px-8 py-3.5 rounded-full font-bold hover:bg-gold-dark transition uppercase tracking-wider"
+            className="inline-block bg-primary text-white px-8 py-3.5 rounded-md font-bold hover:bg-primary-dark transition uppercase tracking-wider"
           >
             Commencer le Wizard
           </Link>
