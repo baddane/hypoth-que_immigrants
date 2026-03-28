@@ -21,23 +21,17 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #212243;
   line-height: 1.2;
 }
 
-.font-serif {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 800;
-}
-
-/* Links in article content */
-.blog-article a {
+/* Links in article content (exclude buttons/CTAs) */
+.blog-article a:not([class*="bg-"]):not([class*="rounded-lg"]) {
   color: #489D90;
   text-decoration: underline;
   text-underline-offset: 2px;
   transition: color 0.2s ease;
 }
-.blog-article a:hover {
+.blog-article a:not([class*="bg-"]):not([class*="rounded-lg"]):hover {
   color: #328376;
 }
 
