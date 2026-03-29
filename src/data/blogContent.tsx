@@ -5,14 +5,14 @@ import InternalLink from "@/components/InternalLink";
 // Each article has multiple CTAs back to /wizard + internal links + external links
 
 const WizardCta = ({ variant = "light" }: { variant?: "light" | "dark" }) => (
-  <div className={`rounded-xl p-6 not-prose ${variant === "dark" ? "bg-gray-900 text-white" : "bg-gold-light"}`}>
-    <p className="font-medium text-sm mb-2">
+  <div className={`rounded-2xl p-6 not-prose ${variant === "dark" ? "bg-midnight text-white" : "bg-gold-light border border-gold/20"}`}>
+    <p className={`font-semibold text-sm mb-2 ${variant === "dark" ? "text-white" : "text-midnight"}`}>
       {variant === "dark" ? "Prêt à passer à l\u2019action ?" : "Découvrez vos options personnalisées"}
     </p>
     <p className={`text-xs mb-3 ${variant === "dark" ? "text-gray-400" : "text-gray-500"}`}>
       Notre wizard gratuit analyse votre situation en 5 minutes et vous connecte aux meilleurs courtiers.
     </p>
-    <Link href="/wizard" className="inline-block bg-gold text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-gold-dark transition">
+    <Link href="/wizard" className="inline-block bg-gold text-white px-6 py-2.5 rounded-lg text-sm font-semibold hover:bg-white hover:text-gold border border-gold transition">
       Commencer le Wizard &rarr;
     </Link>
   </div>
@@ -31,7 +31,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         vous pouvez devenir propriétaire même sans historique de crédit canadien.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Le programme SCHL Nouveaux Arrivants</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Le programme SCHL Nouveaux Arrivants</h2>
       <p>
         La <a href="https://www.cmhc-schl.gc.ca" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Société canadienne d&apos;hypothèques et de logement (SCHL/CMHC)</a> offre
         un programme spécifique pour les nouveaux arrivants au Canada depuis 5 ans ou moins :
@@ -47,7 +47,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
 
       <WizardCta />
 
-      <h2 className="font-serif text-xl text-gray-900">Le crédit alternatif : pas besoin d&apos;historique canadien</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Le crédit alternatif : pas besoin d&apos;historique canadien</h2>
       <p>
         L&apos;un des plus grands avantages du programme est l&apos;acceptation de <strong>preuves alternatives de solvabilité</strong>.
         Consultez notre guide détaillé sur le <InternalLink slug="hypotheque-credit-international-alternative-data">crédit international et les données alternatives</InternalLink>.
@@ -60,7 +60,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         <li>Références bancaires d&apos;institutions financières étrangères</li>
       </ul>
 
-      <h2 className="font-serif text-xl text-gray-900">Les 6 grandes banques et leurs programmes</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Les 6 grandes banques et leurs programmes</h2>
       <ul className="space-y-2">
         <li><strong>RBC :</strong> <a href="https://www.rbc.com/newcomers/" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Programme Welcome to Canada</a> — mise de fonds 5% à 35%</li>
         <li><strong>TD :</strong> <a href="https://www.td.com/ca/en/personal-banking/solutions/newcomers-to-canada" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Programme Nouveaux Arrivants</a> — pas de crédit canadien requis pour RP</li>
@@ -72,13 +72,13 @@ export const blogContentMap: Record<string, React.ReactNode> = {
 
       <WizardCta variant="dark" />
 
-      <h2 className="font-serif text-xl text-gray-900">Le stress test hypothécaire</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Le stress test hypothécaire</h2>
       <p>
         Toutes les hypothèques assurées doivent passer le <strong>stress test</strong> : qualification au
         <strong> taux contractuel + 2% ou à 5,25%</strong>, le plus élevé des deux.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">L&apos;assurance SCHL : primes par ratio prêt-valeur</h2>
+      <h2 className="text-xl font-extrabold text-midnight">L&apos;assurance SCHL : primes par ratio prêt-valeur</h2>
       <p>Si votre mise de fonds est inférieure à 20%, l&apos;<InternalLink slug="hypotheque-assurance-schl-sagen-cmhc">assurance SCHL est obligatoire</InternalLink> :</p>
       <div className="overflow-x-auto">
         <table className="w-full text-sm border-collapse">
@@ -99,7 +99,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         </table>
       </div>
 
-      <h2 className="font-serif text-xl text-gray-900">Conditions spécifiques travailleur temporaire</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Conditions spécifiques travailleur temporaire</h2>
       <ul className="space-y-2">
         <li><strong>Permis de travail valide</strong> — fermé ou <InternalLink slug="hypotheque-permis-travail-ouvert">ouvert</InternalLink></li>
         <li><strong>Minimum 3 mois d&apos;emploi canadien</strong> (sauf relocalisation par l&apos;employeur)</li>
@@ -127,7 +127,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         spécifiquement des preuves alternatives de solvabilité pour les immigrants arrivés depuis 5 ans ou moins.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Crédit alternatif accepté par la SCHL</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Crédit alternatif accepté par la SCHL</h2>
       <p>
         La SCHL permet aux prêteurs d&apos;utiliser des <strong>méthodes alternatives</strong> pour évaluer votre
         solvabilité. Vous devez fournir au moins <strong>2 types de preuves</strong> sur les 12 derniers mois :
@@ -145,7 +145,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
 
       <WizardCta />
 
-      <h2 className="font-serif text-xl text-gray-900">Banques qui n&apos;exigent PAS de crédit canadien</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Banques qui n&apos;exigent PAS de crédit canadien</h2>
       <ul className="space-y-2">
         <li><strong>TD :</strong> <a href="https://www.td.com/ca/en/personal-banking/solutions/newcomers-to-canada" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Pas de crédit canadien requis</a> pour RP de 5 ans et moins</li>
         <li><strong>CIBC :</strong> Aucun historique requis pour les 3 programmes Nouveaux Arrivants</li>
@@ -153,7 +153,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         <li><strong>Desjardins :</strong> Carte crédit gratuite dès l&apos;ouverture de compte</li>
       </ul>
 
-      <h2 className="font-serif text-xl text-gray-900">Bâtir votre crédit en parallèle</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Bâtir votre crédit en parallèle</h2>
       <p>
         Pendant que vous préparez votre dossier, commencez à bâtir votre crédit canadien.
         En 6 à 12 mois d&apos;utilisation responsable d&apos;une carte de crédit, vous pouvez atteindre un
@@ -180,7 +180,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         Cependant, les exigences diffèrent selon que votre permis est ouvert ou fermé. Voici ce que vous devez savoir.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Permis ouvert vs permis fermé : les différences</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Permis ouvert vs permis fermé : les différences</h2>
       <div className="overflow-x-auto">
         <table className="w-full text-sm border-collapse">
           <thead>
@@ -201,14 +201,14 @@ export const blogContentMap: Record<string, React.ReactNode> = {
 
       <WizardCta />
 
-      <h2 className="font-serif text-xl text-gray-900">Programmes bancaires pour permis ouvert</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Programmes bancaires pour permis ouvert</h2>
       <ul className="space-y-2">
         <li><strong>Scotiabank StartRight :</strong> <a href="https://www.scotiabank.com/ca/en/personal/programs/start-right.html" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Spécifiquement ouvert</a> aux résidents temporaires, mise de fonds 5%</li>
         <li><strong>CIBC Travailleurs Étrangers :</strong> Programme dédié, accepte permis ouvert</li>
         <li><strong>Courtiers hypothécaires :</strong> Accès à des prêteurs alternatifs plus flexibles</li>
       </ul>
 
-      <h2 className="font-serif text-xl text-gray-900">Types de permis ouverts acceptés</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Types de permis ouverts acceptés</h2>
       <p>
         Selon <a href="https://www.canada.ca/en/immigration-refugees-citizenship.html" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Immigration Canada</a>, les permis ouverts incluent :
       </p>
@@ -219,7 +219,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         <li><strong>Demandeur de RP :</strong> Permis ouvert en attente de résidence permanente</li>
       </ul>
 
-      <h2 className="font-serif text-xl text-gray-900">Conseils pour maximiser vos chances</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Conseils pour maximiser vos chances</h2>
       <ul className="space-y-2">
         <li>Obtenez une lettre d&apos;emploi confirmant votre poste et salaire</li>
         <li>Montrez au moins 3 mois de talons de paie canadiens</li>
@@ -241,7 +241,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         au Canada est possible, mais les conditions sont spécifiques. Voici votre guide complet.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Admissibilité avec le PGWP</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Admissibilité avec le PGWP</h2>
       <p>
         Le PGWP est un <InternalLink slug="hypotheque-permis-travail-ouvert">permis de travail ouvert</InternalLink> délivré par
         <a href="https://www.canada.ca/en/immigration-refugees-citizenship.html" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline"> Immigration Canada</a> aux diplômés d&apos;établissements canadiens désignés.
@@ -254,7 +254,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
 
       <WizardCta />
 
-      <h2 className="font-serif text-xl text-gray-900">Ce que les banques exigent</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Ce que les banques exigent</h2>
       <ul className="space-y-2">
         <li><strong>Emploi à temps plein :</strong> Minimum 3 mois avec le même employeur</li>
         <li><strong>Revenu stable :</strong> Lettre d&apos;emploi + talons de paie récents</li>
@@ -262,14 +262,14 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         <li><strong>Crédit :</strong> Score 600+ ou <InternalLink slug="hypotheque-sans-historique-credit">crédit alternatif</InternalLink></li>
       </ul>
 
-      <h2 className="font-serif text-xl text-gray-900">Banques les plus favorables aux PGWP</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Banques les plus favorables aux PGWP</h2>
       <ul className="space-y-2">
         <li><strong>Scotiabank StartRight :</strong> Accepte explicitement les résidents temporaires</li>
         <li><strong>CIBC Travailleurs Étrangers :</strong> Pas de crédit canadien requis</li>
         <li><strong>TD :</strong> Évalue au cas par cas, favorable si demande de RP en cours</li>
       </ul>
 
-      <h2 className="font-serif text-xl text-gray-900">Stratégie optimale</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Stratégie optimale</h2>
       <p>
         Si vous avez déposé une demande de résidence permanente, mentionnez-le dans votre dossier. Les banques y voient
         un signal positif de stabilité. Commencez aussi à bâtir votre crédit dès l&apos;obtention du PGWP avec une carte sécurisée.
@@ -293,7 +293,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         pour les immigrants francophones. Voici tout ce que vous devez savoir pour acheter au Québec.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Desjardins : votre allié au Québec</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Desjardins : votre allié au Québec</h2>
       <p>
         Le <a href="https://www.desjardins.com/particuliers/nouveaux-arrivants/" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Mouvement Desjardins</a> est
         le plus grand groupe coopératif financier du Québec et offre des avantages uniques :
@@ -307,7 +307,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
 
       <WizardCta />
 
-      <h2 className="font-serif text-xl text-gray-900">Particularités du Québec</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Particularités du Québec</h2>
       <ul className="space-y-2">
         <li><strong>Notaire obligatoire :</strong> Au Québec, c&apos;est un notaire (pas un avocat) qui complète la transaction — prévoir 1 500$ à 2 500$</li>
         <li><strong>Taxe de bienvenue :</strong> Droits de mutation immobilière calculés sur la valeur de la propriété</li>
@@ -315,14 +315,14 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         <li><strong>Certificat de localisation :</strong> Document obligatoire pour toute transaction</li>
       </ul>
 
-      <h2 className="font-serif text-xl text-gray-900">Marché immobilier québécois</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Marché immobilier québécois</h2>
       <p>
         Le Québec offre généralement des prix plus accessibles que l&apos;<InternalLink slug="hypotheque-ontario-immigrants-toronto">Ontario</InternalLink> et
         la <InternalLink slug="hypotheque-bc-immigrants-vancouver-victoria">Colombie-Britannique</InternalLink>.
         Le prix médian à Montréal reste bien en dessous du plafond SCHL de 1 500 000$ pour les propriétés assurées.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Programmes d&apos;aide provinciaux</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Programmes d&apos;aide provinciaux</h2>
       <ul className="space-y-2">
         <li><strong>Programme d&apos;habitation abordable Québec :</strong> Aide au logement pour familles à revenu modeste</li>
         <li><strong>Crédit d&apos;impôt pour l&apos;achat d&apos;une première habitation (Québec) :</strong> Jusqu&apos;à 1 500$ de crédit provincial</li>
@@ -343,7 +343,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         Elle vous donne un montant maximum d&apos;emprunt et verrouille votre taux pendant 90 à 130 jours.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Qu&apos;est-ce qu&apos;une préapprobation ?</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Qu&apos;est-ce qu&apos;une préapprobation ?</h2>
       <p>
         Contrairement à la préqualification (estimation rapide), la préapprobation implique une <strong>vérification complète</strong> de
         votre dossier par le prêteur selon les normes de la <a href="https://www.cmhc-schl.gc.ca" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">SCHL</a>.
@@ -357,7 +357,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
 
       <WizardCta />
 
-      <h2 className="font-serif text-xl text-gray-900">Documents requis pour la préapprobation</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Documents requis pour la préapprobation</h2>
       <ul className="space-y-2">
         <li>Passeport valide + carte RP ou permis de travail</li>
         <li>Lettre d&apos;emploi (date d&apos;embauche, salaire, poste)</li>
@@ -367,7 +367,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         <li>Si pas de crédit canadien : <InternalLink slug="hypotheque-sans-historique-credit">preuves alternatives</InternalLink> (loyer, factures, épargne)</li>
       </ul>
 
-      <h2 className="font-serif text-xl text-gray-900">Délais typiques</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Délais typiques</h2>
       <ul className="space-y-2">
         <li><strong>Préapprobation en ligne :</strong> 1 à 3 jours ouvrables</li>
         <li><strong>Préapprobation en succursale :</strong> 3 à 5 jours ouvrables</li>
@@ -392,7 +392,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         pas acheter. Plusieurs stratégies permettent d&apos;obtenir une hypothèque avec <strong>un seul revenu</strong>.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Impact sur les ratios d&apos;endettement</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Impact sur les ratios d&apos;endettement</h2>
       <p>
         La <a href="https://www.cmhc-schl.gc.ca" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">SCHL</a> calcule
         vos ratios sur le revenu du ménage. Avec un seul revenu :
@@ -405,7 +405,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
 
       <WizardCta />
 
-      <h2 className="font-serif text-xl text-gray-900">Stratégies pour maximiser votre capacité</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Stratégies pour maximiser votre capacité</h2>
       <ul className="space-y-2">
         <li><strong>Demande individuelle :</strong> Faire la demande seul(e) pour exclure les dettes du conjoint</li>
         <li><strong>Mise de fonds élevée :</strong> Réduire le montant emprunté pour respecter les ratios</li>
@@ -413,14 +413,14 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         <li><strong><InternalLink slug="hypotheque-amortissement-duree-choix">Amortissement 30 ans</InternalLink> :</strong> Réduit les paiements mensuels (premiers acheteurs uniquement)</li>
       </ul>
 
-      <h2 className="font-serif text-xl text-gray-900">Exemple concret</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Exemple concret</h2>
       <p>
         Avec un revenu annuel de <strong>80 000$</strong>, un ratio ABD de 35% permet des paiements mensuels
         de logement d&apos;environ <strong>2 333$</strong>. Selon le taux et l&apos;amortissement, cela peut représenter
         une hypothèque d&apos;environ <strong>350 000$ à 400 000$</strong>.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Quand le conjoint trouve un emploi</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Quand le conjoint trouve un emploi</h2>
       <p>
         Dès que votre conjoint obtient un emploi, vous pouvez envisager un <InternalLink slug="hypotheque-refinancement-renouvellement-immigrant">refinancement</InternalLink> pour
         augmenter votre capacité d&apos;emprunt ou améliorer vos conditions.
@@ -440,7 +440,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         votre demande d&apos;hypothèque, mais sous <strong>conditions strictes</strong>.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Ce que la SCHL accepte et refuse</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Ce que la SCHL accepte et refuse</h2>
       <ul className="space-y-2">
         <li><strong>Revenu d&apos;emploi étranger :</strong> Accepté par certaines banques (pas toutes), avec preuves</li>
         <li><strong>Revenu locatif étranger :</strong> NON inclus dans les calculs SCHL</li>
@@ -449,13 +449,13 @@ export const blogContentMap: Record<string, React.ReactNode> = {
 
       <WizardCta />
 
-      <h2 className="font-serif text-xl text-gray-900">Comment convertir votre revenu</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Comment convertir votre revenu</h2>
       <p>
         La conversion se fait au taux de change de la <a href="https://www.bankofcanada.ca/rates/" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Banque du Canada</a> au
         moment de la demande. Les banques appliquent souvent une décote de 10-25% pour tenir compte de la volatilité.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Documents requis pour revenu étranger</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Documents requis pour revenu étranger</h2>
       <ul className="space-y-2">
         <li>Déclarations de revenus du pays d&apos;origine (traduites et notariées)</li>
         <li>Relevés bancaires montrant les dépôts réguliers</li>
@@ -463,7 +463,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         <li>Lettre d&apos;un comptable confirmant les revenus</li>
       </ul>
 
-      <h2 className="font-serif text-xl text-gray-900">Alternatives si le revenu étranger est refusé</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Alternatives si le revenu étranger est refusé</h2>
       <ul className="space-y-2">
         <li>Utiliser le revenu étranger comme <strong>mise de fonds supplémentaire</strong> plutôt que comme revenu</li>
         <li>Se concentrer sur le revenu canadien et ajouter un <InternalLink slug="hypotheque-cosignataire-parent-immigrant">co-signataire</InternalLink></li>
@@ -484,7 +484,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         avec des prix bien inférieurs à Toronto et Vancouver, et <strong>aucune taxe provinciale de vente</strong>.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Pourquoi l&apos;Alberta attire les immigrants</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Pourquoi l&apos;Alberta attire les immigrants</h2>
       <ul className="space-y-2">
         <li><strong>Prix médians abordables :</strong> Calgary ~500 000$, Edmonton ~400 000$ — bien sous le plafond SCHL de 1,5M$</li>
         <li><strong>Pas de taxe provinciale :</strong> L&apos;Alberta n&apos;a pas de PST, ce qui réduit le coût global</li>
@@ -494,7 +494,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
 
       <WizardCta />
 
-      <h2 className="font-serif text-xl text-gray-900">Frais d&apos;achat spécifiques Alberta</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Frais d&apos;achat spécifiques Alberta</h2>
       <ul className="space-y-2">
         <li><strong>Land Title Transfer Fee :</strong> Calculé sur la valeur de la propriété</li>
         <li><strong>Pas de droits de mutation (taxe de bienvenue) :</strong> Contrairement au <InternalLink slug="hypotheque-francophone-quebec">Québec</InternalLink></li>
@@ -502,7 +502,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         <li><strong>Home inspection :</strong> Fortement recommandée, surtout pour les maisons plus anciennes</li>
       </ul>
 
-      <h2 className="font-serif text-xl text-gray-900">Banques actives en Alberta</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Banques actives en Alberta</h2>
       <p>
         Toutes les grandes banques sont présentes. <a href="https://www.rbc.com/newcomers/" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">RBC</a> et
         <a href="https://www.td.com/ca/en/personal-banking/solutions/newcomers-to-canada" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline"> TD</a> ont
@@ -527,7 +527,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         les plus chers au Canada. Les immigrants doivent connaître les <strong>taxes supplémentaires</strong> et les stratégies pour réussir.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Le défi des prix en BC</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Le défi des prix en BC</h2>
       <ul className="space-y-2">
         <li><strong>Vancouver :</strong> Prix médian maison ~1 200 000$ — proche du plafond SCHL 1,5M$</li>
         <li><strong>Victoria :</strong> Prix médian ~850 000$ — plus accessible</li>
@@ -536,7 +536,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
 
       <WizardCta />
 
-      <h2 className="font-serif text-xl text-gray-900">Taxes spécifiques BC</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Taxes spécifiques BC</h2>
       <ul className="space-y-2">
         <li><strong>Property Transfer Tax (PTT) :</strong> 1% sur les premiers 200 000$, 2% sur 200 001$ à 2M$, 3% au-dessus</li>
         <li><strong>Additional Property Transfer Tax :</strong> 20% supplémentaire pour les acheteurs étrangers dans certaines zones</li>
@@ -547,7 +547,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         les résidents permanents et certains travailleurs temporaires sont exemptés.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Stratégies pour acheter en BC</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Stratégies pour acheter en BC</h2>
       <ul className="space-y-2">
         <li>Considérer un <InternalLink slug="hypotheque-maison-vs-condo-immigrant">condo</InternalLink> comme premier achat pour rester dans les limites d&apos;assurance SCHL</li>
         <li>Explorer les villes secondaires (Surrey, Burnaby, Langley) pour des prix plus bas</li>
@@ -568,7 +568,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         très abordable et un programme d&apos;immigration provincial réputé.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Un marché immobilier très accessible</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Un marché immobilier très accessible</h2>
       <ul className="space-y-2">
         <li><strong>Winnipeg :</strong> Prix médian ~350 000$ — parmi les plus bas des grandes villes canadiennes</li>
         <li><strong>Brandon, Steinbach :</strong> Encore plus abordable, à partir de ~250 000$</li>
@@ -577,13 +577,13 @@ export const blogContentMap: Record<string, React.ReactNode> = {
 
       <WizardCta />
 
-      <h2 className="font-serif text-xl text-gray-900">Programme provincial d&apos;immigration (MPNP)</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Programme provincial d&apos;immigration (MPNP)</h2>
       <p>
         Le <a href="https://www.gov.mb.ca" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Manitoba Provincial Nominee Program</a> est
         l&apos;un des plus actifs au Canada. Les nominees ont souvent un chemin accéléré vers la RP, ce qui renforce considérablement leur dossier hypothécaire.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Frais d&apos;achat au Manitoba</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Frais d&apos;achat au Manitoba</h2>
       <ul className="space-y-2">
         <li><strong>Land Transfer Tax :</strong> Progressive, de 0% à 2% selon la valeur</li>
         <li><strong>Avocat :</strong> Obligatoire pour la fermeture (1 000$ à 2 000$)</li>
@@ -609,7 +609,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         implications directes sur le <strong>financement, les ratios d&apos;endettement et le budget mensuel</strong>.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Comparaison financière</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Comparaison financière</h2>
       <div className="overflow-x-auto">
         <table className="w-full text-sm border-collapse">
           <thead>
@@ -630,21 +630,21 @@ export const blogContentMap: Record<string, React.ReactNode> = {
 
       <WizardCta />
 
-      <h2 className="font-serif text-xl text-gray-900">Impact sur votre capacité d&apos;emprunt</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Impact sur votre capacité d&apos;emprunt</h2>
       <p>
         Les frais de copropriété sont partiellement inclus dans le calcul du ratio ABD par la SCHL. Cela réduit votre
         capacité d&apos;emprunt comparé à une maison sans frais de condo. Consultez notre guide
         sur l&apos;<InternalLink slug="hypotheque-amortissement-duree-choix">amortissement</InternalLink> pour optimiser vos paiements.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Avantages du condo pour un immigrant</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Avantages du condo pour un immigrant</h2>
       <ul className="space-y-2">
         <li><strong>Prix d&apos;entrée plus bas :</strong> Mise de fonds 5% sur un condo à 400 000$ = 20 000$</li>
         <li><strong>Entretien réduit :</strong> Pas besoin de gérer la toiture, le terrain, le déneigement</li>
         <li><strong>Emplacement :</strong> Souvent plus central, près du transport en commun</li>
       </ul>
 
-      <h2 className="font-serif text-xl text-gray-900">Avantages de la maison</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Avantages de la maison</h2>
       <ul className="space-y-2">
         <li><strong>Pas de frais de condo :</strong> Plus de capacité d&apos;emprunt pour le même revenu</li>
         <li><strong>Appréciation :</strong> La valeur du terrain augmente généralement plus</li>
@@ -668,7 +668,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         Les banques exigent des <strong>preuves de revenus plus détaillées</strong> et parfois une mise de fonds plus élevée.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Exigences spécifiques</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Exigences spécifiques</h2>
       <ul className="space-y-2">
         <li><strong>2 ans de déclarations T1 General :</strong> Les banques veulent voir 2 années complètes de revenus au Canada</li>
         <li><strong>Avis de cotisation (NOA) :</strong> Émis par l&apos;<a href="https://www.canada.ca/en/revenue-agency.html" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Agence du revenu du Canada</a></li>
@@ -678,14 +678,14 @@ export const blogContentMap: Record<string, React.ReactNode> = {
 
       <WizardCta />
 
-      <h2 className="font-serif text-xl text-gray-900">Le programme « Déclaré » vs « Prouvé »</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Le programme « Déclaré » vs « Prouvé »</h2>
       <ul className="space-y-2">
         <li><strong>Programme traditionnel :</strong> Basé sur le revenu net des déclarations d&apos;impôts — souvent bas pour les autonomes qui déduisent beaucoup</li>
         <li><strong>Programme revenu déclaré :</strong> Certains prêteurs acceptent un revenu « raisonnable » basé sur l&apos;industrie, avec 10-20% de mise de fonds</li>
         <li><strong>Prêteurs B :</strong> Plus flexibles mais taux plus élevés (1-2% de plus)</li>
       </ul>
 
-      <h2 className="font-serif text-xl text-gray-900">Stratégies pour les freelancers immigrants</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Stratégies pour les freelancers immigrants</h2>
       <ul className="space-y-2">
         <li>Si vous êtes au Canada depuis moins de 2 ans, combinez avec un <InternalLink slug="hypotheque-revenu-etranger-convert">revenu étranger</InternalLink></li>
         <li>Envisagez un <InternalLink slug="hypotheque-cosignataire-parent-immigrant">co-signataire</InternalLink> pour renforcer le dossier</li>
@@ -707,7 +707,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         prévu des solutions avec les <strong>données alternatives (alternative credit data)</strong>.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Qu&apos;est-ce que le crédit alternatif ?</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Qu&apos;est-ce que le crédit alternatif ?</h2>
       <p>
         Ce sont des preuves de fiabilité financière qui remplacent le score de crédit canadien traditionnel.
         La SCHL les accepte officiellement dans le cadre du programme Nouveaux Arrivants.
@@ -721,14 +721,14 @@ export const blogContentMap: Record<string, React.ReactNode> = {
 
       <WizardCta />
 
-      <h2 className="font-serif text-xl text-gray-900">Comment obtenir votre rapport de crédit international</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Comment obtenir votre rapport de crédit international</h2>
       <ul className="space-y-2">
         <li><strong>Equifax International :</strong> Disponible dans plusieurs pays — demandez un rapport avant d&apos;immigrer</li>
         <li><strong>TransUnion Global :</strong> Couvre de nombreux marchés asiatiques, européens et latino-américains</li>
         <li><strong>Faire traduire et notarier :</strong> Les documents doivent être en français ou anglais</li>
       </ul>
 
-      <h2 className="font-serif text-xl text-gray-900">Combien de preuves faut-il ?</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Combien de preuves faut-il ?</h2>
       <p>
         La SCHL recommande au minimum <strong>2 types de preuves alternatives</strong> couvrant 12 mois.
         Plus vous en fournissez, plus votre dossier est solide. Voir aussi notre guide sur
@@ -750,7 +750,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         décision sérieuse avec des <strong>implications légales et financières</strong> pour les deux parties.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Co-signataire vs co-emprunteur vs garant</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Co-signataire vs co-emprunteur vs garant</h2>
       <div className="overflow-x-auto">
         <table className="w-full text-sm border-collapse">
           <thead>
@@ -770,7 +770,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
 
       <WizardCta />
 
-      <h2 className="font-serif text-xl text-gray-900">Exigences pour le co-signataire</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Exigences pour le co-signataire</h2>
       <ul className="space-y-2">
         <li><strong>Résident canadien ou RP :</strong> La plupart des banques exigent un co-signataire au Canada</li>
         <li><strong>Revenu suffisant :</strong> Son revenu est ajouté au calcul des ratios</li>
@@ -778,14 +778,14 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         <li><strong>Impact sur sa capacité :</strong> La dette hypothécaire apparaît sur SON rapport de crédit</li>
       </ul>
 
-      <h2 className="font-serif text-xl text-gray-900">Risques à connaître</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Risques à connaître</h2>
       <ul className="space-y-2">
         <li>Le co-signataire est responsable à 100% si vous ne payez pas</li>
         <li>Cela réduit la capacité d&apos;emprunt du co-signataire pour ses propres projets</li>
         <li>Difficile à retirer — il faut refinancer pour enlever le co-signataire</li>
       </ul>
 
-      <h2 className="font-serif text-xl text-gray-900">Alternatives au co-signataire</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Alternatives au co-signataire</h2>
       <ul className="space-y-2">
         <li>Augmenter votre mise de fonds pour compenser un revenu insuffisant</li>
         <li>Attendre de bâtir votre <InternalLink slug="hypotheque-sans-historique-credit">crédit canadien</InternalLink></li>
@@ -806,7 +806,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         pour les immigrants qui veulent maximiser leur mise de fonds sans payer d&apos;impôts.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Le RAP (Régime d&apos;accession à la propriété)</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Le RAP (Régime d&apos;accession à la propriété)</h2>
       <ul className="space-y-2">
         <li><strong>Montant max :</strong> 60 000$ par personne (120 000$ pour un couple) — augmenté en 2024</li>
         <li><strong>Condition :</strong> Premier achat (pas propriétaire dans les 4 dernières années)</li>
@@ -817,7 +817,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
 
       <WizardCta />
 
-      <h2 className="font-serif text-xl text-gray-900">Le CELIAPP (Compte d&apos;épargne libre d&apos;impôt pour l&apos;achat d&apos;une première propriété)</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Le CELIAPP (Compte d&apos;épargne libre d&apos;impôt pour l&apos;achat d&apos;une première propriété)</h2>
       <ul className="space-y-2">
         <li><strong>Contribution max :</strong> 8 000$/an, jusqu&apos;à 40 000$ à vie</li>
         <li><strong>Double avantage :</strong> Déduction d&apos;impôt à la cotisation ET retrait libre d&apos;impôt</li>
@@ -828,7 +828,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         Plus d&apos;informations sur le <a href="https://www.canada.ca/en/revenue-agency.html" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">site de l&apos;ARC</a>.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Stratégie pour immigrants</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Stratégie pour immigrants</h2>
       <p>
         Dès votre arrivée au Canada, ouvrez un REER et un CELIAPP. Même de petites cotisations régulières
         s&apos;accumulent. Combinés à l&apos;<InternalLink slug="hypotheque-assurance-schl-sagen-cmhc">assurance SCHL</InternalLink> (qui
@@ -853,13 +853,13 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         Trois assureurs se partagent le marché : la <a href="https://www.cmhc-schl.gc.ca" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">SCHL</a>, Sagen et Canada Guaranty.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Qui paie et pourquoi ?</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Qui paie et pourquoi ?</h2>
       <p>
         L&apos;assurance protège le <strong>prêteur</strong> (pas vous) en cas de défaut de paiement. Cependant, c&apos;est
         l&apos;emprunteur qui paie la prime, ajoutée au montant de l&apos;hypothèque.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Barème des primes</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Barème des primes</h2>
       <div className="overflow-x-auto">
         <table className="w-full text-sm border-collapse">
           <thead>
@@ -882,14 +882,14 @@ export const blogContentMap: Record<string, React.ReactNode> = {
 
       <WizardCta />
 
-      <h2 className="font-serif text-xl text-gray-900">Les 3 assureurs comparés</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Les 3 assureurs comparés</h2>
       <ul className="space-y-2">
         <li><strong>SCHL (CMHC) :</strong> Assureur public, seul à offrir le programme Nouveaux Arrivants — choix privilégié pour les immigrants</li>
         <li><strong>Sagen (ex-Genworth) :</strong> Assureur privé, critères parfois plus flexibles</li>
         <li><strong>Canada Guaranty :</strong> Assureur privé, bonne alternative si refusé par la SCHL</li>
       </ul>
 
-      <h2 className="font-serif text-xl text-gray-900">Quand l&apos;assurance n&apos;est PAS requise</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Quand l&apos;assurance n&apos;est PAS requise</h2>
       <p>
         Avec 20% ou plus de mise de fonds, l&apos;assurance n&apos;est pas obligatoire. Cependant, les ratios d&apos;endettement
         standard s&apos;appliquent (ABD 39%, ATD 44%) au lieu des ratios réduits du programme Nouveaux Arrivants.
@@ -911,13 +911,13 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         obtenir de meilleures conditions. En tant qu&apos;immigrant, votre situation s&apos;est probablement améliorée depuis l&apos;achat.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Renouvellement vs refinancement</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Renouvellement vs refinancement</h2>
       <ul className="space-y-2">
         <li><strong>Renouvellement :</strong> Vous gardez le même montant mais renégociez le taux et le terme</li>
         <li><strong>Refinancement :</strong> Vous modifiez le montant (emprunter plus sur la valeur nette) ou changez de prêteur</li>
       </ul>
 
-      <h2 className="font-serif text-xl text-gray-900">Avantages pour les immigrants</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Avantages pour les immigrants</h2>
       <ul className="space-y-2">
         <li><strong>Crédit amélioré :</strong> Après 2-5 ans de paiements ponctuels, votre score est bien meilleur</li>
         <li><strong>Statut amélioré :</strong> Passage de permis temporaire à RP ou citoyenneté</li>
@@ -926,7 +926,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
 
       <WizardCta />
 
-      <h2 className="font-serif text-xl text-gray-900">Pénalités de remboursement anticipé</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Pénalités de remboursement anticipé</h2>
       <p>
         Si vous refinancez avant la fin du terme, des pénalités s&apos;appliquent selon les règles du <a href="https://www.osfi-bsif.gc.ca" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">BSIF (OSFI)</a> :
       </p>
@@ -953,7 +953,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         la stabilité financière est souvent prioritaire, mais le taux variable peut offrir des économies significatives.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Comparaison rapide</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Comparaison rapide</h2>
       <div className="overflow-x-auto">
         <table className="w-full text-sm border-collapse">
           <thead>
@@ -974,13 +974,13 @@ export const blogContentMap: Record<string, React.ReactNode> = {
 
       <WizardCta />
 
-      <h2 className="font-serif text-xl text-gray-900">Le taux directeur de la Banque du Canada</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Le taux directeur de la Banque du Canada</h2>
       <p>
         Le taux variable est directement lié au <a href="https://www.bankofcanada.ca/rates/" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">taux directeur de la Banque du Canada</a>.
         Quand la Banque baisse son taux, vos paiements diminuent. Quand elle le hausse, ils augmentent.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Recommandation pour les immigrants</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Recommandation pour les immigrants</h2>
       <ul className="space-y-2">
         <li><strong>Nouveau au Canada (moins de 2 ans) :</strong> Le taux fixe offre la prévisibilité nécessaire pendant votre installation</li>
         <li><strong>Établi (2+ ans, revenu stable) :</strong> Le variable peut être avantageux si vous tolérez le risque</li>
@@ -1006,14 +1006,14 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         <strong> 60 à 90 jours</strong>. Voici chaque étape détaillée pour un immigrant au Canada.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Étape 1 : Préapprobation (Jours 1-5)</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Étape 1 : Préapprobation (Jours 1-5)</h2>
       <ul className="space-y-2">
         <li>Rassemblez vos documents (identité, emploi, revenus, mise de fonds)</li>
         <li>Soumettez votre demande de <InternalLink slug="preapprobation-hypotheque-immigrant">préapprobation</InternalLink></li>
         <li>Recevez votre montant maximum et verrouillage de taux</li>
       </ul>
 
-      <h2 className="font-serif text-xl text-gray-900">Étape 2 : Recherche de propriété (Jours 5-40)</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Étape 2 : Recherche de propriété (Jours 5-40)</h2>
       <ul className="space-y-2">
         <li>Travaillez avec un agent immobilier</li>
         <li>Visitez les propriétés dans votre budget</li>
@@ -1022,14 +1022,14 @@ export const blogContentMap: Record<string, React.ReactNode> = {
 
       <WizardCta />
 
-      <h2 className="font-serif text-xl text-gray-900">Étape 3 : Offre d&apos;achat (Jours 40-45)</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Étape 3 : Offre d&apos;achat (Jours 40-45)</h2>
       <ul className="space-y-2">
         <li>Soumettez une offre conditionnelle (financement + inspection)</li>
         <li>Négociez le prix et les conditions</li>
         <li>Signez la promesse d&apos;achat</li>
       </ul>
 
-      <h2 className="font-serif text-xl text-gray-900">Étape 4 : Conditions et financement (Jours 45-65)</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Étape 4 : Conditions et financement (Jours 45-65)</h2>
       <ul className="space-y-2">
         <li>Inspection de la propriété</li>
         <li>Évaluation par le prêteur</li>
@@ -1037,7 +1037,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         <li>Levée des conditions</li>
       </ul>
 
-      <h2 className="font-serif text-xl text-gray-900">Étape 5 : Fermeture (Jours 65-90)</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Étape 5 : Fermeture (Jours 65-90)</h2>
       <ul className="space-y-2">
         <li>Rencontre avec le notaire (Québec) ou l&apos;avocat (autres provinces)</li>
         <li>Signature des documents hypothécaires</li>
@@ -1063,7 +1063,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         Mais chaque banque a ses propres exigences. Voici ce que vous devez savoir.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Scores requis par institution</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Scores requis par institution</h2>
       <div className="overflow-x-auto">
         <table className="w-full text-sm border-collapse">
           <thead>
@@ -1087,14 +1087,14 @@ export const blogContentMap: Record<string, React.ReactNode> = {
 
       <WizardCta />
 
-      <h2 className="font-serif text-xl text-gray-900">Comment vérifier votre score</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Comment vérifier votre score</h2>
       <p>
         Consultez votre score gratuitement via <a href="https://www.consumer.equifax.ca" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Equifax Canada</a> ou
         TransUnion. Si vous n&apos;avez pas encore de score canadien, consultez notre guide sur
         les <InternalLink slug="hypotheque-sans-historique-credit">hypothèques sans historique de crédit</InternalLink>.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Améliorer votre score rapidement</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Améliorer votre score rapidement</h2>
       <ul className="space-y-2">
         <li><strong>Carte sécurisée :</strong> Obtenez une carte de crédit sécurisée et utilisez-la chaque mois</li>
         <li><strong>Paiements à temps :</strong> C&apos;est le facteur #1 — ne manquez jamais une date</li>
@@ -1121,7 +1121,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         de 25 ans. Ce changement a un impact majeur sur vos paiements mensuels et votre capacité d&apos;emprunt.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">25 ans vs 30 ans : comparaison</h2>
+      <h2 className="text-xl font-extrabold text-midnight">25 ans vs 30 ans : comparaison</h2>
       <div className="overflow-x-auto">
         <table className="w-full text-sm border-collapse">
           <thead>
@@ -1142,14 +1142,14 @@ export const blogContentMap: Record<string, React.ReactNode> = {
 
       <WizardCta />
 
-      <h2 className="font-serif text-xl text-gray-900">Qui peut accéder au 30 ans ?</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Qui peut accéder au 30 ans ?</h2>
       <ul className="space-y-2">
         <li><strong>Premiers acheteurs :</strong> Pas propriétaire dans les 4 dernières années</li>
         <li><strong>Hypothèque assurée :</strong> Mise de fonds &lt; 20% avec <InternalLink slug="hypotheque-assurance-schl-sagen-cmhc">assurance SCHL</InternalLink></li>
         <li><strong>Propriété neuve :</strong> Les nouvelles constructions sont aussi admissibles au 30 ans</li>
       </ul>
 
-      <h2 className="font-serif text-xl text-gray-900">Quel choix pour un immigrant ?</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Quel choix pour un immigrant ?</h2>
       <ul className="space-y-2">
         <li><strong>Budget serré :</strong> 30 ans réduit les paiements et améliore les ratios ABD/ATD</li>
         <li><strong>Budget confortable :</strong> 25 ans vous fait économiser ~72 000$ d&apos;intérêts sur la durée</li>
@@ -1174,7 +1174,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         immobilier compétitif avec des <strong>taxes spécifiques</strong> à connaître avant d&apos;acheter.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">Marché immobilier Ontario</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Marché immobilier Ontario</h2>
       <ul className="space-y-2">
         <li><strong>Toronto (GTA) :</strong> Prix médian ~900 000$ à 1 100 000$ — les condos restent plus accessibles (~600 000$)</li>
         <li><strong>Ottawa :</strong> Prix médian ~550 000$ — marché bilingue attractif pour les francophones</li>
@@ -1183,14 +1183,14 @@ export const blogContentMap: Record<string, React.ReactNode> = {
 
       <WizardCta />
 
-      <h2 className="font-serif text-xl text-gray-900">Taxes spécifiques Ontario</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Taxes spécifiques Ontario</h2>
       <ul className="space-y-2">
         <li><strong>Land Transfer Tax (LTT) provinciale :</strong> Progressive de 0,5% à 2,5% selon la valeur</li>
         <li><strong>Municipal Land Transfer Tax (Toronto seulement) :</strong> Taxe additionnelle de la ville de Toronto — doublement de la LTT</li>
         <li><strong>Non-Resident Speculation Tax (NRST) :</strong> 25% pour les acheteurs non canadiens (exemptions pour RP et certains travailleurs)</li>
       </ul>
 
-      <h2 className="font-serif text-xl text-gray-900">Programmes d&apos;aide Ontario</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Programmes d&apos;aide Ontario</h2>
       <ul className="space-y-2">
         <li><strong>Remboursement LTT premiers acheteurs :</strong> Jusqu&apos;à 4 000$ de remboursement provincial</li>
         <li><strong>Remboursement LTT Toronto :</strong> Jusqu&apos;à 4 475$ additionnel pour les premiers acheteurs à Toronto</li>
@@ -1217,12 +1217,12 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         pour les immigrants.
       </p>
 
-      <h2 className="font-serif text-xl text-gray-900">La loi fédérale (interdiction d&apos;achat)</h2>
+      <h2 className="text-xl font-extrabold text-midnight">La loi fédérale (interdiction d&apos;achat)</h2>
       <p>
         Entrée en vigueur en janvier 2023, cette loi interdit aux non-Canadiens d&apos;acheter des propriétés résidentielles.
         Consultez les détails sur <a href="https://www.cmhc-schl.gc.ca" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">le site de la SCHL</a>.
       </p>
-      <h2 className="font-serif text-xl text-gray-900">Qui est EXEMPTÉ ?</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Qui est EXEMPTÉ ?</h2>
       <ul className="space-y-2">
         <li><strong>Résidents permanents :</strong> Totalement exemptés — aucune restriction</li>
         <li><strong>Personnes protégées / réfugiés :</strong> Exemptés</li>
@@ -1232,14 +1232,14 @@ export const blogContentMap: Record<string, React.ReactNode> = {
 
       <WizardCta />
 
-      <h2 className="font-serif text-xl text-gray-900">Taxes provinciales sur acheteurs étrangers</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Taxes provinciales sur acheteurs étrangers</h2>
       <ul className="space-y-2">
         <li><strong>Ontario (NRST) :</strong> 25% — exemption pour RP et certains <InternalLink slug="hypotheque-permis-travail-ouvert">travailleurs temporaires</InternalLink></li>
         <li><strong>Colombie-Britannique :</strong> 20% Additional PTT — exemption pour RP et nominees provinciaux</li>
         <li><strong>Autres provinces :</strong> Pas de taxe spécifique aux acheteurs étrangers</li>
       </ul>
 
-      <h2 className="font-serif text-xl text-gray-900">Conseils pratiques</h2>
+      <h2 className="text-xl font-extrabold text-midnight">Conseils pratiques</h2>
       <ul className="space-y-2">
         <li>Si vous êtes en attente de RP, attendez la confirmation avant d&apos;acheter pour éviter les taxes</li>
         <li>Si vous êtes travailleur temporaire, assurez-vous d&apos;avoir 12 mois+ au Canada et une déclaration de revenus</li>

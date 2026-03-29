@@ -1,8 +1,9 @@
 import type { MetadataRoute } from "next";
 import { blogPosts } from "@/data/blogPosts";
 import { wizardVariants } from "@/data/wizardVariants";
+import { SITE_URL } from "@/lib/constants";
 
-const BASE_URL = "https://guide-hypotheque.ca";
+const BASE_URL = SITE_URL;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [

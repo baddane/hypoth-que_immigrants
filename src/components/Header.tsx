@@ -19,33 +19,32 @@ export default function Header() {
 
   return (
     <>
-      <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur border-b border-gray-100">
-        <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
+      <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur border-b border-gray-200" style={{ height: 68 }}>
+        <div className="max-w-[1240px] mx-auto px-4 flex items-center justify-between h-full">
           <Link href="/" className="flex items-center gap-2">
-            <span className="w-8 h-8 bg-gold rounded-full flex items-center justify-center text-white font-bold text-sm">G</span>
-            <span className="font-serif text-lg">
-              guide-<span className="font-bold">hypotheque</span>.ca
+            <span className="w-9 h-9 bg-gold rounded-lg flex items-center justify-center text-white font-extrabold text-sm">G</span>
+            <span className="text-lg font-extrabold text-midnight">
+              guide-hypotheque<span className="text-gold">.ca</span>
             </span>
           </Link>
 
-          <nav className="hidden md:flex items-center gap-8 text-sm">
-            {/* Wizard with dropdown */}
+          <nav className="hidden md:flex items-center gap-6 text-sm font-semibold" aria-label="Navigation principale">
             <div
               className="relative"
               onMouseEnter={() => setWizardDropdown(true)}
               onMouseLeave={() => setWizardDropdown(false)}
             >
-              <Link href="/wizard" className="text-gray-600 hover:text-gray-900 transition flex items-center gap-1">
+              <Link href="/wizard" className="text-midnight hover:text-gold transition flex items-center gap-1 py-2" aria-expanded={wizardDropdown} aria-haspopup="true">
                 Wizard
-                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </Link>
               {wizardDropdown && (
-                <div className="absolute top-full left-0 mt-1 bg-white rounded-xl shadow-lg border border-gray-100 py-2 w-64 z-50">
+                <div className="absolute top-full left-0 mt-0 bg-white rounded-2xl shadow-lg border border-gray-200 py-3 w-64 z-50" role="menu">
                   <Link
                     href="/wizard"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gold-light hover:text-gold transition"
+                    className="block px-5 py-2.5 text-sm font-semibold text-midnight hover:bg-gold-light hover:text-gold transition"
                   >
                     Wizard Principal
                   </Link>
@@ -54,7 +53,7 @@ export default function Header() {
                     <Link
                       key={w.slug}
                       href={`/wizard/${w.slug}`}
-                      className="flex items-center gap-2 px-4 py-2 text-sm text-gray-600 hover:bg-gold-light hover:text-gold transition"
+                      className="flex items-center gap-2 px-5 py-2 text-sm font-normal text-gray-600 hover:bg-gold-light hover:text-gold transition"
                     >
                       <span>{w.emoji}</span>
                       <span>{w.label}</span>
@@ -64,15 +63,15 @@ export default function Header() {
               )}
             </div>
 
-            <Link href="/blog" className="text-gray-600 hover:text-gray-900 transition">Guides</Link>
-            <Link href="/faq" className="text-gray-600 hover:text-gray-900 transition">FAQ</Link>
-            <Link href="/about" className="text-gray-600 hover:text-gray-900 transition">À propos</Link>
+            <Link href="/blog" className="text-midnight hover:text-gold transition py-2">Guides</Link>
+            <Link href="/faq" className="text-midnight hover:text-gold transition py-2">FAQ</Link>
+            <Link href="/about" className="text-midnight hover:text-gold transition py-2">À propos</Link>
           </nav>
 
           <div className="hidden md:block">
             <Link
               href="/wizard"
-              className="bg-gold text-white px-5 py-2.5 rounded-full text-sm font-medium hover:bg-gold-dark transition"
+              className="bg-gold text-white px-6 py-2.5 rounded-lg text-sm font-semibold hover:bg-white hover:text-gold border border-gold transition"
             >
               Préapprobation Gratuite
             </Link>
@@ -83,7 +82,7 @@ export default function Header() {
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label="Menu"
           >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-6 h-6 text-midnight" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               {menuOpen ? (
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
               ) : (
@@ -93,13 +92,12 @@ export default function Header() {
           </button>
         </div>
 
-        {/* Mobile menu */}
         {menuOpen && (
-          <div className="md:hidden bg-white border-t border-gray-100 px-6 py-4 space-y-1 max-h-[80vh] overflow-y-auto">
-            <Link href="/wizard" className="block text-gray-700 py-2 font-medium" onClick={() => setMenuOpen(false)}>
+          <div className="md:hidden bg-white border-t border-gray-200 px-6 py-4 space-y-1 max-h-[80vh] overflow-y-auto shadow-lg">
+            <Link href="/wizard" className="block text-midnight py-2 font-semibold" onClick={() => setMenuOpen(false)}>
               Wizard Principal
             </Link>
-            <div className="pl-4 space-y-1 border-l-2 border-gold/20 ml-2">
+            <div className="pl-4 space-y-1 border-l-2 border-gold/30 ml-2">
               {wizardLinks.map((w) => (
                 <Link
                   key={w.slug}
@@ -112,12 +110,12 @@ export default function Header() {
                 </Link>
               ))}
             </div>
-            <Link href="/blog" className="block text-gray-700 py-2" onClick={() => setMenuOpen(false)}>Guides</Link>
-            <Link href="/faq" className="block text-gray-700 py-2" onClick={() => setMenuOpen(false)}>FAQ</Link>
-            <Link href="/about" className="block text-gray-700 py-2" onClick={() => setMenuOpen(false)}>À propos</Link>
+            <Link href="/blog" className="block text-midnight py-2 font-semibold" onClick={() => setMenuOpen(false)}>Guides</Link>
+            <Link href="/faq" className="block text-midnight py-2 font-semibold" onClick={() => setMenuOpen(false)}>FAQ</Link>
+            <Link href="/about" className="block text-midnight py-2 font-semibold" onClick={() => setMenuOpen(false)}>À propos</Link>
             <Link
               href="/wizard"
-              className="block bg-gold text-white px-5 py-2.5 rounded-full text-sm font-medium text-center mt-3"
+              className="block bg-gold text-white px-5 py-2.5 rounded-lg text-sm font-semibold text-center mt-3 border border-gold hover:bg-white hover:text-gold transition"
               onClick={() => setMenuOpen(false)}
             >
               Préapprobation Gratuite
@@ -127,15 +125,15 @@ export default function Header() {
       </header>
 
       {/* Sticky bottom CTA bar */}
-      <div className="fixed bottom-0 left-0 right-0 z-50 bg-gray-900 text-white px-6 py-3 flex items-center justify-between text-sm">
+      <div className="fixed bottom-0 left-0 right-0 z-50 bg-midnight text-white px-6 py-3 flex items-center justify-between text-sm">
         <span>
-          <span className="text-gold font-medium">Préapprobation Gratuite</span>
+          <span className="text-gold font-semibold">Préapprobation Gratuite</span>
           {" — "}
           <span className="hidden sm:inline">Découvrez combien vous pouvez emprunter en 5 minutes.</span>
         </span>
         <Link
           href="/wizard"
-          className="bg-gold text-white px-4 py-2 rounded text-xs font-medium hover:bg-gold-dark transition uppercase tracking-wide"
+          className="bg-gold text-white px-5 py-2 rounded-lg text-xs font-semibold hover:bg-white hover:text-gold border border-gold transition uppercase tracking-wide"
         >
           Commencer
         </Link>

@@ -1,23 +1,60 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
 
 @theme inline {
-  --color-gold: #C9A84C;
-  --color-gold-dark: #B08D3A;
-  --color-gold-light: #F5ECD7;
-  --color-cream: #FAF8F3;
+  --color-gold: #489D90;
+  --color-gold-dark: #328376;
+  --color-gold-light: #EDF7F5;
+  --color-cream: #F8F8F8;
+  --color-midnight: #212243;
+  --color-light-blue: #ECF0F7;
   --color-dark: #1A1A1A;
-  --font-sans: var(--font-geist-sans);
+  --font-sans: 'Montserrat', sans-serif;
   --font-mono: var(--font-geist-mono);
 }
 
 body {
   background: #ffffff;
-  color: #1A1A1A;
-  font-family: Arial, Helvetica, sans-serif;
+  color: #343434;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.7;
 }
 
-.font-serif {
-  font-family: Georgia, "Times New Roman", serif;
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+}
+
+/* Links in article content (exclude buttons/CTAs) */
+.blog-article a:not([class*="bg-"]):not([class*="rounded-lg"]) {
+  color: #489D90;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.2s ease;
+}
+.blog-article a:not([class*="bg-"]):not([class*="rounded-lg"]):hover {
+  color: #328376;
+}
+
+/* Tables nesto-style */
+.blog-article table {
+  border: 2px solid #E0E0E0;
+  border-collapse: separate;
+  border-radius: 20px;
+  border-spacing: 0;
+  overflow: hidden;
+}
+.blog-article table th {
+  background: #F8F8F8;
+  font-weight: 600;
+  color: #212243;
+}
+.blog-article table td,
+.blog-article table th {
+  padding: 12px 16px;
+  border-bottom: 1px solid #E0E0E0;
+}
+.blog-article table tr:last-child td {
+  border-bottom: none;
 }
 
 /* Scrollbar */
@@ -28,6 +65,6 @@ body {
   background: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb {
-  background: #C9A84C;
+  background: #489D90;
   border-radius: 3px;
 }
