@@ -279,6 +279,17 @@ export const blogPosts: BlogPost[] = [
     wizardVariant: undefined,
     relatedSlugs: ["hypotheque-travailleur-temporaire-5pourcent", "hypotheque-permis-travail-ouvert", "hypotheque-etudiant-permis-postdiplome"],
   },
+  // ====== ARTICLE #25 — Prévisions taux hypothécaires 2026 ======
+  {
+    slug: "previsions-taux-hypothecaires-canada-2026",
+    title: "Prévisions Taux Hypothécaires Canada 2026 : Ce Que les Immigrants Doivent Savoir",
+    subtitle: "Taux directeur, taux fixes et variables, renouvellements : prévisions complètes des grandes banques pour 2026.",
+    description: "Prévisions des taux hypothécaires au Canada pour 2026. Taux directeur Banque du Canada, taux fixes vs variables, impact sur les renouvellements et conseils pour immigrants.",
+    category: "Taux",
+    readTime: "14 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-taux-fixe-variable-immigrant", "hypotheque-refinancement-renouvellement-immigrant", "hypotheque-travailleur-temporaire-5pourcent", "hypotheque-amortissement-duree-choix"],
+  },
 ];
 
 // Helper: get post by slug

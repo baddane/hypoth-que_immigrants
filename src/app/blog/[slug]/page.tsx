@@ -4,6 +4,7 @@ import { blogContentMap } from "@/data/blogContent";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { SITE_URL, SITE_NAME } from "@/lib/constants";
+import ReadingProgress from "@/components/ReadingProgress";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -40,6 +41,7 @@ export default async function BlogPostPage({ params }: Props) {
 
   return (
     <section className="py-20 bg-white min-h-screen">
+      <ReadingProgress />
       <div className="max-w-[780px] mx-auto px-6">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-2 text-xs text-gray-400 mb-8 font-semibold" aria-label="Fil d'Ariane">
@@ -127,7 +129,7 @@ export default async function BlogPostPage({ params }: Props) {
               <Link
                 key={p.slug}
                 href={`/blog/${p.slug}`}
-                className="flex items-start gap-4 bg-cream rounded-2xl p-5 border border-gray-100 hover:border-gold/30 transition group"
+                className="flex items-start gap-4 bg-cream rounded-2xl p-5 border border-gray-100 hover:border-gold/30 transition group card-hover"
               >
                 <div className="w-10 h-10 bg-gold-light rounded-xl flex items-center justify-center text-gold flex-shrink-0 mt-0.5">
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -161,9 +163,12 @@ export default async function BlogPostPage({ params }: Props) {
                 "@type": "Article",
                 headline: post.title,
                 description: post.description,
-                dateModified: "2026-03-28",
+                datePublished: "2026-03-01",
+                dateModified: "2026-03-29",
+                inLanguage: "fr-CA",
                 author: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
-                publisher: { "@type": "Organization", name: SITE_NAME },
+                publisher: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
+                mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/blog/${post.slug}` },
               },
               {
                 "@context": "https://schema.org",

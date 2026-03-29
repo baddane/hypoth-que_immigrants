@@ -57,6 +57,37 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: none;
 }
 
+/* Blog card hover lift */
+.card-hover {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(33, 34, 67, 0.1);
+}
+
+/* Reading progress bar */
+.reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: #489D90;
+  z-index: 9999;
+  transition: width 50ms linear;
+}
+
+/* Scroll reveal animation */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 6px;

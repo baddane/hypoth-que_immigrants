@@ -5,7 +5,7 @@ import { SITE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Guides Hypothèque Immigrants Canada — 24 Articles",
+  title: "Guides Hypothèque Immigrants Canada — 25 Articles",
   description:
     "Articles et guides complets sur l'hypothèque pour immigrants au Canada. Travailleurs temporaires, étudiants, résidents permanents.",
   openGraph: {
@@ -92,7 +92,7 @@ export default function BlogPage() {
                   <Link
                     key={post.slug}
                     href={`/blog/${post.slug}`}
-                    className="bg-cream rounded-[30px] p-6 border border-gray-100 hover:border-gold/30 transition group"
+                    className="bg-cream rounded-[30px] p-6 border border-gray-100 hover:border-gold/30 transition group card-hover"
                   >
                     <span className="text-[10px] bg-gold-light text-gold px-3 py-1 rounded-lg uppercase tracking-wider font-semibold">
                       {post.category}

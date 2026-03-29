@@ -22,7 +22,7 @@ export default function Header() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur border-b border-gray-200" style={{ height: 68 }}>
         <div className="max-w-[1240px] mx-auto px-4 flex items-center justify-between h-full">
           <Link href="/" className="flex items-center gap-2">
-            <span className="w-9 h-9 bg-gold rounded-lg flex items-center justify-center text-white font-extrabold text-sm">G</span>
+            <img src="/icon.png" alt="Logo" className="w-9 h-9 rounded-lg" />
             <span className="text-lg font-extrabold text-midnight">
               guide-hypotheque<span className="text-gold">.ca</span>
             </span>
