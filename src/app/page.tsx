@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { SITE_URL, SITE_NAME } from "@/lib/constants";
+import ScrollReveal from "@/components/ScrollReveal";
 
 const trustSignals = [
   { text: "5 000+ immigrants approuvés", icon: "check" },
@@ -154,6 +155,7 @@ export default function Home() {
       </section>
 
       {/* TESTIMONIALS */}
+      <ScrollReveal>
       <section className="py-20 bg-white">
         <div className="max-w-[1240px] mx-auto px-6">
           <p className="uppercase text-xs tracking-[0.3em] text-gold font-semibold mb-4 text-center">Témoignages</p>
@@ -179,7 +181,10 @@ export default function Home() {
         </div>
       </section>
 
+      </ScrollReveal>
+
       {/* HOW IT WORKS */}
+      <ScrollReveal>
       <section className="py-20 bg-midnight text-white">
         <div className="max-w-[1240px] mx-auto px-6">
           <p className="uppercase text-xs tracking-[0.3em] text-gold font-semibold mb-4 text-center">Processus</p>
@@ -209,7 +214,10 @@ export default function Home() {
         </div>
       </section>
 
+      </ScrollReveal>
+
       {/* MINI FAQ */}
+      <ScrollReveal>
       <section className="py-20 bg-cream">
         <div className="max-w-3xl mx-auto px-6">
           <p className="uppercase text-xs tracking-[0.3em] text-gold font-semibold mb-4 text-center">Questions Rapides</p>
@@ -232,7 +240,10 @@ export default function Home() {
         </div>
       </section>
 
+      </ScrollReveal>
+
       {/* FINAL CTA */}
+      <ScrollReveal>
       <section className="py-20 bg-white">
         <div className="max-w-3xl mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-5xl mb-6 font-extrabold text-midnight">
@@ -251,17 +262,48 @@ export default function Home() {
         </div>
       </section>
 
+      </ScrollReveal>
+
       {/* Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            name: SITE_NAME,
-            url: SITE_URL,
-            description: "Service gratuit de préapprobation hypothécaire pour immigrants au Canada",
-          }),
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: SITE_NAME,
+              url: SITE_URL,
+              description: "Service gratuit de préapprobation hypothécaire pour immigrants au Canada",
+              logo: `${SITE_URL}/icon.png`,
+              contactPoint: {
+                "@type": "ContactPoint",
+                contactType: "customer service",
+                availableLanguage: ["French", "English"],
+              },
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: SITE_NAME,
+              url: SITE_URL,
+              inLanguage: "fr-CA",
+              potentialAction: {
+                "@type": "SearchAction",
+                target: `${SITE_URL}/blog?q={search_term_string}`,
+                "query-input": "required name=search_term_string",
+              },
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: miniFaq.map((item) => ({
+                "@type": "Question",
+                name: item.q,
+                acceptedAnswer: { "@type": "Answer", text: item.a },
+              })),
+            },
+          ]),
         }}
       />
     </>
