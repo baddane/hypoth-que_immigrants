@@ -4,7 +4,7 @@ import { wizardVariants } from "@/data/wizardVariants";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Guides Hypothèque Immigrants Canada — 22 Articles",
+  title: "Guides Hypothèque Immigrants Canada — 25 Articles",
   description:
     "Articles et guides complets sur l'hypothèque pour immigrants au Canada. Travailleurs temporaires, étudiants, résidents permanents. Tout pour devenir propriétaire.",
   openGraph: {

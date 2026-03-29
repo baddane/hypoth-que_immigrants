@@ -1254,4 +1254,246 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  // ====================================================
+  // ARTICLE 25: PRÉVISIONS TAUX HYPOTHÉCAIRES 2026
+  // ====================================================
+  "previsions-taux-hypothecaires-canada-2026": (
+    <>
+      <p>
+        Les prévisions des taux hypothécaires au Canada pour 2026 indiquent que les coûts d&apos;emprunt devraient demeurer
+        <strong> relativement stables</strong>. La <a href="https://www.bankofcanada.ca/rates/" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Banque du Canada</a> devrait
+        maintenir son taux directeur autour de <strong>2,25%</strong> pendant la majeure partie de l&apos;année. Si vous êtes
+        immigrant et envisagez d&apos;acheter une propriété, c&apos;est le moment de comprendre comment ces prévisions impactent
+        votre projet hypothécaire.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Les grandes lignes pour 2026</h2>
+      <ul className="space-y-2">
+        <li><strong>Taux directeur stable :</strong> La Banque du Canada devrait maintenir son taux près de 2,25% en 2026</li>
+        <li><strong>Taux fixes stables :</strong> Les taux fixes devraient rester relativement stables avec un léger potentiel de hausse</li>
+        <li><strong>Renouvellements coûteux :</strong> 33% des emprunteurs renouvelant en 2026 feront face à des paiements plus élevés</li>
+        <li><strong>Pas de retour aux taux pré-pandémie :</strong> Les taux ultra-bas de 2020-2021 ne reviendront pas</li>
+      </ul>
+
+      <WizardCta />
+
+      <h2 className="text-xl font-extrabold text-midnight">Pourquoi les renouvellements en 2026 coûtent plus cher</h2>
+      <p>
+        D&apos;ici la fin de 2026, environ <strong>33% des titulaires d&apos;un prêt hypothécaire</strong> au Canada feront face à
+        une hausse de leurs versements mensuels. Près de 75% des personnes touchées détiennent une hypothèque à
+        <InternalLink slug="hypotheque-taux-fixe-variable-immigrant">taux fixe sur 5 ans</InternalLink>.
+      </p>
+      <ul className="space-y-2">
+        <li><strong>Taux fixe :</strong> Hausse moyenne des paiements d&apos;environ 20% au renouvellement — passage des taux bas de la pandémie aux taux actuels</li>
+        <li><strong>Taux ajustable (ARM) :</strong> La majorité des hausses a déjà été absorbée, un allègement est possible en 2026</li>
+        <li><strong>Taux variable (VRM) :</strong> ~10% verront leurs paiements augmenter de plus de 40%, mais ~25% pourraient voir une baisse de 7%</li>
+      </ul>
+      <p>
+        Si vous approchez de votre renouvellement, consultez notre guide sur
+        le <InternalLink slug="hypotheque-refinancement-renouvellement-immigrant">refinancement et renouvellement hypothécaire</InternalLink> pour
+        connaître vos options.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Prévisions du taux directeur de la Banque du Canada (taux variables)</h2>
+      <p>
+        Les prévisions des six grandes banques indiquent que le taux directeur devrait rester stable à <strong>2,25%</strong> pendant
+        la majeure partie de 2026. Seules la Banque Scotia et la Banque Nationale envisagent une possible hausse à 2,75%.
+      </p>
+      <div className="overflow-x-auto">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="border-b border-gray-200">
+              <th className="text-left py-2 pr-4">Banque</th>
+              <th className="text-left py-2 pr-2">Mar</th>
+              <th className="text-left py-2 pr-2">Avr</th>
+              <th className="text-left py-2 pr-2">Juin</th>
+              <th className="text-left py-2 pr-2">Juil</th>
+              <th className="text-left py-2 pr-2">Sept</th>
+              <th className="text-left py-2 pr-2">Oct</th>
+              <th className="text-left py-2">Déc</th>
+            </tr>
+          </thead>
+          <tbody className="text-gray-500">
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4 font-semibold">BMO</td><td className="pr-2">2,25%</td><td className="pr-2">2,25%</td><td className="pr-2">2,25%</td><td className="pr-2">2,25%</td><td className="pr-2">2,25%</td><td className="pr-2">2,25%</td><td>2,25%</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4 font-semibold">CIBC</td><td className="pr-2">2,25%</td><td className="pr-2">2,25%</td><td className="pr-2">2,25%</td><td className="pr-2">2,25%</td><td className="pr-2">2,25%</td><td className="pr-2">2,25%</td><td>2,25%</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4 font-semibold">Nationale</td><td className="pr-2">2,25%</td><td className="pr-2">2,25%</td><td className="pr-2">2,25%</td><td className="pr-2">2,25%</td><td className="pr-2">2,25%</td><td className="pr-2">2,25%</td><td>2,25%</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4 font-semibold">RBC</td><td className="pr-2">2,25%</td><td className="pr-2">2,25%</td><td className="pr-2">2,25%</td><td className="pr-2">2,25%</td><td className="pr-2">2,25%</td><td className="pr-2">2,25%</td><td>2,25%</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4 font-semibold">Scotia</td><td className="pr-2">2,25%</td><td className="pr-2">2,25%</td><td className="pr-2">2,25%</td><td className="pr-2">2,25%</td><td className="pr-2">2,25%</td><td className="pr-2">2,75%</td><td>2,75%</td></tr>
+            <tr><td className="py-2 pr-4 font-semibold">TD</td><td className="pr-2">2,25%</td><td className="pr-2">2,25%</td><td className="pr-2">2,25%</td><td className="pr-2">2,25%</td><td className="pr-2">2,25%</td><td className="pr-2">2,25%</td><td>2,25%</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p className="text-xs text-gray-400 mt-2">Données en date du 13 mars 2026. Sources : BMO Economics, CIBC Economics, RBC Economics, Scotiabank Economics, TD Economics.</p>
+
+      <WizardCta />
+
+      <h2 className="text-xl font-extrabold text-midnight">Rendements des obligations à 5 ans (impact sur les taux fixes)</h2>
+      <p>
+        Les rendements des obligations du gouvernement du Canada à 5 ans sont le <strong>principal indicateur</strong> utilisé par les
+        prêteurs pour établir les taux fixes. Les banques ajoutent une marge de 1% à 2% au rendement obligataire.
+      </p>
+      <div className="overflow-x-auto">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="border-b border-gray-200">
+              <th className="text-left py-2 pr-4">Banque</th>
+              <th className="text-left py-2 pr-4">T1 2026</th>
+              <th className="text-left py-2 pr-4">T2 2026</th>
+              <th className="text-left py-2 pr-4">T3 2026</th>
+              <th className="text-left py-2">T4 2026</th>
+            </tr>
+          </thead>
+          <tbody className="text-gray-500">
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4 font-semibold">BMO</td><td className="pr-4">2,85%</td><td className="pr-4">2,85%</td><td className="pr-4">2,85%</td><td>2,85%</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4 font-semibold">CIBC</td><td className="pr-4">2,80%</td><td className="pr-4">2,90%</td><td className="pr-4">3,05%</td><td>3,20%</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4 font-semibold">Nationale</td><td className="pr-4">2,90%</td><td className="pr-4">2,80%</td><td className="pr-4">2,85%</td><td>2,90%</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4 font-semibold">RBC</td><td className="pr-4">3,00%</td><td className="pr-4">3,00%</td><td className="pr-4">3,05%</td><td>3,10%</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4 font-semibold">Scotia</td><td className="pr-4">2,95%</td><td className="pr-4">3,00%</td><td className="pr-4">3,10%</td><td>3,25%</td></tr>
+            <tr><td className="py-2 pr-4 font-semibold">TD</td><td className="pr-4">3,00%</td><td className="pr-4">2,90%</td><td className="pr-4">2,90%</td><td>2,90%</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p className="text-xs text-gray-400 mt-2">Données en date du 13 mars 2026.</p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Les taux vont-ils baisser en 2026 ?</h2>
+      <p>
+        Le taux directeur de la Banque du Canada a déjà diminué de <strong>100 points de base en 2025</strong>. Une baisse
+        supplémentaire en 2026 reste peu probable, sauf en cas de ralentissement économique marqué.
+      </p>
+      <ul className="space-y-2">
+        <li>Les six grandes banques anticipent un taux stable à 2,25% pour le reste de 2026</li>
+        <li>Seules Scotia et Nationale envisagent une possible hausse de 50 points de base</li>
+        <li>Le gouverneur Tiff Macklem a déclaré que la Banque reste prête à réagir si les perspectives changent</li>
+        <li>Les probabilités d&apos;une hausse de 0,25% en avril sont de seulement 5%</li>
+      </ul>
+
+      <h2 className="text-xl font-extrabold text-midnight">Pourquoi les taux fixes et variables évoluent différemment</h2>
+      <p>
+        Comprendre cette différence est crucial pour choisir entre <InternalLink slug="hypotheque-taux-fixe-variable-immigrant">taux fixe et variable</InternalLink>.
+      </p>
+      <ul className="space-y-2">
+        <li><strong>Taux fixes :</strong> Influencés par les rendements des obligations du gouvernement du Canada. Fluctuent selon les conditions des marchés mondiaux, les taux obligataires américains, les perspectives d&apos;inflation et la croissance économique</li>
+        <li><strong>Taux variables :</strong> Liés directement au taux directeur de la Banque du Canada. Ajustés lors des 8 annonces annuelles. Les prêteurs ajustent leur taux préférentiel généralement le jour suivant l&apos;annonce</li>
+      </ul>
+
+      <WizardCta variant="dark" />
+
+      <h2 className="text-xl font-extrabold text-midnight">Meilleurs taux hypothécaires actuels (mars 2026)</h2>
+      <div className="overflow-x-auto">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="border-b border-gray-200">
+              <th className="text-left py-2 pr-4">Type</th>
+              <th className="text-left py-2 pr-4">Terme</th>
+              <th className="text-left py-2">Taux</th>
+            </tr>
+          </thead>
+          <tbody className="text-gray-500">
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Fixe</td><td className="pr-4">3 ans</td><td>4,20%</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Fixe</td><td className="pr-4">5 ans</td><td>4,04%</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Variable</td><td className="pr-4">3 ans</td><td>3,60%</td></tr>
+            <tr><td className="py-2 pr-4">Variable</td><td className="pr-4">5 ans</td><td>3,40%</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p className="text-xs text-gray-400 mt-2">Taux indicatifs en date de mars 2026. Les taux varient selon votre profil et votre prêteur.</p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Calendrier des annonces de la Banque du Canada en 2026</h2>
+      <div className="overflow-x-auto">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="border-b border-gray-200">
+              <th className="text-left py-2 pr-4">Date</th>
+              <th className="text-left py-2 pr-4">Décision</th>
+              <th className="text-left py-2">Taux cible</th>
+            </tr>
+          </thead>
+          <tbody className="text-gray-500">
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">28 janvier</td><td className="pr-4">Aucun changement</td><td>2,25%</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">18 mars</td><td className="pr-4">Aucun changement</td><td>2,25%</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">29 avril</td><td className="pr-4">À déterminer</td><td>—</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">10 juin</td><td className="pr-4">À déterminer</td><td>—</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">15 juillet</td><td className="pr-4">À déterminer</td><td>—</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">2 septembre</td><td className="pr-4">À déterminer</td><td>—</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">28 octobre</td><td className="pr-4">À déterminer</td><td>—</td></tr>
+            <tr><td className="py-2 pr-4">9 décembre</td><td className="pr-4">À déterminer</td><td>—</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 className="text-xl font-extrabold text-midnight">Ce que ces prévisions signifient pour les immigrants</h2>
+      <p>
+        En tant qu&apos;immigrant au Canada, voici comment ces prévisions impactent votre projet d&apos;achat :
+      </p>
+      <ul className="space-y-2">
+        <li><strong>Stabilité = bonne nouvelle :</strong> Des taux stables signifient que vous pouvez planifier votre achat avec plus de certitude sur vos paiements mensuels</li>
+        <li><strong>Le stress test reste à 5,25% :</strong> Vous devez toujours vous qualifier au taux contractuel + 2% ou à 5,25%, le plus élevé des deux</li>
+        <li><strong>Le programme SCHL Nouveaux Arrivants reste disponible :</strong> <InternalLink slug="hypotheque-travailleur-temporaire-5pourcent">5% de mise de fonds</InternalLink> avec crédit alternatif accepté</li>
+        <li><strong>Taux fixe recommandé pour les nouveaux arrivants :</strong> La prévisibilité des paiements est importante pendant votre installation au Canada</li>
+        <li><strong>Amortissement 30 ans :</strong> Si c&apos;est votre premier achat, l&apos;<InternalLink slug="hypotheque-amortissement-duree-choix">amortissement sur 30 ans</InternalLink> réduit vos paiements mensuels d&apos;environ 188$/mois sur un prêt de 400 000$</li>
+      </ul>
+
+      <WizardCta />
+
+      <h2 className="text-xl font-extrabold text-midnight">Contexte économique canadien en 2026</h2>
+      <ul className="space-y-2">
+        <li><strong>PIB :</strong> Contraction de 0,6% au T4 2025 — l&apos;économie ralentit</li>
+        <li><strong>Emploi :</strong> Perte de 84 000 emplois en février 2026</li>
+        <li><strong>Inflation :</strong> Pressions inflationnistes liées à la hausse des prix du pétrole</li>
+        <li><strong>Incertitudes :</strong> Politiques commerciales américaines imprévisibles, tensions géopolitiques</li>
+      </ul>
+      <p>
+        Malgré ces incertitudes, le marché immobilier reste actif et les programmes bancaires pour immigrants continuent
+        d&apos;être disponibles. Consultez les programmes de <a href="https://www.rbc.com/newcomers/" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">RBC</a>,
+        <a href="https://www.td.com/ca/en/personal-banking/solutions/newcomers-to-canada" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline"> TD</a>,
+        <a href="https://www.scotiabank.com/ca/en/personal/programs/start-right.html" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline"> Scotiabank</a> et
+        <a href="https://www.bmo.com/main/personal/newcomers-to-canada/" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline"> BMO</a> pour
+        les offres spécifiques aux nouveaux arrivants.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Prévisions 2027 à 2030 : à quoi s&apos;attendre</h2>
+      <p>
+        Les projections à long terme restent incertaines, mais les économistes s&apos;accordent sur quelques tendances :
+      </p>
+      <ul className="space-y-2">
+        <li><strong>2027 :</strong> Stabilisation probable des taux, avec un taux directeur entre 2,00% et 2,75%</li>
+        <li><strong>2028-2030 :</strong> Retour progressif vers un taux neutre d&apos;environ 2,50% à 3,00%</li>
+        <li><strong>Taux fixes :</strong> Devraient osciller entre 3,50% et 5,00% selon les conditions mondiales</li>
+        <li><strong>Un retour aux taux pré-pandémie (1-2%) est très improbable</strong></li>
+      </ul>
+
+      <h2 className="text-xl font-extrabold text-midnight">FAQ : Prévisions des taux hypothécaires</h2>
+
+      <h3 className="text-lg font-semibold text-midnight mt-6">Les taux vont-ils baisser en 2026 ?</h3>
+      <p>
+        C&apos;est peu probable. La majorité des économistes anticipent un taux directeur stable à 2,25% tout au long de 2026.
+        Une baisse n&apos;est envisageable qu&apos;en cas de ralentissement économique significatif.
+      </p>
+
+      <h3 className="text-lg font-semibold text-midnight mt-6">Devrais-je choisir un taux fixe ou variable en 2026 ?</h3>
+      <p>
+        En période de stabilité, le taux variable est actuellement plus bas (3,40% vs 4,04% en fixe 5 ans). Cependant,
+        pour un immigrant récemment arrivé, le taux fixe offre la <strong>prévisibilité</strong> nécessaire pendant votre installation.
+        Consultez notre <InternalLink slug="hypotheque-taux-fixe-variable-immigrant">comparatif taux fixe vs variable</InternalLink>.
+      </p>
+
+      <h3 className="text-lg font-semibold text-midnight mt-6">Quel est le meilleur moment pour acheter en 2026 ?</h3>
+      <p>
+        Avec des taux stables, il n&apos;y a pas de raison d&apos;attendre une baisse significative. Le meilleur moment
+        pour acheter est quand votre situation financière est prête : crédit établi, mise de fonds accumulée,
+        emploi stable. Commencez par une <InternalLink slug="preapprobation-hypotheque-immigrant">préapprobation</InternalLink>.
+      </p>
+
+      <h3 className="text-lg font-semibold text-midnight mt-6">Comment le stress test affecte-t-il ma capacité d&apos;emprunt ?</h3>
+      <p>
+        Avec un taux contractuel de 4,04% (fixe 5 ans), le stress test s&apos;applique à 6,04% (taux + 2%, car supérieur à 5,25%).
+        Cela réduit votre capacité d&apos;emprunt d&apos;environ 20% par rapport au taux réel. Les ratios d&apos;endettement du
+        programme <a href="https://www.cmhc-schl.gc.ca" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">SCHL Nouveaux Arrivants</a> sont
+        ABD max 35% / ATD max 42%.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };
