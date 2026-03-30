@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { SITE_URL, SITE_NAME } from "@/lib/constants";
+import { SITE_URL, SITE_NAME, SITE_DESCRIPTION } from "@/lib/constants";
 
 const trustSignals = [
   { text: "5 000+ immigrants approuvés", icon: "check" },
@@ -255,13 +255,39 @@ export default function Home() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            name: SITE_NAME,
-            url: SITE_URL,
-            description: "Service gratuit de préapprobation hypothécaire pour immigrants au Canada",
-          }),
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: SITE_NAME,
+              url: SITE_URL,
+              logo: `${SITE_URL}/logo.png`,
+              description: SITE_DESCRIPTION,
+              contactPoint: {
+                "@type": "ContactPoint",
+                contactType: "customer service",
+                availableLanguage: ["French", "English"],
+                url: `${SITE_URL}/contact`,
+              },
+              areaServed: {
+                "@type": "Country",
+                name: "Canada",
+              },
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: SITE_NAME,
+              url: SITE_URL,
+              description: SITE_DESCRIPTION,
+              inLanguage: "fr-CA",
+              publisher: {
+                "@type": "Organization",
+                name: SITE_NAME,
+                url: SITE_URL,
+              },
+            },
+          ]),
         }}
       />
     </>
