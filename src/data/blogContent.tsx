@@ -528,6 +528,10 @@ export const blogContentMap: Record<string, React.ReactNode> = {
       </p>
 
       <h2 className="text-xl font-extrabold text-midnight">Le défi des prix en BC</h2>
+      <p>
+        Selon la <a href="https://www.bcrea.bc.ca/economics/monthly-statistics/" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">BC Real Estate Association (BCREA)</a>,
+        les prix en Colombie-Britannique restent parmi les plus élevés au pays.
+      </p>
       <ul className="space-y-2">
         <li><strong>Vancouver :</strong> Prix médian maison ~1 200 000$ — proche du plafond SCHL 1,5M$</li>
         <li><strong>Victoria :</strong> Prix médian ~850 000$ — plus accessible</li>
@@ -537,6 +541,10 @@ export const blogContentMap: Record<string, React.ReactNode> = {
       <WizardCta />
 
       <h2 className="text-xl font-extrabold text-midnight">Taxes spécifiques BC</h2>
+      <p>
+        Le gouvernement de la BC impose plusieurs taxes sur les transactions immobilières. Consultez le
+        site officiel de la <a href="https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Property Transfer Tax</a> pour les détails.
+      </p>
       <ul className="space-y-2">
         <li><strong>Property Transfer Tax (PTT) :</strong> 1% sur les premiers 200 000$, 2% sur 200 001$ à 2M$, 3% au-dessus</li>
         <li><strong>Additional Property Transfer Tax :</strong> 20% supplémentaire pour les acheteurs étrangers dans certaines zones</li>
@@ -610,6 +618,10 @@ export const blogContentMap: Record<string, React.ReactNode> = {
       </p>
 
       <h2 className="text-xl font-extrabold text-midnight">Comparaison financière</h2>
+      <p>
+        La <a href="https://www.cmhc-schl.gc.ca/professionals/housing-markets-data-and-research" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">SCHL publie régulièrement des données</a> sur
+        les tendances du marché résidentiel, incluant les différences entre condos et maisons unifamiliales.
+      </p>
       <div className="overflow-x-auto">
         <table className="w-full text-sm border-collapse">
           <thead>
@@ -635,6 +647,11 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         Les frais de copropriété sont partiellement inclus dans le calcul du ratio ABD par la SCHL. Cela réduit votre
         capacité d&apos;emprunt comparé à une maison sans frais de condo. Consultez notre guide
         sur l&apos;<InternalLink slug="hypotheque-amortissement-duree-choix">amortissement</InternalLink> pour optimiser vos paiements.
+      </p>
+
+      <p>
+        Utilisez le <a href="https://itools-ioutils.fcac-acfc.gc.ca/MQ-HQ/MQCalc-EAPHCalc-fra.aspx" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">calculateur hypothécaire de l&apos;ACFC</a> pour
+        comparer les paiements mensuels selon le type de propriété.
       </p>
 
       <h2 className="text-xl font-extrabold text-midnight">Avantages du condo pour un immigrant</h2>
@@ -771,6 +788,10 @@ export const blogContentMap: Record<string, React.ReactNode> = {
       <WizardCta />
 
       <h2 className="text-xl font-extrabold text-midnight">Exigences pour le co-signataire</h2>
+      <p>
+        L&apos;<a href="https://www.canada.ca/fr/agence-consommation-matiere-financiere/services/hypotheques/co-signataire.html" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Agence de la consommation en matière financière du Canada (ACFC)</a> détaille
+        les responsabilités légales d&apos;un co-signataire hypothécaire.
+      </p>
       <ul className="space-y-2">
         <li><strong>Résident canadien ou RP :</strong> La plupart des banques exigent un co-signataire au Canada</li>
         <li><strong>Revenu suffisant :</strong> Son revenu est ajouté au calcul des ratios</li>
@@ -784,6 +805,11 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         <li>Cela réduit la capacité d&apos;emprunt du co-signataire pour ses propres projets</li>
         <li>Difficile à retirer — il faut refinancer pour enlever le co-signataire</li>
       </ul>
+
+      <p>
+        Consultez la page <a href="https://www.cmhc-schl.gc.ca/consumers/home-buying/newcomers" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">SCHL pour nouveaux arrivants</a> pour
+        vérifier si vous êtes admissible sans co-signataire grâce au programme Nouveaux Arrivants.
+      </p>
 
       <h2 className="text-xl font-extrabold text-midnight">Alternatives au co-signataire</h2>
       <ul className="space-y-2">
@@ -1006,6 +1032,12 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         <strong> 60 à 90 jours</strong>. Voici chaque étape détaillée pour un immigrant au Canada.
       </p>
 
+      <p>
+        Le <a href="https://www.canada.ca/fr/agence-consommation-matiere-financiere/services/hypotheques/processus-achat-maison.html" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">gouvernement du Canada</a> détaille
+        le processus complet d&apos;achat d&apos;une propriété, et la <a href="https://www.cmhc-schl.gc.ca/consumers/home-buying/buying-guides" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">SCHL offre des guides d&apos;achat</a> pour
+        les premiers acheteurs.
+      </p>
+
       <h2 className="text-xl font-extrabold text-midnight">Étape 1 : Préapprobation (Jours 1-5)</h2>
       <ul className="space-y-2">
         <li>Rassemblez vos documents (identité, emploi, revenus, mise de fonds)</li>
@@ -1119,6 +1151,12 @@ export const blogContentMap: Record<string, React.ReactNode> = {
       <p>
         Depuis décembre 2024, les premiers acheteurs peuvent choisir un amortissement de <strong>30 ans</strong> au lieu
         de 25 ans. Ce changement a un impact majeur sur vos paiements mensuels et votre capacité d&apos;emprunt.
+      </p>
+
+      <p>
+        Selon le <a href="https://www.canada.ca/fr/ministere-finances/nouvelles/2024/09/le-gouvernement-du-canada-annonce-de-nouvelles-mesures-hypothecaires.html" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">ministère des Finances du Canada</a>,
+        les nouvelles règles d&apos;amortissement de 30 ans sont entrées en vigueur en décembre 2024. La <a href="https://www.cmhc-schl.gc.ca/consumers/home-buying/calculators/mortgage-calculator" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">calculatrice hypothécaire de la SCHL</a> vous
+        permet de comparer les scénarios.
       </p>
 
       <h2 className="text-xl font-extrabold text-midnight">25 ans vs 30 ans : comparaison</h2>
