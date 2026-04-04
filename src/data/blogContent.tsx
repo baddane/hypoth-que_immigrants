@@ -528,6 +528,10 @@ export const blogContentMap: Record<string, React.ReactNode> = {
       </p>
 
       <h2 className="text-xl font-extrabold text-midnight">Le défi des prix en BC</h2>
+      <p>
+        Selon la <a href="https://www.bcrea.bc.ca/economics/monthly-statistics/" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">BC Real Estate Association (BCREA)</a>,
+        les prix en Colombie-Britannique restent parmi les plus élevés au pays.
+      </p>
       <ul className="space-y-2">
         <li><strong>Vancouver :</strong> Prix médian maison ~1 200 000$ — proche du plafond SCHL 1,5M$</li>
         <li><strong>Victoria :</strong> Prix médian ~850 000$ — plus accessible</li>
@@ -537,6 +541,10 @@ export const blogContentMap: Record<string, React.ReactNode> = {
       <WizardCta />
 
       <h2 className="text-xl font-extrabold text-midnight">Taxes spécifiques BC</h2>
+      <p>
+        Le gouvernement de la BC impose plusieurs taxes sur les transactions immobilières. Consultez le
+        site officiel de la <a href="https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Property Transfer Tax</a> pour les détails.
+      </p>
       <ul className="space-y-2">
         <li><strong>Property Transfer Tax (PTT) :</strong> 1% sur les premiers 200 000$, 2% sur 200 001$ à 2M$, 3% au-dessus</li>
         <li><strong>Additional Property Transfer Tax :</strong> 20% supplémentaire pour les acheteurs étrangers dans certaines zones</li>
@@ -610,6 +618,10 @@ export const blogContentMap: Record<string, React.ReactNode> = {
       </p>
 
       <h2 className="text-xl font-extrabold text-midnight">Comparaison financière</h2>
+      <p>
+        La <a href="https://www.cmhc-schl.gc.ca/professionals/housing-markets-data-and-research" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">SCHL publie régulièrement des données</a> sur
+        les tendances du marché résidentiel, incluant les différences entre condos et maisons unifamiliales.
+      </p>
       <div className="overflow-x-auto">
         <table className="w-full text-sm border-collapse">
           <thead>
@@ -635,6 +647,11 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         Les frais de copropriété sont partiellement inclus dans le calcul du ratio ABD par la SCHL. Cela réduit votre
         capacité d&apos;emprunt comparé à une maison sans frais de condo. Consultez notre guide
         sur l&apos;<InternalLink slug="hypotheque-amortissement-duree-choix">amortissement</InternalLink> pour optimiser vos paiements.
+      </p>
+
+      <p>
+        Utilisez le <a href="https://itools-ioutils.fcac-acfc.gc.ca/MQ-HQ/MQCalc-EAPHCalc-fra.aspx" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">calculateur hypothécaire de l&apos;ACFC</a> pour
+        comparer les paiements mensuels selon le type de propriété.
       </p>
 
       <h2 className="text-xl font-extrabold text-midnight">Avantages du condo pour un immigrant</h2>
@@ -771,6 +788,10 @@ export const blogContentMap: Record<string, React.ReactNode> = {
       <WizardCta />
 
       <h2 className="text-xl font-extrabold text-midnight">Exigences pour le co-signataire</h2>
+      <p>
+        L&apos;<a href="https://www.canada.ca/fr/agence-consommation-matiere-financiere/services/hypotheques/co-signataire.html" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Agence de la consommation en matière financière du Canada (ACFC)</a> détaille
+        les responsabilités légales d&apos;un co-signataire hypothécaire.
+      </p>
       <ul className="space-y-2">
         <li><strong>Résident canadien ou RP :</strong> La plupart des banques exigent un co-signataire au Canada</li>
         <li><strong>Revenu suffisant :</strong> Son revenu est ajouté au calcul des ratios</li>
@@ -784,6 +805,11 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         <li>Cela réduit la capacité d&apos;emprunt du co-signataire pour ses propres projets</li>
         <li>Difficile à retirer — il faut refinancer pour enlever le co-signataire</li>
       </ul>
+
+      <p>
+        Consultez la page <a href="https://www.cmhc-schl.gc.ca/consumers/home-buying/newcomers" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">SCHL pour nouveaux arrivants</a> pour
+        vérifier si vous êtes admissible sans co-signataire grâce au programme Nouveaux Arrivants.
+      </p>
 
       <h2 className="text-xl font-extrabold text-midnight">Alternatives au co-signataire</h2>
       <ul className="space-y-2">
@@ -1006,6 +1032,12 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         <strong> 60 à 90 jours</strong>. Voici chaque étape détaillée pour un immigrant au Canada.
       </p>
 
+      <p>
+        Le <a href="https://www.canada.ca/fr/agence-consommation-matiere-financiere/services/hypotheques/processus-achat-maison.html" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">gouvernement du Canada</a> détaille
+        le processus complet d&apos;achat d&apos;une propriété, et la <a href="https://www.cmhc-schl.gc.ca/consumers/home-buying/buying-guides" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">SCHL offre des guides d&apos;achat</a> pour
+        les premiers acheteurs.
+      </p>
+
       <h2 className="text-xl font-extrabold text-midnight">Étape 1 : Préapprobation (Jours 1-5)</h2>
       <ul className="space-y-2">
         <li>Rassemblez vos documents (identité, emploi, revenus, mise de fonds)</li>
@@ -1119,6 +1151,12 @@ export const blogContentMap: Record<string, React.ReactNode> = {
       <p>
         Depuis décembre 2024, les premiers acheteurs peuvent choisir un amortissement de <strong>30 ans</strong> au lieu
         de 25 ans. Ce changement a un impact majeur sur vos paiements mensuels et votre capacité d&apos;emprunt.
+      </p>
+
+      <p>
+        Selon le <a href="https://www.canada.ca/fr/ministere-finances/nouvelles/2024/09/le-gouvernement-du-canada-annonce-de-nouvelles-mesures-hypothecaires.html" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">ministère des Finances du Canada</a>,
+        les nouvelles règles d&apos;amortissement de 30 ans sont entrées en vigueur en décembre 2024. La <a href="https://www.cmhc-schl.gc.ca/consumers/home-buying/calculators/mortgage-calculator" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">calculatrice hypothécaire de la SCHL</a> vous
+        permet de comparer les scénarios.
       </p>
 
       <h2 className="text-xl font-extrabold text-midnight">25 ans vs 30 ans : comparaison</h2>
@@ -1249,6 +1287,690 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         Pour le processus complet d&apos;achat, consultez notre <InternalLink slug="hypotheque-travailleur-temporaire-5pourcent">guide principal</InternalLink> et
         notre <InternalLink slug="hypotheque-timeline-fermeture-immigrant">timeline de fermeture</InternalLink>.
       </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
+  // ====================================================
+  // ARTICLE 23: CELIAPP ET RAP POUR IMMIGRANTS
+  // ====================================================
+  "celiapp-rap-immigrant-premier-acheteur-2026": (
+    <>
+      <p>
+        Le <strong>CELIAPP</strong> (Compte d&apos;épargne libre d&apos;impôt pour l&apos;achat d&apos;une première propriété) est
+        l&apos;un des outils les plus puissants pour les immigrants qui veulent acheter. Combiné au <strong>RAP</strong> (Régime
+        d&apos;accession à la propriété), vous pouvez accumuler une mise de fonds considérable avec des avantages fiscaux majeurs.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Le CELIAPP : jusqu&apos;à 40 000$ en épargne défiscalisée</h2>
+      <p>
+        Créé en 2023 par le <a href="https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/celiapp.html" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">gouvernement du Canada</a>,
+        le CELIAPP permet aux premiers acheteurs d&apos;épargner pour leur mise de fonds avec un triple avantage fiscal :
+      </p>
+      <ul className="space-y-2">
+        <li><strong>Cotisations déductibles :</strong> 8 000$/an réduisent votre revenu imposable (comme un REER)</li>
+        <li><strong>Croissance libre d&apos;impôt :</strong> Les rendements ne sont jamais imposés (comme un CELI)</li>
+        <li><strong>Retrait non imposable :</strong> Aucun impôt au retrait si utilisé pour acheter une première propriété</li>
+        <li><strong>Plafond à vie :</strong> 40 000$ (5 ans × 8 000$), avec report possible d&apos;un an</li>
+      </ul>
+
+      <WizardCta />
+
+      <h2 className="text-xl font-extrabold text-midnight">Le piège pour les immigrants : le bien à l&apos;étranger</h2>
+      <p>
+        <strong>Attention :</strong> pour être admissible au CELIAPP, vous ne devez pas avoir habité une propriété dont vous
+        étiez propriétaire pendant l&apos;année d&apos;ouverture du compte <strong>ni les 4 années précédentes</strong>. Cette
+        règle s&apos;applique <strong>même si la propriété était à l&apos;étranger</strong>.
+      </p>
+      <p>
+        Exemple concret : si vous avez vendu votre maison au Maroc en 2023 et immigré au Canada en 2024, vous ne pourrez
+        ouvrir un CELIAPP qu&apos;en <strong>2028</strong> (4 ans après avoir cessé d&apos;habiter votre propriété).
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Le RAP : retirer 60 000$ de votre REER sans impôt</h2>
+      <p>
+        Le <InternalLink slug="hypotheque-reer-rap-immigrant-premier-achat">Régime d&apos;accession à la propriété (RAP)</InternalLink> vous
+        permet de retirer jusqu&apos;à 60 000$ de votre REER pour acheter votre première propriété, sans payer d&apos;impôt
+        immédiat. Vous devez rembourser le montant sur 15 ans.
+      </p>
+      <ul className="space-y-2">
+        <li><strong>Montant max :</strong> 60 000$ par personne (120 000$ en couple)</li>
+        <li><strong>Condition :</strong> L&apos;argent doit être dans le REER depuis au moins 90 jours</li>
+        <li><strong>Remboursement :</strong> Sur 15 ans, à partir de la 2e année suivant le retrait</li>
+      </ul>
+
+      <h2 className="text-xl font-extrabold text-midnight">Stratégie combinée : CELIAPP + RAP + épargne</h2>
+      <p>
+        Pour un couple immigrant admissible, la stratégie optimale peut générer une mise de fonds impressionnante :
+      </p>
+      <div className="overflow-x-auto">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="border-b border-gray-200">
+              <th className="text-left py-2 pr-4">Source</th>
+              <th className="text-left py-2 pr-4">Par personne</th>
+              <th className="text-left py-2">En couple</th>
+            </tr>
+          </thead>
+          <tbody className="text-gray-500">
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">CELIAPP (2 ans)</td><td className="pr-4">16 000$</td><td>32 000$</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">RAP (REER)</td><td className="pr-4">60 000$</td><td>120 000$</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Épargne personnelle</td><td className="pr-4">Variable</td><td>Variable</td></tr>
+            <tr><td className="py-2 pr-4 font-semibold">Total potentiel</td><td className="pr-4 font-semibold">76 000$+</td><td className="font-semibold">152 000$+</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        Avec 152 000$ de mise de fonds, un couple peut acheter une propriété de <strong>760 000$ avec 20% de mise de fonds</strong> —
+        évitant même l&apos;assurance SCHL. Consultez aussi nos guides sur
+        l&apos;<InternalLink slug="hypotheque-amortissement-duree-choix">amortissement 25 vs 30 ans</InternalLink> pour optimiser vos paiements.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Où ouvrir un CELIAPP ?</h2>
+      <p>
+        Toutes les grandes banques et caisses offrent le CELIAPP. <a href="https://www.desjardins.com/fr/conseils/admissibilite-celiapp.html" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Desjardins</a>,
+        RBC, TD, BMO, Scotiabank et les courtiers en ligne (Wealthsimple, Questrade) le proposent avec différentes options
+        de placement (compte épargne, CPG, fonds communs).
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
+  // ====================================================
+  // ARTICLE 24: INTERDICTION ACHAT NON-CANADIENS
+  // ====================================================
+  "interdiction-achat-non-canadien-exemptions-2027": (
+    <>
+      <p>
+        Depuis janvier 2023, la <strong>Loi sur l&apos;interdiction d&apos;achat de propriétés résidentielles par des non-Canadiens</strong> empêche
+        certains non-citoyens d&apos;acheter un bien résidentiel au Canada. Mais la loi est <strong>truffée d&apos;exemptions</strong> — et
+        elle expire le <strong>1er janvier 2027</strong>.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Ce que dit la loi</h2>
+      <p>
+        Adoptée pour lutter contre la spéculation immobilière, la <a href="https://laws-lois.justice.gc.ca/eng/acts/P-25.2/page-1.html" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Loi C-19</a> interdit
+        aux non-Canadiens d&apos;acheter des propriétés résidentielles (1 à 3 logements) dans les régions métropolitaines de
+        recensement (RMR) et les agglomérations de recensement (AR).
+      </p>
+      <ul className="space-y-2">
+        <li><strong>Durée :</strong> Du 1er janvier 2023 au 1er janvier 2027 (prolongée deux fois)</li>
+        <li><strong>Pénalités :</strong> Amende jusqu&apos;à 10 000$ et ordonnance de vente forcée possible</li>
+        <li><strong>Portée géographique :</strong> Uniquement dans les RMR et AR (pas en zone rurale)</li>
+      </ul>
+
+      <WizardCta />
+
+      <h2 className="text-xl font-extrabold text-midnight">Qui est EXEMPTÉ ? (la majorité des immigrants)</h2>
+      <p>
+        La bonne nouvelle : la plupart des immigrants sont exemptés. Selon la <a href="https://www.cmhc-schl.gc.ca/professionals/housing-markets-data-and-research/housing-research/consultations/prohibition-purchase-residential-property-non-canadians-act" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">SCHL</a>,
+        les exemptions incluent :
+      </p>
+      <ul className="space-y-2">
+        <li><strong>Résidents permanents :</strong> Totalement exemptés, aucune restriction</li>
+        <li><strong>Personnes protégées / réfugiés :</strong> Totalement exemptés</li>
+        <li><strong>Travailleurs temporaires :</strong> Exemptés si 183 jours+ restants sur le permis ET déclaration de revenus déposée</li>
+        <li><strong>Étudiants internationaux :</strong> Exemptés sous conditions (18 mois+ au Canada, déclaration déposée, prix &lt; 500 000$)</li>
+        <li><strong>Conjoints :</strong> Exemptés si le conjoint est citoyen, RP, personne protégée ou travailleur exempté</li>
+      </ul>
+
+      <h2 className="text-xl font-extrabold text-midnight">Ce qui n&apos;est PAS couvert par l&apos;interdiction</h2>
+      <ul className="space-y-2">
+        <li><strong>Immeubles de 4+ logements :</strong> Les immeubles à revenus de 4 unités ou plus ne sont pas visés</li>
+        <li><strong>Terrains vacants :</strong> L&apos;achat de terrain pour développement est permis</li>
+        <li><strong>Zones rurales :</strong> En dehors des RMR/AR, aucune restriction</li>
+        <li><strong>Héritage, divorce, don :</strong> Les transferts non commerciaux sont exclus</li>
+      </ul>
+      <p>
+        Pour les <InternalLink slug="hypotheque-taxe-acheteur-etranger-exemption">taxes provinciales sur acheteurs étrangers</InternalLink> (Ontario 25%, BC 20%),
+        les exemptions sont différentes — consultez notre guide dédié.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Que faire en attendant janvier 2027 ?</h2>
+      <ul className="space-y-2">
+        <li>Si vous êtes RP ou personne protégée : achetez dès maintenant, vous n&apos;êtes pas concerné</li>
+        <li>Si vous avez un <InternalLink slug="hypotheque-permis-travail-ouvert">permis de travail</InternalLink> : vérifiez qu&apos;il reste 183+ jours de validité</li>
+        <li>Si vous êtes étudiant : la limite de 500 000$ est restrictive dans les grandes villes — attendez la RP ou la fin de la loi</li>
+        <li>Dans tous les cas : commencez à bâtir votre crédit et votre mise de fonds dès maintenant</li>
+      </ul>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
+  // ====================================================
+  // ARTICLE 25: FRAIS CACHÉS ACHAT MAISON
+  // ====================================================
+  "frais-caches-achat-maison-immigrant-checklist": (
+    <>
+      <p>
+        Au-delà de la mise de fonds, l&apos;achat d&apos;une maison au Canada implique des <strong>frais de fermeture de 2 à 3%
+        du prix d&apos;achat</strong>. Pour une propriété de 500 000$, prévoyez 10 000 à 15 000$ en frais additionnels.
+        Voici la checklist complète pour ne rien oublier.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Checklist des frais de fermeture</h2>
+      <div className="overflow-x-auto">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="border-b border-gray-200">
+              <th className="text-left py-2 pr-4">Frais</th>
+              <th className="text-left py-2 pr-4">Coût estimé</th>
+              <th className="text-left py-2">Obligatoire ?</th>
+            </tr>
+          </thead>
+          <tbody className="text-gray-500">
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Taxe de bienvenue (mutation)</td><td className="pr-4">0,5% à 3% du prix</td><td>Oui</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Notaire / avocat</td><td className="pr-4">1 000 à 2 500$</td><td>Oui</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Inspection préachat</td><td className="pr-4">400 à 600$</td><td>Recommandé</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Assurance titre</td><td className="pr-4">200 à 400$</td><td>Recommandé</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Évaluation de la propriété</td><td className="pr-4">300 à 500$</td><td>Parfois inclus</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Assurance habitation</td><td className="pr-4">800 à 2 000$/an</td><td>Oui</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Ajustements (taxes, services)</td><td className="pr-4">500 à 2 000$</td><td>Oui</td></tr>
+            <tr><td className="py-2 pr-4">Déménagement</td><td className="pr-4">500 à 3 000$</td><td>Variable</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        Consultez le <a href="https://itools-ioutils.fcac-acfc.gc.ca/MQ-HQ/MQCalc-EAPHCalc-fra.aspx" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">calculateur de l&apos;ACFC</a> pour
+        estimer vos paiements hypothécaires, puis ajoutez ces frais à votre budget.
+      </p>
+
+      <WizardCta />
+
+      <h2 className="text-xl font-extrabold text-midnight">La taxe de bienvenue par province</h2>
+      <ul className="space-y-2">
+        <li><strong>Québec (taxe de mutation) :</strong> 0,5% sur les premiers 55 200$, 1% de 55 200$ à 276 200$, 1,5% au-dessus. Montréal ajoute 0,5% supplémentaire au-delà de 500 000$</li>
+        <li><strong>Ontario (land transfer tax) :</strong> 0,5% à 2,5% progressif. Toronto impose une <strong>taxe municipale additionnelle</strong> équivalente</li>
+        <li><strong>Colombie-Britannique (PTT) :</strong> 1% sur les premiers 200 000$, 2% de 200 000$ à 2M$, 3% au-dessus</li>
+        <li><strong>Alberta, Manitoba, Saskatchewan :</strong> Frais d&apos;enregistrement plus modestes (quelques centaines de dollars)</li>
+      </ul>
+      <p>
+        Les premiers acheteurs bénéficient souvent d&apos;exemptions partielles ou totales. Vérifiez votre admissibilité auprès de votre
+        <InternalLink slug="hypotheque-timeline-fermeture-immigrant">notaire lors de la fermeture</InternalLink>.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Frais spécifiques aux immigrants</h2>
+      <ul className="space-y-2">
+        <li><strong>Conversion de devises :</strong> Les frais de change lors du transfert de votre mise de fonds peuvent représenter 1 à 3% du montant</li>
+        <li><strong>Traduction de documents :</strong> 50 à 200$ par document (relevés bancaires, lettres d&apos;emploi étrangères)</li>
+        <li><strong>Taxes acheteurs étrangers :</strong> Si applicable, 20 à 25% du prix dans certaines provinces (voir les <InternalLink slug="hypotheque-taxe-acheteur-etranger-exemption">exemptions</InternalLink>)</li>
+        <li><strong>Vérification de fonds :</strong> Votre prêteur peut exiger des preuves additionnelles sur l&apos;origine des fonds étrangers</li>
+      </ul>
+
+      <h2 className="text-xl font-extrabold text-midnight">Exemple de budget complet</h2>
+      <p>
+        Pour une propriété de 500 000$ à Montréal avec 5% de mise de fonds :
+      </p>
+      <ul className="space-y-2">
+        <li>Mise de fonds : 25 000$</li>
+        <li>Assurance SCHL (~4%) : ~19 000$ (ajouté au prêt)</li>
+        <li>Taxe de mutation : ~5 500$</li>
+        <li>Notaire : ~1 500$</li>
+        <li>Inspection + assurance titre : ~900$</li>
+        <li>Assurance habitation : ~1 200$ (première année)</li>
+        <li>Ajustements + divers : ~1 500$</li>
+        <li><strong>Total à prévoir en liquidités : ~35 600$</strong> (mise de fonds + frais)</li>
+      </ul>
+      <p>
+        Source : <a href="https://www.bnc.ca/particuliers/conseils/maison/frais-achat-maison.html" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Banque Nationale — Frais d&apos;achat d&apos;une maison</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
+  // ====================================================
+  // ARTICLE 26: DUPLEX / TRIPLEX IMMIGRANT
+  // ====================================================
+  "acheter-duplex-triplex-immigrant-mise-de-fonds": (
+    <>
+      <p>
+        Acheter un duplex ou un triplex est l&apos;une des stratégies les plus populaires pour les immigrants qui veulent
+        <strong> devenir propriétaires tout en générant des revenus locatifs</strong>. La mise de fonds peut être aussi basse
+        que <strong>5% pour un duplex occupé</strong>.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Mise de fonds minimale par type</h2>
+      <div className="overflow-x-auto">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="border-b border-gray-200">
+              <th className="text-left py-2 pr-4">Type</th>
+              <th className="text-left py-2 pr-4">Occupé par le proprio</th>
+              <th className="text-left py-2">Non occupé (investissement)</th>
+            </tr>
+          </thead>
+          <tbody className="text-gray-500">
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Duplex</td><td className="pr-4">5%</td><td>20%</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Triplex</td><td className="pr-4">10%</td><td>20%</td></tr>
+            <tr><td className="py-2 pr-4">Quadruplex</td><td className="pr-4">10%</td><td>20%</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        Un duplex occupé à 600 000$ ne nécessite que <strong>30 000$ de mise de fonds</strong> — et les revenus locatifs
+        aident à payer l&apos;hypothèque. Consultez la <a href="https://www.cmhc-schl.gc.ca/consumers/home-buying/buying-guides/homebuying-in-canada" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">SCHL</a> pour
+        les conditions d&apos;assurance sur les multilogements.
+      </p>
+
+      <WizardCta />
+
+      <h2 className="text-xl font-extrabold text-midnight">Comment les banques calculent les revenus locatifs</h2>
+      <p>
+        Les prêteurs ajoutent une partie des revenus locatifs à votre revenu pour le calcul des ratios d&apos;endettement :
+      </p>
+      <ul className="space-y-2">
+        <li><strong>Méthode traditionnelle :</strong> 50% des loyers bruts ajoutés au revenu (Big 5 banks)</li>
+        <li><strong>Méthode par compensation :</strong> 80% des loyers compensent les paiements hypothécaires (certains prêteurs alternatifs comme MCAP, First National)</li>
+        <li><strong>Preuves requises :</strong> Baux signés, ou évaluation du loyer de marché par un évaluateur</li>
+      </ul>
+
+      <h2 className="text-xl font-extrabold text-midnight">Restriction pour les non-RP</h2>
+      <p>
+        <strong>Attention :</strong> la <InternalLink slug="interdiction-achat-non-canadien-exemptions-2027">Loi sur l&apos;interdiction d&apos;achat</InternalLink> interdit
+        aux non-Canadiens d&apos;acheter des propriétés de <strong>3 logements ou moins</strong>. Cela inclut les duplex et triplex.
+        Les résidents permanents sont exemptés, mais les travailleurs temporaires doivent vérifier leur admissibilité.
+      </p>
+      <p>
+        Exception : les immeubles de <strong>4 logements ou plus</strong> ne sont pas visés par cette loi.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Avantages financiers du plex pour un immigrant</h2>
+      <ul className="space-y-2">
+        <li><strong>Revenus locatifs :</strong> Les loyers couvrent souvent 50 à 80% de l&apos;hypothèque</li>
+        <li><strong>Déductions fiscales :</strong> Intérêts hypothécaires, taxes, assurances et entretien de la partie locative sont déductibles</li>
+        <li><strong>Appréciation :</strong> Les plex prennent souvent plus de valeur que les unifamiliales dans les quartiers en demande</li>
+        <li><strong>Premier achat stratégique :</strong> Achetez un duplex, habitez un logement, louez l&apos;autre, puis achetez votre maison dans quelques années</li>
+      </ul>
+      <p>
+        Pour comparer avec l&apos;achat d&apos;un condo ou d&apos;une maison, consultez notre guide
+        <InternalLink slug="hypotheque-maison-vs-condo-immigrant">maison vs condo</InternalLink>. Pour en apprendre plus sur le processus,
+        consultez les conseils de la <a href="https://www.corpiq.com/fr/nouvelles/2404-mon-premier-plex-quoi-savoir-avant-dacheter-en-2026.html" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">CORPIQ</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
+  // ====================================================
+  // ARTICLE 27: CONSTRUIRE SON CRÉDIT EN 6 MOIS
+  // ====================================================
+  "construire-credit-canadien-6-mois-immigrant": (
+    <>
+      <p>
+        Vous arrivez au Canada avec un score de crédit de <strong>zéro</strong>. Votre historique de crédit de votre
+        pays d&apos;origine ne compte pas ici. La bonne nouvelle : avec la bonne stratégie, vous pouvez atteindre
+        un <strong>score de 680+ en seulement 6 mois</strong>.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Mois 1 : Les fondations</h2>
+      <ul className="space-y-2">
+        <li><strong>Ouvrir un compte bancaire :</strong> Choisissez une banque avec un programme nouveaux arrivants (RBC, TD, Scotiabank)</li>
+        <li><strong>Obtenir une carte de crédit sécurisée :</strong> Déposez 500 à 1 000$ comme garantie. Capital One Guaranteed, Home Trust Secured sont les plus accessibles</li>
+        <li><strong>Configurer des paiements récurrents :</strong> Téléphone, internet, abonnements — tout sur la carte de crédit</li>
+        <li><strong>Règle d&apos;or :</strong> Ne jamais dépasser 30% de la limite de crédit</li>
+      </ul>
+
+      <WizardCta />
+
+      <h2 className="text-xl font-extrabold text-midnight">Mois 2-3 : Bâtir l&apos;historique</h2>
+      <ul className="space-y-2">
+        <li>Utilisez la carte pour de petits achats réguliers (épicerie, essence)</li>
+        <li><strong>Payez le solde en entier</strong> chaque mois, avant la date d&apos;échéance</li>
+        <li>Ne faites PAS de demande pour d&apos;autres produits de crédit — chaque demande réduit temporairement votre score</li>
+        <li>Inscrivez-vous à <a href="https://www.consumer.equifax.ca/personal/products/equifax-complete/" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Equifax</a> ou <a href="https://www.transunion.ca/product/transunion-credit-monitoring" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">TransUnion</a> pour surveiller votre score gratuitement</li>
+      </ul>
+
+      <h2 className="text-xl font-extrabold text-midnight">Mois 4 : Accélérer</h2>
+      <ul className="space-y-2">
+        <li>Demandez une <strong>augmentation de limite</strong> sur votre carte sécurisée (sans nouvelle enquête de crédit)</li>
+        <li>Postulez pour une <strong>carte de crédit non sécurisée</strong> — votre historique de 3 mois devrait suffire</li>
+        <li>Ajoutez votre loyer à votre rapport de crédit via des services comme Landlord Credit Bureau</li>
+      </ul>
+
+      <h2 className="text-xl font-extrabold text-midnight">Mois 5-6 : Score hypothécaire</h2>
+      <ul className="space-y-2">
+        <li>Votre score devrait être entre <strong>650 et 700</strong></li>
+        <li>Commencez votre <InternalLink slug="preapprobation-hypotheque-immigrant">demande de préapprobation</InternalLink></li>
+        <li>Si votre score est sous 680, continuez le processus — le <InternalLink slug="hypotheque-sans-historique-credit">crédit alternatif</InternalLink> de la SCHL accepte des preuves non traditionnelles</li>
+      </ul>
+
+      <h2 className="text-xl font-extrabold text-midnight">Les 5 règles d&apos;or du crédit</h2>
+      <ul className="space-y-2">
+        <li><strong>1. Utilisation &lt; 30% :</strong> Ne dépassez jamais 30% de votre limite de crédit</li>
+        <li><strong>2. Paiement à temps :</strong> Un seul retard peut faire chuter votre score de 100+ points</li>
+        <li><strong>3. Ancienneté :</strong> Ne fermez pas votre première carte — l&apos;ancienneté du compte compte</li>
+        <li><strong>4. Diversité :</strong> Avoir 2 types de crédit (carte + prêt) est mieux qu&apos;un seul</li>
+        <li><strong>5. Peu de demandes :</strong> Chaque demande de crédit crée une enquête qui réduit votre score</li>
+      </ul>
+      <p>
+        Pour les scores minimums par banque, consultez notre guide sur le <InternalLink slug="hypotheque-score-credit-minimum-immigrant">score de crédit minimum</InternalLink>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
+  // ====================================================
+  // ARTICLE 28: TRANSFÉRER MISE DE FONDS DE L'ÉTRANGER
+  // ====================================================
+  "transferer-mise-de-fonds-etranger-canada": (
+    <>
+      <p>
+        Transférer votre mise de fonds depuis votre pays d&apos;origine est un processus que chaque immigrant doit planifier
+        soigneusement. Les banques exigent des <strong>preuves rigoureuses de l&apos;origine des fonds</strong> et un
+        <strong> historique de 90 jours</strong> dans un compte canadien.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Ce que votre prêteur exige</h2>
+      <ul className="space-y-2">
+        <li><strong>90 jours de seasoning :</strong> Les fonds doivent être dans votre compte canadien depuis au moins 90 jours avant la fermeture</li>
+        <li><strong>Traçabilité complète :</strong> Relevés bancaires du pays d&apos;origine montrant la source + relevés canadiens montrant la réception</li>
+        <li><strong>Preuve d&apos;origine :</strong> Contrat de vente immobilière, relevés d&apos;épargne, lettre d&apos;employeur, contrat de travail</li>
+        <li><strong>Lettre de don :</strong> Si les fonds proviennent d&apos;un proche, une lettre de don signée confirmant que c&apos;est un cadeau sans remboursement</li>
+      </ul>
+
+      <WizardCta />
+
+      <h2 className="text-xl font-extrabold text-midnight">Règles anti-blanchiment (FINTRAC)</h2>
+      <p>
+        Le <a href="https://fintrac-canafe.gc.ca/reporting-declaration/info/rptER-fra" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Centre d&apos;analyse des opérations et déclarations financières du Canada (CANAFE)</a> impose
+        des déclarations obligatoires pour les transferts de 10 000$ CAD ou plus :
+      </p>
+      <ul className="space-y-2">
+        <li>Votre banque doit déclarer tout transfert international de 10 000$+</li>
+        <li>Fractionner les transferts pour éviter le seuil (« structuration ») est <strong>illégal</strong></li>
+        <li>Vous devez déclarer à la douane si vous entrez au Canada avec 10 000$+ en espèces ou instruments monétaires</li>
+        <li>Conservez tous les reçus de transfert pendant au moins 5 ans</li>
+      </ul>
+
+      <h2 className="text-xl font-extrabold text-midnight">Méthodes de transfert comparées</h2>
+      <div className="overflow-x-auto">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="border-b border-gray-200">
+              <th className="text-left py-2 pr-4">Méthode</th>
+              <th className="text-left py-2 pr-4">Frais</th>
+              <th className="text-left py-2 pr-4">Délai</th>
+              <th className="text-left py-2">Taux de change</th>
+            </tr>
+          </thead>
+          <tbody className="text-gray-500">
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Virement bancaire (SWIFT)</td><td className="pr-4">25-50$ + frais intermédiaires</td><td className="pr-4">2-5 jours</td><td>Taux banque (marge ~2-3%)</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4"><a href="https://wise.com/ca/" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Wise</a> / Remitly</td><td className="pr-4">0,5-1,5%</td><td className="pr-4">1-3 jours</td><td>Taux mid-market (le meilleur)</td></tr>
+            <tr><td className="py-2 pr-4">Traite bancaire</td><td className="pr-4">10-25$</td><td className="pr-4">Immédiat (en personne)</td><td>Taux banque</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 className="text-xl font-extrabold text-midnight">Conseils pour minimiser les coûts</h2>
+      <ul className="space-y-2">
+        <li><strong>Transférez tôt :</strong> Envoyez les fonds au moins 3-4 mois avant la date de fermeture prévue</li>
+        <li><strong>Comparez les taux :</strong> Les services en ligne offrent souvent 1-2% de mieux que les banques traditionnelles</li>
+        <li><strong>Évitez les conversions multiples :</strong> Transférez directement dans la devise finale (CAD)</li>
+        <li><strong>Gardez tout :</strong> Chaque reçu, chaque relevé — votre prêteur et votre <InternalLink slug="preapprobation-hypotheque-immigrant">courtier</InternalLink> les demanderont</li>
+      </ul>
+      <p>
+        Pour inclure des revenus étrangers dans votre demande, consultez notre guide sur les <InternalLink slug="hypotheque-revenu-etranger-convert">revenus étrangers</InternalLink>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
+  // ====================================================
+  // ARTICLE 29: COURTIER HYPOTHÉCAIRE VS BANQUE
+  // ====================================================
+  "courtier-hypothecaire-vs-banque-immigrant": (
+    <>
+      <p>
+        La plupart des immigrants vont directement à leur banque pour demander une hypothèque. Pourtant, un
+        <strong> courtier hypothécaire</strong> accède à 30+ prêteurs et peut souvent obtenir de <strong>meilleurs taux
+        et conditions</strong>, surtout pour les dossiers atypiques d&apos;immigrants.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Courtier vs banque : comparaison</h2>
+      <div className="overflow-x-auto">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="border-b border-gray-200">
+              <th className="text-left py-2 pr-4">Critère</th>
+              <th className="text-left py-2 pr-4">Courtier hypothécaire</th>
+              <th className="text-left py-2">Banque directe</th>
+            </tr>
+          </thead>
+          <tbody className="text-gray-500">
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Nombre de prêteurs</td><td className="pr-4">30+ prêteurs</td><td>1 seul (la banque)</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Coût pour vous</td><td className="pr-4">Gratuit (payé par le prêteur)</td><td>Gratuit</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Négociation de taux</td><td className="pr-4">Oui, mise en concurrence</td><td>Limitée au barème interne</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Dossiers atypiques</td><td className="pr-4">Spécialisé</td><td>Critères rigides</td></tr>
+            <tr><td className="py-2 pr-4">Produits additionnels</td><td className="pr-4">Hypothèque seulement</td><td>Carte, compte, assurances</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <WizardCta />
+
+      <h2 className="text-xl font-extrabold text-midnight">Pourquoi un courtier est souvent meilleur pour un immigrant</h2>
+      <ul className="space-y-2">
+        <li><strong>Connaissance des programmes :</strong> Un bon courtier connaît les programmes Nouveaux Arrivants de chaque prêteur et sait lequel correspond à votre profil</li>
+        <li><strong>Crédit alternatif :</strong> Si votre banque refuse votre dossier, un courtier peut le soumettre à d&apos;autres prêteurs qui acceptent le crédit alternatif</li>
+        <li><strong>Revenus atypiques :</strong> Revenus étrangers, travail autonome, contrats — un courtier sait quel prêteur accepte quoi</li>
+        <li><strong>Gain de temps :</strong> Une seule demande, soumise à plusieurs prêteurs simultanément</li>
+      </ul>
+
+      <h2 className="text-xl font-extrabold text-midnight">Quand aller directement à la banque</h2>
+      <ul className="space-y-2">
+        <li>Vous êtes RP depuis 2+ ans avec un emploi stable et un crédit canadien de 700+</li>
+        <li>Vous avez une relation bancaire existante avec des produits groupés avantageux</li>
+        <li>Vous voulez un <InternalLink slug="hypotheque-taux-fixe-variable-immigrant">taux promotionnel</InternalLink> exclusif à la banque</li>
+      </ul>
+
+      <h2 className="text-xl font-extrabold text-midnight">Trouver un courtier spécialisé</h2>
+      <p>
+        Les courtiers sont réglementés par province. Vérifiez que votre courtier est licencié :
+      </p>
+      <ul className="space-y-2">
+        <li><strong>Québec :</strong> <a href="https://www.oaciq.com/fr/pages/trouver-un-courtier" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">OACIQ — Trouver un courtier</a></li>
+        <li><strong>Ontario :</strong> <a href="https://www.fsrao.ca/consumers/mortgage-brokering" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">ARSF (FSRA) — Registre des courtiers</a></li>
+        <li><strong>Alberta :</strong> RECA — Real Estate Council of Alberta</li>
+        <li><strong>BC :</strong> BCFSA — BC Financial Services Authority</li>
+      </ul>
+      <p>
+        Demandez spécifiquement un courtier qui a de l&apos;expérience avec les dossiers d&apos;immigrants et les programmes
+        Nouveaux Arrivants. Pour démarrer, utilisez notre <InternalLink slug="preapprobation-hypotheque-immigrant">guide de préapprobation</InternalLink>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
+  // ====================================================
+  // ARTICLE 30: HYPOTHÈQUE APRÈS FAILLITE / MAUVAIS CRÉDIT
+  // ====================================================
+  "hypotheque-apres-faillite-mauvais-credit-immigrant": (
+    <>
+      <p>
+        Une faillite ou un mauvais crédit ne signifie pas la fin de votre rêve de propriété. Même en tant qu&apos;immigrant,
+        vous pouvez obtenir une hypothèque <strong>2 ans après votre libération de faillite</strong>. Il existe aussi des
+        prêteurs alternatifs accessibles immédiatement.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Faillite vs proposition de consommateur</h2>
+      <div className="overflow-x-auto">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="border-b border-gray-200">
+              <th className="text-left py-2 pr-4">Critère</th>
+              <th className="text-left py-2 pr-4">Faillite</th>
+              <th className="text-left py-2">Proposition de consommateur</th>
+            </tr>
+          </thead>
+          <tbody className="text-gray-500">
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Durée au dossier</td><td className="pr-4">6-7 ans après libération</td><td>3 ans après complétion</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Accès prêteur A</td><td className="pr-4">2 ans après libération</td><td>Dès la complétion</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Mise de fonds minimum</td><td className="pr-4">5-10% (prêteur A)</td><td>5-10% (prêteur A)</td></tr>
+            <tr><td className="py-2 pr-4">Impact sur le crédit</td><td className="pr-4">Score réduit à ~300-400</td><td>Moins sévère</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        Consultez le <a href="https://ised-isde.canada.ca/site/bureau-surintendant-faillites-canada/fr" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Bureau du surintendant des faillites</a> pour
+        comprendre vos obligations légales.
+      </p>
+
+      <WizardCta />
+
+      <h2 className="text-xl font-extrabold text-midnight">Les 3 niveaux de prêteurs</h2>
+      <ul className="space-y-2">
+        <li><strong>Prêteurs A (banques) :</strong> Score 680+, 2 ans après faillite, taux 4-6%. Les meilleures conditions mais les plus exigeants</li>
+        <li><strong>Prêteurs B (alternatifs) :</strong> Score 500-680, acceptent les faillites récentes, taux 6-10%, mise de fonds 20-25%</li>
+        <li><strong>Prêteurs privés :</strong> Aucun minimum de crédit, taux 10-15%, mise de fonds 25-35%. Solution temporaire de 1-2 ans</li>
+      </ul>
+
+      <h2 className="text-xl font-extrabold text-midnight">Stratégie de reconstruction pour immigrants</h2>
+      <p>
+        La bonne nouvelle pour les immigrants : votre faillite dans votre pays d&apos;origine n&apos;apparaît <strong>pas</strong> sur
+        votre dossier de crédit canadien. Seules les faillites canadiennes sont enregistrées par <a href="https://www.consumer.equifax.ca/personal/" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Equifax</a> et TransUnion.
+      </p>
+      <ul className="space-y-2">
+        <li><strong>Mois 1-6 :</strong> Suivez notre plan pour <InternalLink slug="construire-credit-canadien-6-mois-immigrant">construire votre crédit en 6 mois</InternalLink></li>
+        <li><strong>Mois 6-12 :</strong> Ajoutez un prêt de consolidation de crédit pour diversifier votre profil</li>
+        <li><strong>Mois 12-24 :</strong> Demandez une préapprobation auprès d&apos;un prêteur B, puis refinancez vers un prêteur A quand votre score atteint 680+</li>
+      </ul>
+
+      <h2 className="text-xl font-extrabold text-midnight">Conseils clés</h2>
+      <ul className="space-y-2">
+        <li>Travaillez avec un <InternalLink slug="courtier-hypothecaire-vs-banque-immigrant">courtier hypothécaire</InternalLink> — ils connaissent les prêteurs qui acceptent les dossiers difficiles</li>
+        <li>Augmentez votre mise de fonds : plus elle est élevée, plus vous compensez un mauvais crédit</li>
+        <li>Ne mentez jamais sur votre historique — les prêteurs vérifieront et le mensonge est un motif de refus immédiat</li>
+        <li>Un prêteur privé est une solution <strong>temporaire</strong> (1-2 ans) — planifiez le refinancement dès le départ</li>
+      </ul>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
+  // ====================================================
+  // ARTICLE 31: ASSURANCE HABITATION IMMIGRANT
+  // ====================================================
+  "assurance-habitation-immigrant-guide": (
+    <>
+      <p>
+        Votre prêteur hypothécaire exige une <strong>preuve d&apos;assurance habitation avant la fermeture</strong>. Sans elle,
+        pas de clés. Pour les immigrants sans historique d&apos;assurance canadien, les primes sont souvent plus élevées —
+        mais il existe des stratégies pour réduire les coûts.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Pourquoi c&apos;est obligatoire</h2>
+      <ul className="space-y-2">
+        <li><strong>Exigence du prêteur :</strong> La banque doit protéger son investissement — votre propriété est la garantie du prêt</li>
+        <li><strong>Couverture minimale :</strong> L&apos;assurance doit couvrir au minimum le montant du prêt hypothécaire</li>
+        <li><strong>Timing :</strong> La preuve doit être fournie au notaire/avocat <strong>avant le jour de la fermeture</strong></li>
+      </ul>
+
+      <WizardCta />
+
+      <h2 className="text-xl font-extrabold text-midnight">Types de couverture</h2>
+      <ul className="space-y-2">
+        <li><strong>Tous risques (comprehensive) :</strong> Couvre tous les sinistres sauf les exclusions nommées. Recommandé pour les propriétaires</li>
+        <li><strong>Risques désignés (named perils) :</strong> Couvre seulement les risques listés (feu, vol, tempête). Moins cher mais moins complet</li>
+        <li><strong>Condo :</strong> Couvre votre unité et vos biens — le syndicat couvre les parties communes. Voir notre guide <InternalLink slug="hypotheque-maison-vs-condo-immigrant">maison vs condo</InternalLink></li>
+      </ul>
+
+      <h2 className="text-xl font-extrabold text-midnight">Coûts typiques</h2>
+      <div className="overflow-x-auto">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="border-b border-gray-200">
+              <th className="text-left py-2 pr-4">Type</th>
+              <th className="text-left py-2 pr-4">Coût annuel</th>
+              <th className="text-left py-2">Notes</th>
+            </tr>
+          </thead>
+          <tbody className="text-gray-500">
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Maison unifamiliale</td><td className="pr-4">1 200 à 2 500$</td><td>Varie selon province et valeur</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Condo</td><td className="pr-4">400 à 800$</td><td>Moins cher (parties communes couvertes)</td></tr>
+            <tr><td className="py-2 pr-4">Duplex / triplex</td><td className="pr-4">1 500 à 3 000$</td><td>Plus élevé (risque locatif)</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        Le <a href="https://www.ibc.ca/about-home-insurance" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Bureau d&apos;assurance du Canada (BAC)</a> offre des
+        ressources pour comprendre vos options.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Réduire vos primes sans historique canadien</h2>
+      <ul className="space-y-2">
+        <li><strong>Regroupez :</strong> Achetez auto + habitation chez le même assureur pour un rabais de 10-20%</li>
+        <li><strong>Augmentez la franchise :</strong> Passer de 500$ à 1 000$ de franchise peut réduire la prime de 15%</li>
+        <li><strong>Système de sécurité :</strong> Alarme, détecteurs de fumée connectés, serrures intelligentes = rabais</li>
+        <li><strong>Demandez des lettres :</strong> Certains assureurs acceptent un historique d&apos;assurance de votre pays d&apos;origine</li>
+        <li><strong>Obtenez 3+ soumissions :</strong> Utilisez un courtier en assurance qui magasine pour vous auprès de <a href="https://www.infoassurance.ca/fr/trouver-un-representant-en-assurance" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">plusieurs assureurs</a></li>
+      </ul>
+      <p>
+        Ajoutez ce coût à votre <InternalLink slug="frais-caches-achat-maison-immigrant-checklist">checklist des frais de fermeture</InternalLink> pour
+        ne pas avoir de mauvaise surprise.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
+  // ====================================================
+  // ARTICLE 32: RÉFUGIÉS ET PERSONNES PROTÉGÉES
+  // ====================================================
+  "hypotheque-refugie-personne-protegee-canada": (
+    <>
+      <p>
+        Les réfugiés reconnus et les personnes protégées au Canada bénéficient de <strong>droits hypothécaires équivalents
+        aux résidents permanents</strong>. Vous êtes exemptés de la loi sur les acheteurs étrangers et éligibles au programme
+        SCHL Nouveaux Arrivants avec seulement <strong>5% de mise de fonds</strong>.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Votre statut juridique</h2>
+      <p>
+        Selon la <a href="https://www.canada.ca/fr/immigration-refugies-citoyennete/services/refugies/statut-personne-protegee.html" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Loi sur l&apos;immigration et la protection des réfugiés (LIPR)</a>,
+        une personne protégée inclut :
+      </p>
+      <ul className="space-y-2">
+        <li><strong>Réfugiés au sens de la Convention :</strong> Reconnus par la Commission de l&apos;immigration et du statut de réfugié (CISR)</li>
+        <li><strong>Personnes à protéger :</strong> Reconnues comme ayant besoin de protection contre la torture, les traitements cruels ou un risque pour leur vie</li>
+        <li><strong>Réfugiés parrainés par le gouvernement (RPG) :</strong> Réinstallés au Canada avec l&apos;aide du Programme d&apos;aide à la réinstallation (PAR)</li>
+        <li><strong>Réfugiés parrainés par le secteur privé (RPSP) :</strong> Réinstallés grâce à des groupes de parrainage</li>
+      </ul>
+
+      <WizardCta />
+
+      <h2 className="text-xl font-extrabold text-midnight">Vos avantages pour l&apos;accession à la propriété</h2>
+      <ul className="space-y-2">
+        <li><strong>Exemption de la loi sur les acheteurs étrangers :</strong> Vous pouvez acheter n&apos;importe où au Canada sans restriction</li>
+        <li><strong>Programme SCHL Nouveaux Arrivants :</strong> Mise de fonds 5%, crédit alternatif accepté (même sans historique canadien)</li>
+        <li><strong>Pas de taxe d&apos;acheteur étranger :</strong> Exemptés des taxes provinciales (Ontario NRST, BC Additional PTT)</li>
+        <li><strong>Programmes bancaires :</strong> Admissibles aux programmes Nouveaux Arrivants de toutes les grandes banques</li>
+      </ul>
+      <p>
+        Pour les détails du programme SCHL, consultez la page officielle sur le site de la <a href="https://www.cmhc-schl.gc.ca/consumers/home-buying/newcomers" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">SCHL pour les nouveaux arrivants</a>.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Défis spécifiques et solutions</h2>
+      <ul className="space-y-2">
+        <li><strong>Pas de crédit canadien :</strong> Utilisez le <InternalLink slug="hypotheque-sans-historique-credit">crédit alternatif</InternalLink> (loyer, factures, épargne régulière)</li>
+        <li><strong>Revenus limités au début :</strong> Le PAR offre un soutien financier la première année, mais les prêteurs préfèrent un emploi stable de 3+ mois</li>
+        <li><strong>Documents manquants :</strong> Si vous ne pouvez pas obtenir de documents de votre pays d&apos;origine, expliquez la situation à votre courtier — les prêteurs ont des processus d&apos;exception</li>
+        <li><strong>Mise de fonds :</strong> Combinez épargne, programmes gouvernementaux et potentiellement le <InternalLink slug="celiapp-rap-immigrant-premier-acheteur-2026">CELIAPP</InternalLink> (si admissible)</li>
+      </ul>
+
+      <h2 className="text-xl font-extrabold text-midnight">Étapes recommandées</h2>
+      <ul className="space-y-2">
+        <li><strong>Mois 1-3 :</strong> Ouvrez un compte bancaire, obtenez une carte sécurisée, commencez à bâtir votre crédit</li>
+        <li><strong>Mois 3-6 :</strong> Stabilisez votre emploi, commencez à épargner pour la mise de fonds</li>
+        <li><strong>Mois 6-12 :</strong> Ouvrez un CELIAPP si admissible, continuez l&apos;épargne et le crédit</li>
+        <li><strong>Mois 12-24 :</strong> Demandez une préapprobation avec le programme SCHL Nouveaux Arrivants</li>
+      </ul>
 
       <WizardCta variant="dark" />
     </>

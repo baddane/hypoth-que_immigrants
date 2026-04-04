@@ -1,5 +1,5 @@
 // ============================================
-// BLOG POSTS METADATA — 22 articles
+// BLOG POSTS METADATA — 34 articles
 // Data-driven: each post has metadata + markdown-like content sections
 // ============================================
 
@@ -278,6 +278,116 @@ export const blogPosts: BlogPost[] = [
     readTime: "9 min",
     wizardVariant: undefined,
     relatedSlugs: ["hypotheque-travailleur-temporaire-5pourcent", "hypotheque-permis-travail-ouvert", "hypotheque-etudiant-permis-postdiplome"],
+  },
+  // ====== ARTICLE #23 — CELIAPP ======
+  {
+    slug: "celiapp-rap-immigrant-premier-acheteur-2026",
+    title: "CELIAPP et RAP pour Immigrants : Guide Complet Premiers Acheteurs 2026",
+    subtitle: "8 000$/an déductibles d'impôt. Mais attention : posséder un bien à l'étranger peut vous disqualifier.",
+    description: "Guide CELIAPP et RAP pour immigrants premiers acheteurs au Canada. Admissibilité, piège du bien à l'étranger, stratégie combinée CELIAPP + RAP + REER.",
+    category: "Financement",
+    readTime: "10 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-reer-rap-immigrant-premier-achat", "hypotheque-amortissement-duree-choix", "hypotheque-travailleur-temporaire-5pourcent"],
+  },
+  // ====== ARTICLE #24 — INTERDICTION ACHAT NON-CANADIENS ======
+  {
+    slug: "interdiction-achat-non-canadien-exemptions-2027",
+    title: "Interdiction d'Achat pour Non-Canadiens : Exemptions et Fin Prévue 2027",
+    subtitle: "La loi expire le 1er janvier 2027. RP, permis de travail 183+ jours et réfugiés sont exemptés.",
+    description: "Guide sur la Loi sur l'interdiction d'achat de propriété par les non-Canadiens. Exemptions pour RP, travailleurs temporaires, réfugiés. Fin prévue janvier 2027.",
+    category: "Légal",
+    readTime: "9 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-taxe-acheteur-etranger-exemption", "hypotheque-permis-travail-ouvert", "hypotheque-etudiant-permis-postdiplome"],
+  },
+  // ====== ARTICLE #25 — FRAIS CACHÉS ======
+  {
+    slug: "frais-caches-achat-maison-immigrant-checklist",
+    title: "Tous les Frais Cachés de l'Achat Immobilier pour Immigrants (Checklist)",
+    subtitle: "Taxe de bienvenue, notaire, inspection, assurance titre : 2 à 3% du prix en frais souvent oubliés.",
+    description: "Checklist complète des frais cachés lors de l'achat d'une maison au Canada pour immigrants. Taxe de bienvenue, notaire, inspection, assurance titre et plus.",
+    category: "Achat",
+    readTime: "10 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-timeline-fermeture-immigrant", "hypotheque-maison-vs-condo-immigrant", "preapprobation-hypotheque-immigrant"],
+  },
+  // ====== ARTICLE #26 — DUPLEX / TRIPLEX ======
+  {
+    slug: "acheter-duplex-triplex-immigrant-mise-de-fonds",
+    title: "Acheter un Duplex ou Triplex comme Immigrant : Mise de Fonds et Financement",
+    subtitle: "Duplex occupé = 5% de mise de fonds. Triplex = 10%. Revenus locatifs comptés à 80%.",
+    description: "Guide achat duplex et triplex pour immigrants au Canada. Mise de fonds minimale, revenus locatifs, financement SCHL et restrictions pour non-RP.",
+    category: "Achat",
+    readTime: "10 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-maison-vs-condo-immigrant", "hypotheque-travailleur-temporaire-5pourcent", "interdiction-achat-non-canadien-exemptions-2027"],
+  },
+  // ====== ARTICLE #27 — CONSTRUIRE SON CRÉDIT ======
+  {
+    slug: "construire-credit-canadien-6-mois-immigrant",
+    title: "Construire son Crédit Canadien en 6 Mois : Plan d'Action pour Immigrants",
+    subtitle: "De 0 à 680+ en 6 mois. Plan mois par mois avec carte sécurisée, factures et stratégies.",
+    description: "Plan d'action mois par mois pour construire votre crédit canadien en tant qu'immigrant. De la carte sécurisée au score 680+ en 6 mois.",
+    category: "Crédit",
+    readTime: "9 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-sans-historique-credit", "hypotheque-score-credit-minimum-immigrant", "hypotheque-credit-international-alternative-data"],
+  },
+  // ====== ARTICLE #28 — TRANSFÉRER MISE DE FONDS ======
+  {
+    slug: "transferer-mise-de-fonds-etranger-canada",
+    title: "Transférer sa Mise de Fonds de l'Étranger : Guide Anti-Blanchiment et Preuves",
+    subtitle: "90 jours d'historique, preuve d'origine des fonds, conversion de devises. Tout ce qu'il faut savoir.",
+    description: "Comment transférer votre mise de fonds de l'étranger vers le Canada. Règles anti-blanchiment, preuves exigées par les banques, conversion de devises.",
+    category: "Financement",
+    readTime: "9 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-revenu-etranger-convert", "preapprobation-hypotheque-immigrant", "hypotheque-travailleur-temporaire-5pourcent"],
+  },
+  // ====== ARTICLE #29 — COURTIER VS BANQUE ======
+  {
+    slug: "courtier-hypothecaire-vs-banque-immigrant",
+    title: "Courtier Hypothécaire vs Banque : Quel Choix pour un Immigrant au Canada",
+    subtitle: "Un courtier accède à 30+ prêteurs et comprend mieux les dossiers atypiques d'immigrants.",
+    description: "Comparaison courtier hypothécaire vs banque pour immigrants. Avantages, coûts, accès aux prêteurs et pourquoi un courtier spécialisé change tout.",
+    category: "Processus",
+    readTime: "8 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["preapprobation-hypotheque-immigrant", "hypotheque-taux-fixe-variable-immigrant", "hypotheque-travailleur-temporaire-5pourcent"],
+  },
+  // ====== ARTICLE #30 — APRÈS FAILLITE ======
+  {
+    slug: "hypotheque-apres-faillite-mauvais-credit-immigrant",
+    title: "Hypothèque Après Faillite ou Mauvais Crédit : Options pour Immigrants",
+    subtitle: "2 ans après libération de faillite, vous pouvez obtenir une hypothèque. Voici comment.",
+    description: "Guide hypothèque après faillite ou mauvais crédit pour immigrants au Canada. Délais, prêteurs B, prêteurs privés et stratégie de reconstruction.",
+    category: "Crédit",
+    readTime: "9 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-score-credit-minimum-immigrant", "construire-credit-canadien-6-mois-immigrant", "hypotheque-sans-historique-credit"],
+  },
+  // ====== ARTICLE #31 — ASSURANCE HABITATION ======
+  {
+    slug: "assurance-habitation-immigrant-guide",
+    title: "Assurance Habitation pour Immigrants : Ce Que Vous Devez Savoir Avant la Fermeture",
+    subtitle: "Obligatoire pour la fermeture hypothécaire. Sans historique canadien, les primes sont plus élevées.",
+    description: "Guide assurance habitation pour immigrants au Canada. Obligatoire pour la fermeture, comment réduire les primes sans historique canadien.",
+    category: "Achat",
+    readTime: "7 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-timeline-fermeture-immigrant", "frais-caches-achat-maison-immigrant-checklist", "hypotheque-maison-vs-condo-immigrant"],
+  },
+  // ====== ARTICLE #32 — RÉFUGIÉS ======
+  {
+    slug: "hypotheque-refugie-personne-protegee-canada",
+    title: "Hypothèque pour Réfugiés et Personnes Protégées au Canada : Guide Complet",
+    subtitle: "Exemptés de la loi sur les acheteurs étrangers et éligibles au programme SCHL Nouveaux Arrivants.",
+    description: "Guide hypothèque pour réfugiés et personnes protégées au Canada. Admissibilité SCHL, exemptions légales, programmes bancaires et aide gouvernementale.",
+    category: "Statut Immigration",
+    readTime: "8 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["interdiction-achat-non-canadien-exemptions-2027", "hypotheque-sans-historique-credit", "hypotheque-travailleur-temporaire-5pourcent"],
   },
 ];
 
