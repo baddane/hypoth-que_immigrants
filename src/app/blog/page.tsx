@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     "Articles et guides complets sur l'hypothèque pour immigrants au Canada. Travailleurs temporaires, étudiants, résidents permanents.",
   openGraph: {
     title: "Guides Hypothèque Immigrants Canada",
-    description: "34 guides complets pour obtenir votre hypothèque au Canada en tant qu'immigrant.",
+    description: "40 guides complets pour obtenir votre hypothèque au Canada en tant qu'immigrant.",
     url: `${SITE_URL}/blog`,
     type: "website",
   },
@@ -38,11 +38,11 @@ export default function BlogPage() {
   return (
     <section className="py-20 bg-white min-h-screen">
       <div className="max-w-[1240px] mx-auto px-6">
-        <p className="uppercase text-xs tracking-[0.3em] text-gold font-semibold mb-4">Blog & Guides</p>
+        <p className="uppercase text-sm tracking-[0.3em] text-gold font-semibold mb-4">Blog & Guides</p>
         <h1 className="text-3xl md:text-5xl mb-4 font-extrabold text-midnight">
           Guides <span className="text-gold">Hypothèque</span> pour Immigrants
         </h1>
-        <p className="text-gray-500 mb-12 max-w-xl">
+        <p className="text-gray-500 mb-12 max-w-xl text-lg">
           {blogPosts.length} guides complets pour obtenir votre hypothèque au Canada en tant qu&apos;immigrant.
         </p>
 
@@ -57,8 +57,8 @@ export default function BlogPage() {
           <h2 className="text-2xl md:text-3xl mt-4 mb-3 font-extrabold group-hover:text-gold transition">
             {pillar.title}
           </h2>
-          <p className="text-gray-400 mb-4 max-w-xl">{pillar.subtitle}</p>
-          <span className="text-xs text-gray-500">{pillar.readTime} de lecture</span>
+          <p className="text-gray-400 mb-4 max-w-xl text-lg">{pillar.subtitle}</p>
+          <span className="text-sm text-gray-500">{pillar.readTime} de lecture</span>
         </Link>
 
         {/* Wizard Variants */}
@@ -74,7 +74,7 @@ export default function BlogPage() {
                 className="bg-cream rounded-2xl p-4 border border-gray-100 hover:border-gold/30 transition group text-center"
               >
                 <span className="text-2xl block mb-2">{v.badgeEmoji}</span>
-                <span className="text-sm font-semibold text-midnight group-hover:text-gold transition">{v.badge}</span>
+                <span className="text-base font-semibold text-midnight group-hover:text-gold transition">{v.badge}</span>
               </Link>
             ))}
           </div>
@@ -94,14 +94,14 @@ export default function BlogPage() {
                     href={`/blog/${post.slug}`}
                     className="bg-cream rounded-[30px] p-6 border border-gray-100 hover:border-gold/30 transition group"
                   >
-                    <span className="text-[10px] bg-gold-light text-gold px-3 py-1 rounded-lg uppercase tracking-wider font-semibold">
+                    <span className="text-xs bg-gold-light text-gold px-3 py-1 rounded-lg uppercase tracking-wider font-semibold">
                       {post.category}
                     </span>
                     <h3 className="text-lg mt-3 mb-2 font-extrabold text-midnight group-hover:text-gold transition">
                       {post.title}
                     </h3>
-                    <p className="text-sm text-gray-400 mb-3 line-clamp-2">{post.subtitle}</p>
-                    <div className="flex items-center gap-2 text-xs text-gray-400 font-semibold">
+                    <p className="text-base text-gray-400 mb-3 line-clamp-2">{post.subtitle}</p>
+                    <div className="flex items-center gap-2 text-sm text-gray-400 font-semibold">
                       <span>{post.readTime} de lecture</span>
                       {post.wizardVariant && (
                         <>
@@ -120,7 +120,7 @@ export default function BlogPage() {
         {/* CTA */}
         <div className="bg-gold-light rounded-[30px] p-10 text-center border border-gold/20">
           <h2 className="text-2xl mb-4 font-extrabold text-midnight">Prêt à passer à l&apos;action ?</h2>
-          <p className="text-sm text-gray-500 mb-6">
+          <p className="text-base text-gray-500 mb-6">
             Découvrez combien vous pouvez emprunter en 5 minutes avec notre wizard gratuit.
           </p>
           <Link

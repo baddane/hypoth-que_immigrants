@@ -74,7 +74,7 @@ export default function Home() {
       <section className="bg-white min-h-[90vh] flex items-center">
         <div className="max-w-[1240px] mx-auto px-6 py-20 grid md:grid-cols-2 gap-16 items-center">
           <div>
-            <p className="uppercase text-xs tracking-[0.3em] text-gold font-semibold mb-6">
+            <p className="uppercase text-sm tracking-[0.3em] text-gold font-semibold mb-6">
               Guide-Hypotheque.ca
             </p>
             <h1 className="text-4xl md:text-6xl leading-tight mb-6 font-extrabold text-midnight">
@@ -84,7 +84,7 @@ export default function Home() {
               <br />
               <span className="text-gold">en 5 Minutes</span>
             </h1>
-            <p className="text-gray-500 max-w-lg mb-8 text-lg">
+            <p className="text-gray-500 max-w-lg mb-8 text-xl">
               Wizard gratuit pour immigrants au Canada. Découvrez combien vous pouvez emprunter et recevez des offres de courtiers spécialisés.
             </p>
 
@@ -97,7 +97,7 @@ export default function Home() {
 
             <ul className="space-y-3">
               {trustSignals.map((signal) => (
-                <li key={signal.text} className="flex items-center gap-3 text-sm text-gray-600">
+                <li key={signal.text} className="flex items-center gap-3 text-base text-gray-600">
                   <span className="w-6 h-6 bg-gold-light rounded-full flex items-center justify-center flex-shrink-0">
                     <svg className="w-3.5 h-3.5 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
@@ -118,11 +118,11 @@ export default function Home() {
                   </svg>
                 </div>
                 <h3 className="text-xl mb-2 font-extrabold text-midnight">Wizard Hypothèque</h3>
-                <p className="text-sm text-gray-400">7 étapes simples vers votre hypothèque</p>
+                <p className="text-base text-gray-400">7 étapes simples vers votre hypothèque</p>
               </div>
               <div className="space-y-3 mb-6">
                 {["Statut Immigration", "Durée au Canada", "Historique Crédit", "Revenu Annuel", "Apport Initial", "Province", "Vos Coordonnées"].map((step, i) => (
-                  <div key={step} className="flex items-center gap-3 text-sm">
+                  <div key={step} className="flex items-center gap-3 text-base">
                     <span className="w-8 h-8 bg-gold-light rounded-lg flex items-center justify-center text-xs font-bold text-gold">{i + 1}</span>
                     <span className="text-gray-600">{step}</span>
                   </div>
@@ -142,7 +142,7 @@ export default function Home() {
       {/* SOCIAL PROOF */}
       <section className="border-y border-gray-200 bg-cream py-12">
         <div className="max-w-[1240px] mx-auto px-6">
-          <p className="text-center text-xs text-gray-400 uppercase tracking-wider font-semibold mb-8">Nos partenaires bancaires</p>
+          <p className="text-center text-sm text-gray-400 uppercase tracking-wider font-semibold mb-8">Nos partenaires bancaires</p>
           <div className="flex flex-wrap justify-center gap-8">
             {["RBC", "TD", "CIBC", "BMO", "Scotiabank", "Nesto"].map((bank) => (
               <div key={bank} className="bg-white px-6 py-3 rounded-2xl font-extrabold text-gray-400 text-lg hover:text-gold transition border border-gray-100">
@@ -156,7 +156,7 @@ export default function Home() {
       {/* TESTIMONIALS */}
       <section className="py-20 bg-white">
         <div className="max-w-[1240px] mx-auto px-6">
-          <p className="uppercase text-xs tracking-[0.3em] text-gold font-semibold mb-4 text-center">Témoignages</p>
+          <p className="uppercase text-sm tracking-[0.3em] text-gold font-semibold mb-4 text-center">Témoignages</p>
           <h2 className="text-3xl md:text-4xl text-center mb-12 font-extrabold text-midnight">
             Ce qu&apos;ils <span className="text-gold">disent</span>
           </h2>
@@ -168,10 +168,10 @@ export default function Home() {
                     <span key={i}>&#9733;</span>
                   ))}
                 </div>
-                <p className="text-gray-600 text-sm leading-relaxed mb-6">&ldquo;{t.text}&rdquo;</p>
+                <p className="text-gray-600 text-base leading-relaxed mb-6">&ldquo;{t.text}&rdquo;</p>
                 <div>
-                  <p className="font-semibold text-sm text-midnight">{t.name}</p>
-                  <p className="text-xs text-gray-400">{t.role}</p>
+                  <p className="font-semibold text-base text-midnight">{t.name}</p>
+                  <p className="text-sm text-gray-400">{t.role}</p>
                 </div>
               </div>
             ))}
@@ -182,19 +182,19 @@ export default function Home() {
       {/* HOW IT WORKS */}
       <section className="py-20 bg-midnight text-white">
         <div className="max-w-[1240px] mx-auto px-6">
-          <p className="uppercase text-xs tracking-[0.3em] text-gold font-semibold mb-4 text-center">Processus</p>
+          <p className="uppercase text-sm tracking-[0.3em] text-gold font-semibold mb-4 text-center">Processus</p>
           <h2 className="text-3xl md:text-4xl text-center mb-4 font-extrabold">
             Comment ça <span className="text-gold">fonctionne ?</span>
           </h2>
-          <p className="text-gray-400 text-center mb-12 max-w-lg mx-auto">
+          <p className="text-gray-400 text-center mb-12 max-w-lg mx-auto text-lg">
             Un processus simple et gratuit pour obtenir votre hypothèque en tant qu&apos;immigrant au Canada.
           </p>
           <div className="grid md:grid-cols-4 gap-8">
             {steps.map((step) => (
               <div key={step.num} className="text-center">
                 <div className="text-5xl font-extrabold text-gold mb-4">{step.num}</div>
-                <h3 className="font-semibold mb-2 text-white">{step.title}</h3>
-                <p className="text-sm text-gray-400">{step.desc}</p>
+                <h3 className="text-lg font-semibold mb-2 text-white">{step.title}</h3>
+                <p className="text-base text-gray-400">{step.desc}</p>
               </div>
             ))}
           </div>
@@ -212,15 +212,15 @@ export default function Home() {
       {/* MINI FAQ */}
       <section className="py-20 bg-cream">
         <div className="max-w-3xl mx-auto px-6">
-          <p className="uppercase text-xs tracking-[0.3em] text-gold font-semibold mb-4 text-center">Questions Rapides</p>
+          <p className="uppercase text-sm tracking-[0.3em] text-gold font-semibold mb-4 text-center">Questions Rapides</p>
           <h2 className="text-3xl text-center mb-12 font-extrabold text-midnight">
             Vos questions <span className="text-gold">fréquentes</span>
           </h2>
           <div className="space-y-4 mb-10">
             {miniFaq.map((item) => (
               <div key={item.q} className="bg-white rounded-2xl p-6 border border-gray-100">
-                <h3 className="font-semibold text-sm mb-2 text-midnight">{item.q}</h3>
-                <p className="text-sm text-gray-500">{item.a}</p>
+                <h3 className="font-semibold text-base mb-2 text-midnight">{item.q}</h3>
+                <p className="text-base text-gray-500">{item.a}</p>
               </div>
             ))}
           </div>
@@ -238,7 +238,7 @@ export default function Home() {
           <h2 className="text-3xl md:text-5xl mb-6 font-extrabold text-midnight">
             Prêt à devenir <span className="text-gold">propriétaire ?</span>
           </h2>
-          <p className="text-gray-500 mb-10 max-w-lg mx-auto">
+          <p className="text-gray-500 mb-10 max-w-lg mx-auto text-lg">
             Rejoignez les milliers d&apos;immigrants qui ont obtenu leur hypothèque grâce à notre wizard gratuit.
           </p>
           <Link
@@ -247,7 +247,7 @@ export default function Home() {
           >
             Commencer le Wizard Gratuit
           </Link>
-          <p className="text-xs text-gray-400 mt-4">Gratuit &bull; 5 minutes &bull; Sans engagement</p>
+          <p className="text-sm text-gray-400 mt-4">Gratuit &bull; 5 minutes &bull; Sans engagement</p>
         </div>
       </section>
 

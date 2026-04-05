@@ -1976,4 +1976,520 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  "assurance-hypothecaire-schl-primes-guide-2026": (
+    <>
+      <h2>Qu&rsquo;est-ce que l&rsquo;assurance hypothécaire SCHL ?</h2>
+      <p>
+        Au Canada, si votre mise de fonds est inférieure à 20 % du prix d&rsquo;achat, vous devez obligatoirement souscrire une <strong>assurance prêt hypothécaire</strong>. Cette assurance protège le prêteur (pas vous) en cas de défaut de paiement. Elle est fournie par la <strong>SCHL (Société canadienne d&rsquo;hypothèques et de logement)</strong>, aussi connue sous le nom anglais CMHC, ou par des assureurs privés comme Sagen et Canada Guaranty.
+      </p>
+      <p>
+        Pour les immigrants, c&rsquo;est souvent une <strong>bonne nouvelle</strong> : grâce à cette assurance, vous pouvez acheter avec seulement 5 % de mise de fonds au lieu de 20 %. Le coût de la prime est ajouté à votre hypothèque et réparti sur vos paiements mensuels.
+      </p>
+      <p>
+        Source officielle : <a href="https://www.cmhc-schl.gc.ca/consumers/home-buying/mortgage-loan-insurance-for-consumers/cmhc-mortgage-loan-insurance-cost" target="_blank" rel="noopener noreferrer">Coût de l&rsquo;assurance prêt hypothécaire SCHL</a>.
+      </p>
+
+      <WizardCta />
+
+      <h2>Tableau des primes SCHL 2026 selon la mise de fonds</h2>
+      <p>
+        Le taux de prime dépend du <strong>ratio prêt-valeur (RPV)</strong>, c&rsquo;est-à-dire le pourcentage du prix financé par l&rsquo;hypothèque. Voici le tableau officiel simplifié :
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Mise de fonds</th>
+            <th>Ratio prêt-valeur</th>
+            <th>Prime SCHL (% du prêt)</th>
+            <th>Exemple sur 400 000 $</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>5 %</td><td>95 %</td><td>4,00 %</td><td>15 200 $</td></tr>
+          <tr><td>10 %</td><td>90 %</td><td>3,10 %</td><td>11 160 $</td></tr>
+          <tr><td>15 %</td><td>85 %</td><td>2,80 %</td><td>9 520 $</td></tr>
+          <tr><td>20 % ou plus</td><td>80 % ou moins</td><td>0 % (aucune prime)</td><td>0 $</td></tr>
+        </tbody>
+      </table>
+      <p>
+        <strong>Attention</strong> : la prime est calculée sur le <em>montant du prêt</em>, pas sur le prix de la propriété. Elle est ensuite ajoutée au solde de votre hypothèque. Par exemple, pour une maison de 400 000 $ avec 5 % de mise de fonds (20 000 $), le prêt est de 380 000 $ et la prime SCHL de 4 % = 15 200 $. Votre hypothèque totale sera donc de 395 200 $.
+      </p>
+
+      <h2>Cas spéciaux pour les immigrants</h2>
+      <p>
+        Le <strong>programme SCHL Nouveaux Arrivants</strong> permet aux résidents permanents et certains travailleurs temporaires d&rsquo;acheter avec seulement 5 % de mise de fonds, même <strong>sans historique de crédit canadien</strong>. Conditions clés :
+      </p>
+      <ul>
+        <li>Être arrivé au Canada depuis moins de 5 ans (résidents permanents) ou avoir un permis de travail valide</li>
+        <li>Avoir un emploi stable au Canada</li>
+        <li>La mise de fonds doit provenir de vos propres ressources (épargne, don familial documenté)</li>
+        <li>Maximum 25 ans d&rsquo;amortissement (30 ans si premier achat depuis décembre 2024)</li>
+      </ul>
+      <p>
+        Détails complets dans notre article <InternalLink slug="programme-schl-nouveaux-arrivants-guide-complet">Programme SCHL Nouveaux Arrivants</InternalLink>.
+      </p>
+
+      <h2>Comment réduire le coût de l&rsquo;assurance SCHL</h2>
+      <p>
+        La prime SCHL peut représenter des milliers de dollars, mais vous avez des leviers pour la réduire :
+      </p>
+      <ul>
+        <li><strong>Augmentez votre mise de fonds</strong> : passer de 5 % à 10 % réduit la prime de 4,00 % à 3,10 % — une économie de plus de 3 000 $ sur un prêt de 360 000 $</li>
+        <li><strong>Utilisez le CELIAPP + RAP</strong> : combinez le Compte d&rsquo;épargne libre d&rsquo;impôt pour l&rsquo;achat d&rsquo;une première propriété (40 000 $) et le Régime d&rsquo;accession à la propriété (60 000 $) pour constituer une mise de fonds plus importante. Voir notre <InternalLink slug="celiapp-rap-immigrant-premier-acheteur-2026">guide CELIAPP + RAP</InternalLink></li>
+        <li><strong>Visez la barre des 20 %</strong> : si vous pouvez atteindre 20 % de mise de fonds, aucune prime n&rsquo;est requise</li>
+        <li><strong>Comparez les assureurs</strong> : Sagen et Canada Guaranty offrent parfois des primes légèrement différentes de la SCHL</li>
+      </ul>
+      <p>
+        Référence : <a href="https://www.cmhc-schl.gc.ca/consumers/home-buying/mortgage-loan-insurance-for-consumers" target="_blank" rel="noopener noreferrer">Page SCHL - Assurance prêt hypothécaire pour consommateurs</a>.
+      </p>
+
+      <h2>Questions fréquentes sur l&rsquo;assurance SCHL</h2>
+      <p><strong>La prime est-elle remboursable ?</strong> Non. Une fois payée, la prime n&rsquo;est pas remboursable, même si vous vendez la propriété rapidement.</p>
+      <p><strong>Peut-on transférer l&rsquo;assurance ?</strong> Oui, dans certains cas, l&rsquo;assurance SCHL est portable : si vous vendez et achetez une nouvelle propriété, vous pouvez transférer la prime restante.</p>
+      <p><strong>L&rsquo;assurance SCHL est-elle la même chose que l&rsquo;assurance habitation ?</strong> Non. L&rsquo;assurance SCHL protège le <em>prêteur</em>. L&rsquo;assurance habitation protège <em>vous et votre propriété</em>. Les deux sont obligatoires. Voir notre <InternalLink slug="assurance-habitation-immigrant-guide">guide assurance habitation</InternalLink>.</p>
+      <p><strong>Prix maximum assuré ?</strong> La SCHL assure les propriétés jusqu&rsquo;à 1,5 million de dollars (depuis décembre 2024).</p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
+  "stress-test-hypothecaire-canada-immigrant-guide": (
+    <>
+      <h2>Qu&rsquo;est-ce que le stress test hypothécaire ?</h2>
+      <p>
+        Depuis 2018, <strong>tous les acheteurs au Canada</strong> doivent passer un « test de résistance » (stress test) avant d&rsquo;obtenir une hypothèque. L&rsquo;objectif : vérifier que vous pourriez continuer à payer votre hypothèque même si les taux d&rsquo;intérêt augmentent significativement.
+      </p>
+      <p>
+        Concrètement, votre banque ne vous qualifie <strong>pas au taux réel</strong> de votre hypothèque, mais à un taux plus élevé appelé <strong>taux de qualification</strong>. En 2026, ce taux correspond au plus élevé entre :
+      </p>
+      <ul>
+        <li>Votre taux contractuel + 2 %</li>
+        <li>Le taux plancher du BSIF (Bureau du surintendant des institutions financières)</li>
+      </ul>
+      <p>
+        Par exemple, si vous obtenez un taux de 4,50 %, vous devez démontrer que vous pouvez assumer des paiements à 6,50 %. Cette règle est imposée par le <a href="https://www.osfi-bsif.gc.ca/en" target="_blank" rel="noopener noreferrer">BSIF (OSFI)</a> et s&rsquo;applique à toutes les banques réglementées au fédéral.
+      </p>
+
+      <WizardCta />
+
+      <h2>Les deux ratios que la banque calcule : ABD et ATD</h2>
+      <p>
+        Le stress test utilise deux ratios pour évaluer votre capacité d&rsquo;emprunt. Ces ratios sont calculés au <strong>taux de qualification</strong>, pas au taux réel :
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Ratio</th>
+            <th>Formule</th>
+            <th>Maximum</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>ABD</strong> (Amortissement Brut de la Dette)</td>
+            <td>(Paiement hypothécaire + taxes + chauffage + 50 % frais condo) ÷ Revenu brut</td>
+            <td>39 %</td>
+          </tr>
+          <tr>
+            <td><strong>ATD</strong> (Amortissement Total de la Dette)</td>
+            <td>(Coûts logement + toutes les dettes) ÷ Revenu brut</td>
+            <td>44 %</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        <strong>Pour les immigrants</strong>, le défi est souvent l&rsquo;ATD : si vous avez un prêt auto, des cartes de crédit ou un prêt étudiant, ces dettes réduisent votre capacité d&rsquo;emprunt hypothécaire. Rembourser ou consolider vos dettes avant de faire une demande est une stratégie efficace.
+      </p>
+
+      <h2>Impact concret : combien pouvez-vous emprunter ?</h2>
+      <p>
+        Voici un exemple simplifié pour un couple immigrant avec un revenu brut combiné de 120 000 $ :
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Scénario</th>
+            <th>Taux réel</th>
+            <th>Taux qualification</th>
+            <th>Capacité d&rsquo;emprunt approx.</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Sans autres dettes</td><td>4,50 %</td><td>6,50 %</td><td>~480 000 $</td></tr>
+          <tr><td>Avec prêt auto 500 $/mois</td><td>4,50 %</td><td>6,50 %</td><td>~390 000 $</td></tr>
+          <tr><td>Avec dettes totales 1 000 $/mois</td><td>4,50 %</td><td>6,50 %</td><td>~300 000 $</td></tr>
+        </tbody>
+      </table>
+      <p>
+        Le stress test réduit typiquement votre capacité d&rsquo;emprunt de <strong>15 à 20 %</strong> par rapport à une qualification au taux réel. Vous pouvez estimer votre situation avec l&rsquo;<a href="https://itools-ioutils.fcac-acfc.gc.ca/MQ-HQ/MQ-EAPH-fra.aspx" target="_blank" rel="noopener noreferrer">outil de qualification hypothécaire de l&rsquo;ACFC</a>.
+      </p>
+
+      <h2>5 stratégies pour maximiser votre qualification</h2>
+      <ul>
+        <li><strong>Remboursez vos dettes</strong> : chaque 100 $ de paiement mensuel éliminé libère environ 20 000 $ de capacité hypothécaire</li>
+        <li><strong>Augmentez la mise de fonds</strong> : plus elle est élevée, moins le prêt est gros, plus facile de passer le test. Voir <InternalLink slug="celiapp-rap-immigrant-premier-acheteur-2026">CELIAPP + RAP pour accumuler plus</InternalLink></li>
+        <li><strong>Ajoutez un co-emprunteur</strong> : le revenu combiné augmente votre capacité. Un conjoint qui travaille fait une différence majeure</li>
+        <li><strong>Choisissez un amortissement de 30 ans</strong> : disponible pour les premiers acheteurs depuis décembre 2024, ça réduit les paiements mensuels et améliore vos ratios</li>
+        <li><strong>Optimisez votre cote de crédit</strong> : une meilleure cote donne accès à de meilleurs taux, donc un stress test moins sévère. Voir <InternalLink slug="construire-credit-canadien-6-mois-immigrant">construire votre crédit en 6 mois</InternalLink></li>
+      </ul>
+
+      <h2>Le stress test s&rsquo;applique-t-il au renouvellement ?</h2>
+      <p>
+        <strong>Bonne nouvelle</strong> : si vous renouvelez chez le <em>même prêteur</em>, le stress test ne s&rsquo;applique pas. Cependant, si vous changez de prêteur pour obtenir un meilleur taux, vous devrez repasser le test. C&rsquo;est pourquoi certains emprunteurs se retrouvent « coincés » avec leur prêteur actuel au renouvellement.
+      </p>
+      <p>
+        Pour les immigrants, la situation s&rsquo;améliore généralement au renouvellement : après 5 ans au Canada, vous avez un historique de crédit établi et possiblement un revenu plus élevé, ce qui facilite la qualification.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
+  "droits-mutation-immobiliere-province-rabais-premier-acheteur": (
+    <>
+      <h2>Qu&rsquo;est-ce que les droits de mutation immobilière ?</h2>
+      <p>
+        Les <strong>droits de mutation immobilière</strong> (aussi appelés « taxe de bienvenue » au Québec ou « land transfer tax » en anglais) sont une taxe provinciale ou municipale que vous payez lors de l&rsquo;achat d&rsquo;une propriété. C&rsquo;est un <strong>frais de clôture majeur</strong> que beaucoup d&rsquo;immigrants sous-estiment.
+      </p>
+      <p>
+        Cette taxe varie considérablement selon la province et le prix d&rsquo;achat. Pour une propriété de 500 000 $, vous pourriez payer entre 0 $ (Alberta) et plus de 12 000 $ (Toronto). Bonne nouvelle : plusieurs provinces offrent des <strong>rabais pour les premiers acheteurs</strong>, y compris les immigrants admissibles.
+      </p>
+
+      <WizardCta />
+
+      <h2>Tableau comparatif par province (propriété de 500 000 $)</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Province</th>
+            <th>Droits de mutation</th>
+            <th>Rabais 1er acheteur</th>
+            <th>Coût net pour 1er acheteur</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Québec</strong></td><td>~5 500 $</td><td>Aucun rabais provincial</td><td>~5 500 $</td></tr>
+          <tr><td><strong>Ontario</strong></td><td>~6 475 $</td><td>Jusqu&rsquo;à 4 000 $</td><td>~2 475 $</td></tr>
+          <tr><td><strong>Toronto</strong> (ON + municipal)</td><td>~12 950 $</td><td>Jusqu&rsquo;à 8 475 $</td><td>~4 475 $</td></tr>
+          <tr><td><strong>Colombie-Britannique</strong></td><td>~8 000 $</td><td>Jusqu&rsquo;à 8 000 $ (si &lt; 500 K)</td><td>0 $ (si &lt; 500 K)</td></tr>
+          <tr><td><strong>Alberta</strong></td><td>~350 $ (frais seulement)</td><td>N/A</td><td>~350 $</td></tr>
+          <tr><td><strong>Manitoba</strong></td><td>~5 250 $</td><td>Aucun rabais</td><td>~5 250 $</td></tr>
+          <tr><td><strong>Î.-P.-É.</strong></td><td>~5 000 $</td><td>Jusqu&rsquo;à 2 000 $</td><td>~3 000 $</td></tr>
+          <tr><td><strong>Saskatchewan</strong></td><td>~1 500 $ (frais seulement)</td><td>N/A</td><td>~1 500 $</td></tr>
+        </tbody>
+      </table>
+      <p>
+        Source : <a href="https://www.ratehub.ca/land-transfer-tax" target="_blank" rel="noopener noreferrer">Ratehub.ca — Land Transfer Tax Calculator</a>. Les montants sont approximatifs et varient selon les municipalités.
+      </p>
+
+      <h2>Rabais premier acheteur : êtes-vous éligible en tant qu&rsquo;immigrant ?</h2>
+      <p>
+        Les critères d&rsquo;éligibilité varient par province, mais en général :
+      </p>
+      <ul>
+        <li><strong>Citoyen canadien ou résident permanent</strong> — les travailleurs temporaires ne sont généralement pas éligibles aux rabais (mais peuvent acheter)</li>
+        <li><strong>18 ans ou plus</strong></li>
+        <li><strong>N&rsquo;avoir jamais possédé de propriété</strong> — nulle part dans le monde (certaines provinces) ou au Canada seulement (d&rsquo;autres provinces)</li>
+        <li><strong>Occuper la propriété comme résidence principale</strong></li>
+        <li><strong>Votre conjoint ne doit pas avoir possédé de propriété</strong> pendant votre union</li>
+      </ul>
+      <p>
+        <strong>Conseil pour immigrants</strong> : si vous avez possédé une propriété dans votre pays d&rsquo;origine, vérifiez les règles spécifiques de votre province. L&rsquo;Ontario et la C-B considèrent que vous devez n&rsquo;avoir jamais possédé de propriété <em>dans le monde entier</em>, tandis que d&rsquo;autres provinces ne regardent que le Canada.
+      </p>
+
+      <h2>Focus Québec : la « taxe de bienvenue »</h2>
+      <p>
+        Au Québec, les droits de mutation sont calculés selon des <strong>tranches progressives</strong> basées sur le plus élevé entre le prix d&rsquo;achat et l&rsquo;évaluation municipale :
+      </p>
+      <ul>
+        <li>0,5 % sur les premiers 58 900 $</li>
+        <li>1,0 % de 58 900 $ à 294 600 $</li>
+        <li>1,5 % de 294 600 $ à 500 000 $</li>
+        <li>3,0 % au-delà de 500 000 $ (à Montréal : barèmes spécifiques)</li>
+      </ul>
+      <p>
+        Le Québec ne prévoit <strong>aucun rabais</strong> pour les premiers acheteurs sur les droits de mutation. Cependant, la Ville de Montréal offre occasionnellement des programmes de remboursement partiel. Consultez notre <InternalLink slug="hypotheque-francophone-quebec">guide hypothèque Québec</InternalLink> pour plus de détails.
+      </p>
+
+      <h2>Comment budgéter les droits de mutation dans votre plan d&rsquo;achat</h2>
+      <p>
+        Les droits de mutation sont payés <strong>dans les 30 jours</strong> suivant l&rsquo;achat (au Québec, votre notaire émet la facture). Contrairement à la mise de fonds, vous ne pouvez <strong>pas les financer dans votre hypothèque</strong>. Vous devez avoir cette somme disponible en liquide.
+      </p>
+      <p>
+        Budget à prévoir pour les frais de clôture totaux (incluant les droits de mutation) : <strong>3 à 5 % du prix d&rsquo;achat</strong>. Détails complets dans notre <InternalLink slug="frais-caches-achat-maison-immigrant-checklist">checklist des frais cachés</InternalLink>.
+      </p>
+      <p>
+        Calculateur officiel de l&rsquo;Ontario : <a href="https://www.ontario.ca/document/land-transfer-tax/land-transfer-tax-refunds-first-time-homebuyers" target="_blank" rel="noopener noreferrer">Ontario.ca — Land Transfer Tax Refunds</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
+  "programme-schl-nouveaux-arrivants-guide-complet": (
+    <>
+      <h2>Le programme SCHL Nouveaux Arrivants en bref</h2>
+      <p>
+        Le <strong>programme SCHL Nouveaux Arrivants</strong> (CMHC Newcomers) est un programme d&rsquo;assurance prêt hypothécaire spécialement conçu pour permettre aux immigrants récents d&rsquo;acheter une propriété au Canada avec des conditions assouplies. C&rsquo;est le programme le plus important pour les immigrants qui veulent devenir propriétaires.
+      </p>
+      <p>
+        Contrairement au programme standard qui exige un historique de crédit canadien établi, ce programme offre des <strong>flexibilités</strong> pour ceux qui n&rsquo;ont pas encore eu le temps de construire leur profil financier au Canada.
+      </p>
+      <p>
+        Source officielle : <a href="https://www.cmhc-schl.gc.ca/professionals/industry-innovation-and-leadership/industry-expertise/resources-for-mortgage-professionals/housing-for-newcomers" target="_blank" rel="noopener noreferrer">SCHL — Logement pour les nouveaux arrivants</a>.
+      </p>
+
+      <WizardCta />
+
+      <h2>Qui est éligible ? Conditions réelles détaillées</h2>
+      <p>
+        La fiche technique officielle de la SCHL (<a href="https://assets.cmhc-schl.gc.ca/sf/project/cmhc/pdfs/factsheets/cmhc-newcomers-fact-sheet.pdf" target="_blank" rel="noopener noreferrer">PDF - CMHC Newcomers Fact Sheet</a>) détaille les critères. Voici ce que ça signifie concrètement :
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Critère</th>
+            <th>Exigence</th>
+            <th>Ce que ça veut dire</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Statut</strong></td><td>RP ou permis de travail valide</td><td>Les résidents permanents et les travailleurs temporaires avec permis valide sont admissibles</td></tr>
+          <tr><td><strong>Ancienneté au Canada</strong></td><td>Moins de 5 ans (RP) / Permis valide (temporaire)</td><td>Après 5 ans de RP, vous passez au programme standard</td></tr>
+          <tr><td><strong>Emploi</strong></td><td>Emploi à temps plein au Canada</td><td>Contrat stable, pas nécessairement permanent. Lettre d&rsquo;employeur requise</td></tr>
+          <tr><td><strong>Mise de fonds</strong></td><td>Minimum 5 %</td><td>Doit provenir de vos propres fonds (épargne, don documenté, CELIAPP/RAP)</td></tr>
+          <tr><td><strong>Crédit</strong></td><td>Pas de minimum obligatoire</td><td>Sources alternatives acceptées : historique de paiement de loyer, factures, relevé bancaire de 12 mois</td></tr>
+          <tr><td><strong>Propriété</strong></td><td>Résidence principale uniquement</td><td>Pas d&rsquo;investissement locatif sous ce programme</td></tr>
+          <tr><td><strong>Amortissement</strong></td><td>Max 25 ans (30 ans si 1er achat)</td><td>30 ans disponible depuis décembre 2024 pour les premiers acheteurs</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Ce que les banques ne vous disent pas</h2>
+      <p>
+        Le programme SCHL Nouveaux Arrivants est un <strong>programme d&rsquo;assurance</strong>, pas un programme bancaire. Cela signifie :
+      </p>
+      <ul>
+        <li><strong>Toutes les banques n&rsquo;y participent pas activement</strong> — certaines succursales ne connaissent même pas le programme. Si on vous refuse, essayez une autre banque ou passez par un courtier</li>
+        <li><strong>Les banques ajoutent leurs propres critères</strong> — la SCHL accepte un prêt, mais la banque peut demander plus (par exemple, un historique d&rsquo;emploi plus long)</li>
+        <li><strong>Le « crédit alternatif » a des limites</strong> — 12 mois de relevés bancaires montrant des paiements réguliers (loyer, téléphone, électricité) sont acceptés, mais certaines banques préfèrent quand même une cote de crédit</li>
+        <li><strong>Le délai d&rsquo;approbation est plus long</strong> — comptez 2-4 semaines de plus qu&rsquo;un dossier standard car la SCHL doit approuver séparément</li>
+      </ul>
+      <p>
+        Notre recommandation : passez par un <InternalLink slug="courtier-hypothecaire-vs-banque-immigrant">courtier hypothécaire</InternalLink> qui connaît le programme et travaille avec plusieurs banques.
+      </p>
+
+      <h2>Documents requis pour le programme</h2>
+      <p>
+        Préparez ces documents <strong>avant</strong> votre demande pour accélérer le processus :
+      </p>
+      <ul>
+        <li><strong>Preuve de statut</strong> : carte de RP, permis de travail ou confirmation de RP (IRCC)</li>
+        <li><strong>Preuve d&rsquo;emploi</strong> : lettre d&rsquo;employeur, 2-3 derniers talons de paie, T4 si disponible</li>
+        <li><strong>Preuve de mise de fonds</strong> : 90 jours de relevés bancaires montrant l&rsquo;épargne OU lettre de don + relevé du donateur</li>
+        <li><strong>Crédit alternatif</strong> : 12 mois de preuves de paiement régulier (loyer, téléphone, assurance auto)</li>
+        <li><strong>Pièce d&rsquo;identité</strong> : 2 pièces avec photo (passeport + permis de conduire ou carte santé)</li>
+      </ul>
+      <p>
+        Liste complète dans notre <InternalLink slug="documents-hypotheque-immigrant">guide des documents requis</InternalLink>.
+      </p>
+
+      <h2>Programme SCHL vs programmes bancaires spécifiques</h2>
+      <p>
+        En plus du programme SCHL, certaines banques offrent leurs propres programmes pour nouveaux arrivants :
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Programme</th>
+            <th>Avantage clé</th>
+            <th>Limite</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>SCHL Nouveaux Arrivants</strong></td><td>5 % mise de fonds, toutes les banques</td><td>Résidence principale seulement</td></tr>
+          <tr><td><strong>Scotiabank StartRight</strong></td><td>Taux préférentiels, accompagnement</td><td>Clients Scotiabank seulement</td></tr>
+          <tr><td><strong>RBC Arrivée</strong></td><td>Pré-approbation sans crédit canadien</td><td>Limité aux nouveaux RP</td></tr>
+          <tr><td><strong>TD Nouveau au Canada</strong></td><td>Forfait bancaire + hypothèque</td><td>Conditions spécifiques TD</td></tr>
+        </tbody>
+      </table>
+      <p>
+        L&rsquo;idéal est souvent de <strong>combiner</strong> le programme SCHL avec un programme bancaire pour obtenir les meilleures conditions.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
+  "rapport-credit-equifax-transunion-immigrant-canada": (
+    <>
+      <h2>Les deux bureaux de crédit au Canada : Equifax et TransUnion</h2>
+      <p>
+        Au Canada, votre vie financière est suivie par <strong>deux bureaux de crédit</strong> : <a href="https://www.equifax.ca" target="_blank" rel="noopener noreferrer">Equifax Canada</a> et <a href="https://www.transunion.ca" target="_blank" rel="noopener noreferrer">TransUnion Canada</a>. Ces organismes collectent des informations sur vos emprunts, vos paiements et vos habitudes financières pour créer votre <strong>rapport de crédit</strong> et calculer votre <strong>cote de crédit</strong> (score).
+      </p>
+      <p>
+        <strong>Problème pour les immigrants</strong> : le Canada ne reconnaît pas votre historique de crédit étranger. Même si vous aviez un excellent dossier dans votre pays d&rsquo;origine, vous repartez à zéro ici. Votre rapport sera vide et votre cote inexistante jusqu&rsquo;à ce que vous commenciez à utiliser du crédit canadien.
+      </p>
+
+      <WizardCta />
+
+      <h2>Comment obtenir votre rapport de crédit gratuitement</h2>
+      <p>
+        Vous avez le droit légal d&rsquo;obtenir votre rapport de crédit <strong>gratuitement</strong> une fois par an (ou à tout moment par courrier). Voici comment :
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Bureau</th>
+            <th>En ligne (gratuit)</th>
+            <th>Par courrier (gratuit)</th>
+            <th>Cote incluse ?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Equifax</strong></td>
+            <td>equifax.ca/personnel — créer un compte</td>
+            <td>Formulaire PDF à poster</td>
+            <td>Non (rapport seulement). Cote : ~20 $/mois avec abonnement</td>
+          </tr>
+          <tr>
+            <td><strong>TransUnion</strong></td>
+            <td>transunion.ca — créer un compte</td>
+            <td>Formulaire PDF à poster</td>
+            <td>Non (rapport seulement). Cote : ~20 $/mois avec abonnement</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        <strong>Astuce gratuite</strong> : plusieurs banques et apps offrent votre cote de crédit gratuitement : Borrowell (Equifax), Credit Karma (TransUnion), ou via votre app bancaire (RBC, TD, BMO).
+      </p>
+      <p>
+        Source officielle : <a href="https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/order-credit-report.html" target="_blank" rel="noopener noreferrer">Canada.ca — Obtenir votre rapport de crédit</a>.
+      </p>
+
+      <h2>Comment lire votre rapport de crédit</h2>
+      <p>
+        Votre rapport contient plusieurs sections importantes :
+      </p>
+      <ul>
+        <li><strong>Informations personnelles</strong> : nom, adresse, NAS (partiellement masqué), employeur</li>
+        <li><strong>Comptes de crédit</strong> : cartes de crédit, prêts, marges — avec l&rsquo;historique de paiement mois par mois</li>
+        <li><strong>Demandes de crédit (enquêtes)</strong> : chaque fois qu&rsquo;un prêteur vérifie votre dossier. Trop d&rsquo;enquêtes en peu de temps peuvent baisser votre cote</li>
+        <li><strong>Dossiers publics</strong> : faillites, jugements, recouvrements</li>
+        <li><strong>Cote de crédit</strong> : un chiffre de 300 à 900 qui résume votre fiabilité</li>
+      </ul>
+      <p>
+        Pour une hypothèque, les prêteurs regardent principalement votre <strong>cote de crédit</strong> et votre <strong>historique de paiement</strong>. Une cote de 680+ est considérée « bonne » pour une hypothèque. En dessous de 600, ça devient difficile avec les grandes banques.
+      </p>
+
+      <h2>Construire votre crédit de zéro en tant qu&rsquo;immigrant</h2>
+      <p>
+        Voici un plan d&rsquo;action concret pour bâtir votre crédit rapidement :
+      </p>
+      <ul>
+        <li><strong>Mois 1</strong> : ouvrez un compte bancaire et demandez une carte de crédit sécurisée (dépôt de 500-1000 $). Home Trust, Capital One et plusieurs banques en offrent</li>
+        <li><strong>Mois 1-6</strong> : utilisez la carte pour des petits achats (essence, épicerie) et payez le solde <strong>complet</strong> chaque mois, jamais en retard</li>
+        <li><strong>Mois 3</strong> : ajoutez un petit prêt ou une marge de crédit si possible — avoir 2+ types de crédit améliore votre score</li>
+        <li><strong>Mois 6</strong> : vérifiez votre cote — elle devrait être entre 650 et 700 si vous avez tout payé à temps</li>
+        <li><strong>Mois 12</strong> : demandez une carte non sécurisée avec de meilleures récompenses. Gardez l&rsquo;ancienne ouverte (l&rsquo;ancienneté du crédit compte)</li>
+      </ul>
+      <p>
+        Guide détaillé : <InternalLink slug="construire-credit-canadien-6-mois-immigrant">Construire son crédit canadien en 6 mois</InternalLink>.
+      </p>
+
+      <h2>Erreurs courantes qui détruisent votre crédit</h2>
+      <ul>
+        <li><strong>Payer en retard</strong> — même 1 jour de retard peut apparaître sur votre rapport et rester 6 ans</li>
+        <li><strong>Utiliser plus de 30 % de votre limite</strong> — si votre carte a une limite de 1 000 $, ne dépassez pas 300 $ de solde</li>
+        <li><strong>Ouvrir trop de comptes en peu de temps</strong> — chaque demande crée une « enquête » qui baisse temporairement votre cote</li>
+        <li><strong>Fermer vos anciennes cartes</strong> — l&rsquo;ancienneté moyenne de vos comptes affecte votre cote</li>
+        <li><strong>Ignorer les erreurs</strong> — vérifiez votre rapport au moins 1 fois par an et contestez toute erreur auprès d&rsquo;Equifax ou TransUnion</li>
+      </ul>
+      <p>
+        Prêt pour l&rsquo;hypothèque malgré un crédit difficile ? Voir <InternalLink slug="hypotheque-apres-faillite-mauvais-credit-immigrant">hypothèque après mauvais crédit</InternalLink>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
+  "immeuble-locatif-2-4-logements-schl-income-property-immigrant": (
+    <>
+      <h2>Le programme SCHL Income Property : c&rsquo;est quoi ?</h2>
+      <p>
+        Le <strong>programme SCHL Income Property</strong> (Immeuble à revenus) est un programme d&rsquo;assurance hypothécaire qui permet d&rsquo;acheter un immeuble de <strong>2 à 4 logements</strong> (duplex, triplex, quadruplex) avec une mise de fonds réduite. C&rsquo;est l&rsquo;un des meilleurs moyens pour un immigrant de devenir propriétaire tout en générant des revenus locatifs.
+      </p>
+      <p>
+        L&rsquo;avantage clé : les <strong>revenus locatifs des autres logements</strong> sont pris en compte pour votre qualification hypothécaire, ce qui augmente considérablement votre capacité d&rsquo;emprunt.
+      </p>
+      <p>
+        Source officielle : <a href="https://assets.cmhc-schl.gc.ca/sf/project/cmhc/pdfs/factsheets/cmhc-income-property-fact-sheet.pdf" target="_blank" rel="noopener noreferrer">PDF — SCHL Income Property Fact Sheet</a>.
+      </p>
+
+      <WizardCta />
+
+      <h2>Mise de fonds requise selon le type d&rsquo;immeuble</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Type d&rsquo;immeuble</th>
+            <th>Occupé par le propriétaire</th>
+            <th>Non occupé (investissement pur)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Duplex (2 logements)</strong></td><td>5 % (assurance SCHL)</td><td>20 % (pas d&rsquo;assurance)</td></tr>
+          <tr><td><strong>Triplex (3 logements)</strong></td><td>10 %</td><td>20 %</td></tr>
+          <tr><td><strong>Quadruplex (4 logements)</strong></td><td>10 %</td><td>20 %</td></tr>
+        </tbody>
+      </table>
+      <p>
+        <strong>Stratégie populaire chez les immigrants</strong> : acheter un duplex, habiter un logement et louer l&rsquo;autre. Avec 5 % de mise de fonds, c&rsquo;est le chemin le plus accessible vers la propriété + revenus locatifs. Voir notre <InternalLink slug="acheter-duplex-triplex-immigrant-mise-de-fonds">guide duplex/triplex pour immigrants</InternalLink>.
+      </p>
+
+      <h2>Comment les revenus locatifs aident votre qualification</h2>
+      <p>
+        C&rsquo;est le vrai avantage du programme : la SCHL permet d&rsquo;utiliser jusqu&rsquo;à <strong>50 % des revenus locatifs bruts</strong> (ou les revenus locatifs nets) pour améliorer vos ratios de qualification (ABD et ATD). De plus, les taxes et le chauffage de la propriété locative peuvent être <strong>exclus</strong> de vos ratios.
+      </p>
+      <p>
+        <strong>Exemple concret</strong> : vous achetez un triplex à 600 000 $ et habitez un logement. Les 2 autres logements génèrent 2 400 $/mois de loyers.
+      </p>
+      <ul>
+        <li>Revenu locatif additionnel pour qualification : 2 400 $ × 50 % = <strong>1 200 $/mois</strong></li>
+        <li>Sur un revenu brut personnel de 6 000 $/mois, ça équivaut à une hausse de 20 % de votre capacité</li>
+        <li>Résultat : vous pourriez vous qualifier pour un prêt de ~450 000 $ au lieu de ~370 000 $ sans revenus locatifs</li>
+      </ul>
+
+      <h2>Critères d&rsquo;éligibilité pour immigrants</h2>
+      <p>
+        Le programme Income Property est accessible aux :
+      </p>
+      <ul>
+        <li><strong>Citoyens canadiens et résidents permanents</strong> — admissibles de plein droit</li>
+        <li><strong>Travailleurs autonomes</strong> — avec 2 ans d&rsquo;historique d&rsquo;entreprise (combinable avec <InternalLink slug="hypotheque-travailleur-autonome-freelance">le programme SCHL Self-Employed</InternalLink>)</li>
+        <li><strong>Emprunteurs corporatifs</strong> — avec garantie personnelle ou co-emprunteur</li>
+      </ul>
+      <p>
+        <strong>Attention</strong> : les travailleurs temporaires avec permis sont généralement limités à l&rsquo;achat de résidence principale (programme Newcomers). Pour l&rsquo;investissement locatif pur, la résidence permanente est préférable.
+      </p>
+
+      <h2>Pièges à éviter pour votre premier immeuble locatif</h2>
+      <ul>
+        <li><strong>Sous-estimer les dépenses</strong> — prévoyez 5-10 % des loyers pour l&rsquo;entretien, les vacances locatives et les imprévus</li>
+        <li><strong>Ne pas vérifier les baux existants</strong> — si les locataires sont déjà en place, leurs baux sont transférés avec la propriété (au Québec, c&rsquo;est la loi)</li>
+        <li><strong>Ignorer l&rsquo;inspection</strong> — un immeuble locatif ancien peut cacher des problèmes coûteux (plomberie, toiture, fondations)</li>
+        <li><strong>Oublier la taxe sur les revenus locatifs</strong> — les loyers sont imposables mais vous pouvez déduire les intérêts hypothécaires, les taxes, l&rsquo;assurance et les réparations</li>
+        <li><strong>Acheter trop loin</strong> — si vous gérez vous-même, choisissez un immeuble proche de chez vous</li>
+      </ul>
+      <p>
+        Pour l&rsquo;assurance de votre immeuble, consultez notre <InternalLink slug="assurance-habitation-immigrant-guide">guide assurance habitation</InternalLink>.
+      </p>
+      <p>
+        Plus d&rsquo;informations sur la page officielle : <a href="https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/income-property" target="_blank" rel="noopener noreferrer">SCHL — Income Property</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };

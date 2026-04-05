@@ -10,13 +10,13 @@ export default function AboutPage() {
   return (
     <section className="py-20 bg-cream min-h-screen">
       <div className="max-w-4xl mx-auto px-6">
-        <p className="uppercase text-xs tracking-[0.3em] text-gold mb-4">À Propos</p>
+        <p className="uppercase text-sm tracking-[0.3em] text-gold mb-4">À Propos</p>
         <h1 className="font-serif text-3xl md:text-5xl mb-6">
           Notre <em className="text-gold">Mission</em>
         </h1>
 
-        <div className="bg-white rounded-2xl p-8 shadow-sm mb-8 space-y-6 text-gray-600 leading-relaxed">
-          <p className="text-lg">
+        <div className="bg-white rounded-2xl p-8 shadow-sm mb-8 space-y-6 text-gray-600 leading-relaxed text-lg">
+          <p className="text-xl">
             guide-hypotheque.ca est né d&apos;un constat simple : les immigrants au Canada
             manquent d&apos;un accompagnement personnalisé pour obtenir leur hypothèque.
           </p>
@@ -53,14 +53,14 @@ export default function AboutPage() {
                 </svg>
               </div>
               <h3 className="font-serif text-lg mb-2">{item.title}</h3>
-              <p className="text-sm text-gray-500">{item.desc}</p>
+              <p className="text-base text-gray-500">{item.desc}</p>
             </div>
           ))}
         </div>
 
         <div className="bg-gray-900 text-white rounded-2xl p-10 text-center mb-12">
           <h2 className="font-serif text-2xl mb-4">Nos Partenaires</h2>
-          <p className="text-gray-400 text-sm mb-6">Les plus grandes institutions financières du Canada</p>
+          <p className="text-gray-400 text-base mb-6">Les plus grandes institutions financières du Canada</p>
           <div className="flex flex-wrap justify-center gap-6 text-gold font-serif font-bold text-lg">
             {["RBC", "TD", "CIBC", "BMO", "Scotia", "Nesto", "Ratehub"].map((bank) => (
               <span key={bank} className="bg-gray-800 px-5 py-3 rounded-lg">{bank}</span>
