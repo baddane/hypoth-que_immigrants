@@ -11,9 +11,9 @@ export default function PolitiqueConfidentialitePage() {
     <section className="py-20 bg-cream min-h-screen">
       <div className="max-w-3xl mx-auto px-6">
         <h1 className="font-serif text-3xl md:text-4xl mb-2">Politique de Confidentialit&eacute;</h1>
-        <p className="text-sm text-gray-400 mb-8">Derni&egrave;re mise &agrave; jour : 4 avril 2026</p>
+        <p className="text-base text-gray-400 mb-8">Derni&egrave;re mise &agrave; jour : 4 avril 2026</p>
 
-        <div className="bg-white rounded-2xl p-8 shadow-sm space-y-8 text-sm text-gray-600 leading-relaxed">
+        <div className="bg-white rounded-2xl p-8 shadow-sm space-y-8 text-base text-gray-600 leading-relaxed">
 
           {/* 1. Introduction */}
           <div>
@@ -76,7 +76,7 @@ export default function PolitiqueConfidentialitePage() {
             <h2 className="font-serif text-lg text-gray-900 mb-2">6. Cookies</h2>
             <p>Notre site utilise trois cat&eacute;gories de cookies :</p>
             <div className="overflow-x-auto mt-3">
-              <table className="w-full text-xs border-collapse">
+              <table className="w-full text-sm border-collapse">
                 <thead>
                   <tr className="border-b border-gray-200 text-left">
                     <th className="py-2 pr-3">Cat&eacute;gorie</th>
@@ -213,7 +213,7 @@ export default function PolitiqueConfidentialitePage() {
 
           {/* Back link */}
           <div className="pt-4 border-t border-gray-100">
-            <Link href="/" className="text-gold font-semibold text-sm hover:underline">
+            <Link href="/" className="text-gold font-semibold text-base hover:underline">
               &larr; Retour &agrave; l&apos;accueil
             </Link>
           </div>

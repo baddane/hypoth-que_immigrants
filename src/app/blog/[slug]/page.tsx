@@ -42,7 +42,7 @@ export default async function BlogPostPage({ params }: Props) {
     <section className="py-20 bg-white min-h-screen">
       <div className="max-w-[780px] mx-auto px-6">
         {/* Breadcrumb */}
-        <nav className="flex items-center gap-2 text-xs text-gray-400 mb-8 font-semibold" aria-label="Fil d'Ariane">
+        <nav className="flex items-center gap-2 text-sm text-gray-400 mb-8 font-semibold" aria-label="Fil d'Ariane">
           <Link href="/" className="hover:text-gold transition">Accueil</Link>
           <span>/</span>
           <Link href="/blog" className="hover:text-gold transition">Guides</Link>
@@ -51,12 +51,12 @@ export default async function BlogPostPage({ params }: Props) {
         </nav>
 
         {/* Header */}
-        <span className="inline-block text-xs bg-gold-light text-gold px-4 py-1.5 rounded-lg uppercase tracking-wider font-semibold">
+        <span className="inline-block text-sm bg-gold-light text-gold px-4 py-1.5 rounded-lg uppercase tracking-wider font-semibold">
           {post.category}
         </span>
         <h1 className="text-3xl md:text-4xl mt-4 mb-4 leading-tight font-extrabold text-midnight">{post.title}</h1>
-        <p className="text-gray-500 mb-2 text-lg">{post.subtitle}</p>
-        <div className="flex items-center gap-4 text-xs text-gray-400 font-semibold mb-10 pb-8 border-b border-gray-200">
+        <p className="text-gray-500 mb-2 text-xl">{post.subtitle}</p>
+        <div className="flex items-center gap-4 text-sm text-gray-400 font-semibold mb-10 pb-8 border-b border-gray-200">
           <span>{post.readTime} de lecture</span>
           <span>&bull;</span>
           <span>Mis à jour mars 2026</span>
@@ -66,8 +66,8 @@ export default async function BlogPostPage({ params }: Props) {
 
         {/* Table of contents */}
         <div className="bg-cream rounded-2xl p-6 mb-10 border border-gray-100">
-          <p className="font-semibold text-sm mb-3 text-midnight">Dans cet article :</p>
-          <ul className="space-y-1 text-sm text-gold font-semibold">
+          <p className="font-semibold text-base mb-3 text-midnight">Dans cet article :</p>
+          <ul className="space-y-1 text-base text-gold font-semibold">
             <li>
               <a href="#article-content" className="hover:underline">Lire le guide complet</a>
             </li>
@@ -105,7 +105,7 @@ export default async function BlogPostPage({ params }: Props) {
           <h2 className="text-2xl mb-4 font-extrabold">
             Recevez vos <span className="text-gold">options hypothécaires</span>
           </h2>
-          <p className="text-gray-400 text-sm mb-6 max-w-md mx-auto">
+          <p className="text-gray-400 text-base mb-6 max-w-md mx-auto">
             Notre wizard gratuit analyse votre profil en 5 minutes et vous connecte avec les meilleurs courtiers spécialisés en hypothèques pour immigrants.
           </p>
           <Link
@@ -114,7 +114,7 @@ export default async function BlogPostPage({ params }: Props) {
           >
             {post.wizardVariant ? `Wizard ${post.wizardVariant.replace("-", " ")}` : "Commencer le Wizard Gratuit"}
           </Link>
-          <p className="text-xs text-gray-500 mt-3">Gratuit &bull; 5 minutes &bull; Sans engagement</p>
+          <p className="text-sm text-gray-500 mt-3">Gratuit &bull; 5 minutes &bull; Sans engagement</p>
         </div>
 
         {/* Related articles */}
@@ -135,9 +135,9 @@ export default async function BlogPostPage({ params }: Props) {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="text-sm font-semibold text-midnight group-hover:text-gold transition">{p.title}</h4>
-                  <p className="text-xs text-gray-400 mt-1 line-clamp-1">{p.subtitle}</p>
-                  <span className="text-[10px] text-gray-400 mt-1 inline-block">{p.readTime} de lecture</span>
+                  <h4 className="text-base font-semibold text-midnight group-hover:text-gold transition">{p.title}</h4>
+                  <p className="text-sm text-gray-400 mt-1 line-clamp-1">{p.subtitle}</p>
+                  <span className="text-xs text-gray-400 mt-1 inline-block">{p.readTime} de lecture</span>
                 </div>
               </Link>
             ))}
@@ -146,7 +146,7 @@ export default async function BlogPostPage({ params }: Props) {
 
         {/* All guides */}
         <div className="text-center mb-12">
-          <Link href="/blog" className="text-sm text-gold font-semibold hover:underline">
+          <Link href="/blog" className="text-base text-gold font-semibold hover:underline">
             Voir tous nos guides &rarr;
           </Link>
         </div>

@@ -29,13 +29,13 @@ export default function Header() {
             </span>
           </Link>
 
-          <nav className="hidden md:flex items-center gap-6 text-sm font-semibold" aria-label="Navigation principale">
+          <nav className="hidden md:flex items-center gap-6 text-base font-semibold" aria-label="Navigation principale">
             <div
               className="relative"
               onMouseEnter={() => setWizardDropdown(true)}
               onMouseLeave={() => setWizardDropdown(false)}
             >
-              <Link href="/wizard" className="text-midnight hover:text-gold transition flex items-center gap-1 py-2" aria-expanded={wizardDropdown} aria-haspopup="true">
+              <Link href="/wizard" className="text-midnight hover:text-gold transition flex items-center gap-1 py-2 text-base" aria-expanded={wizardDropdown} aria-haspopup="true">
                 Wizard
                 <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -54,7 +54,7 @@ export default function Header() {
                     <Link
                       key={w.slug}
                       href={`/wizard/${w.slug}`}
-                      className="flex items-center gap-2 px-5 py-2 text-sm font-normal text-gray-600 hover:bg-gold-light hover:text-gold transition"
+                      className="flex items-center gap-2 px-5 py-2 text-base font-normal text-gray-600 hover:bg-gold-light hover:text-gold transition"
                     >
                       <span>{w.emoji}</span>
                       <span>{w.label}</span>
@@ -72,7 +72,7 @@ export default function Header() {
           <div className="hidden md:block">
             <Link
               href="/wizard"
-              className="bg-gold text-white px-6 py-2.5 rounded-lg text-sm font-semibold hover:bg-white hover:text-gold border border-gold transition"
+              className="bg-gold text-white px-6 py-2.5 rounded-lg text-base font-semibold hover:bg-white hover:text-gold border border-gold transition"
             >
               Préapprobation Gratuite
             </Link>
@@ -126,7 +126,7 @@ export default function Header() {
       </header>
 
       {/* Sticky bottom CTA bar */}
-      <div className="fixed bottom-0 left-0 right-0 z-50 bg-midnight text-white px-6 py-3 flex items-center justify-between text-sm">
+      <div className="fixed bottom-0 left-0 right-0 z-50 bg-midnight text-white px-6 py-3 flex items-center justify-between text-base">
         <span>
           <span className="text-gold font-semibold">Préapprobation Gratuite</span>
           {" — "}
@@ -134,7 +134,7 @@ export default function Header() {
         </span>
         <Link
           href="/wizard"
-          className="bg-gold text-white px-5 py-2 rounded-lg text-xs font-semibold hover:bg-white hover:text-gold border border-gold transition uppercase tracking-wide"
+          className="bg-gold text-white px-5 py-2 rounded-lg text-sm font-semibold hover:bg-white hover:text-gold border border-gold transition uppercase tracking-wide"
         >
           Commencer
         </Link>

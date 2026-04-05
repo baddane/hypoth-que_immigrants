@@ -9,7 +9,7 @@ export default function MentionsLegalesPage() {
     <section className="py-20 bg-cream min-h-screen">
       <div className="max-w-3xl mx-auto px-6">
         <h1 className="font-serif text-3xl md:text-4xl mb-8">Mentions Légales</h1>
-        <div className="bg-white rounded-2xl p-8 shadow-sm space-y-6 text-sm text-gray-600 leading-relaxed">
+        <div className="bg-white rounded-2xl p-8 shadow-sm space-y-6 text-base text-gray-600 leading-relaxed">
           <div>
             <h2 className="font-serif text-lg text-gray-900 mb-2">Éditeur du site</h2>
             <p>guide-hypotheque.ca<br />Service gratuit de mise en relation hypothécaire pour immigrants au Canada.</p>

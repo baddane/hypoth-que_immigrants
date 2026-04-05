@@ -92,7 +92,7 @@ export default function CookieConsent() {
           </div>
           <div>
             <h2 className="text-base font-extrabold text-midnight">Protection de vos donn&eacute;es</h2>
-            <p className="text-xs text-gray-500 mt-1">
+            <p className="text-sm text-gray-500 mt-1">
               Conform&eacute;ment au <strong>RGPD</strong> (Europe), &agrave; la <strong>Loi 25</strong> (Qu&eacute;bec) et &agrave; la <strong>PIPEDA</strong> (Canada),
               nous utilisons des cookies pour am&eacute;liorer votre exp&eacute;rience et analyser le trafic.
               Vous pouvez personnaliser vos choix.{" "}
@@ -105,12 +105,12 @@ export default function CookieConsent() {
 
         {/* Details toggle */}
         {showDetails && (
-          <div className="mb-4 space-y-3 bg-cream rounded-xl p-4 text-sm">
+          <div className="mb-4 space-y-3 bg-cream rounded-xl p-4 text-base">
             {/* Necessary */}
             <label className="flex items-center justify-between">
               <div>
                 <span className="font-semibold text-midnight">Cookies essentiels</span>
-                <p className="text-xs text-gray-400">N&eacute;cessaires au fonctionnement du site. Toujours actifs.</p>
+                <p className="text-sm text-gray-400">N&eacute;cessaires au fonctionnement du site. Toujours actifs.</p>
               </div>
               <input type="checkbox" checked disabled className="accent-gold w-4 h-4" />
             </label>
@@ -119,7 +119,7 @@ export default function CookieConsent() {
             <label className="flex items-center justify-between cursor-pointer">
               <div>
                 <span className="font-semibold text-midnight">Cookies analytiques</span>
-                <p className="text-xs text-gray-400">Nous aident &agrave; comprendre comment vous utilisez le site (Google Analytics).</p>
+                <p className="text-sm text-gray-400">Nous aident &agrave; comprendre comment vous utilisez le site (Google Analytics).</p>
               </div>
               <input
                 type="checkbox"
@@ -133,7 +133,7 @@ export default function CookieConsent() {
             <label className="flex items-center justify-between cursor-pointer">
               <div>
                 <span className="font-semibold text-midnight">Cookies marketing</span>
-                <p className="text-xs text-gray-400">Permettent le suivi publicitaire (Google Ads, Meta Pixel).</p>
+                <p className="text-sm text-gray-400">Permettent le suivi publicitaire (Google Ads, Meta Pixel).</p>
               </div>
               <input
                 type="checkbox"

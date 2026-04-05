@@ -27,7 +27,7 @@ export default function FaqAccordion({ items }: { items: FaqItem[] }) {
               aria-expanded={isOpen}
               aria-controls={panelId}
             >
-              <span className="font-medium text-sm">{faq.question}</span>
+              <span className="font-medium text-base">{faq.question}</span>
               <svg
                 className={`w-5 h-5 text-gold flex-shrink-0 transition-transform ${isOpen ? "rotate-180" : ""}`}
                 fill="none"
@@ -43,10 +43,10 @@ export default function FaqAccordion({ items }: { items: FaqItem[] }) {
                 id={panelId}
                 role="region"
                 aria-labelledby={buttonId}
-                className="px-6 pb-5 text-sm text-gray-500 leading-relaxed border-t border-gray-100 pt-4"
+                className="px-6 pb-5 text-base text-gray-500 leading-relaxed border-t border-gray-100 pt-4"
               >
                 <p className="mb-3">{faq.answer}</p>
-                <Link href="/wizard" className="text-gold text-xs hover:underline font-medium">
+                <Link href="/wizard" className="text-gold text-sm hover:underline font-medium">
                   Découvrir mes options avec le wizard &rarr;
                 </Link>
               </div>

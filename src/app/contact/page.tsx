@@ -37,11 +37,11 @@ export default function ContactPage() {
   return (
     <section className="py-20 bg-cream min-h-screen">
       <div className="max-w-3xl mx-auto px-6">
-        <p className="uppercase text-xs tracking-[0.3em] text-gold mb-4">Contact</p>
+        <p className="uppercase text-sm tracking-[0.3em] text-gold mb-4">Contact</p>
         <h1 className="font-serif text-3xl md:text-5xl mb-4">
           Nous <em className="text-gold">Contacter</em>
         </h1>
-        <p className="text-gray-500 mb-12">
+        <p className="text-gray-500 mb-12 text-lg">
           Une question ? Un partenariat ? Remplissez le formulaire ci-dessous ou utilisez directement notre{" "}
           <Link href="/wizard" className="text-gold hover:underline">wizard gratuit</Link>.
         </p>
@@ -54,14 +54,14 @@ export default function ContactPage() {
               </svg>
             </div>
             <h2 className="font-serif text-xl mb-2">Message envoyé !</h2>
-            <p className="text-sm text-gray-500">Nous vous répondrons dans les 24 à 48 heures.</p>
+            <p className="text-base text-gray-500">Nous vous répondrons dans les 24 à 48 heures.</p>
           </div>
         ) : (
           <div className="bg-white rounded-2xl p-8 shadow-sm mb-8">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <label htmlFor="contact-nom" className="block text-sm font-medium mb-2">Nom complet *</label>
+                  <label htmlFor="contact-nom" className="block text-base font-medium mb-2">Nom complet *</label>
                   <input
                     id="contact-nom"
                     type="text"
@@ -73,7 +73,7 @@ export default function ContactPage() {
                   />
                 </div>
                 <div>
-                  <label htmlFor="contact-email" className="block text-sm font-medium mb-2">Email *</label>
+                  <label htmlFor="contact-email" className="block text-base font-medium mb-2">Email *</label>
                   <input
                     id="contact-email"
                     type="email"
@@ -87,7 +87,7 @@ export default function ContactPage() {
               </div>
 
               <div>
-                <label htmlFor="contact-sujet" className="block text-sm font-medium mb-2">Sujet</label>
+                <label htmlFor="contact-sujet" className="block text-base font-medium mb-2">Sujet</label>
                 <select
                   id="contact-sujet"
                   value={formData.sujet}
@@ -102,7 +102,7 @@ export default function ContactPage() {
               </div>
 
               <div>
-                <label htmlFor="contact-message" className="block text-sm font-medium mb-2">Message *</label>
+                <label htmlFor="contact-message" className="block text-base font-medium mb-2">Message *</label>
                 <textarea
                   id="contact-message"
                   rows={4}
@@ -121,7 +121,7 @@ export default function ContactPage() {
               <button
                 type="submit"
                 disabled={status === "sending"}
-                className="w-full bg-gold text-white py-3.5 rounded-xl font-medium hover:bg-gold-dark transition uppercase text-sm tracking-wider disabled:opacity-50"
+                className="w-full bg-gold text-white py-3.5 rounded-xl font-medium hover:bg-gold-dark transition uppercase text-base tracking-wider disabled:opacity-50"
               >
                 {status === "sending" ? "Envoi en cours..." : "Envoyer"}
               </button>
@@ -131,10 +131,10 @@ export default function ContactPage() {
 
         <div className="bg-gold-light rounded-xl p-8 text-center">
           <h3 className="font-serif text-xl mb-3">Besoin d&apos;aide pour votre hypothèque ?</h3>
-          <p className="text-sm text-gray-500 mb-6">Le moyen le plus rapide est notre wizard. En 5 minutes, vous recevrez des offres personnalisées.</p>
+          <p className="text-base text-gray-500 mb-6">Le moyen le plus rapide est notre wizard. En 5 minutes, vous recevrez des offres personnalisées.</p>
           <Link
             href="/wizard"
-            className="inline-block bg-gold text-white px-6 py-3 rounded-full text-sm font-bold hover:bg-gold-dark transition uppercase tracking-wider"
+            className="inline-block bg-gold text-white px-6 py-3 rounded-full text-base font-bold hover:bg-gold-dark transition uppercase tracking-wider"
           >
             Commencer le Wizard
           </Link>
