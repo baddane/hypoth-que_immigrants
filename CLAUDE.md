@@ -37,7 +37,7 @@ src/
 │   ├── sitemap.ts          # Sitemap dynamique (auto-inclut blogPosts + wizardVariants + outils)
 │   ├── robots.ts           # robots.txt
 │   ├── blog/
-│   │   ├── page.tsx        # Liste des articles (40 articles, groupés par catégorie)
+│   │   ├── page.tsx        # Liste des articles (44 articles, groupés par catégorie)
 │   │   └── [slug]/page.tsx # Article dynamique (JSON-LD, OpenGraph, BreadcrumbList)
 │   ├── wizard/
 │   │   ├── page.tsx        # Wizard principal de préapprobation
@@ -46,7 +46,11 @@ src/
 │   │   ├── calculateur-prime-schl/page.tsx    # Calculateur prime SCHL interactif
 │   │   ├── simulateur-stress-test/page.tsx    # Simulateur stress test hypothécaire
 │   │   ├── checklist-documents/page.tsx       # Checklist documents hypothèque
-│   │   └── eligibilite-achat-non-canadien/page.tsx # Quiz éligibilité Loi P-25.2
+│   │   ├── eligibilite-achat-non-canadien/page.tsx # Quiz éligibilité Loi P-25.2
+│   │   ├── calculateur-montant-empruntable/page.tsx # Montant empruntable (revenus, dettes, mise de fonds)
+│   │   ├── comparateur-25-vs-30-ans/page.tsx  # Comparaison amortissement 25 vs 30 ans
+│   │   └── calculateur-abd-atd/page.tsx       # Calculateur ratios ABD/ATD
+│   ├── glossaire/page.tsx    # Glossaire hypothécaire (26 termes définis)
 │   ├── faq/page.tsx
 │   ├── about/page.tsx
 │   ├── contact/page.tsx
@@ -64,7 +68,7 @@ src/
 │   ├── RelatedArticles.tsx # Articles reliés en bas de chaque article
 │   └── FaqAccordion.tsx    # Accordéon FAQ
 ├── data/
-│   ├── blogPosts.ts        # Métadonnées des 40 articles (slug, title, category, relatedSlugs)
+│   ├── blogPosts.ts        # Métadonnées des 44 articles (slug, title, category, relatedSlugs)
 │   ├── blogContent.tsx     # Contenu JSX des articles (Record<string, ReactNode>)
 │   ├── wizardVariants.ts   # 9 variantes de wizard (travailleur-temporaire, étudiant, etc.)
 │   ├── wizardSteps.ts      # Étapes du wizard
@@ -88,17 +92,17 @@ src/
 - Chaque article a : JSON-LD (Article + BreadcrumbList), OpenGraph, 4-5 sections H2, 2+ liens internes (`InternalLink`), 2+ liens externes, 2 `WizardCta`
 - Page dynamique : `src/app/blog/[slug]/page.tsx`
 
-### Catégories (40 articles)
+### Catégories (44 articles)
 - Guide Principal (1) — article pilier
 - Statut Immigration (3) — permis travail, étudiant, RP
 - Province (5) — Québec, Ontario, C-B, Alberta, Manitoba
 - Crédit (6) — construire crédit, sans historique, après faillite, rapport Equifax/TransUnion
 - Situation Spéciale (4) — réfugié, travailleur autonome, conjoint
-- Processus (4) — préapprobation, documents, étapes, stress test
-- Financement (7) — mise de fonds, RAP/CELIAPP, transfert fonds, prime SCHL, programme nouveaux arrivants SCHL
+- Processus (5) — préapprobation, documents, étapes, stress test, accessibilité achat
+- Financement (8) — mise de fonds, RAP/CELIAPP, transfert fonds, prime SCHL, programme nouveaux arrivants SCHL, Premier Chez-Soi 30 ans
 - Achat (6) — duplex/triplex, frais cachés, assurance habitation, droits mutation, immeuble locatif
-- Taux (1) — fixe vs variable
-- Gestion (1) — renouvellement
+- Taux (2) — fixe vs variable, comprendre et choisir les taux
+- Gestion (2) — renouvellement, éviter le choc de paiement
 - Légal (2) — interdiction achat non-canadien, courtier vs banque
 
 ### Sitemap
@@ -114,11 +118,16 @@ Multi-étapes : statut immigration → province → revenu → crédit → mise 
 
 ## Outils interactifs
 
-4 outils sous `/outils/` (composants client avec `"use client"`, JSON-LD WebApplication) :
+7 outils sous `/outils/` (composants client avec `"use client"`, JSON-LD WebApplication) :
 - **Calculateur prime SCHL** : calcul prime assurance hypothécaire selon prix et mise de fonds
 - **Simulateur stress test** : qualification hypothécaire (taux majoré, ratios ABD/ATD, montant max)
 - **Checklist documents** : 15 documents en 5 catégories, barre de progression, état via `Set<string>`
 - **Éligibilité achat non-canadien** : quiz multi-étapes basé sur Loi P-25.2, exemptions par statut
+- **Calculateur montant empruntable** : revenu, dettes, mise de fonds → montant max, prix propriété, prime SCHL
+- **Comparateur 25 vs 30 ans** : tableau comparatif paiements mensuels et intérêts totaux
+- **Calculateur ABD/ATD** : frais de logement + dettes → ratios vs limites 39%/44% avec barres visuelles
+
+1 page glossaire sous `/glossaire/` : 26 termes hypothécaires définis (JSON-LD DefinedTermSet)
 
 ## Conformité données personnelles
 

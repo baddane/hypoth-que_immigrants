@@ -26,6 +26,10 @@ export default function Footer() {
               <li><Link href="/outils/simulateur-stress-test" className="hover:text-gold transition font-semibold">Simulateur Stress Test</Link></li>
               <li><Link href="/outils/checklist-documents" className="hover:text-gold transition font-semibold">Checklist Documents</Link></li>
               <li><Link href="/outils/eligibilite-achat-non-canadien" className="hover:text-gold transition font-semibold">Quiz Éligibilité</Link></li>
+              <li><Link href="/outils/calculateur-montant-empruntable" className="hover:text-gold transition font-semibold">Montant Empruntable</Link></li>
+              <li><Link href="/outils/comparateur-25-vs-30-ans" className="hover:text-gold transition font-semibold">Comparateur 25 vs 30 ans</Link></li>
+              <li><Link href="/outils/calculateur-abd-atd" className="hover:text-gold transition font-semibold">Calculateur ABD/ATD</Link></li>
+              <li><Link href="/glossaire" className="hover:text-gold transition font-semibold">Glossaire</Link></li>
               <li><Link href="/faq" className="hover:text-gold transition font-semibold">FAQ</Link></li>
               <li><Link href="/contact" className="hover:text-gold transition font-semibold">Contact</Link></li>
             </ul>

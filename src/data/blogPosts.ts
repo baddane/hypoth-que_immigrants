@@ -453,6 +453,46 @@ export const blogPosts: BlogPost[] = [
     wizardVariant: "resident-permanent",
     relatedSlugs: ["acheter-duplex-triplex-immigrant-mise-de-fonds", "assurance-hypothecaire-schl-primes-guide-2026", "hypotheque-travailleur-autonome-freelance"],
   },
+  // ====== ARTICLE #41 — PREMIER CHEZ-SOI ======
+  {
+    slug: "premier-chez-soi-schl-amortissement-30-ans-guide",
+    title: "Premier Chez-Soi SCHL : guide complet du programme d'amortissement 30 ans",
+    subtitle: "Tout savoir sur le programme Premier Chez-Soi de la SCHL pour les premiers acheteurs.",
+    description: "Guide complet du programme Premier Chez-Soi de la SCHL : amortissement 30 ans, critères d'admissibilité, économies mensuelles et comparaison 25 vs 30 ans pour les premiers acheteurs au Canada.",
+    category: "Financement",
+    readTime: "10 min",
+    relatedSlugs: ["programme-schl-nouveaux-arrivants-guide-complet", "assurance-hypothecaire-schl-primes-guide-2026", "celiapp-rap-immigrant-premier-acheteur-2026"],
+  },
+  // ====== ARTICLE #42 — ACCESSIBILITÉ / PUIS-JE ME PERMETTRE ======
+  {
+    slug: "puis-je-me-permettre-maison-canada-guide-realiste",
+    title: "Puis-je me permettre une maison au Canada ? Guide réaliste pour immigrants",
+    subtitle: "Évaluation honnête de votre capacité d'achat immobilier au Canada.",
+    description: "Guide réaliste pour évaluer si vous pouvez acheter une maison au Canada comme immigrant. Ratios ABD/ATD, stratégies d'accessibilité, co-emprunt et alternatives en période de crise du logement.",
+    category: "Processus",
+    readTime: "11 min",
+    relatedSlugs: ["stress-test-hypothecaire-canada-immigrant-guide", "preapprobation-hypotheque-immigrant", "hypotheque-conjoint-chomeur-revenu"],
+  },
+  // ====== ARTICLE #43 — RENOUVELLEMENT ======
+  {
+    slug: "renouvellement-hypothecaire-guide-eviter-choc-paiement",
+    title: "Renouvellement hypothécaire : guide pour éviter le choc de paiement",
+    subtitle: "Préparez votre renouvellement et minimisez l'impact sur votre budget.",
+    description: "Guide complet du renouvellement hypothécaire au Canada. Comment se préparer, négocier un meilleur taux, éviter le choc de paiement et les options si vous ne pouvez plus payer.",
+    category: "Gestion",
+    readTime: "10 min",
+    relatedSlugs: ["hypotheque-refinancement-renouvellement-immigrant", "hypotheque-taux-fixe-variable-immigrant", "courtier-hypothecaire-vs-banque-immigrant"],
+  },
+  // ====== ARTICLE #44 — TAUX HYPOTHÉCAIRES COMPRENDRE ET CHOISIR ======
+  {
+    slug: "taux-hypothecaires-comprendre-choisir-guide",
+    title: "Taux hypothécaires au Canada : comprendre et choisir le bon taux",
+    subtitle: "Fixe, variable, court terme : comment choisir le meilleur taux pour votre situation.",
+    description: "Guide complet des taux hypothécaires au Canada. Différences entre taux fixe et variable, impact du taux directeur de la Banque du Canada, et stratégies pour obtenir le meilleur taux comme immigrant.",
+    category: "Taux",
+    readTime: "10 min",
+    relatedSlugs: ["hypotheque-taux-fixe-variable-immigrant", "stress-test-hypothecaire-canada-immigrant-guide", "hypotheque-refinancement-renouvellement-immigrant"],
+  },
 ];
 
 // Helper: get post by slug

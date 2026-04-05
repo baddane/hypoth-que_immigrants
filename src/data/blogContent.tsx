@@ -2492,4 +2492,265 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  // ====== ARTICLE #41 — PREMIER CHEZ-SOI ======
+  "premier-chez-soi-schl-amortissement-30-ans-guide": (
+    <>
+      <h2>Qu&rsquo;est-ce que le programme Premier Chez-Soi ?</h2>
+      <p>
+        Le programme <strong>Premier Chez-Soi</strong> de la SCHL, lanc&eacute; en ao&ucirc;t 2024, permet aux premiers acheteurs et aux acheteurs de propri&eacute;t&eacute;s neuves d&rsquo;obtenir un amortissement de <strong>30 ans</strong> au lieu du maximum habituel de 25 ans avec assurance hypoth&eacute;caire. L&rsquo;objectif : r&eacute;duire les paiements mensuels pour faciliter l&rsquo;acc&egrave;s &agrave; la propri&eacute;t&eacute;.
+      </p>
+      <p>
+        D&eacute;tails officiels sur la page <a href="https://www.cmhc-schl.gc.ca/professionnels/financement-de-projets-et-financement-hypothecaire/assurance-pret-hypothecaire/aph-po-et-petits-immeubles-locatifs/premier-chez-soi" target="_blank" rel="noopener noreferrer">SCHL — Premier Chez-Soi</a>.
+      </p>
+
+      <WizardCta />
+
+      <h2>Crit&egrave;res d&rsquo;admissibilit&eacute;</h2>
+      <p>Pour b&eacute;n&eacute;ficier du programme, vous devez remplir <strong>au moins une</strong> de ces conditions :</p>
+      <ul>
+        <li><strong>Premier acheteur</strong> : vous n&rsquo;avez jamais &eacute;t&eacute; propri&eacute;taire au Canada (ou pas depuis 4 ans)</li>
+        <li><strong>Propri&eacute;t&eacute; neuve</strong> : vous achetez une construction neuve, m&ecirc;me si vous &ecirc;tes d&eacute;j&agrave; propri&eacute;taire</li>
+      </ul>
+      <p>Conditions suppl&eacute;mentaires :</p>
+      <ul>
+        <li>Prix d&rsquo;achat maximum : <strong>1 500 000 $</strong></li>
+        <li>Mise de fonds minimum : <strong>5 %</strong> (avec assurance SCHL)</li>
+        <li>Vous devez passer le <InternalLink slug="stress-test-hypothecaire-canada-immigrant-guide">stress test hypoth&eacute;caire</InternalLink></li>
+      </ul>
+
+      <h2>Comparaison 25 ans vs 30 ans : impact concret</h2>
+      <p>Prenons un exemple concret avec une hypoth&egrave;que de <strong>400 000 $</strong> &agrave; un taux de 4,5 % :</p>
+      <table>
+        <thead>
+          <tr><th></th><th>25 ans</th><th>30 ans</th><th>Diff&eacute;rence</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Paiement mensuel</td><td>2 200 $</td><td>2 027 $</td><td>-173 $/mois</td></tr>
+          <tr><td>Int&eacute;r&ecirc;ts totaux</td><td>260 000 $</td><td>329 720 $</td><td>+69 720 $</td></tr>
+          <tr><td>Total rembours&eacute;</td><td>660 000 $</td><td>729 720 $</td><td>+69 720 $</td></tr>
+        </tbody>
+      </table>
+      <p>
+        Utilisez notre <a href="/outils/comparateur-25-vs-30-ans" className="text-gold hover:underline font-semibold">comparateur 25 vs 30 ans</a> pour calculer avec vos propres chiffres.
+      </p>
+
+      <h2>Avantages et inconv&eacute;nients pour les immigrants</h2>
+      <p><strong>Avantages :</strong></p>
+      <ul>
+        <li>Paiements mensuels r&eacute;duits de 5 &agrave; 8 % — facilite la qualification au <InternalLink slug="stress-test-hypothecaire-canada-immigrant-guide">stress test</InternalLink></li>
+        <li>Plus de marge budg&eacute;taire pour les frais d&rsquo;installation au Canada</li>
+        <li>Meilleur ratio ABD/ATD, donc plus de chances d&rsquo;approbation</li>
+      </ul>
+      <p><strong>Inconv&eacute;nients :</strong></p>
+      <ul>
+        <li>Co&ucirc;t total en int&eacute;r&ecirc;ts plus &eacute;lev&eacute; (environ 25 % de plus)</li>
+        <li>Vous construisez l&rsquo;&eacute;quit&eacute; plus lentement</li>
+        <li>5 ans de paiements suppl&eacute;mentaires avant d&rsquo;&ecirc;tre libre d&rsquo;hypoth&egrave;que</li>
+      </ul>
+
+      <WizardCta variant="dark" />
+
+      <h2>Strat&eacute;gie recommand&eacute;e</h2>
+      <p>
+        Pour beaucoup de nouveaux arrivants, le programme Premier Chez-Soi est un excellent levier. Notre recommandation : <strong>prenez l&rsquo;amortissement 30 ans pour la qualification</strong>, puis faites des paiements anticip&eacute;s d&egrave;s que votre situation financi&egrave;re s&rsquo;am&eacute;liore. La plupart des hypoth&egrave;ques permettent 15 &agrave; 20 % de remboursement anticip&eacute; par an sans p&eacute;nalit&eacute;.
+      </p>
+      <p>
+        Consultez aussi le <InternalLink slug="celiapp-rap-immigrant-premier-acheteur-2026">CELIAPP et RAP pour premiers acheteurs</InternalLink> pour maximiser votre mise de fonds. Pour conna&icirc;tre votre prime SCHL, utilisez notre <a href="/outils/calculateur-prime-schl" className="text-gold hover:underline font-semibold">calculateur de prime SCHL</a>.
+      </p>
+    </>
+  ),
+
+  // ====== ARTICLE #42 — PUIS-JE ME PERMETTRE ======
+  "puis-je-me-permettre-maison-canada-guide-realiste": (
+    <>
+      <h2>La r&eacute;alit&eacute; de l&rsquo;achat immobilier au Canada</h2>
+      <p>
+        Le march&eacute; immobilier canadien reste difficile d&rsquo;acc&egrave;s. Le ratio prix/revenu se situe entre <strong>6 et 9 fois</strong> le revenu annuel selon les villes, bien au-dessus du seuil consid&eacute;r&eacute; comme abordable (3,5 fois). Mais cela ne veut pas dire que c&rsquo;est impossible — surtout avec les bons outils et une planification rigoureuse.
+      </p>
+      <p>
+        Avant tout, utilisez notre <a href="/outils/calculateur-montant-empruntable" className="text-gold hover:underline font-semibold">calculateur de montant empruntable</a> pour conna&icirc;tre votre capacit&eacute; r&eacute;elle.
+      </p>
+
+      <WizardCta />
+
+      <h2>&Eacute;tape 1 : Calculez votre capacit&eacute; r&eacute;elle</h2>
+      <p>Les banques utilisent deux ratios pour d&eacute;terminer combien vous pouvez emprunter :</p>
+      <ul>
+        <li><strong>ABD (39 % max)</strong> : frais de logement / revenu brut</li>
+        <li><strong>ATD (44 % max)</strong> : tous vos paiements / revenu brut</li>
+      </ul>
+      <p>
+        V&eacute;rifiez vos ratios avec notre <a href="/outils/calculateur-abd-atd" className="text-gold hover:underline font-semibold">calculateur ABD/ATD</a>. Ensuite, vous devez aussi passer le <InternalLink slug="stress-test-hypothecaire-canada-immigrant-guide">stress test hypoth&eacute;caire</InternalLink> (votre taux + 2 % ou 5,25 %, le plus &eacute;lev&eacute;).
+      </p>
+
+      <h2>&Eacute;tape 2 : Strat&eacute;gies pour am&eacute;liorer votre accessibilit&eacute;</h2>
+      <p>Si votre budget ne vous permet pas d&rsquo;acheter ce que vous souhaitez, voici des strat&eacute;gies concr&egrave;tes :</p>
+      <ul>
+        <li><strong>Co-emprunt</strong> : empruntez avec votre <InternalLink slug="hypotheque-conjoint-chomeur-revenu">conjoint(e)</InternalLink> ou un membre de la famille pour combiner les revenus</li>
+        <li><strong>Programme Premier Chez-Soi</strong> : <InternalLink slug="premier-chez-soi-schl-amortissement-30-ans-guide">amortissement 30 ans</InternalLink> pour r&eacute;duire les paiements</li>
+        <li><strong>CELIAPP + RAP</strong> : maximisez votre mise de fonds avec le <InternalLink slug="celiapp-rap-immigrant-premier-acheteur-2026">CELIAPP et le RAP</InternalLink></li>
+        <li><strong>R&eacute;duisez vos dettes</strong> : chaque 100 $ de dette mensuelle &eacute;limin&eacute;e augmente votre capacit&eacute; d&rsquo;emprunt d&rsquo;environ 15 000 &agrave; 20 000 $</li>
+        <li><strong>Achetez un duplex/triplex</strong> : les revenus locatifs sont partiellement compt&eacute;s dans votre revenu. Consultez notre guide <InternalLink slug="acheter-duplex-triplex-immigrant-mise-de-fonds">achat duplex/triplex</InternalLink></li>
+      </ul>
+
+      <h2>&Eacute;tape 3 : Choisir la bonne r&eacute;gion</h2>
+      <p>Le prix m&eacute;dian varie &eacute;norm&eacute;ment selon les r&eacute;gions :</p>
+      <table>
+        <thead>
+          <tr><th>R&eacute;gion</th><th>Prix m&eacute;dian</th><th>Revenu requis (approx.)</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Vancouver</td><td>1 100 000 $</td><td>180 000 $+</td></tr>
+          <tr><td>Toronto</td><td>900 000 $</td><td>150 000 $+</td></tr>
+          <tr><td>Montr&eacute;al</td><td>550 000 $</td><td>95 000 $+</td></tr>
+          <tr><td>Calgary</td><td>500 000 $</td><td>85 000 $+</td></tr>
+          <tr><td>Winnipeg</td><td>350 000 $</td><td>65 000 $+</td></tr>
+        </tbody>
+      </table>
+      <p>
+        Pour des guides par province, consultez nos articles sur l&rsquo;<InternalLink slug="hypotheque-ontario-immigrants-toronto">Ontario</InternalLink>, le <InternalLink slug="hypotheque-francophone-quebec">Qu&eacute;bec</InternalLink>, la <InternalLink slug="hypotheque-bc-immigrants-vancouver-victoria">Colombie-Britannique</InternalLink> ou l&rsquo;<InternalLink slug="hypotheque-alberta-immigrants-calgary-edmonton">Alberta</InternalLink>.
+      </p>
+
+      <h2>Quand attendre ou foncer ?</h2>
+      <p>
+        <strong>Foncez si :</strong> vous avez une mise de fonds de 5 %+, un emploi stable depuis 3+ mois, un score de cr&eacute;dit de 600+, et des ratios ABD/ATD conformes.
+      </p>
+      <p>
+        <strong>Attendez si :</strong> vous venez d&rsquo;arriver (moins de 3 mois), vous avez des dettes &agrave; rembourser prioritairement, ou votre score de cr&eacute;dit est trop bas. Consultez notre guide <InternalLink slug="construire-credit-canadien-6-mois-immigrant">construire son cr&eacute;dit en 6 mois</InternalLink>.
+      </p>
+      <p>
+        La <InternalLink slug="preapprobation-hypotheque-immigrant">pr&eacute;approbation</InternalLink> est gratuite et sans engagement — c&rsquo;est le meilleur premier pas.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
+  // ====== ARTICLE #43 — RENOUVELLEMENT ======
+  "renouvellement-hypothecaire-guide-eviter-choc-paiement": (
+    <>
+      <h2>Qu&rsquo;est-ce que le renouvellement hypoth&eacute;caire ?</h2>
+      <p>
+        Au Canada, le terme hypoth&eacute;caire dure g&eacute;n&eacute;ralement <strong>5 ans</strong>, m&ecirc;me si l&rsquo;amortissement s&rsquo;&eacute;tale sur 25 ou 30 ans. &Agrave; la fin de chaque terme, vous devez <strong>renouveler</strong> votre hypoth&egrave;que — c&rsquo;est-&agrave;-dire n&eacute;gocier un nouveau taux avec votre pr&ecirc;teur actuel ou un autre.
+      </p>
+      <p>
+        Pour les immigrants qui ont obtenu leur hypoth&egrave;que quand les taux &eacute;taient bas, le renouvellement peut entra&icirc;ner un <strong>choc de paiement</strong> important.
+      </p>
+
+      <WizardCta />
+
+      <h2>Le choc de paiement : combien de plus ?</h2>
+      <p>Voici l&rsquo;impact d&rsquo;un renouvellement pour une hypoth&egrave;que de 400 000 $ (amortissement restant 20 ans) :</p>
+      <table>
+        <thead>
+          <tr><th>Ancien taux</th><th>Nouveau taux</th><th>Augmentation mensuelle</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>2,50 %</td><td>4,50 %</td><td>+430 $/mois</td></tr>
+          <tr><td>3,00 %</td><td>4,50 %</td><td>+310 $/mois</td></tr>
+          <tr><td>3,50 %</td><td>4,50 %</td><td>+200 $/mois</td></tr>
+          <tr><td>4,00 %</td><td>4,50 %</td><td>+100 $/mois</td></tr>
+        </tbody>
+      </table>
+      <p>
+        Simulez votre propre situation avec notre <a href="/outils/simulateur-stress-test" className="text-gold hover:underline font-semibold">simulateur de stress test</a>.
+      </p>
+
+      <h2>Comment pr&eacute;parer votre renouvellement</h2>
+      <ul>
+        <li><strong>Commencez 120 jours avant</strong> : la plupart des pr&ecirc;teurs offrent de r&eacute;server un taux 120 jours &agrave; l&rsquo;avance. Si les taux baissent, vous obtiendrez le taux le plus bas</li>
+        <li><strong>Magasinez</strong> : ne signez pas l&rsquo;offre automatique de votre banque. Un <InternalLink slug="courtier-hypothecaire-vs-banque-immigrant">courtier hypoth&eacute;caire</InternalLink> peut vous obtenir un meilleur taux</li>
+        <li><strong>Am&eacute;liorez votre dossier</strong> : payez des dettes, am&eacute;liorez votre score de cr&eacute;dit avant le renouvellement</li>
+        <li><strong>Consid&eacute;rez le transfert</strong> : changer de pr&ecirc;teur co&ucirc;te parfois des frais, mais l&rsquo;&eacute;conomie sur 5 ans peut &ecirc;tre substantielle</li>
+      </ul>
+
+      <h2>Fixe ou variable au renouvellement ?</h2>
+      <p>
+        Le choix entre <InternalLink slug="hypotheque-taux-fixe-variable-immigrant">taux fixe et variable</InternalLink> d&eacute;pend de votre tol&eacute;rance au risque et des pr&eacute;visions de la Banque du Canada :
+      </p>
+      <ul>
+        <li><strong>Fixe</strong> : s&eacute;curit&eacute; totale sur 5 ans, id&eacute;al si les taux sont bas et risquent de monter</li>
+        <li><strong>Variable</strong> : g&eacute;n&eacute;ralement un taux de d&eacute;part plus bas, mais qui fluctue avec le taux directeur</li>
+        <li><strong>Court terme (1-2 ans)</strong> : si vous anticipez une baisse des taux, vous renouvelez plus rapidement</li>
+      </ul>
+      <p>
+        Pour plus d&rsquo;informations, consultez le site de l&rsquo;<a href="https://www.canada.ca/fr/agence-consommation-matiere-financiere/services/hypotheques/renouveler-hypotheque.html" target="_blank" rel="noopener noreferrer">ACFC — Renouveler votre hypoth&egrave;que</a>.
+      </p>
+
+      <h2>Si vous ne pouvez plus payer</h2>
+      <p>Si l&rsquo;augmentation de paiement est trop lourde, vous avez des options :</p>
+      <ul>
+        <li><strong>Prolonger l&rsquo;amortissement</strong> : &eacute;taler le solde sur une plus longue p&eacute;riode pour r&eacute;duire les paiements</li>
+        <li><strong>Refinancer</strong> : acc&eacute;der &agrave; l&rsquo;&eacute;quit&eacute; pour consolider des dettes &agrave; int&eacute;r&ecirc;t &eacute;lev&eacute;</li>
+        <li><strong>Vendre et r&eacute;duire</strong> : si votre propri&eacute;t&eacute; a pris de la valeur, downsizer peut &ecirc;tre judicieux</li>
+        <li><strong>Parler &agrave; votre pr&ecirc;teur</strong> : les banques pr&eacute;f&egrave;rent n&eacute;gocier plut&ocirc;t que saisir</li>
+      </ul>
+      <p>
+        N&rsquo;attendez pas le dernier moment. Consultez notre guide <InternalLink slug="hypotheque-refinancement-renouvellement-immigrant">refinancement et renouvellement</InternalLink> pour toutes les options.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
+  // ====== ARTICLE #44 — TAUX HYPOTHÉCAIRES COMPRENDRE ET CHOISIR ======
+  "taux-hypothecaires-comprendre-choisir-guide": (
+    <>
+      <h2>Comment fonctionnent les taux hypoth&eacute;caires au Canada ?</h2>
+      <p>
+        Les taux hypoth&eacute;caires canadiens sont influenc&eacute;s par deux facteurs principaux : le <strong>taux directeur de la Banque du Canada</strong> (qui affecte les taux variables) et le <strong>rendement des obligations du gouvernement</strong> (qui influence les taux fixes). Comprendre cette dynamique vous aide &agrave; faire de meilleurs choix.
+      </p>
+      <p>
+        Pour en savoir plus sur les taux en g&eacute;n&eacute;ral, consultez la page officielle <a href="https://www.canada.ca/fr/agence-consommation-matiere-financiere/services/hypotheques/taux-hypothecaires.html" target="_blank" rel="noopener noreferrer">ACFC — Taux hypoth&eacute;caires</a>.
+      </p>
+
+      <WizardCta />
+
+      <h2>Taux fixe vs variable : avantages et risques</h2>
+      <table>
+        <thead>
+          <tr><th></th><th>Taux fixe</th><th>Taux variable</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Paiement</td><td>Stable pendant tout le terme</td><td>Fluctue avec le taux directeur</td></tr>
+          <tr><td>Taux de d&eacute;part</td><td>Plus &eacute;lev&eacute;</td><td>G&eacute;n&eacute;ralement plus bas</td></tr>
+          <tr><td>P&eacute;nalit&eacute; rupture</td><td>&Eacute;lev&eacute;e (diff&eacute;rentiel taux)</td><td>Faible (3 mois int&eacute;r&ecirc;t)</td></tr>
+          <tr><td>Id&eacute;al si</td><td>Taux bas, risque de hausse</td><td>Taux &eacute;lev&eacute;s, baisse attendue</td></tr>
+          <tr><td>Risque</td><td>Payer trop si les taux baissent</td><td>Hausse impr&eacute;visible des paiements</td></tr>
+        </tbody>
+      </table>
+      <p>
+        Pour une analyse d&eacute;taill&eacute;e, lisez notre guide <InternalLink slug="hypotheque-taux-fixe-variable-immigrant">taux fixe vs variable pour immigrants</InternalLink>.
+      </p>
+
+      <h2>Le taux de qualification (stress test)</h2>
+      <p>
+        Quel que soit le taux que vous obtenez, les banques doivent vous qualifier au <strong>taux le plus &eacute;lev&eacute;</strong> entre votre taux + 2 % et 5,25 %. C&rsquo;est le <InternalLink slug="stress-test-hypothecaire-canada-immigrant-guide">stress test du BSIF</InternalLink>.
+      </p>
+      <p>
+        Cela signifie qu&rsquo;un taux variable plus bas ne vous permet pas forc&eacute;ment d&rsquo;emprunter davantage — la qualification se fait au m&ecirc;me taux de r&eacute;sistance. Utilisez notre <a href="/outils/simulateur-stress-test" className="text-gold hover:underline font-semibold">simulateur de stress test</a> pour calculer.
+      </p>
+
+      <h2>Strat&eacute;gies pour obtenir le meilleur taux</h2>
+      <ul>
+        <li><strong>Passez par un courtier</strong> : un <InternalLink slug="courtier-hypothecaire-vs-banque-immigrant">courtier hypoth&eacute;caire</InternalLink> compare les offres de dizaines de pr&ecirc;teurs gratuitement</li>
+        <li><strong>Am&eacute;liorez votre score de cr&eacute;dit</strong> : 680+ vous donne acc&egrave;s aux meilleurs taux. Consultez notre guide <InternalLink slug="construire-credit-canadien-6-mois-immigrant">construire son cr&eacute;dit</InternalLink></li>
+        <li><strong>Augmentez votre mise de fonds</strong> : 20 %+ &eacute;limine la prime SCHL et peut donner un meilleur taux</li>
+        <li><strong>Choisissez le bon terme</strong> : les termes courts (1-3 ans) offrent parfois des taux plus bas, mais vous renouvelez plus souvent</li>
+        <li><strong>N&eacute;gociez</strong> : les banques ont une marge de n&eacute;gociation, surtout si vous avez une offre concurrente</li>
+      </ul>
+
+      <h2>Impact du taux sur votre paiement</h2>
+      <p>Sur une hypoth&egrave;que de 400 000 $ (25 ans), chaque 0,25 % de diff&eacute;rence de taux change votre paiement d&rsquo;environ <strong>50 &agrave; 55 $ par mois</strong>, soit 15 000 &agrave; 16 500 $ sur la dur&eacute;e du terme (5 ans).</p>
+      <p>
+        Pour voir l&rsquo;impact pr&eacute;cis sur votre situation, utilisez notre <a href="/outils/calculateur-montant-empruntable" className="text-gold hover:underline font-semibold">calculateur de montant empruntable</a> ou notre <a href="/outils/comparateur-25-vs-30-ans" className="text-gold hover:underline font-semibold">comparateur 25 vs 30 ans</a>.
+      </p>
+      <p>
+        Consultez aussi la page officielle de la <a href="https://www.banqueducanada.ca/taux/" target="_blank" rel="noopener noreferrer">Banque du Canada — Taux</a> pour les taux directeurs actuels.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };
