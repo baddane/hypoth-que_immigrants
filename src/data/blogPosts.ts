@@ -389,6 +389,70 @@ export const blogPosts: BlogPost[] = [
     wizardVariant: undefined,
     relatedSlugs: ["interdiction-achat-non-canadien-exemptions-2027", "hypotheque-sans-historique-credit", "hypotheque-travailleur-temporaire-5pourcent"],
   },
+  // ====== ARTICLE #35 — ASSURANCE SCHL ======
+  {
+    slug: "assurance-hypothecaire-schl-primes-guide-2026",
+    title: "Assurance hypothécaire SCHL : guide simplifié des primes 2026",
+    subtitle: "Tableau des primes, calcul, exemptions et tout ce que la SCHL ne vous explique pas clairement.",
+    description: "Guide simplifié de l'assurance hypothécaire SCHL 2026. Tableau des primes par mise de fonds, calcul, exemptions et programmes pour immigrants au Canada.",
+    category: "Financement",
+    readTime: "10 min",
+    wizardVariant: "resident-permanent",
+    relatedSlugs: ["hypotheque-travailleur-temporaire-5pourcent", "acheter-duplex-triplex-immigrant-mise-de-fonds", "frais-caches-achat-maison-immigrant-checklist"],
+  },
+  // ====== ARTICLE #36 — STRESS TEST ======
+  {
+    slug: "stress-test-hypothecaire-canada-immigrant-guide",
+    title: "Test de résistance hypothécaire (stress test) : comment le réussir en tant qu'immigrant",
+    subtitle: "Comprendre le taux de qualification, les ratios ABD/ATD et maximiser votre capacité d'emprunt.",
+    description: "Guide complet du stress test hypothécaire au Canada pour immigrants. Taux de qualification 2026, ratios ABD/ATD, stratégies pour maximiser votre capacité d'emprunt.",
+    category: "Processus",
+    readTime: "9 min",
+    wizardVariant: "express",
+    relatedSlugs: ["preapprobation-hypotheque-immigrant", "assurance-hypothecaire-schl-primes-guide-2026", "hypotheque-taux-fixe-vs-variable"],
+  },
+  // ====== ARTICLE #37 — DROITS DE MUTATION ======
+  {
+    slug: "droits-mutation-immobiliere-province-rabais-premier-acheteur",
+    title: "Droits de mutation immobilière par province : rabais pour premier acheteur immigrant",
+    subtitle: "Taxe de bienvenue Québec, land transfer tax Ontario, C-B : combien payer et comment économiser.",
+    description: "Guide des droits de mutation immobilière (taxe de bienvenue) par province au Canada. Rabais premier acheteur pour immigrants en Ontario, Québec, C-B et plus.",
+    category: "Achat",
+    readTime: "8 min",
+    relatedSlugs: ["frais-caches-achat-maison-immigrant-checklist", "hypotheque-francophone-quebec", "hypotheque-ontario-immigrant"],
+  },
+  // ====== ARTICLE #38 — PROGRAMME SCHL NOUVEAUX ARRIVANTS ======
+  {
+    slug: "programme-schl-nouveaux-arrivants-guide-complet",
+    title: "Programme SCHL pour nouveaux arrivants : tout ce que les banques ne vous disent pas",
+    subtitle: "Mise de fonds 5%, sans historique de crédit, conditions réelles et pièges à éviter.",
+    description: "Guide complet du programme SCHL Nouveaux Arrivants. Mise de fonds 5%, critères d'éligibilité réels, documents requis et ce que les banques ne vous expliquent pas.",
+    category: "Financement",
+    readTime: "11 min",
+    wizardVariant: "travailleur-temporaire",
+    relatedSlugs: ["assurance-hypothecaire-schl-primes-guide-2026", "hypotheque-travailleur-temporaire-5pourcent", "hypotheque-sans-historique-credit"],
+  },
+  // ====== ARTICLE #39 — RAPPORT DE CRÉDIT ======
+  {
+    slug: "rapport-credit-equifax-transunion-immigrant-canada",
+    title: "Rapport de crédit Equifax et TransUnion : guide pour immigrant au Canada",
+    subtitle: "Comment obtenir, lire et améliorer votre rapport de crédit quand vous arrivez au Canada.",
+    description: "Guide complet du rapport de crédit Equifax et TransUnion pour immigrants au Canada. Comment obtenir votre rapport, comprendre votre cote et l'améliorer rapidement.",
+    category: "Crédit",
+    readTime: "9 min",
+    relatedSlugs: ["construire-credit-canadien-6-mois-immigrant", "hypotheque-sans-historique-credit", "hypotheque-apres-faillite-mauvais-credit-immigrant"],
+  },
+  // ====== ARTICLE #40 — IMMEUBLE LOCATIF ======
+  {
+    slug: "immeuble-locatif-2-4-logements-schl-income-property-immigrant",
+    title: "Acheter un immeuble locatif (2-4 logements) comme immigrant : programme SCHL Income Property",
+    subtitle: "Duplex, triplex, quadruplex : comment la SCHL finance votre investissement locatif.",
+    description: "Guide du programme SCHL Income Property pour immigrants. Acheter un duplex, triplex ou quadruplex locatif au Canada : mise de fonds, revenus locatifs et qualification.",
+    category: "Achat",
+    readTime: "10 min",
+    wizardVariant: "resident-permanent",
+    relatedSlugs: ["acheter-duplex-triplex-immigrant-mise-de-fonds", "assurance-hypothecaire-schl-primes-guide-2026", "hypotheque-travailleur-autonome-freelance"],
+  },
 ];
 
 // Helper: get post by slug

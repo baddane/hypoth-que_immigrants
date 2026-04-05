@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     "Articles et guides complets sur l'hypothèque pour immigrants au Canada. Travailleurs temporaires, étudiants, résidents permanents.",
   openGraph: {
     title: "Guides Hypothèque Immigrants Canada",
-    description: "34 guides complets pour obtenir votre hypothèque au Canada en tant qu'immigrant.",
+    description: "40 guides complets pour obtenir votre hypothèque au Canada en tant qu'immigrant.",
     url: `${SITE_URL}/blog`,
     type: "website",
   },

@@ -31,5 +31,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...wizardPages, ...blogPages];
+  const toolPages: MetadataRoute.Sitemap = [
+    { url: `${BASE_URL}/outils/calculateur-prime-schl`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${BASE_URL}/outils/simulateur-stress-test`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${BASE_URL}/outils/checklist-documents`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${BASE_URL}/outils/eligibilite-achat-non-canadien`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.8 },
+  ];
+
+  return [...staticPages, ...wizardPages, ...toolPages, ...blogPages];
 }

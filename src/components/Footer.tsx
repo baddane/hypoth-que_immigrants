@@ -22,6 +22,10 @@ export default function Footer() {
             <h4 className="font-semibold mb-4 uppercase text-xs tracking-wider text-white">Outils</h4>
             <ul className="space-y-2 text-base text-gray-400">
               <li><Link href="/wizard" className="hover:text-gold transition font-semibold">Wizard Hypothèque</Link></li>
+              <li><Link href="/outils/calculateur-prime-schl" className="hover:text-gold transition font-semibold">Calculateur Prime SCHL</Link></li>
+              <li><Link href="/outils/simulateur-stress-test" className="hover:text-gold transition font-semibold">Simulateur Stress Test</Link></li>
+              <li><Link href="/outils/checklist-documents" className="hover:text-gold transition font-semibold">Checklist Documents</Link></li>
+              <li><Link href="/outils/eligibilite-achat-non-canadien" className="hover:text-gold transition font-semibold">Quiz Éligibilité</Link></li>
               <li><Link href="/faq" className="hover:text-gold transition font-semibold">FAQ</Link></li>
               <li><Link href="/contact" className="hover:text-gold transition font-semibold">Contact</Link></li>
             </ul>
