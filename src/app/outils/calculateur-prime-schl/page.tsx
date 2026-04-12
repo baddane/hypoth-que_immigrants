@@ -167,6 +167,33 @@ export default function CalculateurPrimeSCHL() {
           </p>
         </div>
 
+        {/* FAQ section */}
+        <div className="bg-white rounded-2xl p-8 shadow-sm mb-8">
+          <h2 className="text-xl font-extrabold text-midnight mb-6">Questions fréquentes sur la prime SCHL</h2>
+          <div className="space-y-5">
+            <div>
+              <h3 className="font-semibold text-midnight mb-1">Quand la prime SCHL est-elle obligatoire&nbsp;?</h3>
+              <p className="text-base text-gray-600">Dès que votre mise de fonds est inférieure à 20&nbsp;% du prix d&apos;achat, l&apos;assurance SCHL (CMHC) ou un assureur privé (Sagen, Canada Guaranty) est obligatoire. Sans elle, aucune banque canadienne ne vous prêtera.</p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-midnight mb-1">Comment est calculée la prime SCHL&nbsp;?</h3>
+              <p className="text-base text-gray-600">La prime est un pourcentage du montant emprunté (prix – mise de fonds). Plus votre mise de fonds est petite, plus le taux est élevé&nbsp;: 4,00&nbsp;% à 5&nbsp;% de mise de fonds, 3,10&nbsp;% à 10&nbsp;%, 2,80&nbsp;% à 15&nbsp;%.</p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-midnight mb-1">Peut-on payer la prime SCHL comptant&nbsp;?</h3>
+              <p className="text-base text-gray-600">Oui, mais la majorité des acheteurs l&apos;ajoutent au prêt hypothécaire. Elle est alors répartie sur toute la durée d&apos;amortissement (25 ou 30 ans), ce qui augmente légèrement vos paiements mensuels.</p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-midnight mb-1">La prime SCHL est-elle taxable&nbsp;?</h3>
+              <p className="text-base text-gray-600">Au Québec, la prime est assujettie à la taxe de vente (TVQ 9,975&nbsp;%), payable comptant à la signature. Dans les autres provinces, la taxe varie selon la juridiction.</p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-midnight mb-1">Quelles sont les primes SCHL en 2026&nbsp;?</h3>
+              <p className="text-base text-gray-600">Les taux officiels SCHL 2026 sont&nbsp;: 4,00&nbsp;% (mise de fonds 5-9,99&nbsp;%), 3,10&nbsp;% (10-14,99&nbsp;%), 2,80&nbsp;% (15-19,99&nbsp;%). Une surcharge de 0,20&nbsp;% s&apos;applique pour un amortissement de 30 ans.</p>
+            </div>
+          </div>
+        </div>
+
         <div className="text-center">
           <Link href="/blog" className="text-base text-gold font-semibold hover:underline">
             Voir tous nos guides &rarr;
@@ -184,6 +211,42 @@ export default function CalculateurPrimeSCHL() {
               applicationCategory: "FinanceApplication",
               operatingSystem: "Web",
               offers: { "@type": "Offer", price: "0", priceCurrency: "CAD" },
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: [
+                {
+                  "@type": "Question",
+                  name: "Quand la prime SCHL est-elle obligatoire ?",
+                  acceptedAnswer: { "@type": "Answer", text: "Dès que votre mise de fonds est inférieure à 20 % du prix d'achat, l'assurance SCHL (CMHC) ou un assureur privé (Sagen, Canada Guaranty) est obligatoire." },
+                },
+                {
+                  "@type": "Question",
+                  name: "Comment est calculée la prime SCHL ?",
+                  acceptedAnswer: { "@type": "Answer", text: "La prime est un pourcentage du montant emprunté. Plus votre mise de fonds est petite, plus le taux est élevé : 4,00 % à 5 % de mise de fonds, 3,10 % à 10 %, 2,80 % à 15 %." },
+                },
+                {
+                  "@type": "Question",
+                  name: "Peut-on payer la prime SCHL comptant ?",
+                  acceptedAnswer: { "@type": "Answer", text: "Oui, mais la majorité des acheteurs l'ajoutent au prêt hypothécaire. Elle est alors répartie sur la durée d'amortissement." },
+                },
+                {
+                  "@type": "Question",
+                  name: "La prime SCHL est-elle taxable ?",
+                  acceptedAnswer: { "@type": "Answer", text: "Au Québec, la prime est assujettie à la TVQ 9,975 %, payable comptant à la signature." },
+                },
+                {
+                  "@type": "Question",
+                  name: "Quelles sont les primes SCHL en 2026 ?",
+                  acceptedAnswer: { "@type": "Answer", text: "Les taux officiels SCHL 2026 sont : 4,00 % (mise de fonds 5-9,99 %), 3,10 % (10-14,99 %), 2,80 % (15-19,99 %). Surcharge 0,20 % pour 30 ans d'amortissement." },
+                },
+              ],
             }),
           }}
         />

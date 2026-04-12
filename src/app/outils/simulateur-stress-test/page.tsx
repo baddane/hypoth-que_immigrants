@@ -252,6 +252,33 @@ export default function SimulateurStressTest() {
           </p>
         </div>
 
+        {/* FAQ section */}
+        <div className="bg-white rounded-2xl p-8 shadow-sm mb-8">
+          <h2 className="text-xl font-extrabold text-midnight mb-6">Questions fréquentes sur le stress test hypothécaire</h2>
+          <div className="space-y-5">
+            <div>
+              <h3 className="font-semibold text-midnight mb-1">Qu&apos;est-ce que le test de résistance hypothécaire&nbsp;?</h3>
+              <p className="text-base text-gray-600">Le stress test (ou test de résistance) est une règle du BSIF imposant aux banques canadiennes de qualifier l&apos;emprunteur à un taux supérieur au taux contractuel, afin de vérifier qu&apos;il pourrait absorber une hausse des taux.</p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-midnight mb-1">Quel est le taux du stress test en 2026&nbsp;?</h3>
+              <p className="text-base text-gray-600">Le taux de qualification est le plus élevé entre&nbsp;: (1) votre taux contractuel + 2&nbsp;%, ou (2) le taux plancher du BSIF fixé à 5,25&nbsp;%. Exemple&nbsp;: taux négocié à 4,5&nbsp;% → qualification à 6,5&nbsp;%.</p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-midnight mb-1">Le stress test s&apos;applique-t-il aux immigrants&nbsp;?</h3>
+              <p className="text-base text-gray-600">Oui, tous les emprunteurs — citoyens, résidents permanents, travailleurs temporaires, étudiants — doivent passer le test de résistance, qu&apos;ils achètent avec ou sans assurance SCHL.</p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-midnight mb-1">Comment réussir le stress test hypothécaire&nbsp;?</h3>
+              <p className="text-base text-gray-600">Trois leviers&nbsp;: augmenter votre mise de fonds pour réduire le montant emprunté, réduire vos dettes mensuelles (auto, cartes), ou augmenter votre revenu déclaré. Les ratios ABD doivent rester sous 39&nbsp;% et ATD sous 44&nbsp;%.</p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-midnight mb-1">Peut-on éviter le stress test&nbsp;?</h3>
+              <p className="text-base text-gray-600">Non pour une banque à charte fédérale. Certains prêteurs alternatifs (coopératives provinciales, prêteurs B) ne sont pas soumis au stress test BSIF mais exigent des taux et conditions moins avantageux.</p>
+            </div>
+          </div>
+        </div>
+
         <div className="text-center">
           <Link href="/outils/calculateur-prime-schl" className="text-base text-gold font-semibold hover:underline">
             Calculateur de prime SCHL &rarr;
@@ -269,6 +296,42 @@ export default function SimulateurStressTest() {
               applicationCategory: "FinanceApplication",
               operatingSystem: "Web",
               offers: { "@type": "Offer", price: "0", priceCurrency: "CAD" },
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: [
+                {
+                  "@type": "Question",
+                  name: "Qu'est-ce que le test de résistance hypothécaire ?",
+                  acceptedAnswer: { "@type": "Answer", text: "Le stress test est une règle du BSIF imposant aux banques canadiennes de qualifier l'emprunteur à un taux supérieur au taux contractuel, afin de vérifier qu'il pourrait absorber une hausse des taux." },
+                },
+                {
+                  "@type": "Question",
+                  name: "Quel est le taux du stress test en 2026 ?",
+                  acceptedAnswer: { "@type": "Answer", text: "Le taux de qualification est le plus élevé entre votre taux contractuel + 2 % ou le taux plancher BSIF de 5,25 %." },
+                },
+                {
+                  "@type": "Question",
+                  name: "Le stress test s'applique-t-il aux immigrants ?",
+                  acceptedAnswer: { "@type": "Answer", text: "Oui, tous les emprunteurs — citoyens, résidents permanents, travailleurs temporaires, étudiants — doivent passer le test de résistance." },
+                },
+                {
+                  "@type": "Question",
+                  name: "Comment réussir le stress test hypothécaire ?",
+                  acceptedAnswer: { "@type": "Answer", text: "Augmenter la mise de fonds, réduire les dettes mensuelles ou augmenter le revenu. Les ratios ABD doivent rester sous 39 % et ATD sous 44 %." },
+                },
+                {
+                  "@type": "Question",
+                  name: "Peut-on éviter le stress test ?",
+                  acceptedAnswer: { "@type": "Answer", text: "Non pour une banque à charte fédérale. Certains prêteurs alternatifs ne sont pas soumis au stress test BSIF mais offrent des conditions moins avantageuses." },
+                },
+              ],
             }),
           }}
         />
