@@ -1,9 +1,23 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "À Propos",
-  description: "À propos de guide-hypotheque.ca. Notre mission, expertise, partenaires.",
+  title: "À Propos : Guide Hypothèque Immigrants Canada",
+  description:
+    "guide-hypotheque.ca : plateforme indépendante dédiée aux immigrants et nouveaux arrivants qui souhaitent obtenir une hypothèque au Canada. Mission, expertise, partenaires.",
+  alternates: {
+    canonical: `${SITE_URL}/about`,
+  },
+  openGraph: {
+    title: "À Propos — guide-hypotheque.ca",
+    description:
+      "Notre mission : aider les immigrants au Canada à obtenir leur hypothèque.",
+    url: `${SITE_URL}/about`,
+    type: "website",
+    locale: "fr_CA",
+  },
+  robots: "index, follow",
 };
 
 export default function AboutPage() {

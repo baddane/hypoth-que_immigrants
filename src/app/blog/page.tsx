@@ -8,12 +8,17 @@ export const metadata: Metadata = {
   title: "Guides Hypothèque Immigrants Canada — 44 Articles",
   description:
     "Articles et guides complets sur l'hypothèque pour immigrants au Canada. Travailleurs temporaires, étudiants, résidents permanents.",
+  alternates: {
+    canonical: `${SITE_URL}/blog`,
+  },
   openGraph: {
     title: "Guides Hypothèque Immigrants Canada",
     description: "44 guides complets pour obtenir votre hypothèque au Canada en tant qu'immigrant.",
     url: `${SITE_URL}/blog`,
     type: "website",
+    locale: "fr_CA",
   },
+  robots: "index, follow",
 };
 
 function groupByCategory(posts: typeof blogPosts) {

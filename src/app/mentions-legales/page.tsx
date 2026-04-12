@@ -1,7 +1,14 @@
 import type { Metadata } from "next";
+import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Mentions Légales",
+  description:
+    "Mentions légales de guide-hypotheque.ca. Éditeur, hébergement, propriété intellectuelle et responsabilités.",
+  alternates: {
+    canonical: `${SITE_URL}/mentions-legales`,
+  },
+  robots: "index, follow",
 };
 
 export default function MentionsLegalesPage() {

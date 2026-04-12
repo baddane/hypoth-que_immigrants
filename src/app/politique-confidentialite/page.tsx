@@ -1,9 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Politique de Confidentialit\u00e9",
   description: "Politique de confidentialit\u00e9 de guide-hypotheque.ca. Conformit\u00e9 RGPD, Loi 25 (Qu\u00e9bec) et PIPEDA (Canada).",
+  alternates: {
+    canonical: `${SITE_URL}/politique-confidentialite`,
+  },
+  robots: "index, follow",
 };
 
 export default function PolitiqueConfidentialitePage() {

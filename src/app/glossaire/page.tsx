@@ -1,10 +1,30 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Glossaire hypothécaire — guide-hypotheque.ca",
+  title: "Glossaire Hypothécaire Canada : 26 Termes Expliqués Simplement",
   description:
     "Glossaire complet des termes hypothécaires au Canada : amortissement, ABD, ATD, stress test, SCHL, taux fixe, variable et plus. Explications simples pour immigrants.",
+  keywords: [
+    "glossaire hypothèque",
+    "termes hypothécaires canada",
+    "définition abd atd",
+    "lexique hypothèque",
+    "vocabulaire hypothécaire",
+  ],
+  alternates: {
+    canonical: `${SITE_URL}/glossaire`,
+  },
+  openGraph: {
+    title: "Glossaire Hypothécaire Canada — 26 Termes",
+    description:
+      "Tous les termes hypothécaires expliqués simplement : ABD, ATD, SCHL, stress test, amortissement...",
+    url: `${SITE_URL}/glossaire`,
+    type: "website",
+    locale: "fr_CA",
+  },
+  robots: "index, follow",
 };
 
 const glossaryTerms = [

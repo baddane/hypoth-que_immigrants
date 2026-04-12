@@ -2,11 +2,24 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { faqItems } from "@/data/banks";
 import FaqAccordion from "@/components/FaqAccordion";
+import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "FAQ Hypothèque Immigrants — Questions Fréquentes",
+  title: "FAQ Hypothèque Immigrants Canada : Questions Fréquentes 2026",
   description:
-    "Réponses aux questions les plus fréquentes sur l'hypothèque pour immigrants au Canada. SCHL, crédit, mise de fonds, programmes bancaires.",
+    "Réponses aux questions les plus fréquentes sur l'hypothèque pour immigrants au Canada. SCHL, crédit, mise de fonds, programmes bancaires, travailleurs temporaires.",
+  alternates: {
+    canonical: `${SITE_URL}/faq`,
+  },
+  openGraph: {
+    title: "FAQ Hypothèque Immigrants Canada",
+    description:
+      "Toutes les réponses à vos questions sur l'hypothèque pour immigrants au Canada.",
+    url: `${SITE_URL}/faq`,
+    type: "website",
+    locale: "fr_CA",
+  },
+  robots: "index, follow",
 };
 
 export default function FAQPage() {

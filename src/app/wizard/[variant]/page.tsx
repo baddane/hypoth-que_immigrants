@@ -21,12 +21,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: v.title,
     description: v.subtitle,
+    alternates: {
+      canonical: `${SITE_URL}/wizard/${v.slug}`,
+    },
     openGraph: {
       title: v.title,
       description: v.heroDescription,
       url: `${SITE_URL}/wizard/${v.slug}`,
+      siteName: SITE_NAME,
       type: "website",
+      locale: "fr_CA",
     },
+    twitter: {
+      card: "summary_large_image",
+      title: v.title,
+      description: v.heroDescription,
+    },
+    robots: "index, follow",
   };
 }
 
