@@ -1,5 +1,5 @@
 // ============================================
-// BLOG POSTS METADATA — 34 articles
+// BLOG POSTS METADATA — 45 articles
 // Data-driven: each post has metadata + markdown-like content sections
 // ============================================
 
@@ -123,7 +123,7 @@ export const blogPosts: BlogPost[] = [
     category: "Province",
     readTime: "9 min",
     wizardVariant: undefined,
-    relatedSlugs: ["hypotheque-alberta-immigrants-calgary-edmonton", "hypotheque-ontario-immigrants-toronto", "hypotheque-francophone-quebec"],
+    relatedSlugs: ["plafond-schl-1-5-million-toronto-vancouver-immigrants-2026", "hypotheque-ontario-immigrants-toronto", "hypotheque-alberta-immigrants-calgary-edmonton"],
   },
   // ====== ARTICLE #9C ======
   {
@@ -266,7 +266,7 @@ export const blogPosts: BlogPost[] = [
     category: "Province",
     readTime: "10 min",
     wizardVariant: undefined,
-    relatedSlugs: ["hypotheque-francophone-quebec", "hypotheque-bc-immigrants-vancouver-victoria", "hypotheque-alberta-immigrants-calgary-edmonton"],
+    relatedSlugs: ["hypotheque-bc-immigrants-vancouver-victoria", "plafond-schl-1-5-million-toronto-vancouver-immigrants-2026", "hypotheque-francophone-quebec"],
   },
   // ====== ARTICLE BONUS #22 — Taxe acheteur étranger (suggestion) ======
   {
@@ -398,7 +398,7 @@ export const blogPosts: BlogPost[] = [
     category: "Financement",
     readTime: "10 min",
     wizardVariant: "resident-permanent",
-    relatedSlugs: ["hypotheque-travailleur-temporaire-5pourcent", "acheter-duplex-triplex-immigrant-mise-de-fonds", "frais-caches-achat-maison-immigrant-checklist"],
+    relatedSlugs: ["plafond-schl-1-5-million-toronto-vancouver-immigrants-2026", "hypotheque-travailleur-temporaire-5pourcent", "acheter-duplex-triplex-immigrant-mise-de-fonds"],
   },
   // ====== ARTICLE #36 — STRESS TEST ======
   {
@@ -492,6 +492,21 @@ export const blogPosts: BlogPost[] = [
     category: "Taux",
     readTime: "10 min",
     relatedSlugs: ["hypotheque-taux-fixe-variable-immigrant", "stress-test-hypothecaire-canada-immigrant-guide", "hypotheque-refinancement-renouvellement-immigrant"],
+  },
+  // ====== ARTICLE #45 — PLAFOND SCHL 1,5 M$ GTA / VANCOUVER (actualité 2026) ======
+  {
+    slug: "plafond-schl-1-5-million-toronto-vancouver-immigrants-2026",
+    title: "Plafond SCHL à 1,5 M$ : ce que les immigrants peuvent enfin acheter à Toronto et Vancouver en 2026",
+    subtitle: "Bilan un an après la hausse du plafond d'assurance hypothécaire — les marchés GTA et Vancouver s'ouvrent enfin aux nouveaux arrivants avec 5 à 19 % de mise de fonds.",
+    description: "Analyse 2026 de la hausse du plafond SCHL à 1,5 M$ pour Toronto et Vancouver. Nouvelles règles de mise de fonds, ce que les immigrants peuvent acheter, combinaison avec l'amortissement 30 ans et pièges à éviter.",
+    category: "Financement",
+    readTime: "11 min",
+    wizardVariant: "resident-permanent",
+    relatedSlugs: [
+      "assurance-hypothecaire-schl-primes-guide-2026",
+      "premier-chez-soi-schl-amortissement-30-ans-guide",
+      "hypotheque-bc-immigrants-vancouver-victoria",
+    ],
   },
 ];
 

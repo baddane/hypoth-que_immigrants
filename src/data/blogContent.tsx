@@ -2753,4 +2753,147 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  // ====================================================
+  // ARTICLE 45: PLAFOND SCHL 1,5 M$ GTA / VANCOUVER (actualité 2026)
+  // ====================================================
+  "plafond-schl-1-5-million-toronto-vancouver-immigrants-2026": (
+    <>
+      <p>
+        Le 15 d&eacute;cembre 2024, le gouvernement f&eacute;d&eacute;ral a rehauss&eacute; le <strong>plafond d&rsquo;assurance hypoth&eacute;caire SCHL</strong> de 1&nbsp;000&nbsp;000&nbsp;$ &agrave; <strong>1&nbsp;500&nbsp;000&nbsp;$</strong>. Un an et demi plus tard, l&rsquo;impact est massif pour les immigrants qui visent Toronto, Vancouver ou leurs banlieues&nbsp;: des milliers de propri&eacute;t&eacute;s qui exigeaient 20&nbsp;% de mise de fonds (soit 200&nbsp;000&nbsp;$+) sont maintenant accessibles avec aussi peu que 5 &agrave; 19&nbsp;%.
+      </p>
+      <p>
+        Ce guide fait le bilan 2026 de la mesure, d&eacute;taille les nouveaux seuils et montre, chiffres &agrave; l&rsquo;appui, ce qu&rsquo;un nouvel arrivant peut vraiment acheter aujourd&rsquo;hui &agrave; Toronto et Vancouver.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Ce qui a chang&eacute; le 15 d&eacute;cembre 2024</h2>
+      <p>
+        Avant d&eacute;cembre 2024, la SCHL (et les assureurs priv&eacute;s Sagen et Canada Guaranty) ne pouvaient assurer que les pr&ecirc;ts sur des propri&eacute;t&eacute;s dont le prix d&rsquo;achat &eacute;tait <strong>inf&eacute;rieur &agrave; 1&nbsp;000&nbsp;000&nbsp;$</strong>. Au-del&agrave;, 20&nbsp;% de mise de fonds devenait obligatoire, ce qui excluait m&eacute;caniquement la quasi-totalit&eacute; des nouveaux arrivants des march&eacute;s de Toronto et Vancouver, o&ugrave; le prix m&eacute;dian d&eacute;passe 1&nbsp;M$ depuis plusieurs ann&eacute;es.
+      </p>
+      <p>
+        La mise &agrave; jour de d&eacute;cembre 2024 a port&eacute; ce plafond &agrave; <strong>1,5&nbsp;M$</strong> et a simultan&eacute;ment &eacute;tendu l&rsquo;<strong>amortissement sur 30 ans</strong> &agrave; tous les premiers acheteurs de propri&eacute;t&eacute;s neuves. Pour les d&eacute;tails officiels, consultez la page <a href="https://www.canada.ca/fr/ministere-finances/nouvelles/2024/09/le-gouvernement-annonce-les-reformes-hypothecaires-les-plus-audacieuses-depuis-des-decennies-pour-debloquer-la-propriete-pour-les-canadiens.html" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Minist&egrave;re des Finances — R&eacute;formes hypoth&eacute;caires 2024</a>.
+      </p>
+
+      <WizardCta />
+
+      <h2 className="text-xl font-extrabold text-midnight">Nouveau tableau de mise de fonds minimale (2026)</h2>
+      <p>La r&egrave;gle est progressive selon le prix d&rsquo;achat&nbsp;:</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Tranche de prix</th>
+            <th>Mise de fonds minimale</th>
+            <th>Exemple sur un achat de 1,4 M$</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>0 &ndash; 500&nbsp;000&nbsp;$</td>
+            <td>5&nbsp;%</td>
+            <td>25&nbsp;000&nbsp;$</td>
+          </tr>
+          <tr>
+            <td>500&nbsp;001 &ndash; 1&nbsp;500&nbsp;000&nbsp;$</td>
+            <td>10&nbsp;%</td>
+            <td>90&nbsp;000&nbsp;$ (sur 900&nbsp;000&nbsp;$)</td>
+          </tr>
+          <tr>
+            <td>Au-dessus de 1&nbsp;500&nbsp;000&nbsp;$</td>
+            <td>20&nbsp;% (non assurable)</td>
+            <td>&mdash;</td>
+          </tr>
+          <tr>
+            <td><strong>Total 1,4 M$</strong></td>
+            <td><strong>~8,2&nbsp;%</strong></td>
+            <td><strong>115&nbsp;000&nbsp;$</strong></td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Utilisez notre <a href="/outils/calculateur-prime-schl" className="text-gold hover:underline font-semibold">calculateur de prime SCHL</a> pour estimer votre prime exacte selon votre situation.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Impact concret &agrave; Toronto et dans la GTA</h2>
+      <p>
+        Selon les donn&eacute;es du <a href="https://trreb.ca/" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Toronto Regional Real Estate Board (TRREB)</a>, le prix m&eacute;dian d&rsquo;une maison unifamiliale d&eacute;tach&eacute;e dans la GTA tourne autour de <strong>1,3 &agrave; 1,4 M$</strong> en 2026, alors que les condos restent entre 650&nbsp;000 et 800&nbsp;000&nbsp;$.
+      </p>
+      <ul>
+        <li><strong>Condo au centre-ville</strong> (750&nbsp;000&nbsp;$)&nbsp;: mise de fonds minimale = 50&nbsp;000&nbsp;$ (6,7&nbsp;%)</li>
+        <li><strong>Townhouse Scarborough / Mississauga</strong> (1,1 M$)&nbsp;: mise de fonds minimale = 85&nbsp;000&nbsp;$ (7,7&nbsp;%)</li>
+        <li><strong>Maison d&eacute;tach&eacute;e 905</strong> (1,4 M$)&nbsp;: mise de fonds minimale = 115&nbsp;000&nbsp;$ (8,2&nbsp;%)</li>
+      </ul>
+      <p>
+        Avant d&eacute;cembre 2024, le m&ecirc;me achat &agrave; 1,4 M$ exigeait <strong>280&nbsp;000&nbsp;$</strong> de mise de fonds. La &eacute;conomie de cash requis&nbsp;: 165&nbsp;000&nbsp;$. Pour un nouvel arrivant avec un bon revenu mais peu d&rsquo;&eacute;pargne, c&rsquo;est la diff&eacute;rence entre &laquo;&nbsp;dans cinq ans&nbsp;&raquo; et &laquo;&nbsp;cette ann&eacute;e&nbsp;&raquo;.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Impact concret &agrave; Vancouver et en Colombie-Britannique</h2>
+      <p>
+        Vancouver, encore plus cher que Toronto, est le march&eacute; o&ugrave; la r&eacute;forme change le plus la donne. Consultez notre <InternalLink slug="hypotheque-bc-immigrants-vancouver-victoria">guide hypoth&egrave;que C-B pour immigrants</InternalLink> pour les sp&eacute;cificit&eacute;s provinciales (PTT, taxe sp&eacute;culative, taxe &eacute;tranger).
+      </p>
+      <ul>
+        <li><strong>Condo Vancouver Ouest</strong> (850&nbsp;000&nbsp;$)&nbsp;: mise de fonds minimale = 60&nbsp;000&nbsp;$</li>
+        <li><strong>Townhouse Burnaby / Surrey</strong> (1,2 M$)&nbsp;: mise de fonds minimale = 95&nbsp;000&nbsp;$</li>
+        <li><strong>Maison d&eacute;tach&eacute;e East Vancouver</strong> (1,45 M$)&nbsp;: mise de fonds minimale = 120&nbsp;000&nbsp;$</li>
+      </ul>
+      <p>
+        Selon les donn&eacute;es du <a href="https://www.rebgv.org/" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Real Estate Board of Greater Vancouver</a>, plus de <strong>60&nbsp;% des propri&eacute;t&eacute;s vendues</strong> dans le Grand Vancouver en 2025 &eacute;taient sous le nouveau plafond de 1,5 M$, contre &agrave; peine 28&nbsp;% sous l&rsquo;ancien plafond de 1 M$.
+      </p>
+
+      <WizardCta variant="dark" />
+
+      <h2 className="text-xl font-extrabold text-midnight">Combiner avec l&rsquo;amortissement 30 ans (Premier Chez-Soi)</h2>
+      <p>
+        Depuis la m&ecirc;me date (15 d&eacute;cembre 2024), <strong>tous les premiers acheteurs</strong> (y compris les immigrants &eacute;ligibles au <InternalLink slug="programme-schl-nouveaux-arrivants-guide-complet">programme SCHL Nouveaux Arrivants</InternalLink>) peuvent &eacute;taler leur pr&ecirc;t sur <strong>30 ans</strong> au lieu de 25, &agrave; condition d&rsquo;acheter une propri&eacute;t&eacute; neuve ou de profiter du programme <InternalLink slug="premier-chez-soi-schl-amortissement-30-ans-guide">Premier Chez-Soi SCHL</InternalLink>.
+      </p>
+      <p>
+        Sur un pr&ecirc;t de 1,3 M$ &agrave; 4,5&nbsp;%, le paiement mensuel passe d&rsquo;environ <strong>7&nbsp;215&nbsp;$/mois</strong> (25 ans) &agrave; <strong>6&nbsp;580&nbsp;$/mois</strong> (30 ans) &mdash; soit 635&nbsp;$ de moins par mois. Combin&eacute; avec un plafond assur&eacute; plus &eacute;lev&eacute;, ces deux r&eacute;formes rendent la qualification au <InternalLink slug="stress-test-hypothecaire-canada-immigrant-guide">stress test</InternalLink> nettement plus atteignable.
+      </p>
+      <p>
+        Pour visualiser la diff&eacute;rence, utilisez notre <a href="/outils/comparateur-25-vs-30-ans" className="text-gold hover:underline font-semibold">comparateur 25 vs 30 ans</a>.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Qui est admissible en 2026 ?</h2>
+      <ul>
+        <li><strong>R&eacute;sidents permanents</strong>&nbsp;: acc&egrave;s complet, d&egrave;s l&rsquo;arriv&eacute;e</li>
+        <li><strong>Travailleurs &eacute;trangers temporaires</strong> (permis de travail valide)&nbsp;: admissibles via le programme Nouveaux Arrivants, voir notre <InternalLink slug="hypotheque-travailleur-temporaire-5pourcent">guide travailleur temporaire 5&nbsp;%</InternalLink></li>
+        <li><strong>R&eacute;fugi&eacute;s et personnes prot&eacute;g&eacute;es</strong>&nbsp;: admissibles, dispens&eacute;s de la <InternalLink slug="hypotheque-refugie-personne-protegee-canada">loi sur les acheteurs &eacute;trangers</InternalLink></li>
+        <li><strong>&Eacute;tudiants internationaux avec PGWP</strong>&nbsp;: admissibles si conditions de revenu et statut sont remplies</li>
+        <li><strong>Canadiens n&eacute;s &agrave; l&rsquo;&eacute;tranger / doubles citoyens</strong>&nbsp;: acc&egrave;s complet, non soumis &agrave; la <InternalLink slug="interdiction-achat-non-canadien-exemptions-2027">loi P-25.2</InternalLink></li>
+      </ul>
+
+      <h2 className="text-xl font-extrabold text-midnight">Les trois pi&egrave;ges &agrave; &eacute;viter</h2>
+      <h3 className="font-semibold text-midnight">1. La prime SCHL augmente aussi avec le prix</h3>
+      <p>
+        Sur un pr&ecirc;t de 1,29 M$ (1,4 M$ avec 8&nbsp;% de mise de fonds), la prime SCHL &agrave; 3,10&nbsp;% repr&eacute;sente environ <strong>40&nbsp;000&nbsp;$</strong> ajout&eacute;s &agrave; votre hypoth&egrave;que. C&rsquo;est &eacute;talable sur 25 ou 30 ans, mais c&rsquo;est un co&ucirc;t r&eacute;el. Notre <InternalLink slug="assurance-hypothecaire-schl-primes-guide-2026">guide des primes SCHL 2026</InternalLink> d&eacute;taille le calcul.
+      </p>
+      <h3 className="font-semibold text-midnight">2. Le stress test se fait &agrave; 6,5&nbsp;% minimum</h3>
+      <p>
+        Peu importe le taux obtenu, la banque vous qualifie au plus &eacute;lev&eacute; entre votre taux + 2&nbsp;% et 5,25&nbsp;%. Pour une propri&eacute;t&eacute; de 1,4 M$, cela exige un revenu brut combin&eacute; d&rsquo;environ <strong>240&nbsp;000&nbsp;$/an</strong>. V&eacute;rifiez votre capacit&eacute; avec notre <a href="/outils/simulateur-stress-test" className="text-gold hover:underline font-semibold">simulateur de stress test</a>.
+      </p>
+      <h3 className="font-semibold text-midnight">3. Les taxes de mutation grimpent vite en GTA/Vancouver</h3>
+      <p>
+        Sur un achat &agrave; 1,4 M$ en Ontario, vous payerez environ <strong>46&nbsp;500&nbsp;$</strong> de Land Transfer Tax (LTT provincial + municipal Toronto). En C-B, le PTT sur 1,45 M$ s&rsquo;&eacute;l&egrave;ve &agrave; environ <strong>27&nbsp;000&nbsp;$</strong>. Ces frais sont <strong>en sus</strong> de la mise de fonds. Voir notre <InternalLink slug="droits-mutation-immobiliere-province-rabais-premier-acheteur">guide des droits de mutation par province</InternalLink>.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Comment profiter de la mesure en 2026</h2>
+      <ol>
+        <li><strong>V&eacute;rifier sa capacit&eacute; d&rsquo;emprunt</strong> avec notre <a href="/outils/calculateur-montant-empruntable" className="text-gold hover:underline font-semibold">calculateur</a> — souvent la surprise est positive depuis la r&eacute;forme</li>
+        <li><strong>Obtenir une pr&eacute;approbation &eacute;crite</strong> mentionnant explicitement le plafond assur&eacute; &agrave; 1,5 M$ et, si admissible, l&rsquo;amortissement 30 ans</li>
+        <li><strong>Cibler les propri&eacute;t&eacute;s sous 1,5 M$</strong>&nbsp;: au-dessus, le 20&nbsp;% cash redevient obligatoire, sans exception</li>
+        <li><strong>Pr&eacute;voir les frais hors mise de fonds</strong>&nbsp;: taxes de mutation, frais de notaire, inspection, assurance habitation &mdash; pr&eacute;voir 3 &agrave; 5&nbsp;% du prix d&rsquo;achat (voir <InternalLink slug="frais-caches-achat-maison-immigrant-checklist">les frais cach&eacute;s</InternalLink>)</li>
+        <li><strong>Passer par un courtier</strong> sp&eacute;cialis&eacute; nouveaux arrivants — les politiques de chaque pr&ecirc;teur diff&egrave;rent sur les prix &eacute;lev&eacute;s</li>
+      </ol>
+
+      <h2 className="text-xl font-extrabold text-midnight">L&rsquo;essentiel &agrave; retenir</h2>
+      <ul>
+        <li>Le plafond SCHL est pass&eacute; de 1 M$ &agrave; <strong>1,5 M$</strong> le 15 d&eacute;cembre 2024 et reste &agrave; ce niveau en 2026</li>
+        <li>Vous pouvez acheter une propri&eacute;t&eacute; jusqu&rsquo;&agrave; 1&nbsp;499&nbsp;999&nbsp;$ avec une mise de fonds <strong>progressive (5&nbsp;% / 10&nbsp;%)</strong> au lieu de 20&nbsp;%</li>
+        <li>Combin&eacute; avec l&rsquo;amortissement 30 ans, c&rsquo;est la r&eacute;forme la plus importante pour les premiers acheteurs immigrants depuis une d&eacute;cennie</li>
+        <li>La mesure est particuli&egrave;rement utile &agrave; Toronto (GTA) et &agrave; Vancouver o&ugrave; le prix m&eacute;dian flirtait avec l&rsquo;ancien plafond</li>
+        <li>Attention&nbsp;: prime SCHL &eacute;lev&eacute;e, stress test toujours en place, taxes de mutation &agrave; pr&eacute;voir</li>
+      </ul>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };
