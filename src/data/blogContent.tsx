@@ -3207,4 +3207,525 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  // ====================================================
+  // ARTICLE 50: RÉSIDENT PERMANENT
+  // ====================================================
+  "hypotheque-resident-permanent-canada-avantages": (
+    <>
+      <p>
+        Obtenir la <strong>r&eacute;sidence permanente (RP)</strong> au Canada est un tournant d&eacute;cisif pour votre acc&egrave;s au financement immobilier. D&egrave;s ce moment, vous b&eacute;n&eacute;ficiez des <strong>m&ecirc;mes conditions hypoth&eacute;caires que les citoyens canadiens</strong> — mise de fonds &agrave; 5&nbsp;%, acc&egrave;s complet aux programmes SCHL, CELIAPP, RAP — et les banques vous traitent comme n&rsquo;importe quel r&eacute;sident &eacute;tabli.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Ce que la RP change concr&egrave;tement</h2>
+      <div className="overflow-x-auto">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="border-b border-gray-200">
+              <th className="text-left py-2 pr-4">Crit&egrave;re</th>
+              <th className="text-left py-2 pr-4">Permis travail temporaire</th>
+              <th className="text-left py-2">R&eacute;sidence permanente</th>
+            </tr>
+          </thead>
+          <tbody className="text-gray-500">
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Mise de fonds min.</td><td className="pr-4">5&nbsp;% (programme NA SCHL)</td><td>5&nbsp;% (standard)</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Ratios d&rsquo;endettement</td><td className="pr-4">ABD 35&nbsp;% / ATD 42&nbsp;%</td><td>ABD 39&nbsp;% / ATD 44&nbsp;%</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Acc&egrave;s CELIAPP</td><td className="pr-4">Oui (si r&eacute;sident fiscal)</td><td>Oui, pleinement</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Acc&egrave;s RAP</td><td className="pr-4">Oui</td><td>Oui</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Cr&eacute;dit alternatif requis</td><td className="pr-4">Souvent n&eacute;cessaire</td><td>Non si cr&eacute;dit &eacute;tabli</td></tr>
+            <tr><td className="py-2 pr-4">Perception par les banques</td><td className="pr-4">Risque &eacute;l&eacute;v&eacute; (d&eacute;part possible)</td><td>Risque &eacute;quivalent citoyen</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        Les ratios plus &eacute;lev&eacute;s (39&nbsp;%/44&nbsp;% vs 35&nbsp;%/42&nbsp;%) repr&eacute;sentent un avantage concret&nbsp;: ils augmentent le montant que vous pouvez emprunter &agrave; revenu &eacute;gal d&rsquo;environ 10 &agrave; 15&nbsp;%. Utilisez notre <a href="/outils/simulateur-stress-test" className="text-gold hover:underline font-semibold">simulateur de stress test</a> pour calculer l&rsquo;impact sur votre situation.
+      </p>
+
+      <WizardCta />
+
+      <h2 className="text-xl font-extrabold text-midnight">CELIAPP et RAP&nbsp;: maximiser votre mise de fonds comme RP</h2>
+      <p>
+        En tant que r&eacute;sident permanent, vous avez acc&egrave;s aux deux programmes d&rsquo;&eacute;pargne les plus puissants pour premiers acheteurs&nbsp;:
+      </p>
+      <ul className="space-y-2">
+        <li>
+          <strong>CELIAPP (Compte d&rsquo;&eacute;pargne libre d&rsquo;imp&ocirc;t pour l&rsquo;achat d&rsquo;une premi&egrave;re propriet&eacute;)&nbsp;:</strong> Cotisez jusqu&rsquo;&agrave; 8&nbsp;000&nbsp;$ par an (40&nbsp;000&nbsp;$ &agrave; vie), d&eacute;ductibles d&rsquo;imp&ocirc;t, et retirez en franchise d&rsquo;imp&ocirc;t pour votre mise de fonds. Attention au pi&egrave;ge du bien &agrave; l&rsquo;&eacute;tranger — consultez notre <InternalLink slug="celiapp-rap-immigrant-premier-acheteur-2026">guide CELIAPP pour immigrants</InternalLink>.
+        </li>
+        <li>
+          <strong>RAP (R&eacute;gime d&rsquo;acc&egrave;s &agrave; la propri&eacute;t&eacute;)&nbsp;:</strong> Retirez jusqu&rsquo;&agrave; 35&nbsp;000&nbsp;$ de votre REER (70&nbsp;000&nbsp;$ en couple) sans p&eacute;nalit&eacute; pour votre premi&egrave;re maison. D&eacute;tails dans notre <InternalLink slug="hypotheque-reer-rap-immigrant-premier-achat">guide RAP pour immigrants</InternalLink>.
+        </li>
+      </ul>
+      <p>
+        Combin&eacute;s, CELIAPP + RAP peuvent repr&eacute;senter jusqu&rsquo;&agrave; 75&nbsp;000&nbsp;$ de mise de fonds par personne (150&nbsp;000&nbsp;$ en couple) — souvent suffisant pour atteindre 20&nbsp;% et &eacute;viter la prime SCHL.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Les programmes bancaires pour r&eacute;sidents permanents</h2>
+      <p>
+        Avec la RP, vous n&rsquo;&ecirc;tes plus limit&eacute; aux programmes &laquo;&nbsp;Nouveaux Arrivants&nbsp;&raquo; — vous acc&eacute;dez &agrave; l&rsquo;ensemble des produits hypoth&eacute;caires de chaque institution. Quelques avantages sp&eacute;cifiques&nbsp;:
+      </p>
+      <ul className="space-y-2">
+        <li><strong>RBC, TD, Scotiabank, BMO, CIBC&nbsp;:</strong> Taux comp&eacute;titifs standards, pas de conditions suppl&eacute;mentaires li&eacute;es au statut</li>
+        <li><strong>Desjardins (Qu&eacute;bec)&nbsp;:</strong> Offres compl&egrave;tes sans discrimination de statut pour les RP — voir notre <InternalLink slug="hypotheque-francophone-quebec">guide Qu&eacute;bec</InternalLink></li>
+        <li><strong>Coop&eacute;ratives de cr&eacute;dit r&eacute;gionales&nbsp;:</strong> Souvent plus flexibles, &eacute;valuent le dossier global plut&ocirc;t que les crit&egrave;res rigides</li>
+      </ul>
+
+      <WizardCta variant="dark" />
+
+      <h2 className="text-xl font-extrabold text-midnight">Programme SCHL Nouveaux Arrivants&nbsp;: encore accessible comme RP&nbsp;?</h2>
+      <p>
+        Le <InternalLink slug="programme-schl-nouveaux-arrivants-guide-complet">programme SCHL Nouveaux Arrivants</InternalLink> s&rsquo;applique aux r&eacute;sidents permanents depuis <strong>5 ans ou moins</strong> (date d&rsquo;obtention de la RP, pas d&rsquo;arriv&eacute;e au Canada). Si vous &ecirc;tes RP depuis plus de 5 ans, vous &ecirc;tes soumis aux r&egrave;gles SCHL standards — ce qui n&rsquo;est pas n&eacute;cessairement un inconv&eacute;nient puisque les ratios standards (39&nbsp;%/44&nbsp;%) sont plus favorables.
+      </p>
+      <p>
+        Pour comprendre tout le processus d&rsquo;achat en tant que RP, commencez par votre <InternalLink slug="preapprobation-hypotheque-immigrant">pr&eacute;approbation hypoth&eacute;caire</InternalLink> — elle vous donnera une vision pr&eacute;cise de votre capacit&eacute; d&rsquo;emprunt selon vos revenus actuels.
+      </p>
+    </>
+  ),
+
+  // ====================================================
+  // ARTICLE 51: DON DE MISE DE FONDS
+  // ====================================================
+  "don-mise-de-fonds-parents-hypotheque-immigrant": (
+    <>
+      <p>
+        L&rsquo;un des sc&eacute;narios les plus courants pour les immigrants&nbsp;: recevoir un <strong>don d&rsquo;argent de parents ou de proches rest&eacute;s &agrave; l&rsquo;&eacute;tranger</strong> pour constituer la mise de fonds. C&rsquo;est tout &agrave; fait acceptable pour les banques canadiennes et la SCHL — &agrave; condition de suivre des r&egrave;gles pr&eacute;cises. Une simple vire bancaire non document&eacute;e suffit &agrave; bloquer votre dossier.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Ce que les banques exigent pour un don de mise de fonds</h2>
+      <p>
+        La r&egrave;gle fondamentale&nbsp;: les banques doivent &ecirc;tre certaines que l&rsquo;argent re&ccedil;u est un <strong>vrai don</strong> (pas un pr&ecirc;t d&eacute;guis&eacute;), provient d&rsquo;une source l&eacute;gitime, et respecte les normes anti-blanchiment. Voici les documents obligatoires&nbsp;:
+      </p>
+      <ul className="space-y-2">
+        <li>
+          <strong>Lettre de don sign&eacute;e</strong> par le donateur&nbsp;: pr&eacute;cisant le montant, la relation avec vous, et confirmant que c&rsquo;est un don sans remboursement attendu
+        </li>
+        <li>
+          <strong>Preuve d&rsquo;identit&eacute; du donateur</strong>&nbsp;: passeport ou pi&egrave;ce d&rsquo;identit&eacute; &eacute;trang&egrave;re
+        </li>
+        <li>
+          <strong>Preuve de r&eacute;ception des fonds</strong>&nbsp;: relev&eacute; bancaire montrant le virement entrant dans votre compte canadien
+        </li>
+        <li>
+          <strong>Preuve d&rsquo;origine des fonds</strong> (si demand&eacute;)&nbsp;: relev&eacute; de compte du donateur &agrave; l&rsquo;&eacute;tranger avant le transfert
+        </li>
+        <li>
+          <strong>Historique de 90 jours</strong>&nbsp;: les fonds doivent appara&icirc;tre dans votre compte depuis au moins 90 jours pour &ecirc;tre consid&eacute;r&eacute;s &laquo;&nbsp;&eacute;tablis&nbsp;&raquo; par la SCHL
+        </li>
+      </ul>
+      <p>
+        Pour plus d&eacute;tails sur le transfert international de fonds, consultez notre guide sur le <InternalLink slug="transferer-mise-de-fonds-etranger-canada">transfert de mise de fonds depuis l&rsquo;&eacute;tranger</InternalLink>.
+      </p>
+
+      <WizardCta />
+
+      <h2 className="text-xl font-extrabold text-midnight">La r&egrave;gle des 90 jours expliqu&eacute;e</h2>
+      <p>
+        La SCHL et les banques exigent que votre mise de fonds provienne de fonds <strong>&laquo;&nbsp;season&eacute;s&nbsp;&raquo;</strong> — c&rsquo;est-&agrave;-dire pr&eacute;sents dans votre compte depuis au moins 90 jours. Cette r&egrave;gle s&rsquo;applique &agrave; <em>toute</em> mise de fonds (&eacute;pargne personnelle, don, vente d&rsquo;un bien &agrave; l&rsquo;&eacute;tranger).
+      </p>
+      <ul className="space-y-2">
+        <li><strong>Si l&rsquo;argent est arriv&eacute; il y a moins de 90 jours&nbsp;:</strong> La banque exigera la documentation compl&egrave;te sur l&rsquo;origine — lettre de don + relev&eacute;s &eacute;trangers</li>
+        <li><strong>Si l&rsquo;argent est l&agrave; depuis plus de 90 jours&nbsp;:</strong> Un simple relev&eacute; bancaire suffit g&eacute;n&eacute;ralement — la documentation d&rsquo;origine n&rsquo;est plus requise</li>
+        <li><strong>Strat&eacute;gie&nbsp;:</strong> Planifiez le transfert du don <em>au moins 3 mois avant</em> votre d&eacute;p&ocirc;t sur une offre d&rsquo;achat</li>
+      </ul>
+
+      <h2 className="text-xl font-extrabold text-midnight">Qui peut &ecirc;tre donateur&nbsp;?</h2>
+      <p>
+        La SCHL et les banques acceptent les dons de&nbsp;:
+      </p>
+      <ul className="space-y-2">
+        <li><strong>Parents directs&nbsp;:</strong> P&egrave;re, m&egrave;re — source la plus accept&eacute;e</li>
+        <li><strong>Grands-parents&nbsp;:</strong> Souvent accept&eacute;s avec documentation compl&egrave;te</li>
+        <li><strong>Fr&egrave;res/sœurs&nbsp;:</strong> Accept&eacute;s selon les pr&ecirc;teurs</li>
+        <li><strong>Amis ou &eacute;loign&eacute;s&nbsp;:</strong> G&eacute;n&eacute;ralement refus&eacute;s pour la mise de fonds (acc&eacute;pt&eacute;s uniquement pour les frais de fermeture)</li>
+      </ul>
+      <p>
+        Attention&nbsp;: si le don provient d&rsquo;une personne d&rsquo;affaires &eacute;trang&egrave;re ou d&rsquo;une entreprise, des v&eacute;rifications anti-blanchiment suppl&eacute;mentaires s&rsquo;appliqueront.
+      </p>
+
+      <WizardCta variant="dark" />
+
+      <h2 className="text-xl font-extrabold text-midnight">Combiner don + CELIAPP + RAP&nbsp;: la strat&eacute;gie optimale</h2>
+      <p>
+        Pour maximiser votre mise de fonds, le don parental peut &ecirc;tre combin&eacute; avec vos propres &eacute;pargnes SCHL-admissibles&nbsp;:
+      </p>
+      <ul className="space-y-2">
+        <li>Don des parents (saison&eacute; 90 jours) + &eacute;pargne personnelle = mise de fonds admissible</li>
+        <li>Retrait CELIAPP (si ouvert) + retrait RAP + don = mise de fonds maximis&eacute;e</li>
+      </ul>
+      <p>
+        Notre <InternalLink slug="celiapp-rap-immigrant-premier-acheteur-2026">guide CELIAPP et RAP pour immigrants</InternalLink> explique comment combiner ces sources. L&rsquo;objectif&nbsp;: atteindre 20&nbsp;% et &eacute;viter la prime d&rsquo;assurance SCHL de l&rsquo;<InternalLink slug="assurance-hypothecaire-schl-primes-guide-2026">assurance hypoth&eacute;caire</InternalLink>.
+      </p>
+    </>
+  ),
+
+  // ====================================================
+  // ARTICLE 52: HYPOTHÈQUE ISLAMIQUE / HALAL
+  // ====================================================
+  "hypotheque-islamique-halal-immigrant-canada": (
+    <>
+      <p>
+        Pour les musulmans pratiqu ants, l&rsquo;hypoth&egrave;que conventionnelle pose un probl&egrave;me de conformit&eacute; &agrave; la charia islamique&nbsp;: le paiement d&rsquo;<strong>int&eacute;r&ecirc;ts (riba) est interdit</strong>. La bonne nouvelle&nbsp;: des <strong>alternatives halal</strong> existent au Canada et sont de plus en plus accessibles aux immigrants, notamment &agrave; Toronto, Montr&eacute;al, Ottawa et dans les grandes villes.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Les trois principaux mod&egrave;les de financement islamique</h2>
+      <ul className="space-y-2">
+        <li>
+          <strong>Mourabaha (co&ucirc;t + marge)&nbsp;:</strong> L&rsquo;institution ach&egrave;te la propri&eacute;t&eacute; et vous la revend &agrave; un prix plus &eacute;lev&eacute; pay&eacute; en versements &eacute;chelonn&eacute;s. Le prix total est fix&eacute; d&rsquo;avance — pas d&rsquo;int&eacute;r&ecirc;t variable. C&rsquo;est le mod&egrave;le le plus simple.
+        </li>
+        <li>
+          <strong>Ijara (location avec option d&rsquo;achat)&nbsp;:</strong> L&rsquo;institution est propri&eacute;taire et vous louez la propri&eacute;t&eacute;. Une partie de chaque paiement augmente votre quote-part de propri&eacute;t&eacute; jusqu&rsquo;&agrave; ce que vous en soyez pleinement propri&eacute;taire. Proche d&rsquo;une location-achat.
+        </li>
+        <li>
+          <strong>Diminishing Musharakah (co-propri&eacute;t&eacute; d&eacute;gressive)&nbsp;:</strong> Vous et l&rsquo;institution co-poss&eacute;dez la propri&eacute;t&eacute;. Vous rachetez progressivement la part de l&rsquo;institution sur 20-25 ans. Le loyer vers&eacute; diminue au fil du rachat. Mod&egrave;le le plus populaire en Am&eacute;rique du Nord.
+        </li>
+      </ul>
+
+      <WizardCta />
+
+      <h2 className="text-xl font-extrabold text-midnight">Institutions offrant le financement halal au Canada</h2>
+      <ul className="space-y-2">
+        <li>
+          <strong><a href="https://www.lariba.com" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">LARIBA Canada / American Finance House</a>&nbsp;:</strong> Pioneer du financement islamique en Am&eacute;rique du Nord. Mod&egrave;le Diminishing Musharakah disponible dans plusieurs provinces.
+        </li>
+        <li>
+          <strong><a href="https://www.ijara.com" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Ijara Community Development Corp.</a>&nbsp;:</strong> Sp&eacute;cialiste du mod&egrave;le Ijara, op&egrave;re &agrave; travers le Canada.
+        </li>
+        <li>
+          <strong>Ansar Financial (Ontario)&nbsp;:</strong> Coop&eacute;rative de cr&eacute;dit islamique bas&eacute;e en Ontario, l&rsquo;une des plus accessibles pour les immigrants canadiens.
+        </li>
+        <li>
+          <strong>Manzil (fintech canadienne)&nbsp;:</strong> Plateforme num&eacute;rique de financement halal, jeune institution croissante, bonne couverture nationale.
+        </li>
+        <li>
+          <strong>UM Financial&nbsp;:</strong> Coop&eacute;rative islamique avec programmes sp&eacute;cifiques pour immigrants.
+        </li>
+      </ul>
+      <p>
+        Pour les d&eacute;tails sur le programme SCHL et si le financement islamique est admissible &agrave; l&rsquo;assurance hypoth&eacute;caire, consultez notre <InternalLink slug="assurance-hypothecaire-schl-primes-guide-2026">guide de l&rsquo;assurance SCHL 2026</InternalLink>.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Co&ucirc;t r&eacute;el du financement halal vs conventionnel</h2>
+      <p>
+        Le financement islamique peut avoir un co&ucirc;t l&eacute;g&egrave;rement sup&eacute;rieur au financement conventionnel (&eacute;cart de 0,5 &agrave; 1,5&nbsp;% selon le produit et l&rsquo;institution), notamment pour&nbsp;:
+      </p>
+      <ul className="space-y-2">
+        <li>Les frais de mise en place plus &eacute;lev&eacute;s (structure juridique plus complexe)</li>
+        <li>Le fait que ces institutions ont un acc&egrave;s plus limit&eacute; aux march&eacute;s de capitaux</li>
+        <li>Les frais de double enregistrement (titre au nom de l&rsquo;institution puis transfert)</li>
+      </ul>
+      <p>
+        Sur une hypoth&egrave;que de 400&nbsp;000&nbsp;$, un &eacute;cart de 1&nbsp;% repr&eacute;sente environ 200&nbsp;$ de plus par mois — un co&ucirc;t que beaucoup de familles acceptent pour &ecirc;tre en conformit&eacute; avec leurs convictions. Utilisez notre <a href="/outils/calculateur-montant-empruntable" className="text-gold hover:underline font-semibold">calculateur de montant empruntable</a> pour estimer vos paiements.
+      </p>
+
+      <WizardCta variant="dark" />
+
+      <h2 className="text-xl font-extrabold text-midnight">Admissibilit&eacute; et mise de fonds pour le financement halal</h2>
+      <p>
+        Les conditions de base restent similaires aux hypoth&egrave;ques conventionnelles&nbsp;:
+      </p>
+      <ul className="space-y-2">
+        <li>Mise de fonds minimale&nbsp;: g&eacute;n&eacute;ralement <strong>20&nbsp;%</strong> (certains produits Mourabaha acceptent moins avec garantie)</li>
+        <li>Revenus stables d&eacute;montrables, m&ecirc;me sans historique de cr&eacute;dit canadien — les institutions islamiques comprennent les profils d&rsquo;<InternalLink slug="hypotheque-sans-historique-credit">immigrants sans historique</InternalLink></li>
+        <li>Statut d&rsquo;immigration&nbsp;: RP et travailleurs temporaires avec permis valide sont g&eacute;n&eacute;ralement acceptables</li>
+      </ul>
+      <p>
+        Un <InternalLink slug="courtier-hypothecaire-vs-banque-immigrant">courtier hypoth&eacute;caire</InternalLink> sp&eacute;cialis&eacute; en financement islamique peut comparer les diff&eacute;rentes institutions et trouver le produit le plus adapt&eacute; &agrave; votre situation.
+      </p>
+    </>
+  ),
+
+  // ====================================================
+  // ARTICLE 53: PRÊTEUR B / PRÊT PRIVÉ
+  // ====================================================
+  "pret-b-pret-prive-immigrant-dossier-refuse": (
+    <>
+      <p>
+        La banque a refus&eacute; votre demande d&rsquo;hypoth&egrave;que. &Ccedil;a arrive — surtout pour les immigrants avec un dossier atypique&nbsp;: peu d&rsquo;historique de cr&eacute;dit, revenus non traditionnels, ou situation professionnelle en transition. Les <strong>pr&ecirc;teurs B et les pr&ecirc;teurs priv&eacute;s</strong> sont une solution de transition valide — pas id&eacute;ale, mais efficace pour entrer dans le march&eacute; et &eacute;tablir votre dossier.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Pr&ecirc;teur A, B et priv&eacute;&nbsp;: les diff&eacute;rences</h2>
+      <div className="overflow-x-auto">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="border-b border-gray-200">
+              <th className="text-left py-2 pr-4">Cat&eacute;gorie</th>
+              <th className="text-left py-2 pr-4">Exemples</th>
+              <th className="text-left py-2 pr-4">Taux typique</th>
+              <th className="text-left py-2">Profil cible</th>
+            </tr>
+          </thead>
+          <tbody className="text-gray-500">
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Pr&ecirc;teur A</td><td className="pr-4">RBC, TD, BMO, Desjardins</td><td className="pr-4">Taux march&eacute; (4-6&nbsp;%)</td><td>Dossier standard</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Pr&ecirc;teur B</td><td className="pr-4">MCAP, First National, B2B, Home Trust</td><td className="pr-4">+1 &agrave; 2&nbsp;%</td><td>Cr&eacute;dit imparfait, revenu atypique</td></tr>
+            <tr><td className="py-2 pr-4">Pr&ecirc;teur priv&eacute;</td><td className="pr-4">Investisseurs priv&eacute;s, fonds MIC</td><td className="pr-4">+3 &agrave; 6&nbsp;%</td><td>Refus&eacute; partout ailleurs</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <WizardCta />
+
+      <h2 className="text-xl font-extrabold text-midnight">Quand les pr&ecirc;teurs B ont du sens pour les immigrants</h2>
+      <p>
+        Les pr&ecirc;teurs B sont r&eacute;glement&eacute;s et cr&eacute;dibles — ce ne sont pas des pr&ecirc;teurs de dernier recours. Ils sont adapt&eacute;s si&nbsp;:
+      </p>
+      <ul className="space-y-2">
+        <li><strong>Score de cr&eacute;dit entre 500 et 600&nbsp;:</strong> En dessous du seuil des banques A mais avec un plan de reconstruction. Voyez notre guide pour <InternalLink slug="hypotheque-apres-faillite-mauvais-credit-immigrant">immigrants apr&egrave;s faillite ou mauvais cr&eacute;dit</InternalLink>.</li>
+        <li><strong>Revenus difficiles &agrave; prouver&nbsp;:</strong> Travailleurs autonomes, pigistes, revenus mixtes. Consultez notre guide des <InternalLink slug="hypotheque-travailleur-autonome-freelance">travailleurs autonomes immigrants</InternalLink>.</li>
+        <li><strong>Historique canadien trop court&nbsp;:</strong> Moins de 12 mois d&rsquo;emploi canadien ou de cr&eacute;dit &eacute;tabli</li>
+        <li><strong>D&eacute;faut r&eacute;cent&nbsp;:</strong> Retard de paiement, collection, proposition de consommateur dans les 2-3 derni&egrave;res ann&eacute;es</li>
+      </ul>
+
+      <h2 className="text-xl font-extrabold text-midnight">Co&ucirc;ts r&eacute;els d&rsquo;un pr&ecirc;t B&nbsp;: calculez avant de signer</h2>
+      <p>
+        Sur un pr&ecirc;t de 400&nbsp;000&nbsp;$ sur 2 ans de terme (strat&eacute;gie de transition typique)&nbsp;:
+      </p>
+      <ul className="space-y-2">
+        <li>Taux pr&ecirc;teur A&nbsp;: 5,0&nbsp;% → paiement mensuel ≈ 2 328&nbsp;$</li>
+        <li>Taux pr&ecirc;teur B&nbsp;: 7,0&nbsp;% → paiement mensuel ≈ 2 791&nbsp;$ (diff&eacute;rence&nbsp;: 463&nbsp;$/mois)</li>
+        <li>Sur 2 ans&nbsp;: co&ucirc;t suppl&eacute;mentaire ≈ <strong>11&nbsp;100&nbsp;$</strong></li>
+        <li>Frais de dossier pr&ecirc;teur B&nbsp;: g&eacute;n&eacute;ralement 1&nbsp;% du montant (&agrave; ajouter)</li>
+      </ul>
+      <p>
+        Ce surco&ucirc;t peut &ecirc;tre justifi&eacute; si vous construisez activement votre cr&eacute;dit pendant ce terme. Consultez notre <InternalLink slug="construire-credit-canadien-6-mois-immigrant">plan d&rsquo;action pour construire votre cr&eacute;dit en 6 mois</InternalLink> pour maximiser vos chances de basculer vers un pr&ecirc;teur A au renouvellement.
+      </p>
+
+      <WizardCta variant="dark" />
+
+      <h2 className="text-xl font-extrabold text-midnight">La strat&eacute;gie de transition&nbsp;: 2 ans pour revenir en A</h2>
+      <p>
+        Le plan id&eacute;al avec un pr&ecirc;teur B&nbsp;:
+      </p>
+      <ul className="space-y-2">
+        <li><strong>Terme court (1-2 ans)&nbsp;:</strong> Prenez le terme le plus court possible pour revenir vers un pr&ecirc;teur A rapidement</li>
+        <li><strong>Construisez votre cr&eacute;dit&nbsp;:</strong> Payez tout &agrave; temps — hypoth&egrave;que, cartes, factures</li>
+        <li><strong>Augmentez vos revenus documentables&nbsp;:</strong> D&eacute;clarations fiscales, T4, avis de cotisation</li>
+        <li><strong>R&eacute;duisez vos dettes&nbsp;:</strong> Am&eacute;liorez votre ratio ATD pour le renouvellement</li>
+        <li><strong>Faites &eacute;valuer votre propri&eacute;t&eacute;&nbsp;:</strong> Une hausse de valeur augmente votre &eacute;quit&eacute; et peut faciliter le refinancement</li>
+      </ul>
+      <p>
+        Un <InternalLink slug="courtier-hypothecaire-vs-banque-immigrant">courtier hypoth&eacute;caire sp&eacute;cialis&eacute;</InternalLink> est essentiel ici&nbsp;: il conna&icirc;t les pr&ecirc;teurs B les plus s&eacute;rieux et peut &eacute;valuer si votre dossier est plus proche d&rsquo;un refus A justifi&eacute; ou d&rsquo;une approbation A possible avec les bons arguments.
+      </p>
+    </>
+  ),
+
+  // ====================================================
+  // ARTICLE 54: OFFRE D'ACHAT ET INSPECTION
+  // ====================================================
+  "offre-achat-inspection-preachat-guide-immigrant": (
+    <>
+      <p>
+        Vous avez trouv&eacute; la maison. Vous avez votre pr&eacute;approbation. Maintenant vient l&rsquo;&eacute;tape que beaucoup d&rsquo;immigrants ne ma&icirc;trisent pas&nbsp;: <strong>faire une offre d&rsquo;achat et organiser l&rsquo;inspection pr&eacute;achat</strong>. Une offre mal r&eacute;dig&eacute;e ou une inspection n&eacute;glig&eacute;e peut vous faire perdre des dizaines de milliers de dollars.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">La promesse d&rsquo;achat&nbsp;: ce que vous signez</h2>
+      <p>
+        Une offre d&rsquo;achat (appel&eacute;e aussi <strong>promesse d&rsquo;achat au Qu&eacute;bec</strong> ou <em>Agreement of Purchase and Sale</em> en Ontario) est un contrat l&eacute;galement contraignant. Elle d&eacute;finit&nbsp;:
+      </p>
+      <ul className="space-y-2">
+        <li><strong>Le prix offert</strong> (pas forc&eacute;ment le prix demand&eacute;)</li>
+        <li><strong>La date de prise de possession</strong> pr&eacute;vue</li>
+        <li><strong>Le d&eacute;p&ocirc;t</strong> (g&eacute;n&eacute;ralement 1-5&nbsp;% du prix, vers&eacute; &agrave; la signature)</li>
+        <li><strong>Les conditions suspensives</strong> (clauses de protection)</li>
+        <li><strong>Ce qui est inclus dans la vente</strong> (appareils, luminaires, etc.)</li>
+      </ul>
+      <p>
+        Toujours travailler avec un agent immobilier ou un notaire pour r&eacute;diger l&rsquo;offre — ne signez jamais un document que vous ne comprenez pas enti&egrave;rement.
+      </p>
+
+      <WizardCta />
+
+      <h2 className="text-xl font-extrabold text-midnight">Les clauses de protection indispensables</h2>
+      <p>
+        Ces clauses vous permettent de vous retirer de l&rsquo;offre sans perdre votre d&eacute;p&ocirc;t si certaines conditions ne sont pas remplies&nbsp;:
+      </p>
+      <ul className="space-y-2">
+        <li>
+          <strong>Clause hypoth&eacute;caire (financement)&nbsp;:</strong> Vous annulez si votre financement n&rsquo;est pas approuv&eacute; au taux et montant requis dans le d&eacute;lai pr&eacute;vu (typiquement 5-10 jours). Indispensable si vous n&rsquo;avez pas encore de pr&eacute;approbation ferme. D&eacute;couvrez les d&eacute;lais r&eacute;els de <InternalLink slug="preapprobation-hypotheque-immigrant">pr&eacute;approbation</InternalLink>.
+        </li>
+        <li>
+          <strong>Clause d&rsquo;inspection&nbsp;:</strong> Vous annulez (ou n&eacute;gociez) si l&rsquo;inspection r&eacute;v&egrave;le des probl&egrave;mes importants. D&eacute;lai typique&nbsp;: 5-7 jours.
+        </li>
+        <li>
+          <strong>Clause de vente de votre propri&eacute;t&eacute; actuelle&nbsp;:</strong> Si vous devez vendre avant d&rsquo;acheter. Moins fr&eacute;quente pour les immigrants, mais possible.
+        </li>
+        <li>
+          <strong>Clause d&rsquo;&eacute;tat du titre&nbsp;:</strong> Le titre doit &ecirc;tre net de toute charge ou hypoth&egrave;que non r&eacute;v&eacute;l&eacute;e.
+        </li>
+      </ul>
+      <p>
+        <strong>Attention march&eacute; comp&eacute;titif&nbsp;:</strong> Dans des march&eacute;s chauds comme Toronto ou Vancouver, les acheteurs font parfois des offres sans conditions. En tant qu&rsquo;immigrant, <em>ne supprimez jamais la clause hypoth&eacute;caire</em> sans avoir une approbation ferme &eacute;crite de votre banque.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">L&rsquo;inspection pr&eacute;achat&nbsp;: comment &ccedil;a fonctionne</h2>
+      <p>
+        L&rsquo;inspection couvre l&rsquo;&eacute;tat physique de la propri&eacute;t&eacute;&nbsp;: structure, toiture, fondations, &eacute;lectricit&eacute;, plomberie, chauffage. Un inspecteur certifi&eacute; (membre de l&rsquo;<a href="https://www.cahpi.ca" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">AIBQ</a> au Qu&eacute;bec ou de l&rsquo;<a href="https://oahi.com" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">OAHI</a> en Ontario) r&eacute;dige un rapport d&eacute;taill&eacute; en 2-4 heures.
+      </p>
+      <ul className="space-y-2">
+        <li><strong>Co&ucirc;t typique&nbsp;:</strong> 400&nbsp;$ &agrave; 700&nbsp;$ selon la taille et la r&eacute;gion — inclus dans les <InternalLink slug="frais-caches-achat-maison-immigrant-checklist">frais d&rsquo;achat</InternalLink></li>
+        <li><strong>Dur&eacute;e&nbsp;:</strong> 2 &agrave; 4 heures sur place, rapport sous 24-48 h</li>
+        <li><strong>Pr&eacute;sence recommand&eacute;e&nbsp;:</strong> Assistez &agrave; l&rsquo;inspection pour poser des questions directement</li>
+        <li><strong>Apr&egrave;s le rapport&nbsp;:</strong> Si des probl&egrave;mes sont trouv&eacute;s, n&eacute;gociez une r&eacute;duction de prix, demandez des r&eacute;parations, ou exercez votre clause d&rsquo;inspection</li>
+      </ul>
+
+      <WizardCta variant="dark" />
+
+      <h2 className="text-xl font-extrabold text-midnight">N&eacute;gociation apr&egrave;s l&rsquo;inspection&nbsp;: vos options</h2>
+      <ul className="space-y-2">
+        <li><strong>R&eacute;duction du prix de vente&nbsp;:</strong> Demandez une baisse &eacute;quivalente aux co&ucirc;ts de r&eacute;paration estim&eacute;s</li>
+        <li><strong>R&eacute;parations avant fermeture&nbsp;:</strong> Le vendeur effectue les travaux avant la remise des cl&eacute;s</li>
+        <li><strong>Cr&eacute;dit de fermeture&nbsp;:</strong> Le vendeur accorde un cr&eacute;dit sur les frais de fermeture en contrepartie</li>
+        <li><strong>Retrait de l&rsquo;offre&nbsp;:</strong> Si les probl&egrave;mes sont trop importants, vous r&eacute;cup&eacute;rez votre d&eacute;p&ocirc;t</li>
+      </ul>
+      <p>
+        Comprenez bien la <InternalLink slug="hypotheque-timeline-fermeture-immigrant">timeline compl&egrave;te du processus hypoth&eacute;caire</InternalLink> pour savoir o&ugrave; l&rsquo;inspection s&rsquo;ins&egrave;re dans le calendrier et ne pas manquer vos d&eacute;lais.
+      </p>
+    </>
+  ),
+
+  // ====================================================
+  // ARTICLE 55: HELOC / MARGE DE CRÉDIT HYPOTHÉCAIRE
+  // ====================================================
+  "heloc-marge-credit-hypothecaire-immigrant": (
+    <>
+      <p>
+        Vous &ecirc;tes propri&eacute;taire depuis quelques ann&eacute;es et avez accumul&eacute; de l&rsquo;&eacute;quit&eacute; dans votre maison&nbsp;? Le <strong>HELOC (Home Equity Line of Credit)</strong> — ou marge de cr&eacute;dit hypoth&eacute;caire — vous permet d&rsquo;y acc&eacute;der &agrave; des taux bien inf&eacute;rieurs &agrave; un pr&ecirc;t personnel. Pour les immigrants propri&eacute;taires qui veulent r&eacute;nover, investir ou consolider leurs dettes, c&rsquo;est souvent l&rsquo;outil le plus puissant &agrave; disposition.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Comment fonctionne un HELOC</h2>
+      <p>
+        Un HELOC est une <strong>marge de cr&eacute;dit renouvelable garantie</strong> par votre propri&eacute;t&eacute;. Contrairement &agrave; un refinancement qui vous force &agrave; emprunter un montant fixe, le HELOC fonctionne comme une carte de cr&eacute;dit &agrave; taux r&eacute;duit&nbsp;:
+      </p>
+      <ul className="space-y-2">
+        <li>Vous ne payez des int&eacute;r&ecirc;ts que sur les montants utilis&eacute;s</li>
+        <li>Vous remboursez et r&eacute;utilisez &agrave; votre rythme (tant que vous restez dans la limite)</li>
+        <li>Le taux est variable, li&eacute; au <strong>taux pr&eacute;f&eacute;rentiel (prime rate)</strong> de la banque</li>
+      </ul>
+      <div className="overflow-x-auto">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="border-b border-gray-200">
+              <th className="text-left py-2 pr-4">Param&egrave;tre</th>
+              <th className="text-left py-2">R&egrave;gle BSIF / SCHL</th>
+            </tr>
+          </thead>
+          <tbody className="text-gray-500">
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Limite maximale du HELOC</td><td>65&nbsp;% de la valeur de la propri&eacute;t&eacute;</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Limite hypoth&egrave;que + HELOC combin&eacute;s</td><td>80&nbsp;% de la valeur de la propri&eacute;t&eacute;</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Taux typique (juin 2026)</td><td>Prime + 0,50&nbsp;% &agrave; Prime + 1,50&nbsp;%</td></tr>
+            <tr><td className="py-2 pr-4">Remboursement minimum</td><td>Int&eacute;r&ecirc;ts seulement chaque mois</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <WizardCta />
+
+      <h2 className="text-xl font-extrabold text-midnight">Calculer votre HELOC disponible</h2>
+      <p>
+        Exemple concret&nbsp;: maison achet&eacute;e 500&nbsp;000&nbsp;$, maintenant valu&eacute;e 620&nbsp;000&nbsp;$, solde hypoth&eacute;caire restant de 340&nbsp;000&nbsp;$.
+      </p>
+      <ul className="space-y-2">
+        <li>80&nbsp;% de la valeur actuelle&nbsp;: 620&nbsp;000 × 80&nbsp;% = <strong>496&nbsp;000&nbsp;$</strong></li>
+        <li>Moins le solde hypoth&eacute;caire&nbsp;: 496&nbsp;000 − 340&nbsp;000 = <strong>156&nbsp;000&nbsp;$ disponibles</strong></li>
+        <li>Maximum HELOC (65&nbsp;% de 620k)&nbsp;: 403&nbsp;000&nbsp;$ → votre HELOC est limit&eacute; &agrave; 156&nbsp;000&nbsp;$ dans ce cas</li>
+      </ul>
+      <p>
+        Pour maximiser votre HELOC, une hausse de valeur de la propri&eacute;t&eacute; ou une r&eacute;duction du solde hypoth&eacute;caire augmentent votre marge disponible. Notre <InternalLink slug="hypotheque-refinancement-renouvellement-immigrant">guide de refinancement</InternalLink> explique quand il vaut mieux refinancer plut&ocirc;t qu&rsquo;ouvrir un HELOC.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Utilisations strat&eacute;giques pour immigrants propri&eacute;taires</h2>
+      <ul className="space-y-2">
+        <li><strong>R&eacute;novation&nbsp;:</strong> Cuisine, salle de bain, sous-sol fini — augmente la valeur et le confort</li>
+        <li><strong>Achat d&rsquo;un immeuble locatif&nbsp;:</strong> Utiliser le HELOC comme mise de fonds pour un <InternalLink slug="acheter-duplex-triplex-immigrant-mise-de-fonds">duplex ou triplex</InternalLink></li>
+        <li><strong>Consolidation de dettes &agrave; taux &eacute;lev&eacute;&nbsp;:</strong> Remplacer des dettes &agrave; 20&nbsp;% (cartes de cr&eacute;dit) par une dette &agrave; 5&nbsp;%</li>
+        <li><strong>Financer les &eacute;tudes des enfants&nbsp;:</strong> REEE + HELOC au besoin</li>
+        <li><strong>Faire face &agrave; une urgence financi&egrave;re&nbsp;:</strong> Filet de s&eacute;curit&eacute; en cas de perte d&rsquo;emploi</li>
+      </ul>
+
+      <WizardCta variant="dark" />
+
+      <h2 className="text-xl font-extrabold text-midnight">Risques &agrave; ne pas ignorer</h2>
+      <ul className="space-y-2">
+        <li><strong>Taux variable&nbsp;:</strong> Si le taux directeur remonte, vos int&eacute;r&ecirc;ts augmentent — lisez notre analyse des <InternalLink slug="taux-variables-baisses-banque-canada-2026">taux variables en 2026</InternalLink></li>
+        <li><strong>Tentations de surconsommation&nbsp;:</strong> L&rsquo;acc&egrave;s facile au cr&eacute;dit peut mener &agrave; des d&eacute;penses non planifi&eacute;es</li>
+        <li><strong>Garantie sur votre maison&nbsp;:</strong> En cas de d&eacute;faut, la banque peut saisir votre propri&eacute;t&eacute;</li>
+        <li><strong>Impact sur la capacit&eacute; d&rsquo;emprunt future&nbsp;:</strong> Un HELOC utilis&eacute; est compt&eacute; dans votre ratio ATD pour toute future demande hypoth&eacute;caire</li>
+      </ul>
+      <p>
+        Pour savoir si vous &ecirc;tes &eacute;ligible &agrave; un HELOC, la premi&egrave;re &eacute;tape est de faire &eacute;valuer votre propri&eacute;t&eacute; et de discuter avec votre banque ou un <InternalLink slug="courtier-hypothecaire-vs-banque-immigrant">courtier hypoth&eacute;caire</InternalLink>.
+      </p>
+    </>
+  ),
+
+  // ====================================================
+  // ARTICLE 56: SÉPARATION / DIVORCE
+  // ====================================================
+  "hypotheque-separation-divorce-immigrant-canada": (
+    <>
+      <p>
+        Une s&eacute;paration ou un divorce lorsqu&rsquo;on est immigrant propri&eacute;taire au Canada soulève des enjeux complexes&nbsp;: <strong>qui garde la maison&nbsp;? Qui h&eacute;rite du pr&ecirc;t hypoth&eacute;caire&nbsp;? Qu&rsquo;arrive-t-il au statut d&rsquo;immigration&nbsp;?</strong> Ce guide vous aide &agrave; comprendre vos options financi&egrave;res et les d&eacute;marches &agrave; faire.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Les quatre options possibles lors d&rsquo;une s&eacute;paration</h2>
+      <ul className="space-y-2">
+        <li>
+          <strong>1. Vente de la propri&eacute;t&eacute;&nbsp;:</strong> Les deux parties vendent, remboursent l&rsquo;hypoth&egrave;que, et se partagent le solde. Option la plus simple si aucun des deux ne peut se qualifier seul pour l&rsquo;hypoth&egrave;que.
+        </li>
+        <li>
+          <strong>2. Rachat de part (buyout)&nbsp;:</strong> L&rsquo;un rachète la part de l&rsquo;autre. N&eacute;cessite un refinancement pour retirer le co-emprunteur du pr&ecirc;t et payer sa part de l&rsquo;&eacute;quit&eacute;.
+        </li>
+        <li>
+          <strong>3. Maintien conjoint temporaire&nbsp;:</strong> Les deux gardent la propri&eacute;t&eacute; le temps que les enfants finissent l&rsquo;&eacute;cole ou que le march&eacute; soit plus favorable. Rare mais possible avec une entente l&eacute;gale.
+        </li>
+        <li>
+          <strong>4. Transfert &agrave; l&rsquo;un des deux sans rachat&nbsp;:</strong> Possible si les deux parties sont d&rsquo;accord et que la banque accepte de retirer un co-emprunteur sans refinancement complet.
+        </li>
+      </ul>
+
+      <WizardCta />
+
+      <h2 className="text-xl font-extrabold text-midnight">Le rachat de part&nbsp;: comment &ccedil;a fonctionne</h2>
+      <p>
+        C&rsquo;est l&rsquo;option la plus courante. Si vous souhaitez garder la maison et que votre ex-conjoint(e) veut sa part&nbsp;:
+      </p>
+      <ul className="space-y-2">
+        <li><strong>&Eacute;tape 1&nbsp;:</strong> Faire &eacute;valuer la propri&eacute;t&eacute; par un &eacute;valuateur agr&eacute;&eacute; — la valeur est souvent contest&eacute;e, l&rsquo;&eacute;valuation professionnelle &eacute;vite les conflits</li>
+        <li><strong>&Eacute;tape 2&nbsp;:</strong> Calculer l&rsquo;&eacute;quit&eacute; nette (valeur − solde hypoth&eacute;caire − frais de vente estim&eacute;s)</li>
+        <li><strong>&Eacute;tape 3&nbsp;:</strong> Vous refinancez pour emprunter la part de votre ex et lui payer</li>
+        <li><strong>&Eacute;tape 4&nbsp;:</strong> Votre ex signe un acte de d&eacute;sistement (quitclaim deed)</li>
+        <li><strong>&Eacute;tape 5&nbsp;:</strong> Vous &ecirc;tes seul sur l&rsquo;hypoth&egrave;que — mais devez qualifier seul selon votre revenu</li>
+      </ul>
+      <p>
+        Si votre revenu seul ne suffit pas pour l&rsquo;approbation hypoth&eacute;caire, envisagez d&rsquo;ajouter un <InternalLink slug="hypotheque-cosignataire-parent-immigrant">co-signataire</InternalLink> ou consultez un <InternalLink slug="courtier-hypothecaire-vs-banque-immigrant">courtier hypoth&eacute;caire</InternalLink> pour explorer les options.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Impact sur le statut d&rsquo;immigration</h2>
+      <p>
+        C&rsquo;est la pr&eacute;occupation sp&eacute;cifique aux immigrants&nbsp;:
+      </p>
+      <ul className="space-y-2">
+        <li>
+          <strong>Si vous &ecirc;tes r&eacute;sident permanent&nbsp;:</strong> Le divorce n&rsquo;affecte pas votre RP. Vous restez RP ind&eacute;pendamment de votre situation matrimoniale.
+        </li>
+        <li>
+          <strong>Si votre RP d&eacute;pend de votre conjoint(e) (parrainage)&nbsp;:</strong> Consultez imm&eacute;diatement un avocat en immigration. Si votre RP est finale, vous &ecirc;tes prot&eacute;g&eacute;. Si elle est conditionnelle (RP conditionnelle de 2 ans), des r&egrave;gles s&rsquo;appliquent.
+        </li>
+        <li>
+          <strong>Si vous &ecirc;tes sur un permis de travail li&eacute; au statut de conjoint&nbsp;:</strong> Une s&eacute;paration peut affecter votre admissibilit&eacute; au permis — consultez <a href="https://www.canada.ca/fr/immigration-refugies-citoyennete.html" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Immigration Canada</a> ou un avocat en immigration sans d&eacute;lai.
+        </li>
+      </ul>
+
+      <WizardCta variant="dark" />
+
+      <h2 className="text-xl font-extrabold text-midnight">Prot&eacute;gez-vous d&egrave;s la s&eacute;paration</h2>
+      <ul className="space-y-2">
+        <li><strong>Ne cessez pas de payer l&rsquo;hypoth&egrave;que&nbsp;:</strong> Vous &ecirc;tes co-responsable. Un d&eacute;faut nuit aux deux personnes et peut mener &agrave; une saisie</li>
+        <li><strong>Notifiez votre banque&nbsp;:</strong> Informez-la de la s&eacute;paration pour prot&eacute;ger votre dossier et anticiper les d&eacute;marches</li>
+        <li><strong>Consultez un notaire ou avocat en droit familial&nbsp;:</strong> Les r&egrave;gles varient entre Qu&eacute;bec (droit civil) et le reste du Canada (common law)</li>
+        <li><strong>Votre cr&eacute;dit&nbsp;:</strong> Si votre ex n&rsquo;effectue pas les paiements, &ccedil;a vous affecte aussi — surveillez votre <InternalLink slug="rapport-credit-equifax-transunion-immigrant-canada">rapport de cr&eacute;dit</InternalLink></li>
+        <li><strong>Apr&egrave;s la vente&nbsp;:</strong> Si vous vendez et r&eacute;alisez un gain, consultez un comptable sur les implications fiscales — l&rsquo;exemption de r&eacute;sidence principale s&rsquo;applique si la propri&eacute;t&eacute; &eacute;tait votre demeure principale</li>
+      </ul>
+      <p>
+        Si vous devez repartir de z&eacute;ro apr&egrave;s la s&eacute;paration, notre guide sur la <InternalLink slug="preapprobation-hypotheque-immigrant">pr&eacute;approbation hypoth&eacute;caire</InternalLink> vous aidera &agrave; &eacute;valuer votre situation actuelle et votre capacit&eacute; d&rsquo;emprunt seul(e).
+      </p>
+    </>
+  ),
+
 };

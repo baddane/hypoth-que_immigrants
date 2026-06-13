@@ -544,6 +544,77 @@ export const blogPosts: BlogPost[] = [
     readTime: "8 min",
     relatedSlugs: ["hypotheque-alberta-immigrants-calgary-edmonton", "hypotheque-canada-atlantique-immigrants-guide", "programme-schl-nouveaux-arrivants-guide-complet"],
   },
+  // ====== ARTICLE #50 — RÉSIDENT PERMANENT ======
+  {
+    slug: "hypotheque-resident-permanent-canada-avantages",
+    title: "Hypothèque avec résidence permanente au Canada : tous vos avantages et droits",
+    subtitle: "La résidence permanente ouvre les meilleures conditions hypothécaires. Voici tout ce à quoi vous avez droit.",
+    description: "Guide complet de l'hypothèque pour résidents permanents au Canada. Mise de fonds 5%, accès aux mêmes conditions que les citoyens, CELIAPP, RAP et programmes SCHL disponibles.",
+    category: "Statut Immigration",
+    readTime: "9 min",
+    wizardVariant: "resident-permanent",
+    relatedSlugs: ["hypotheque-travailleur-temporaire-5pourcent", "preapprobation-hypotheque-immigrant", "programme-schl-nouveaux-arrivants-guide-complet"],
+  },
+  // ====== ARTICLE #51 — DON MISE DE FONDS ======
+  {
+    slug: "don-mise-de-fonds-parents-hypotheque-immigrant",
+    title: "Don de mise de fonds pour immigrant : règles bancaires et lettre de don",
+    subtitle: "Vos parents vous donnent de l'argent depuis l'étranger ? Voici exactement comment les banques valident ce don.",
+    description: "Guide complet du don de mise de fonds pour immigrants au Canada. Lettre de don obligatoire, preuve d'origine des fonds, 90 jours d'historique et règles SCHL à respecter.",
+    category: "Financement",
+    readTime: "8 min",
+    relatedSlugs: ["transferer-mise-de-fonds-etranger-canada", "hypotheque-reer-rap-immigrant-premier-achat", "celiapp-rap-immigrant-premier-acheteur-2026"],
+  },
+  // ====== ARTICLE #52 — HYPOTHÈQUE ISLAMIQUE ======
+  {
+    slug: "hypotheque-islamique-halal-immigrant-canada",
+    title: "Hypothèque islamique (halal) au Canada : alternatives sans intérêt pour immigrants musulmans",
+    subtitle: "Mourabaha, Ijara, co-propriété dégressive : les options conformes à la charia sont disponibles au Canada.",
+    description: "Guide des hypothèques islamiques et halal au Canada pour immigrants musulmans. Mourabaha, Ijara, co-propriété dégressive : institutions offrant le financement conforme à la charia.",
+    category: "Financement",
+    readTime: "9 min",
+    relatedSlugs: ["hypotheque-travailleur-temporaire-5pourcent", "hypotheque-sans-historique-credit", "preapprobation-hypotheque-immigrant"],
+  },
+  // ====== ARTICLE #53 — PRÊTEUR B / PRIVÉ ======
+  {
+    slug: "pret-b-pret-prive-immigrant-dossier-refuse",
+    title: "Prêteur B et prêt privé pour immigrant : quand les banques disent non",
+    subtitle: "Refus de la banque A ? Les prêteurs B et privés sont une solution de transition valide — mais à coût plus élevé.",
+    description: "Guide des prêteurs B et prêts privés hypothécaires pour immigrants au Canada. Quand y recourir, coûts réels, durée de transition et retour vers les banques A.",
+    category: "Financement",
+    readTime: "8 min",
+    relatedSlugs: ["hypotheque-apres-faillite-mauvais-credit-immigrant", "hypotheque-score-credit-minimum-immigrant", "courtier-hypothecaire-vs-banque-immigrant"],
+  },
+  // ====== ARTICLE #54 — OFFRE D'ACHAT ======
+  {
+    slug: "offre-achat-inspection-preachat-guide-immigrant",
+    title: "Faire une offre d'achat et inspection préachat : guide étape par étape pour immigrants",
+    subtitle: "Clauses de protection, délais de négociation, inspection obligatoire : ne signez rien sans lire ce guide.",
+    description: "Guide pratique pour faire une offre d'achat et organiser une inspection préachat au Canada comme immigrant. Clauses de protection, délais, négociation et pièges à éviter.",
+    category: "Processus",
+    readTime: "9 min",
+    relatedSlugs: ["hypotheque-timeline-fermeture-immigrant", "preapprobation-hypotheque-immigrant", "frais-caches-achat-maison-immigrant-checklist"],
+  },
+  // ====== ARTICLE #55 — HELOC ======
+  {
+    slug: "heloc-marge-credit-hypothecaire-immigrant",
+    title: "HELOC et marge de crédit hypothécaire pour immigrants : libérer l'équité de votre maison",
+    subtitle: "Vous avez de l'équité accumulée ? Le HELOC vous permet d'y accéder à des taux avantageux pour rénover, investir ou consolider.",
+    description: "Guide du HELOC (Home Equity Line of Credit) pour immigrants propriétaires au Canada. Comment accéder à l'équité de votre maison, conditions d'approbation et utilisations stratégiques.",
+    category: "Gestion",
+    readTime: "8 min",
+    relatedSlugs: ["hypotheque-refinancement-renouvellement-immigrant", "renouvellement-hypothecaire-guide-eviter-choc-paiement", "hypotheque-travailleur-autonome-freelance"],
+  },
+  // ====== ARTICLE #56 — SÉPARATION / DIVORCE ======
+  {
+    slug: "hypotheque-separation-divorce-immigrant-canada",
+    title: "Hypothèque et séparation ou divorce pour immigrants au Canada : que faire",
+    subtitle: "Rachat de part, vente forcée, refinancement : vos options légales et financières quand un couple se sépare.",
+    description: "Guide de la gestion hypothécaire lors d'une séparation ou d'un divorce pour immigrants au Canada. Rachat de part, refinancement, vente de la propriété et impact sur le statut d'immigration.",
+    category: "Situation Spéciale",
+    readTime: "9 min",
+    relatedSlugs: ["hypotheque-conjoint-chomeur-revenu", "hypotheque-cosignataire-parent-immigrant", "preapprobation-hypotheque-immigrant"],
+  },
 ];
 
 // Helper: get post by slug
