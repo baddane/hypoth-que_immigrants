@@ -493,6 +493,57 @@ export const blogPosts: BlogPost[] = [
     readTime: "10 min",
     relatedSlugs: ["hypotheque-taux-fixe-variable-immigrant", "stress-test-hypothecaire-canada-immigrant-guide", "hypotheque-refinancement-renouvellement-immigrant"],
   },
+  // ====== ARTICLE #45 — PROFESSIONNEL RÉGLEMENTÉ ======
+  {
+    slug: "hypotheque-professionnel-reglemente-immigrant",
+    title: "Hypothèque pour professionnel réglementé immigrant : médecin, ingénieur, pharmacien",
+    subtitle: "Comment les banques traitent vos revenus pendant la reconnaissance de votre diplôme. Programmes spéciaux et stratégies.",
+    description: "Guide hypothèque pour professionnels réglementés immigrants au Canada (médecins, ingénieurs, pharmaciens). Comment faire reconnaître vos revenus, programmes bancaires dédiés et stratégies d'approbation.",
+    category: "Situation Spéciale",
+    readTime: "9 min",
+    wizardVariant: "professionnel-reglemente",
+    relatedSlugs: ["hypotheque-travailleur-autonome-freelance", "preapprobation-hypotheque-immigrant", "hypotheque-permis-travail-ouvert"],
+  },
+  // ====== ARTICLE #46 — CANADA ATLANTIQUE ======
+  {
+    slug: "hypotheque-canada-atlantique-immigrants-guide",
+    title: "Hypothèque dans les provinces atlantiques pour immigrants : Nouveau-Brunswick, Nouvelle-Écosse, IPÉ",
+    subtitle: "Marché abordable, programme d'immigration atlantique et programmes provinciaux : tout pour acheter dans l'Est du Canada.",
+    description: "Guide hypothèque pour immigrants dans les provinces atlantiques du Canada. Marché immobilier abordable, Programme d'immigration atlantique, aides provinciales en Nouvelle-Écosse, Nouveau-Brunswick, IPÉ et Terre-Neuve.",
+    category: "Province",
+    readTime: "9 min",
+    relatedSlugs: ["hypotheque-francophone-quebec", "hypotheque-ontario-immigrants-toronto", "programme-schl-nouveaux-arrivants-guide-complet"],
+  },
+  // ====== ARTICLE #47 — TAUX VARIABLES 2026 ======
+  {
+    slug: "taux-variables-baisses-banque-canada-2026",
+    title: "Taux variables en 2026 : profiter des baisses de la Banque du Canada pour votre hypothèque",
+    subtitle: "Après 7 baisses consécutives du taux directeur, le contexte a radicalement changé. Ce que ça signifie pour les immigrants.",
+    description: "Guide sur les taux variables hypothécaires en 2026 après les baisses de la Banque du Canada. Fixe ou variable aujourd'hui ? Quand refinancer ? Stratégies pour immigrants en contexte de taux bas.",
+    category: "Taux",
+    readTime: "9 min",
+    relatedSlugs: ["taux-hypothecaires-comprendre-choisir-guide", "hypotheque-taux-fixe-variable-immigrant", "hypotheque-refinancement-renouvellement-immigrant"],
+  },
+  // ====== ARTICLE #48 — PRÉ-CONSTRUCTION ======
+  {
+    slug: "hypotheque-preconstruction-maison-neuve-immigrant",
+    title: "Acheter sur plan (pré-construction) au Canada comme immigrant : avantages, risques et financement",
+    subtitle: "TVH récupérable, financement en étapes et risques de délais : ce que tout immigrant doit savoir avant de signer.",
+    description: "Guide complet pour acheter une maison neuve ou en pré-construction au Canada comme immigrant. Financement SCHL, remboursement TVH, risques de délais et clauses de cession pour nouveaux arrivants.",
+    category: "Achat",
+    readTime: "10 min",
+    relatedSlugs: ["hypotheque-maison-vs-condo-immigrant", "frais-caches-achat-maison-immigrant-checklist", "hypotheque-travailleur-temporaire-5pourcent"],
+  },
+  // ====== ARTICLE #49 — SASKATCHEWAN ======
+  {
+    slug: "hypotheque-saskatchewan-immigrants-regina-saskatoon",
+    title: "Hypothèque en Saskatchewan pour immigrants : guide Regina, Saskatoon et environs",
+    subtitle: "Marché abordable, programme nominatif provincial et économie agricole dynamique : pourquoi la Saskatchewan attire les immigrants.",
+    description: "Guide hypothèque pour immigrants en Saskatchewan. Marché immobilier de Regina et Saskatoon, Programme des candidats de la Saskatchewan (SINP), aides provinciales et banques locales.",
+    category: "Province",
+    readTime: "8 min",
+    relatedSlugs: ["hypotheque-alberta-immigrants-calgary-edmonton", "hypotheque-canada-atlantique-immigrants-guide", "programme-schl-nouveaux-arrivants-guide-complet"],
+  },
 ];
 
 // Helper: get post by slug

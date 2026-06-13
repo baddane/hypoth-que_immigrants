@@ -2753,4 +2753,458 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  // ====================================================
+  // ARTICLE 45: PROFESSIONNEL RÉGLEMENTÉ IMMIGRANT
+  // ====================================================
+  "hypotheque-professionnel-reglemente-immigrant": (
+    <>
+      <p>
+        M&eacute;decin, ing&eacute;nieur, pharmacien, infirmi&egrave;re ou avocat form&eacute; &agrave; l&rsquo;&eacute;tranger : obtenir une hypoth&egrave;que pendant ou juste apr&egrave;s le processus de reconnaissance de votre profession est tout &agrave; fait possible. Les banques canadiennes ont d&eacute;velopp&eacute; des <strong>programmes sp&eacute;cifiques pour les professionnels r&eacute;glement&eacute;s</strong> qui comprennent la r&eacute;alit&eacute; de votre parcours.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Le d&eacute;fi unique des professionnels r&eacute;glement&eacute;s immigrants</h2>
+      <p>
+        Quand vous arrivez au Canada avec un dipl&ocirc;me m&eacute;dical ou d&rsquo;ing&eacute;nierie obtenu &agrave; l&rsquo;&eacute;tranger, vous devez souvent passer par un processus de reconnaissance qui peut durer 6 mois &agrave; 2 ans. Pendant cette p&eacute;riode, votre situation financi&egrave;re est atypique :
+      </p>
+      <ul className="space-y-2">
+        <li>Vous travaillez peut-&ecirc;tre dans un r&ocirc;le temporaire ou avec un salaire r&eacute;duit</li>
+        <li>Vos revenus futurs seront significativement plus &eacute;lev&eacute;s une fois la reconnaissance obtenue</li>
+        <li>Vous avez souvent peu d&rsquo;historique de cr&eacute;dit canadien</li>
+        <li>Votre stabilit&eacute; financi&egrave;re est r&eacute;elle, mais difficile &agrave; prouver avec les crit&egrave;res standards</li>
+      </ul>
+      <p>
+        Bonne nouvelle : certaines banques canadiennes &eacute;valuent votre <strong>potentiel de revenus futurs</strong> plut&ocirc;t que seulement vos revenus actuels — notamment pour les professions r&eacute;glement&eacute;es &agrave; haut potentiel. Si vous &ecirc;tes dans cette situation, consultez aussi notre guide sur les <InternalLink slug="hypotheque-travailleur-autonome-freelance">travailleurs autonomes et freelancers immigrants</InternalLink>, dont la probl&eacute;matique est similaire.
+      </p>
+
+      <WizardCta />
+
+      <h2 className="text-xl font-extrabold text-midnight">Programmes bancaires d&eacute;di&eacute;s aux professionnels</h2>
+      <p>
+        Plusieurs grandes banques canadiennes ont des programmes hypoth&eacute;caires sp&eacute;cifiques pour les professionnels r&eacute;glement&eacute;s :
+      </p>
+      <div className="overflow-x-auto">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="border-b border-gray-200">
+              <th className="text-left py-2 pr-4">Banque</th>
+              <th className="text-left py-2 pr-4">Programme</th>
+              <th className="text-left py-2">Avantage cl&eacute;</th>
+            </tr>
+          </thead>
+          <tbody className="text-gray-500">
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">RBC</td><td className="pr-4">Programme M&eacute;decins &amp; Professionnels</td><td>Mise de fonds r&eacute;duite, revenus futurs accept&eacute;s</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">TD</td><td className="pr-4">Professional Banking</td><td>Lettre d&rsquo;offre suffisante comme preuve de revenu</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">BMO</td><td className="pr-4">BMO Professional Plan</td><td>Jusqu&rsquo;&agrave; 100% financement selon profil</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Scotiabank</td><td className="pr-4">Professional Student Line</td><td>Financement r&eacute;sidences m&eacute;dicales</td></tr>
+            <tr><td className="py-2 pr-4">CIBC</td><td className="pr-4">CIBC Professional Edition</td><td>Crit&egrave;res assouplis, revenus projetables</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        Ces programmes s&rsquo;adressent principalement aux m&eacute;decins, dentistes, pharmaciens, v&eacute;t&eacute;rinaires, optom&eacute;tristes et parfois aux ing&eacute;nieurs et avocats. Les crit&egrave;res varient selon la banque et votre stade de reconnaissance professionnelle.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Documents clés pour votre dossier</h2>
+      <p>
+        Un dossier solide pour un professionnel r&eacute;glement&eacute; immigrant doit inclure, en plus des documents standards d&rsquo;une <InternalLink slug="preapprobation-hypotheque-immigrant">pr&eacute;approbation hypoth&eacute;caire</InternalLink> :
+      </p>
+      <ul className="space-y-2">
+        <li><strong>Dipl&ocirc;me original + &eacute;valuation de l&rsquo;&eacute;quivalence</strong> (WES, IQAS, ou &eacute;quivalent provincial)</li>
+        <li><strong>Lettre d&rsquo;enregistrement</strong> aupr&egrave;s de l&rsquo;ordre professionnel provincial (m&ecirc;me provisoire)</li>
+        <li><strong>Contrat ou lettre d&rsquo;offre d&rsquo;emploi</strong> confirmant votre salaire pr&eacute;vu</li>
+        <li><strong>Preuves de revenus actuels</strong> : T4, talons de paie, contrats de travail en cours</li>
+        <li><strong>Lettre explicative</strong> d&eacute;taillant votre processus de reconnaissance et &eacute;ch&eacute;ancier pr&eacute;vu</li>
+        <li><strong>Historique financier</strong> : relev&eacute;s bancaires des 3-6 derniers mois</li>
+      </ul>
+
+      <h2 className="text-xl font-extrabold text-midnight">Strat&eacute;gies selon votre stade de reconnaissance</h2>
+      <p>
+        Votre approche hypoth&eacute;caire doit s&rsquo;adapter &agrave; o&ugrave; vous en &ecirc;tes dans le processus :
+      </p>
+      <ul className="space-y-2">
+        <li>
+          <strong>Avant la reconnaissance (en cours d&rsquo;&eacute;valuation) :</strong> Passez par un <InternalLink slug="courtier-hypothecaire-vs-banque-immigrant">courtier hypoth&eacute;caire sp&eacute;cialis&eacute;</InternalLink> qui conna&icirc;t les pr&ecirc;teurs B acceptant les revenus projetables. Visez une mise de fonds de 20% ou plus pour faciliter l&rsquo;approbation.
+        </li>
+        <li>
+          <strong>Avec reconnaissance conditionnelle :</strong> Les programmes professionnels des grandes banques deviennent accessibles. Une lettre de votre ordre professionnel confirme votre &eacute;ligibilit&eacute; imminente.
+        </li>
+        <li>
+          <strong>Apr&egrave;s reconnaissance compl&egrave;te :</strong> Vous avez acc&egrave;s aux meilleurs taux. Si vous avez achet&eacute; avant avec un taux moins favorable, envisagez un <InternalLink slug="hypotheque-refinancement-renouvellement-immigrant">refinancement au renouvellement</InternalLink>.
+        </li>
+      </ul>
+
+      <WizardCta variant="dark" />
+
+      <h2 className="text-xl font-extrabold text-midnight">Le cas des m&eacute;decins immigrants : un parcours balis&eacute;</h2>
+      <p>
+        Les m&eacute;decins immigrants sont la cat&eacute;gorie la mieux servie. Le <a href="https://www.cma.ca/fr" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Coll&egrave;ge des m&eacute;decins du Qu&eacute;bec</a> et les &eacute;quivalents provinciaux collaborent avec certaines banques pour faciliter l&rsquo;acc&egrave;s au cr&eacute;dit. RBC, TD et BMO ont des sp&eacute;cialistes d&eacute;di&eacute;s aux m&eacute;decins en formation ou en d&eacute;but de pratique.
+      </p>
+      <p>
+        Pour les ing&eacute;nieurs, la reconnaissance par <a href="https://engineerscanada.ca/fr" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Ing&eacute;nieurs Canada</a> et les ordres provinciaux (OIQ au Qu&eacute;bec, PEO en Ontario) est une &eacute;tape cl&eacute; que vous pouvez documenter dans votre dossier de pr&ecirc;t.
+      </p>
+      <p>
+        Votre permis de travail influence aussi votre acc&egrave;s au financement. Consultez notre guide sur les <InternalLink slug="hypotheque-permis-travail-ouvert">permis de travail ouvert et ferm&eacute;</InternalLink> pour comprendre comment votre statut interagit avec votre demande.
+      </p>
+
+      <WizardCta />
+    </>
+  ),
+
+  // ====================================================
+  // ARTICLE 46: CANADA ATLANTIQUE
+  // ====================================================
+  "hypotheque-canada-atlantique-immigrants-guide": (
+    <>
+      <p>
+        Moins connues que Toronto ou Vancouver, les provinces atlantiques — <strong>Nouveau-Brunswick, Nouvelle-&Eacute;cosse, &Icirc;le-du-Prince-&Eacute;douard et Terre-Neuve-et-Labrador</strong> — offrent en 2026 certaines des meilleures conditions pour les immigrants qui souhaitent devenir propri&eacute;taires. Des prix nettement plus abordables, des programmes d&rsquo;immigration cibl&eacute;s et des marchés moins comp&eacute;titifs forment un cocktail attractif.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Pourquoi le Canada atlantique attire les immigrants en 2026</h2>
+      <p>
+        Le <a href="https://www.canada.ca/fr/immigration-refugies-citoyennete/services/immigrer-canada/programme-immigration-atlantique.html" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Programme d&rsquo;immigration atlantique (PIA)</a> permet aux employeurs des quatre provinces atlantiques de recruter des travailleurs &eacute;trangers qualifi&eacute;s et des &eacute;tudiants internationaux. Une fois employ&eacute;, le chemin vers la r&eacute;sidence permanente est plus rapide — et acc&eacute;l&egrave;re votre acc&egrave;s au financement hypoth&eacute;caire.
+      </p>
+      <div className="overflow-x-auto">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="border-b border-gray-200">
+              <th className="text-left py-2 pr-4">Province</th>
+              <th className="text-left py-2 pr-4">Prix m&eacute;dian maison (2026)</th>
+              <th className="text-left py-2">Mise de fonds 5% requise</th>
+            </tr>
+          </thead>
+          <tbody className="text-gray-500">
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Nouveau-Brunswick</td><td className="pr-4">~280 000 $</td><td>~14 000 $</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Nouvelle-&Eacute;cosse</td><td className="pr-4">~360 000 $</td><td>~18 000 $</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">&Icirc;le-du-Prince-&Eacute;douard</td><td className="pr-4">~310 000 $</td><td>~15 500 $</td></tr>
+            <tr><td className="py-2 pr-4">Terre-Neuve-et-Labrador</td><td className="pr-4">~260 000 $</td><td>~13 000 $</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        &Agrave; titre de comparaison, le prix m&eacute;dian &agrave; Toronto d&eacute;passe 1 100 000 $ et &agrave; Vancouver 1 200 000 $. L&rsquo;accessibilit&eacute; financi&egrave;re de l&rsquo;Atlantique est r&eacute;elle et le <InternalLink slug="programme-schl-nouveaux-arrivants-guide-complet">programme SCHL Nouveaux Arrivants</InternalLink> s&rsquo;applique dans toutes ces provinces.
+      </p>
+
+      <WizardCta />
+
+      <h2 className="text-xl font-extrabold text-midnight">Programmes provinciaux d&rsquo;aide &agrave; l&rsquo;achat</h2>
+      <ul className="space-y-2">
+        <li>
+          <strong>Nouveau-Brunswick :</strong> Le programme <a href="https://www2.gnb.ca/content/gnb/fr/ministeres/developpement_social/logement.html" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Logement NB</a> offre des pr&ecirc;ts sans int&eacute;r&ecirc;t pour la mise de fonds aux r&eacute;sidents &agrave; faible revenu, incluant les nouveaux arrivants.
+        </li>
+        <li>
+          <strong>Nouvelle-&Eacute;cosse :</strong> Programme d&rsquo;aide &agrave; la mise de fonds pour les premiers acheteurs avec revenu mod&eacute;r&eacute;. Halifax conna&icirc;t une forte demande locative, ce qui facilite l&rsquo;achat d&rsquo;un duplex avec aide aux revenus.
+        </li>
+        <li>
+          <strong>&Icirc;le-du-Prince-&Eacute;douard :</strong> Programme d&rsquo;acc&egrave;s &agrave; la propri&eacute;t&eacute; provincial et cr&eacute;dit d&rsquo;imp&ocirc;t pour premiers acheteurs jusqu&rsquo;&agrave; 2 500 $.
+        </li>
+        <li>
+          <strong>Terre-Neuve :</strong> March&eacute; tr&egrave;s abordable avec peu de concurrence. St. John&rsquo;s offre les prix les plus accessibles d&rsquo;une capitale provinciale canadienne.
+        </li>
+      </ul>
+
+      <h2 className="text-xl font-extrabold text-midnight">Banques et caisses locales &agrave; privil&eacute;gier</h2>
+      <p>
+        En plus des grandes banques nationales, les provinces atlantiques ont des institutions financi&egrave;res r&eacute;gionales tr&egrave;s actives pour les immigrants :
+      </p>
+      <ul className="space-y-2">
+        <li><strong>Caisse populaire acadienne (NB) :</strong> Sp&eacute;cialiste francophone du Nouveau-Brunswick, programmes adapt&eacute;s aux immigrants francophones — similaire &agrave; <InternalLink slug="hypotheque-francophone-quebec">Desjardins au Qu&eacute;bec</InternalLink></li>
+        <li><strong>Meridian Credit Union (NS) :</strong> Forte pr&eacute;sence en Nouvelle-&Eacute;cosse, crit&egrave;res d&rsquo;approbation plus flexibles</li>
+        <li><strong>Provincial Credit Union (PEI) :</strong> Institution locale connaissant bien le march&eacute; insulaire</li>
+        <li><strong>Scotiabank :</strong> Pr&eacute;sente dans toute la r&eacute;gion, programme StartRight adapt&eacute; aux immigrants</li>
+      </ul>
+
+      <h2 className="text-xl font-extrabold text-midnight">Points de vigilance pour l&rsquo;Atlantique</h2>
+      <ul className="space-y-2">
+        <li><strong>March&eacute; du travail :</strong> V&eacute;rifiez la demande dans votre secteur avant de vous installer — certains march&eacute;s sont saisonniers ou sp&eacute;cialis&eacute;s</li>
+        <li><strong>Assurance &eacute;levations :</strong> Les zones c&ocirc;ti&egrave;res peuvent avoir des primes d&rsquo;assurance plus &eacute;lev&eacute;es. Lisez notre guide sur l&rsquo;<InternalLink slug="assurance-habitation-immigrant-guide">assurance habitation pour immigrants</InternalLink></li>
+        <li><strong>Revente future :</strong> La liquidit&eacute; des march&eacute;s atlantiques est plus limit&eacute;e qu&rsquo;&agrave; Toronto ou Montr&eacute;al</li>
+        <li><strong>Droits de mutation :</strong> Le Nouveau-Brunswick, la Nouvelle-&Eacute;cosse et l&rsquo;IPÉ ont des droits de cession comparables aux autres provinces — consultez notre guide des <InternalLink slug="droits-mutation-immobiliere-province-rabais-premier-acheteur">droits de mutation par province</InternalLink></li>
+      </ul>
+
+      <WizardCta variant="dark" />
+
+      <h2 className="text-xl font-extrabold text-midnight">Profils d&rsquo;immigrants bien adapt&eacute;s &agrave; l&rsquo;Atlantique</h2>
+      <p>
+        Le Canada atlantique convient particuli&egrave;rement aux immigrants qui :
+      </p>
+      <ul className="space-y-2">
+        <li>Travaillent dans les secteurs de la sant&eacute;, de l&rsquo;&eacute;ducation, du tourisme ou des ressources naturelles</li>
+        <li>Recherchent un march&eacute; immobilier abordable pour s&rsquo;installer rapidement</li>
+        <li>Sont francophones (NB est la seule province officiellement bilingue)</li>
+        <li>Ont une famille et recherchent un cadre de vie calme</li>
+        <li>Visent la r&eacute;sidence permanente via le Programme d&rsquo;immigration atlantique</li>
+      </ul>
+      <p>
+        Si vous &ecirc;tes en Ontario, en Alberta ou en C-B, sachez que la <InternalLink slug="preapprobation-hypotheque-immigrant">pr&eacute;approbation hypoth&eacute;caire</InternalLink> peut souvent s&rsquo;obtenir en ligne depuis n&rsquo;importe o&ugrave; au Canada — pas besoin d&rsquo;&ecirc;tre physiquement dans la province avant de soumettre votre dossier.
+      </p>
+    </>
+  ),
+
+  // ====================================================
+  // ARTICLE 47: TAUX VARIABLES BAISSES BANQUE CANADA 2026
+  // ====================================================
+  "taux-variables-baisses-banque-canada-2026": (
+    <>
+      <p>
+        Depuis juin 2024, la <a href="https://www.banqueducanada.ca/taux/taux-dinteret/taux-cible-du-financement-a-un-jour/" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Banque du Canada</a> a proc&eacute;d&eacute; &agrave; une s&eacute;rie de baisses de son taux directeur, ramenant le taux du financement &agrave; un jour &agrave; des niveaux nettement inf&eacute;rieurs &agrave; ceux de 2022-2023. En juin 2026, les taux variables sont redevenus attractifs — ce qui change fondamentalement le calcul pour les immigrants qui ach&egrave;tent leur premi&egrave;re maison.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Le contexte : pourquoi les taux ont autant baiss&eacute;</h2>
+      <p>
+        Apr&egrave;s avoir mont&eacute; son taux directeur &agrave; 5 % en 2023 pour combattre l&rsquo;inflation, la Banque du Canada a invers&eacute; la tendance face au ralentissement &eacute;conomique. L&rsquo;impact sur les taux variables hypoth&eacute;caires est direct : le <strong>taux pr&eacute;f&eacute;rentiel des banques</strong> (prime rate) suit le taux directeur avec un &eacute;cart de +2,20 % &agrave; +2,45 %.
+      </p>
+      <div className="overflow-x-auto">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="border-b border-gray-200">
+              <th className="text-left py-2 pr-4">P&eacute;riode</th>
+              <th className="text-left py-2 pr-4">Taux directeur BdC</th>
+              <th className="text-left py-2">Taux variable typique</th>
+            </tr>
+          </thead>
+          <tbody className="text-gray-500">
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Sommet (2023)</td><td className="pr-4">5,00 %</td><td>~7,20 %</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Fin 2024</td><td className="pr-4">3,25 %</td><td>~5,45 %</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Mi-2025</td><td className="pr-4">2,75 %</td><td>~4,95 %</td></tr>
+            <tr><td className="py-2 pr-4">Juin 2026</td><td className="pr-4">~2,50 %</td><td>~4,70 %</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        Consultez notre guide complet sur les <InternalLink slug="taux-hypothecaires-comprendre-choisir-guide">taux hypoth&eacute;caires</InternalLink> pour comprendre comment le taux directeur influence votre mensualit&eacute;.
+      </p>
+
+      <WizardCta />
+
+      <h2 className="text-xl font-extrabold text-midnight">Fixe ou variable en juin 2026 : quel choix pour les immigrants ?</h2>
+      <p>
+        La question cl&eacute; est simple : les taux vont-ils encore baisser ou remonter ? En juin 2026, deux sc&eacute;narios principaux :
+      </p>
+      <ul className="space-y-2">
+        <li>
+          <strong>Si vous choisissez variable :</strong> Vous profitez imm&eacute;diatement des taux actuels bas et de toute baisse suppl&eacute;mentaire. Le risque : une remontée inattendue augmente vos paiements. Convient si votre budget peut absorber une hausse de 1-2 %.
+        </li>
+        <li>
+          <strong>Si vous choisissez fixe :</strong> Vous vous prot&eacute;gez contre toute remontée, mais vous perdez si les taux continuent de baisser. Les taux fixes 5 ans sont souvent proches des taux variables actuels — l&rsquo;&eacute;cart s&rsquo;est r&eacute;duit.
+        </li>
+        <li>
+          <strong>Terme court fixe (1-3 ans) :</strong> Option interm&eacute;diaire populaire en 2026. Vous verrouillez un taux correct aujourd&rsquo;hui et renouvelez dans 1-3 ans si les taux ont encore baiss&eacute;.
+        </li>
+      </ul>
+      <p>
+        Pour immigrants avec revenus &eacute;trangers ou situation atypique, la pr&eacute;visibilit&eacute; des paiements fixes est souvent pr&eacute;f&eacute;rable au cours des premi&egrave;res ann&eacute;es. Lisez notre analyse d&eacute;taill&eacute;e <InternalLink slug="hypotheque-taux-fixe-variable-immigrant">taux fixe vs variable pour immigrants</InternalLink>.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Refinancer en 2026 : quand c&rsquo;est avantageux</h2>
+      <p>
+        Si vous avez achet&eacute; avec un taux fix&eacute; en 2022-2023 &agrave; 5,5-6,5 %, le renouvellement en 2025-2026 peut g&eacute;n&eacute;rer des &eacute;conomies significatives. Pour ceux dont le terme arrive &agrave; &eacute;ch&eacute;ance, voici les r&egrave;gles &agrave; respecter :
+      </p>
+      <ul className="space-y-2">
+        <li>Vous pouvez changer de pr&ecirc;teur sans p&eacute;nalit&eacute; au renouvellement</li>
+        <li>Un refinancement en cours de terme entra&icirc;ne une <strong>p&eacute;nalit&eacute; de remboursement anticip&eacute;</strong> (3 mois d&rsquo;int&eacute;r&ecirc;ts sur taux variable ou diff&eacute;rentiel taux d&rsquo;int&eacute;r&ecirc;t sur taux fixe)</li>
+        <li>La r&egrave;gle g&eacute;n&eacute;rale : le refinancement est rentable si vous &eacute;conomisez plus que la p&eacute;nalit&eacute; sur 12-24 mois</li>
+      </ul>
+      <p>
+        Notre guide sur le <InternalLink slug="hypotheque-refinancement-renouvellement-immigrant">refinancement et renouvellement hypoth&eacute;caire</InternalLink> d&eacute;taille les &eacute;tapes et les calculs.
+      </p>
+
+      <WizardCta variant="dark" />
+
+      <h2 className="text-xl font-extrabold text-midnight">Impact des baisses sur votre capacit&eacute; d&rsquo;emprunt en 2026</h2>
+      <p>
+        Chaque baisse de 0,25 % du taux directeur augmente la capacit&eacute; d&rsquo;emprunt d&rsquo;environ 2-3 % pour un m&ecirc;me paiement mensuel. Concr&egrave;tement, sur une hypoth&egrave;que de 400 000 $ &agrave; 25 ans :
+      </p>
+      <ul className="space-y-2">
+        <li>Au taux de <strong>5,5 %</strong> : paiement mensuel ≈ 2 443 $</li>
+        <li>Au taux de <strong>4,7 %</strong> : paiement mensuel ≈ 2 245 $ — soit 200 $ de moins par mois</li>
+        <li>&Eacute;conomie sur 5 ans : environ <strong>12 000 $</strong></li>
+      </ul>
+      <p>
+        Utilisez notre <a href="/outils/calculateur-montant-empruntable" className="text-gold hover:underline font-semibold">calculateur de montant empruntable</a> pour voir l&rsquo;impact pr&eacute;cis sur votre situation. Attention : le <InternalLink slug="stress-test-hypothecaire-canada-immigrant-guide">stress test</InternalLink> reste obligatoire — vous &ecirc;tes qualifi&eacute; au taux contractuel + 2 % ou 5,25 %, le plus &eacute;lev&eacute; des deux. La baisse des taux n&rsquo;&eacute;limine pas cet obstacle.
+      </p>
+    </>
+  ),
+
+  // ====================================================
+  // ARTICLE 48: PRÉ-CONSTRUCTION / MAISON NEUVE
+  // ====================================================
+  "hypotheque-preconstruction-maison-neuve-immigrant": (
+    <>
+      <p>
+        Acheter une maison <strong>avant qu&rsquo;elle ne soit construite</strong> — aussi appel&eacute; achat sur plan ou pré-construction — est de plus en plus courant au Canada, notamment depuis les mesures gouvernementales de 2024-2026 visant &agrave; stimuler la construction de nouvelles unit&eacute;s. Pour les immigrants, ce type d&rsquo;achat pr&eacute;sente des avantages r&eacute;els mais aussi des risques sp&eacute;cifiques &agrave; bien comprendre.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Pr&eacute;-construction vs revente : les diff&eacute;rences cl&eacute;s</h2>
+      <div className="overflow-x-auto">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="border-b border-gray-200">
+              <th className="text-left py-2 pr-4">Aspect</th>
+              <th className="text-left py-2 pr-4">Pr&eacute;-construction</th>
+              <th className="text-left py-2">Revente</th>
+            </tr>
+          </thead>
+          <tbody className="text-gray-500">
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">D&eacute;lai avant possession</td><td className="pr-4">1-4 ans</td><td>30-90 jours</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Prix &agrave; la signature</td><td className="pr-4">Prix d&rsquo;aujourd&rsquo;hui</td><td>Prix du march&eacute; actuel</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">TVH/TPS</td><td className="pr-4">S&rsquo;applique (remboursable en partie)</td><td>N&rsquo;est pas applicable</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Inspection</td><td className="pr-4">Obligatoire &agrave; la remise</td><td>Recommand&eacute;e avant achat</td></tr>
+            <tr><td className="py-2 pr-4">Financement hypoth&eacute;caire</td><td className="pr-4">&Agrave; la remise des cl&eacute;s</td><td>&Agrave; la fermeture</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        L&rsquo;hypoth&egrave;que n&rsquo;est pas finalis&eacute;e &agrave; la signature du contrat de pré-construction : elle est approuv&eacute;e &agrave; la <strong>remise des cl&eacute;s</strong>, parfois 3 ans plus tard. Votre situation financi&egrave;re doit &ecirc;tre qualifiable &agrave; ce moment-l&agrave;, pas n&eacute;cessairement aujourd&rsquo;hui. Pour une <InternalLink slug="preapprobation-hypotheque-immigrant">pr&eacute;approbation</InternalLink>, les banques peuvent vous donner une lettre d&rsquo;intention, mais rien n&rsquo;est garanti.
+      </p>
+
+      <WizardCta />
+
+      <h2 className="text-xl font-extrabold text-midnight">La TVH et le remboursement pour nouveaux logements</h2>
+      <p>
+        Tout achat de maison neuve au Canada est assujetti &agrave; la <strong>TVH (Taxe de vente harmonis&eacute;e)</strong> ou &agrave; la TPS selon la province. Ce surco&ucirc;t peut repr&eacute;senter 5 &agrave; 15 % du prix de vente, mais l&rsquo;&Eacute;tat f&eacute;d&eacute;ral et la plupart des provinces offrent un remboursement partiel :
+      </p>
+      <ul className="space-y-2">
+        <li>
+          <strong>Remboursement f&eacute;d&eacute;ral de la TPS :</strong> Jusqu&rsquo;&agrave; 6 300 $ pour un logement dont le prix de vente n&rsquo;exc&egrave;de pas 450 000 $ (r&eacute;duit progressivement jusqu&rsquo;&agrave; 0 $ &agrave; 450 000 $). Pour les logements locatifs, les r&egrave;gles diff&egrave;rent — consultez l&rsquo;<a href="https://www.canada.ca/fr/agence-revenu/services/impot/entreprises/sujets/tps-tvh-entreprises/renseignements-tps-tvh-secteur-immobilier/immeubles-residentiels-remboursements.html" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Agence du revenu du Canada</a>.
+        </li>
+        <li>
+          <strong>Remboursement provincial (TVQ au Qu&eacute;bec, TVP en Ontario) :</strong> Les provinces ont des programmes distincts. En Ontario, le remboursement provincial peut atteindre 24 000 $ pour un logement principal.
+        </li>
+        <li>
+          <strong>Attention :</strong> Le remboursement TVH n&rsquo;est accordé que si la propri&eacute;t&eacute; est votre <strong>r&eacute;sidence principale</strong> (ou celle d&rsquo;un proche). Si vous achetez comme investissement locatif, r&egrave;gles diff&eacute;rentes — voir notre guide <InternalLink slug="immeuble-locatif-2-4-logements-schl-income-property-immigrant">immeuble locatif pour immigrants</InternalLink>.
+        </li>
+      </ul>
+
+      <h2 className="text-xl font-extrabold text-midnight">Les d&eacute;p&ocirc;ts et le financement en &eacute;tapes</h2>
+      <p>
+        Un achat pr&eacute;-construction fonctionne avec des <strong>d&eacute;p&ocirc;ts &eacute;chelonn&eacute;s</strong> vers&eacute;s au promoteur avant la fin de la construction — g&eacute;n&eacute;ralement 5 % &agrave; 20 % du prix r&eacute;parti sur 12-24 mois. Attention : ces fonds sont <em>immobilis&eacute;s</em> et non r&eacute;mun&eacute;r&eacute;s pendant la dur&eacute;e.
+      </p>
+      <ul className="space-y-2">
+        <li><strong>D&eacute;p&ocirc;t initial :</strong> 5-10 % &agrave; la signature</li>
+        <li><strong>D&eacute;p&ocirc;ts interm&eacute;diaires :</strong> Plusieurs tranches pendant la construction</li>
+        <li><strong>Fermeture finale :</strong> L&rsquo;hypoth&egrave;que SCHL (si applicable) est activ&eacute;e et le solde est pay&eacute;</li>
+      </ul>
+      <p>
+        Votre mise de fonds totale doit respecter les <strong>r&egrave;gles SCHL</strong> applicables &agrave; la date de fermeture, pas &agrave; la signature. Si les r&egrave;gles changent entre les deux, vous devez vous y conformer. Consultez notre guide de l&rsquo;<InternalLink slug="assurance-hypothecaire-schl-primes-guide-2026">assurance hypoth&eacute;caire SCHL 2026</InternalLink>.
+      </p>
+
+      <WizardCta variant="dark" />
+
+      <h2 className="text-xl font-extrabold text-midnight">Risques sp&eacute;cifiques pour les immigrants</h2>
+      <ul className="space-y-2">
+        <li>
+          <strong>Statut d&rsquo;immigration :</strong> Si votre permis de travail expire avant la remise des cl&eacute;s et n&rsquo;est pas renouvel&eacute;, vous pourriez ne plus &ecirc;tre &eacute;ligible &agrave; l&rsquo;hypoth&egrave;que SCHL. Planifiez votre statut sur la dur&eacute;e de construction.
+        </li>
+        <li>
+          <strong>Taux hypoth&eacute;caire inconnu :</strong> Le taux &agrave; la remise est celui du march&eacute; au moment de la fermeture — pas celui d&rsquo;aujourd&rsquo;hui. Certains pr&ecirc;teurs offrent des blocages de taux de 6-12 mois, mais pas 3 ans.
+        </li>
+        <li>
+          <strong>D&eacute;lais de construction :</strong> Les retards de 6 &agrave; 18 mois sont fr&eacute;quents. Votre bail actuel doit &ecirc;tre g&eacute;rable en parall&egrave;le.
+        </li>
+        <li>
+          <strong>Clause de cession (&ldquo;assignment&rdquo;) :</strong> Si vous devez vendre avant la fermeture, vous c&eacute;dez votre contrat &agrave; un tiers. Pas toujours autoris&eacute; et soumis &agrave; la TVH sur le gain.
+        </li>
+      </ul>
+
+      <h2 className="text-xl font-extrabold text-midnight">Frais suppl&eacute;mentaires &agrave; anticiper</h2>
+      <p>
+        En plus des <InternalLink slug="frais-caches-achat-maison-immigrant-checklist">frais d&rsquo;achat habituels</InternalLink>, l&rsquo;achat pr&eacute;-construction implique :
+      </p>
+      <ul className="space-y-2">
+        <li><strong>Frais de d&eacute;veloppement et de raccordement :</strong> 10 000 $ &agrave; 30 000 $ selon la r&eacute;gion, parfois non inclus dans le prix affich&eacute;</li>
+        <li><strong>Frais d&rsquo;ajustements &agrave; la fermeture :</strong> Taxes fonci&egrave;res, coop&eacute;ratives, frais condo pro-rat&eacute;s</li>
+        <li><strong>Assurance nouvelle construction :</strong> Obligatoire avec garantie constructeur (Tarion en Ontario, La Garantie au Qu&eacute;bec)</li>
+      </ul>
+      <p>
+        D&eacute;couvrez vos options de financement adapt&eacute;es &agrave; votre situation d&rsquo;immigrant en r&eacute;alisant votre <InternalLink slug="preapprobation-hypotheque-immigrant">pr&eacute;approbation hypoth&eacute;caire</InternalLink> avant m&ecirc;me de visiter un projet de pr&eacute;-construction.
+      </p>
+    </>
+  ),
+
+  // ====================================================
+  // ARTICLE 49: SASKATCHEWAN
+  // ====================================================
+  "hypotheque-saskatchewan-immigrants-regina-saskatoon": (
+    <>
+      <p>
+        Souvent sous-estim&eacute;e dans les discussions sur l&rsquo;immigration au Canada, la <strong>Saskatchewan</strong> est en r&eacute;alit&eacute; l&rsquo;une des provinces les plus accessibles financi&egrave;rement pour les immigrants qui souhaitent devenir propri&eacute;taires. Regina et Saskatoon offrent des prix immobiliers bien inf&eacute;rieurs aux grandes m&eacute;tropoles, un march&eacute; du travail dynamique et un programme d&rsquo;immigration provinciale actif.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Le march&eacute; immobilier saskatchewanais : abordable et stable</h2>
+      <p>
+        La Saskatchewan se distingue par des prix immobiliers parmi les plus stables du Canada. Contrairement &agrave; Toronto ou Vancouver, le march&eacute; n&rsquo;a pas connu de bulles sp&eacute;culatives extr&ecirc;mes, ce qui favorise un achat plus s&ucirc;r pour les nouveaux arrivants.
+      </p>
+      <div className="overflow-x-auto">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="border-b border-gray-200">
+              <th className="text-left py-2 pr-4">Ville</th>
+              <th className="text-left py-2 pr-4">Prix m&eacute;dian maison (2026)</th>
+              <th className="text-left py-2">Mise de fonds 5%</th>
+            </tr>
+          </thead>
+          <tbody className="text-gray-500">
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Regina</td><td className="pr-4">~330 000 $</td><td>~16 500 $</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Saskatoon</td><td className="pr-4">~380 000 $</td><td>~19 000 $</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Prince Albert</td><td className="pr-4">~215 000 $</td><td>~10 750 $</td></tr>
+            <tr><td className="py-2 pr-4">Lloydminster</td><td className="pr-4">~250 000 $</td><td>~12 500 $</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        Le <InternalLink slug="programme-schl-nouveaux-arrivants-guide-complet">programme SCHL Nouveaux Arrivants</InternalLink> s&rsquo;applique int&eacute;gralement en Saskatchewan, permettant l&rsquo;achat avec seulement 5 % de mise de fonds m&ecirc;me sans historique de cr&eacute;dit canadien.
+      </p>
+
+      <WizardCta />
+
+      <h2 className="text-xl font-extrabold text-midnight">Le Programme des candidats de la Saskatchewan (SINP)</h2>
+      <p>
+        Le <a href="https://www.saskatchewan.ca/residents/moving-to-saskatchewan/live-in-saskatchewan/by-immigrating/saskatchewan-immigrant-nominee-program" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Programme des candidats de la Saskatchewan (SINP)</a> est l&rsquo;un des programmes provinciaux les plus actifs du Canada. Il offre plusieurs voies d&rsquo;immigration et acc&eacute;l&egrave;re l&rsquo;obtention de la r&eacute;sidence permanente, ce qui a un impact direct sur votre &eacute;ligibilit&eacute; hypoth&eacute;caire :
+      </p>
+      <ul className="space-y-2">
+        <li><strong>SINP International Skilled Worker :</strong> Pour les travailleurs qualifi&eacute;s avec une offre d&rsquo;emploi ou via le march&eacute; du travail express</li>
+        <li><strong>SINP Entrepreneurs :</strong> Pour les investisseurs et entrepreneurs immigrants</li>
+        <li><strong>SINP Farm Owners and Operators :</strong> Pour ceux qui s&rsquo;impliquent dans l&rsquo;agriculture, secteur dominant de la province</li>
+      </ul>
+      <p>
+        Une fois nominé par la Saskatchewan, vous obtenez votre r&eacute;sidence permanente plus rapidement — passant du statut de <InternalLink slug="hypotheque-permis-travail-ouvert">r&eacute;sident non permanent</InternalLink> au statut de r&eacute;sident permanent qui ouvre toutes les portes hypoth&eacute;caires.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Banques et institutions financi&egrave;res en Saskatchewan</h2>
+      <ul className="space-y-2">
+        <li><strong>Affinity Credit Union :</strong> Coop&eacute;rative de cr&eacute;dit majeure en Saskatchewan, crit&egrave;res flex pour immigrants avec emploi local stable</li>
+        <li><strong>SaskCentral / Credit Unions SK :</strong> R&eacute;seau de coop&eacute;ratives locales avec forte pr&eacute;sence dans les petites villes</li>
+        <li><strong>RBC, TD, Scotiabank :</strong> Programmes Nouveaux Arrivants nationaux disponibles dans toutes les succursales provinciales</li>
+        <li><strong>ATB Financial :</strong> Bien que bas&eacute;e en Alberta, pr&eacute;sente &agrave; Lloydminster et est familière avec les profils immigrants de la r&eacute;gion frontalière</li>
+      </ul>
+      <p>
+        Comparer les offres via un <InternalLink slug="courtier-hypothecaire-vs-banque-immigrant">courtier hypoth&eacute;caire</InternalLink> est particuli&egrave;rement utile en Saskatchewan : les coop&eacute;ratives locales ont parfois de meilleures conditions pour les dossiers atypiques que les grandes banques nationales.
+      </p>
+
+      <WizardCta variant="dark" />
+
+      <h2 className="text-xl font-extrabold text-midnight">Secteurs d&rsquo;emploi porteurs pour les immigrants</h2>
+      <p>
+        La stabilit&eacute; de l&rsquo;emploi est l&rsquo;un des crit&egrave;res cl&eacute;s des banques. En Saskatchewan, les secteurs qui recrutent le plus d&rsquo;immigrants qualifi&eacute;s :
+      </p>
+      <ul className="space-y-2">
+        <li><strong>Sant&eacute; :</strong> Forte p&eacute;nurie de m&eacute;decins et infirmi&egrave;res, salaires &eacute;lev&eacute;s favorables &agrave; l&rsquo;hypoth&egrave;que</li>
+        <li><strong>Agriculture et agroalimentaire :</strong> Province num&eacute;ro 1 mondial pour le bl&eacute; et les l&eacute;gumineuses</li>
+        <li><strong>P&eacute;trole et potasse :</strong> Secteur minier et &eacute;nerg&eacute;tique actif</li>
+        <li><strong>Construction :</strong> Boom de l&rsquo;infrastructure, forte demande d&rsquo;ing&eacute;nieurs et de techniciens</li>
+        <li><strong>TI et num&eacute;rique :</strong> &Eacute;cosyst&egrave;me en croissance &agrave; Saskatoon</li>
+      </ul>
+
+      <h2 className="text-xl font-extrabold text-midnight">Sp&eacute;cificit&eacute;s locales &agrave; conna&icirc;tre</h2>
+      <ul className="space-y-2">
+        <li><strong>Pas de taxe de vente provinciale sur les maisons :</strong> La Saskatchewan n&rsquo;applique pas de droits de mutation immobili&egrave;re — une &eacute;conomie notable par rapport au Qu&eacute;bec ou &agrave; l&rsquo;Ontario. Consultez notre comparatif <InternalLink slug="droits-mutation-immobiliere-province-rabais-premier-acheteur">droits de mutation par province</InternalLink></li>
+        <li><strong>Chauffage hivernal :</strong> Les coûts de chauffage en Saskatchewan sont significatifs (&agrave; inclure dans votre calcul de ratio ABD)</li>
+        <li><strong>Superficie des propriétés :</strong> Les maisons sont souvent plus grandes qu&rsquo;&agrave; Toronto pour un prix &eacute;quivalent — id&eacute;al pour les familles</li>
+      </ul>
+      <p>
+        Avant de commencer votre recherche de propri&eacute;t&eacute; en Saskatchewan, obtenez votre <InternalLink slug="preapprobation-hypotheque-immigrant">pr&eacute;approbation hypoth&eacute;caire</InternalLink> pour conna&icirc;tre exactement votre budget d&rsquo;achat. &Ccedil;a ne prend que 5 minutes avec notre wizard.
+      </p>
+    </>
+  ),
+
 };
