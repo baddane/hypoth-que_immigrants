@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { isValidEmail } from "@/lib/validation";
 import { isRateLimited } from "@/lib/rateLimit";
+import { supabase, isSupabaseConfigured } from "@/lib/supabase";
 
 export async function POST(request: NextRequest) {
   try {
@@ -31,8 +32,34 @@ export async function POST(request: NextRequest) {
       submittedAt: new Date().toISOString(),
     });
 
-    // TODO: Send email via Resend / SendGrid / SES
-    // TODO: Save to database
+    // Double-write best-effort : Supabase + (TODO) notification e-mail.
+    // La requête réussit si au moins un canal aboutit.
+    let persisted = false;
+
+    if (isSupabaseConfigured) {
+      const { error } = await supabase.from("gh_contact_messages").insert({
+        name: data.nom.trim(),
+        email: data.email.trim().toLowerCase(),
+        subject: data.sujet?.trim() || null,
+        message: data.message.trim(),
+      });
+      if (error) {
+        console.error("Supabase contact insert error:", error.message);
+      } else {
+        persisted = true;
+      }
+    }
+
+    // TODO: Send email via Resend / SendGrid / SES (best-effort)
+    const emailSent = false;
+
+    // On ne renvoie une erreur que si un canal de persistance existe mais échoue.
+    if (isSupabaseConfigured && !persisted && !emailSent) {
+      return NextResponse.json(
+        { error: "Impossible d'enregistrer votre message. Réessayez." },
+        { status: 502 }
+      );
+    }
 
     return NextResponse.json({ success: true });
   } catch (error) {

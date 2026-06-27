@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { isValidEmail, isValidPhone } from "@/lib/validation";
 import { calculateLeadScore } from "@/data/banks";
 import { isRateLimited } from "@/lib/rateLimit";
+import { supabase, isSupabaseConfigured } from "@/lib/supabase";
 
 export async function POST(request: NextRequest) {
   try {
@@ -96,11 +97,26 @@ export async function POST(request: NextRequest) {
       routes.push("email_nurture");
     }
 
+    // Double-write best-effort : persistance Supabase (schéma enrichi).
+    if (isSupabaseConfigured) {
+      const { error } = await supabase.from("gh_leads").insert({
+        name: `${processedLead.prenom} ${processedLead.nom}`.trim(),
+        email: processedLead.email,
+        telephone: processedLead.telephone,
+        province: processedLead.province || null,
+        statut: processedLead.statut || null,
+        score: processedLead.score,
+        quality: processedLead.quality,
+        source: "wizard",
+      });
+      if (error) {
+        console.error("Supabase lead insert error:", error.message);
+      }
+    }
+
     // TODO: Nesto API Integration
     // TODO: Ratehub API Integration
     // TODO: Email automation (ConvertKit / MailerLite)
-    // TODO: Save to database (MongoDB / PostgreSQL)
-    // await db.leads.create(processedLead);
 
     return NextResponse.json({
       success: true,
