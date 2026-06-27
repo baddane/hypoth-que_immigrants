@@ -5,10 +5,11 @@ import { createClient } from "@supabase/supabase-js";
 // fonctions RPC protégées par mot de passe), il est donc sûr de les committer.
 export const SUPABASE_URL = "https://yjxuutdnhsvrbbgcqltw.supabase.co";
 
-// Clé publishable (anon). Renseignée via variable d'environnement pour faciliter
-// la rotation ; peut aussi être codée en dur ici puisqu'elle est publique.
+// Clé publishable (anon). Publique => committée par défaut ; surchargeable via
+// variable d'environnement pour faciliter la rotation.
 const SUPABASE_PUBLISHABLE_KEY =
-  process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY ?? "";
+  process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY ??
+  "sb_publishable_x4ehI4AgVADT4U190djnGg_eXRCPd9c";
 
 export const isSupabaseConfigured = SUPABASE_PUBLISHABLE_KEY.length > 0;
 
