@@ -151,6 +151,17 @@ export default function ChecklistDocuments() {
           </div>
         ))}
 
+        <div className="bg-gold-light border border-gold/20 rounded-2xl p-6 text-center mt-8">
+          <p className="text-base font-semibold text-midnight mb-1">Vous préférez une version imprimable ?</p>
+          <p className="text-base text-gray-500 mb-4">Recevez gratuitement la checklist complète en PDF.</p>
+          <Link
+            href="/ressources/checklist-documents"
+            className="inline-block bg-white text-gold border border-gold px-6 py-2.5 rounded-lg font-semibold hover:bg-gold hover:text-white transition"
+          >
+            Télécharger la checklist PDF
+          </Link>
+        </div>
+
         <div className="bg-midnight text-white rounded-2xl p-8 text-center mt-8">
           <h2 className="text-xl font-extrabold mb-3">Dossier prêt ?</h2>
           <p className="text-base text-gray-400 mb-6">Notre wizard gratuit analyse votre profil et vous connecte aux meilleurs courtiers en 5 minutes.</p>

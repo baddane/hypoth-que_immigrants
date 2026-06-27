@@ -40,6 +40,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/outils/comparateur-25-vs-30-ans`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${BASE_URL}/outils/calculateur-abd-atd`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${BASE_URL}/glossaire`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${BASE_URL}/ressources/checklist-documents`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 },
   ];
 
   return [...staticPages, ...wizardPages, ...toolPages, ...blogPages];
