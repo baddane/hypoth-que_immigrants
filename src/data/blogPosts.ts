@@ -493,6 +493,61 @@ export const blogPosts: BlogPost[] = [
     readTime: "10 min",
     relatedSlugs: ["hypotheque-taux-fixe-variable-immigrant", "stress-test-hypothecaire-canada-immigrant-guide", "hypotheque-refinancement-renouvellement-immigrant"],
   },
+  // ====== ARTICLE #45 — ACTUALITÉ : TAUX DIRECTEUR BANQUE DU CANADA 2026 ======
+  {
+    slug: "taux-directeur-banque-canada-juin-2026-impact-immigrant",
+    title: "Taux directeur à 2,25 % : ce que la décision de juin 2026 change pour les immigrants",
+    subtitle: "La Banque du Canada maintient son taux pour la 5e fois. Ce que cela signifie pour votre hypothèque de nouvel arrivant.",
+    description: "Analyse de la décision de la Banque du Canada de juin 2026 (taux directeur maintenu à 2,25 %) et de son impact sur les hypothèques des immigrants : taux variables, fixes, capacité d'emprunt et stratégie 2026.",
+    category: "Actualités",
+    readTime: "8 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["taux-hypothecaires-comprendre-choisir-guide", "hypotheque-taux-fixe-variable-immigrant", "renouvellement-hypothecaire-guide-eviter-choc-paiement"],
+  },
+  // ====== ARTICLE #46 — ACTUALITÉ : PLAN IMMIGRATION 2026-2028 ======
+  {
+    slug: "plan-immigration-2026-2028-impact-hypotheque-nouveaux-arrivants",
+    title: "Plan d'immigration 2026-2028 : quel impact sur votre projet d'hypothèque ?",
+    subtitle: "Forte baisse des résidents temporaires, RP stabilisée à 380 000. Ce que les nouvelles cibles changent pour les acheteurs immigrants.",
+    description: "Analyse du Plan des niveaux d'immigration 2026-2028 du Canada et de son impact sur l'accès à l'hypothèque pour les nouveaux arrivants : baisse des permis temporaires, stabilité des RP, transition vers la résidence permanente.",
+    category: "Actualités",
+    readTime: "9 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-travailleur-temporaire-5pourcent", "programme-schl-nouveaux-arrivants-guide-complet", "hypotheque-etudiant-permis-postdiplome"],
+  },
+  // ====== ARTICLE #47 — ACTUALITÉ : ONDE DE RENOUVELLEMENTS 2026 ======
+  {
+    slug: "onde-renouvellement-hypothecaire-2026-choc-paiement-immigrant",
+    title: "Onde de renouvellements 2026 : comment éviter le choc de paiement quand on est immigrant",
+    subtitle: "60 % des hypothèques renouvellent en 2025-2026. Les fixes 5 ans peuvent grimper de 20 %. Préparez votre renouvellement.",
+    description: "Tout sur l'onde de renouvellements hypothécaires de 2026 au Canada : ampleur du choc de paiement, hausses moyennes par type de prêt, régions à risque et stratégies concrètes pour les immigrants qui renouvellent.",
+    category: "Actualités",
+    readTime: "9 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["renouvellement-hypothecaire-guide-eviter-choc-paiement", "hypotheque-refinancement-renouvellement-immigrant", "taux-directeur-banque-canada-juin-2026-impact-immigrant"],
+  },
+  // ====== ARTICLE #48 — ACTUALITÉ : RABAIS TPS PREMIER ACHETEUR MAISON NEUVE ======
+  {
+    slug: "rabais-tps-premier-acheteur-maison-neuve-2026-immigrant",
+    title: "Rabais de TPS pour premiers acheteurs (maisons neuves) : jusqu'à 50 000 $ d'économies en 2026",
+    subtitle: "Le projet de loi C-4 élimine la TPS sur les maisons neuves jusqu'à 1 M$. Combiné à l'Ontario, jusqu'à 130 000 $ d'économies.",
+    description: "Guide du nouveau rabais de TPS pour premiers acheteurs de maisons neuves au Canada (projet de loi C-4, 2026). Admissibilité des immigrants, plafonds de prix, cumul avec la TVH de l'Ontario et impact sur la mise de fonds.",
+    category: "Actualités",
+    readTime: "9 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["celiapp-rap-immigrant-premier-acheteur-2026", "frais-caches-achat-maison-immigrant-checklist", "programme-schl-nouveaux-arrivants-guide-complet"],
+  },
+  // ====== ARTICLE #49 — ACTUALITÉ : RÉVISION INTERDICTION ACHAT NON-CANADIENS ======
+  {
+    slug: "revision-interdiction-achat-non-canadien-2027-nouvelles-regles",
+    title: "Vers la fin de l'interdiction d'achat pour non-Canadiens ? La révision de 2026 expliquée",
+    subtitle: "Ottawa étudie un modèle « à l'australienne » pour l'après-2027 : neuf et terrains permis, revente toujours interdite.",
+    description: "Le gouvernement révise la Loi sur l'interdiction d'achat de propriétés par des non-Canadiens avant son expiration le 1er janvier 2027. Modèle australien envisagé, calendrier, et ce que cela change pour les acheteurs immigrants non-RP.",
+    category: "Actualités",
+    readTime: "8 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["interdiction-achat-non-canadien-exemptions-2027", "hypotheque-taxe-acheteur-etranger-exemption", "hypotheque-refugie-personne-protegee-canada"],
+  },
 ];
 
 // Helper: get post by slug

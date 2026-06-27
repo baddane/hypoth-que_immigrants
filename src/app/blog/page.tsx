@@ -5,12 +5,12 @@ import { SITE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Guides Hypothèque Immigrants Canada — 44 Articles",
+  title: "Guides Hypothèque Immigrants Canada — 49 Articles",
   description:
     "Articles et guides complets sur l'hypothèque pour immigrants au Canada. Travailleurs temporaires, étudiants, résidents permanents.",
   openGraph: {
     title: "Guides Hypothèque Immigrants Canada",
-    description: "44 guides complets pour obtenir votre hypothèque au Canada en tant qu'immigrant.",
+    description: "49 guides complets pour obtenir votre hypothèque au Canada en tant qu'immigrant.",
     url: `${SITE_URL}/blog`,
     type: "website",
   },
@@ -26,7 +26,7 @@ function groupByCategory(posts: typeof blogPosts) {
 }
 
 const categoryOrder = [
-  "Guide Principal", "Statut Immigration", "Province", "Crédit",
+  "Guide Principal", "Actualités", "Statut Immigration", "Province", "Crédit",
   "Situation Spéciale", "Processus", "Financement", "Achat", "Taux", "Gestion", "Légal",
 ];
 

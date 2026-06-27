@@ -2753,4 +2753,241 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  // ====================================================
+  // ARTICLE 45: ACTUALITÉ — TAUX DIRECTEUR JUIN 2026
+  // ====================================================
+  "taux-directeur-banque-canada-juin-2026-impact-immigrant": (
+    <>
+      <p>
+        Le <strong>10 juin 2026</strong>, la <a href="https://www.banqueducanada.ca/2026/06/annonce-banque-canada-concernant-taux-directeur-2026-06-10/" target="_blank" rel="noopener noreferrer">Banque du Canada</a> a maintenu son taux directeur &agrave; <strong>2,25 %</strong> pour la cinqui&egrave;me r&eacute;union cons&eacute;cutive. Le taux pr&eacute;f&eacute;rentiel des banques reste donc &agrave; <strong>4,45 %</strong>. Voici ce que cette stabilit&eacute; signifie concr&egrave;tement quand on est nouvel arrivant et qu&rsquo;on pr&eacute;pare un achat.
+      </p>
+
+      <h2>Pourquoi la Banque a maintenu le taux</h2>
+      <p>
+        La Banque invoque une activit&eacute; &eacute;conomique faible, l&rsquo;incertitude commerciale avec les &Eacute;tats-Unis et des prix de l&rsquo;&eacute;nergie &eacute;lev&eacute;s. Elle s&rsquo;attend &agrave; ce que l&rsquo;inflation reste autour de <strong>3 %</strong> avant de redescendre progressivement vers la cible de 2 %. En clair : pas de baisse rapide en vue, mais pas de hausse non plus &agrave; court terme.
+      </p>
+
+      <WizardCta />
+
+      <h2>Impact sur votre taux variable</h2>
+      <p>
+        Les <InternalLink slug="hypotheque-taux-fixe-variable-immigrant">taux variables</InternalLink> suivent directement le taux directeur. Tant qu&rsquo;il reste &agrave; 2,25 %, votre paiement variable ne bouge pas. Pour un nouvel arrivant qui h&eacute;site, c&rsquo;est une fen&ecirc;tre de pr&eacute;visibilit&eacute; : vous savez &agrave; quoi vous attendre dans les prochains mois, sans la volatilit&eacute; des ann&eacute;es 2022-2023.
+      </p>
+
+      <h2>Impact sur votre taux fixe</h2>
+      <p>
+        Les <strong>taux fixes</strong> d&eacute;pendent surtout du rendement des obligations du gouvernement, pas du taux directeur. Avec une inflation encore autour de 3 %, les taux fixes &agrave; 5 ans ne baissent que lentement. Comparez toujours fixe et variable avant de signer : consultez notre guide <InternalLink slug="taux-hypothecaires-comprendre-choisir-guide">comprendre et choisir le bon taux</InternalLink>.
+      </p>
+
+      <h2>Ce que &ccedil;a change pour votre capacit&eacute; d&rsquo;emprunt</h2>
+      <p>
+        M&ecirc;me avec un taux stable, vous &ecirc;tes qualifi&eacute; au <strong>taux de r&eacute;sistance (stress test)</strong> : le plus &eacute;lev&eacute; entre votre taux + 2 % et 5,25 %. Un taux directeur stable signifie que votre capacit&eacute; d&rsquo;emprunt ne se d&eacute;t&eacute;riore pas d&rsquo;un mois &agrave; l&rsquo;autre &mdash; c&rsquo;est un bon moment pour faire calculer votre <InternalLink slug="preapprobation-hypotheque-immigrant">pr&eacute;approbation</InternalLink>. Utilisez aussi notre <a href="/outils/simulateur-stress-test" className="text-gold hover:underline font-semibold">simulateur de stress test</a>.
+      </p>
+
+      <h2>Strat&eacute;gie 2026 pour un nouvel arrivant</h2>
+      <ul>
+        <li><strong>Verrouillez une pr&eacute;approbation</strong> : la plupart des banques garantissent le taux 90 &agrave; 130 jours, ce qui vous prot&egrave;ge si les taux remontent.</li>
+        <li><strong>Surveillez le calendrier</strong> : les prochaines annonces de la <a href="https://www.banqueducanada.ca/grandes-fonctions/politique-monetaire/taux-directeur/" target="_blank" rel="noopener noreferrer">Banque du Canada</a> peuvent changer la donne.</li>
+        <li><strong>Pensez au renouvellement</strong> : si vous renouvelez bient&ocirc;t, lisez notre guide sur l&rsquo;<InternalLink slug="onde-renouvellement-hypothecaire-2026-choc-paiement-immigrant">onde de renouvellements 2026</InternalLink>.</li>
+        <li><strong>Passez par un courtier</strong> pour comparer les offres de dizaines de pr&ecirc;teurs gratuitement.</li>
+      </ul>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
+  // ====================================================
+  // ARTICLE 46: ACTUALITÉ — PLAN IMMIGRATION 2026-2028
+  // ====================================================
+  "plan-immigration-2026-2028-impact-hypotheque-nouveaux-arrivants": (
+    <>
+      <p>
+        Le <a href="https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/corporate-initiatives/levels/supplementary-immigration-levels-2026-2028.html" target="_blank" rel="noopener noreferrer">Plan des niveaux d&rsquo;immigration 2026-2028</a> marque un tournant : forte baisse des r&eacute;sidents temporaires et stabilisation des r&eacute;sidents permanents. Si vous comptez acheter une propri&eacute;t&eacute; au Canada, ces cibles influencent directement votre statut &mdash; et donc votre acc&egrave;s &agrave; l&rsquo;hypoth&egrave;que.
+      </p>
+
+      <h2>Les nouvelles cibles en bref</h2>
+      <table>
+        <thead>
+          <tr><th>Cat&eacute;gorie</th><th>2026</th><th>2027-2028</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>R&eacute;sidents permanents (admissions)</td><td>380 000</td><td>380 000 / an</td></tr>
+          <tr><td>Nouveaux r&eacute;sidents temporaires</td><td>385 000</td><td>370 000 / an</td></tr>
+          <tr><td>&Eacute;tudiants internationaux</td><td>155 000</td><td>150 000 / an</td></tr>
+          <tr><td>Travailleurs temporaires</td><td>230 000</td><td>220 000 / an</td></tr>
+        </tbody>
+      </table>
+      <p>
+        La cible des nouveaux r&eacute;sidents temporaires chute d&rsquo;environ <strong>43 %</strong> par rapport &agrave; 2025, l&rsquo;objectif &eacute;tant de ramener la population temporaire sous <strong>5 %</strong> de la population totale d&rsquo;ici fin 2027.
+      </p>
+
+      <WizardCta />
+
+      <h2>Bonne nouvelle : la voie vers la r&eacute;sidence permanente s&rsquo;acc&eacute;l&egrave;re</h2>
+      <p>
+        Le gouvernement pr&eacute;voit d&rsquo;acc&eacute;l&eacute;rer la transition de <strong>jusqu&rsquo;&agrave; 33 000 travailleurs temporaires</strong> vers la r&eacute;sidence permanente en 2026 et 2027, en ciblant ceux qui ont des racines solides et paient leurs imp&ocirc;ts. Or, le statut de <strong>r&eacute;sident permanent</strong> est le sc&eacute;nario le plus simple pour une hypoth&egrave;que : aucune restriction d&rsquo;achat, meilleures conditions bancaires. Voir notre <InternalLink slug="hypotheque-travailleur-temporaire-5pourcent">guide travailleur temporaire</InternalLink>.
+      </p>
+
+      <h2>Ce que &ccedil;a change si vous &ecirc;tes travailleur temporaire</h2>
+      <p>
+        Moins de places ne veut pas dire moins de droits : si vous d&eacute;tenez d&eacute;j&agrave; un permis valide, vous restez admissible au <InternalLink slug="programme-schl-nouveaux-arrivants-guide-complet">programme SCHL Nouveaux Arrivants</InternalLink> (mise de fonds 5 %). Le conseil pratique : <strong>s&eacute;curisez votre achat tant que votre permis est valide</strong> et conservez un permis avec 183+ jours restants pour rester exempt&eacute; de l&rsquo;interdiction d&rsquo;achat pour non-Canadiens.
+      </p>
+
+      <h2>Ce que &ccedil;a change si vous &ecirc;tes &eacute;tudiant international</h2>
+      <p>
+        Avec une cible r&eacute;duite &agrave; 155 000 places, la comp&eacute;tition se durcit. Planifiez t&ocirc;t votre passage au <InternalLink slug="hypotheque-etudiant-permis-postdiplome">permis postdipl&ocirc;me (PGWP)</InternalLink>, qui ouvre l&rsquo;acc&egrave;s &agrave; un revenu d&rsquo;emploi canadien &mdash; condition cl&eacute; pour qualifier une hypoth&egrave;que.
+      </p>
+
+      <h2>Faut-il acheter maintenant ou attendre ?</h2>
+      <ul>
+        <li><strong>RP ou en voie de l&rsquo;&ecirc;tre</strong> : aucune urgence li&eacute;e au statut, concentrez-vous sur le cr&eacute;dit et la mise de fonds.</li>
+        <li><strong>Permis temporaire</strong> : agissez pendant que votre statut le permet ; consultez les d&eacute;tails officiels sur <a href="https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/corporate-initiatives/levels.html" target="_blank" rel="noopener noreferrer">Canada.ca &mdash; Niveaux d&rsquo;immigration</a>.</li>
+        <li><strong>Dans tous les cas</strong> : faites valider votre admissibilit&eacute; avec une pr&eacute;approbation avant de magasiner.</li>
+      </ul>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
+  // ====================================================
+  // ARTICLE 47: ACTUALITÉ — ONDE DE RENOUVELLEMENTS 2026
+  // ====================================================
+  "onde-renouvellement-hypothecaire-2026-choc-paiement-immigrant": (
+    <>
+      <p>
+        2026 est l&rsquo;ann&eacute;e du grand renouvellement : selon la <a href="https://www.bankofcanada.ca/2025/07/staff-analytical-note-2025-21/" target="_blank" rel="noopener noreferrer">Banque du Canada</a>, environ <strong>60 % des hypoth&egrave;ques</strong> en cours sont renouvel&eacute;es en 2025-2026. Beaucoup avaient &eacute;t&eacute; sign&eacute;es &agrave; des taux planchers de 2020-2021. Pour les immigrants qui ont achet&eacute; &agrave; leur arriv&eacute;e, le choc de paiement peut &ecirc;tre r&eacute;el &mdash; mais il se pr&eacute;pare.
+      </p>
+
+      <h2>L&rsquo;ampleur du choc de paiement</h2>
+      <ul>
+        <li>En moyenne, les paiements augmentent d&rsquo;environ <strong>6 %</strong> pour les renouvellements de 2026 (vs d&eacute;cembre 2024).</li>
+        <li>Les pr&ecirc;ts <strong>fixes 5 ans</strong> renouvelant en 2026 subissent la plus forte hausse moyenne : environ <strong>20 %</strong>.</li>
+        <li>Environ <strong>10 %</strong> des d&eacute;tenteurs de taux variable &agrave; paiement fixe verront une hausse de <strong>plus de 40 %</strong>.</li>
+        <li>Bonne nouvelle : pr&egrave;s d&rsquo;un quart des emprunteurs (souvent &agrave; terme court) verront leur paiement <strong>baisser</strong> d&rsquo;ici fin 2026.</li>
+      </ul>
+      <p>
+        La <a href="https://www.cmhc-schl.gc.ca/observer/2026/mortgage-renewal-wave-strains-some-regions-borrowers" target="_blank" rel="noopener noreferrer">SCHL</a> note que les taux de d&eacute;faut augmentent mod&eacute;r&eacute;ment, avec <strong>Toronto et Vancouver</strong> les plus &agrave; risque.
+      </p>
+
+      <WizardCta />
+
+      <h2>Pourquoi les immigrants sont particuli&egrave;rement concern&eacute;s</h2>
+      <p>
+        Beaucoup de nouveaux arrivants ont achet&eacute; avec une <strong>mise de fonds de 5 %</strong> et un amortissement long, ce qui laisse un solde &eacute;lev&eacute; au renouvellement. Si votre revenu a augment&eacute; depuis (promotion, passage &agrave; la RP, deuxi&egrave;me revenu du conjoint), votre dossier est aujourd&rsquo;hui plus solide qu&rsquo;&agrave; l&rsquo;achat : c&rsquo;est un levier de n&eacute;gociation.
+      </p>
+
+      <h2>5 strat&eacute;gies pour amortir le choc</h2>
+      <ul>
+        <li><strong>Magasinez 4 &agrave; 6 mois avant l&rsquo;&eacute;ch&eacute;ance</strong> : ne signez jamais la simple lettre de renouvellement de votre banque sans comparer.</li>
+        <li><strong>Changez de pr&ecirc;teur si &ccedil;a vaut le coup</strong> : voir notre guide <InternalLink slug="hypotheque-refinancement-renouvellement-immigrant">refinancement et renouvellement</InternalLink>.</li>
+        <li><strong>Allongez l&rsquo;amortissement</strong> au renouvellement pour r&eacute;duire le paiement mensuel (au prix de plus d&rsquo;int&eacute;r&ecirc;ts &agrave; long terme).</li>
+        <li><strong>Faites un paiement forfaitaire</strong> avant le renouvellement si vous avez de l&rsquo;&eacute;pargne, pour r&eacute;duire le solde.</li>
+        <li><strong>Comparez fixe et variable</strong> &agrave; la lumi&egrave;re du <InternalLink slug="taux-directeur-banque-canada-juin-2026-impact-immigrant">taux directeur de 2026</InternalLink>.</li>
+      </ul>
+
+      <h2>Quels outils utiliser</h2>
+      <p>
+        Estimez votre nouveau paiement avec notre <a href="/outils/calculateur-montant-empruntable" className="text-gold hover:underline font-semibold">calculateur de montant empruntable</a> et v&eacute;rifiez vos ratios avec le <a href="/outils/calculateur-abd-atd" className="text-gold hover:underline font-semibold">calculateur ABD/ATD</a>. Pour la m&eacute;thode compl&egrave;te, lisez notre guide <InternalLink slug="renouvellement-hypothecaire-guide-eviter-choc-paiement">&eacute;viter le choc de paiement</InternalLink>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
+  // ====================================================
+  // ARTICLE 48: ACTUALITÉ — RABAIS TPS MAISON NEUVE 2026
+  // ====================================================
+  "rabais-tps-premier-acheteur-maison-neuve-2026-immigrant": (
+    <>
+      <p>
+        Depuis le printemps 2026, les premiers acheteurs d&rsquo;une <strong>maison neuve</strong> peuvent &eacute;conomiser gros. Le projet de loi <strong>C-4</strong> (&laquo; Loi rendant la vie plus abordable pour les Canadiens &raquo;), ayant re&ccedil;u la sanction royale le <strong>12 mars 2026</strong>, &eacute;limine la TPS sur les habitations neuves. Pour un nouvel arrivant qui ach&egrave;te son premier chez-soi, c&rsquo;est jusqu&rsquo;&agrave; <strong>50 000 $</strong> d&rsquo;&eacute;conomies &mdash; et bien plus en Ontario.
+      </p>
+
+      <h2>Comment fonctionne le rabais f&eacute;d&eacute;ral</h2>
+      <ul>
+        <li><strong>TPS &eacute;limin&eacute;e &agrave; 100 %</strong> sur les maisons neuves jusqu&rsquo;&agrave; <strong>1 000 000 $</strong>.</li>
+        <li><strong>Rabais d&eacute;gressif</strong> pour les maisons entre <strong>1 M$ et 1,5 M$</strong>.</li>
+        <li>&Eacute;conomie maximale d&rsquo;environ <strong>50 000 $</strong>.</li>
+        <li>R&eacute;serv&eacute; aux <strong>habitations neuves</strong> (construction neuve), pas &agrave; la revente.</li>
+        <li>Les ententes doivent &ecirc;tre sign&eacute;es avant le <strong>1er janvier 2031</strong>.</li>
+      </ul>
+      <p>
+        D&eacute;tails officiels sur la page de l&rsquo;<a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/gst-hst-rebates/first-time-home-buyers-gst-hst-rebate.html" target="_blank" rel="noopener noreferrer">Agence du revenu du Canada &mdash; Remboursement de TPS/TVH pour les premiers acheteurs</a>.
+      </p>
+
+      <WizardCta />
+
+      <h2>Le bonus Ontario : jusqu&rsquo;&agrave; 130 000 $ combin&eacute;s</h2>
+      <p>
+        Par un <a href="https://www.pm.gc.ca/en/news/news-releases/2026/03/30/prime-minister-carney-secures-new-partnership-ontario-cut-taxes" target="_blank" rel="noopener noreferrer">partenariat f&eacute;d&eacute;ral-provincial</a>, l&rsquo;Ontario retire sa part de la TVH sur les maisons neuves. Combin&eacute; au rabais f&eacute;d&eacute;ral, un premier acheteur peut &eacute;conomiser <strong>jusqu&rsquo;&agrave; 130 000 $</strong> (50 000 $ f&eacute;d&eacute;ral + 80 000 $ Ontario) sur une maison neuve admissible. Ce volet ontarien vise les ententes sign&eacute;es entre le <strong>1er avril 2026 et le 31 mars 2027</strong>.
+      </p>
+
+      <h2>Les immigrants y sont-ils admissibles ?</h2>
+      <p>
+        Oui &mdash; le rabais vise les <strong>premiers acheteurs</strong>, sans exigence de citoyennet&eacute; pour le volet TPS. Vous devez toutefois acheter une r&eacute;sidence principale et r&eacute;pondre &agrave; la d&eacute;finition de premier acheteur. Attention : si vous &ecirc;tes non-RP, v&eacute;rifiez d&rsquo;abord votre droit d&rsquo;achat via notre guide sur l&rsquo;<InternalLink slug="revision-interdiction-achat-non-canadien-2027-nouvelles-regles">interdiction d&rsquo;achat pour non-Canadiens</InternalLink>.
+      </p>
+
+      <h2>L&rsquo;effet sur votre mise de fonds et vos liquidit&eacute;s</h2>
+      <p>
+        Ne plus payer la TPS lib&egrave;re des liquidit&eacute;s que vous pouvez rediriger vers votre <InternalLink slug="celiapp-rap-immigrant-premier-acheteur-2026">mise de fonds via le CELIAPP et le RAP</InternalLink>. Pensez aussi aux autres co&ucirc;ts d&rsquo;achat : consultez notre <InternalLink slug="frais-caches-achat-maison-immigrant-checklist">checklist des frais cach&eacute;s</InternalLink>.
+      </p>
+
+      <h2>Maison neuve vs revente : le calcul a chang&eacute;</h2>
+      <p>
+        Comme le rabais ne s&rsquo;applique qu&rsquo;au neuf, l&rsquo;&eacute;cart de prix avec la revente se r&eacute;duit. Pour un primo-acc&eacute;dant immigrant, une maison neuve devient souvent plus comp&eacute;titive qu&rsquo;avant 2026. Faites le calcul complet avec notre <a href="/outils/calculateur-montant-empruntable" className="text-gold hover:underline font-semibold">calculateur de montant empruntable</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
+  // ====================================================
+  // ARTICLE 49: ACTUALITÉ — RÉVISION INTERDICTION NON-CANADIENS
+  // ====================================================
+  "revision-interdiction-achat-non-canadien-2027-nouvelles-regles": (
+    <>
+      <p>
+        La <strong>Loi sur l&rsquo;interdiction d&rsquo;achat de propri&eacute;t&eacute;s r&eacute;sidentielles par des non-Canadiens</strong> expire le <strong>1er janvier 2027</strong>. Fin 2025, le gouvernement a confirm&eacute; mener une <strong>r&eacute;vision formelle</strong> de la loi. R&eacute;sultat possible : un nouveau cadre &laquo; &agrave; l&rsquo;australienne &raquo; plut&ocirc;t qu&rsquo;une simple disparition. Voici ce que les acheteurs immigrants doivent surveiller.
+      </p>
+
+      <h2>O&ugrave; en est la r&eacute;vision</h2>
+      <p>
+        Selon plusieurs sources, dont <a href="https://www.bloomberg.com/news/articles/2025-12-22/canada-weighs-opening-its-housing-market-to-more-foreign-capital" target="_blank" rel="noopener noreferrer">Bloomberg</a>, le gouvernement &eacute;tudie un mod&egrave;le inspir&eacute; de l&rsquo;Australie : les acheteurs &eacute;trangers pourraient acqu&eacute;rir de la <strong>construction neuve et des terrains vacants</strong>, mais resteraient exclus du march&eacute; des <strong>maisons existantes (revente)</strong>. L&rsquo;objectif affich&eacute; : stimuler l&rsquo;offre de logements neufs sans rouvrir la sp&eacute;culation sur le parc existant.
+      </p>
+
+      <WizardCta />
+
+      <h2>Rappel : la majorit&eacute; des immigrants sont d&eacute;j&agrave; exempt&eacute;s</h2>
+      <p>
+        La r&eacute;vision ne change rien au fait que la plupart des nouveaux arrivants peuvent <strong>d&eacute;j&agrave; acheter aujourd&rsquo;hui</strong> :
+      </p>
+      <ul>
+        <li><strong>R&eacute;sidents permanents</strong> : aucune restriction.</li>
+        <li><strong>R&eacute;fugi&eacute;s et personnes prot&eacute;g&eacute;es</strong> : exempt&eacute;s &mdash; voir notre <InternalLink slug="hypotheque-refugie-personne-protegee-canada">guide d&eacute;di&eacute;</InternalLink>.</li>
+        <li><strong>Travailleurs temporaires</strong> : exempt&eacute;s si 183+ jours restants sur le permis et d&eacute;claration de revenus d&eacute;pos&eacute;e.</li>
+        <li><strong>&Eacute;tudiants internationaux</strong> : exempt&eacute;s sous conditions (dur&eacute;e au Canada, prix &lt; 500 000 $).</li>
+      </ul>
+      <p>
+        Les d&eacute;tails complets sont dans notre guide <InternalLink slug="interdiction-achat-non-canadien-exemptions-2027">exemptions et fin pr&eacute;vue 2027</InternalLink>.
+      </p>
+
+      <h2>Et les taxes provinciales ?</h2>
+      <p>
+        M&ecirc;me apr&egrave;s 2027, les <InternalLink slug="hypotheque-taxe-acheteur-etranger-exemption">taxes provinciales sur acheteurs &eacute;trangers</InternalLink> (Ontario, C.-B.) resteront en vigueur ind&eacute;pendamment de la loi f&eacute;d&eacute;rale. Ne confondez pas les deux : ce sont des r&eacute;gimes distincts, avec leurs propres exemptions.
+      </p>
+
+      <h2>Que faire en attendant ?</h2>
+      <ul>
+        <li><strong>Si vous &ecirc;tes exempt&eacute;</strong> (RP, r&eacute;fugi&eacute;, permis valide) : inutile d&rsquo;attendre 2027, vous pouvez acheter d&egrave;s maintenant.</li>
+        <li><strong>Si vous &ecirc;tes non-RP non exempt&eacute;</strong> : surveillez les annonces officielles &mdash; un mod&egrave;le australien permettrait au moins l&rsquo;achat de neuf.</li>
+        <li><strong>Dans tous les cas</strong> : pr&eacute;parez votre cr&eacute;dit et votre mise de fonds pour &ecirc;tre pr&ecirc;t le jour o&ugrave; les r&egrave;gles changent.</li>
+      </ul>
+      <p>
+        L&rsquo;opinion publique reste un facteur : un sondage cit&eacute; par <a href="https://www.mpamag.com/ca/mortgage-industry/industry-trends/is-it-time-for-canadas-foreign-homebuyer-ban-to-go/549246" target="_blank" rel="noopener noreferrer">Canadian Mortgage Professional</a> indique que 76 % des Canadiens soutiennent l&rsquo;interdiction, ce qui pousse vers un assouplissement <em>partiel</em> plut&ocirc;t qu&rsquo;une suppression totale.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };
