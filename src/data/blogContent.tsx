@@ -2990,4 +2990,73 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  // ====================================================
+  // ARTICLE 50: TAXE SUR LES LOGEMENTS SOUS-UTILIS&Eacute;S (TLSU)
+  // ====================================================
+  "taxe-logements-sous-utilises-tlsu-immigrants-guide": (
+    <>
+      <p>
+        Vous avez achet&eacute; une propri&eacute;t&eacute; au Canada avec un permis de travail ou d&rsquo;&eacute;tudes ? Une obligation fiscale f&eacute;d&eacute;rale peu connue pourrait vous concerner : la <strong>taxe sur les logements sous-utilis&eacute;s (TLSU)</strong>, appel&eacute;e <em>Underused Housing Tax (UHT)</em> en anglais. M&ecirc;me si vous habitez vous-m&ecirc;me la propri&eacute;t&eacute; &agrave; temps plein et ne devez au final aucune taxe, vous pourriez tout de m&ecirc;me &ecirc;tre tenu de <strong>produire une d&eacute;claration annuelle</strong> &mdash; sous peine d&rsquo;une p&eacute;nalit&eacute; minimale de <strong>5 000 $</strong>.
+      </p>
+
+      <h2>Qui doit produire une d&eacute;claration : le concept de &laquo; propri&eacute;taire concern&eacute; &raquo;</h2>
+      <p>
+        L&rsquo;<a href="https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/taxe-logements-sous-utilises.html" target="_blank" rel="noopener noreferrer">Agence du revenu du Canada (ARC)</a> distingue deux cat&eacute;gories de propri&eacute;taires. Les <strong>propri&eacute;taires exclus</strong> &mdash; citoyens canadiens et <strong>r&eacute;sidents permanents</strong> qui d&eacute;tiennent la propri&eacute;t&eacute; directement en leur nom personnel &mdash; n&rsquo;ont <strong>aucune d&eacute;claration &agrave; produire</strong>. Mais si vous &ecirc;tes un <strong>r&eacute;sident temporaire</strong> (permis de travail, permis d&rsquo;&eacute;tudes, permis de travail postdipl&ocirc;me) et que vous poss&eacute;dez une propri&eacute;t&eacute; r&eacute;sidentielle au Canada, vous &ecirc;tes g&eacute;n&eacute;ralement un <strong>propri&eacute;taire concern&eacute;</strong> &mdash; m&ecirc;me si vous payez d&eacute;j&agrave; vos imp&ocirc;ts au Canada &agrave; titre de r&eacute;sident fiscal.
+      </p>
+      <ul>
+        <li><strong>Toujours exclus (aucune d&eacute;claration) :</strong> citoyens canadiens et r&eacute;sidents permanents propri&eacute;taires en leur nom propre.</li>
+        <li><strong>Propri&eacute;taires concern&eacute;s (d&eacute;claration obligatoire) :</strong> particuliers qui ne sont ni citoyens ni RP, y compris les d&eacute;tenteurs de permis de travail ou d&rsquo;&eacute;tudes.</li>
+        <li><strong>Cas particulier :</strong> un citoyen ou RP qui d&eacute;tient la propri&eacute;t&eacute; comme fiduciaire ou associ&eacute; d&rsquo;une soci&eacute;t&eacute; de personnes doit aussi produire une d&eacute;claration.</li>
+        <li>La d&eacute;claration se fait par propri&eacute;t&eacute; et par ann&eacute;e civile, via le formulaire <strong>UHT-2900</strong>.</li>
+      </ul>
+      <p>
+        Ce statut de propri&eacute;taire concern&eacute; s&rsquo;applique tant que vous n&rsquo;avez pas obtenu la <strong>r&eacute;sidence permanente</strong>. Notre guide sur l&rsquo;<InternalLink slug="interdiction-achat-non-canadien-exemptions-2027">interdiction d&rsquo;achat pour non-Canadiens</InternalLink> explique une restriction diff&eacute;rente mais li&eacute;e : le droit m&ecirc;me d&rsquo;acheter selon votre statut.
+      </p>
+
+      <WizardCta />
+
+      <h2>R&eacute;duire la taxe &agrave; 0 $ : les exemptions disponibles</h2>
+      <p>
+        &Ecirc;tre un propri&eacute;taire concern&eacute; ne signifie pas payer la taxe de <strong>1 % de la valeur de la propri&eacute;t&eacute;</strong>. Plusieurs exemptions permettent de ramener le montant d&ucirc; &agrave; z&eacute;ro &mdash; mais vous devez tout de m&ecirc;me les <strong>r&eacute;clamer chaque ann&eacute;e</strong> dans votre d&eacute;claration :
+      </p>
+      <ul>
+        <li><strong>R&eacute;sidence principale :</strong> la propri&eacute;t&eacute; est occup&eacute;e comme lieu principal de r&eacute;sidence par vous-m&ecirc;me, votre &eacute;poux ou conjoint de fait, ou votre enfant qui fr&eacute;quente un &eacute;tablissement d&rsquo;enseignement d&eacute;sign&eacute;.</li>
+        <li><strong>Occupation admissible :</strong> la propri&eacute;t&eacute; est lou&eacute;e &agrave; un locataire admissible pour au moins 180 jours r&eacute;partis en p&eacute;riodes d&rsquo;au moins un mois durant l&rsquo;ann&eacute;e.</li>
+        <li><strong>Propri&eacute;t&eacute; nouvellement acquise :</strong> exemption l&rsquo;ann&eacute;e de l&rsquo;achat.</li>
+        <li><strong>Construction ou r&eacute;novation majeure en cours</strong>, ou propri&eacute;t&eacute; inhabitable pendant une partie substantielle de l&rsquo;ann&eacute;e (sinistre, condition dangereuse).</li>
+        <li><strong>Propri&eacute;t&eacute; saisonni&egrave;re ou sans acc&egrave;s routier &agrave; l&rsquo;ann&eacute;e</strong>, selon les crit&egrave;res de l&rsquo;ARC.</li>
+      </ul>
+      <p>
+        Pour la grande majorit&eacute; des lecteurs de ce site &mdash; un travailleur temporaire ou un &eacute;tudiant qui ach&egrave;te pour y vivre &mdash; l&rsquo;<strong>exemption de r&eacute;sidence principale</strong> s&rsquo;applique directement. La taxe finale sera donc de 0 $. Mais l&rsquo;exemption ne dispense <strong>jamais</strong> de l&rsquo;obligation de produire la d&eacute;claration elle-m&ecirc;me.
+      </p>
+
+      <h2>&Eacute;ch&eacute;ance et comment produire le formulaire UHT-2900</h2>
+      <p>
+        La d&eacute;claration TLSU doit &ecirc;tre produite au plus tard le <strong>30 avril</strong> de l&rsquo;ann&eacute;e suivant l&rsquo;ann&eacute;e civile vis&eacute;e, pour <strong>chaque propri&eacute;t&eacute;</strong> d&eacute;tenue au 31 d&eacute;cembre. Le formulaire <strong>UHT-2900</strong> exige la valeur imposable de la propri&eacute;t&eacute; (&eacute;valuation municipale ou juste valeur marchande), le type de propri&eacute;taire et l&rsquo;exemption r&eacute;clam&eacute;e le cas &eacute;ch&eacute;ant. L&rsquo;ARC ayant accord&eacute; plusieurs all&egrave;gements transitoires sur les p&eacute;nalit&eacute;s depuis l&rsquo;entr&eacute;e en vigueur de la loi en 2022, v&eacute;rifiez toujours la <a href="https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/taxe-logements-sous-utilises.html" target="_blank" rel="noopener noreferrer">page officielle de l&rsquo;ARC sur la TLSU</a> pour la date limite et les modalit&eacute;s en vigueur au moment de votre production.
+      </p>
+      <ul>
+        <li>Produisez un formulaire distinct pour chaque propri&eacute;t&eacute; si vous en poss&eacute;dez plusieurs.</li>
+        <li>Conservez vos preuves d&rsquo;occupation (bail, factures de services publics &agrave; votre nom, adresse sur vos documents d&rsquo;immigration).</li>
+        <li>Un num&eacute;ro d&rsquo;identification fiscal (NAS ou NII) est requis pour produire &eacute;lectroniquement ou par courrier.</li>
+      </ul>
+
+      <WizardCta variant="dark" />
+
+      <h2>Les p&eacute;nalit&eacute;s si vous ignorez cette obligation</h2>
+      <p>
+        C&rsquo;est le point le plus mal compris de la TLSU : les p&eacute;nalit&eacute;s pour <strong>d&eacute;faut de production</strong> s&rsquo;appliquent <strong>m&ecirc;me si aucune taxe n&rsquo;est due</strong>. Pour un particulier, la p&eacute;nalit&eacute; minimale est de <strong>5 000 $ par propri&eacute;t&eacute; par ann&eacute;e</strong> (10 000 $ pour une soci&eacute;t&eacute;), sans lien avec le montant de taxe r&eacute;ellement exigible. Un nouvel arrivant qui ach&egrave;te sa r&eacute;sidence principale et ignore simplement l&rsquo;existence de cette d&eacute;claration peut donc se retrouver avec une p&eacute;nalit&eacute; substantielle pour une taxe qui, elle, aurait &eacute;t&eacute; nulle.
+      </p>
+      <ul>
+        <li>La p&eacute;nalit&eacute; s&rsquo;applique par propri&eacute;t&eacute; et par ann&eacute;e d&rsquo;omission &mdash; elle peut donc s&rsquo;additionner sur plusieurs ann&eacute;es si l&rsquo;omission n&rsquo;est pas corrig&eacute;e.</li>
+        <li>Une d&eacute;claration produite en retard, m&ecirc;me sans taxe due, reste pr&eacute;f&eacute;rable &agrave; l&rsquo;absence totale de d&eacute;claration.</li>
+        <li>En cas de doute sur votre statut ou vos obligations, consultez un fiscaliste ou un comptable connaissant bien la TLSU &mdash; les r&egrave;gles diff&egrave;rent selon le mode de d&eacute;tention (nom propre, fiducie, soci&eacute;t&eacute; de personnes).</li>
+      </ul>
+      <p>
+        Cette obligation s&rsquo;ajoute aux autres co&ucirc;ts &agrave; anticiper lors d&rsquo;un achat immobilier : consultez notre <InternalLink slug="frais-caches-achat-maison-immigrant-checklist">checklist des frais cach&eacute;s de l&rsquo;achat immobilier</InternalLink> et notre guide sur la <InternalLink slug="hypotheque-taxe-acheteur-etranger-exemption">taxe sur les acheteurs &eacute;trangers</InternalLink>, un r&eacute;gime distinct qui peut s&rsquo;appliquer en plus de la TLSU selon la province.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };

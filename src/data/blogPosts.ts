@@ -548,6 +548,17 @@ export const blogPosts: BlogPost[] = [
     wizardVariant: undefined,
     relatedSlugs: ["interdiction-achat-non-canadien-exemptions-2027", "hypotheque-taxe-acheteur-etranger-exemption", "hypotheque-refugie-personne-protegee-canada"],
   },
+  // ====== ARTICLE #50 — TAXE SUR LES LOGEMENTS SOUS-UTILISÉS (TLSU) ======
+  {
+    slug: "taxe-logements-sous-utilises-tlsu-immigrants-guide",
+    title: "Taxe sur les Logements Sous-Utilisés (TLSU) : Guide pour Immigrants au Canada",
+    subtitle: "Résident temporaire propriétaire ? Vous devez souvent produire une déclaration même si vous n'avez rien à payer — sinon, amende minimale de 5 000 $.",
+    description: "Guide complet de la taxe sur les logements sous-utilisés (TLSU/UHT) pour immigrants au Canada. Qui doit produire une déclaration, exemptions pour réduire la taxe à 0 $, échéance et pénalités pour les résidents temporaires propriétaires.",
+    category: "Légal",
+    readTime: "9 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-taxe-acheteur-etranger-exemption", "interdiction-achat-non-canadien-exemptions-2027", "hypotheque-permis-travail-ouvert"],
+  },
 ];
 
 // Helper: get post by slug
