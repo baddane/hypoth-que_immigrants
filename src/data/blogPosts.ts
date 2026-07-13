@@ -1,5 +1,5 @@
 // ============================================
-// BLOG POSTS METADATA — 34 articles
+// BLOG POSTS METADATA — 50 articles
 // Data-driven: each post has metadata + markdown-like content sections
 // ============================================
 
@@ -547,6 +547,17 @@ export const blogPosts: BlogPost[] = [
     readTime: "8 min",
     wizardVariant: undefined,
     relatedSlugs: ["interdiction-achat-non-canadien-exemptions-2027", "hypotheque-taxe-acheteur-etranger-exemption", "hypotheque-refugie-personne-protegee-canada"],
+  },
+  // ====== ARTICLE #50 — ASSURANCE VIE HYPOTHÉCAIRE ======
+  {
+    slug: "assurance-vie-hypothecaire-invalidite-immigrant-guide",
+    title: "Assurance Vie Hypothécaire et Invalidité : Ce Que Doit Savoir un Immigrant Avant de Signer",
+    subtitle: "Le prêteur vous l'offrira à la signature. Voici pourquoi une assurance vie temporaire indépendante protège souvent mieux votre famille, pour un coût comparable.",
+    description: "Guide de l'assurance vie hypothécaire et invalidité pour immigrants au Canada. Différences avec l'assurance vie temporaire indépendante, souscription médicale, coûts et comment bien choisir avant la fermeture.",
+    category: "Achat",
+    readTime: "8 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["assurance-habitation-immigrant-guide", "hypotheque-assurance-schl-sagen-cmhc", "frais-caches-achat-maison-immigrant-checklist"],
   },
 ];
 

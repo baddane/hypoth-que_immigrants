@@ -2990,4 +2990,77 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  // ====================================================
+  // ARTICLE 50: ASSURANCE VIE HYPOTHÉCAIRE ET INVALIDITÉ
+  // ====================================================
+  "assurance-vie-hypothecaire-invalidite-immigrant-guide": (
+    <>
+      <p>
+        Quelques jours avant la fermeture, votre prêteur va probablement vous proposer une <strong>assurance vie hypothécaire</strong> (parfois combinée à une assurance invalidité ou maladie grave). C'est un produit optionnel — jamais une condition d'approbation — et pour un nouvel arrivant, ce n'est presque jamais le meilleur choix. Voici comment elle fonctionne, en quoi elle diffère d'une police d'assurance vie temporaire indépendante, et ce qu'il faut vérifier avant de signer.
+      </p>
+
+      <h2>Assurance vie hypothécaire du prêteur : comment ça fonctionne</h2>
+      <ul className="space-y-2">
+        <li><strong>Bénéficiaire :</strong> c'est le prêteur, pas votre famille. En cas de décès, le solde de l'hypothèque est remboursé directement à la banque</li>
+        <li><strong>Montant décroissant :</strong> la couverture diminue avec votre solde hypothécaire, mais la prime, elle, reste généralement stable</li>
+        <li><strong>Pas de choix de bénéficiaire :</strong> impossible de désigner un conjoint, des enfants ou de couvrir d'autres dépenses (funérailles, dettes, études)</li>
+        <li><strong>Souscription simplifiée à l'approbation :</strong> peu ou pas de questionnaire médical détaillé au départ — mais l'assureur peut vérifier vos antécédents seulement au moment d'une réclamation, ce qui peut mener à un refus après coup si une déclaration s'avère incomplète</li>
+      </ul>
+      <p>
+        Selon l'<a href="https://www.canada.ca/fr/agence-consommation-matiere-financiere/services/hypotheques/produit-assurance-hypothecaire.html" target="_blank" rel="noopener noreferrer">Agence de la consommation en matière financière du Canada (ACFC)</a>, l'assurance vie et invalidité hypothécaire sont des produits <em>facultatifs</em> : le prêteur ne peut jamais conditionner votre approbation à leur achat, et vous pouvez les annuler à tout moment.
+      </p>
+
+      <WizardCta />
+
+      <h2>L'alternative : assurance vie temporaire indépendante</h2>
+      <p>
+        Une police d'assurance vie temporaire (« term life ») souscrite auprès d'un assureur indépendant offre généralement une meilleure protection pour un coût comparable :
+      </p>
+      <div className="overflow-x-auto">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="border-b border-gray-200">
+              <th className="text-left py-2 pr-4">Critère</th>
+              <th className="text-left py-2 pr-4">Assurance du prêteur</th>
+              <th className="text-left py-2">Assurance vie temporaire</th>
+            </tr>
+          </thead>
+          <tbody className="text-gray-500">
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Bénéficiaire</td><td className="pr-4">Le prêteur</td><td>Vous le choisissez</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Montant versé</td><td className="pr-4">Décroît avec le solde</td><td>Fixe, peu importe le solde restant</td></tr>
+            <tr className="border-b border-gray-100"><td className="py-2 pr-4">Portabilité</td><td className="pr-4">Perdue si vous changez de prêteur</td><td>Suit votre vie, indépendante du prêt</td></tr>
+            <tr><td className="py-2 pr-4">Souscription médicale</td><td className="pr-4">Souvent après la réclamation</td><td>Généralement à l'application, donc plus prévisible</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        Comme le résume l'ACFC, une police temporaire ou permanente indépendante « peut vous offrir une meilleure valeur » puisque le montant versé aux bénéficiaires ne diminue pas avec le temps. Voir le détail dans leur guide sur les <a href="https://www.canada.ca/fr/agence-consommation-matiere-financiere/services/droits-responsabilites/droits-hypotheques/droits-assurance-vie-hypotheque.html" target="_blank" rel="noopener noreferrer">droits liés à l'assurance vie hypothécaire</a>.
+      </p>
+
+      <h2>Défis spécifiques pour les nouveaux arrivants</h2>
+      <ul className="space-y-2">
+        <li><strong>Absence d'historique médical canadien :</strong> certains assureurs demandent vos dossiers médicaux du pays d'origine ou un examen médical complémentaire avant d'établir votre tarif</li>
+        <li><strong>Statut d'immigration :</strong> la plupart des assureurs vie acceptent les résidents permanents et les détenteurs de permis de travail valide ; certains exigent un minimum de temps passé au Canada ou une preuve de statut avant d'émettre une police de gros montant</li>
+        <li><strong>Polices à émission simplifiée :</strong> sans examen médical mais avec une prime plus élevée — utile en attendant qu'un dossier médical complet soit constitué, surtout si vous <InternalLink slug="hypotheque-sans-historique-credit">bâtissez encore votre dossier canadien</InternalLink></li>
+        <li><strong>Assurance collective de l'employeur :</strong> souvent disponible dès l'embauche sans questionnaire médical — une bonne protection temporaire en attendant une police individuelle</li>
+      </ul>
+
+      <h2>Combien ça coûte et comment bien choisir</h2>
+      <p>
+        Le coût dépend surtout de votre âge, de votre état de santé, du montant de couverture souhaité et du statut fumeur/non-fumeur — pas de votre statut d'immigration. Pour connaître votre prime réelle, demandez des soumissions à <strong>2 ou 3 assureurs indépendants</strong> avant la fermeture plutôt que d'accepter automatiquement l'offre du prêteur. Un courtier en assurance vie peut comparer plusieurs compagnies pour vous, un peu comme un <InternalLink slug="courtier-hypothecaire-vs-banque-immigrant">courtier hypothécaire compare les prêteurs</InternalLink>.
+      </p>
+      <ul className="space-y-2">
+        <li>Choisissez un montant de couverture qui rembourse l'hypothèque <em>et</em> laisse un coussin à votre famille (funérailles, transition de revenu)</li>
+        <li>Vérifiez la définition exacte d'« invalidité » ou de « maladie grave » et les exclusions avant de signer</li>
+        <li>Ne résiliez jamais une assurance vie existante avant que la nouvelle police soit officiellement en vigueur</li>
+        <li>Révisez votre couverture après un changement de statut (RP obtenue, mariage, enfant, refinancement)</li>
+      </ul>
+      <p>
+        N'oubliez pas d'inclure cette prime dans votre budget global de fermeture, aux côtés de l'<InternalLink slug="assurance-habitation-immigrant-guide">assurance habitation</InternalLink> — les deux sont distinctes de l'<InternalLink slug="hypotheque-assurance-schl-sagen-cmhc">assurance prêt hypothécaire SCHL</InternalLink>, qui protège le prêteur en cas de défaut de paiement, pas votre famille en cas de décès.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };
