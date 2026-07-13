@@ -2990,4 +2990,62 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  // ====================================================
+  // ARTICLE 50: ASSURANCE VIE HYPOTHÉCAIRE
+  // ====================================================
+  "assurance-vie-hypothecaire-immigrant-guide": (
+    <>
+      <p>
+        Au moment de signer votre pr&ecirc;t, votre pr&ecirc;teur vous proposera presque toujours une <strong>assurance vie hypoth&eacute;caire</strong> (parfois vendue avec une protection invalidit&eacute; ou maladies graves). C&rsquo;est facultatif — jamais une condition d&rsquo;approbation — mais peu de nouveaux arrivants savent qu&rsquo;il existe une alternative souvent plus avantageuse : l&rsquo;<strong>assurance vie temporaire</strong>. Voici la diff&eacute;rence, et comment choisir sans vous faire presser par le conseiller au comptoir.
+      </p>
+
+      <h2>Ce que le pr&ecirc;teur vous propose n&rsquo;est pas obligatoire</h2>
+      <p>
+        Ne confondez pas cette assurance avec l&rsquo;<InternalLink slug="hypotheque-assurance-schl-sagen-cmhc">assurance pr&ecirc;t hypoth&eacute;caire SCHL</InternalLink>, qui elle est obligatoire si votre mise de fonds est sous 20 %. L&rsquo;assurance vie hypoth&eacute;caire est un produit distinct et <strong>toujours optionnel</strong>. Selon l&rsquo;<a href="https://www.canada.ca/fr/agence-consommation-matiere-financiere/services/hypotheques/produit-assurance-hypothecaire.html" target="_blank" rel="noopener noreferrer">Agence de la consommation en mati&egrave;re financi&egrave;re du Canada (ACFC)</a>, un pr&ecirc;teur ne peut ni l&rsquo;imposer, ni lier son achat &agrave; l&rsquo;approbation de votre hypoth&egrave;que — cette pratique s&rsquo;appelle la &laquo; vente li&eacute;e avec coercition &raquo; et elle est interdite.
+      </p>
+
+      <WizardCta />
+
+      <h2>Assurance vie hypoth&eacute;caire vs assurance vie temporaire</h2>
+      <table>
+        <thead>
+          <tr><th></th><th>Assurance vie hypoth&eacute;caire (pr&ecirc;teur)</th><th>Assurance vie temporaire (terme)</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>B&eacute;n&eacute;ficiaire</td><td>Le pr&ecirc;teur, directement</td><td>Votre famille ou votre succession, librement</td></tr>
+          <tr><td>Montant couvert</td><td>D&eacute;cro&icirc;t avec le solde du pr&ecirc;t</td><td>Fixe pendant toute la dur&eacute;e du terme</td></tr>
+          <tr><td>Prime</td><td>Reste la m&ecirc;me malgr&eacute; la couverture d&eacute;croissante</td><td>Fixe et g&eacute;n&eacute;ralement plus basse pour un profil jeune et en sant&eacute;</td></tr>
+          <tr><td>Souscription m&eacute;dicale</td><td>Souvent au moment de la r&eacute;clamation (post-claim underwriting)</td><td>&Eacute;valuation m&eacute;dicale faite &agrave; l&rsquo;ouverture du contrat</td></tr>
+          <tr><td>Portabilit&eacute;</td><td>Li&eacute;e &agrave; ce pr&ecirc;t pr&eacute;cis, chez ce pr&ecirc;teur</td><td>Ind&eacute;pendante du pr&ecirc;teur ou de la propri&eacute;t&eacute;</td></tr>
+        </tbody>
+      </table>
+      <p>
+        La diff&eacute;rence la plus importante concerne la souscription. Avec l&rsquo;assurance du pr&ecirc;teur, les questions m&eacute;dicales sont souvent v&eacute;rifi&eacute;es <strong>seulement au moment d&rsquo;une r&eacute;clamation</strong> — pas &agrave; la signature. Concr&egrave;tement, votre famille peut apprendre, apr&egrave;s un d&eacute;c&egrave;s, que la r&eacute;clamation est refus&eacute;e pour une condition pr&eacute;existante non d&eacute;clar&eacute;e. Une police temporaire, elle, est &eacute;valu&eacute;e &agrave; l&rsquo;avance : une fois accept&eacute;e, la couverture est beaucoup plus difficile &agrave; contester.
+      </p>
+
+      <h2>Ce qui est particulier pour un nouvel arrivant</h2>
+      <ul>
+        <li><strong>Pas de dossier m&eacute;dical canadien :</strong> un assureur vie temporaire peut demander un examen m&eacute;dical complet si vous n&rsquo;avez pas d&rsquo;historique ici, ce qui rallonge le d&eacute;lai d&rsquo;approbation de quelques semaines</li>
+        <li><strong>D&eacute;lai de carence :</strong> certains assureurs imposent une p&eacute;riode d&rsquo;attente (souvent 2 ans) sur le suicide et parfois sur des conditions pr&eacute;existantes non divulgu&eacute;es — lisez le contrat avant de signer</li>
+        <li><strong>Assurance &laquo; garantie &raquo; sans questionnaire m&eacute;dical :</strong> existe mais co&ucirc;te sensiblement plus cher et couvre souvent un montant plafonn&eacute; — &agrave; r&eacute;server aux profils qui ne peuvent vraiment pas se qualifier autrement</li>
+        <li><strong>Comparez avant de signer chez le pr&ecirc;teur :</strong> vous avez le droit de magasiner ailleurs sans que cela retarde la <InternalLink slug="hypotheque-timeline-fermeture-immigrant">fermeture de votre hypoth&egrave;que</InternalLink></li>
+      </ul>
+
+      <h2>Combien &ccedil;a co&ucirc;te r&eacute;ellement</h2>
+      <p>
+        Le co&ucirc;t d&eacute;pend de votre &acirc;ge, de votre &eacute;tat de sant&eacute;, du montant emprunt&eacute; et du fait que vous fumiez ou non. En r&egrave;gle g&eacute;n&eacute;rale, une personne jeune et en bonne sant&eacute; paie souvent moins cher pour une assurance vie temporaire &agrave; montant fixe que pour l&rsquo;assurance d&eacute;croissante du pr&ecirc;teur &mdash; parce que cette derni&egrave;re ne baisse jamais sa prime m&ecirc;me si le solde &agrave; couvrir diminue chaque ann&eacute;e. Demandez toujours une soumission des deux options avant de choisir, id&eacute;alement aupr&egrave;s d&rsquo;un <a href="https://www.infoassurance.ca/fr/trouver-un-representant-en-assurance" target="_blank" rel="noopener noreferrer">repr&eacute;sentant en assurance ind&eacute;pendant</a> qui peut comparer plusieurs assureurs.
+      </p>
+
+      <h2>Comment choisir la bonne protection</h2>
+      <ul>
+        <li><strong>Famille &agrave; charge :</strong> privil&eacute;giez une assurance vie temporaire — le montant fixe et le choix du b&eacute;n&eacute;ficiaire prot&egrave;gent mieux vos proches qu&rsquo;un remboursement direct au pr&ecirc;teur</li>
+        <li><strong>Aucune personne &agrave; charge :</strong> l&rsquo;assurance du pr&ecirc;teur peut suffire &agrave; court terme, le temps de b&acirc;tir votre dossier m&eacute;dical canadien</li>
+        <li><strong>Toujours lire vos <a href="https://www.canada.ca/fr/agence-consommation-matiere-financiere/services/droits-responsabilites/droits-hypotheques/droits-assurance-vie-hypotheque.html" target="_blank" rel="noopener noreferrer">droits en mati&egrave;re d&rsquo;assurance vie hypoth&eacute;caire</a></strong> : consentement &eacute;crit obligatoire, droit d&rsquo;annulation et divulgation claire des frais</li>
+        <li><strong>Ajoutez ce co&ucirc;t</strong> &agrave; votre <InternalLink slug="frais-caches-achat-maison-immigrant-checklist">liste des frais li&eacute;s &agrave; l&rsquo;achat</InternalLink> pour budgeter correctement, au m&ecirc;me titre que l&rsquo;<InternalLink slug="assurance-habitation-immigrant-guide">assurance habitation</InternalLink></li>
+      </ul>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };

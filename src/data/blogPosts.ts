@@ -548,6 +548,17 @@ export const blogPosts: BlogPost[] = [
     wizardVariant: undefined,
     relatedSlugs: ["interdiction-achat-non-canadien-exemptions-2027", "hypotheque-taxe-acheteur-etranger-exemption", "hypotheque-refugie-personne-protegee-canada"],
   },
+  // ====== ARTICLE #50 — ASSURANCE VIE HYPOTHÉCAIRE ======
+  {
+    slug: "assurance-vie-hypothecaire-immigrant-guide",
+    title: "Assurance vie hypothécaire : ce qu'un immigrant doit savoir avant de signer",
+    subtitle: "Assurance du prêteur ou assurance vie temporaire ? La différence peut coûter cher à votre famille.",
+    description: "Guide de l'assurance vie hypothécaire pour immigrants au Canada. Différence avec l'assurance vie temporaire, souscription après le décès, coûts et comment choisir la bonne protection.",
+    category: "Financement",
+    readTime: "8 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["assurance-habitation-immigrant-guide", "hypotheque-timeline-fermeture-immigrant", "frais-caches-achat-maison-immigrant-checklist"],
+  },
 ];
 
 // Helper: get post by slug
