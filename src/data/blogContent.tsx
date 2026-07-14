@@ -2990,4 +2990,101 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  // ====================================================
+  // ARTICLE 50: NAS ET HYPOTHÈQUE
+  // ====================================================
+  "numero-assurance-sociale-nas-hypotheque-immigrant": (
+    <>
+      <p>
+        Avant m&ecirc;me de penser &agrave; une mise de fonds ou &agrave; un taux d&rsquo;int&eacute;r&ecirc;t, tout nouvel arrivant doit r&eacute;gler un d&eacute;tail administratif souvent sous-estim&eacute; : son <strong>num&eacute;ro d&rsquo;assurance sociale (NAS)</strong>. Ce num&eacute;ro &agrave; 9 chiffres conditionne votre capacit&eacute; &agrave; travailler, &agrave; b&acirc;tir un dossier de cr&eacute;dit et, au final, &agrave; obtenir une hypoth&egrave;que. Voici ce qu&rsquo;un immigrant doit savoir avant de d&eacute;poser une demande.
+      </p>
+
+      <h2>Qu&rsquo;est-ce que le NAS et pourquoi votre pr&ecirc;teur en a besoin</h2>
+      <p>
+        Le NAS est un identifiant unique &eacute;mis par <a href="https://www.canada.ca/fr/emploi-developpement-social/services/numero-assurance-sociale.html" target="_blank" rel="noopener noreferrer">Service Canada</a>, utilis&eacute; pour travailler l&eacute;galement, produire vos d&eacute;clarations de revenus et acc&eacute;der aux programmes gouvernementaux. Pour une demande d&rsquo;hypoth&egrave;que, il sert &agrave; trois choses pr&eacute;cises&nbsp;:
+      </p>
+      <ul>
+        <li><strong>Rattacher votre historique de cr&eacute;dit</strong> &mdash; Equifax et TransUnion utilisent le NAS pour cr&eacute;er et faire correspondre votre dossier de cr&eacute;dit canadien.</li>
+        <li><strong>V&eacute;rifier vos revenus</strong> &mdash; votre employeur d&eacute;clare vos gains &agrave; l&rsquo;Agence du revenu du Canada (ARC) sous votre NAS, ce qui g&eacute;n&egrave;re vos relev&eacute;s T4 et votre avis de cotisation (NOA), documents exig&eacute;s par tous les pr&ecirc;teurs.</li>
+        <li><strong>Confirmer votre statut l&eacute;gal de travail</strong> &mdash; un NAS valide prouve que vous &ecirc;tes autoris&eacute; &agrave; travailler au Canada, une condition de base pour tout dossier hypoth&eacute;caire.</li>
+      </ul>
+      <p>
+        Sans NAS, impossible d&rsquo;&ecirc;tre pay&eacute; l&eacute;galement, donc impossible de b&acirc;tir le revenu et le cr&eacute;dit qu&rsquo;un pr&ecirc;teur exige. C&rsquo;est souvent la toute premi&egrave;re &eacute;tape &agrave; r&eacute;gler &agrave; votre arriv&eacute;e, avant m&ecirc;me d&rsquo;ouvrir un compte bancaire.
+      </p>
+
+      <WizardCta />
+
+      <h2>NAS temporaire (commen&ccedil;ant par 9) vs NAS permanent</h2>
+      <p>
+        Tous les NAS ne se valent pas aux yeux d&rsquo;un pr&ecirc;teur. Il existe deux types, et la diff&eacute;rence a un impact direct sur votre dossier&nbsp;:
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Type de NAS</th>
+            <th>Qui le re&ccedil;oit</th>
+            <th>Date d&rsquo;expiration</th>
+            <th>Impact hypoth&eacute;caire</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>NAS temporaire (commence par 9)</strong></td>
+            <td>Travailleurs temporaires, &eacute;tudiants avec permis de travail</td>
+            <td>M&ecirc;me date que votre permis de travail ou d&rsquo;&eacute;tudes</td>
+            <td>Le pr&ecirc;teur peut exiger une preuve de renouvellement si l&rsquo;expiration approche</td>
+          </tr>
+          <tr>
+            <td><strong>NAS permanent</strong></td>
+            <td>Citoyens, r&eacute;sidents permanents, personnes prot&eacute;g&eacute;es</td>
+            <td>Aucune (permanent)</td>
+            <td>Aucune restriction li&eacute;e au statut</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Si votre num&eacute;ro commence par le chiffre <strong>9</strong>, vous d&eacute;tenez un statut temporaire. Ce n&rsquo;est pas un obstacle en soi &mdash; c&rsquo;est le sc&eacute;nario standard pour un <InternalLink slug="hypotheque-travailleur-temporaire-5pourcent">travailleur temporaire admissible &agrave; une hypoth&egrave;que avec 5&nbsp;% de mise de fonds</InternalLink> &mdash; mais le pr&ecirc;teur va syst&eacute;matiquement v&eacute;rifier la date d&rsquo;expiration inscrite sur votre carte ou votre lettre de confirmation.
+      </p>
+
+      <h2>Comment obtenir votre NAS rapidement</h2>
+      <p>
+        La demande est gratuite et se fait aupr&egrave;s de Service Canada, en personne, par la poste ou en ligne selon votre statut. Pr&eacute;voyez les documents suivants&nbsp;:
+      </p>
+      <ul>
+        <li><strong>Passeport valide</strong></li>
+        <li><strong>Permis de travail ou d&rsquo;&eacute;tudes</strong> (ou confirmation de r&eacute;sidence permanente pour les nouveaux RP)</li>
+        <li><strong>Preuve d&rsquo;adresse au Canada</strong> dans certains cas</li>
+      </ul>
+      <p>
+        En personne dans un Centre Service Canada, la carte n&rsquo;est plus &eacute;mise physiquement&nbsp;: vous recevez une <strong>confirmation officielle</strong> le jour m&ecirc;me, suffisante pour ouvrir un compte bancaire ou commencer un emploi. Faites cette d&eacute;marche d&egrave;s votre arriv&eacute;e &mdash; c&rsquo;est un pr&eacute;alable &agrave; toute la suite de votre parcours&nbsp;: compte bancaire, premier emploi, puis <InternalLink slug="construire-credit-canadien-6-mois-immigrant">construction de votre cr&eacute;dit canadien</InternalLink>.
+      </p>
+
+      <h2>Que se passe-t-il si votre NAS expire avant la fin de votre pr&ecirc;t</h2>
+      <p>
+        Un NAS temporaire qui expire ne veut pas dire qu&rsquo;il faut renoncer &agrave; l&rsquo;hypoth&egrave;que &mdash; mais le pr&ecirc;teur va vouloir s&rsquo;assurer que vous pourrez continuer &agrave; g&eacute;n&eacute;rer un revenu pendant toute la dur&eacute;e du terme. En pratique&nbsp;:
+      </p>
+      <ul>
+        <li><strong>Permis en voie de renouvellement</strong> &mdash; une lettre de votre employeur confirmant une prolongation pr&eacute;vue, ou une preuve de demande de renouvellement d&eacute;pos&eacute;e aupr&egrave;s d&rsquo;IRCC, rassure la plupart des pr&ecirc;teurs.</li>
+        <li><strong>Demande de r&eacute;sidence permanente en cours</strong> &mdash; mentionnez-le &agrave; votre courtier&nbsp;: certains programmes, dont l&rsquo;assurance SCHL Nouveaux Arrivants, tiennent compte de cette transition.</li>
+        <li><strong>Aucune obligation de NAS permanent</strong> &mdash; contrairement &agrave; une id&eacute;e re&ccedil;ue, vous n&rsquo;avez pas besoin d&rsquo;&ecirc;tre r&eacute;sident permanent pour obtenir une hypoth&egrave;que. Le NAS temporaire suffit tant que le reste du dossier (revenu, cr&eacute;dit, mise de fonds) est solide.</li>
+      </ul>
+      <p>
+        Pour bien comprendre l&rsquo;ensemble du processus, consultez notre guide sur la <InternalLink slug="preapprobation-hypotheque-immigrant">pr&eacute;approbation hypoth&eacute;caire pour immigrants</InternalLink>.
+      </p>
+
+      <h2>Erreurs fr&eacute;quentes &agrave; &eacute;viter avec votre NAS</h2>
+      <ul>
+        <li><strong>Attendre pour en faire la demande</strong> &mdash; sans NAS, aucun revenu d&eacute;clar&eacute;, donc aucun historique &agrave; pr&eacute;senter au pr&ecirc;teur des mois plus tard.</li>
+        <li><strong>Le partager inutilement</strong> &mdash; ne le communiquez qu&rsquo;&agrave; votre employeur, votre institution financi&egrave;re, l&rsquo;ARC et votre courtier hypoth&eacute;caire. C&rsquo;est une cible de choix pour la fraude d&rsquo;identit&eacute;.</li>
+        <li><strong>Oublier de le renouveler avec votre permis</strong> &mdash; si votre permis de travail est prolong&eacute;, votre NAS temporaire doit &ecirc;tre mis &agrave; jour aupr&egrave;s de Service Canada avec la nouvelle date d&rsquo;expiration.</li>
+        <li><strong>Croire qu&rsquo;un NAS temporaire bloque l&rsquo;acc&egrave;s au cr&eacute;dit</strong> &mdash; il permet tout aussi bien d&rsquo;ouvrir une carte s&eacute;curis&eacute;e et de b&acirc;tir un dossier, comme expliqu&eacute; dans notre guide <InternalLink slug="hypotheque-sans-historique-credit">hypoth&egrave;que sans historique de cr&eacute;dit</InternalLink>.</li>
+      </ul>
+      <p>
+        Source officielle&nbsp;: <a href="https://www.canada.ca/fr/emploi-developpement-social/services/numero-assurance-sociale/demande.html" target="_blank" rel="noopener noreferrer">Canada.ca &mdash; Demander un num&eacute;ro d&rsquo;assurance sociale</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };

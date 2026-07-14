@@ -548,6 +548,17 @@ export const blogPosts: BlogPost[] = [
     wizardVariant: undefined,
     relatedSlugs: ["interdiction-achat-non-canadien-exemptions-2027", "hypotheque-taxe-acheteur-etranger-exemption", "hypotheque-refugie-personne-protegee-canada"],
   },
+  // ====== ARTICLE #50 — NAS ET HYPOTHÈQUE ======
+  {
+    slug: "numero-assurance-sociale-nas-hypotheque-immigrant",
+    title: "Numéro d'Assurance Sociale (NAS) et Hypothèque : Ce Qu'un Immigrant Doit Savoir",
+    subtitle: "NAS temporaire commençant par 9, date d'expiration liée à votre permis : comment cela influence votre dossier hypothécaire.",
+    description: "Guide du numéro d'assurance sociale (NAS) pour immigrants au Canada. Différence entre NAS temporaire et permanent, comment l'obtenir rapidement et son impact sur votre demande d'hypothèque.",
+    category: "Processus",
+    readTime: "8 min",
+    wizardVariant: "travailleur-temporaire",
+    relatedSlugs: ["hypotheque-sans-historique-credit", "preapprobation-hypotheque-immigrant", "construire-credit-canadien-6-mois-immigrant"],
+  },
 ];
 
 // Helper: get post by slug
