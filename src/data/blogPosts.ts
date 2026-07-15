@@ -559,6 +559,17 @@ export const blogPosts: BlogPost[] = [
     wizardVariant: "travailleur-temporaire",
     relatedSlugs: ["hypotheque-sans-historique-credit", "preapprobation-hypotheque-immigrant", "construire-credit-canadien-6-mois-immigrant"],
   },
+  // ====== ARTICLE #51 — NOUVELLE-ÉCOSSE ET PROGRAMME ATLANTIQUE ======
+  {
+    slug: "hypotheque-nouvelle-ecosse-immigrants-halifax",
+    title: "Hypothèque Nouvelle-Écosse Immigrants : Guide Halifax et Programme d'Immigration Atlantique",
+    subtitle: "Marché parmi les plus abordables du Canada, voie rapide vers la RP via l'AIP : ce qu'un immigrant doit savoir avant d'acheter en Nouvelle-Écosse.",
+    description: "Guide hypothèque pour immigrants en Nouvelle-Écosse. Marché Halifax, Programme d'immigration atlantique (AIP), taxe de transfert pour non-résidents, aide aux premiers acheteurs.",
+    category: "Province",
+    readTime: "9 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-manitoba-immigrants-winnipeg", "hypotheque-alberta-immigrants-calgary-edmonton", "hypotheque-bc-immigrants-vancouver-victoria"],
+  },
 ];
 
 // Helper: get post by slug

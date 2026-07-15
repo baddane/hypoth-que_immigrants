@@ -3087,4 +3087,86 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  // ====================================================
+  // ARTICLE 51: NOUVELLE-ÉCOSSE ET PROGRAMME ATLANTIQUE
+  // ====================================================
+  "hypotheque-nouvelle-ecosse-immigrants-halifax": (
+    <>
+      <p>
+        La Nouvelle-&Eacute;cosse mise activement sur l&rsquo;immigration pour combler ses p&eacute;nuries de main-d&rsquo;&oelig;uvre, et son march&eacute; immobilier reste parmi les plus abordables des grandes r&eacute;gions urbaines canadiennes. Combin&eacute;e au <strong>Programme d&rsquo;immigration atlantique (AIP)</strong>, la province offre une voie concr&egrave;te vers la propri&eacute;t&eacute; pour les nouveaux arrivants. Voici ce qu&rsquo;il faut savoir avant d&rsquo;acheter &agrave; Halifax ou ailleurs en Nouvelle-&Eacute;cosse.
+      </p>
+
+      <h2>Un march&eacute; parmi les plus abordables du Canada</h2>
+      <p>
+        Selon les donn&eacute;es de l&rsquo;<a href="https://creastats.crea.ca/board/nsar" target="_blank" rel="noopener noreferrer">Association des courtiers immobiliers de la Nouvelle-&Eacute;cosse (NSAR)</a>, le prix de r&eacute;f&eacute;rence (benchmark) provincial s&rsquo;&eacute;tablissait &agrave; environ <strong>431 700 $</strong> en juin 2026, bien en de&ccedil;&agrave; de la moyenne nationale qui d&eacute;passe 660 000 $.
+      </p>
+      <ul>
+        <li><strong>Halifax :</strong> prix de r&eacute;f&eacute;rence autour de <strong>561 000 $</strong>, prix moyen pr&egrave;s de 600 000 $ &mdash; la ville la plus ch&egrave;re de la province, mais encore tr&egrave;s comp&eacute;titive face &agrave; Toronto ou Vancouver.</li>
+        <li><strong>Reste de la province</strong> (Cape Breton, Truro, Kentville, Yarmouth) : souvent 30 % &agrave; 50 % moins cher qu&rsquo;&agrave; Halifax.</li>
+        <li><strong>Avec 5 % de mise de fonds :</strong> environ 28 000 $ pour une propri&eacute;t&eacute; &agrave; 561 000 $ &agrave; Halifax, nettement moins dans les autres r&eacute;gions.</li>
+      </ul>
+      <p>
+        Le march&eacute; est jug&eacute; &laquo;&nbsp;&eacute;quilibr&eacute;&nbsp;&raquo; par la NSAR, avec plusieurs semaines d&rsquo;inventaire disponible &mdash; un contexte plus favorable aux acheteurs que dans les grands centres ontariens ou britanno-colombiens.
+      </p>
+
+      <WizardCta />
+
+      <h2>Le Programme d&rsquo;immigration atlantique (AIP) : un dossier hypoth&eacute;caire renforc&eacute;</h2>
+      <p>
+        Le <a href="https://www.canada.ca/fr/immigration-refugies-citoyennete/services/immigrer-canada/programme-immigration-atlantique.html" target="_blank" rel="noopener noreferrer">Programme d&rsquo;immigration atlantique</a> est une voie f&eacute;d&eacute;rale men&eacute;e par les employeurs, offerte en Nouvelle-&Eacute;cosse, au Nouveau-Brunswick, &agrave; l&rsquo;&Icirc;le-du-Prince-&Eacute;douard et &agrave; Terre-Neuve-et-Labrador. Contrairement &agrave; Entr&eacute;e express, l&rsquo;AIP <strong>n&rsquo;exige aucun score CRS minimal</strong> : une offre d&rsquo;emploi valide d&rsquo;un employeur d&eacute;sign&eacute; suffit &agrave; entamer le processus.
+      </p>
+      <ul>
+        <li><strong>Emploi &agrave; temps plein</strong> (30 heures et plus par semaine), non saisonnier, chez un employeur d&eacute;sign&eacute;.</li>
+        <li><strong>Exp&eacute;rience requise :</strong> 1&nbsp;560 heures de travail (l&rsquo;&eacute;quivalent d&rsquo;un an &agrave; temps plein) au cours des 5 derni&egrave;res ann&eacute;es &mdash; aucune exp&eacute;rience requise pour les dipl&ocirc;m&eacute;s r&eacute;cents d&rsquo;un &eacute;tablissement atlantique avec une offre d&rsquo;emploi.</li>
+        <li><strong>Plan d&rsquo;&eacute;tablissement</strong> obligatoire, compl&eacute;t&eacute; avec un fournisseur de services d&rsquo;&eacute;tablissement d&eacute;sign&eacute;.</li>
+      </ul>
+      <p>
+        Pour votre dossier hypoth&eacute;caire, l&rsquo;AIP a un avantage concret&nbsp;: une nomination provinciale et une demande de r&eacute;sidence permanente en cours rassurent les pr&ecirc;teurs sur la stabilit&eacute; de votre statut, m&ecirc;me si vous &ecirc;tes encore <InternalLink slug="hypotheque-permis-travail-ouvert">d&eacute;tenteur d&rsquo;un permis de travail temporaire</InternalLink>. Plusieurs candidats AIP peuvent aussi commencer leur demande de r&eacute;sidence permanente sans quitter le Canada, ce qui simplifie la continuit&eacute; du dossier de cr&eacute;dit et de revenu.
+      </p>
+
+      <h2>Taxe de transfert de propri&eacute;t&eacute; : attention au statut de non-r&eacute;sident</h2>
+      <p>
+        La <strong>taxe municipale de transfert de propri&eacute;t&eacute; (Deed Transfer Tax)</strong> varie selon la municipalit&eacute;, avec un plafond provincial de 1,5 %. &Agrave; Halifax, le taux est de <strong>1,5 %</strong>; certaines municipalit&eacute;s rurales appliquent des taux plus bas, parfois 1,0 %.
+      </p>
+      <p>
+        Un point crucial pour les nouveaux arrivants&nbsp;: depuis avril 2025, la Nouvelle-&Eacute;cosse impose une <strong>taxe provinciale de transfert pour non-r&eacute;sidents de 10 %</strong> de la valeur de la propri&eacute;t&eacute; (ou de son &eacute;valuation municipale, selon le montant le plus &eacute;lev&eacute;), en plus de la taxe municipale. Cette taxe vise avant tout les investisseurs &eacute;trangers &mdash; mais elle pourrait techniquement s&rsquo;appliquer &agrave; un acheteur qui n&rsquo;est pas encore r&eacute;sident de la province au moment de l&rsquo;achat.
+      </p>
+      <ul>
+        <li><strong>Exemption cl&eacute; :</strong> si vous d&eacute;m&eacute;nagez en Nouvelle-&Eacute;cosse dans les <strong>6 mois</strong> suivant la cl&ocirc;ture et pouvez le prouver, la taxe de non-r&eacute;sident ne s&rsquo;applique pas.</li>
+        <li><strong>Documentez votre transition :</strong> permis de conduire, bail, factures de services publics &mdash; tout ce qui &eacute;tablit votre nouvelle r&eacute;sidence doit &ecirc;tre conserv&eacute; pour votre notaire ou avocat.</li>
+        <li>V&eacute;rifiez aussi si vous &ecirc;tes concern&eacute; par l&rsquo;<InternalLink slug="revision-interdiction-achat-non-canadien-2027-nouvelles-regles">interdiction f&eacute;d&eacute;rale d&rsquo;achat pour non-Canadiens</InternalLink>, un r&eacute;gime distinct de la taxe provinciale.</li>
+      </ul>
+      <p>
+        Consultez la page officielle de <a href="https://www.novascotia.ca/non-resident-provincial-deed-transfer-tax" target="_blank" rel="noopener noreferrer">Service Nova Scotia sur la taxe de transfert pour non-r&eacute;sidents</a> avant de signer une offre d&rsquo;achat.
+      </p>
+
+      <WizardCta />
+
+      <h2>Aide aux premiers acheteurs en Nouvelle-&Eacute;cosse</h2>
+      <p>
+        La province offre deux programmes cibl&eacute;s, mais avec des conditions d&rsquo;admissibilit&eacute; &agrave; v&eacute;rifier attentivement selon votre statut&nbsp;:
+      </p>
+      <ul>
+        <li><strong>Remise pour premiers acheteurs :</strong> 18,75 % de la portion provinciale de la TVH, jusqu&rsquo;&agrave; 3&nbsp;000 $, r&eacute;serv&eacute;e aux <strong>constructions neuves</strong> (les reventes en sont exclues).</li>
+        <li><strong>Programme d&rsquo;aide &agrave; la mise de fonds (DPAP) :</strong> pr&ecirc;t sans int&eacute;r&ecirc;t pouvant atteindre 5 % du prix d&rsquo;achat (max. 25&nbsp;000 $), remboursable sur 10 ans. Exige un pointage de cr&eacute;dit de 650+, un revenu m&eacute;nage sous 145&nbsp;000 $, et surtout&nbsp;: <strong>la citoyennet&eacute; canadienne ou le statut de r&eacute;sident permanent</strong> &mdash; les travailleurs temporaires n&rsquo;y sont pas admissibles.</li>
+      </ul>
+      <p>
+        Si vous &ecirc;tes encore en attente de votre RP via l&rsquo;AIP, concentrez-vous plut&ocirc;t sur les programmes f&eacute;d&eacute;raux accessibles aux immigrants temporaires, comme le <InternalLink slug="programme-schl-nouveaux-arrivants-guide-complet">programme SCHL Nouveaux Arrivants</InternalLink> pour l&rsquo;assurance pr&ecirc;t hypoth&eacute;caire.
+      </p>
+
+      <h2>&Agrave; retenir avant d&rsquo;acheter en Nouvelle-&Eacute;cosse</h2>
+      <ul>
+        <li><strong>Confirmez votre statut de r&eacute;sident</strong> avant la cl&ocirc;ture pour &eacute;viter la taxe de 10 % sur les non-r&eacute;sidents, ou pr&eacute;parez la preuve de d&eacute;m&eacute;nagement dans les 6 mois.</li>
+        <li><strong>Comparez Halifax et les r&eacute;gions rurales</strong> &mdash; l&rsquo;&eacute;cart de prix est important et certaines municipalit&eacute;s ont des taxes de transfert plus basses.</li>
+        <li><strong>Utilisez votre nomination AIP</strong> comme signal de stabilit&eacute; aupr&egrave;s de votre courtier, m&ecirc;me avant l&rsquo;obtention de la RP.</li>
+        <li><strong>V&eacute;rifiez votre admissibilit&eacute;</strong> aux programmes provinciaux d&rsquo;aide, plusieurs &eacute;tant r&eacute;serv&eacute;s aux citoyens et r&eacute;sidents permanents.</li>
+      </ul>
+      <p>
+        Comparez aussi avec le <InternalLink slug="hypotheque-manitoba-immigrants-winnipeg">Manitoba</InternalLink> et l&rsquo;<InternalLink slug="hypotheque-alberta-immigrants-calgary-edmonton">Alberta</InternalLink>, deux autres provinces r&eacute;put&eacute;es abordables pour les nouveaux arrivants, ou commencez par une <InternalLink slug="preapprobation-hypotheque-immigrant">pr&eacute;approbation hypoth&eacute;caire</InternalLink> pour conna&icirc;tre votre budget exact.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };
