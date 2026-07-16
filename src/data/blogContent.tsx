@@ -3087,4 +3087,95 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  "hypotheque-nouveau-resident-permanent-guide-complet": (
+    <>
+      <p>
+        Recevoir sa confirmation de r&eacute;sidence permanente est une &eacute;tape majeure &mdash; mais contrairement &agrave; une id&eacute;e r&eacute;pandue, elle ne <strong>d&eacute;bloque pas</strong> l&rsquo;acc&egrave;s &agrave; l&rsquo;hypoth&egrave;que&nbsp;: la plupart des travailleurs temporaires et &eacute;tudiants y ont d&eacute;j&agrave; acc&egrave;s avec 5&nbsp;% de mise de fonds. Ce qui change vraiment avec le statut RP est plus subtil, et souvent mal expliqu&eacute; par les conseillers bancaires press&eacute;s. Voici ce qu&rsquo;un nouveau r&eacute;sident permanent doit r&eacute;ellement savoir avant de d&eacute;poser une demande.
+      </p>
+
+      <h2>Ce qui change concr&egrave;tement quand vous devenez RP</h2>
+      <p>
+        Le statut de r&eacute;sident permanent retire certaines restrictions et ouvre l&rsquo;acc&egrave;s complet &agrave; quelques programmes, sans pour autant garantir l&rsquo;approbation &mdash; le pr&ecirc;teur &eacute;value toujours votre revenu, votre cr&eacute;dit et votre mise de fonds en priorit&eacute;.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Aspect du dossier</th>
+            <th>Permis temporaire</th>
+            <th>Nouveau r&eacute;sident permanent</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Loi sur l&rsquo;interdiction d&rsquo;achat pour non-Canadiens</strong></td>
+            <td>Exempt&eacute; si permis de travail valide 183&nbsp;jours+</td>
+            <td>Enti&egrave;rement exempt&eacute;, aucune condition &agrave; v&eacute;rifier</td>
+          </tr>
+          <tr>
+            <td><strong>Mise de fonds minimale</strong></td>
+            <td>5&nbsp;% (propri&eacute;t&eacute; occup&eacute;e, &le;&nbsp;500&nbsp;000&nbsp;$)</td>
+            <td>Identique &mdash; 5&nbsp;% comme tout citoyen canadien</td>
+          </tr>
+          <tr>
+            <td><strong>Programme SCHL Nouveaux Arrivants</strong></td>
+            <td>Admissible avec permis valide</td>
+            <td>Admissible pendant les 5 premi&egrave;res ann&eacute;es de RP seulement</td>
+          </tr>
+          <tr>
+            <td><strong>Risque li&eacute; &agrave; l&rsquo;expiration du statut</strong></td>
+            <td>Le pr&ecirc;teur peut demander une preuve de renouvellement</td>
+            <td>Aucun &mdash; le statut RP n&rsquo;expire pas</td>
+          </tr>
+          <tr>
+            <td><strong>Historique de cr&eacute;dit et revenu exig&eacute;s</strong></td>
+            <td>M&ecirc;mes crit&egrave;res que RP</td>
+            <td>M&ecirc;mes crit&egrave;res que permis temporaire</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        En clair&nbsp;: le principal gain du statut RP est la <strong>stabilit&eacute; administrative</strong>, pas un acc&egrave;s suppl&eacute;mentaire au cr&eacute;dit. Un dossier faible avec RP reste un dossier faible &mdash; et un bon dossier de travailleur temporaire passe souvent plus facilement qu&rsquo;un RP avec peu d&rsquo;historique.
+      </p>
+
+      <WizardCta />
+
+      <h2>Quel document prouve votre statut &mdash; et faut-il attendre la carte RP</h2>
+      <p>
+        Contrairement &agrave; une croyance fr&eacute;quente, vous n&rsquo;avez <strong>pas besoin d&rsquo;attendre votre carte de r&eacute;sident permanent physique</strong> pour d&eacute;poser une demande d&rsquo;hypoth&egrave;que. Le pr&ecirc;teur accepte g&eacute;n&eacute;ralement l&rsquo;un des documents suivants&nbsp;:
+      </p>
+      <ul>
+        <li><strong>Confirmation de r&eacute;sidence permanente (CRP)</strong> &mdash; le document remis &agrave; votre entr&eacute;e ou &agrave; l&rsquo;approbation, accept&eacute; par la plupart des pr&ecirc;teurs d&egrave;s le premier jour.</li>
+        <li><strong>Carte RP</strong> &mdash; si vous l&rsquo;avez d&eacute;j&agrave; re&ccedil;ue, elle simplifie la v&eacute;rification mais n&rsquo;est pas obligatoire.</li>
+        <li><strong>Lettre de confirmation d&rsquo;IRCC</strong> &mdash; utile si votre carte est en traitement depuis plusieurs mois.</li>
+      </ul>
+      <p>
+        La v&eacute;ritable limite n&rsquo;est donc pas administrative, mais financi&egrave;re&nbsp;: il faut avoir accumul&eacute; assez de revenu d&eacute;clar&eacute; et, id&eacute;alement, un d&eacute;but d&rsquo;historique de cr&eacute;dit canadien. C&rsquo;est pourquoi de nombreux nouveaux RP qui &eacute;taient d&eacute;j&agrave; travailleurs temporaires au Canada ach&egrave;tent en fait <em>avant</em> de recevoir leur statut, sur la base de leur historique existant.
+      </p>
+
+      <h2>La fen&ecirc;tre de 5 ans du programme SCHL Nouveaux Arrivants</h2>
+      <p>
+        C&rsquo;est le point le plus mal compris&nbsp;: le <InternalLink slug="programme-schl-nouveaux-arrivants-guide-complet">programme SCHL Nouveaux Arrivants</InternalLink>, qui permet d&rsquo;acheter avec 5&nbsp;% de mise de fonds sans historique de cr&eacute;dit canadien &eacute;tabli, n&rsquo;est disponible aux r&eacute;sidents permanents que pendant les <strong>5&nbsp;premi&egrave;res ann&eacute;es</strong> suivant l&rsquo;obtention du statut. Pass&eacute; ce d&eacute;lai, vous basculez automatiquement dans le programme standard, qui exige un dossier de cr&eacute;dit canadien complet.
+      </p>
+      <p>
+        Cons&eacute;quence pratique&nbsp;: si vous &ecirc;tes RP depuis plusieurs ann&eacute;es mais que vous n&rsquo;avez jamais b&acirc;ti de cr&eacute;dit canadien (par exemple si vous avez surtout viv&eacute; de revenus &eacute;trangers), il est pr&eacute;f&eacute;rable de commencer votre dossier <strong>avant la fin de la 5e ann&eacute;e</strong>. Consultez notre guide pour <InternalLink slug="construire-credit-canadien-6-mois-immigrant">construire un dossier de cr&eacute;dit canadien en 6 mois</InternalLink> si vous approchez de cette limite.
+      </p>
+
+      <h2>Erreurs fr&eacute;quentes des nouveaux r&eacute;sidents permanents</h2>
+      <ul>
+        <li><strong>Attendre la carte RP physique avant de commencer</strong> &mdash; la confirmation de r&eacute;sidence permanente suffit pour d&eacute;marrer une pr&eacute;approbation.</li>
+        <li><strong>Croire que le RP am&eacute;liore automatiquement le score de cr&eacute;dit</strong> &mdash; le statut n&rsquo;a aucun effet sur Equifax ou TransUnion&nbsp;; seul votre comportement de paiement au Canada compte.</li>
+        <li><strong>Rater la fen&ecirc;tre de 5 ans</strong> &mdash; sans cr&eacute;dit canadien &eacute;tabli au moment o&ugrave; elle se termine, vous perdez l&rsquo;acc&egrave;s au programme Nouveaux Arrivants et devez qualifier selon les crit&egrave;res standards, plus stricts.</li>
+        <li><strong>Oublier de mettre &agrave; jour son statut aupr&egrave;s du pr&ecirc;teur</strong> &mdash; si vous &eacute;tiez d&eacute;j&agrave; en processus d&rsquo;approbation comme travailleur temporaire, informez votre courtier d&egrave;s que votre CRP est &eacute;mise&nbsp;: certains prix ou conditions peuvent s&rsquo;am&eacute;liorer.</li>
+      </ul>
+      <p>
+        Pour la suite du processus une fois votre statut confirm&eacute;, consultez notre guide sur la <InternalLink slug="preapprobation-hypotheque-immigrant">pr&eacute;approbation hypoth&eacute;caire pour immigrants</InternalLink>.
+      </p>
+      <p>
+        Sources officielles&nbsp;: <a href="https://www.canada.ca/fr/immigration-refugies-citoyennete/services/nouveau-venu-canada/apres-arrivee-canada/carte-rp.html" target="_blank" rel="noopener noreferrer">IRCC &mdash; Carte de r&eacute;sident permanent</a> et <a href="https://www.cmhc-schl.gc.ca/professionals/industry-innovation-and-leadership/industry-expertise/resources-for-mortgage-professionals/housing-for-newcomers" target="_blank" rel="noopener noreferrer">SCHL &mdash; Logement pour les nouveaux arrivants</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };

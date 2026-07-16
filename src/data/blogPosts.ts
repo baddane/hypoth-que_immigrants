@@ -299,7 +299,7 @@ export const blogPosts: BlogPost[] = [
     category: "Légal",
     readTime: "9 min",
     wizardVariant: undefined,
-    relatedSlugs: ["hypotheque-taxe-acheteur-etranger-exemption", "hypotheque-permis-travail-ouvert", "hypotheque-etudiant-permis-postdiplome"],
+    relatedSlugs: ["hypotheque-taxe-acheteur-etranger-exemption", "hypotheque-permis-travail-ouvert", "hypotheque-etudiant-permis-postdiplome", "hypotheque-nouveau-resident-permanent-guide-complet"],
   },
   // ====== ARTICLE #25 — FRAIS CACHÉS ======
   {
@@ -430,7 +430,7 @@ export const blogPosts: BlogPost[] = [
     category: "Financement",
     readTime: "11 min",
     wizardVariant: "travailleur-temporaire",
-    relatedSlugs: ["assurance-hypothecaire-schl-primes-guide-2026", "hypotheque-travailleur-temporaire-5pourcent", "hypotheque-sans-historique-credit"],
+    relatedSlugs: ["assurance-hypothecaire-schl-primes-guide-2026", "hypotheque-travailleur-temporaire-5pourcent", "hypotheque-sans-historique-credit", "hypotheque-nouveau-resident-permanent-guide-complet"],
   },
   // ====== ARTICLE #39 — RAPPORT DE CRÉDIT ======
   {
@@ -558,6 +558,17 @@ export const blogPosts: BlogPost[] = [
     readTime: "8 min",
     wizardVariant: "travailleur-temporaire",
     relatedSlugs: ["hypotheque-sans-historique-credit", "preapprobation-hypotheque-immigrant", "construire-credit-canadien-6-mois-immigrant"],
+  },
+  // ====== ARTICLE #51 — HYPOTHÈQUE NOUVEAU RÉSIDENT PERMANENT ======
+  {
+    slug: "hypotheque-nouveau-resident-permanent-guide-complet",
+    title: "Hypothèque pour Nouveau Résident Permanent : Ce Qui Change Vraiment",
+    subtitle: "Vous venez d'obtenir votre RP ? Voici les vraies différences avec le statut temporaire, et ce qui ne change pas.",
+    description: "Guide complet de l'hypothèque pour les résidents permanents récents au Canada. Différences avec le permis de travail temporaire, programme SCHL Nouveaux Arrivants, documents requis et fenêtre de 5 ans à connaître.",
+    category: "Statut Immigration",
+    readTime: "9 min",
+    wizardVariant: "resident-permanent",
+    relatedSlugs: ["programme-schl-nouveaux-arrivants-guide-complet", "interdiction-achat-non-canadien-exemptions-2027", "hypotheque-travailleur-temporaire-5pourcent"],
   },
 ];
 
