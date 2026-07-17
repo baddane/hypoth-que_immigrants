@@ -3178,4 +3178,123 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  // ====================================================
+  // ARTICLE 52: PROVINCES DE L'ATLANTIQUE
+  // ====================================================
+  "hypotheque-provinces-atlantique-immigrants-nouvelle-ecosse-nouveau-brunswick": (
+    <>
+      <p>
+        Pendant que Toronto et Vancouver restent hors de port&eacute;e pour beaucoup de nouveaux arrivants, les quatre
+        provinces de l&rsquo;Atlantique &mdash; Nouvelle-&Eacute;cosse, Nouveau-Brunswick, &Icirc;le-du-Prince-&Eacute;douard
+        et Terre-Neuve-et-Labrador &mdash; mettent activement en place des programmes pour attirer et retenir les
+        immigrants, avec des prix immobiliers parmi les plus bas du pays.
+      </p>
+
+      <h2>Un march&eacute; immobilier nettement plus abordable</h2>
+      <p>
+        Les grandes villes de l&rsquo;Atlantique restent bien en dessous des prix m&eacute;dians de l&rsquo;Ontario ou de
+        la Colombie-Britannique, ce qui r&eacute;duit consid&eacute;rablement la mise de fonds n&eacute;cessaire pour un
+        premier achat.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Ville</th>
+            <th>Province</th>
+            <th>Prix m&eacute;dian approximatif</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Halifax</td><td>Nouvelle-&Eacute;cosse</td><td>~480&nbsp;000&nbsp;$</td></tr>
+          <tr><td>Moncton</td><td>Nouveau-Brunswick</td><td>~330&nbsp;000&nbsp;$</td></tr>
+          <tr><td>Saint John</td><td>Nouveau-Brunswick</td><td>~280&nbsp;000&nbsp;$</td></tr>
+          <tr><td>Charlottetown</td><td>&Icirc;le-du-Prince-&Eacute;douard</td><td>~370&nbsp;000&nbsp;$</td></tr>
+          <tr><td>St. John&rsquo;s</td><td>Terre-Neuve-et-Labrador</td><td>~310&nbsp;000&nbsp;$</td></tr>
+        </tbody>
+      </table>
+      <p>
+        Avec 5&nbsp;% de mise de fonds, une propri&eacute;t&eacute; &agrave; 300&nbsp;000&nbsp;$ &agrave; Moncton ou
+        &agrave; St. John&rsquo;s ne demande que 15&nbsp;000&nbsp;$ &mdash; un &eacute;cart majeur avec les grandes villes
+        du centre du pays. Ces chiffres varient selon le quartier et le type de propri&eacute;t&eacute;&nbsp;; utilisez
+        notre <InternalLink slug="hypotheque-travailleur-temporaire-5pourcent">guide sur la mise de fonds de 5&nbsp;%</InternalLink> pour
+        v&eacute;rifier votre admissibilit&eacute;.
+      </p>
+
+      <WizardCta />
+
+      <h2>Le Programme d&rsquo;immigration atlantique (PIA)</h2>
+      <p>
+        Le <a href="https://www.canada.ca/fr/immigration-refugies-citoyennete/services/immigrer-canada/programme-immigration-atlantique.html" target="_blank" rel="noopener noreferrer">Programme d&rsquo;immigration atlantique</a> est
+        un partenariat entre le gouvernement f&eacute;d&eacute;ral et les quatre provinces de l&rsquo;Atlantique, rendu
+        permanent en 2022. Il permet &agrave; un employeur d&eacute;sign&eacute; d&rsquo;offrir un poste &agrave; un
+        travailleur &eacute;tranger ou &agrave; un dipl&ocirc;m&eacute; international, avec un chemin acc&eacute;l&eacute;r&eacute; vers
+        la r&eacute;sidence permanente.
+      </p>
+      <ul>
+        <li><strong>Travailleur hautement qualifi&eacute; :</strong> Poste de niveau gestion, professionnel ou technique</li>
+        <li><strong>Travailleur interm&eacute;diaire :</strong> M&eacute;tiers, transformation, sant&eacute;, h&ocirc;tellerie</li>
+        <li><strong>Dipl&ocirc;m&eacute; international :</strong> &Eacute;tudes compl&eacute;t&eacute;es dans une des quatre provinces</li>
+      </ul>
+      <p>
+        Un profil admissible au PIA renforce grandement un dossier hypoth&eacute;caire&nbsp;: l&rsquo;emploi est
+        garanti par un employeur d&eacute;sign&eacute; et le chemin vers la RP est plus pr&eacute;visible que dans
+        d&rsquo;autres provinces, ce qui rassure les pr&ecirc;teurs.
+      </p>
+
+      <h2>Programmes provinciaux de candidats (PNP) par province</h2>
+      <ul>
+        <li><strong>Nouvelle-&Eacute;cosse :</strong> Nova Scotia Nominee Program (NSNP), plusieurs volets dont Demande express et Comp&eacute;tences en demande</li>
+        <li><strong>Nouveau-Brunswick :</strong> New Brunswick Provincial Nominee Program, avec un volet Entr&eacute;e express provincial</li>
+        <li><strong>&Icirc;le-du-Prince-&Eacute;douard :</strong> PEI PNP, tr&egrave;s actif pour les petites entreprises et l&rsquo;entrepreneuriat</li>
+        <li><strong>Terre-Neuve-et-Labrador :</strong> NLPNP, cibl&eacute; sur les p&eacute;nuries de main-d&rsquo;&oelig;uvre r&eacute;gionales</li>
+      </ul>
+
+      <WizardCta />
+
+      <h2>Frais et taxes de transfert par province</h2>
+      <p>
+        Contrairement au Qu&eacute;bec ou &agrave; l&rsquo;Ontario, plusieurs provinces de l&rsquo;Atlantique ont des
+        <InternalLink slug="frais-caches-achat-maison-immigrant-checklist"> frais de mutation</InternalLink> nettement
+        plus bas &mdash; voire inexistants.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Province</th>
+            <th>Taxe de transfert</th>
+            <th>Particularit&eacute;</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Nouvelle-&Eacute;cosse</td><td>Jusqu&rsquo;&agrave; 1,5&nbsp;%</td><td>Fix&eacute;e par la municipalit&eacute; (variable selon la ville)</td></tr>
+          <tr><td>Nouveau-Brunswick</td><td>1&nbsp;%</td><td>Sur le plus &eacute;lev&eacute; entre le prix d&rsquo;achat et la valeur &eacute;valu&eacute;e</td></tr>
+          <tr><td>&Icirc;le-du-Prince-&Eacute;douard</td><td>1&nbsp;%</td><td>Exemption pour premiers acheteurs sous 200&nbsp;000&nbsp;$</td></tr>
+          <tr><td>Terre-Neuve-et-Labrador</td><td>Aucune</td><td>Pas de taxe de transfert provinciale</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Pourquoi ces provinces courtisent activement les immigrants</h2>
+      <p>
+        Face au vieillissement de leur population et &agrave; des p&eacute;nuries de main-d&rsquo;&oelig;uvre
+        persistantes en sant&eacute;, construction et transformation alimentaire, les gouvernements provinciaux de
+        l&rsquo;Atlantique financent des programmes d&rsquo;accueil, de reconnaissance des dipl&ocirc;mes &eacute;trangers
+        et d&rsquo;installation qui n&rsquo;existent pas &agrave; la m&ecirc;me &eacute;chelle ailleurs au pays. R&eacute;sultat&nbsp;:
+        des d&eacute;lais de traitement souvent plus courts et un march&eacute; du travail moins satur&eacute; pour les
+        nouveaux arrivants qualifi&eacute;s.
+      </p>
+      <p>
+        Comparez ce march&eacute; avec celui du <InternalLink slug="hypotheque-manitoba-immigrants-winnipeg">Manitoba</InternalLink>,
+        qui offre une abordabilit&eacute; similaire, ou avec l&rsquo;<InternalLink slug="hypotheque-ontario-immigrants-toronto">Ontario</InternalLink> si
+        votre emploi vous ancre plut&ocirc;t dans le centre du pays. Peu importe la province, commencez par
+        une <InternalLink slug="preapprobation-hypotheque-immigrant">pr&eacute;approbation</InternalLink> pour
+        conna&icirc;tre votre budget r&eacute;el avant de magasiner.
+      </p>
+      <p>
+        Sources officielles&nbsp;: <a href="https://www.canada.ca/fr/immigration-refugies-citoyennete/services/immigrer-canada/programme-immigration-atlantique.html" target="_blank" rel="noopener noreferrer">IRCC &mdash; Programme d&rsquo;immigration atlantique</a> et <a href="https://www.cmhc-schl.gc.ca" target="_blank" rel="noopener noreferrer">SCHL &mdash; donn&eacute;es sur le march&eacute; du logement</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };

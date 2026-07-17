@@ -68,7 +68,7 @@ export const blogPosts: BlogPost[] = [
     category: "Province",
     readTime: "10 min",
     wizardVariant: "quebec",
-    relatedSlugs: ["hypotheque-alberta-immigrants-calgary-edmonton", "hypotheque-ontario-immigrants-toronto", "hypotheque-bc-immigrants-vancouver-victoria"],
+    relatedSlugs: ["hypotheque-alberta-immigrants-calgary-edmonton", "hypotheque-ontario-immigrants-toronto", "hypotheque-bc-immigrants-vancouver-victoria", "hypotheque-provinces-atlantique-immigrants-nouvelle-ecosse-nouveau-brunswick"],
   },
   // ====== ARTICLE #6 ======
   {
@@ -112,7 +112,7 @@ export const blogPosts: BlogPost[] = [
     category: "Province",
     readTime: "9 min",
     wizardVariant: undefined,
-    relatedSlugs: ["hypotheque-francophone-quebec", "hypotheque-bc-immigrants-vancouver-victoria", "hypotheque-ontario-immigrants-toronto"],
+    relatedSlugs: ["hypotheque-francophone-quebec", "hypotheque-bc-immigrants-vancouver-victoria", "hypotheque-ontario-immigrants-toronto", "hypotheque-provinces-atlantique-immigrants-nouvelle-ecosse-nouveau-brunswick"],
   },
   // ====== ARTICLE #9B ======
   {
@@ -123,7 +123,7 @@ export const blogPosts: BlogPost[] = [
     category: "Province",
     readTime: "9 min",
     wizardVariant: undefined,
-    relatedSlugs: ["hypotheque-alberta-immigrants-calgary-edmonton", "hypotheque-ontario-immigrants-toronto", "hypotheque-francophone-quebec"],
+    relatedSlugs: ["hypotheque-alberta-immigrants-calgary-edmonton", "hypotheque-ontario-immigrants-toronto", "hypotheque-francophone-quebec", "hypotheque-provinces-atlantique-immigrants-nouvelle-ecosse-nouveau-brunswick"],
   },
   // ====== ARTICLE #9C ======
   {
@@ -134,7 +134,7 @@ export const blogPosts: BlogPost[] = [
     category: "Province",
     readTime: "8 min",
     wizardVariant: undefined,
-    relatedSlugs: ["hypotheque-alberta-immigrants-calgary-edmonton", "hypotheque-francophone-quebec", "hypotheque-ontario-immigrants-toronto"],
+    relatedSlugs: ["hypotheque-alberta-immigrants-calgary-edmonton", "hypotheque-francophone-quebec", "hypotheque-ontario-immigrants-toronto", "hypotheque-provinces-atlantique-immigrants-nouvelle-ecosse-nouveau-brunswick"],
   },
   // ====== ARTICLE #10 ======
   {
@@ -266,7 +266,7 @@ export const blogPosts: BlogPost[] = [
     category: "Province",
     readTime: "10 min",
     wizardVariant: undefined,
-    relatedSlugs: ["hypotheque-francophone-quebec", "hypotheque-bc-immigrants-vancouver-victoria", "hypotheque-alberta-immigrants-calgary-edmonton"],
+    relatedSlugs: ["hypotheque-francophone-quebec", "hypotheque-bc-immigrants-vancouver-victoria", "hypotheque-alberta-immigrants-calgary-edmonton", "hypotheque-provinces-atlantique-immigrants-nouvelle-ecosse-nouveau-brunswick"],
   },
   // ====== ARTICLE BONUS #22 — Taxe acheteur étranger (suggestion) ======
   {
@@ -569,6 +569,17 @@ export const blogPosts: BlogPost[] = [
     readTime: "9 min",
     wizardVariant: "resident-permanent",
     relatedSlugs: ["programme-schl-nouveaux-arrivants-guide-complet", "interdiction-achat-non-canadien-exemptions-2027", "hypotheque-travailleur-temporaire-5pourcent"],
+  },
+  // ====== ARTICLE #52 — PROVINCES DE L'ATLANTIQUE ======
+  {
+    slug: "hypotheque-provinces-atlantique-immigrants-nouvelle-ecosse-nouveau-brunswick",
+    title: "Hypothèque Provinces de l'Atlantique Immigrants : Nouvelle-Écosse, Nouveau-Brunswick et Î.-P.-É.",
+    subtitle: "Les provinces les plus abordables du Canada misent activement sur l'immigration. Voici comment en profiter pour votre hypothèque.",
+    description: "Guide hypothèque pour immigrants dans les provinces de l'Atlantique : Nouvelle-Écosse, Nouveau-Brunswick, Île-du-Prince-Édouard et Terre-Neuve. Programme d'immigration atlantique, prix immobiliers et frais par province.",
+    category: "Province",
+    readTime: "9 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-manitoba-immigrants-winnipeg", "hypotheque-alberta-immigrants-calgary-edmonton", "programme-schl-nouveaux-arrivants-guide-complet", "hypotheque-ontario-immigrants-toronto"],
   },
 ];
 
