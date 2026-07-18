@@ -3178,4 +3178,75 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  // ====================================================
+  // ARTICLE 52: SASKATCHEWAN
+  // ====================================================
+  "hypotheque-saskatchewan-immigrants-regina-saskatoon": (
+    <>
+      <p>
+        La Saskatchewan reste l&apos;une des provinces les moins connues des nouveaux arrivants, alors qu&apos;elle offre
+        certains des <strong>prix immobiliers les plus abordables du Canada</strong> et un programme d&apos;immigration
+        provincial parmi les plus actifs du pays. Pour un dossier hypothécaire d&apos;immigrant, c&apos;est souvent la
+        province où l&apos;accession à la propriété est la plus rapide.
+      </p>
+
+      <h2 className="text-xl font-extrabold text-midnight">Pourquoi la Saskatchewan attire les immigrants</h2>
+      <ul className="space-y-2">
+        <li><strong>Prix médians très abordables :</strong> Regina et Saskatoon oscillent autour de 350 000$ à 420 000$ — bien en dessous de la moyenne nationale</li>
+        <li><strong>Programme d&apos;immigration provincial (SINP) :</strong> Le <a href="https://www.saskatchewan.ca/residents/moving-to-saskatchewan/live-in-saskatchewan/saskatchewan-immigrant-nominee-program" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline">Saskatchewan Immigrant Nominee Program</a> nomine plus de candidats chaque année que la plupart des autres provinces, avec une voie accélérée vers la résidence permanente</li>
+        <li><strong>Économie diversifiée :</strong> Agriculture, potasse et ressources naturelles, santé, technologie à Saskatoon</li>
+        <li><strong>Pénurie de main-d&apos;œuvre :</strong> De nombreux employeurs recrutent activement à l&apos;international, ce qui facilite l&apos;obtention d&apos;un permis de travail</li>
+      </ul>
+
+      <WizardCta />
+
+      <h2 className="text-xl font-extrabold text-midnight">Marché immobilier : Regina et Saskatoon</h2>
+      <p>
+        Contrairement aux grands centres comme Toronto ou Vancouver, la Saskatchewan permet à un ménage avec un revenu
+        modeste de se qualifier rapidement, un avantage direct au <InternalLink slug="stress-test-hypothecaire-canada-immigrant-guide">stress test hypothécaire</InternalLink>.
+      </p>
+      <ul className="space-y-2">
+        <li><strong>Saskatoon :</strong> Prix médian ~400 000$ — marché le plus dynamique de la province, forte demande étudiante et technologique</li>
+        <li><strong>Regina :</strong> Prix médian ~350 000$ — capitale provinciale, marché stable avec faible volatilité</li>
+        <li><strong>Moose Jaw, Prince Albert :</strong> Options encore plus abordables, à partir de ~250 000$</li>
+        <li><strong>Avec 5% de mise de fonds :</strong> Environ 17 500$ à 20 000$ suffisent pour une propriété médiane</li>
+      </ul>
+
+      <h2 className="text-xl font-extrabold text-midnight">Le SINP et son impact sur votre dossier hypothécaire</h2>
+      <p>
+        Être nominé par le <strong>SINP</strong> ne change pas les critères d&apos;admissibilité hypothécaire eux-mêmes,
+        mais renforce considérablement un dossier : les prêteurs y voient un lien stable avec un employeur ou un secteur
+        en demande, souvent combiné à une trajectoire claire vers la résidence permanente. Les candidats du volet
+        Employé qualifié international ou International Skilled Worker restent admissibles au
+        <InternalLink slug="programme-schl-nouveaux-arrivants-guide-complet"> programme SCHL Nouveaux Arrivants</InternalLink> avec
+        seulement 5% de mise de fonds, comme dans les autres provinces.
+      </p>
+
+      <WizardCta />
+
+      <h2 className="text-xl font-extrabold text-midnight">Frais d&apos;achat spécifiques Saskatchewan</h2>
+      <ul className="space-y-2">
+        <li><strong>Pas de droits de mutation (taxe de bienvenue) :</strong> Contrairement au <InternalLink slug="hypotheque-francophone-quebec">Québec</InternalLink> ou à l&apos;Ontario, seuls des frais d&apos;enregistrement de titre modestes s&apos;appliquent, généralement quelques centaines de dollars</li>
+        <li><strong>Avocat (pas notaire) :</strong> La Saskatchewan utilise le système de common law pour le transfert de propriété</li>
+        <li><strong>PST sur l&apos;assurance SCHL :</strong> La province applique la taxe de vente provinciale sur la prime d&apos;<InternalLink slug="hypotheque-assurance-schl-sagen-cmhc">assurance hypothécaire</InternalLink>, à prévoir dans votre budget de fermeture</li>
+        <li><strong>Inspection résidentielle :</strong> Fortement recommandée pour les propriétés plus anciennes, courantes dans certains quartiers de Regina</li>
+      </ul>
+
+      <h2 className="text-xl font-extrabold text-midnight">Banques et coopératives actives en Saskatchewan</h2>
+      <p>
+        Les six grandes banques offrent leurs programmes nouveaux arrivants (RBC, TD, Scotia, BMO, CIBC, Desjardins hors
+        Québec), mais la province compte aussi un réseau solide de coopératives de crédit locales comme
+        <a href="https://www.conexus.ca" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline"> Conexus Credit Union</a> et
+        <a href="https://www.affinitycu.ca" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark underline"> Affinity Credit Union</a>, souvent
+        plus flexibles pour les dossiers atypiques d&apos;immigrants sans historique de crédit canadien complet.
+      </p>
+      <p>
+        Comparez aussi avec les marchés de l&apos;<InternalLink slug="hypotheque-alberta-immigrants-calgary-edmonton">Alberta</InternalLink>, du <InternalLink slug="hypotheque-manitoba-immigrants-winnipeg">Manitoba</InternalLink> et
+        de l&apos;<InternalLink slug="hypotheque-ontario-immigrants-toronto">Ontario</InternalLink> pour trouver la province qui correspond le mieux à votre budget et à votre secteur d&apos;emploi.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };

@@ -570,6 +570,17 @@ export const blogPosts: BlogPost[] = [
     wizardVariant: "resident-permanent",
     relatedSlugs: ["programme-schl-nouveaux-arrivants-guide-complet", "interdiction-achat-non-canadien-exemptions-2027", "hypotheque-travailleur-temporaire-5pourcent"],
   },
+  // ====== ARTICLE #52 — SASKATCHEWAN ======
+  {
+    slug: "hypotheque-saskatchewan-immigrants-regina-saskatoon",
+    title: "Hypothèque Saskatchewan Immigrants : Guide Regina et Saskatoon",
+    subtitle: "La province la plus abordable des Prairies, avec un programme d'immigration parmi les plus actifs au Canada.",
+    description: "Guide hypothèque pour immigrants en Saskatchewan. Marché Regina et Saskatoon, programme SINP, banques et coopératives, frais d'achat spécifiques à la province.",
+    category: "Province",
+    readTime: "9 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-alberta-immigrants-calgary-edmonton", "hypotheque-manitoba-immigrants-winnipeg", "hypotheque-ontario-immigrants-toronto"],
+  },
 ];
 
 // Helper: get post by slug
