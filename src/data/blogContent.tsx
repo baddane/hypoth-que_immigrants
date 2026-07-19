@@ -3178,4 +3178,88 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  // ====================================================
+  // ARTICLE 52: PARRAINAGE CONJOINT
+  // ====================================================
+  "hypotheque-parrainage-conjoint-immigrant": (
+    <>
+      <p>
+        Chaque ann&eacute;e, des dizaines de milliers de personnes rejoignent le Canada &mdash; ou y restent &mdash; gr&acirc;ce au parrainage d&rsquo;un &eacute;poux, d&rsquo;une &eacute;pouse ou d&rsquo;un conjoint de fait citoyen canadien ou r&eacute;sident permanent. Beaucoup de ces couples veulent acheter une propri&eacute;t&eacute; pendant que la demande de r&eacute;sidence permanente est encore en traitement &mdash; un processus qui prend souvent <strong>12 &agrave; 24&nbsp;mois</strong>. Bonne nouvelle&nbsp;: c&rsquo;est tout &agrave; fait possible, et dans plusieurs cas plus simple qu&rsquo;on ne le croit. Voici ce qu&rsquo;un couple en situation de parrainage doit savoir avant de d&eacute;poser une demande d&rsquo;hypoth&egrave;que.
+      </p>
+
+      <h2>Le permis de travail ouvert pendant l&rsquo;attente du parrainage</h2>
+      <p>
+        Si vous &ecirc;tes d&eacute;j&agrave; au Canada et parrain&eacute;(e) dans la cat&eacute;gorie &laquo;&nbsp;&Eacute;poux ou conjoint de fait au Canada&nbsp;&raquo; (SCLPC), vous pouvez g&eacute;n&eacute;ralement demander un <strong>permis de travail ouvert</strong> pendant que votre demande de r&eacute;sidence permanente est trait&eacute;e. Ce permis vous autorise &agrave; travailler pour n&rsquo;importe quel employeur au Canada &mdash; un &eacute;l&eacute;ment cl&eacute;, puisqu&rsquo;un pr&ecirc;teur exige un revenu stable et v&eacute;rifiable avant d&rsquo;approuver une hypoth&egrave;que.
+      </p>
+      <ul>
+        <li><strong>Admissibilit&eacute; principale&nbsp;:</strong> vivre avec votre r&eacute;pondant, entretenir une relation authentique et d&eacute;tenir une lettre d&rsquo;accus&eacute; de r&eacute;ception (AR) confirmant que votre demande de RP est compl&egrave;te et en traitement.</li>
+        <li><strong>Statut temporaire valide requis&nbsp;:</strong> permis de travail, permis d&rsquo;&eacute;tudes ou fiche de visiteur valide au moment de la demande, ou admissibilit&eacute; au r&eacute;tablissement de statut.</li>
+        <li><strong>Dur&eacute;e&nbsp;:</strong> le permis peut &ecirc;tre renouvel&eacute; pour deux ann&eacute;es suppl&eacute;mentaires tant que la demande de RP reste en traitement.</li>
+        <li><strong>Limite importante&nbsp;:</strong> ce permis facilit&eacute; vise les demandes d&eacute;pos&eacute;es de l&rsquo;int&eacute;rieur du Canada (volet &eacute;poux ou conjoint de fait au Canada). Les demandes faites de l&rsquo;ext&eacute;rieur du pays suivent un autre processus, sans acc&egrave;s automatique &agrave; ce permis ouvert.</li>
+      </ul>
+      <p>
+        Sans revenu canadien d&eacute;clar&eacute;, il est tr&egrave;s difficile d&rsquo;&ecirc;tre approuv&eacute; &mdash; consultez notre guide sur l&rsquo;<InternalLink slug="hypotheque-permis-travail-ouvert">hypoth&egrave;que avec permis de travail ouvert</InternalLink> pour comprendre comment les pr&ecirc;teurs traitent ce type de statut.
+      </p>
+
+      <WizardCta />
+
+      <h2>Revenu combin&eacute; : ce que le pr&ecirc;teur regarde vraiment</h2>
+      <p>
+        Si vous ach&eacute;tez avec votre conjoint(e) canadien(ne) ou r&eacute;sident(e) permanent(e) &agrave; titre de <strong>co-emprunteur</strong>, le pr&ecirc;teur &eacute;value le dossier du m&eacute;nage dans son ensemble &mdash; revenu total, dettes totales, cr&eacute;dit des deux personnes &mdash; peu importe le statut d&rsquo;immigration de l&rsquo;un des deux conjoints. Les ratios ABD/ATD sont calcul&eacute;s sur le revenu combin&eacute;, ce qui am&eacute;liore souvent consid&eacute;rablement la capacit&eacute; d&rsquo;emprunt du couple.
+      </p>
+      <ul>
+        <li><strong>Co-emprunteur vs co-signataire&nbsp;:</strong> un co-emprunteur est propri&eacute;taire du bien (sur le titre) et responsable du pr&ecirc;t &agrave; parts &eacute;gales. Un co-signataire (souvent un parent) garantit le pr&ecirc;t sans &ecirc;tre propri&eacute;taire. Pour un couple en situation de parrainage, le mod&egrave;le co-emprunteur est presque toujours le bon choix &mdash; voir la comparaison compl&egrave;te dans notre guide <InternalLink slug="hypotheque-cosignataire-parent-immigrant">co-signataire parent</InternalLink>.</li>
+        <li><strong>Cr&eacute;dit canadien limit&eacute;&nbsp;:</strong> si le conjoint immigrant n&rsquo;a pas encore d&rsquo;historique de cr&eacute;dit canadien, le dossier solide du conjoint canadien peut souvent compenser &mdash; mais certains pr&ecirc;teurs exigent tout de m&ecirc;me un minimum de pointage &eacute;tabli chez au moins un emprunteur pour les meilleurs taux.</li>
+        <li><strong>Un seul revenu au dossier&nbsp;:</strong> si le conjoint immigrant n&rsquo;a pas encore de permis de travail ou de revenu d&eacute;clar&eacute;, l&rsquo;approbation repose enti&egrave;rement sur le revenu du conjoint canadien &mdash; consultez notre guide sur l&rsquo;<InternalLink slug="hypotheque-conjoint-chomeur-revenu">achat avec un seul revenu</InternalLink> pour les strat&eacute;gies applicables.</li>
+      </ul>
+
+      <h2>L&rsquo;exemption &agrave; la loi sur l&rsquo;interdiction d&rsquo;achat pour non-Canadiens</h2>
+      <p>
+        M&ecirc;me si le conjoint immigrant ne remplit pas personnellement les crit&egrave;res d&rsquo;exemption &agrave; la <InternalLink slug="interdiction-achat-non-canadien-exemptions-2027">Loi sur l&rsquo;interdiction d&rsquo;achat de propri&eacute;t&eacute;s r&eacute;sidentielles par des non-Canadiens</InternalLink> (par exemple, un permis de travail encore trop r&eacute;cent), le couple peut g&eacute;n&eacute;ralement acheter sans probl&egrave;me. Selon la <a href="https://www.cmhc-schl.gc.ca/professionals/housing-markets-data-and-research/housing-research/consultations/prohibition-purchase-residential-property-non-canadians-act/faq" target="_blank" rel="noopener noreferrer">SCHL</a>, un non-Canadien qui ach&egrave;te <strong>conjointement</strong> avec son &eacute;poux, son &eacute;pouse ou son conjoint de fait citoyen canadien, r&eacute;sident permanent ou personne prot&eacute;g&eacute;e est exempt&eacute; de la loi.
+      </p>
+      <ul>
+        <li><strong>Condition cl&eacute;&nbsp;:</strong> l&rsquo;achat doit &ecirc;tre fait ensemble &mdash; les deux noms doivent appara&icirc;tre sur l&rsquo;acte de vente. Un achat au seul nom du conjoint immigrant ne serait pas couvert par cette exemption.</li>
+        <li><strong>Le conjoint canadien ou RP doit lui-m&ecirc;me &ecirc;tre admissible&nbsp;:</strong> citoyen, r&eacute;sident permanent, Indien inscrit ou personne prot&eacute;g&eacute;e.</li>
+        <li>Cette exemption est distincte des <InternalLink slug="hypotheque-taxe-acheteur-etranger-exemption">taxes provinciales sur les acheteurs &eacute;trangers</InternalLink> (Ontario, Colombie-Britannique), qui suivent leurs propres r&egrave;gles &mdash; v&eacute;rifiez les deux s&eacute;par&eacute;ment avant l&rsquo;achat.</li>
+      </ul>
+      <p>
+        En pratique&nbsp;: mettre le conjoint canadien ou RP sur le titre &mdash; ce qui est de toute fa&ccedil;on n&eacute;cessaire pour b&eacute;n&eacute;ficier de l&rsquo;exemption &mdash; r&egrave;gle simultan&eacute;ment la question de la loi anti-sp&eacute;culation f&eacute;d&eacute;rale pour la plupart des couples en situation de parrainage.
+      </p>
+
+      <h2>B&acirc;tir son dossier pendant l&rsquo;attente</h2>
+      <p>
+        Le d&eacute;lai de traitement d&rsquo;un parrainage &eacute;poux (souvent 12 &agrave; 24&nbsp;mois) est une p&eacute;riode id&eacute;ale pour pr&eacute;parer un dossier hypoth&eacute;caire solide plut&ocirc;t que d&rsquo;attendre la carte RP.
+      </p>
+      <ul>
+        <li>Obtenez votre NAS d&egrave;s que possible et commencez &agrave; d&eacute;clarer un revenu &mdash; voir notre guide sur le <InternalLink slug="numero-assurance-sociale-nas-hypotheque-immigrant">NAS et l&rsquo;hypoth&egrave;que</InternalLink>.</li>
+        <li>D&eacute;marrez votre cr&eacute;dit canadien avec une carte s&eacute;curis&eacute;e d&egrave;s l&rsquo;ouverture d&rsquo;un compte bancaire &mdash; suivez notre plan <InternalLink slug="construire-credit-canadien-6-mois-immigrant">construire son cr&eacute;dit en 6&nbsp;mois</InternalLink>.</li>
+        <li>Si vous avez encore un revenu &agrave; l&rsquo;&eacute;tranger pendant la transition, informez-vous sur la fa&ccedil;on de l&rsquo;<InternalLink slug="hypotheque-revenu-etranger-convert">inclure dans votre demande</InternalLink>.</li>
+        <li>Consultez un courtier familier avec les dossiers &agrave; statut mixte &mdash; certains pr&ecirc;teurs sont plus &agrave; l&rsquo;aise que d&rsquo;autres avec un co-emprunteur en attente de RP.</li>
+      </ul>
+
+      <h2>Que se passe-t-il si le parrainage prend plus de temps que pr&eacute;vu, ou en cas de refus</h2>
+      <p>
+        Une hypoth&egrave;que est un contrat entre vous et le pr&ecirc;teur &mdash; elle n&rsquo;est pas annul&eacute;e automatiquement si votre demande de RP est retard&eacute;e ou refus&eacute;e. Cela dit, plusieurs pr&eacute;cautions s&rsquo;imposent&nbsp;:
+      </p>
+      <ul>
+        <li><strong>Renouvelez votre permis de travail ouvert &agrave; temps&nbsp;:</strong> s&rsquo;il expire sans renouvellement, le revenu qui y est li&eacute; s&rsquo;arr&ecirc;te &mdash; ce qui peut affecter votre capacit&eacute; &agrave; assumer les paiements si vous &eacute;tiez co-emprunteur actif.</li>
+        <li><strong>En cas de refus de parrainage&nbsp;:</strong> consultez un avocat en immigration rapidement. Le pr&ecirc;t hypoth&eacute;caire lui-m&ecirc;me reste valide, mais votre statut de s&eacute;jour au Canada pourrait &ecirc;tre affect&eacute; &mdash; une situation distincte qui m&eacute;rite un avis juridique sp&eacute;cialis&eacute;.</li>
+        <li><strong>Pr&eacute;voyez un coussin financier&nbsp;:</strong> comme pour tout achat immobilier, gardez une r&eacute;serve pour absorber un retard administratif sans mettre en p&eacute;ril vos paiements.</li>
+      </ul>
+
+      <h2>Erreurs fr&eacute;quentes &agrave; &eacute;viter</h2>
+      <ul>
+        <li><strong>Attendre la carte RP avant de commencer&nbsp;:</strong> la plupart des couples peuvent d&eacute;marrer bien avant &mdash; le statut RP n&rsquo;est pas un pr&eacute;alable &agrave; l&rsquo;hypoth&egrave;que.</li>
+        <li><strong>Supposer que le permis de travail ouvert est automatique&nbsp;:</strong> v&eacute;rifiez votre admissibilit&eacute; exacte aupr&egrave;s d&rsquo;IRCC avant de b&acirc;tir votre budget sur ce revenu.</li>
+        <li><strong>Oublier l&rsquo;exemption conjoint&nbsp;:</strong> payer inutilement des taxes suppl&eacute;mentaires ou retarder l&rsquo;achat par erreur alors que l&rsquo;exemption s&rsquo;applique.</li>
+        <li><strong>Acheter seulement au nom du conjoint immigrant&nbsp;:</strong> cela prive le dossier de l&rsquo;exemption et du revenu combin&eacute; qui rendent l&rsquo;achat possible en premier lieu.</li>
+      </ul>
+      <p>
+        Sources officielles&nbsp;: <a href="https://www.canada.ca/fr/immigration-refugies-citoyennete/services/immigrer-canada/parrainer-membre-famille/epoux-partenaire-enfant/epoux-conjoint-fait-canada-permis-travail-ouvert.html" target="_blank" rel="noopener noreferrer">IRCC &mdash; Permis de travail ouvert pour &eacute;poux ou conjoint de fait au Canada</a> et <a href="https://www.cmhc-schl.gc.ca/professionals/housing-markets-data-and-research/housing-research/consultations/prohibition-purchase-residential-property-non-canadians-act/faq" target="_blank" rel="noopener noreferrer">SCHL &mdash; FAQ sur la Loi sur l&rsquo;interdiction d&rsquo;achat pour non-Canadiens</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };

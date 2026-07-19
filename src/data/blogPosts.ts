@@ -46,7 +46,7 @@ export const blogPosts: BlogPost[] = [
     category: "Statut Immigration",
     readTime: "9 min",
     wizardVariant: "travailleur-temporaire",
-    relatedSlugs: ["hypotheque-travailleur-temporaire-5pourcent", "hypotheque-etudiant-permis-postdiplome", "preapprobation-hypotheque-immigrant"],
+    relatedSlugs: ["hypotheque-travailleur-temporaire-5pourcent", "hypotheque-etudiant-permis-postdiplome", "hypotheque-parrainage-conjoint-immigrant"],
   },
   // ====== ARTICLE #4 ======
   {
@@ -178,7 +178,7 @@ export const blogPosts: BlogPost[] = [
     category: "Situation Spéciale",
     readTime: "7 min",
     wizardVariant: undefined,
-    relatedSlugs: ["hypotheque-conjoint-chomeur-revenu", "hypotheque-sans-historique-credit", "preapprobation-hypotheque-immigrant"],
+    relatedSlugs: ["hypotheque-conjoint-chomeur-revenu", "hypotheque-parrainage-conjoint-immigrant", "preapprobation-hypotheque-immigrant"],
   },
   // ====== ARTICLE #14 ======
   {
@@ -569,6 +569,16 @@ export const blogPosts: BlogPost[] = [
     readTime: "9 min",
     wizardVariant: "resident-permanent",
     relatedSlugs: ["programme-schl-nouveaux-arrivants-guide-complet", "interdiction-achat-non-canadien-exemptions-2027", "hypotheque-travailleur-temporaire-5pourcent"],
+  },
+  // ====== ARTICLE #52 — PARRAINAGE CONJOINT ======
+  {
+    slug: "hypotheque-parrainage-conjoint-immigrant",
+    title: "Hypothèque et Parrainage Conjoint : Acheter Pendant que votre RP est en Traitement",
+    subtitle: "Permis de travail ouvert, revenu combiné et exemption à la loi anti-spéculation : ce qui change quand vous êtes parrainé par votre conjoint canadien.",
+    description: "Guide hypothèque pour immigrants parrainés par leur conjoint canadien ou résident permanent. Permis de travail ouvert (SOWP), revenu combiné, exemption à la loi sur les non-Canadiens et stratégies pendant l'attente de la résidence permanente.",
+    category: "Situation Spéciale",
+    readTime: "9 min",
+    relatedSlugs: ["hypotheque-permis-travail-ouvert", "hypotheque-cosignataire-parent-immigrant", "interdiction-achat-non-canadien-exemptions-2027", "hypotheque-sans-historique-credit"],
   },
 ];
 
