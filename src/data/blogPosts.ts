@@ -570,6 +570,17 @@ export const blogPosts: BlogPost[] = [
     wizardVariant: "resident-permanent",
     relatedSlugs: ["programme-schl-nouveaux-arrivants-guide-complet", "interdiction-achat-non-canadien-exemptions-2027", "hypotheque-travailleur-temporaire-5pourcent"],
   },
+  // ====== ARTICLE #52 — MARGE DE CRÉDIT HYPOTHÉCAIRE (HELOC) ======
+  {
+    slug: "marge-credit-hypothecaire-heloc-immigrant-guide",
+    title: "Marge de Crédit Hypothécaire (HELOC) pour Immigrants : Guide Complet",
+    subtitle: "Accédez à la valeur nette de votre maison sans la revendre. Règle du 65 %, admissibilité et pièges à éviter.",
+    description: "Guide de la marge de crédit hypothécaire (HELOC) pour immigrants au Canada. Règle du 65 % de l'OSFI, admissibilité, comparaison avec le refinancement et erreurs fréquentes à éviter.",
+    category: "Financement",
+    readTime: "9 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-refinancement-renouvellement-immigrant", "hypotheque-taux-fixe-variable-immigrant", "hypotheque-reer-rap-immigrant-premier-achat"],
+  },
 ];
 
 // Helper: get post by slug

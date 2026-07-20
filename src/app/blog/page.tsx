@@ -5,12 +5,12 @@ import { SITE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Guides Hypothèque Immigrants Canada — 49 Articles",
+  title: "Guides Hypothèque Immigrants Canada — 52 Articles",
   description:
     "Articles et guides complets sur l'hypothèque pour immigrants au Canada. Travailleurs temporaires, étudiants, résidents permanents.",
   openGraph: {
     title: "Guides Hypothèque Immigrants Canada",
-    description: "49 guides complets pour obtenir votre hypothèque au Canada en tant qu'immigrant.",
+    description: "52 guides complets pour obtenir votre hypothèque au Canada en tant qu'immigrant.",
     url: `${SITE_URL}/blog`,
     type: "website",
   },

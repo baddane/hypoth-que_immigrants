@@ -3178,4 +3178,125 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  "marge-credit-hypothecaire-heloc-immigrant-guide": (
+    <>
+      <p>
+        Apr&egrave;s quelques ann&eacute;es de propri&eacute;t&eacute;, beaucoup d&rsquo;immigrants d&eacute;couvrent que la valeur de leur maison a grimp&eacute; &mdash; parfois de fa&ccedil;on spectaculaire dans des march&eacute;s tendus comme Toronto ou Vancouver &mdash; sans savoir qu&rsquo;il est possible d&rsquo;acc&eacute;der &agrave; cette valeur nette sans revendre. La <strong>marge de cr&eacute;dit hypoth&eacute;caire</strong> (HELOC, pour <em>home equity line of credit</em>) permet exactement cela. Voici comment elle fonctionne, qui y est vraiment admissible et les pi&egrave;ges les plus fr&eacute;quents pour un nouvel arrivant.
+      </p>
+
+      <h2>Qu&rsquo;est-ce qu&rsquo;une marge de cr&eacute;dit hypoth&eacute;caire</h2>
+      <p>
+        Une HELOC est un cr&eacute;dit renouvelable garanti par la valeur nette de votre propri&eacute;t&eacute; (la diff&eacute;rence entre la valeur marchande et le solde de votre hypoth&egrave;que). Contrairement &agrave; un pr&ecirc;t traditionnel, vous ne payez des int&eacute;r&ecirc;ts que sur le montant r&eacute;ellement utilis&eacute;, et vous pouvez rembourser puis remprunter librement, un peu comme une carte de cr&eacute;dit &agrave; taux beaucoup plus bas. Deux formes existent au Canada&nbsp;:
+      </p>
+      <ul>
+        <li><strong>HELOC autonome</strong> &mdash; un produit s&eacute;par&eacute; de votre hypoth&egrave;que, offert par la plupart des banques et coop&eacute;ratives de cr&eacute;dit.</li>
+        <li><strong>Hypoth&egrave;que avec marge int&eacute;gr&eacute;e</strong> (<em>readvanceable mortgage</em>) &mdash; un produit combin&eacute; comme le Scotia STEP, le CIBC Home Power Plan ou le TD Marge Flexible Domicile, o&ugrave; la marge de cr&eacute;dit se lib&egrave;re automatiquement au fur et &agrave; mesure que vous remboursez le capital de votre hypoth&egrave;que.</li>
+      </ul>
+      <p>
+        Le taux d&rsquo;int&eacute;r&ecirc;t est g&eacute;n&eacute;ralement variable, bas&eacute; sur le taux pr&eacute;f&eacute;rentiel des banques &mdash; consultez notre guide sur les <InternalLink slug="hypotheque-taux-fixe-variable-immigrant">taux fixes et variables</InternalLink> pour comprendre comment ce taux &eacute;volue.
+      </p>
+
+      <h2>Combien pouvez-vous emprunter &mdash; la r&egrave;gle du 65&nbsp;%</h2>
+      <p>
+        Le <a href="https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/final-revised-guideline-b-20-residential-mortgage-underwriting-practices-procedures" target="_blank" rel="noopener noreferrer">Bureau du surintendant des institutions financi&egrave;res (BSIF)</a> impose une limite stricte&nbsp;: la portion non amortissante d&rsquo;une HELOC ne peut d&eacute;passer <strong>65&nbsp;% de la valeur de la propri&eacute;t&eacute;</strong>. Au-del&agrave; de ce seuil, tout cr&eacute;dit suppl&eacute;mentaire garanti par la maison doit &ecirc;tre amorti comme une hypoth&egrave;que classique.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Type de produit</th>
+            <th>Valeur nette minimale requise</th>
+            <th>Limite maximale de la HELOC</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>HELOC autonome</strong> (sans hypoth&egrave;que active)</td>
+            <td>35&nbsp;% de la valeur de la propri&eacute;t&eacute;</td>
+            <td>65&nbsp;% de la valeur (LTV)</td>
+          </tr>
+          <tr>
+            <td><strong>HELOC combin&eacute;e &agrave; une hypoth&egrave;que</strong></td>
+            <td>20&nbsp;% de la valeur de la propri&eacute;t&eacute;</td>
+            <td>65&nbsp;% en marge + solde hypoth&eacute;caire, jusqu&rsquo;&agrave; 80&nbsp;% combin&eacute;</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        En clair&nbsp;: avec une mise de fonds de 5&nbsp;% ou 10&nbsp;% comme le permet le <InternalLink slug="programme-schl-nouveaux-arrivants-guide-complet">programme SCHL Nouveaux Arrivants</InternalLink>, vous n&rsquo;avez pas encore assez de valeur nette pour ouvrir une HELOC. Il faut g&eacute;n&eacute;ralement plusieurs ann&eacute;es de remboursement du capital &mdash; ou une hausse notable de la valeur marchande &mdash; avant d&rsquo;atteindre le seuil des 20&nbsp;%.
+      </p>
+
+      <WizardCta />
+
+      <h2>Admissibilit&eacute; pour un immigrant r&eacute;cent</h2>
+      <p>
+        Le statut d&rsquo;immigration n&rsquo;affecte pas directement les r&egrave;gles d&rsquo;admissibilit&eacute; &agrave; une HELOC&nbsp;: un pr&ecirc;teur applique les m&ecirc;mes crit&egrave;res &agrave; tout propri&eacute;taire, qu&rsquo;il soit citoyen, r&eacute;sident permanent ou travailleur temporaire. Ce qui limite r&eacute;ellement l&rsquo;acc&egrave;s pour un nouvel arrivant, ce sont trois facteurs concrets&nbsp;:
+      </p>
+      <ul>
+        <li><strong>La valeur nette accumul&eacute;e</strong> &mdash; comme vu ci-dessus, il faut du temps ou une mise de fonds substantielle pour d&eacute;passer 20&nbsp;% de valeur nette.</li>
+        <li><strong>Le dossier de cr&eacute;dit et le revenu</strong> &mdash; le pr&ecirc;teur r&eacute;&eacute;value votre <InternalLink slug="hypotheque-score-credit-minimum-immigrant">score de cr&eacute;dit</InternalLink> et votre capacit&eacute; de remboursement au moment de la demande, comme pour tout nouveau cr&eacute;dit.</li>
+        <li><strong>Le stress test</strong> &mdash; les HELOC sont aussi soumises au taux de qualification major&eacute;, m&ecirc;me si le taux contractuel est plus bas.</li>
+      </ul>
+      <p>
+        Pour la plupart des immigrants ayant achet&eacute; avec 5&nbsp;% de mise de fonds, la HELOC devient une option r&eacute;aliste seulement apr&egrave;s quelques ann&eacute;es &mdash; souvent en m&ecirc;me temps que la p&eacute;riode o&ugrave; le dossier de cr&eacute;dit canadien est bien &eacute;tabli, comme d&eacute;crit dans notre guide pour <InternalLink slug="construire-credit-canadien-6-mois-immigrant">construire son cr&eacute;dit canadien</InternalLink>.
+      </p>
+
+      <h2>HELOC, refinancement ou pr&ecirc;t personnel&nbsp;: quelle option choisir</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Crit&egrave;re</th>
+            <th>HELOC</th>
+            <th>Refinancement</th>
+            <th>Pr&ecirc;t personnel</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Garantie</td>
+            <td>Valeur nette de la maison</td>
+            <td>Valeur nette de la maison</td>
+            <td>Aucune (non garanti)</td>
+          </tr>
+          <tr>
+            <td>Type de taux</td>
+            <td>Variable, sur montant utilis&eacute;</td>
+            <td>Fixe ou variable, sur montant total</td>
+            <td>Fixe, plus &eacute;lev&eacute;</td>
+          </tr>
+          <tr>
+            <td>P&eacute;nalit&eacute;</td>
+            <td>Aucune pour ouverture</td>
+            <td>P&eacute;nalit&eacute; possible si rupture du terme actuel</td>
+            <td>Aucune</td>
+          </tr>
+          <tr>
+            <td>Flexibilit&eacute;</td>
+            <td>Renouvelable, retraits multiples</td>
+            <td>Montant fixe vers&eacute; une fois</td>
+            <td>Montant fixe vers&eacute; une fois</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Le <InternalLink slug="hypotheque-refinancement-renouvellement-immigrant">refinancement</InternalLink> reste souvent pr&eacute;f&eacute;rable pour un montant important et connu d&rsquo;avance (r&eacute;novation majeure, par exemple), tandis que la HELOC convient mieux &agrave; des besoins ponctuels ou r&eacute;currents o&ugrave; vous ne voulez payer des int&eacute;r&ecirc;ts que sur ce que vous utilisez r&eacute;ellement.
+      </p>
+
+      <h2>Utilisations courantes et pi&egrave;ges &agrave; &eacute;viter</h2>
+      <p>
+        Les immigrants propri&eacute;taires utilisent le plus souvent leur HELOC pour financer des r&eacute;novations, constituer la mise de fonds d&rsquo;un premier <InternalLink slug="acheter-duplex-triplex-immigrant-mise-de-fonds">immeuble locatif</InternalLink>, ou soutenir un proche parrain&eacute; nouvellement arriv&eacute;. Quelques erreurs reviennent cependant fr&eacute;quemment&nbsp;:
+      </p>
+      <ul>
+        <li><strong>Sous-estimer le risque de taux variable</strong> &mdash; une hausse du taux directeur augmente imm&eacute;diatement vos paiements d&rsquo;int&eacute;r&ecirc;t, contrairement &agrave; une hypoth&egrave;que &agrave; taux fixe.</li>
+        <li><strong>Emprunter jusqu&rsquo;&agrave; la limite des 80&nbsp;% combin&eacute;s</strong> &mdash; cela laisse tr&egrave;s peu de coussin si la valeur de la propri&eacute;t&eacute; baisse ou si vous devez vendre rapidement.</li>
+        <li><strong>Utiliser la marge pour des d&eacute;penses courantes non essentielles</strong> &mdash; une HELOC devrait financer des projets qui pr&eacute;servent ou augmentent votre valeur nette, pas combler un manque de tr&eacute;sorerie r&eacute;current.</li>
+        <li><strong>Oublier qu&rsquo;elle reste un cr&eacute;dit garanti par votre maison</strong> &mdash; en cas de d&eacute;faut de paiement prolong&eacute;, le pr&ecirc;teur peut engager une proc&eacute;dure de saisie, tout comme pour une hypoth&egrave;que.</li>
+      </ul>
+      <p>
+        Sources officielles&nbsp;: <a href="https://www.canada.ca/en/financial-consumer-agency/services/mortgages/home-equity-line-credit.html" target="_blank" rel="noopener noreferrer">Agence de la consommation en mati&egrave;re financi&egrave;re du Canada &mdash; Marge de cr&eacute;dit garantie par la valeur domiciliaire</a> et <a href="https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/final-revised-guideline-b-20-residential-mortgage-underwriting-practices-procedures" target="_blank" rel="noopener noreferrer">BSIF &mdash; Ligne directrice B-20</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };
