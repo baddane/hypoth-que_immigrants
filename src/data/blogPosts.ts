@@ -581,6 +581,17 @@ export const blogPosts: BlogPost[] = [
     wizardVariant: undefined,
     relatedSlugs: ["hypotheque-refinancement-renouvellement-immigrant", "hypotheque-taux-fixe-variable-immigrant", "hypotheque-reer-rap-immigrant-premier-achat"],
   },
+  // ====== ARTICLE #53 — SASKATCHEWAN ======
+  {
+    slug: "hypotheque-saskatchewan-immigrants-saskatoon-regina",
+    title: "Hypothèque en Saskatchewan pour Immigrants : Guide Saskatoon et Regina",
+    subtitle: "Aucune taxe de mutation immobilière, prix parmi les plus bas au Canada et un programme provincial très actif.",
+    description: "Guide hypothèque pour immigrants en Saskatchewan. Marché Saskatoon et Regina, programme SINP, absence de taxe de mutation immobilière et frais de transfert de titre à prévoir.",
+    category: "Province",
+    readTime: "8 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-manitoba-immigrants-winnipeg", "hypotheque-alberta-immigrants-calgary-edmonton", "programme-schl-nouveaux-arrivants-guide-complet"],
+  },
 ];
 
 // Helper: get post by slug
