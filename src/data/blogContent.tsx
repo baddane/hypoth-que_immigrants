@@ -3299,4 +3299,99 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  "hypotheque-canada-atlantique-immigrants-halifax-moncton": (
+    <>
+      <p>
+        Le Canada atlantique &mdash; Nouvelle-&Eacute;cosse, Nouveau-Brunswick, &Icirc;le-du-Prince-&Eacute;douard et Terre-Neuve-et-Labrador &mdash; attire de plus en plus de nouveaux arrivants gr&acirc;ce au Programme d&rsquo;immigration au Canada atlantique et &agrave; des prix immobiliers encore nettement plus abordables qu&rsquo;&agrave; Toronto ou Vancouver. Mais chaque province maritime a ses propres taxes, et l&rsquo;&Icirc;le-du-Prince-&Eacute;douard applique m&ecirc;me des restrictions particuli&egrave;res sur l&rsquo;achat de terrain par des non-r&eacute;sidents &mdash; y compris pour des citoyens canadiens. Voici ce qu&rsquo;un immigrant doit savoir avant d&rsquo;acheter dans les Maritimes.
+      </p>
+
+      <h2>Le Programme d&rsquo;immigration au Canada atlantique (PICA)</h2>
+      <p>
+        Le PICA est une voie vers la r&eacute;sidence permanente r&eacute;serv&eacute;e aux travailleurs qualifi&eacute;s et aux dipl&ocirc;m&eacute;s d&rsquo;&eacute;tablissements postsecondaires des quatre provinces atlantiques. Il comprend deux volets principaux&nbsp;: le volet travailleurs qualifi&eacute;s (avec au moins un an d&rsquo;exp&eacute;rience pertinente) et le volet dipl&ocirc;m&eacute;s internationaux. La condition centrale reste la m&ecirc;me&nbsp;: obtenir une offre d&rsquo;emploi d&rsquo;un employeur d&eacute;sign&eacute; par la province, comme pour un <InternalLink slug="hypotheque-travailleur-temporaire-5pourcent">permis de travail li&eacute; &agrave; un employeur</InternalLink>.
+      </p>
+      <p>
+        Deux points &agrave; garder en t&ecirc;te pour planifier votre projet immobilier&nbsp;: le d&eacute;lai de traitement d&rsquo;IRCC a fortement augment&eacute; ces derniers mois, et les provinces atlantiques ont r&eacute;duit leurs allocations dans le cadre du <InternalLink slug="plan-immigration-2026-2028-impact-hypotheque-nouveaux-arrivants">plan des niveaux d&rsquo;immigration 2026-2028</InternalLink>. Mieux vaut donc s&eacute;curiser votre statut avant de vous engager sur une offre d&rsquo;achat, surtout si votre pr&eacute;approbation d&eacute;pend de la validit&eacute; de votre permis.
+      </p>
+
+      <WizardCta />
+
+      <h2>Nouvelle-&Eacute;cosse (Halifax) : TVH r&eacute;duite, taxe de transfert municipale</h2>
+      <p>
+        Halifax concentre la majorit&eacute; de la population et de l&rsquo;activit&eacute; &eacute;conomique de la Nouvelle-&Eacute;cosse. Depuis le 1&nbsp;er&nbsp;avril 2025, la province a r&eacute;duit sa taxe de vente harmonis&eacute;e (TVH) de 15&nbsp;% &agrave; <strong>14&nbsp;%</strong> &mdash; la premi&egrave;re baisse en 14 ans &mdash;, ce qui r&eacute;duit l&eacute;g&egrave;rement le co&ucirc;t des services professionnels li&eacute;s &agrave; l&rsquo;achat (notaire/avocat, inspection).
+      </p>
+      <p>
+        La taxe de transfert de propri&eacute;t&eacute; (<em>deed transfer tax</em>) n&rsquo;est pas fix&eacute;e par la province mais par chaque municipalit&eacute;&nbsp;; la Municipalit&eacute; r&eacute;gionale d&rsquo;Halifax applique le taux maximal autoris&eacute; de <strong>1,5&nbsp;%</strong> de la valeur de vente. Un rabais provincial de <strong>Premier Acheteur</strong> existe, mais il est limit&eacute; &agrave; 3&nbsp;000&nbsp;$ et s&rsquo;applique uniquement aux maisons neuves.
+      </p>
+
+      <h2>Nouveau-Brunswick (Moncton, Fredericton, Saint-Jean) : la province la plus francophone hors Qu&eacute;bec</h2>
+      <p>
+        Avec environ un tiers de sa population francophone (surtout dans la r&eacute;gion acadienne autour de Moncton), le Nouveau-Brunswick est souvent une destination naturelle pour les immigrants francophones qui souhaitent rester en milieu minoritaire fran&ccedil;ais sans les r&egrave;gles linguistiques sp&eacute;cifiques du <InternalLink slug="hypotheque-francophone-quebec">Qu&eacute;bec</InternalLink>. La taxe de transfert foncier y est simple&nbsp;: <strong>1&nbsp;%</strong> de la valeur &eacute;valu&eacute;e ou de la contrepartie de vente, selon le montant le plus &eacute;lev&eacute;, sans exemption ni rabais pour les premiers acheteurs.
+      </p>
+
+      <h2>&Icirc;le-du-Prince-&Eacute;douard : attention &agrave; la Lands Protection Act</h2>
+      <p>
+        L&rsquo;&Icirc;le-du-Prince-&Eacute;douard applique une r&egrave;gle unique au Canada&nbsp;: sa <em>Lands Protection Act</em> consid&egrave;re comme <strong>non-r&eacute;sident</strong> toute personne &mdash; m&ecirc;me un citoyen canadien ou un r&eacute;sident permanent &mdash; qui n&rsquo;a pas r&eacute;sid&eacute; de fa&ccedil;on principale sur l&rsquo;&icirc;le pendant au moins 365 jours au cours des 24 mois pr&eacute;c&eacute;dant l&rsquo;achat. Un non-r&eacute;sident peut acqu&eacute;rir jusqu&rsquo;&agrave; 5&nbsp;acres (ou 165&nbsp;pieds de fa&ccedil;ade riveraine) sans approbation&nbsp;; au-del&agrave;, une autorisation du Conseil ex&eacute;cutif provincial (via l&rsquo;Island Regulatory and Appeals Commission) est requise, un processus qui peut ajouter plusieurs semaines &agrave; une transaction.
+      </p>
+      <p>
+        Cette restriction est ind&eacute;pendante de la <InternalLink slug="interdiction-achat-non-canadien-exemptions-2027">Loi f&eacute;d&eacute;rale sur l&rsquo;interdiction d&rsquo;achat par des non-Canadiens</InternalLink>&nbsp;: m&ecirc;me un immigrant exempt&eacute; de la loi f&eacute;d&eacute;rale (r&eacute;sident permanent, par exemple) reste soumis &agrave; la r&egrave;gle provinciale tant qu&rsquo;il n&rsquo;a pas &eacute;tabli sa r&eacute;sidence principale sur l&rsquo;&icirc;le. Des modifications propos&eacute;es en 2025 visent &agrave; resserrer encore la r&egrave;gle pour les propri&eacute;t&eacute;s municipales d&rsquo;un acre ou moins &mdash; v&eacute;rifiez le statut le plus r&eacute;cent aupr&egrave;s de l&rsquo;IRAC avant de faire une offre.
+      </p>
+      <p>
+        Bonne nouvelle c&ocirc;t&eacute; fiscalit&eacute;&nbsp;: la taxe de transfert de propri&eacute;t&eacute; r&eacute;elle (1&nbsp;% du prix ou de la valeur &eacute;valu&eacute;e, le plus &eacute;lev&eacute; des deux) est <strong>exempt&eacute;e pour les premiers acheteurs</strong> sur une r&eacute;sidence principale de 200&nbsp;000&nbsp;$ ou moins. Mais cette exemption a sa propre condition de r&eacute;sidence, distincte de la Lands Protection Act&nbsp;: il faut &ecirc;tre citoyen canadien ou r&eacute;sident permanent et avoir v&eacute;cu &agrave; l&rsquo;&Icirc;le-du-Prince-&Eacute;douard pendant au moins six mois avant l&rsquo;achat, ou y avoir produit ses d&eacute;clarations de revenus &agrave; deux reprises au cours des six derni&egrave;res ann&eacute;es.
+      </p>
+
+      <h2>Terre-Neuve-et-Labrador : pas de taxe de transfert, mais des frais d&rsquo;enregistrement</h2>
+      <p>
+        Terre-Neuve-et-Labrador ne pr&eacute;l&egrave;ve pas de taxe de transfert foncier &agrave; proprement parler. Les acheteurs paient plut&ocirc;t des frais d&rsquo;enregistrement en vertu du <em>Registration of Deeds Act</em>&nbsp;: 100&nbsp;$ de base pour une valeur de vente jusqu&rsquo;&agrave; 500&nbsp;$, puis 0,40&nbsp;$ par tranche additionnelle de 100&nbsp;$, avec un plafond de 5&nbsp;000&nbsp;$. Aucun rabais sp&eacute;cifique n&rsquo;existe pour les premiers acheteurs &agrave; ce niveau, mais le co&ucirc;t global reste parmi les plus bas au pays.
+      </p>
+
+      <h2>Comparaison rapide des 4 provinces</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Province</th>
+            <th>TVH</th>
+            <th>Taxe de transfert / frais</th>
+            <th>Particularit&eacute; pour immigrants</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Nouvelle-&Eacute;cosse</strong></td>
+            <td>14&nbsp;%</td>
+            <td>Jusqu&rsquo;&agrave; 1,5&nbsp;% (municipal, ex.&nbsp;Halifax)</td>
+            <td>Rabais 3&nbsp;000&nbsp;$ sur maison neuve</td>
+          </tr>
+          <tr>
+            <td><strong>Nouveau-Brunswick</strong></td>
+            <td>15&nbsp;%</td>
+            <td>1&nbsp;% de la valeur</td>
+            <td>Forte communaut&eacute; francophone (Acadie)</td>
+          </tr>
+          <tr>
+            <td><strong>&Icirc;le-du-Prince-&Eacute;douard</strong></td>
+            <td>15&nbsp;%</td>
+            <td>1&nbsp;% (exempt&eacute; si premier achat &le; 200&nbsp;000&nbsp;$)</td>
+            <td>Limite de 5&nbsp;acres pour non-r&eacute;sidents</td>
+          </tr>
+          <tr>
+            <td><strong>Terre-Neuve-et-Labrador</strong></td>
+            <td>15&nbsp;%</td>
+            <td>Frais d&rsquo;enregistrement plafonn&eacute;s &agrave; 5&nbsp;000&nbsp;$</td>
+            <td>Pas de taxe de transfert traditionnelle</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Financement : ce qui reste vrai partout au Canada atlantique</h2>
+      <p>
+        Les r&egrave;gles hypoth&eacute;caires f&eacute;d&eacute;rales &mdash; <InternalLink slug="stress-test-hypothecaire-canada-immigrant-guide">stress test</InternalLink>, assurance <InternalLink slug="assurance-hypothecaire-schl-primes-guide-2026">SCHL</InternalLink>, programme SCHL Nouveaux Arrivants avec 5&nbsp;% de mise de fonds &mdash; s&rsquo;appliquent de la m&ecirc;me fa&ccedil;on dans les Maritimes qu&rsquo;ailleurs au pays. Sur des maisons neuves, le <InternalLink slug="rabais-tps-premier-acheteur-maison-neuve-2026-immigrant">rabais f&eacute;d&eacute;ral de TPS</InternalLink> pour premiers acheteurs (projet de loi C-4) s&rsquo;applique aussi int&eacute;gralement dans les quatre provinces. La principale diff&eacute;rence concerne le march&eacute; lui-m&ecirc;me&nbsp;: march&eacute;s plus petits, moins de pr&ecirc;teurs avec succursale locale, et un march&eacute; de la revente parfois moins liquide &mdash; un bon argument pour passer par un <InternalLink slug="courtier-hypothecaire-vs-banque-immigrant">courtier hypoth&eacute;caire</InternalLink> qui conna&icirc;t les pr&ecirc;teurs actifs dans votre r&eacute;gion pr&eacute;cise.
+      </p>
+      <p>
+        Sources officielles&nbsp;: <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/atlantic-immigration.html" target="_blank" rel="noopener noreferrer">IRCC &mdash; Programme d&rsquo;immigration au Canada atlantique</a>, <a href="https://beta.novascotia.ca/sites/default/files/documents/1-1192/first-time-home-buyers-rebate-program-overview-en.pdf" target="_blank" rel="noopener noreferrer">Gouvernement de la Nouvelle-&Eacute;cosse &mdash; First-Time Home Buyers Rebate</a> et <a href="https://www.princeedwardisland.ca/sites/default/files/legislation/l-05-lands_protection_act_p.e.i.pdf" target="_blank" rel="noopener noreferrer">Lands Protection Act de l&rsquo;&Icirc;le-du-Prince-&Eacute;douard</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };

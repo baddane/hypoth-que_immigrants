@@ -581,6 +581,17 @@ export const blogPosts: BlogPost[] = [
     wizardVariant: undefined,
     relatedSlugs: ["hypotheque-refinancement-renouvellement-immigrant", "hypotheque-taux-fixe-variable-immigrant", "hypotheque-reer-rap-immigrant-premier-achat"],
   },
+  // ====== ARTICLE #53 — CANADA ATLANTIQUE ======
+  {
+    slug: "hypotheque-canada-atlantique-immigrants-halifax-moncton",
+    title: "Hypothèque Canada Atlantique Immigrants : Guide Halifax, Moncton et les Maritimes",
+    subtitle: "Nouvelle-Écosse, Nouveau-Brunswick, Île-du-Prince-Édouard et Terre-Neuve : taxes, restrictions et programme d'immigration pour nouveaux arrivants.",
+    description: "Guide hypothèque pour immigrants au Canada atlantique. HST, taxes de transfert, restrictions terriennes de l'Île-du-Prince-Édouard et Programme d'immigration atlantique pour les 4 provinces maritimes.",
+    category: "Province",
+    readTime: "10 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-ontario-immigrants-toronto", "hypotheque-francophone-quebec", "droits-mutation-immobiliere-province-rabais-premier-acheteur", "interdiction-achat-non-canadien-exemptions-2027"],
+  },
 ];
 
 // Helper: get post by slug
