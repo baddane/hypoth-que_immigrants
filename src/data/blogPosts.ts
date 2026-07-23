@@ -581,6 +581,17 @@ export const blogPosts: BlogPost[] = [
     wizardVariant: undefined,
     relatedSlugs: ["hypotheque-refinancement-renouvellement-immigrant", "hypotheque-taux-fixe-variable-immigrant", "hypotheque-reer-rap-immigrant-premier-achat"],
   },
+  // ====== ARTICLE #53 — PÉNALITÉ DE REMBOURSEMENT ANTICIPÉ ======
+  {
+    slug: "penalite-remboursement-anticipe-bris-hypotheque-immigrant",
+    title: "Pénalité de Remboursement Anticipé : Combien Coûte de Briser son Hypothèque",
+    subtitle: "IRD, 3 mois d'intérêt, portabilité : comprenez le vrai coût avant de rompre votre terme hypothécaire.",
+    description: "Guide de la pénalité de remboursement anticipé au Canada : calcul de l'IRD vs 3 mois d'intérêt, exemple chiffré, portabilité et quand briser son hypothèque en vaut réellement la peine pour un immigrant.",
+    category: "Gestion",
+    readTime: "9 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-refinancement-renouvellement-immigrant", "renouvellement-hypothecaire-guide-eviter-choc-paiement", "hypotheque-taux-fixe-variable-immigrant"],
+  },
 ];
 
 // Helper: get post by slug

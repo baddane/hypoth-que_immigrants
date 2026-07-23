@@ -3299,4 +3299,105 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  "penalite-remboursement-anticipe-bris-hypotheque-immigrant": (
+    <>
+      <p>
+        Un changement d&rsquo;emploi vers une autre province, un taux nettement plus bas chez un concurrent, ou simplement l&rsquo;envie de vendre plus t&ocirc;t que pr&eacute;vu&nbsp;: beaucoup d&rsquo;immigrants se retrouvent un jour &agrave; vouloir rompre leur terme hypoth&eacute;caire avant &eacute;ch&eacute;ance. Le probl&egrave;me, c&rsquo;est que la <strong>p&eacute;nalit&eacute; de remboursement anticip&eacute;</strong> peut repr&eacute;senter plusieurs milliers de dollars &mdash; et le montant exact est rarement expliqu&eacute; clairement avant la signature. Voici comment elle est calcul&eacute;e, un exemple chiffr&eacute;, et les options pour l&rsquo;&eacute;viter.
+      </p>
+
+      <h2>Pourquoi une p&eacute;nalit&eacute; existe</h2>
+      <p>
+        Une hypoth&egrave;que &agrave; terme fixe est un contrat&nbsp;: le pr&ecirc;teur vous garantit un taux pendant une dur&eacute;e d&eacute;termin&eacute;e (souvent 5&nbsp;ans), en s&rsquo;appuyant sur les revenus d&rsquo;int&eacute;r&ecirc;t pr&eacute;vus pour cette p&eacute;riode. Si vous remboursez ou refinancez avant la fin du terme, le pr&ecirc;teur perd une partie de ces revenus attendus&nbsp;: la p&eacute;nalit&eacute; compense cette perte. Elle s&rsquo;applique en cas de vente, de <InternalLink slug="hypotheque-refinancement-renouvellement-immigrant">refinancement</InternalLink> anticip&eacute;, ou de remboursement forfaitaire au-del&agrave; du montant permis sans frais (g&eacute;n&eacute;ralement 10&nbsp;% &agrave; 20&nbsp;% du solde par ann&eacute;e, selon le contrat).
+      </p>
+
+      <h2>Deux m&eacute;thodes de calcul</h2>
+      <p>
+        Le montant de la p&eacute;nalit&eacute; d&eacute;pend du type de taux et de la m&eacute;thode utilis&eacute;e par le pr&ecirc;teur&nbsp;: le pr&ecirc;teur applique toujours la <strong>plus &eacute;lev&eacute;e</strong> des deux sur une hypoth&egrave;que &agrave; taux fixe.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>M&eacute;thode</th>
+            <th>S&rsquo;applique &agrave;</th>
+            <th>Principe du calcul</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>3&nbsp;mois d&rsquo;int&eacute;r&ecirc;t</strong></td>
+            <td>Taux variable, et taux fixe si plus &eacute;lev&eacute; que l&rsquo;IRD</td>
+            <td>Solde restant &times; taux contractuel &times; 3&nbsp;/&nbsp;12</td>
+          </tr>
+          <tr>
+            <td><strong>Indemnit&eacute; de diff&eacute;rentiel de taux (IRD)</strong></td>
+            <td>Taux fixe uniquement</td>
+            <td>Diff&eacute;rence entre votre taux et le taux affich&eacute; actuel pour un terme &eacute;quivalent au temps restant, appliqu&eacute;e au solde et &agrave; la dur&eacute;e restante</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        En pratique, l&rsquo;IRD devient &eacute;lev&eacute;e quand les taux ont <strong>baiss&eacute;</strong> depuis votre signature&nbsp;: plus l&rsquo;&eacute;cart avec le taux actuel est grand et plus il reste d&rsquo;ann&eacute;es &agrave; votre terme, plus la p&eacute;nalit&eacute; grimpe. Certaines banques calculent l&rsquo;IRD &agrave; partir de leur <em>taux affich&eacute;</em> plut&ocirc;t que du taux r&eacute;ellement offert aux nouveaux clients, ce qui gonfle artificiellement le montant &mdash; un point &agrave; v&eacute;rifier aupr&egrave;s de votre pr&ecirc;teur ou courtier avant de signer un premier contrat.
+      </p>
+
+      <WizardCta />
+
+      <h2>Exemple chiffr&eacute;</h2>
+      <p>
+        Prenons un solde hypoth&eacute;caire de 350&nbsp;000&nbsp;$, avec un taux fixe de 5,5&nbsp;% sign&eacute; il y a 2&nbsp;ans sur un terme de 5&nbsp;ans (il reste donc 3&nbsp;ans). Si le taux affich&eacute; actuel pour un terme de 3&nbsp;ans est de 4,5&nbsp;%&nbsp;:
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Calcul</th>
+            <th>Montant approximatif</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>3&nbsp;mois d&rsquo;int&eacute;r&ecirc;t (350&nbsp;000&nbsp;$ &times; 5,5&nbsp;% &times; 3/12)</td>
+            <td>≈ 4&nbsp;813&nbsp;$</td>
+          </tr>
+          <tr>
+            <td>IRD (&eacute;cart de 1&nbsp;% &times; 350&nbsp;000&nbsp;$ &times; 3&nbsp;ans restantes)</td>
+            <td>≈ 10&nbsp;500&nbsp;$</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Le pr&ecirc;teur retiendrait ici le montant le plus &eacute;lev&eacute;, soit environ <strong>10&nbsp;500&nbsp;$</strong>. Ces chiffres sont indicatifs&nbsp;: chaque pr&ecirc;teur a sa propre formule (certains utilisent le taux du terme original plut&ocirc;t que le terme restant), demandez toujours un calcul officiel &eacute;crit avant de prendre une d&eacute;cision.
+      </p>
+
+      <h2>&Eacute;viter la p&eacute;nalit&eacute; gr&acirc;ce &agrave; la portabilit&eacute;</h2>
+      <p>
+        Si le motif du bris est un d&eacute;m&eacute;nagement &mdash; fr&eacute;quent chez les immigrants qui changent de province pour un emploi &mdash; la plupart des hypoth&egrave;ques canadiennes offrent la <strong>portabilit&eacute;</strong>&nbsp;: vous transf&eacute;rez votre solde, votre taux et votre terme restant vers la nouvelle propri&eacute;t&eacute;, sans d&eacute;clencher la p&eacute;nalit&eacute;. Quelques conditions s&rsquo;appliquent&nbsp;:
+      </p>
+      <ul>
+        <li><strong>D&eacute;lai serr&eacute;</strong> &mdash; g&eacute;n&eacute;ralement 30 &agrave; 120&nbsp;jours entre la vente et l&rsquo;achat, selon le pr&ecirc;teur.</li>
+        <li><strong>Nouvelle qualification requise</strong> &mdash; le <InternalLink slug="stress-test-hypothecaire-canada-immigrant-guide">stress test</InternalLink> et l&rsquo;analyse de revenu et de cr&eacute;dit s&rsquo;appliquent de nouveau, m&ecirc;me si vous portez une hypoth&egrave;que existante.</li>
+        <li><strong>Montant suppl&eacute;mentaire</strong> &mdash; si la nouvelle propri&eacute;t&eacute; co&ucirc;te plus cher, le montant additionnel est souvent financ&eacute; &agrave; un taux m&eacute;lang&eacute; (<em>blend-and-extend</em>) entre votre taux actuel et le taux du march&eacute;.</li>
+      </ul>
+      <p>
+        La portabilit&eacute; n&rsquo;est toutefois pas automatique&nbsp;: v&eacute;rifiez cette clause dans votre contrat avant de signer, surtout si vous anticipez une possibilit&eacute; de relocalisation dans les prochaines ann&eacute;es &mdash; un scénario fr&eacute;quent pour les <InternalLink slug="hypotheque-travailleur-temporaire-5pourcent">travailleurs temporaires</InternalLink> dont le permis n&rsquo;est pas li&eacute; &agrave; une seule province.
+      </p>
+
+      <h2>Quand briser son hypoth&egrave;que en vaut vraiment la peine</h2>
+      <p>
+        Briser un terme fixe pour profiter d&rsquo;un taux plus bas n&rsquo;est rentable que si les &eacute;conomies d&rsquo;int&eacute;r&ecirc;t sur le temps restant d&eacute;passent la p&eacute;nalit&eacute; <strong>et</strong> les frais annexes (&eacute;valuation, frais juridiques, p&eacute;nalit&eacute; de d&eacute;charge). En r&egrave;gle g&eacute;n&eacute;rale, l&rsquo;op&eacute;ration devient int&eacute;ressante quand&nbsp;:
+      </p>
+      <ul>
+        <li>L&rsquo;&eacute;cart de taux d&eacute;passe environ 1&nbsp;point de pourcentage et qu&rsquo;il reste plus de 2&nbsp;ans au terme.</li>
+        <li>Vous pouvez n&eacute;gocier un rabais suppl&eacute;mentaire ou une remise en argent (<em>cashback</em>) chez le nouveau pr&ecirc;teur qui compense une partie de la p&eacute;nalit&eacute;.</li>
+        <li>Le bris s&rsquo;accompagne d&rsquo;un objectif plus large, comme consolider des dettes &agrave; taux &eacute;lev&eacute; ou financer une <InternalLink slug="acheter-duplex-triplex-immigrant-mise-de-fonds">propri&eacute;t&eacute; locative</InternalLink>.</li>
+      </ul>
+      <p>
+        Dans le doute, demandez &agrave; votre pr&ecirc;teur actuel un calcul de p&eacute;nalit&eacute; officiel et comparez-le &agrave; une offre &eacute;crite d&rsquo;un autre pr&ecirc;teur ou courtier avant de d&eacute;cider &mdash; jamais sur la base d&rsquo;une estimation verbale.
+      </p>
+      <p>
+        Sources officielles&nbsp;: <a href="https://www.canada.ca/fr/agence-consommation-matiere-financiere/services/hypotheques/penalites-remboursement-anticipe-hypotheque.html" target="_blank" rel="noopener noreferrer">Agence de la consommation en mati&egrave;re financi&egrave;re du Canada &mdash; P&eacute;nalit&eacute;s de remboursement anticip&eacute;</a> et <a href="https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/final-revised-guideline-b-20-residential-mortgage-underwriting-practices-procedures" target="_blank" rel="noopener noreferrer">BSIF &mdash; Ligne directrice B-20</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };
