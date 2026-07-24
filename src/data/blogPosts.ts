@@ -581,6 +581,17 @@ export const blogPosts: BlogPost[] = [
     wizardVariant: undefined,
     relatedSlugs: ["hypotheque-refinancement-renouvellement-immigrant", "hypotheque-taux-fixe-variable-immigrant", "hypotheque-reer-rap-immigrant-premier-achat"],
   },
+  // ====== ARTICLE #53 — PÉNALITÉS DE REMBOURSEMENT ANTICIPÉ ======
+  {
+    slug: "penalites-remboursement-anticipe-hypothecaire-guide",
+    title: "Pénalités de Remboursement Anticipé Hypothécaire : Comment les Calculer et les Éviter",
+    subtitle: "Vendre, refinancer ou rembourser avant terme peut coûter des milliers de dollars. Voici comment le savoir avant de signer.",
+    description: "Guide des pénalités de remboursement anticipé hypothécaire au Canada. Différence entre taux fixe et variable, calcul du différentiel de taux d'intérêt (IRD), privilèges de remboursement et stratégies pour les immigrants qui vendent ou refinancent tôt.",
+    category: "Gestion",
+    readTime: "9 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-refinancement-renouvellement-immigrant", "renouvellement-hypothecaire-guide-eviter-choc-paiement", "hypotheque-taux-fixe-variable-immigrant"],
+  },
 ];
 
 // Helper: get post by slug

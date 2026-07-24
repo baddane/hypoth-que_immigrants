@@ -3299,4 +3299,99 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  // ====================================================
+  // ARTICLE 53: PÉNALITÉS DE REMBOURSEMENT ANTICIPÉ
+  // ====================================================
+  "penalites-remboursement-anticipe-hypothecaire-guide": (
+    <>
+      <p>
+        Beaucoup d&rsquo;immigrants ach&egrave;tent leur premi&egrave;re propri&eacute;t&eacute; rapidement apr&egrave;s leur arriv&eacute;e, puis doivent la revendre ou refinancer plus t&ocirc;t que pr&eacute;vu &mdash; changement d&rsquo;emploi dans une autre ville, agrandissement de la famille, ou simplement une meilleure offre de taux ailleurs. Ce que peu de gens r&eacute;alisent avant de signer&nbsp;: rompre un contrat hypoth&eacute;caire avant la fin du terme peut co&ucirc;ter <strong>plusieurs milliers de dollars</strong> en p&eacute;nalit&eacute;. Voici comment ces p&eacute;nalit&eacute;s sont calcul&eacute;es, et comment les &eacute;viter ou les minimiser.
+      </p>
+
+      <h2>Pourquoi une pénalité existe</h2>
+      <p>
+        Quand une banque vous pr&ecirc;te de l&rsquo;argent &agrave; un taux fixe pour un terme donn&eacute; (souvent 5 ans), elle se finance elle-m&ecirc;me sur les march&eacute;s obligataires en fonction de ce m&ecirc;me terme. Si vous remboursez avant l&rsquo;&eacute;ch&eacute;ance, le pr&ecirc;teur perd les revenus d&rsquo;int&eacute;r&ecirc;t qu&rsquo;il avait pr&eacute;vus &mdash; surtout si les taux ont baiss&eacute; depuis la signature, puisqu&rsquo;il devra reprêter cet argent &agrave; un taux plus bas. La p&eacute;nalit&eacute; compense cette perte. Elle s&rsquo;applique lorsque vous&nbsp;:
+      </p>
+      <ul>
+        <li>vendez votre propri&eacute;t&eacute; et remboursez l&rsquo;hypoth&egrave;que au complet;</li>
+        <li>refinancez ou transf&eacute;rez votre hypoth&egrave;que vers un autre pr&ecirc;teur avant la fin du terme;</li>
+        <li>remboursez un montant sup&eacute;rieur &agrave; vos privil&egrave;ges de remboursement anticip&eacute; annuels (voir plus bas).</li>
+      </ul>
+
+      <h2>Taux fixe ou variable : deux calculs très différents</h2>
+      <p>
+        La m&eacute;thode de calcul d&eacute;pend enti&egrave;rement du type de taux choisi &mdash; un &eacute;l&eacute;ment &agrave; consid&eacute;rer d&egrave;s le d&eacute;part si vous pensez pouvoir d&eacute;m&eacute;nager ou revendre avant la fin du terme. Consultez notre guide <InternalLink slug="hypotheque-taux-fixe-variable-immigrant">taux fixe ou variable</InternalLink> pour le contexte complet.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Type de taux</th>
+            <th>Méthode de calcul</th>
+            <th>Ordre de grandeur</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Taux variable</strong></td>
+            <td>3 mois d&rsquo;int&eacute;r&ecirc;t sur le solde restant</td>
+            <td>G&eacute;n&eacute;ralement quelques centaines &agrave; ~1&nbsp;500&nbsp;$</td>
+          </tr>
+          <tr>
+            <td><strong>Taux fixe</strong></td>
+            <td>Le <strong>plus &eacute;lev&eacute;</strong> entre 3 mois d&rsquo;int&eacute;r&ecirc;t et le diff&eacute;rentiel de taux d&rsquo;int&eacute;r&ecirc;t (IRD)</td>
+            <td>Souvent 3&nbsp;000&nbsp;$ &agrave; 20&nbsp;000&nbsp;$+ selon le solde et l&rsquo;&eacute;cart de taux</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        En pratique, une hypoth&egrave;que &agrave; <strong>taux variable</strong> co&ucirc;te presque toujours beaucoup moins cher &agrave; rompre qu&rsquo;une hypoth&egrave;que &agrave; <strong>taux fixe</strong>, parce que le calcul du variable ignore l&rsquo;&eacute;volution des taux du march&eacute;. C&rsquo;est un facteur important si vous savez d&egrave;s l&rsquo;achat que votre horizon au Canada est incertain &mdash; par exemple en attente d&rsquo;une d&eacute;cision de statut ou d&rsquo;un transfert professionnel.
+      </p>
+
+      <h2>Comprendre le différentiel de taux d&rsquo;intérêt (IRD)</h2>
+      <p>
+        L&rsquo;IRD est la partie la plus difficile &agrave; anticiper, car chaque banque a sa propre formule. Le principe g&eacute;n&eacute;ral&nbsp;:
+      </p>
+      <ul>
+        <li>Le pr&ecirc;teur compare votre <strong>taux contractuel</strong> au taux qu&rsquo;il offre aujourd&rsquo;hui pour un terme correspondant &agrave; la dur&eacute;e restante de votre hypoth&egrave;que.</li>
+        <li>Si le taux actuel est <strong>plus bas</strong> que le v&ocirc;tre, l&rsquo;&eacute;cart est multipli&eacute; par le solde restant et par le temps restant sur le terme.</li>
+        <li>Si le taux actuel est &eacute;gal ou <strong>plus &eacute;lev&eacute;</strong> que le v&ocirc;tre, l&rsquo;IRD est nul et seule la p&eacute;nalit&eacute; de 3 mois d&rsquo;int&eacute;r&ecirc;t s&rsquo;applique.</li>
+      </ul>
+      <p>
+        Exemple simplifi&eacute;&nbsp;: un solde de 400&nbsp;000&nbsp;$, un taux contractuel de 5,5&nbsp;% et 2 ans restants sur le terme. Si le taux comparable actuel est de 4,0&nbsp;%, l&rsquo;&eacute;cart de 1,5&nbsp;point appliqu&eacute; sur 400&nbsp;000&nbsp;$ pendant 2 ans donne environ 12&nbsp;000&nbsp;$ de p&eacute;nalit&eacute; &mdash; bien au-del&agrave; des 3 mois d&rsquo;int&eacute;r&ecirc;t (environ 5&nbsp;500&nbsp;$ dans ce cas). C&rsquo;est pourquoi il est essentiel de <strong>demander un calcul &eacute;crit</strong> &agrave; votre pr&ecirc;teur avant de vendre ou de refinancer, plut&ocirc;t que d&rsquo;estimer vous-m&ecirc;me.
+      </p>
+
+      <WizardCta />
+
+      <h2>Les privilèges de remboursement anticipé : rembourser sans pénalité</h2>
+      <p>
+        La plupart des hypoth&egrave;ques ferm&eacute;es incluent des privil&egrave;ges annuels qui permettent de r&eacute;duire votre solde sans d&eacute;clencher de p&eacute;nalit&eacute;&nbsp;:
+      </p>
+      <ul>
+        <li><strong>Paiement forfaitaire annuel</strong> &mdash; g&eacute;n&eacute;ralement 10&nbsp;% &agrave; 20&nbsp;% du montant initial emprunt&eacute;, une ou plusieurs fois par ann&eacute;e selon le pr&ecirc;teur.</li>
+        <li><strong>Augmentation du paiement r&eacute;gulier</strong> &mdash; souvent jusqu&rsquo;&agrave; 10&nbsp;% &agrave; 20&nbsp;% de plus que le paiement pr&eacute;vu, de fa&ccedil;on permanente pour le reste du terme.</li>
+        <li><strong>Doublement de paiement</strong> &mdash; offert par certains pr&ecirc;teurs pour des versements ponctuels plus importants.</li>
+      </ul>
+      <p>
+        Une <strong>hypoth&egrave;que ouverte</strong> permet un remboursement total sans aucune p&eacute;nalit&eacute; &agrave; tout moment, mais son taux d&rsquo;int&eacute;r&ecirc;t est nettement plus &eacute;lev&eacute; qu&rsquo;une hypoth&egrave;que ferm&eacute;e &mdash; elle ne vaut la peine que si vous pr&eacute;voyez rembourser une somme importante &agrave; tr&egrave;s court terme (par exemple en attendant le transfert de fonds d&rsquo;une vente &agrave; l&rsquo;&eacute;tranger, voir notre guide sur le <InternalLink slug="transferer-mise-de-fonds-etranger-canada">transfert de mise de fonds</InternalLink>).
+      </p>
+
+      <h2>Stratégies pour les immigrants qui vendent ou refinancent tôt</h2>
+      <ul>
+        <li><strong>Portabilit&eacute; de l&rsquo;hypoth&egrave;que</strong> &mdash; si vous d&eacute;m&eacute;nagez sans quitter votre pr&ecirc;teur, la plupart des hypoth&egrave;ques ferm&eacute;es peuvent &ecirc;tre &laquo;&nbsp;transf&eacute;r&eacute;es&nbsp;&raquo; sur la nouvelle propri&eacute;t&eacute; sans p&eacute;nalit&eacute;, &agrave; condition de conclure l&rsquo;achat et la vente dans une fen&ecirc;tre de temps limit&eacute;e (souvent 30 &agrave; 120 jours selon le pr&ecirc;teur).</li>
+        <li><strong>Fusion et prolongation (&laquo;&nbsp;blend-and-extend&nbsp;&raquo;)</strong> &mdash; certains pr&ecirc;teurs offrent de m&eacute;langer votre taux actuel avec le taux du march&eacute; pour un nouveau terme plus long, &eacute;vitant ainsi la p&eacute;nalit&eacute; compl&egrave;te.</li>
+        <li><strong>Renouvellement anticip&eacute;</strong> &mdash; la plupart des pr&ecirc;teurs permettent de renouveler sans p&eacute;nalit&eacute; dans les 90 &agrave; 120 jours pr&eacute;c&eacute;dant l&rsquo;&eacute;ch&eacute;ance du terme; si votre vente ou refinancement approche de cette fen&ecirc;tre, patienter quelques semaines peut suffire &agrave; l&rsquo;&eacute;viter enti&egrave;rement. Voir notre guide sur le <InternalLink slug="renouvellement-hypothecaire-guide-eviter-choc-paiement">renouvellement hypoth&eacute;caire</InternalLink>.</li>
+        <li><strong>Choisir le taux variable d&egrave;s l&rsquo;achat</strong> si votre horizon au Canada est incertain (statut temporaire, transfert professionnel possible) &mdash; la p&eacute;nalit&eacute; plafonn&eacute;e &agrave; 3 mois d&rsquo;int&eacute;r&ecirc;t offre une flexibilit&eacute; pr&eacute;cieuse.</li>
+        <li><strong>Difficult&eacute; financi&egrave;re s&eacute;v&egrave;re</strong> &mdash; l&rsquo;Agence de la consommation en mati&egrave;re financi&egrave;re du Canada (ACFC) demande aux banques f&eacute;d&eacute;rales d&rsquo;envisager de renoncer aux p&eacute;nalit&eacute;s pour les emprunteurs en d&eacute;tresse financi&egrave;re s&eacute;v&egrave;re; contactez votre pr&ecirc;teur directement si vous &ecirc;tes dans cette situation plut&ocirc;t que de laisser le dossier aller en d&eacute;faut.</li>
+      </ul>
+      <p>
+        Avant de signer une nouvelle hypoth&egrave;que, demandez toujours &agrave; votre <InternalLink slug="courtier-hypothecaire-vs-banque-immigrant">courtier ou conseiller</InternalLink> la formule exacte de calcul de p&eacute;nalit&eacute; du pr&ecirc;teur choisi &mdash; elle varie significativement d&rsquo;une institution &agrave; l&rsquo;autre et peut faire une diff&eacute;rence de plusieurs milliers de dollars si votre situation change.
+      </p>
+      <p>
+        Sources officielles&nbsp;: <a href="https://www.canada.ca/en/financial-consumer-agency/services/mortgages/reduce-prepayment-penalties.html" target="_blank" rel="noopener noreferrer">Agence de la consommation en mati&egrave;re financi&egrave;re du Canada &mdash; Frais hypoth&eacute;caires : p&eacute;nalit&eacute;s de remboursement anticip&eacute;</a> et <a href="https://www.canada.ca/en/financial-consumer-agency/news/2023/06/financial-consumer-agency-of-canada-guideline-on-existing-consumer-mortgage-loans-in-exceptional-circumstances.html" target="_blank" rel="noopener noreferrer">ACFC &mdash; Ligne directrice sur les mesures d&rsquo;all&egrave;gement en circonstances exceptionnelles</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };
