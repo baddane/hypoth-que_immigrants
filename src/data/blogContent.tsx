@@ -3299,4 +3299,96 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  // ====================================================
+  // ARTICLE #53 — PROVINCES DE L'ATLANTIQUE (PICA)
+  // ====================================================
+  "hypotheque-provinces-atlantiques-immigrants-halifax-moncton": (
+    <>
+      <p>
+        Halifax, Moncton, Charlottetown, St. John&rsquo;s&nbsp;: les quatre provinces de l&rsquo;Atlantique offrent parmi les march&eacute;s immobiliers les plus abordables au Canada, et un chemin d&rsquo;immigration d&eacute;di&eacute; &mdash; le Programme d&rsquo;immigration au Canada atlantique (PICA) &mdash; qui facilite la r&eacute;sidence permanente pour les travailleurs recrut&eacute;s par des employeurs locaux. Mais ces provinces ont aussi leurs propres r&egrave;gles, parfois surprenantes, pour les acheteurs non-r&eacute;sidents. Voici ce qu&rsquo;un immigrant doit savoir avant d&rsquo;acheter en Nouvelle-&Eacute;cosse, au Nouveau-Brunswick, &agrave; l&rsquo;&Icirc;le-du-Prince-&Eacute;douard ou &agrave; Terre-Neuve-et-Labrador.
+      </p>
+
+      <h2>Le Programme d&rsquo;immigration au Canada atlantique (PICA)</h2>
+      <p>
+        Contrairement aux <InternalLink slug="hypotheque-francophone-quebec">programmes provinciaux</InternalLink> classiques, le <a href="https://www.canada.ca/fr/immigration-refugies-citoyennete/organisation/publications-guides/bulletins-guides-operationnels/resdience-permanente/categories-immigration-economique/programme-immigration-atlantique.html" target="_blank" rel="noopener noreferrer">Programme d&rsquo;immigration au Canada atlantique (PICA)</a> est une initiative f&eacute;d&eacute;rale-provinciale conjointe aux quatre provinces (Nouvelle-&Eacute;cosse, Nouveau-Brunswick, &Icirc;le-du-Prince-&Eacute;douard, Terre-Neuve-et-Labrador). Il repose sur un principe simple&nbsp;: un employeur d&eacute;sign&eacute; de la r&eacute;gion vous fait une offre d&rsquo;emploi valide, et cette offre appuie directement votre demande de r&eacute;sidence permanente.
+      </p>
+      <ul>
+        <li><strong>Offre d&rsquo;emploi valide</strong> d&rsquo;un employeur d&eacute;sign&eacute; en Atlantique &mdash; condition centrale du programme.</li>
+        <li><strong>Approbation provinciale</strong> confirmant que votre profil r&eacute;pond aux besoins de la province.</li>
+        <li><strong>Exigences minimales d&rsquo;&eacute;tudes</strong> et de <strong>comp&eacute;tences linguistiques</strong> selon la cat&eacute;gorie (travailleurs qualifi&eacute;s, travailleurs interm&eacute;diaires ou dipl&ocirc;m&eacute;s internationaux).</li>
+        <li><strong>Exp&eacute;rience de travail</strong> li&eacute;e &agrave; une profession admissible dans les 5&nbsp;ann&eacute;es pr&eacute;c&eacute;dant la demande (sauf pour certains dipl&ocirc;m&eacute;s locaux).</li>
+      </ul>
+      <p>
+        Comme pour les autres candidats provinciaux, l&rsquo;avantage principal du PICA pour votre dossier hypoth&eacute;caire est la <strong>stabilit&eacute; du statut</strong> plus qu&rsquo;un acc&egrave;s suppl&eacute;mentaire au cr&eacute;dit &mdash; le m&ecirc;me constat que pour tout <InternalLink slug="hypotheque-nouveau-resident-permanent-guide-complet">nouveau r&eacute;sident permanent</InternalLink>. Les banques &eacute;valuent toujours votre revenu, votre mise de fonds et votre historique en priorit&eacute;.
+      </p>
+
+      <WizardCta />
+
+      <h2>Le march&eacute; immobilier dans les 4 provinces atlantiques</h2>
+      <p>
+        Les prix restent nettement sous ceux de l&rsquo;<InternalLink slug="hypotheque-ontario-immigrants-toronto">Ontario</InternalLink> ou de la <InternalLink slug="hypotheque-bc-immigrants-vancouver-victoria">Colombie-Britannique</InternalLink>, m&ecirc;me si Halifax a connu une forte hausse ces derni&egrave;res ann&eacute;es.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Ville</th>
+            <th>Prix de r&eacute;f&eacute;rence (2026)</th>
+            <th>Tendance</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Halifax</strong> (N.-&Eacute;.)</td>
+            <td>~600&nbsp;000&nbsp;$</td>
+            <td>En repli apr&egrave;s le sommet d&rsquo;avril 2026</td>
+          </tr>
+          <tr>
+            <td><strong>St. John&rsquo;s</strong> (T.-N.-L.)</td>
+            <td>~424&nbsp;000&nbsp;$</td>
+            <td>Hausse annuelle marqu&eacute;e (+11&nbsp;%)</td>
+          </tr>
+          <tr>
+            <td><strong>Charlottetown</strong> (&Icirc;.-P.-&Eacute;.)</td>
+            <td>~420&nbsp;000 &agrave; 429&nbsp;000&nbsp;$</td>
+            <td>Croissance mod&eacute;r&eacute;e et stable</td>
+          </tr>
+          <tr>
+            <td><strong>Moncton</strong> (N.-B.)</td>
+            <td>~399&nbsp;000&nbsp;$</td>
+            <td>March&eacute; le plus abordable des quatre</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Avec 5&nbsp;% de mise de fonds, une propri&eacute;t&eacute; &agrave; Moncton ou St. John&rsquo;s demande souvent moins de 25&nbsp;000&nbsp;$ comptant &mdash; un point d&rsquo;entr&eacute;e bien plus accessible que dans les grands centres. Consultez notre <a href="/outils/calculateur-montant-empruntable" className="text-gold hover:underline font-semibold">calculateur de montant empruntable</a> pour situer votre propre capacit&eacute; d&rsquo;achat.
+      </p>
+
+      <h2>Attention aux taxes provinciales sur les non-r&eacute;sidents</h2>
+      <p>
+        Ces r&egrave;gles provinciales sont <strong>distinctes</strong> de la <InternalLink slug="interdiction-achat-non-canadien-exemptions-2027">loi f&eacute;d&eacute;rale sur l&rsquo;interdiction d&rsquo;achat pour non-Canadiens</InternalLink>&nbsp;: elles s&rsquo;appliquent selon votre <em>lieu de r&eacute;sidence</em>, pas votre citoyennet&eacute; ou votre statut d&rsquo;immigration.
+      </p>
+      <ul>
+        <li><strong>Nouvelle-&Eacute;cosse</strong> &mdash; la <a href="https://www.novascotia.ca/non-resident-provincial-deed-transfer-tax" target="_blank" rel="noopener noreferrer">taxe provinciale de transfert pour non-r&eacute;sidents</a> est de <strong>10&nbsp;%</strong> de la valeur de la propri&eacute;t&eacute; depuis avril&nbsp;2025. Une exemption existe si vous d&eacute;m&eacute;nagez en Nouvelle-&Eacute;cosse dans les 6&nbsp;mois suivant la transaction et fournissez une preuve de r&eacute;sidence.</li>
+        <li><strong>&Icirc;le-du-Prince-&Eacute;douard</strong> &mdash; la <em>Lands Protection Act</em> exige une approbation de l&rsquo;IRAC pour tout non-r&eacute;sident acqu&eacute;rant plus de 5&nbsp;acres ou 165&nbsp;pieds de fa&ccedil;ade riveraine, et impose une taxe fonci&egrave;re 50&nbsp;% plus &eacute;lev&eacute;e aux non-r&eacute;sidents. Un r&eacute;sident permanent ayant habit&eacute; sur l&rsquo;&icirc;le au moins 365&nbsp;jours sur les 24&nbsp;derniers mois est consid&eacute;r&eacute; r&eacute;sident et &eacute;chappe &agrave; ces restrictions.</li>
+        <li><strong>Nouveau-Brunswick et Terre-Neuve-et-Labrador</strong> &mdash; aucune taxe provinciale comparable pour non-r&eacute;sidents en 2026, ce qui simplifie le calcul des <InternalLink slug="frais-caches-achat-maison-immigrant-checklist">frais cach&eacute;s</InternalLink> pour un acheteur qui s&rsquo;y installe.</li>
+      </ul>
+      <p>
+        En pratique&nbsp;: un candidat PICA qui d&eacute;m&eacute;nage r&eacute;ellement dans la province o&ugrave; il travaille &eacute;vite ces taxes d&egrave;s lors qu&rsquo;il peut prouver sa r&eacute;sidence &mdash; ce qui est presque toujours le cas, puisque le programme exige une offre d&rsquo;emploi locale.
+      </p>
+
+      <h2>Banques et coop&eacute;ratives actives en r&eacute;gion atlantique</h2>
+      <p>
+        Les cinq grandes banques sont pr&eacute;sentes dans les principaux centres, avec une force historique pour la Banque Scotia, fond&eacute;e &agrave; Halifax en 1832. Plusieurs coop&eacute;ratives de cr&eacute;dit locales (East Coast Credit Union en Nouvelle-&Eacute;cosse, Coastal Financial Credit Union &agrave; Terre-Neuve) offrent aussi des produits hypoth&eacute;caires comp&eacute;titifs, parfois avec des crit&egrave;res plus flexibles pour les dossiers atypiques d&rsquo;immigrants.
+      </p>
+      <p>
+        Comme partout au Canada, un candidat PICA sans historique de cr&eacute;dit canadien peut passer par le <InternalLink slug="programme-schl-nouveaux-arrivants-guide-complet">programme SCHL Nouveaux Arrivants</InternalLink> pour acheter avec 5&nbsp;% de mise de fonds. Pour pr&eacute;parer votre dossier avant de contacter un pr&ecirc;teur, consultez notre guide de <InternalLink slug="preapprobation-hypotheque-immigrant">pr&eacute;approbation hypoth&eacute;caire pour immigrants</InternalLink>.
+      </p>
+      <p>
+        Sources officielles&nbsp;: <a href="https://www.canada.ca/fr/immigration-refugies-citoyennete/organisation/publications-guides/bulletins-guides-operationnels/resdience-permanente/categories-immigration-economique/programme-immigration-atlantique.html" target="_blank" rel="noopener noreferrer">IRCC &mdash; Programme d&rsquo;immigration au Canada atlantique</a> et <a href="https://www.novascotia.ca/non-resident-provincial-deed-transfer-tax" target="_blank" rel="noopener noreferrer">Gouvernement de la Nouvelle-&Eacute;cosse &mdash; Taxe de transfert pour non-r&eacute;sidents</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };

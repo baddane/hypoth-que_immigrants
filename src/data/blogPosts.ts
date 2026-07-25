@@ -1,5 +1,5 @@
 // ============================================
-// BLOG POSTS METADATA — 34 articles
+// BLOG POSTS METADATA — 53 articles
 // Data-driven: each post has metadata + markdown-like content sections
 // ============================================
 
@@ -580,6 +580,17 @@ export const blogPosts: BlogPost[] = [
     readTime: "9 min",
     wizardVariant: undefined,
     relatedSlugs: ["hypotheque-refinancement-renouvellement-immigrant", "hypotheque-taux-fixe-variable-immigrant", "hypotheque-reer-rap-immigrant-premier-achat"],
+  },
+  // ====== ARTICLE #53 — PROVINCES DE L'ATLANTIQUE (PICA) ======
+  {
+    slug: "hypotheque-provinces-atlantiques-immigrants-halifax-moncton",
+    title: "Hypothèque Provinces de l'Atlantique Immigrants : Halifax, Moncton et le Programme PICA",
+    subtitle: "Marchés parmi les plus abordables au Canada, mais attention à la taxe non-résident de la Nouvelle-Écosse et à la loi foncière de l'Î.-P.-É.",
+    description: "Guide hypothèque pour immigrants dans les provinces de l'Atlantique. Programme d'immigration au Canada atlantique (PICA), prix immobiliers à Halifax, Moncton, Charlottetown et St. John's, taxes provinciales pour non-résidents.",
+    category: "Province",
+    readTime: "9 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-francophone-quebec", "hypotheque-ontario-immigrants-toronto", "hypotheque-alberta-immigrants-calgary-edmonton", "interdiction-achat-non-canadien-exemptions-2027"],
   },
 ];
 
