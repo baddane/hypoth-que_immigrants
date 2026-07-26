@@ -3299,4 +3299,100 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  // ====================================================
+  // ARTICLE 53: PROVINCES DE L'ATLANTIQUE
+  // ====================================================
+  "hypotheque-atlantique-immigrants-halifax-moncton": (
+    <>
+      <p>
+        Pendant que les prix s&rsquo;envolent &agrave; Toronto ou Vancouver, les quatre provinces de l&rsquo;Atlantique &mdash; Nouvelle-&Eacute;cosse, Nouveau-Brunswick, &Icirc;le-du-Prince-&Eacute;douard et Terre-Neuve-et-Labrador &mdash; restent parmi les march&eacute;s les plus accessibles du pays, tout en offrant une voie d&eacute;di&eacute;e vers la r&eacute;sidence permanente pour les travailleurs qualifi&eacute;s. Voici ce qu&rsquo;un immigrant doit savoir avant d&rsquo;y acheter une propri&eacute;t&eacute;.
+      </p>
+
+      <h2>Un march&eacute; immobilier parmi les plus abordables du Canada</h2>
+      <p>
+        Les prix varient sensiblement d&rsquo;une province &agrave; l&rsquo;autre, mais restent tous nettement en dessous de la moyenne des grandes m&eacute;tropoles canadiennes&nbsp;:
+      </p>
+      <ul>
+        <li><strong>Halifax (N.-&Eacute;.)</strong> &mdash; prix moyen autour de 600&nbsp;000&nbsp;$ &agrave; 650&nbsp;000&nbsp;$, avec un prix repère (benchmark) plus repr&eacute;sentatif d&rsquo;environ 560&nbsp;000&nbsp;$ &agrave; 570&nbsp;000&nbsp;$ &mdash; le march&eacute; le plus cher de la r&eacute;gion, mais encore tr&egrave;s en dessous de Toronto ou Vancouver.</li>
+        <li><strong>Moncton (N.-B.)</strong> &mdash; prix moyen autour de 400&nbsp;000&nbsp;$ &agrave; 410&nbsp;000&nbsp;$, l&rsquo;un des march&eacute;s urbains &agrave; la croissance la plus rapide au pays.</li>
+        <li><strong>St. John&rsquo;s (T.-N.-L.)</strong> &mdash; prix moyen autour de 390&nbsp;000&nbsp;$ &agrave; 410&nbsp;000&nbsp;$, port&eacute; par les secteurs de la sant&eacute;, de l&rsquo;&eacute;nergie extrac&ocirc;ti&egrave;re et de l&rsquo;universit&eacute; Memorial.</li>
+        <li><strong>Charlottetown (&Icirc;.-P.-&Eacute;.)</strong> &mdash; march&eacute; le plus restreint du pays en volume, mais des prix d&rsquo;entr&eacute;e comparables &agrave; Moncton.</li>
+      </ul>
+      <p>
+        Avec une mise de fonds de 5&nbsp;%, comme le permet le <InternalLink slug="programme-schl-nouveaux-arrivants-guide-complet">programme SCHL Nouveaux Arrivants</InternalLink>, l&rsquo;acc&egrave;s &agrave; la propri&eacute;t&eacute; reste r&eacute;aliste dans la plupart de ces march&eacute;s &mdash; contrairement aux grandes villes de l&rsquo;Ontario ou de la Colombie-Britannique.
+      </p>
+
+      <WizardCta />
+
+      <h2>Le Programme d&rsquo;Immigration Atlantique (PIA) : une voie vers la RP port&eacute;e par l&rsquo;employeur</h2>
+      <p>
+        Devenu un programme permanent en janvier 2022 apr&egrave;s cinq ans de projet pilote, le <a href="https://www.canada.ca/fr/immigration-refugies-citoyennete/services/immigrer-canada/immigration-atlantique.html" target="_blank" rel="noopener noreferrer">Programme d&rsquo;Immigration Atlantique</a> permet &agrave; un employeur d&eacute;sign&eacute; des quatre provinces d&rsquo;embaucher un travailleur qualifi&eacute; ou un dipl&ocirc;m&eacute; international, puis de le parrainer vers la r&eacute;sidence permanente. Contrairement &agrave; l&rsquo;Entr&eacute;e express, ce programme n&rsquo;exige pas de syst&egrave;me de points comp&eacute;titif&nbsp;: l&rsquo;offre d&rsquo;emploi endoss&eacute;e par la province est le principal crit&egrave;re.
+      </p>
+      <p>
+        Pour votre dossier hypoth&eacute;caire, cela change concr&egrave;tement deux choses&nbsp;: un emploi confirm&eacute; d&egrave;s l&rsquo;arriv&eacute;e (revenu stable et v&eacute;rifiable) et une trajectoire claire vers la RP, ce qui rassure les pr&ecirc;teurs sur la stabilit&eacute; &agrave; long terme du dossier &mdash; m&ecirc;me si, comme expliqu&eacute; dans notre guide sur l&rsquo;<InternalLink slug="hypotheque-nouveau-resident-permanent-guide-complet">hypoth&egrave;que pour nouveau r&eacute;sident permanent</InternalLink>, le statut RP lui-m&ecirc;me ne d&eacute;bloque pas de mise de fonds plus basse que celle d&eacute;j&agrave; accessible avec un permis de travail valide.
+      </p>
+      <p>
+        Chaque province g&egrave;re aussi son propre volet de candidats designs (comme le Nova Scotia Nominee Program), qui peut acc&eacute;l&eacute;rer le processus pour certains m&eacute;tiers en p&eacute;nurie&nbsp;: v&eacute;rifiez les cat&eacute;gories actives aupr&egrave;s du programme provincial avant de d&eacute;poser une demande, car les crit&egrave;res et secteurs admissibles changent r&eacute;guli&egrave;rement.
+      </p>
+
+      <h2>Taxes de transfert de propri&eacute;t&eacute; par province</h2>
+      <p>
+        Les frais de transfert varient consid&eacute;rablement d&rsquo;une province atlantique &agrave; l&rsquo;autre &mdash; un &eacute;l&eacute;ment &agrave; int&eacute;grer dans votre budget de <InternalLink slug="frais-caches-achat-maison-immigrant-checklist">frais de cl&ocirc;ture</InternalLink> :
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Province</th>
+            <th>Taxe de transfert</th>
+            <th>Particularit&eacute;</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Nouvelle-&Eacute;cosse</strong></td>
+            <td>Deed Transfer Tax municipale, 0,5&nbsp;% &agrave; 1,5&nbsp;% selon la municipalit&eacute; (1,5&nbsp;% &agrave; Halifax)</td>
+            <td>Taxe additionnelle possible pour les non-r&eacute;sidents (voir section suivante)</td>
+          </tr>
+          <tr>
+            <td><strong>Nouveau-Brunswick</strong></td>
+            <td>Real Property Transfer Tax, taux fixe de 1&nbsp;%</td>
+            <td>Aucun rabais pour premier acheteur</td>
+          </tr>
+          <tr>
+            <td><strong>&Icirc;le-du-Prince-&Eacute;douard</strong></td>
+            <td>Real Property Transfer Tax, 1&nbsp;%</td>
+            <td>Exemption compl&egrave;te pour premier acheteur admissible</td>
+          </tr>
+          <tr>
+            <td><strong>Terre-Neuve-et-Labrador</strong></td>
+            <td>Frais d&rsquo;enregistrement modestes (environ 0,40&nbsp;$ par tranche de 100&nbsp;$), plafonn&eacute;s &agrave; 5&nbsp;000&nbsp;$</td>
+            <td>Parmi les frais de transfert les plus bas au pays</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <WizardCta />
+
+      <h2>La taxe des non-r&eacute;sidents en Nouvelle-&Eacute;cosse&nbsp;: ne pas confondre avec l&rsquo;interdiction f&eacute;d&eacute;rale</h2>
+      <p>
+        C&rsquo;est le point le plus mal compris pour un immigrant qui ach&egrave;te en Nouvelle-&Eacute;cosse. En plus de la Deed Transfer Tax municipale, la province applique une <strong>Non-resident Provincial Deed Transfer Tax</strong> distincte, pass&eacute;e de 5&nbsp;% &agrave; <strong>10&nbsp;%</strong> depuis le 1er&nbsp;avril&nbsp;2025 pour toute transaction conclue apr&egrave;s cette date. Contrairement &agrave; l&rsquo;<InternalLink slug="interdiction-achat-non-canadien-exemptions-2027">interdiction d&rsquo;achat pour non-Canadiens</InternalLink>, qui d&eacute;pend de votre statut d&rsquo;immigration, cette taxe provinciale d&eacute;pend uniquement de votre <strong>r&eacute;sidence fiscale</strong>&nbsp;: elle s&rsquo;applique &agrave; toute personne qui n&rsquo;est pas encore r&eacute;sidente de la Nouvelle-&Eacute;cosse au moment de la transaction, ind&eacute;pendamment de sa citoyennet&eacute; ou de son statut d&rsquo;immigration.
+      </p>
+      <p>
+        La bonne nouvelle&nbsp;: si vous d&eacute;m&eacute;nagez r&eacute;ellement en Nouvelle-&Eacute;cosse, une <strong>exemption</strong> existe pour tout acheteur qui devient r&eacute;sident de la province dans les <strong>6&nbsp;mois</strong> suivant la transaction, sur pr&eacute;sentation d&rsquo;une preuve de r&eacute;sidence. La plupart des immigrants qui ach&egrave;tent leur r&eacute;sidence principale pour s&rsquo;y &eacute;tablir ne paient donc jamais cette taxe &mdash; elle vise surtout les acheteurs hors province qui conservent leur r&eacute;sidence fiscale ailleurs.
+      </p>
+
+      <h2>Erreurs fr&eacute;quentes &agrave; &eacute;viter</h2>
+      <ul>
+        <li><strong>Confondre statut d&rsquo;immigration et r&eacute;sidence fiscale provinciale</strong> &mdash; un r&eacute;sident permanent qui n&rsquo;a pas encore d&eacute;m&eacute;nag&eacute; en Nouvelle-&Eacute;cosse reste consid&eacute;r&eacute; non-r&eacute;sident aux fins de la PDTT tant qu&rsquo;il n&rsquo;a pas fourni sa preuve de r&eacute;sidence.</li>
+        <li><strong>Oublier de d&eacute;poser le formulaire de preuve de r&eacute;sidence</strong> &mdash; sans cette d&eacute;marche dans les d&eacute;lais, la taxe de 10&nbsp;% redevient exigible avec int&eacute;r&ecirc;ts.</li>
+        <li><strong>Sous-estimer les d&eacute;lais de fermeture</strong> &mdash; les march&eacute;s de l&rsquo;Atlantique sont plus petits, ce qui peut limiter le choix de notaires ou avocats sp&eacute;cialis&eacute;s dans les dossiers d&rsquo;immigrants&nbsp;; commencez vos d&eacute;marches t&ocirc;t.</li>
+        <li><strong>Comparer uniquement le prix d&rsquo;achat</strong> &mdash; le co&ucirc;t de la vie et les salaires sont aussi plus bas qu&rsquo;en Ontario ou en Colombie-Britannique&nbsp;: comparez le <InternalLink slug="hypotheque-manitoba-immigrants-winnipeg">Manitoba</InternalLink> et les <InternalLink slug="droits-mutation-immobiliere-province-rabais-premier-acheteur">droits de mutation par province</InternalLink> pour une vue d&rsquo;ensemble avant de choisir votre destination.</li>
+      </ul>
+      <p>
+        Sources officielles&nbsp;: <a href="https://www.canada.ca/fr/immigration-refugies-citoyennete/services/immigrer-canada/immigration-atlantique.html" target="_blank" rel="noopener noreferrer">IRCC &mdash; Programme d&rsquo;Immigration Atlantique</a> et <a href="https://www.novascotia.ca/non-resident-provincial-deed-transfer-tax" target="_blank" rel="noopener noreferrer">Gouvernement de la Nouvelle-&Eacute;cosse &mdash; Non-resident Provincial Deed Transfer Tax</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
 };

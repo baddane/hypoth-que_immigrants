@@ -581,6 +581,17 @@ export const blogPosts: BlogPost[] = [
     wizardVariant: undefined,
     relatedSlugs: ["hypotheque-refinancement-renouvellement-immigrant", "hypotheque-taux-fixe-variable-immigrant", "hypotheque-reer-rap-immigrant-premier-achat"],
   },
+  // ====== ARTICLE #53 — PROVINCES DE L'ATLANTIQUE ======
+  {
+    slug: "hypotheque-atlantique-immigrants-halifax-moncton",
+    title: "Hypothèque Provinces de l'Atlantique pour Immigrants : Halifax, Moncton et St. John's",
+    subtitle: "Marché parmi les plus abordables du pays et Programme d'Immigration Atlantique : ce qu'un nouvel arrivant doit savoir.",
+    description: "Guide hypothèque pour immigrants en Nouvelle-Écosse, au Nouveau-Brunswick, à l'Île-du-Prince-Édouard et à Terre-Neuve-et-Labrador. Prix immobiliers, Programme d'Immigration Atlantique, taxes de transfert par province et taxe des non-résidents en Nouvelle-Écosse.",
+    category: "Province",
+    readTime: "9 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-nouveau-resident-permanent-guide-complet", "hypotheque-manitoba-immigrants-winnipeg", "droits-mutation-immobiliere-province-rabais-premier-acheteur"],
+  },
 ];
 
 // Helper: get post by slug
