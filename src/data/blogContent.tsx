@@ -3299,4 +3299,71 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  "hypotheque-nouvelle-ecosse-immigrants-halifax-programme-atlantique": (
+    <>
+      <p>
+        Pendant que Toronto et Vancouver restent hors de port&eacute;e pour beaucoup de nouveaux arrivants, la <strong>Nouvelle-&Eacute;cosse</strong> offre une combinaison rare&nbsp;: un march&eacute; immobilier plus abordable, une voie d&rsquo;immigration r&eacute;gionale con&ccedil;ue pour attirer des travailleurs, et depuis 2026 un programme provincial qui r&eacute;duit la mise de fonds minimale &agrave; seulement 2&nbsp;%. Voici ce qu&rsquo;un immigrant doit savoir avant d&rsquo;acheter &agrave; Halifax ou ailleurs dans la province.
+      </p>
+
+      <h2>Pourquoi la Nouvelle-&Eacute;cosse attire de plus en plus d&rsquo;immigrants</h2>
+      <p>
+        Le <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/atlantic-immigration.html" target="_blank" rel="noopener noreferrer">Programme d&rsquo;immigration au Canada atlantique</a> (PICA) est une voie permanente vers la r&eacute;sidence permanente, pilot&eacute;e par un employeur d&eacute;sign&eacute; dans l&rsquo;une des quatre provinces atlantiques. Contrairement &agrave; l&rsquo;Entr&eacute;e express, il n&rsquo;y a pas de tirage comp&eacute;titif&nbsp;: si vous avez une offre d&rsquo;emploi admissible et r&eacute;pondez aux crit&egrave;res, vous pouvez soumettre votre demande directement.
+      </p>
+      <p>
+        La Nouvelle-&Eacute;cosse maintient aussi son propre <strong>Programme des candidats de la province</strong> (NSNP), avec des volets pour travailleurs qualifi&eacute;s, entrepreneurs et diplom&eacute;s d&rsquo;&eacute;tablissements n&eacute;o-&eacute;cossais. En 2026, la province a m&ecirc;me &eacute;largi temporairement ses crit&egrave;res de s&eacute;lection pour inclure davantage de candidats d&eacute;j&agrave; install&eacute;s et int&eacute;gr&eacute;s au march&eacute;&nbsp;du travail local.
+      </p>
+      <p>
+        R&eacute;sultat concret pour un acheteur&nbsp;: si vous obtenez votre <InternalLink slug="hypotheque-nouveau-resident-permanent-guide-complet">r&eacute;sidence permanente</InternalLink> via l&rsquo;une de ces voies, plusieurs contraintes qui s&rsquo;appliquent aux travailleurs temporaires disparaissent d&egrave;s l&rsquo;obtention du statut.
+      </p>
+
+      <WizardCta />
+
+      <h2>Le march&eacute; immobilier &agrave; Halifax et dans le reste de la province</h2>
+      <p>
+        Selon les donn&eacute;es des associations immobili&egrave;res r&eacute;gionales, le prix m&eacute;dian d&rsquo;une maison unifamiliale dans la r&eacute;gion de Halifax-Dartmouth tourne autour de <strong>580 000&nbsp;$ &agrave; 600 000&nbsp;$</strong>, tandis qu&rsquo;un condo se situe plut&ocirc;t autour de <strong>400 000&nbsp;$</strong>. C&rsquo;est nettement en dessous des march&eacute;s de l&rsquo;<InternalLink slug="hypotheque-ontario-immigrants-toronto">Ontario</InternalLink> ou de la Colombie-Britannique, tout en restant plus &eacute;lev&eacute; que l&rsquo;<InternalLink slug="hypotheque-alberta-immigrants-calgary-edmonton">Alberta</InternalLink> ou le <InternalLink slug="hypotheque-manitoba-immigrants-winnipeg">Manitoba</InternalLink>.
+      </p>
+      <p>
+        En dehors de Halifax, des villes comme Dartmouth, Bedford, Truro ou Sydney offrent des prix encore plus accessibles, ce qui explique pourquoi une partie croissante des nouveaux arrivants s&rsquo;installe hors du centre-ville.
+      </p>
+
+      <h2>La taxe provinciale sur les non-r&eacute;sidents&nbsp;: ce qu&rsquo;il faut v&eacute;rifier</h2>
+      <p>
+        Depuis le 1er avril 2025, la Nouvelle-&Eacute;cosse a doubl&eacute; sa <strong>taxe provinciale de transfert de propri&eacute;t&eacute; pour non-r&eacute;sidents</strong> (Non-Resident Deed Transfer Tax), qui est pass&eacute;e de 5&nbsp;% &agrave; <strong>10&nbsp;%</strong> de la valeur la plus &eacute;lev&eacute;e entre le prix d&rsquo;achat et l&rsquo;&eacute;valuation municipale. Cette taxe s&rsquo;applique aux propri&eacute;t&eacute;s r&eacute;sidentielles de trois logements ou moins.
+      </p>
+      <p>
+        Le point important pour un immigrant qui d&eacute;m&eacute;nage r&eacute;ellement en Nouvelle-&Eacute;cosse&nbsp;: cette taxe vise les acheteurs qui <em>ne comptent pas r&eacute;sider</em> dans la province, pas les nouveaux arrivants qui s&rsquo;y installent. Une exemption existe pour toute personne qui d&eacute;m&eacute;nage dans la province dans les <strong>six mois</strong> suivant la cl&ocirc;ture, sur pr&eacute;sentation d&rsquo;une preuve de r&eacute;sidence. Comme les crit&egrave;res exacts de r&eacute;sidence et les documents requis peuvent &eacute;voluer, v&eacute;rifiez toujours les d&eacute;tails aupr&egrave;s du <a href="https://www.novascotia.ca/non-resident-provincial-deed-transfer-tax" target="_blank" rel="noopener noreferrer">Minist&egrave;re des Finances de la Nouvelle-&Eacute;cosse</a> ou d&rsquo;un notaire local avant de signer une offre d&rsquo;achat.
+      </p>
+      <p>
+        Cette taxe provinciale s&rsquo;ajoute &eacute;ventuellement &agrave; l&rsquo;<InternalLink slug="interdiction-achat-non-canadien-exemptions-2027">interdiction f&eacute;d&eacute;rale d&rsquo;achat par des non-Canadiens</InternalLink>, qui a ses propres exemptions distinctes pour les travailleurs temporaires et &eacute;tudiants&nbsp;: les deux r&eacute;gimes doivent &ecirc;tre v&eacute;rifi&eacute;s s&eacute;par&eacute;ment.
+      </p>
+
+      <h2>Le nouveau programme de mise de fonds &agrave; 2&nbsp;%&nbsp;: qui y est vraiment admissible</h2>
+      <p>
+        En f&eacute;vrier 2026, la Nouvelle-&Eacute;cosse est devenue la premi&egrave;re province canadienne &agrave; lancer un <strong>programme pilote de mise de fonds &agrave; 2&nbsp;%</strong> pour les premiers acheteurs, offert par une quinzaine de coop&eacute;ratives de cr&eacute;dit partenaires (dont Credit Union Atlantic, Coastal Financial et la Caisse populaire de Clare). Le gouvernement provincial garantit 90&nbsp;% de tout manque &agrave; gagner en cas de d&eacute;faut, ce qui &eacute;limine le besoin d&rsquo;une assurance pr&ecirc;t hypoth&eacute;caire traditionnelle.
+      </p>
+      <ul>
+        <li><strong>Revenu du m&eacute;nage&nbsp;:</strong> 200 000&nbsp;$ ou moins</li>
+        <li><strong>Statut requis&nbsp;:</strong> citoyen canadien ou r&eacute;sident permanent, r&eacute;sidant &agrave; temps plein en Nouvelle-&Eacute;cosse</li>
+        <li><strong>Prix maximal&nbsp;:</strong> 570 000&nbsp;$ dans la municipalit&eacute; r&eacute;gionale de Halifax et East Hants, 500 000&nbsp;$ ailleurs dans la province</li>
+        <li><strong>Cr&eacute;dit&nbsp;:</strong> score minimal de 630, ou preuve alternative de solvabilit&eacute; en l&rsquo;absence d&rsquo;historique</li>
+        <li><strong>Demande&nbsp;:</strong> aucune d&eacute;marche gouvernementale s&eacute;par&eacute;e &mdash; l&rsquo;admissibilit&eacute; est &eacute;valu&eacute;e directement par la coop&eacute;rative de cr&eacute;dit lors de la demande hypoth&eacute;caire</li>
+      </ul>
+      <p>
+        Le point crucial&nbsp;: ce programme <strong>exclut les r&eacute;sidents temporaires</strong>. Si vous &ecirc;tes travailleur temporaire ou &eacute;tudiant international sans r&eacute;sidence permanente, cette option ne s&rsquo;applique pas encore &agrave; vous &mdash; mais le <InternalLink slug="programme-schl-nouveaux-arrivants-guide-complet">programme SCHL Nouveaux Arrivants</InternalLink>, accessible partout au pays d&egrave;s 5&nbsp;% de mise de fonds, reste votre meilleure option en attendant votre RP.
+      </p>
+
+      <WizardCta />
+
+      <h2>Droits de mutation municipaux et strat&eacute;gie d&rsquo;achat</h2>
+      <p>
+        En plus de la taxe provinciale sur les non-r&eacute;sidents, chaque municipalit&eacute; n&eacute;o-&eacute;cossaise impose ses propres <InternalLink slug="droits-mutation-immobiliere-province-rabais-premier-acheteur">droits de mutation</InternalLink>, plafonn&eacute;s &agrave; 1,5&nbsp;% de la valeur de la propri&eacute;t&eacute;. La municipalit&eacute; r&eacute;gionale de Halifax applique le taux maximal de 1,5&nbsp;%, alors que certaines municipalit&eacute;s rurales appliquent des taux plus bas, entre 0,5&nbsp;% et 1,5&nbsp;%. Contrairement &agrave; l&rsquo;Ontario ou la Colombie-Britannique, la Nouvelle-&Eacute;cosse n&rsquo;offre <strong>aucun remboursement provincial</strong> de ces droits pour les premiers acheteurs.
+      </p>
+      <p>
+        Toutes les grandes banques canadiennes sont pr&eacute;sentes &agrave; Halifax, mais &eacute;tant donn&eacute; que le programme &agrave; 2&nbsp;% n&rsquo;est offert que par des coop&eacute;ratives de cr&eacute;dit, il vaut la peine de comparer une institution financi&egrave;re traditionnelle avec une caisse populaire locale avant de choisir votre pr&ecirc;teur. Pensez aussi &agrave; <InternalLink slug="construire-credit-canadien-6-mois-immigrant">b&acirc;tir votre dossier de cr&eacute;dit canadien</InternalLink> d&egrave;s votre arriv&eacute;e afin de d&eacute;passer le seuil de 630 points requis par le programme provincial.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };

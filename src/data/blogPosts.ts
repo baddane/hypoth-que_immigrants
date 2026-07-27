@@ -581,6 +581,17 @@ export const blogPosts: BlogPost[] = [
     wizardVariant: undefined,
     relatedSlugs: ["hypotheque-refinancement-renouvellement-immigrant", "hypotheque-taux-fixe-variable-immigrant", "hypotheque-reer-rap-immigrant-premier-achat"],
   },
+  // ====== ARTICLE #53 — NOUVELLE-ÉCOSSE ET PROGRAMME ATLANTIQUE ======
+  {
+    slug: "hypotheque-nouvelle-ecosse-immigrants-halifax-programme-atlantique",
+    title: "Hypothèque en Nouvelle-Écosse pour Immigrants : Halifax et le Programme Atlantique",
+    subtitle: "Marché plus abordable, voie accélérée vers la résidence permanente et nouveau programme de mise de fonds à 2 % : ce qu'il faut savoir avant d'acheter.",
+    description: "Guide hypothèque pour immigrants en Nouvelle-Écosse. Marché de Halifax, Programme d'immigration au Canada atlantique, taxe sur les non-résidents et nouveau programme de mise de fonds à 2 %.",
+    category: "Province",
+    readTime: "9 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-manitoba-immigrants-winnipeg", "programme-schl-nouveaux-arrivants-guide-complet", "hypotheque-nouveau-resident-permanent-guide-complet"],
+  },
 ];
 
 // Helper: get post by slug
