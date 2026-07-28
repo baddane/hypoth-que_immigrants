@@ -3299,4 +3299,96 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  "hypotheque-saskatchewan-immigrants-regina-saskatoon": (
+    <>
+      <p>
+        Pendant que Toronto et Vancouver dominent les manchettes sur l&rsquo;inabordabilit&eacute; du logement, la Saskatchewan reste largement m&eacute;connue des nouveaux arrivants &mdash; alors qu&rsquo;elle combine l&rsquo;un des march&eacute;s immobiliers les plus abordables du pays avec l&rsquo;un des programmes provinciaux d&rsquo;immigration les plus actifs, le <strong>Saskatchewan Immigrant Nominee Program (SINP)</strong>. Voici ce qu&rsquo;un immigrant doit savoir avant d&rsquo;acheter &agrave; Regina, Saskatoon ou ailleurs dans la province.
+      </p>
+
+      <h2>Un march&eacute; immobilier parmi les plus accessibles du Canada</h2>
+      <p>
+        Contrairement aux grands centres ontariens ou britanno-colombiens, les principales villes de la Saskatchewan restent largement sous la barre des 450&nbsp;000&nbsp;$ &mdash; un &eacute;cart consid&eacute;rable qui change concr&egrave;tement le montant de mise de fonds n&eacute;cessaire pour devenir propri&eacute;taire.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Ville</th>
+            <th>Prix m&eacute;dian approximatif</th>
+            <th>Mise de fonds 5&nbsp;%</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Regina</strong></td>
+            <td>~350&nbsp;000&nbsp;$ &agrave; 390&nbsp;000&nbsp;$</td>
+            <td>~17&nbsp;500&nbsp;$ &agrave; 19&nbsp;500&nbsp;$</td>
+          </tr>
+          <tr>
+            <td><strong>Saskatoon</strong></td>
+            <td>~380&nbsp;000&nbsp;$ &agrave; 430&nbsp;000&nbsp;$</td>
+            <td>~19&nbsp;000&nbsp;$ &agrave; 21&nbsp;500&nbsp;$</td>
+          </tr>
+          <tr>
+            <td><strong>Moose Jaw, Prince Albert</strong></td>
+            <td>~250&nbsp;000&nbsp;$ &agrave; 300&nbsp;000&nbsp;$</td>
+            <td>~12&nbsp;500&nbsp;$ &agrave; 15&nbsp;000&nbsp;$</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        &Agrave; titre de comparaison, la m&ecirc;me mise de fonds de 5&nbsp;% sur un condo torontois moyen d&eacute;passe souvent 30&nbsp;000&nbsp;$, sans compter des mensualit&eacute;s nettement plus &eacute;lev&eacute;es. Pour un immigrant qui arrive avec des &eacute;conomies limit&eacute;es, cet &eacute;cart peut faire la diff&eacute;rence entre acheter maintenant ou louer encore plusieurs ann&eacute;es.
+      </p>
+
+      <WizardCta />
+
+      <h2>Le Programme des candidats de la Saskatchewan (SINP)</h2>
+      <p>
+        Le <a href="https://www.saskatchewan.ca/immigration" target="_blank" rel="noopener noreferrer">Saskatchewan Immigrant Nominee Program</a> est l&rsquo;un des programmes provinciaux les plus actifs au pays, avec une allocation de nomination de plusieurs milliers de places chaque ann&eacute;e et des d&eacute;lais de traitement parmi les plus rapides du Canada pour certains volets. Trois grandes cat&eacute;gories existent&nbsp;:
+      </p>
+      <ul>
+        <li><strong>Travailleur qualifi&eacute; &eacute;tranger (International Skilled Worker)</strong> &mdash; pour les candidats &agrave; l&rsquo;ext&eacute;rieur du Canada, avec des sous-volets cibl&eacute;s (sant&eacute;, technologie, agriculture, professions en demande).</li>
+        <li><strong>Exp&eacute;rience Saskatchewan</strong> &mdash; pour les travailleurs temporaires ou &eacute;tudiants d&eacute;j&agrave; &eacute;tablis dans la province, souvent le chemin le plus rapide vers la nomination.</li>
+        <li><strong>Entrepreneur et agriculture</strong> &mdash; pour les propri&eacute;taires d&rsquo;entreprise et exploitants agricoles souhaitant s&rsquo;&eacute;tablir.</li>
+      </ul>
+      <p>
+        Une nomination SINP acc&eacute;l&egrave;re le traitement de la demande de r&eacute;sidence permanente aupr&egrave;s d&rsquo;IRCC &mdash; ce qui, du point de vue d&rsquo;un pr&ecirc;teur hypoth&eacute;caire, renforce la stabilit&eacute; per&ccedil;ue du dossier sans pour autant remplacer les crit&egrave;res financiers habituels (revenu, cr&eacute;dit, mise de fonds). Consultez notre guide sur ce qui change r&eacute;ellement au <InternalLink slug="hypotheque-nouveau-resident-permanent-guide-complet">passage au statut de r&eacute;sident permanent</InternalLink>.
+      </p>
+
+      <h2>Pas de taxe de mutation, mais une PST &agrave; ne pas oublier</h2>
+      <p>
+        Bonne nouvelle&nbsp;: la Saskatchewan n&rsquo;impose <strong>aucune taxe de transfert de propri&eacute;t&eacute;</strong> comme l&rsquo;Ontario ou la Colombie-Britannique. Elle applique plut&ocirc;t des <strong>frais d&rsquo;enregistrement de titre</strong> beaucoup plus modestes&nbsp;:
+      </p>
+      <ul>
+        <li><strong>Frais de transfert de titre (Land Titles) :</strong> environ 0,4&nbsp;% de la valeur de la propri&eacute;t&eacute; (soit 4&nbsp;$ par tranche de 1&nbsp;000&nbsp;$), pergus par Information Services Corporation (ISC).</li>
+        <li><strong>Honoraires d&rsquo;avocat :</strong> g&eacute;n&eacute;ralement 1&nbsp;000&nbsp;$ &agrave; 1&nbsp;800&nbsp;$ pour la fermeture &mdash; obligatoire en Saskatchewan comme dans le reste du Canada anglophone.</li>
+        <li><strong>PST de 6&nbsp;% sur la prime d&rsquo;<InternalLink slug="hypotheque-assurance-schl-sagen-cmhc">assurance hypoth&eacute;caire</InternalLink> :</strong> si votre mise de fonds est inf&eacute;rieure &agrave; 20&nbsp;%, la taxe de vente provinciale s&rsquo;applique sur la prime SCHL, Sagen ou Canada Guaranty. Elle doit &ecirc;tre pay&eacute;e comptant &agrave; la fermeture &mdash; elle ne peut pas &ecirc;tre ajout&eacute;e au montant de l&rsquo;hypoth&egrave;que.</li>
+      </ul>
+      <p>
+        Ce dernier point surprend souvent les nouveaux arrivants qui budg&eacute;tisent uniquement la mise de fonds&nbsp;: sur une propri&eacute;t&eacute; de 380&nbsp;000&nbsp;$ achet&eacute;e avec 5&nbsp;% de mise de fonds, la PST sur la prime d&rsquo;assurance peut repr&eacute;senter plusieurs milliers de dollars &agrave; pr&eacute;voir en liquidit&eacute;s suppl&eacute;mentaires, en plus des frais de cl&ocirc;ture habituels.
+      </p>
+
+      <WizardCta variant="dark" />
+
+      <h2>Programmes f&eacute;d&eacute;raux applicables partout en Saskatchewan</h2>
+      <p>
+        Les incitatifs f&eacute;d&eacute;raux pour premiers acheteurs s&rsquo;appliquent int&eacute;gralement en Saskatchewan, comme dans les autres provinces&nbsp;: le <InternalLink slug="hypotheque-reer-rap-immigrant-premier-achat">R&eacute;gime d&rsquo;accession &agrave; la propri&eacute;t&eacute; (RAP) et le CELIAPP</InternalLink>, ainsi que le <InternalLink slug="programme-schl-nouveaux-arrivants-guide-complet">programme SCHL Nouveaux Arrivants</InternalLink> pour les immigrants au Canada depuis cinq ans ou moins qui n&rsquo;ont pas encore d&rsquo;historique de cr&eacute;dit canadien &eacute;tabli.
+      </p>
+
+      <h2>&Agrave; retenir avant d&rsquo;acheter en Saskatchewan</h2>
+      <ul>
+        <li><strong>March&eacute; d&eacute;tendu, pas de guerre d&rsquo;ench&egrave;res syst&eacute;matique</strong> &mdash; contrairement &agrave; Toronto ou Vancouver, les d&eacute;lais de transaction sont g&eacute;n&eacute;ralement plus longs et laissent le temps de n&eacute;gocier.</li>
+        <li><strong>Moins de pr&ecirc;teurs sp&eacute;cialis&eacute;s &laquo;&nbsp;nouveaux arrivants&nbsp;&raquo; en succursale physique</strong> &mdash; les grandes banques offrent leurs programmes, mais un <InternalLink slug="courtier-hypothecaire-vs-banque-immigrant">courtier hypoth&eacute;caire</InternalLink> ind&eacute;pendant permet souvent de comparer plus d&rsquo;options dans les march&eacute;s secondaires.</li>
+        <li><strong>Pr&eacute;voyez la PST sur l&rsquo;assurance SCHL en liquidit&eacute;s</strong> &mdash; contrairement &agrave; la prime elle-m&ecirc;me, cette taxe ne peut pas &ecirc;tre financ&eacute;e dans le pr&ecirc;t.</li>
+      </ul>
+      <p>
+        Comparez aussi avec le march&eacute; voisin du <InternalLink slug="hypotheque-manitoba-immigrants-winnipeg">Manitoba</InternalLink> et celui de l&rsquo;<InternalLink slug="hypotheque-alberta-immigrants-calgary-edmonton">Alberta</InternalLink> pour situer la Saskatchewan parmi les options les plus abordables du pays.
+      </p>
+      <p>
+        Sources officielles&nbsp;: <a href="https://www.saskatchewan.ca/immigration" target="_blank" rel="noopener noreferrer">Gouvernement de la Saskatchewan &mdash; Immigration</a>, <a href="https://isc.ca" target="_blank" rel="noopener noreferrer">Information Services Corporation (ISC) &mdash; Frais de transfert de titre</a> et <a href="https://www.cmhc-schl.gc.ca" target="_blank" rel="noopener noreferrer">SCHL</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };

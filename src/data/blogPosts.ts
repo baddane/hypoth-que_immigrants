@@ -134,7 +134,7 @@ export const blogPosts: BlogPost[] = [
     category: "Province",
     readTime: "8 min",
     wizardVariant: undefined,
-    relatedSlugs: ["hypotheque-alberta-immigrants-calgary-edmonton", "hypotheque-francophone-quebec", "hypotheque-ontario-immigrants-toronto"],
+    relatedSlugs: ["hypotheque-alberta-immigrants-calgary-edmonton", "hypotheque-saskatchewan-immigrants-regina-saskatoon", "hypotheque-francophone-quebec"],
   },
   // ====== ARTICLE #10 ======
   {
@@ -580,6 +580,17 @@ export const blogPosts: BlogPost[] = [
     readTime: "9 min",
     wizardVariant: undefined,
     relatedSlugs: ["hypotheque-refinancement-renouvellement-immigrant", "hypotheque-taux-fixe-variable-immigrant", "hypotheque-reer-rap-immigrant-premier-achat"],
+  },
+  // ====== ARTICLE #53 — SASKATCHEWAN ======
+  {
+    slug: "hypotheque-saskatchewan-immigrants-regina-saskatoon",
+    title: "Hypothèque Saskatchewan Immigrants : Guide Regina, Saskatoon et le SINP",
+    subtitle: "Le marché le plus abordable du pays et l'un des programmes provinciaux les plus actifs. Ce qu'il faut savoir avant d'acheter.",
+    description: "Guide hypothèque pour immigrants en Saskatchewan. Marché Regina et Saskatoon, Programme des candidats de la Saskatchewan (SINP), frais de transfert de titre et PST sur l'assurance SCHL.",
+    category: "Province",
+    readTime: "9 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-manitoba-immigrants-winnipeg", "hypotheque-alberta-immigrants-calgary-edmonton", "programme-schl-nouveaux-arrivants-guide-complet"],
   },
 ];
 
