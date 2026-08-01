@@ -592,6 +592,17 @@ export const blogPosts: BlogPost[] = [
     wizardVariant: undefined,
     relatedSlugs: ["hypotheque-manitoba-immigrants-winnipeg", "hypotheque-alberta-immigrants-calgary-edmonton", "programme-schl-nouveaux-arrivants-guide-complet"],
   },
+  // ====== ARTICLE #54 — NOUVELLE-ÉCOSSE ======
+  {
+    slug: "hypotheque-nouvelle-ecosse-immigrants-halifax",
+    title: "Hypothèque Nouvelle-Écosse Immigrants : Guide Halifax et Programme AIP",
+    subtitle: "Marché abordable de l'Atlantique et voie rapide vers la résidence permanente. Ce qu'il faut savoir avant d'acheter en Nouvelle-Écosse.",
+    description: "Guide hypothèque pour immigrants en Nouvelle-Écosse. Marché Halifax, Programme des candidats de la Nouvelle-Écosse (NSNP), Programme d'immigration au Canada atlantique (PICA), taxe de mutation municipale et assurance SCHL.",
+    category: "Province",
+    readTime: "9 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-saskatchewan-immigrants-regina-saskatoon", "hypotheque-manitoba-immigrants-winnipeg", "hypotheque-nouveau-resident-permanent-guide-complet", "programme-schl-nouveaux-arrivants-guide-complet"],
+  },
 ];
 
 // Helper: get post by slug
