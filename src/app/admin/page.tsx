@@ -358,12 +358,30 @@ function LeadsTab({ leads, replies, password, onToggle, onRemove, onReplied, set
 
 type OutreachRow = { partner_id: string; status: string; commission_pct: number | null; notes: string | null; updated_at: string };
 
+const EMAILABLE = outreachContacts.filter((c) => c.email);
+
 function OutreachTab({ password, setError, setNotice }: { password: string; setError: (s: string) => void; setNotice: (s: string) => void }) {
   const [rows, setRows] = useState<Record<string, OutreachRow>>({});
   const [subject, setSubject] = useState(OUTREACH_DEFAULT_SUBJECT);
   const [body, setBody] = useState(OUTREACH_DEFAULT_BODY);
   const [testEmail, setTestEmail] = useState("");
   const [busy, setBusy] = useState(false);
+  // Sélection des partenaires à contacter (par e-mail). Tous cochés par défaut.
+  const [selected, setSelected] = useState<Set<string>>(
+    () => new Set(EMAILABLE.map((c) => c.email as string))
+  );
+
+  function toggleSel(email: string) {
+    setSelected((p) => {
+      const n = new Set(p);
+      if (n.has(email)) n.delete(email); else n.add(email);
+      return n;
+    });
+  }
+  const allSelected = selected.size === EMAILABLE.length && EMAILABLE.length > 0;
+  function toggleAll() {
+    setSelected(allSelected ? new Set() : new Set(EMAILABLE.map((c) => c.email as string)));
+  }
 
   const loadPipeline = useCallback(async () => {
     const { data, error } = await supabase.rpc("gh_admin_outreach_list", { p_password: password });
@@ -392,7 +410,7 @@ function OutreachTab({ password, setError, setNotice }: { password: string; setE
     try {
       const res = await fetch("/api/admin/outreach", {
         method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ password, action, subject, body, testEmail }),
+        body: JSON.stringify({ password, action, subject, body, testEmail, emails: [...selected] }),
       });
       const data = await res.json();
       if (!res.ok) setError(data.error || "Échec");
@@ -404,7 +422,14 @@ function OutreachTab({ password, setError, setNotice }: { password: string; setE
   return (
     <div className="space-y-6">
       <div className="bg-white rounded-2xl border border-gray-200 p-5">
-        <h2 className="font-extrabold text-midnight mb-3">Pipeline partenaires</h2>
+        <div className="flex items-center justify-between mb-3">
+          <h2 className="font-extrabold text-midnight">Pipeline partenaires</h2>
+          {EMAILABLE.length > 0 && (
+            <button onClick={toggleAll} className="text-sm font-semibold text-gold hover:text-gold-dark transition">
+              {allSelected ? "Tout décocher" : "Tout cocher"}
+            </button>
+          )}
+        </div>
         {outreachContacts.length === 0 ? (
           <p className="text-base text-gray-500">
             Aucun partenaire configuré. Ajoutez vos courtiers/partenaires dans <code className="text-gold">src/lib/outreach-contacts.ts</code>.
@@ -413,10 +438,24 @@ function OutreachTab({ password, setError, setNotice }: { password: string; setE
           <div className="space-y-3">
             {outreachContacts.map((c) => {
               const row = rows[c.id];
+              const canEmail = !!c.email;
               return (
-                <div key={c.id} className="border border-gray-100 rounded-xl p-3">
-                  <p className="font-semibold text-midnight">{c.partner} <span className="font-normal text-gray-400 text-sm">· {c.location}</span></p>
-                  <p className="text-sm text-gray-500 mb-2">{c.email ?? "(pas d'e-mail)"} — {c.note}</p>
+                <div key={c.id} className={`border rounded-xl p-3 ${canEmail && selected.has(c.email as string) ? "border-gold/40 bg-gold-light/30" : "border-gray-100"}`}>
+                  <div className="flex items-start gap-3">
+                    <input
+                      type="checkbox"
+                      className="mt-1.5"
+                      disabled={!canEmail}
+                      checked={canEmail && selected.has(c.email as string)}
+                      onChange={() => canEmail && toggleSel(c.email as string)}
+                      title={canEmail ? "Contacter ce partenaire" : "Pas d'e-mail vérifié"}
+                    />
+                    <div className="flex-1 min-w-0">
+                      <p className="font-semibold text-midnight">{c.partner} <span className="font-normal text-gray-400 text-sm">· {c.location}</span></p>
+                      <p className="text-sm text-gray-500 mb-2">
+                        {c.email ?? <span className="italic">pas d&apos;e-mail — {c.formUrl ? "voir page partenariat" : "à compléter"}</span>}
+                        {c.email ? ` — ${c.note}` : ""}
+                      </p>
                   <div className="flex flex-wrap gap-2 items-center">
                     <select value={row?.status ?? "contacted"} onChange={(e) => upsert(c.id, { status: e.target.value })}
                       className="rounded-lg border border-gray-300 px-2 py-1.5 text-sm">
@@ -433,6 +472,8 @@ function OutreachTab({ password, setError, setNotice }: { password: string; setE
                       onBlur={(e) => upsert(c.id, { notes: e.target.value || null })}
                       className="flex-1 min-w-[140px] rounded-lg border border-gray-300 px-2 py-1.5 text-sm" />
                   </div>
+                    </div>
+                  </div>
                 </div>
               );
             })}
@@ -442,7 +483,9 @@ function OutreachTab({ password, setError, setNotice }: { password: string; setE
 
       <div className="bg-white rounded-2xl border border-gray-200 p-5">
         <h2 className="font-extrabold text-midnight mb-3">Message de prospection</h2>
-        <p className="text-sm text-gray-400 mb-3">{"{{partner}}"} est remplacé par le nom. Envoi limité aux e-mails de l&apos;allowlist.</p>
+        <p className="text-sm text-gray-400 mb-3">
+          {"{{partner}}"} est remplacé par le nom. <strong>{selected.size}</strong> partenaire(s) coché(s) sur {EMAILABLE.length} avec e-mail vérifié.
+        </p>
         <input value={subject} onChange={(e) => setSubject(e.target.value)} placeholder="Objet"
           className="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm mb-2 focus:outline-none focus:border-gold" />
         <textarea value={body} onChange={(e) => setBody(e.target.value)} rows={8}
@@ -452,8 +495,10 @@ function OutreachTab({ password, setError, setNotice }: { password: string; setE
             className="rounded-lg border border-gray-300 px-3 py-2 text-sm focus:outline-none focus:border-gold" />
           <button onClick={() => broadcast("test")} disabled={busy}
             className="bg-white text-gold border border-gold px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gold hover:text-white transition disabled:opacity-50">Test</button>
-          <button onClick={() => broadcast("send")} disabled={busy}
-            className="bg-gold text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gold-dark transition disabled:opacity-50">Envoyer à l&apos;allowlist</button>
+          <button onClick={() => broadcast("send")} disabled={busy || selected.size === 0}
+            className="bg-gold text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gold-dark transition disabled:opacity-50">
+            Envoyer aux {selected.size} sélectionné(s)
+          </button>
         </div>
       </div>
     </div>
