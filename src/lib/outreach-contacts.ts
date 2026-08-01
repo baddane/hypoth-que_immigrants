@@ -115,7 +115,7 @@ export const outreachContacts: OutreachContact[] = [
   {
     id: "perch",
     partner: "Perch",
-    email: null,
+    email: "support@myperch.io",
     formUrl: "https://myperch.io/realtor/",
     location: "National",
     note: "Plateforme hypothécaire numérique, programmes partenaires (agents/pros).",
@@ -137,6 +137,16 @@ export const outreachContacts: OutreachContact[] = [
     formUrl: "https://www.butlermortgage.ca/referral/",
     location: "Toronto, ON",
     note: "Courtier discount, programme de référencement (10% commission nette).",
+    tags: ["courtier", "affiliation"],
+  },
+
+  {
+    id: "mortgage-squad",
+    partner: "Mortgage Squad Advisors",
+    email: "info@mortgagesquad.ca",
+    formUrl: "https://mortgagesquad.ca/partners/",
+    location: "National",
+    note: "Courtier avec programme de partenaires de référencement (immobilier, droit, assurance).",
     tags: ["courtier", "affiliation"],
   },
 
@@ -191,7 +201,7 @@ export const outreachContacts: OutreachContact[] = [
   {
     id: "wealthone",
     partner: "Wealth One Bank of Canada",
-    email: null,
+    email: "partner@wealthonebank.ca",
     formUrl: "https://www.wealthonebankofcanada.com/Become+a+partner/Mortgage+Brokers",
     location: "National",
     note: "Banque avec programme newcomer, canal courtier partenaire.",
@@ -209,7 +219,7 @@ export const outreachContacts: OutreachContact[] = [
   {
     id: "cmls",
     partner: "CMLS Financial",
-    email: null,
+    email: "info@cmls.ca",
     formUrl: "https://www.cmls.ca/brokers/partnership-program",
     location: "National",
     note: "Prêteur hypothécaire, programme de partenariat courtier 2026.",
