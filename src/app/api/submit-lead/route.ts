@@ -3,6 +3,11 @@ import { isValidEmail, isValidPhone } from "@/lib/validation";
 import { calculateLeadScore } from "@/data/banks";
 import { isRateLimited } from "@/lib/rateLimit";
 import { supabase, isSupabaseConfigured } from "@/lib/supabase";
+import { sendResendEmail, upsertBrevoContact } from "@/lib/email";
+import { CONTACT_EMAIL } from "@/lib/mail";
+import { pickAttribution } from "@/lib/attribution";
+
+const LEADS_LIST_ID = Number(process.env.BREVO_LEADS_LIST_ID ?? "0");
 
 export async function POST(request: NextRequest) {
   try {
@@ -97,26 +102,45 @@ export async function POST(request: NextRequest) {
       routes.push("email_nurture");
     }
 
-    // Double-write best-effort : persistance Supabase (schéma enrichi).
+    const attribution = pickAttribution(lead);
+    const fullName = `${processedLead.prenom} ${processedLead.nom}`.trim();
+
+    // Double-write best-effort : persistance Supabase (schéma enrichi + attribution).
     if (isSupabaseConfigured) {
       const { error } = await supabase.from("gh_leads").insert({
-        name: `${processedLead.prenom} ${processedLead.nom}`.trim(),
+        name: fullName,
         email: processedLead.email,
         telephone: processedLead.telephone,
+        phone: processedLead.telephone,
         province: processedLead.province || null,
         statut: processedLead.statut || null,
         score: processedLead.score,
         quality: processedLead.quality,
         source: "wizard",
+        ...attribution,
       });
       if (error) {
         console.error("Supabase lead insert error:", error.message);
       }
     }
 
+    // Notification interne (Resend) + nurturing (Brevo) — best-effort, gated.
+    await sendResendEmail({
+      to: CONTACT_EMAIL,
+      subject: `Nouveau lead ${quality} (score ${score}) — ${fullName}`,
+      html: `<p><strong>${fullName}</strong> — ${processedLead.email} — ${processedLead.telephone}</p>
+             <p>Statut : ${processedLead.statut || "?"} · Province : ${processedLead.province || "?"}</p>
+             <p>Qualité : <strong>${quality}</strong> · Score : ${score}</p>`,
+      replyTo: processedLead.email,
+    });
+    await upsertBrevoContact({
+      email: processedLead.email,
+      attributes: { PRENOM: processedLead.prenom, NOM: processedLead.nom, SOURCE: "wizard" },
+      listIds: LEADS_LIST_ID ? [LEADS_LIST_ID] : undefined,
+    });
+
     // TODO: Nesto API Integration
     // TODO: Ratehub API Integration
-    // TODO: Email automation (ConvertKit / MailerLite)
 
     return NextResponse.json({
       success: true,

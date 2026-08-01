@@ -9,6 +9,27 @@ export function isValidPhone(phone: string): boolean {
   return digits.length >= 10;
 }
 
+export function isNonEmpty(v: unknown): v is string {
+  return typeof v === "string" && v.trim().length > 0;
+}
+
+// Nettoie une chaîne libre : retire les caractères de contrôle (garde \t et \n),
+// coupe et borne la longueur.
+export function sanitizeText(text: unknown, max = 5000): string {
+  if (typeof text !== "string") return "";
+  return text
+    .replace(/[\x00-\x08\x0B-\x1F\x7F]/g, "")
+    .trim()
+    .slice(0, max);
+}
+
+// Garde-fou taille de corps de requête (anti-abus).
+export function isBodyTooLarge(contentLength: string | null, maxBytes: number): boolean {
+  if (!contentLength) return false;
+  const n = Number(contentLength);
+  return Number.isFinite(n) && n > maxBytes;
+}
+
 export function validateLeadForm(data: {
   prenom: string;
   nom: string;

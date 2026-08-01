@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import { getAttribution } from "@/lib/attribution";
+import { trackLead } from "@/lib/track";
 
 const PDF_PATH = "/ressources/checklist-documents-hypotheque-immigrant.pdf";
 
@@ -18,7 +20,7 @@ export default function LeadMagnetForm() {
       const res = await fetch("/api/lead-magnet", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, email }),
+        body: JSON.stringify({ name, email, ...getAttribution() }),
       });
       const data = await res.json();
       if (!res.ok) {
@@ -26,6 +28,7 @@ export default function LeadMagnetForm() {
         setStatus("error");
         return;
       }
+      trackLead("lead-magnet");
       setStatus("done");
       // Déclenche le téléchargement du PDF.
       const link = document.createElement("a");

@@ -30,6 +30,10 @@ function storeConsent(consent: ConsentState) {
     COOKIE_KEY,
     JSON.stringify({ consent, version: CONSENT_VERSION, date: new Date().toISOString() })
   );
+  // Notifie les scripts de tracking (Analytics) d'un changement de consentement.
+  if (typeof window !== "undefined") {
+    window.dispatchEvent(new CustomEvent("cookie-consent-changed", { detail: consent }));
+  }
 }
 
 export function getConsent(): ConsentState {

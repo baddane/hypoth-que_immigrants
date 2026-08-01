@@ -3,6 +3,8 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { wizardSteps, calculateLeadScore } from "@/data/banks";
+import { getAttribution } from "@/lib/attribution";
+import { trackLead } from "@/lib/track";
 import { validateLeadForm } from "@/lib/validation";
 
 interface WizardCoreProps {
@@ -78,8 +80,10 @@ export default function WizardCore({
           score,
           quality,
           ...(variantId ? { wizardVariant: variantId } : {}),
+          ...getAttribution(),
         }),
       });
+      trackLead(variantId ? `wizard-${variantId}` : "wizard");
     } catch {
       // Still redirect even if API fails — lead is also scored server-side
     }

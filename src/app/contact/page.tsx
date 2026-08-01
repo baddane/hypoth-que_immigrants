@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { getAttribution } from "@/lib/attribution";
+import { trackLead } from "@/lib/track";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -20,10 +22,11 @@ export default function ContactPage() {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({ ...formData, ...getAttribution() }),
       });
 
       if (res.ok) {
+        trackLead("contact");
         setStatus("sent");
         setFormData({ nom: "", email: "", sujet: "Question sur mon dossier", message: "" });
       } else {
