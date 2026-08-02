@@ -3391,4 +3391,92 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  "hypotheque-nouvelle-ecosse-immigrants-halifax": (
+    <>
+      <p>
+        La Nouvelle-&Eacute;cosse mise activement sur l&rsquo;immigration pour contrer son vieillissement d&eacute;mographique&nbsp;: elle offre l&rsquo;un des programmes provinciaux les plus actifs du pays et profite du <strong>Programme d&rsquo;immigration au Canada atlantique (PICA)</strong>, une voie rapide vers la r&eacute;sidence permanente r&eacute;serv&eacute;e aux quatre provinces de l&rsquo;Atlantique. Son march&eacute; immobilier a grimp&eacute; ces derni&egrave;res ann&eacute;es, mais reste encore nettement plus abordable que l&rsquo;Ontario ou la Colombie-Britannique. Voici ce qu&rsquo;un immigrant doit savoir avant d&rsquo;acheter &agrave; Halifax ou ailleurs dans la province.
+      </p>
+
+      <h2>Halifax et le reste de la Nouvelle-&Eacute;cosse&nbsp;: un march&eacute; encore accessible</h2>
+      <p>
+        La <strong>Municipalit&eacute; r&eacute;gionale de Halifax (HRM)</strong> concentre la grande majorit&eacute; de la croissance d&eacute;mographique de la province et affiche les prix les plus &eacute;lev&eacute;s, port&eacute;s par une p&eacute;nurie de logements persistante. En dehors de HRM, les prix chutent rapidement&nbsp;:
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>R&eacute;gion</th>
+            <th>Prix m&eacute;dian approximatif</th>
+            <th>Mise de fonds 5&nbsp;%</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Halifax (HRM)</strong></td>
+            <td>~480&nbsp;000&nbsp;$ &agrave; 540&nbsp;000&nbsp;$</td>
+            <td>~24&nbsp;000&nbsp;$ &agrave; 27&nbsp;000&nbsp;$</td>
+          </tr>
+          <tr>
+            <td><strong>Cap-Breton (Sydney)</strong></td>
+            <td>~220&nbsp;000&nbsp;$ &agrave; 270&nbsp;000&nbsp;$</td>
+            <td>~11&nbsp;000&nbsp;$ &agrave; 13&nbsp;500&nbsp;$</td>
+          </tr>
+          <tr>
+            <td><strong>Vall&eacute;e de l&rsquo;Annapolis, autres r&eacute;gions</strong></td>
+            <td>~280&nbsp;000&nbsp;$ &agrave; 340&nbsp;000&nbsp;$</td>
+            <td>~14&nbsp;000&nbsp;$ &agrave; 17&nbsp;000&nbsp;$</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        M&ecirc;me &agrave; Halifax, une mise de fonds de 5&nbsp;% reste souvent inf&eacute;rieure &agrave; celle exig&eacute;e pour un condo torontois ou vancouverois moyen &mdash; un &eacute;cart important pour un nouvel arrivant qui arrive avec des &eacute;conomies limit&eacute;es.
+      </p>
+
+      <WizardCta />
+
+      <h2>Le Programme d&rsquo;immigration au Canada atlantique (PICA) et le programme des candidats de la Nouvelle-&Eacute;cosse (NSNP)</h2>
+      <p>
+        Devenu permanent en 2022 apr&egrave;s plusieurs ann&eacute;es &agrave; titre de projet pilote, le <strong>Programme d&rsquo;immigration au Canada atlantique (PICA)</strong> permet &agrave; des employeurs d&eacute;sign&eacute;s de Nouvelle-&Eacute;cosse, du Nouveau-Brunswick, de l&rsquo;&Icirc;le-du-Prince-&Eacute;douard et de Terre-Neuve-et-Labrador d&rsquo;embaucher des travailleurs qualifi&eacute;s ou des dipl&ocirc;m&eacute;s internationaux et de les accompagner directement vers la r&eacute;sidence permanente, sans syst&egrave;me de tirage comparable &agrave; Entr&eacute;e express. En parall&egrave;le, le <strong>Programme des candidats de la Nouvelle-&Eacute;cosse (Nova Scotia Nominee Program, NSNP)</strong> offre plusieurs volets&nbsp;: priorit&eacute;s du march&eacute; du travail, m&eacute;decins et professions r&eacute;glement&eacute;es, entrepreneurs, et professions en demande dans certaines r&eacute;gions rurales.
+      </p>
+      <p>
+        Une nomination provinciale ou une offre PICA acc&eacute;l&egrave;re le traitement du dossier aupr&egrave;s d&rsquo;IRCC, mais elle ne remplace pas les crit&egrave;res financiers habituels d&rsquo;un pr&ecirc;teur hypoth&eacute;caire. Consultez notre guide sur ce qui change r&eacute;ellement au <InternalLink slug="hypotheque-nouveau-resident-permanent-guide-complet">passage au statut de r&eacute;sident permanent</InternalLink> pour votre dossier de financement.
+      </p>
+
+      <h2>Taxe de transfert qui varie selon la municipalit&eacute;, et TVH de 14&nbsp;% sur l&rsquo;assurance</h2>
+      <p>
+        Contrairement &agrave; l&rsquo;Ontario ou au Qu&eacute;bec, la Nouvelle-&Eacute;cosse n&rsquo;impose pas un taux uniforme de taxe de transfert&nbsp;: chaque municipalit&eacute; fixe le sien.
+      </p>
+      <ul>
+        <li><strong>Deed Transfer Tax (HRM) :</strong> 1,5&nbsp;% de la valeur de la propri&eacute;t&eacute; &agrave; Halifax &mdash; d&rsquo;autres municipalit&eacute;s appliquent un taux diff&eacute;rent ou aucun taux, &agrave; v&eacute;rifier aupr&egrave;s de la municipalit&eacute; concern&eacute;e avant de budg&eacute;tiser.</li>
+        <li><strong>Honoraires d&rsquo;avocat :</strong> g&eacute;n&eacute;ralement 1&nbsp;000&nbsp;$ &agrave; 2&nbsp;000&nbsp;$ pour la fermeture, obligatoire comme dans le reste du Canada anglophone.</li>
+        <li><strong>TVH de 14&nbsp;% sur la prime d&rsquo;<InternalLink slug="hypotheque-assurance-schl-sagen-cmhc">assurance hypoth&eacute;caire</InternalLink> :</strong> la Nouvelle-&Eacute;cosse a abaiss&eacute; sa TVH de 15&nbsp;% &agrave; 14&nbsp;% en avril 2025, mais elle continue de s&rsquo;appliquer sur la prime SCHL, Sagen ou Canada Guaranty si votre mise de fonds est inf&eacute;rieure &agrave; 20&nbsp;%. Comme dans les autres provinces harmonis&eacute;es, cette taxe doit &ecirc;tre pay&eacute;e comptant &agrave; la fermeture&nbsp;: elle ne peut pas &ecirc;tre ajout&eacute;e au montant de l&rsquo;hypoth&egrave;que.</li>
+      </ul>
+      <p>
+        Sur une propri&eacute;t&eacute; de 500&nbsp;000&nbsp;$ achet&eacute;e avec 5&nbsp;% de mise de fonds, cette TVH sur la prime d&rsquo;assurance peut repr&eacute;senter plusieurs milliers de dollars suppl&eacute;mentaires &agrave; pr&eacute;voir en liquidit&eacute;s, en plus de la mise de fonds elle-m&ecirc;me et des frais de cl&ocirc;ture habituels.
+      </p>
+
+      <WizardCta variant="dark" />
+
+      <h2>Programmes f&eacute;d&eacute;raux applicables partout en Nouvelle-&Eacute;cosse</h2>
+      <p>
+        Les incitatifs f&eacute;d&eacute;raux pour premiers acheteurs s&rsquo;appliquent int&eacute;gralement en Nouvelle-&Eacute;cosse&nbsp;: le <InternalLink slug="hypotheque-reer-rap-immigrant-premier-achat">R&eacute;gime d&rsquo;accession &agrave; la propri&eacute;t&eacute; (RAP) et le CELIAPP</InternalLink>, ainsi que le <InternalLink slug="programme-schl-nouveaux-arrivants-guide-complet">programme SCHL Nouveaux Arrivants</InternalLink> pour les immigrants au Canada depuis cinq ans ou moins qui n&rsquo;ont pas encore d&rsquo;historique de cr&eacute;dit canadien &eacute;tabli.
+      </p>
+
+      <h2>&Agrave; retenir avant d&rsquo;acheter en Nouvelle-&Eacute;cosse</h2>
+      <ul>
+        <li><strong>March&eacute; en forte croissance &agrave; Halifax</strong> &mdash; la p&eacute;nurie de logements a fait grimper les prix rapidement ces derni&egrave;res ann&eacute;es&nbsp;; comparez plusieurs quartiers et pr&eacute;voyez des d&eacute;lais d&rsquo;achat plus serr&eacute;s que dans le reste de la province.</li>
+        <li><strong>PICA et NSNP acc&eacute;l&egrave;rent la RP, pas l&rsquo;approbation hypoth&eacute;caire</strong> &mdash; le revenu, le cr&eacute;dit et la mise de fonds restent les crit&egrave;res d&eacute;terminants pour un pr&ecirc;teur.</li>
+        <li><strong>V&eacute;rifiez le taux de taxe de transfert de votre municipalit&eacute;</strong> &mdash; il varie d&rsquo;une municipalit&eacute; &agrave; l&rsquo;autre, contrairement aux provinces &agrave; taux unique.</li>
+        <li><strong>Un <InternalLink slug="courtier-hypothecaire-vs-banque-immigrant">courtier hypoth&eacute;caire</InternalLink> ind&eacute;pendant</strong> permet souvent de comparer plus d&rsquo;options en dehors de HRM, o&ugrave; les succursales bancaires sp&eacute;cialis&eacute;es &laquo;&nbsp;nouveaux arrivants&nbsp;&raquo; sont moins nombreuses.</li>
+      </ul>
+      <p>
+        Comparez aussi avec les march&eacute;s du <InternalLink slug="hypotheque-manitoba-immigrants-winnipeg">Manitoba</InternalLink> et de la <InternalLink slug="hypotheque-saskatchewan-immigrants-regina-saskatoon">Saskatchewan</InternalLink>, deux autres provinces abordables avec des programmes d&rsquo;immigration actifs.
+      </p>
+      <p>
+        Sources officielles&nbsp;: <a href="https://novascotiaimmigration.com" target="_blank" rel="noopener noreferrer">Bureau de l&rsquo;immigration de la Nouvelle-&Eacute;cosse</a>, <a href="https://www.canada.ca/fr/immigration-refugies-citoyennete/services/immigrer-canada/programme-immigration-atlantique.html" target="_blank" rel="noopener noreferrer">Gouvernement du Canada &mdash; Programme d&rsquo;immigration au Canada atlantique</a>, <a href="https://www.halifax.ca" target="_blank" rel="noopener noreferrer">Municipalit&eacute; r&eacute;gionale de Halifax &mdash; Deed Transfer Tax</a> et <a href="https://www.cmhc-schl.gc.ca" target="_blank" rel="noopener noreferrer">SCHL</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };

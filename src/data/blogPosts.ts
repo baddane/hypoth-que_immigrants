@@ -592,6 +592,17 @@ export const blogPosts: BlogPost[] = [
     wizardVariant: undefined,
     relatedSlugs: ["hypotheque-manitoba-immigrants-winnipeg", "hypotheque-alberta-immigrants-calgary-edmonton", "programme-schl-nouveaux-arrivants-guide-complet"],
   },
+  // ====== ARTICLE #54 — NOUVELLE-ÉCOSSE ======
+  {
+    slug: "hypotheque-nouvelle-ecosse-immigrants-halifax",
+    title: "Hypothèque Nouvelle-Écosse Immigrants : Guide Halifax et le Programme d'Immigration au Canada Atlantique",
+    subtitle: "Programme d'Immigration au Canada Atlantique, TVH à 14 % et marché de Halifax : ce qu'un immigrant doit savoir avant d'acheter.",
+    description: "Guide hypothèque pour immigrants en Nouvelle-Écosse. Marché de Halifax (HRM), Programme d'immigration au Canada atlantique (PICA), programme des candidats de la Nouvelle-Écosse, taxe de transfert et TVH sur l'assurance SCHL.",
+    category: "Province",
+    readTime: "9 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-manitoba-immigrants-winnipeg", "hypotheque-saskatchewan-immigrants-regina-saskatoon", "hypotheque-nouveau-resident-permanent-guide-complet"],
+  },
 ];
 
 // Helper: get post by slug
