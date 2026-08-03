@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { isValidEmail } from "@/lib/validation";
 import { isRateLimited } from "@/lib/rateLimit";
 import { supabase, isSupabaseConfigured } from "@/lib/supabase";
-import { sendResendEmail, upsertBrevoContact } from "@/lib/email";
+import { sendNotificationEmail, upsertBrevoContact } from "@/lib/email";
 import { CONTACT_EMAIL } from "@/lib/mail";
 import { pickAttribution } from "@/lib/attribution";
 
@@ -69,8 +69,8 @@ export async function POST(request: NextRequest) {
       });
     }
 
-    // Notification interne (Resend) + nurturing (Brevo) — best-effort, gated.
-    const notif = await sendResendEmail({
+    // Notification interne + nurturing (Brevo) — best-effort, gated.
+    const notif = await sendNotificationEmail({
       to: CONTACT_EMAIL,
       subject: `Nouveau message de contact — ${name}`,
       html: `<p><strong>${name}</strong> — ${email}</p><p>Sujet : ${subject || "(aucun)"}</p><p>${message.replace(/\n/g, "<br>")}</p>`,

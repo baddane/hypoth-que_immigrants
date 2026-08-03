@@ -1,47 +1,32 @@
-// Envois e-mail — Resend (notifications transactionnelles) + Brevo (marque, nurturing).
+// Envois e-mail — Brevo uniquement (notifications internes, marque, nurturing).
 // GATED : sans clé API, chaque fonction no-op proprement (retourne {skipped:true}),
 // pour ne jamais casser une capture de lead (principe best-effort du blueprint).
 
-import { BREVO_SENDER, RESEND_FROM } from "./mail";
+import { BREVO_SENDER } from "./mail";
 
-const RESEND_API_KEY = process.env.RESEND_API_KEY ?? "";
 const BREVO_API_KEY = process.env.BREVO_API_KEY ?? "";
 
-export const isResendConfigured = RESEND_API_KEY.length > 0;
 export const isBrevoConfigured = BREVO_API_KEY.length > 0;
 
 export type SendResult = { ok: boolean; skipped?: boolean; error?: string };
 
 type BrevoAttachment = { name: string; content: string }; // content = base64
 
-// ── Resend : notification interne ──
-export async function sendResendEmail(opts: {
+// ── Notification interne (Brevo) : interface pratique en chaînes ──
+export async function sendNotificationEmail(opts: {
   to: string | string[];
   subject: string;
   html: string;
   replyTo?: string;
 }): Promise<SendResult> {
-  if (!isResendConfigured) return { ok: false, skipped: true };
-  try {
-    const res = await fetch("https://api.resend.com/emails", {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${RESEND_API_KEY}`,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        from: RESEND_FROM,
-        to: Array.isArray(opts.to) ? opts.to : [opts.to],
-        subject: opts.subject,
-        html: opts.html,
-        ...(opts.replyTo ? { reply_to: opts.replyTo } : {}),
-      }),
-    });
-    if (!res.ok) return { ok: false, error: `resend_${res.status}` };
-    return { ok: true };
-  } catch (e) {
-    return { ok: false, error: (e as Error).message };
-  }
+  const to = (Array.isArray(opts.to) ? opts.to : [opts.to]).map((email) => ({ email }));
+  return sendBrevoEmail({
+    to,
+    subject: opts.subject,
+    htmlContent: opts.html,
+    ...(opts.replyTo ? { replyTo: { email: opts.replyTo } } : {}),
+    tags: ["notification"],
+  });
 }
 
 // ── Brevo : e-mail transactionnel (réponses de marque, composeur, outreach) ──
