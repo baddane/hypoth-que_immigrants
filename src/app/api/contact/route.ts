@@ -79,7 +79,7 @@ export async function POST(request: NextRequest) {
     const emailSent = notif.ok;
     await upsertBrevoContact({
       email,
-      attributes: { NOM: name, SOURCE: "contact" },
+      attributes: { FIRSTNAME: name, SOURCE: "contact" },
       listIds: LEADS_LIST_ID ? [LEADS_LIST_ID] : undefined,
     });
 
