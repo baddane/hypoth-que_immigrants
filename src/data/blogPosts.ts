@@ -134,7 +134,7 @@ export const blogPosts: BlogPost[] = [
     category: "Province",
     readTime: "8 min",
     wizardVariant: undefined,
-    relatedSlugs: ["hypotheque-alberta-immigrants-calgary-edmonton", "hypotheque-saskatchewan-immigrants-regina-saskatoon", "hypotheque-francophone-quebec"],
+    relatedSlugs: ["hypotheque-alberta-immigrants-calgary-edmonton", "hypotheque-saskatchewan-immigrants-regina-saskatoon", "hypotheque-nouvelle-ecosse-immigrants-halifax", "hypotheque-francophone-quebec"],
   },
   // ====== ARTICLE #10 ======
   {
@@ -299,7 +299,7 @@ export const blogPosts: BlogPost[] = [
     category: "Légal",
     readTime: "9 min",
     wizardVariant: undefined,
-    relatedSlugs: ["hypotheque-taxe-acheteur-etranger-exemption", "hypotheque-permis-travail-ouvert", "hypotheque-etudiant-permis-postdiplome", "hypotheque-nouveau-resident-permanent-guide-complet"],
+    relatedSlugs: ["hypotheque-taxe-acheteur-etranger-exemption", "hypotheque-permis-travail-ouvert", "hypotheque-etudiant-permis-postdiplome", "hypotheque-nouvelle-ecosse-immigrants-halifax"],
   },
   // ====== ARTICLE #25 — FRAIS CACHÉS ======
   {
@@ -591,6 +591,17 @@ export const blogPosts: BlogPost[] = [
     readTime: "9 min",
     wizardVariant: undefined,
     relatedSlugs: ["hypotheque-manitoba-immigrants-winnipeg", "hypotheque-alberta-immigrants-calgary-edmonton", "programme-schl-nouveaux-arrivants-guide-complet"],
+  },
+  // ====== ARTICLE #54 ======
+  {
+    slug: "hypotheque-nouvelle-ecosse-immigrants-halifax",
+    title: "Hypothèque Nouvelle-Écosse Immigrants : Guide Halifax et la Taxe Non-Résident",
+    subtitle: "Marché atlantique abordable, NSNP à 4 volets et taxe provinciale de 10% pour non-résidents : ce qu'il faut vérifier avant d'acheter.",
+    description: "Guide hypothèque pour immigrants en Nouvelle-Écosse. Marché Halifax, Programme des candidats de la Nouvelle-Écosse (NSNP) à 4 volets, taxe de transfert de propriété et taxe non-résident de 10%.",
+    category: "Province",
+    readTime: "9 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-manitoba-immigrants-winnipeg", "hypotheque-nouveau-resident-permanent-guide-complet", "interdiction-achat-non-canadien-exemptions-2027"],
   },
 ];
 

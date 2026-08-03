@@ -3391,4 +3391,109 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  // ====================================================
+  // ARTICLE 54: NOUVELLE-ECOSSE / HALIFAX
+  // ====================================================
+  "hypotheque-nouvelle-ecosse-immigrants-halifax": (
+    <>
+      <p>
+        La Nouvelle-&Eacute;cosse attire de plus en plus de nouveaux arrivants gr&acirc;ce &agrave; un co&ucirc;t de la vie plus abordable que l&rsquo;Ontario ou la Colombie-Britannique et &agrave; un programme provincial d&rsquo;immigration tr&egrave;s actif. Mais la province applique aussi une r&egrave;gle unique au Canada&nbsp;: une <strong>taxe additionnelle de 10&nbsp;% pour les acheteurs non-r&eacute;sidents</strong>. Voici ce qu&rsquo;un immigrant doit v&eacute;rifier avant d&rsquo;acheter &agrave; Halifax ou ailleurs dans la province.
+      </p>
+
+      <h2>Un march&eacute; atlantique encore accessible</h2>
+      <p>
+        Le prix m&eacute;dian des propri&eacute;t&eacute;s dans la r&eacute;gion d&rsquo;Halifax-Dartmouth reste sensiblement inf&eacute;rieur &agrave; celui des grands centres ontariens ou britanno-colombiens, m&ecirc;me apr&egrave;s plusieurs ann&eacute;es de hausse soutenue.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Secteur</th>
+            <th>Prix m&eacute;dian approximatif (2026)</th>
+            <th>Mise de fonds 5&nbsp;%</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Halifax &ndash; maison unifamiliale</strong></td>
+            <td>~570&nbsp;000&nbsp;$ &agrave; 630&nbsp;000&nbsp;$</td>
+            <td>~28&nbsp;500&nbsp;$ &agrave; 31&nbsp;500&nbsp;$</td>
+          </tr>
+          <tr>
+            <td><strong>Halifax &ndash; condo</strong></td>
+            <td>~390&nbsp;000&nbsp;$ &agrave; 410&nbsp;000&nbsp;$</td>
+            <td>~19&nbsp;500&nbsp;$ &agrave; 20&nbsp;500&nbsp;$</td>
+          </tr>
+          <tr>
+            <td><strong>Reste de la province (Cape Breton, Truro, Yarmouth)</strong></td>
+            <td>~230&nbsp;000&nbsp;$ &agrave; 300&nbsp;000&nbsp;$</td>
+            <td>~11&nbsp;500&nbsp;$ &agrave; 15&nbsp;000&nbsp;$</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Ces prix restent la plupart du temps inf&eacute;rieurs de 30 &agrave; 40&nbsp;% &agrave; ceux de Toronto ou Vancouver pour une propri&eacute;t&eacute; comparable, ce qui r&eacute;duit d&rsquo;autant la mise de fonds et les mensualit&eacute;s n&eacute;cessaires pour un nouvel arrivant qui d&eacute;marre avec des &eacute;conomies limit&eacute;es.
+      </p>
+
+      <WizardCta />
+
+      <h2>Le Programme des candidats de la Nouvelle-&Eacute;cosse (NSNP)</h2>
+      <p>
+        Depuis f&eacute;vrier 2026, le <a href="https://liveinnovascotia.com/nova-scotia-nominee-program" target="_blank" rel="noopener noreferrer">Nova Scotia Nominee Program (NSNP)</a> a &eacute;t&eacute; simplifi&eacute; et regroupe d&eacute;sormais ses anciens volets en <strong>quatre grandes cat&eacute;gories</strong>&nbsp;:
+      </p>
+      <ul>
+        <li><strong>Skilled Worker</strong> &mdash; pour les employeurs n&eacute;o-&eacute;cossais qui embauchent des travailleurs &eacute;trangers ou des dipl&ocirc;m&eacute;s internationaux dans des postes difficiles &agrave; combler localement.</li>
+        <li><strong>Nova Scotia Graduate</strong> &mdash; pour les dipl&ocirc;m&eacute;s r&eacute;cents d&rsquo;&eacute;tablissements de la province qui souhaitent y rester et y travailler.</li>
+        <li><strong>Entrepreneur</strong> &mdash; pour les propri&eacute;taires d&rsquo;entreprise et cadres exp&eacute;riment&eacute;s qui veulent d&eacute;marrer ou acheter une entreprise et s&rsquo;&eacute;tablir dans la province.</li>
+        <li><strong>Nova Scotia: Express Entry</strong> &mdash; pour les candidats du bassin f&eacute;d&eacute;ral Entr&eacute;e express qui r&eacute;pondent aux priorit&eacute;s provinciales (incluant l&rsquo;ancien volet Priorit&eacute;s du march&eacute; du travail).</li>
+      </ul>
+      <p>
+        Une nomination provinciale ajoute 600&nbsp;points au score du Syst&egrave;me de classement global en Entr&eacute;e express, ce qui acc&eacute;l&egrave;re consid&eacute;rablement l&rsquo;acc&egrave;s &agrave; la r&eacute;sidence permanente. Mais comme partout ailleurs, une nomination ne remplace pas les crit&egrave;res financiers d&rsquo;un pr&ecirc;teur&nbsp;: revenu stable, mise de fonds et solvabilit&eacute; restent &eacute;valu&eacute;s s&eacute;par&eacute;ment. Consultez notre guide sur ce qui change concr&egrave;tement au <InternalLink slug="hypotheque-nouveau-resident-permanent-guide-complet">passage au statut de r&eacute;sident permanent</InternalLink>.
+      </p>
+
+      <h2>La taxe de transfert de propri&eacute;t&eacute; (Deed Transfer Tax)</h2>
+      <p>
+        Contrairement &agrave; l&rsquo;Ontario, la taxe de transfert de propri&eacute;t&eacute; en Nouvelle-&Eacute;cosse est fix&eacute;e par chaque municipalit&eacute; plut&ocirc;t que par la province. Dans la <strong>Municipalit&eacute; r&eacute;gionale d&rsquo;Halifax (HRM)</strong>, le taux est de <strong>1,5&nbsp;%</strong> de la valeur de la propri&eacute;t&eacute;, l&rsquo;un des plus &eacute;lev&eacute;s de la province &mdash; d&rsquo;autres municipalit&eacute;s appliquent des taux diff&eacute;rents, g&eacute;n&eacute;ralement entre 0,5&nbsp;% et 1,5&nbsp;%. Pr&eacute;voyez aussi entre 1&nbsp;000&nbsp;$ et 1&nbsp;800&nbsp;$ d&rsquo;honoraires d&rsquo;avocat, obligatoires &agrave; la cl&ocirc;ture comme dans le reste du Canada anglophone.
+      </p>
+
+      <WizardCta variant="dark" />
+
+      <h2>Attention &agrave; la taxe non-r&eacute;sident de 10&nbsp;%</h2>
+      <p>
+        Depuis 2022, la Nouvelle-&Eacute;cosse applique une <strong>taxe provinciale suppl&eacute;mentaire aux acheteurs non-r&eacute;sidents</strong> d&rsquo;une propri&eacute;t&eacute;s r&eacute;sidentielle de trois logements ou moins. Depuis le 1er avril 2025, cette taxe a &eacute;t&eacute; port&eacute;e &agrave; <strong>10&nbsp;% de la valeur de la propri&eacute;t&eacute;</strong> (ou de l&rsquo;&eacute;valuation municipale, selon le montant le plus &eacute;lev&eacute;) &mdash; en plus de la taxe de transfert municipale habituelle.
+      </p>
+      <p>
+        Le point cl&eacute; pour un immigrant&nbsp;: cette taxe est bas&eacute;e sur la <strong>r&eacute;sidence</strong>, pas sur la citoyennet&eacute;. Elle vise avant tout les acheteurs qui n&rsquo;habitent pas la province (investisseurs hors province ou de l&rsquo;&eacute;tranger), pas sp&eacute;cifiquement les nouveaux arrivants qui s&rsquo;installent r&eacute;ellement en Nouvelle-&Eacute;cosse.
+      </p>
+      <ul>
+        <li><strong>Exemption principale :</strong> si vous d&eacute;m&eacute;nagez en Nouvelle-&Eacute;cosse dans les <strong>six mois</strong> suivant la cl&ocirc;ture et pouvez fournir une preuve de r&eacute;sidence, la taxe non-r&eacute;sident ne s&rsquo;applique pas.</li>
+        <li><strong>Achat &agrave; plusieurs :</strong> si un seul co-acheteur ne peut pas prouver sa r&eacute;sidence dans le d&eacute;lai, la taxe (plus int&eacute;r&ecirc;ts et p&eacute;nalit&eacute; possible) s&rsquo;applique uniquement &agrave; sa part de propri&eacute;t&eacute;.</li>
+        <li><strong>Distincte de l&rsquo;interdiction f&eacute;d&eacute;rale :</strong> cette taxe provinciale s&rsquo;ajoute &agrave; (et ne remplace pas) l&rsquo;<InternalLink slug="interdiction-achat-non-canadien-exemptions-2027">interdiction f&eacute;d&eacute;rale d&rsquo;achat pour non-Canadiens</InternalLink>, qui vise sp&eacute;cifiquement les non-r&eacute;sidents &eacute;trangers sans statut de travail ou d&rsquo;&eacute;tudes au Canada.</li>
+      </ul>
+      <p>
+        Concr&egrave;tement&nbsp;: un travailleur temporaire ou un &eacute;tudiant international qui ach&egrave;te une propri&eacute;t&eacute; pour y vivre pendant qu&rsquo;il s&rsquo;installe &agrave; Halifax n&rsquo;a g&eacute;n&eacute;ralement pas &agrave; payer cette taxe, tant qu&rsquo;il peut documenter son d&eacute;m&eacute;nagement effectif dans les six mois. Discutez-en avec votre notaire ou avocat immobilier avant la signature pour confirmer votre admissibilit&eacute; &agrave; l&rsquo;exemption.
+      </p>
+
+      <h2>Programmes f&eacute;d&eacute;raux applicables partout en Nouvelle-&Eacute;cosse</h2>
+      <p>
+        Les incitatifs f&eacute;d&eacute;raux pour premiers acheteurs s&rsquo;appliquent int&eacute;gralement en Nouvelle-&Eacute;cosse&nbsp;: le <InternalLink slug="hypotheque-reer-rap-immigrant-premier-achat">R&eacute;gime d&rsquo;accession &agrave; la propri&eacute;t&eacute; (RAP) et le CELIAPP</InternalLink>, ainsi que le <InternalLink slug="programme-schl-nouveaux-arrivants-guide-complet">programme SCHL Nouveaux Arrivants</InternalLink> pour les immigrants au Canada depuis cinq ans ou moins sans historique de cr&eacute;dit canadien &eacute;tabli.
+      </p>
+
+      <h2>&Agrave; retenir avant d&rsquo;acheter en Nouvelle-&Eacute;cosse</h2>
+      <ul>
+        <li><strong>March&eacute; abordable par rapport au reste du Canada</strong> &mdash; surtout hors de la r&eacute;gion d&rsquo;Halifax.</li>
+        <li><strong>V&eacute;rifiez votre exposition &agrave; la taxe non-r&eacute;sident de 10&nbsp;%</strong> &mdash; si vous n&rsquo;avez pas encore d&eacute;m&eacute;nag&eacute; en Nouvelle-&Eacute;cosse au moment de l&rsquo;achat, planifiez la preuve de r&eacute;sidence dans les six mois pour &eacute;viter la taxe.</li>
+        <li><strong>Renseignez-vous sur le taux municipal exact</strong> &mdash; le taux de transfert de propri&eacute;t&eacute; varie d&rsquo;une municipalit&eacute; &agrave; l&rsquo;autre, contrairement &agrave; l&rsquo;Ontario o&ugrave; un bar&egrave;me provincial uniforme s&rsquo;applique.</li>
+        <li><strong>Un <InternalLink slug="courtier-hypothecaire-vs-banque-immigrant">courtier hypoth&eacute;caire</InternalLink> ind&eacute;pendant</strong> conna&icirc;t souvent mieux les prêteurs actifs dans les march&eacute;s secondaires atlantiques que les succursales locales des grandes banques.</li>
+      </ul>
+      <p>
+        Comparez aussi avec le march&eacute; du <InternalLink slug="hypotheque-manitoba-immigrants-winnipeg">Manitoba</InternalLink> pour situer la Nouvelle-&Eacute;cosse parmi les provinces les plus abordables du pays.
+      </p>
+      <p>
+        Sources officielles&nbsp;: <a href="https://www.novascotia.ca/non-resident-provincial-deed-transfer-tax" target="_blank" rel="noopener noreferrer">Gouvernement de la Nouvelle-&Eacute;cosse &mdash; Taxe non-r&eacute;sident</a>, <a href="https://liveinnovascotia.com/nova-scotia-nominee-program" target="_blank" rel="noopener noreferrer">Nova Scotia Nominee Program</a> et <a href="https://www.halifax.ca/home-property/property-taxes/taxes-halifax" target="_blank" rel="noopener noreferrer">Halifax &mdash; Taxes municipales</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };
