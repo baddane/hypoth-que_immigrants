@@ -3,7 +3,7 @@ import { isValidEmail, isValidPhone } from "@/lib/validation";
 import { calculateLeadScore } from "@/data/banks";
 import { isRateLimited } from "@/lib/rateLimit";
 import { supabase, isSupabaseConfigured } from "@/lib/supabase";
-import { sendResendEmail, upsertBrevoContact } from "@/lib/email";
+import { sendNotificationEmail, upsertBrevoContact } from "@/lib/email";
 import { CONTACT_EMAIL } from "@/lib/mail";
 import { pickAttribution } from "@/lib/attribution";
 
@@ -124,8 +124,8 @@ export async function POST(request: NextRequest) {
       }
     }
 
-    // Notification interne (Resend) + nurturing (Brevo) — best-effort, gated.
-    await sendResendEmail({
+    // Notification interne + nurturing (Brevo) — best-effort, gated.
+    await sendNotificationEmail({
       to: CONTACT_EMAIL,
       subject: `Nouveau lead ${quality} (score ${score}) — ${fullName}`,
       html: `<p><strong>${fullName}</strong> — ${processedLead.email} — ${processedLead.telephone}</p>
