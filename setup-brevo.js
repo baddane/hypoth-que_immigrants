@@ -1,5 +1,5 @@
 // Setup Brevo pour guide-hypotheque.ca
-// Crée les attributs contact (PRENOM, NOM, SOURCE) + les listes Leads / Newsletter,
+// Crée l'attribut contact SOURCE (FIRSTNAME/LASTNAME sont natifs Brevo) + les listes Leads / Newsletter,
 // puis affiche les IDs de listes à mettre dans les variables d'environnement.
 //
 // Usage :
@@ -33,7 +33,8 @@ const LISTS = [
   { key: "BREVO_LEADS_LIST_ID", name: "Leads guide-hypotheque" },
   { key: "BREVO_NEWSLETTER_LIST_ID", name: "Newsletter guide-hypotheque" },
 ];
-const ATTRIBUTES = ["PRENOM", "NOM", "SOURCE"];
+// FIRSTNAME/LASTNAME existent nativement chez Brevo ; seul SOURCE est custom.
+const ATTRIBUTES = ["SOURCE"];
 
 async function main() {
   // 0) Vérifier la clé

@@ -135,7 +135,7 @@ export async function POST(request: NextRequest) {
     });
     await upsertBrevoContact({
       email: processedLead.email,
-      attributes: { PRENOM: processedLead.prenom, NOM: processedLead.nom, SOURCE: "wizard" },
+      attributes: { FIRSTNAME: processedLead.prenom, LASTNAME: processedLead.nom, SOURCE: "wizard" },
       listIds: LEADS_LIST_ID ? [LEADS_LIST_ID] : undefined,
     });
 
