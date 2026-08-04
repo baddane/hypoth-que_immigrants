@@ -3391,4 +3391,108 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  "hypotheque-provinces-atlantiques-immigrants-programme-aip": (
+    <>
+      <p>
+        Nouveau-Brunswick, Nouvelle-&Eacute;cosse, &Icirc;le-du-Prince-&Eacute;douard et Terre-Neuve-et-Labrador restent les provinces les moins ch&egrave;res du pays pour devenir propri&eacute;taire &mdash; et elles disposent d&rsquo;un outil d&rsquo;immigration que peu d&rsquo;autres r&eacute;gions offrent&nbsp;: le <strong>Programme d&rsquo;immigration au Canada atlantique (PCA)</strong>, connu en anglais sous le nom d&rsquo;Atlantic Immigration Program (AIP). Voici comment ces deux atouts se combinent pour un immigrant qui envisage d&rsquo;acheter dans l&rsquo;Atlantique.
+      </p>
+
+      <h2>Le march&eacute; immobilier le plus abordable du Canada</h2>
+      <p>
+        &Agrave; l&rsquo;exception de Halifax, dont le march&eacute; s&rsquo;est resserr&eacute; ces derni&egrave;res ann&eacute;es, les grandes villes atlantiques restent nettement sous la moyenne nationale. Voici des estimations approximatives pour situer l&rsquo;ordre de grandeur&nbsp;:
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Ville</th>
+            <th>Prix m&eacute;dian approximatif</th>
+            <th>Mise de fonds 5&nbsp;%</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Moncton, N.-B.</strong></td>
+            <td>~320&nbsp;000&nbsp;$ &agrave; 360&nbsp;000&nbsp;$</td>
+            <td>~16&nbsp;000&nbsp;$ &agrave; 18&nbsp;000&nbsp;$</td>
+          </tr>
+          <tr>
+            <td><strong>Saint John, N.-B.</strong></td>
+            <td>~270&nbsp;000&nbsp;$ &agrave; 310&nbsp;000&nbsp;$</td>
+            <td>~13&nbsp;500&nbsp;$ &agrave; 15&nbsp;500&nbsp;$</td>
+          </tr>
+          <tr>
+            <td><strong>Halifax, N.-&Eacute;.</strong></td>
+            <td>~460&nbsp;000&nbsp;$ &agrave; 520&nbsp;000&nbsp;$</td>
+            <td>~23&nbsp;000&nbsp;$ &agrave; 26&nbsp;000&nbsp;$</td>
+          </tr>
+          <tr>
+            <td><strong>Charlottetown, &Icirc;.-P.-&Eacute;.</strong></td>
+            <td>~340&nbsp;000&nbsp;$ &agrave; 390&nbsp;000&nbsp;$</td>
+            <td>~17&nbsp;000&nbsp;$ &agrave; 19&nbsp;500&nbsp;$</td>
+          </tr>
+          <tr>
+            <td><strong>St. John&rsquo;s, T.-N.-L.</strong></td>
+            <td>~290&nbsp;000&nbsp;$ &agrave; 330&nbsp;000&nbsp;$</td>
+            <td>~14&nbsp;500&nbsp;$ &agrave; 16&nbsp;500&nbsp;$</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Halifax mise &agrave; part, une mise de fonds de 5&nbsp;% dans l&rsquo;Atlantique repr&eacute;sente souvent la moiti&eacute; &mdash; voire le tiers &mdash; de ce qu&rsquo;exige le m&ecirc;me pourcentage &agrave; Toronto ou Vancouver. Pour un <InternalLink slug="hypotheque-travailleur-temporaire-5pourcent">nouvel arrivant avec des &eacute;conomies limit&eacute;es</InternalLink>, cet &eacute;cart peut avancer le projet d&rsquo;achat de plusieurs ann&eacute;es.
+      </p>
+
+      <WizardCta />
+
+      <h2>Le Programme d&rsquo;immigration au Canada atlantique (PCA / AIP)</h2>
+      <p>
+        Devenu un programme permanent le 1er janvier 2022 (apr&egrave;s avoir &eacute;t&eacute; un projet pilote de 2017 &agrave; 2021), le <a href="https://www.canada.ca/fr/immigration-refugies-citoyennete/services/immigrer-canada/immigration-atlantique.html" target="_blank" rel="noopener noreferrer">Programme d&rsquo;immigration au Canada atlantique</a> permet &agrave; un employeur d&eacute;sign&eacute; du Nouveau-Brunswick, de la Nouvelle-&Eacute;cosse, de l&rsquo;&Icirc;le-du-Prince-&Eacute;douard ou de Terre-Neuve-et-Labrador d&rsquo;embaucher un travailleur &eacute;tranger et de l&rsquo;accompagner vers la r&eacute;sidence permanente, <strong>sans &eacute;tude d&rsquo;impact sur le march&eacute; du travail (EIMT)</strong>. Trois volets existent&nbsp;:
+      </p>
+      <ul>
+        <li><strong>Volet des travailleurs hautement qualifi&eacute;s (AHSP)</strong> &mdash; postes de gestion, professionnels et techniques.</li>
+        <li><strong>Volet des travailleurs interm&eacute;diaires (AISP)</strong> &mdash; m&eacute;tiers, postes de service et de production.</li>
+        <li><strong>Volet des dipl&ocirc;m&eacute;s internationaux (AIGP)</strong> &mdash; pour les personnes ayant compl&eacute;t&eacute; un programme d&rsquo;&eacute;tudes reconnu dans une des quatre provinces.</li>
+      </ul>
+      <p>
+        Concr&egrave;tement, cela signifie qu&rsquo;un immigrant admis via le PCA arrive souvent avec un <strong>emploi confirm&eacute; et une trajectoire claire vers le statut de <InternalLink slug="hypotheque-nouveau-resident-permanent-guide-complet">r&eacute;sident permanent</InternalLink></strong> &mdash; deux &eacute;l&eacute;ments qui rassurent un pr&ecirc;teur, m&ecirc;me si les crit&egrave;res financiers habituels (revenu stable, cr&eacute;dit, mise de fonds) restent inchang&eacute;s. Tant que le statut de r&eacute;sidence permanente n&rsquo;est pas obtenu, c&rsquo;est le m&ecirc;me cadre que pour tout <InternalLink slug="hypotheque-travailleur-temporaire-5pourcent">travailleur temporaire</InternalLink> qui s&rsquo;applique&nbsp;: mise de fonds minimale de 5&nbsp;%, assurance SCHL obligatoire sous 20&nbsp;% de mise de fonds.
+      </p>
+
+      <h2>Frais de mutation et de transfert de propri&eacute;t&eacute; par province</h2>
+      <p>
+        Les quatre provinces atlantiques n&rsquo;appliquent pas les m&ecirc;mes r&egrave;gles qu&rsquo;au Qu&eacute;bec ou en Ontario en mati&egrave;re de taxe de mutation&nbsp;:
+      </p>
+      <ul>
+        <li><strong>Nouveau-Brunswick&nbsp;:</strong> <a href="https://www2.gnb.ca" target="_blank" rel="noopener noreferrer">taxe de transfert de bien r&eacute;el</a> d&rsquo;environ 1&nbsp;% de la valeur la plus &eacute;lev&eacute;e entre le prix d&rsquo;achat et l&rsquo;&eacute;valuation municipale.</li>
+        <li><strong>Nouvelle-&Eacute;cosse&nbsp;:</strong> <a href="https://novascotia.ca" target="_blank" rel="noopener noreferrer">taxe de transfert de propri&eacute;t&eacute; (deed transfer tax)</a> fix&eacute;e par chaque municipalit&eacute;, g&eacute;n&eacute;ralement entre 1,0&nbsp;% et 1,5&nbsp;% &mdash; v&eacute;rifiez le taux exact aupr&egrave;s de la municipalit&eacute; concern&eacute;e avant l&rsquo;achat.</li>
+        <li><strong>&Icirc;le-du-Prince-&Eacute;douard&nbsp;:</strong> <a href="https://www.princeedwardisland.ca" target="_blank" rel="noopener noreferrer">taxe de transfert de bien r&eacute;el</a> d&rsquo;environ 1&nbsp;%, avec une exemption possible pour les premiers acheteurs sous certaines conditions de valeur &mdash; &agrave; confirmer aupr&egrave;s de la province au moment de l&rsquo;achat.</li>
+        <li><strong>Terre-Neuve-et-Labrador&nbsp;:</strong> aucune taxe de mutation g&eacute;n&eacute;rale &mdash; seulement des <a href="https://www.gov.nl.ca" target="_blank" rel="noopener noreferrer">frais d&rsquo;enregistrement de l&rsquo;acte</a> modestes, calcul&eacute;s selon une grille progressive.</li>
+      </ul>
+      <p>
+        Dans les quatre provinces, pr&eacute;voyez aussi des <InternalLink slug="frais-caches-achat-maison-immigrant-checklist">honoraires d&rsquo;avocat pour la fermeture</InternalLink>, g&eacute;n&eacute;ralement entre 1&nbsp;000&nbsp;$ et 1&nbsp;800&nbsp;$, ainsi que l&rsquo;<InternalLink slug="hypotheque-assurance-schl-sagen-cmhc">assurance hypoth&eacute;caire</InternalLink> si votre mise de fonds est inf&eacute;rieure &agrave; 20&nbsp;%.
+      </p>
+
+      <WizardCta variant="dark" />
+
+      <h2>Programmes f&eacute;d&eacute;raux disponibles partout dans l&rsquo;Atlantique</h2>
+      <p>
+        Les incitatifs f&eacute;d&eacute;raux s&rsquo;appliquent int&eacute;gralement dans les quatre provinces&nbsp;: le <InternalLink slug="hypotheque-reer-rap-immigrant-premier-achat">R&eacute;gime d&rsquo;accession &agrave; la propri&eacute;t&eacute; (RAP) et le CELIAPP</InternalLink> pour les premiers acheteurs admissibles, ainsi que le <InternalLink slug="programme-schl-nouveaux-arrivants-guide-complet">programme SCHL Nouveaux Arrivants</InternalLink> pour les immigrants au Canada depuis cinq ans ou moins qui n&rsquo;ont pas encore de dossier de cr&eacute;dit canadien &eacute;tabli.
+      </p>
+
+      <h2>&Agrave; retenir avant d&rsquo;acheter dans l&rsquo;Atlantique</h2>
+      <ul>
+        <li><strong>Le PCA facilite l&rsquo;arriv&eacute;e, pas la qualification hypoth&eacute;caire</strong> &mdash; un emploi confirm&eacute; via le programme reste soumis aux m&ecirc;mes ratios d&rsquo;endettement et exigences de revenu que tout autre dossier.</li>
+        <li><strong>Halifax se distingue du reste de la r&eacute;gion</strong> &mdash; son march&eacute; s&rsquo;approche de celui de villes moyennes ontariennes, alors que les autres centres restent nettement plus abordables.</li>
+        <li><strong>Les taxes de mutation varient d&rsquo;une province &agrave; l&rsquo;autre, parfois d&rsquo;une municipalit&eacute; &agrave; l&rsquo;autre en Nouvelle-&Eacute;cosse</strong> &mdash; confirmez toujours le taux exact avant de budg&eacute;tiser vos frais de cl&ocirc;ture.</li>
+        <li><strong>Moins de succursales bancaires physiques hors des grands centres</strong> &mdash; un <InternalLink slug="courtier-hypothecaire-vs-banque-immigrant">courtier hypoth&eacute;caire</InternalLink> ind&eacute;pendant permet souvent d&rsquo;acc&eacute;der &agrave; davantage de pr&ecirc;teurs dans les march&eacute;s secondaires.</li>
+      </ul>
+      <p>
+        Comparez aussi avec les march&eacute;s abordables du <InternalLink slug="hypotheque-manitoba-immigrants-winnipeg">Manitoba</InternalLink> et de la <InternalLink slug="hypotheque-saskatchewan-immigrants-regina-saskatoon">Saskatchewan</InternalLink>, deux autres r&eacute;gions o&ugrave; le co&ucirc;t d&rsquo;entr&eacute;e reste largement sous la moyenne nationale.
+      </p>
+      <p>
+        Sources officielles&nbsp;: <a href="https://www.canada.ca/fr/immigration-refugies-citoyennete/services/immigrer-canada/immigration-atlantique.html" target="_blank" rel="noopener noreferrer">IRCC &mdash; Programme d&rsquo;immigration au Canada atlantique</a>, gouvernements du <a href="https://www2.gnb.ca" target="_blank" rel="noopener noreferrer">Nouveau-Brunswick</a>, de la <a href="https://novascotia.ca" target="_blank" rel="noopener noreferrer">Nouvelle-&Eacute;cosse</a>, de l&rsquo;<a href="https://www.princeedwardisland.ca" target="_blank" rel="noopener noreferrer">&Icirc;le-du-Prince-&Eacute;douard</a> et de <a href="https://www.gov.nl.ca" target="_blank" rel="noopener noreferrer">Terre-Neuve-et-Labrador</a>, et <a href="https://www.cmhc-schl.gc.ca" target="_blank" rel="noopener noreferrer">SCHL</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };

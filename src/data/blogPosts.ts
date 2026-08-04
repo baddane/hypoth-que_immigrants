@@ -592,6 +592,17 @@ export const blogPosts: BlogPost[] = [
     wizardVariant: undefined,
     relatedSlugs: ["hypotheque-manitoba-immigrants-winnipeg", "hypotheque-alberta-immigrants-calgary-edmonton", "programme-schl-nouveaux-arrivants-guide-complet"],
   },
+  // ====== ARTICLE #54 — PROVINCES DE L'ATLANTIQUE / AIP ======
+  {
+    slug: "hypotheque-provinces-atlantiques-immigrants-programme-aip",
+    title: "Hypothèque Provinces de l'Atlantique : Guide Immigrants et Programme AIP",
+    subtitle: "Nouveau-Brunswick, Nouvelle-Écosse, Île-du-Prince-Édouard, Terre-Neuve : le marché le plus abordable du pays et un accès accéléré à la résidence permanente.",
+    description: "Guide hypothèque pour immigrants dans les provinces de l'Atlantique (Nouveau-Brunswick, Nouvelle-Écosse, Île-du-Prince-Édouard, Terre-Neuve-et-Labrador). Programme d'immigration au Canada atlantique (PCA/AIP), prix immobiliers abordables et frais de mutation.",
+    category: "Province",
+    readTime: "9 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-manitoba-immigrants-winnipeg", "hypotheque-saskatchewan-immigrants-regina-saskatoon", "programme-schl-nouveaux-arrivants-guide-complet"],
+  },
 ];
 
 // Helper: get post by slug
