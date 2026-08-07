@@ -1,5 +1,5 @@
 // ============================================
-// BLOG POSTS METADATA — 34 articles
+// BLOG POSTS METADATA — 54 articles
 // Data-driven: each post has metadata + markdown-like content sections
 // ============================================
 
@@ -591,6 +591,17 @@ export const blogPosts: BlogPost[] = [
     readTime: "9 min",
     wizardVariant: undefined,
     relatedSlugs: ["hypotheque-manitoba-immigrants-winnipeg", "hypotheque-alberta-immigrants-calgary-edmonton", "programme-schl-nouveaux-arrivants-guide-complet"],
+  },
+  // ====== ARTICLE #54 — PROVINCES DE L'ATLANTIQUE ======
+  {
+    slug: "hypotheque-provinces-atlantique-immigrants-halifax-moncton",
+    title: "Hypothèque Provinces de l'Atlantique : Guide Halifax, Moncton et le Programme d'Immigration Atlantique",
+    subtitle: "Le marché le plus abordable du Canada et l'un des chemins vers la résidence permanente les plus accessibles. Ce qu'il faut savoir avant d'acheter en Nouvelle-Écosse, au Nouveau-Brunswick, à l'Île-du-Prince-Édouard ou à Terre-Neuve.",
+    description: "Guide hypothèque pour immigrants dans les provinces de l'Atlantique. Marché Halifax et Moncton, Programme d'immigration Atlantique (PIA), taxes de mutation par province et programmes fédéraux pour nouveaux arrivants.",
+    category: "Province",
+    readTime: "10 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-saskatchewan-immigrants-regina-saskatoon", "hypotheque-manitoba-immigrants-winnipeg", "hypotheque-nouveau-resident-permanent-guide-complet"],
   },
 ];
 
