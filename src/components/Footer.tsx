@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
@@ -7,19 +6,19 @@ export default function Footer() {
       <div className="max-w-[1240px] mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <Image src="/icon.png" alt="guide-hypotheque.ca" width={36} height={36} className="rounded-lg" />
-              <span className="text-lg font-extrabold">
-                guide-hypotheque<span className="text-gold">.ca</span>
+            <div className="flex items-center gap-3 mb-4">
+              <span className="w-9 h-9 rounded-full bg-cream flex items-center justify-center font-serif font-black text-gold text-lg leading-none">G</span>
+              <span className="text-xl font-serif font-black text-white tracking-tight">
+                Guide<span className="italic font-bold text-gold"> Hypothèque</span>
               </span>
             </div>
-            <p className="text-base leading-relaxed text-gray-400">
+            <p className="text-base leading-relaxed text-white/60">
               Obtenez votre préapprobation hypothécaire gratuitement. Nous connectons les immigrants avec les meilleurs courtiers et banques au Canada.
             </p>
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4 uppercase text-xs tracking-wider text-white">Outils</h4>
+            <h4 className="font-mono mb-4 uppercase text-xs tracking-widest text-gold">Outils</h4>
             <ul className="space-y-2 text-base text-gray-400">
               <li><Link href="/wizard" className="hover:text-gold transition font-semibold">Wizard Hypothèque</Link></li>
               <li><Link href="/outils/calculateur-prime-schl" className="hover:text-gold transition font-semibold">Calculateur Prime SCHL</Link></li>
@@ -36,7 +35,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4 uppercase text-xs tracking-wider text-white">Guides</h4>
+            <h4 className="font-mono mb-4 uppercase text-xs tracking-widest text-gold">Guides</h4>
             <ul className="space-y-2 text-base text-gray-400">
               <li><Link href="/blog/hypotheque-travailleur-temporaire-5pourcent" className="hover:text-gold transition font-semibold">Guide Complet</Link></li>
               <li><Link href="/blog/hypotheque-permis-travail-ouvert" className="hover:text-gold transition font-semibold">Permis de Travail</Link></li>
@@ -46,7 +45,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4 uppercase text-xs tracking-wider text-white">Légal</h4>
+            <h4 className="font-mono mb-4 uppercase text-xs tracking-widest text-gold">Légal</h4>
             <ul className="space-y-2 text-base text-gray-400">
               <li><Link href="/about" className="hover:text-gold transition font-semibold">À propos</Link></li>
               <li><Link href="/mentions-legales" className="hover:text-gold transition font-semibold">Mentions Légales</Link></li>

@@ -236,7 +236,7 @@ export default function EligibiliteAchat() {
               {result.eligible && (
                 <Link
                   href="/wizard"
-                  className="inline-block bg-gold text-white px-8 py-3.5 rounded-lg font-bold text-lg hover:bg-white hover:text-gold border-2 border-gold transition uppercase tracking-wider text-center"
+                  className="inline-block bg-gold text-ink px-8 py-3.5 rounded-lg font-bold text-lg hover:bg-white hover:text-gold border-2 border-gold transition uppercase tracking-wider text-center"
                 >
                   Commencer la préapprobation
                 </Link>

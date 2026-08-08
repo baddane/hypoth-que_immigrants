@@ -12,7 +12,7 @@ const WizardCta = ({ variant = "light" }: { variant?: "light" | "dark" }) => (
     <p className={`text-xs mb-3 ${variant === "dark" ? "text-gray-400" : "text-gray-500"}`}>
       Notre wizard gratuit analyse votre situation en 5 minutes et vous connecte aux meilleurs courtiers.
     </p>
-    <Link href="/wizard" className="inline-block bg-gold text-white px-6 py-2.5 rounded-lg text-sm font-semibold hover:bg-white hover:text-gold border border-gold transition">
+    <Link href="/wizard" className="inline-block bg-gold text-ink px-6 py-2.5 rounded-lg text-sm font-semibold hover:bg-white hover:text-gold border border-gold transition">
       Commencer le Wizard &rarr;
     </Link>
   </div>

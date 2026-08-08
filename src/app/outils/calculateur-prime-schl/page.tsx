@@ -97,7 +97,7 @@ export default function CalculateurPrimeSCHL() {
 
           <button
             onClick={calculate}
-            className="w-full bg-gold text-white py-3.5 rounded-xl font-semibold text-lg hover:bg-gold-dark transition uppercase tracking-wider"
+            className="w-full bg-gold text-ink py-3.5 rounded-xl font-semibold text-lg hover:bg-gold-dark transition uppercase tracking-wider"
           >
             Calculer ma prime SCHL
           </button>
@@ -131,7 +131,7 @@ export default function CalculateurPrimeSCHL() {
             <div className="text-center">
               <Link
                 href="/wizard"
-                className="inline-block bg-gold text-white px-8 py-3.5 rounded-lg font-bold text-lg hover:bg-white hover:text-gold border-2 border-gold transition uppercase tracking-wider"
+                className="inline-block bg-gold text-ink px-8 py-3.5 rounded-lg font-bold text-lg hover:bg-white hover:text-gold border-2 border-gold transition uppercase tracking-wider"
               >
                 Obtenir ma préapprobation gratuite
               </Link>

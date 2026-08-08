@@ -71,81 +71,57 @@ export default function Home() {
   return (
     <>
       {/* HERO */}
-      <section className="bg-white min-h-[90vh] flex items-center">
-        <div className="max-w-[1240px] mx-auto px-6 py-20 grid md:grid-cols-2 gap-16 items-center">
-          <div>
-            <p className="uppercase text-sm tracking-[0.3em] text-gold font-semibold mb-6">
-              Guide-Hypotheque.ca
-            </p>
-            <h1 className="text-4xl md:text-6xl leading-tight mb-6 font-extrabold text-midnight">
-              Obtenez Votre
-              <br />
-              Préapprobation
-              <br />
-              <span className="text-gold">en 5 Minutes</span>
-            </h1>
-            <p className="text-gray-500 max-w-lg mb-8 text-xl">
-              Wizard gratuit pour immigrants au Canada. Découvrez combien vous pouvez emprunter et recevez des offres de courtiers spécialisés.
-            </p>
+      <section className="bg-paper min-h-[88vh] flex items-center relative overflow-hidden">
+        <div className="max-w-3xl mx-auto px-6 py-24 text-center relative z-10">
+          <span className="inline-block eyebrow border border-sand bg-cream px-4 py-2 rounded-md mb-8">
+            Hypothèque Canada &middot; Guides gratuits &middot; Courtiers partenaires
+          </span>
+          <h1 className="text-5xl md:text-7xl leading-[1.05] mb-8 text-ink">
+            L&apos;Accès à la{" "}
+            <span className="italic text-gold">Propriété</span>
+            <br className="hidden md:block" /> sans Frontières.
+          </h1>
+          <p className="text-grey max-w-xl mx-auto mb-10 text-lg md:text-xl leading-relaxed">
+            La référence francophone de l&apos;hypothèque pour nouveaux arrivants au Canada. Guides complets, outils gratuits et courtiers partenaires pour concrétiser votre projet.
+          </p>
 
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <Link
               href="/wizard"
-              className="inline-block bg-gold text-white px-10 py-4 rounded-lg font-bold text-lg hover:bg-white hover:text-gold border-2 border-gold transition uppercase tracking-wider mb-8"
+              className="inline-flex items-center justify-center gap-2 bg-gold text-ink px-8 py-4 rounded-md font-semibold text-base uppercase tracking-wide hover:bg-ink hover:text-gold border border-gold transition"
             >
-              Commencer le Wizard
+              Préapprobation Gratuite <span aria-hidden="true">&rarr;</span>
             </Link>
-
-            <ul className="space-y-3">
-              {trustSignals.map((signal) => (
-                <li key={signal.text} className="flex items-center gap-3 text-base text-gray-600">
-                  <span className="w-6 h-6 bg-gold-light rounded-full flex items-center justify-center flex-shrink-0">
-                    <svg className="w-3.5 h-3.5 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-                    </svg>
-                  </span>
-                  {signal.text}
-                </li>
-              ))}
-            </ul>
+            <Link
+              href="/blog"
+              className="inline-flex items-center justify-center bg-transparent text-ink px-8 py-4 rounded-md font-semibold text-base uppercase tracking-wide border border-sand hover:border-ink transition"
+            >
+              Découvrir les guides
+            </Link>
           </div>
 
-          <div className="hidden md:block">
-            <div className="bg-white rounded-[30px] p-8 shadow-[0_4px_16px_rgba(0,0,0,0.1)] border border-gray-200">
-              <div className="text-center mb-6">
-                <div className="w-20 h-20 bg-gold-light rounded-2xl flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-10 h-10 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3H21m-3.75 3H21" />
+          <ul className="flex flex-wrap items-center justify-center gap-x-6 gap-y-3">
+            {trustSignals.map((signal) => (
+              <li key={signal.text} className="flex items-center gap-2 text-sm text-grey">
+                <span className="w-5 h-5 bg-gold-light rounded-full flex items-center justify-center flex-shrink-0">
+                  <svg className="w-3 h-3 text-gold-dark" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                   </svg>
-                </div>
-                <h3 className="text-xl mb-2 font-extrabold text-midnight">Wizard Hypothèque</h3>
-                <p className="text-base text-gray-400">7 étapes simples vers votre hypothèque</p>
-              </div>
-              <div className="space-y-3 mb-6">
-                {["Statut Immigration", "Durée au Canada", "Historique Crédit", "Revenu Annuel", "Apport Initial", "Province", "Vos Coordonnées"].map((step, i) => (
-                  <div key={step} className="flex items-center gap-3 text-base">
-                    <span className="w-8 h-8 bg-gold-light rounded-lg flex items-center justify-center text-xs font-bold text-gold">{i + 1}</span>
-                    <span className="text-gray-600">{step}</span>
-                  </div>
-                ))}
-              </div>
-              <Link
-                href="/wizard"
-                className="block w-full bg-gold text-white text-center py-3.5 rounded-lg font-semibold hover:bg-white hover:text-gold border border-gold transition"
-              >
-                Commencer maintenant
-              </Link>
-            </div>
-          </div>
+                </span>
+                {signal.text}
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
 
       {/* SOCIAL PROOF */}
-      <section className="border-y border-gray-200 bg-cream py-12">
+      <section className="border-y border-sand bg-cream py-12">
         <div className="max-w-[1240px] mx-auto px-6">
           <p className="text-center text-sm text-gray-400 uppercase tracking-wider font-semibold mb-8">Nos partenaires bancaires</p>
           <div className="flex flex-wrap justify-center gap-8">
             {["RBC", "TD", "CIBC", "BMO", "Scotiabank", "Nesto"].map((bank) => (
-              <div key={bank} className="bg-white px-6 py-3 rounded-2xl font-extrabold text-gray-400 text-lg hover:text-gold transition border border-gray-100">
+              <div key={bank} className="bg-white px-6 py-3 rounded-xl font-bold text-grey text-lg hover:text-gold transition border border-sand">
                 {bank}
               </div>
             ))}
@@ -154,15 +130,15 @@ export default function Home() {
       </section>
 
       {/* TESTIMONIALS */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-paper">
         <div className="max-w-[1240px] mx-auto px-6">
-          <p className="uppercase text-sm tracking-[0.3em] text-gold font-semibold mb-4 text-center">Témoignages</p>
-          <h2 className="text-3xl md:text-4xl text-center mb-12 font-extrabold text-midnight">
-            Ce qu&apos;ils <span className="text-gold">disent</span>
+          <p className="eyebrow mb-4 block text-center">Témoignages</p>
+          <h2 className="text-3xl md:text-4xl text-center mb-12 text-ink">
+            Ce qu&apos;ils <span className="italic text-gold">disent</span>
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             {testimonials.map((t) => (
-              <div key={t.name} className="bg-cream rounded-[30px] p-8 border border-gray-100">
+              <div key={t.name} className="bg-cream rounded-2xl p-8 border border-sand">
                 <div className="flex gap-0.5 text-gold mb-4">
                   {Array.from({ length: t.stars }, (_, i) => (
                     <span key={i}>&#9733;</span>
@@ -182,7 +158,7 @@ export default function Home() {
       {/* HOW IT WORKS */}
       <section className="py-20 bg-midnight text-white">
         <div className="max-w-[1240px] mx-auto px-6">
-          <p className="uppercase text-sm tracking-[0.3em] text-gold font-semibold mb-4 text-center">Processus</p>
+          <p className="eyebrow mb-4 block text-center">Processus</p>
           <h2 className="text-3xl md:text-4xl text-center mb-4 font-extrabold">
             Comment ça <span className="text-gold">fonctionne ?</span>
           </h2>
@@ -201,7 +177,7 @@ export default function Home() {
           <div className="text-center mt-12">
             <Link
               href="/wizard"
-              className="inline-block bg-gold text-white px-10 py-4 rounded-lg font-bold hover:bg-white hover:text-gold border-2 border-gold transition uppercase tracking-wider"
+              className="inline-block bg-gold text-ink px-10 py-4 rounded-lg font-bold hover:bg-white hover:text-gold border-2 border-gold transition uppercase tracking-wider"
             >
               Commencez Maintenant
             </Link>
@@ -212,13 +188,13 @@ export default function Home() {
       {/* MINI FAQ */}
       <section className="py-20 bg-cream">
         <div className="max-w-3xl mx-auto px-6">
-          <p className="uppercase text-sm tracking-[0.3em] text-gold font-semibold mb-4 text-center">Questions Rapides</p>
+          <p className="eyebrow mb-4 block text-center">Questions Rapides</p>
           <h2 className="text-3xl text-center mb-12 font-extrabold text-midnight">
             Vos questions <span className="text-gold">fréquentes</span>
           </h2>
           <div className="space-y-4 mb-10">
             {miniFaq.map((item) => (
-              <div key={item.q} className="bg-white rounded-2xl p-6 border border-gray-100">
+              <div key={item.q} className="bg-white rounded-2xl p-6 border border-sand">
                 <h3 className="font-semibold text-base mb-2 text-midnight">{item.q}</h3>
                 <p className="text-base text-gray-500">{item.a}</p>
               </div>
@@ -233,17 +209,17 @@ export default function Home() {
       </section>
 
       {/* FINAL CTA */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-paper">
         <div className="max-w-3xl mx-auto px-6 text-center">
-          <h2 className="text-3xl md:text-5xl mb-6 font-extrabold text-midnight">
-            Prêt à devenir <span className="text-gold">propriétaire ?</span>
+          <h2 className="text-3xl md:text-5xl mb-6 text-ink">
+            Prêt à devenir <span className="italic text-gold">propriétaire ?</span>
           </h2>
           <p className="text-gray-500 mb-10 max-w-lg mx-auto text-lg">
             Rejoignez les milliers d&apos;immigrants qui ont obtenu leur hypothèque grâce à notre wizard gratuit.
           </p>
           <Link
             href="/wizard"
-            className="inline-block bg-gold text-white px-10 py-4 rounded-lg font-bold text-lg hover:bg-white hover:text-gold border-2 border-gold transition uppercase tracking-wider"
+            className="inline-block bg-gold text-ink px-10 py-4 rounded-lg font-bold text-lg hover:bg-white hover:text-gold border-2 border-gold transition uppercase tracking-wider"
           >
             Commencer le Wizard Gratuit
           </Link>

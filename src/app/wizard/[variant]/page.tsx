@@ -69,7 +69,7 @@ export default async function WizardVariantPage({ params }: Props) {
 
             <a
               href="#wizard-form"
-              className="inline-block bg-gold text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-gold-dark transition uppercase tracking-wider shadow-lg shadow-gold/25 mb-8"
+              className="inline-block bg-gold text-ink px-10 py-4 rounded-full font-bold text-lg hover:bg-gold-dark transition uppercase tracking-wider shadow-lg shadow-gold/25 mb-8"
             >
               {v.ctaText}
             </a>
@@ -116,7 +116,7 @@ export default async function WizardVariantPage({ params }: Props) {
               </div>
               <a
                 href="#wizard-form"
-                className="block w-full bg-gold text-white text-center py-3 rounded-xl font-medium hover:bg-gold-dark transition"
+                className="block w-full bg-gold text-ink text-center py-3 rounded-xl font-medium hover:bg-gold-dark transition"
               >
                 {v.ctaText}
               </a>
@@ -173,7 +173,7 @@ export default async function WizardVariantPage({ params }: Props) {
           </p>
           <a
             href="#wizard-form"
-            className="inline-block bg-gold text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-gold-dark transition uppercase tracking-wider shadow-lg shadow-gold/25"
+            className="inline-block bg-gold text-ink px-10 py-4 rounded-full font-bold text-lg hover:bg-gold-dark transition uppercase tracking-wider shadow-lg shadow-gold/25"
           >
             {v.ctaText}
           </a>

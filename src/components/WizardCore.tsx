@@ -231,7 +231,7 @@ export default function WizardCore({
             <button
               onClick={handleSubmit}
               disabled={submitting}
-              className="w-full bg-gold text-white py-4 rounded-xl font-bold text-lg hover:bg-gold-dark transition uppercase tracking-wider disabled:opacity-50 shadow-lg shadow-gold/25"
+              className="w-full bg-gold text-ink py-4 rounded-xl font-bold text-lg hover:bg-gold-dark transition uppercase tracking-wider disabled:opacity-50 shadow-lg shadow-gold/25"
             >
               {submitting ? "Envoi en cours..." : ctaText}
             </button>
@@ -286,7 +286,7 @@ export default function WizardCore({
             </div>
             <button
               onClick={handleSliderSubmit}
-              className="w-full bg-gold text-white py-4 rounded-xl font-medium hover:bg-gold-dark transition uppercase text-sm tracking-wider"
+              className="w-full bg-gold text-ink py-4 rounded-xl font-medium hover:bg-gold-dark transition uppercase text-sm tracking-wider"
             >
               Continuer
             </button>

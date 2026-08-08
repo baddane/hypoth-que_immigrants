@@ -182,7 +182,7 @@ export default function GlossairePage() {
             Utilisez nos outils gratuits pour évaluer votre situation hypothécaire.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Link href="/wizard" className="bg-gold text-white px-6 py-3 rounded-lg font-bold hover:bg-gold-dark transition">
+            <Link href="/wizard" className="bg-gold text-ink px-6 py-3 rounded-lg font-bold hover:bg-gold-dark transition">
               Préapprobation gratuite
             </Link>
             <Link href="/outils/calculateur-montant-empruntable" className="border-2 border-gold text-gold px-6 py-3 rounded-lg font-bold hover:bg-gold hover:text-white transition">

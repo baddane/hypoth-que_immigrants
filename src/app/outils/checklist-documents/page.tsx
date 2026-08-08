@@ -111,7 +111,7 @@ export default function ChecklistDocuments() {
               <p className="text-lg font-extrabold text-gold mb-2">Dossier complet !</p>
               <Link
                 href="/wizard"
-                className="inline-block bg-gold text-white px-6 py-3 rounded-lg font-bold hover:bg-gold-dark transition uppercase tracking-wider"
+                className="inline-block bg-gold text-ink px-6 py-3 rounded-lg font-bold hover:bg-gold-dark transition uppercase tracking-wider"
               >
                 Lancer ma préapprobation
               </Link>
@@ -167,7 +167,7 @@ export default function ChecklistDocuments() {
           <p className="text-base text-gray-400 mb-6">Notre wizard gratuit analyse votre profil et vous connecte aux meilleurs courtiers en 5 minutes.</p>
           <Link
             href="/wizard"
-            className="inline-block bg-gold text-white px-8 py-3.5 rounded-lg font-bold text-lg hover:bg-white hover:text-gold border-2 border-gold transition uppercase tracking-wider"
+            className="inline-block bg-gold text-ink px-8 py-3.5 rounded-lg font-bold text-lg hover:bg-white hover:text-gold border-2 border-gold transition uppercase tracking-wider"
           >
             Commencer le Wizard
           </Link>

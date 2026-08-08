@@ -51,7 +51,7 @@ export default function BlogPage() {
           href={`/blog/${pillar.slug}`}
           className="block bg-midnight text-white rounded-[30px] p-10 mb-12 hover:opacity-95 transition group"
         >
-          <span className="text-xs bg-gold text-white px-4 py-1.5 rounded-lg uppercase tracking-wider font-semibold">
+          <span className="text-xs bg-gold text-ink px-4 py-1.5 rounded-lg uppercase tracking-wider font-semibold">
             {pillar.category}
           </span>
           <h2 className="text-2xl md:text-3xl mt-4 mb-3 font-extrabold group-hover:text-gold transition">
@@ -125,7 +125,7 @@ export default function BlogPage() {
           </p>
           <Link
             href="/wizard"
-            className="inline-block bg-gold text-white px-8 py-3.5 rounded-lg font-bold hover:bg-white hover:text-gold border border-gold transition uppercase tracking-wider"
+            className="inline-block bg-gold text-ink px-8 py-3.5 rounded-lg font-bold hover:bg-white hover:text-gold border border-gold transition uppercase tracking-wider"
           >
             Commencer le Wizard
           </Link>
