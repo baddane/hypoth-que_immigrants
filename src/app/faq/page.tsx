@@ -5,6 +5,7 @@ import FaqAccordion from "@/components/FaqAccordion";
 
 export const metadata: Metadata = {
   title: "FAQ Hypothèque Immigrants — Questions Fréquentes",
+  alternates: { canonical: "/faq" },
   description:
     "Réponses aux questions les plus fréquentes sur l'hypothèque pour immigrants au Canada. SCHL, crédit, mise de fonds, programmes bancaires.",
 };

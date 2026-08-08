@@ -233,10 +233,28 @@ export default function Home() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Organization",
-            name: SITE_NAME,
-            url: SITE_URL,
-            description: "Service gratuit de préapprobation hypothécaire pour immigrants au Canada",
+            "@graph": [
+              {
+                "@type": "WebPage",
+                "@id": `${SITE_URL}/#webpage`,
+                url: SITE_URL,
+                name: "Hypothèque pour immigrants au Canada",
+                isPartOf: { "@id": `${SITE_URL}/#website` },
+                about: { "@id": `${SITE_URL}/#organization` },
+                inLanguage: "fr-CA",
+                description:
+                  "Service gratuit de préapprobation hypothécaire pour immigrants et nouveaux arrivants au Canada.",
+              },
+              {
+                "@type": "Service",
+                name: "Mise en relation avec des courtiers hypothécaires",
+                serviceType: "Courtage hypothécaire",
+                provider: { "@type": "Organization", name: SITE_NAME, "@id": `${SITE_URL}/#organization` },
+                areaServed: { "@type": "Country", name: "Canada" },
+                audience: { "@type": "Audience", audienceType: "Immigrants et nouveaux arrivants au Canada" },
+                offers: { "@type": "Offer", price: "0", priceCurrency: "CAD" },
+              },
+            ],
           }),
         }}
       />

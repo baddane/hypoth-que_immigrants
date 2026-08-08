@@ -1,17 +1,17 @@
 import Link from "next/link";
 import { blogPosts } from "@/data/blogPosts";
 import { wizardVariants } from "@/data/wizardVariants";
-import { SITE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Guides Hypothèque Immigrants Canada — 52 Articles",
   description:
     "Articles et guides complets sur l'hypothèque pour immigrants au Canada. Travailleurs temporaires, étudiants, résidents permanents.",
+  alternates: { canonical: "/blog" },
   openGraph: {
     title: "Guides Hypothèque Immigrants Canada",
     description: "52 guides complets pour obtenir votre hypothèque au Canada en tant qu'immigrant.",
-    url: `${SITE_URL}/blog`,
+    url: "/blog",
     type: "website",
   },
 };

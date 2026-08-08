@@ -1,18 +1,18 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import LeadMagnetForm from "@/components/LeadMagnetForm";
-import { SITE_URL } from "@/lib/constants";
 import { requiredDocuments } from "@/data/documents";
 
 export const metadata: Metadata = {
   title: "Checklist PDF des documents hypothécaires pour immigrants — Gratuit",
   description:
     "Téléchargez gratuitement la checklist PDF complète des documents requis pour votre demande d'hypothèque au Canada en tant qu'immigrant : identité, revenus, finances, crédit alternatif et propriété.",
+  alternates: { canonical: "/ressources/checklist-documents" },
   openGraph: {
     title: "Checklist PDF des documents hypothécaires pour immigrants",
     description:
       "La liste complète des documents pour votre préapprobation hypothécaire au Canada. Téléchargement gratuit.",
-    url: `${SITE_URL}/ressources/checklist-documents`,
+    url: "/ressources/checklist-documents",
     type: "website",
   },
 };

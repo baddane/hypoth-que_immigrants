@@ -21,10 +21,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: v.title,
     description: v.subtitle,
+    alternates: { canonical: `/wizard/${v.slug}` },
     openGraph: {
       title: v.title,
       description: v.heroDescription,
-      url: `${SITE_URL}/wizard/${v.slug}`,
+      url: `/wizard/${v.slug}`,
       type: "website",
     },
   };

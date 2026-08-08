@@ -4,6 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Politique de Confidentialit\u00e9",
   description: "Politique de confidentialit\u00e9 de guide-hypotheque.ca. Conformit\u00e9 RGPD, Loi 25 (Qu\u00e9bec) et PIPEDA (Canada).",
+  alternates: { canonical: "/politique-confidentialite" },
 };
 
 export default function PolitiqueConfidentialitePage() {

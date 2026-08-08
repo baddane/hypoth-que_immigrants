@@ -3,6 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Glossaire hypothécaire — guide-hypotheque.ca",
+  alternates: { canonical: "/glossaire" },
   description:
     "Glossaire complet des termes hypothécaires au Canada : amortissement, ABD, ATD, stress test, SCHL, taux fixe, variable et plus. Explications simples pour immigrants.",
 };
