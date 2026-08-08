@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "À Propos",
   description: "À propos de guide-hypotheque.ca. Notre mission, expertise, partenaires.",
+  alternates: { canonical: "/about" },
 };
 
 export default function AboutPage() {

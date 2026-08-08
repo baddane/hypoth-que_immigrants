@@ -20,11 +20,24 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: post.title,
     description: post.description,
+    alternates: {
+      canonical: `/blog/${post.slug}`,
+    },
     openGraph: {
       title: post.title,
       description: post.description,
-      url: `${SITE_URL}/blog/${post.slug}`,
+      url: `/blog/${post.slug}`,
+      siteName: SITE_NAME,
       type: "article",
+      locale: "fr_CA",
+      publishedTime: "2026-01-15T00:00:00.000Z",
+      modifiedTime: "2026-03-28T00:00:00.000Z",
+      section: post.category,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.description,
     },
   };
 }
@@ -161,9 +174,19 @@ export default async function BlogPostPage({ params }: Props) {
                 "@type": "Article",
                 headline: post.title,
                 description: post.description,
+                inLanguage: "fr-CA",
+                url: `${SITE_URL}/blog/${post.slug}`,
+                mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/blog/${post.slug}` },
+                datePublished: "2026-01-15",
                 dateModified: "2026-03-28",
+                image: `${SITE_URL}/opengraph-image`,
+                articleSection: post.category,
                 author: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
-                publisher: { "@type": "Organization", name: SITE_NAME },
+                publisher: {
+                  "@type": "Organization",
+                  name: SITE_NAME,
+                  logo: { "@type": "ImageObject", url: `${SITE_URL}/icon.png` },
+                },
               },
               {
                 "@context": "https://schema.org",
