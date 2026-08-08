@@ -592,6 +592,17 @@ export const blogPosts: BlogPost[] = [
     wizardVariant: undefined,
     relatedSlugs: ["hypotheque-manitoba-immigrants-winnipeg", "hypotheque-alberta-immigrants-calgary-edmonton", "programme-schl-nouveaux-arrivants-guide-complet"],
   },
+  // ====== ARTICLE #54 — NOUVELLE-ÉCOSSE ======
+  {
+    slug: "hypotheque-nouvelle-ecosse-immigrants-halifax-programme-atlantique",
+    title: "Hypothèque Nouvelle-Écosse Immigrants : Guide Halifax et Programme d'Immigration Atlantique",
+    subtitle: "Le principal programme fédéral-provincial de l'Atlantique et une taxe pour non-résidents à ne pas oublier avant d'acheter.",
+    description: "Guide hypothèque pour immigrants en Nouvelle-Écosse. Marché Halifax, Programme d'immigration atlantique (PIA), taxe de transfert pour non-résidents de 10 %, et programmes fédéraux pour nouveaux arrivants.",
+    category: "Province",
+    readTime: "9 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-manitoba-immigrants-winnipeg", "hypotheque-saskatchewan-immigrants-regina-saskatoon", "interdiction-achat-non-canadien-exemptions-2027"],
+  },
 ];
 
 // Helper: get post by slug

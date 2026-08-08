@@ -3391,4 +3391,96 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  "hypotheque-nouvelle-ecosse-immigrants-halifax-programme-atlantique": (
+    <>
+      <p>
+        Longtemps &eacute;clips&eacute;e par l&rsquo;Ontario et la Colombie-Britannique, la Nouvelle-&Eacute;cosse attire un nombre croissant de nouveaux arrivants gr&acirc;ce &agrave; un march&eacute; immobilier plus abordable qu&rsquo;&agrave;peu pr&egrave;s partout ailleurs au pays et &agrave; l&rsquo;un des programmes d&rsquo;immigration les plus actifs du Canada atlantique, le <strong>Programme d&rsquo;immigration atlantique (PIA)</strong>. Elle applique aussi une taxe provinciale propre aux non-r&eacute;sidents qu&rsquo;il vaut mieux comprendre avant de signer une offre d&rsquo;achat. Voici ce qu&rsquo;un immigrant doit savoir pour acheter &agrave; Halifax ou ailleurs en Nouvelle-&Eacute;cosse.
+      </p>
+
+      <h2>Le march&eacute; immobilier d&rsquo;Halifax et du reste de la province</h2>
+      <p>
+        La r&eacute;gion m&eacute;tropolitaine d&rsquo;Halifax (Halifax Regional Municipality, ou HRM) demeure le march&eacute; le plus cher de la province, mais reste nettement plus accessible que Toronto ou Vancouver. Le prix de r&eacute;f&eacute;rence (benchmark) y tournait autour de 570&nbsp;000&nbsp;&agrave; 600&nbsp;000&nbsp;$ en 2026, avec des unifamiliales isol&eacute;es souvent au-dessus de ce prix et des condos plus abordables, g&eacute;n&eacute;ralement sous les 420&nbsp;000&nbsp;$.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>R&eacute;gion</th>
+            <th>Profil de prix</th>
+            <th>Mise de fonds 5&nbsp;%</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Halifax / Dartmouth (HRM)</strong></td>
+            <td>Unifamiliale ~570&nbsp;000&nbsp;$ &agrave; 630&nbsp;000&nbsp;$ ; condo ~380&nbsp;000&nbsp;$ &agrave; 420&nbsp;000&nbsp;$</td>
+            <td>~28&nbsp;500&nbsp;$ &agrave; 31&nbsp;500&nbsp;$ (unifamiliale)</td>
+          </tr>
+          <tr>
+            <td><strong>Truro, Bridgewater, Vall&eacute;e de l&rsquo;Annapolis</strong></td>
+            <td>Nettement sous la moyenne d&rsquo;Halifax</td>
+            <td>Souvent moins de 20&nbsp;000&nbsp;$</td>
+          </tr>
+          <tr>
+            <td><strong>Sydney et le Cap-Breton</strong></td>
+            <td>Parmi les march&eacute;s les plus abordables de l&rsquo;Est du Canada</td>
+            <td>G&eacute;n&eacute;ralement le seuil le plus bas de la province</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Cet &eacute;cart de prix entre la HRM et le reste de la province explique pourquoi de nombreux nouveaux arrivants choisissent de s&rsquo;&eacute;tablir en dehors d&rsquo;Halifax pour acc&eacute;l&eacute;rer leur premier achat, quitte &agrave; accepter un temps de d&eacute;placement plus long vers les grands employeurs de la r&eacute;gion m&eacute;tropolitaine.
+      </p>
+
+      <WizardCta />
+
+      <h2>Le Programme d&rsquo;immigration atlantique (PIA)</h2>
+      <p>
+        Devenu permanent en 2022 apr&egrave;s un projet pilote concluant, le <a href="https://www.canada.ca/fr/immigration-refugies-citoyennete/organisation/publications-guides/bulletins-guides-operationnels/residence-permanente/categories-economiques/programme-immigration-atlantique.html" target="_blank" rel="noopener noreferrer">Programme d&rsquo;immigration atlantique (PIA)</a> permet &agrave; des travailleurs qualifi&eacute;s et des dipl&ocirc;m&eacute;s internationaux d&rsquo;obtenir la r&eacute;sidence permanente gr&acirc;ce &agrave; une offre d&rsquo;emploi d&rsquo;un <strong>employeur d&eacute;sign&eacute;</strong> en Nouvelle-&Eacute;cosse, au Nouveau-Brunswick, &agrave; l&rsquo;&Icirc;le-du-Prince-&Eacute;douard ou &agrave; Terre-Neuve-et-Labrador, combin&eacute;e &agrave; un <strong>plan d&rsquo;&eacute;tablissement</strong> personnalis&eacute; et &agrave; l&rsquo;approbation de la province.
+      </p>
+      <ul>
+        <li><strong>Offre d&rsquo;emploi obligatoire</strong> &mdash; contrairement &agrave; Entr&eacute;e express, le PIA exige une offre valide d&rsquo;un employeur reconnu comme d&eacute;sign&eacute; par la province avant le d&eacute;p&ocirc;t de la demande.</li>
+        <li><strong>Plan d&rsquo;&eacute;tablissement</strong> &mdash; une rencontre avec un organisme d&rsquo;&eacute;tablissement reconnu est requise pour vous et votre famille, m&ecirc;me si vous r&eacute;sidez d&eacute;j&agrave; au Canada.</li>
+        <li><strong>D&eacute;lais de traitement plus longs qu&rsquo;avant</strong> &mdash; en 2026, le d&eacute;lai moyen pour une d&eacute;cision d&eacute;passe deux ans pour les nouvelles demandes, un facteur &agrave; int&eacute;grer dans votre planification si l&rsquo;achat d&eacute;pend de votre statut.</li>
+      </ul>
+      <p>
+        La Nouvelle-&Eacute;cosse a par ailleurs instaur&eacute; en mai 2026 une <strong>validit&eacute; de 12&nbsp;mois</strong> pour les d&eacute;clarations d&rsquo;int&eacute;r&ecirc;t (EOI) soumises dans le cadre de ses volets provinciaux, contre une dur&eacute;e plus courte auparavant. Comme pour le SINP en Saskatchewan, une approbation provinciale renforce la stabilit&eacute; per&ccedil;ue du dossier mais ne remplace pas les crit&egrave;res financiers du pr&ecirc;teur&nbsp;: revenu, cr&eacute;dit et mise de fonds restent &eacute;valu&eacute;s ind&eacute;pendamment. Consultez notre guide sur ce qui change vraiment au <InternalLink slug="hypotheque-nouveau-resident-permanent-guide-complet">passage au statut de r&eacute;sident permanent</InternalLink>.
+      </p>
+
+      <h2>Taxe de transfert : le pi&egrave;ge du statut &laquo;&nbsp;non-r&eacute;sident&nbsp;&raquo;</h2>
+      <p>
+        La Nouvelle-&Eacute;cosse applique une <strong>taxe de transfert de propri&eacute;t&eacute; (deed transfer tax)</strong> standard d&eacute;termin&eacute;e par chaque municipalit&eacute; &mdash; 1,5&nbsp;% du prix d&rsquo;achat dans la r&eacute;gion d&rsquo;Halifax (HRM), un taux qui peut varier ailleurs dans la province. S&rsquo;ajoute &agrave; cela une taxe distincte, souvent mal comprise des nouveaux arrivants&nbsp;:
+      </p>
+      <ul>
+        <li><strong>Taxe provinciale de transfert pour non-r&eacute;sidents :</strong> 10&nbsp;% de la valeur de la propri&eacute;t&eacute; (port&eacute;e de 5&nbsp;% &agrave; 10&nbsp;% depuis le 1er avril 2025), applicable &agrave; la portion transf&eacute;r&eacute;e &agrave; un acheteur consid&eacute;r&eacute; &laquo;&nbsp;non-r&eacute;sident&nbsp;&raquo; de la Nouvelle-&Eacute;cosse.</li>
+        <li><strong>Exemption si vous vous &eacute;tablissez dans la province :</strong> un acheteur qui devient r&eacute;sident de la Nouvelle-&Eacute;cosse dans les <strong>6&nbsp;mois</strong> suivant la transaction peut &ecirc;tre exempt&eacute; &mdash; ce qui couvre la majorit&eacute; des immigrants qui ach&egrave;tent pour s&rsquo;y installer.</li>
+        <li><strong>Ne pas confondre avec l&rsquo;interdiction f&eacute;d&eacute;rale d&rsquo;achat :</strong> cette taxe provinciale se base sur la <em>r&eacute;sidence</em>, pas sur la citoyennet&eacute; &mdash; ses crit&egrave;res sont diff&eacute;rents de ceux de la <InternalLink slug="interdiction-achat-non-canadien-exemptions-2027">Loi sur l&rsquo;interdiction d&rsquo;achat de propri&eacute;t&eacute;s r&eacute;sidentielles par des non-Canadiens</InternalLink>, qui vise les non-citoyens sans lien avec le statut de r&eacute;sident provincial.</li>
+      </ul>
+      <p>
+        En clair&nbsp;: un travailleur temporaire ou un futur r&eacute;sident permanent qui ach&egrave;te une propri&eacute;t&eacute; pour y vivre &eacute;chappe g&eacute;n&eacute;ralement &agrave; la taxe pour non-r&eacute;sidents, &agrave; condition de d&eacute;m&eacute;nager dans les d&eacute;lais prescrits et de fournir la preuve requise. Un acheteur qui garde sa r&eacute;sidence ailleurs (par exemple pour un investissement locatif) doit en revanche budg&eacute;ter cette taxe suppl&eacute;mentaire, non finan&ccedil;able dans l&rsquo;hypoth&egrave;que.
+      </p>
+
+      <WizardCta variant="dark" />
+
+      <h2>Programmes f&eacute;d&eacute;raux applicables partout en Nouvelle-&Eacute;cosse</h2>
+      <p>
+        Comme dans les autres provinces, les incitatifs f&eacute;d&eacute;raux pour premiers acheteurs s&rsquo;appliquent int&eacute;gralement&nbsp;: le <InternalLink slug="hypotheque-reer-rap-immigrant-premier-achat">R&eacute;gime d&rsquo;accession &agrave; la propri&eacute;t&eacute; (RAP) et le CELIAPP</InternalLink>, ainsi que le <InternalLink slug="programme-schl-nouveaux-arrivants-guide-complet">programme SCHL Nouveaux Arrivants</InternalLink> pour les immigrants au Canada depuis cinq ans ou moins sans historique de cr&eacute;dit canadien &eacute;tabli.
+      </p>
+
+      <h2>&Agrave; retenir avant d&rsquo;acheter en Nouvelle-&Eacute;cosse</h2>
+      <ul>
+        <li><strong>Le PIA exige une offre d&rsquo;emploi d&rsquo;abord</strong> &mdash; contrairement &agrave; Entr&eacute;e express, ce n&rsquo;est pas un programme de points&nbsp;: sans employeur d&eacute;sign&eacute;, il n&rsquo;y a pas de PIA.</li>
+        <li><strong>V&eacute;rifiez votre statut de r&eacute;sidence avant l&rsquo;offre d&rsquo;achat</strong> &mdash; la taxe de 10&nbsp;% pour non-r&eacute;sidents peut &ecirc;tre &eacute;vit&eacute;e si vous vous &eacute;tablissez dans la province &agrave; temps, mais les d&eacute;lais et les preuves exig&eacute;es doivent &ecirc;tre confirm&eacute;s aupr&egrave;s de votre notaire.</li>
+        <li><strong>La HRM n&rsquo;est pas toute la province</strong> &mdash; Truro, la Vall&eacute;e de l&rsquo;Annapolis et le Cap-Breton offrent des prix nettement plus abordables pour un premier achat.</li>
+      </ul>
+      <p>
+        Comparez aussi avec les march&eacute;s abordables du <InternalLink slug="hypotheque-manitoba-immigrants-winnipeg">Manitoba</InternalLink> et de la <InternalLink slug="hypotheque-saskatchewan-immigrants-regina-saskatoon">Saskatchewan</InternalLink> pour situer la Nouvelle-&Eacute;cosse parmi les options hors des grands centres.
+      </p>
+      <p>
+        Sources officielles&nbsp;: <a href="https://liveinnovascotia.com/atlantic-immigration-program" target="_blank" rel="noopener noreferrer">Gouvernement de la Nouvelle-&Eacute;cosse &mdash; Programme d&rsquo;immigration atlantique</a>, <a href="https://www.novascotia.ca/non-resident-provincial-deed-transfer-tax" target="_blank" rel="noopener noreferrer">Nouvelle-&Eacute;cosse &mdash; Taxe de transfert pour non-r&eacute;sidents</a> et <a href="https://www.cmhc-schl.gc.ca" target="_blank" rel="noopener noreferrer">SCHL</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };
