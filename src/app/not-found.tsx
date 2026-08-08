@@ -8,7 +8,7 @@ export default function NotFound() {
         <p className="text-gray-500 mb-8">Cette page n&apos;existe pas ou a été déplacée.</p>
         <Link
           href="/"
-          className="inline-block bg-gold text-white px-8 py-3.5 rounded-full font-bold hover:bg-gold-dark transition uppercase tracking-wider"
+          className="inline-block bg-gold text-ink px-8 py-3.5 rounded-full font-bold hover:bg-gold-dark transition uppercase tracking-wider"
         >
           Retour à l&apos;accueil
         </Link>

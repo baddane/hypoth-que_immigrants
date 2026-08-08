@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -20,16 +19,16 @@ export default function Header() {
 
   return (
     <>
-      <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur border-b border-gray-200" style={{ height: 68 }}>
+      <header className="fixed top-0 left-0 right-0 z-50 bg-paper/90 backdrop-blur border-b border-sand" style={{ height: 68 }}>
         <div className="max-w-[1240px] mx-auto px-4 flex items-center justify-between h-full">
-          <Link href="/" className="flex items-center gap-2">
-            <Image src="/icon.png" alt="guide-hypotheque.ca" width={36} height={36} className="rounded-lg" />
-            <span className="text-lg font-extrabold text-midnight">
-              guide-hypotheque<span className="text-gold">.ca</span>
+          <Link href="/" className="flex items-center gap-3">
+            <span className="w-9 h-9 rounded-full bg-ink flex items-center justify-center font-serif font-black text-gold text-lg leading-none">G</span>
+            <span className="text-xl font-serif font-black text-ink tracking-tight">
+              Guide<span className="italic font-bold text-gold"> Hypothèque</span>
             </span>
           </Link>
 
-          <nav className="hidden md:flex items-center gap-6 text-base font-semibold" aria-label="Navigation principale">
+          <nav className="hidden md:flex items-center gap-7 text-sm font-medium uppercase tracking-wide" aria-label="Navigation principale">
             <div
               className="relative"
               onMouseEnter={() => setWizardDropdown(true)}
@@ -72,7 +71,7 @@ export default function Header() {
           <div className="hidden md:block">
             <Link
               href="/wizard"
-              className="bg-gold text-white px-6 py-2.5 rounded-lg text-base font-semibold hover:bg-white hover:text-gold border border-gold transition"
+              className="bg-gold text-ink px-6 py-2.5 rounded-md text-sm font-semibold uppercase tracking-wide hover:bg-ink hover:text-gold border border-gold transition"
             >
               Préapprobation Gratuite
             </Link>
@@ -116,7 +115,7 @@ export default function Header() {
             <Link href="/about" className="block text-midnight py-2 font-semibold" onClick={() => setMenuOpen(false)}>À propos</Link>
             <Link
               href="/wizard"
-              className="block bg-gold text-white px-5 py-2.5 rounded-lg text-sm font-semibold text-center mt-3 border border-gold hover:bg-white hover:text-gold transition"
+              className="block bg-gold text-ink px-5 py-2.5 rounded-lg text-sm font-semibold text-center mt-3 border border-gold hover:bg-white hover:text-gold transition"
               onClick={() => setMenuOpen(false)}
             >
               Préapprobation Gratuite
@@ -126,15 +125,15 @@ export default function Header() {
       </header>
 
       {/* Sticky bottom CTA bar */}
-      <div className="fixed bottom-0 left-0 right-0 z-50 bg-midnight text-white px-6 py-3 flex items-center justify-between text-base">
+      <div className="fixed bottom-0 left-0 right-0 z-50 bg-ink text-cream border-t border-gold/25 px-6 py-3 flex items-center justify-between text-base">
         <span>
           <span className="text-gold font-semibold">Préapprobation Gratuite</span>
           {" — "}
-          <span className="hidden sm:inline">Découvrez combien vous pouvez emprunter en 5 minutes.</span>
+          <span className="hidden sm:inline text-cream/80">Découvrez combien vous pouvez emprunter en 5 minutes.</span>
         </span>
         <Link
           href="/wizard"
-          className="bg-gold text-white px-5 py-2 rounded-lg text-sm font-semibold hover:bg-white hover:text-gold border border-gold transition uppercase tracking-wide"
+          className="bg-gold text-ink px-5 py-2 rounded-md text-sm font-semibold hover:bg-cream hover:text-ink border border-gold transition uppercase tracking-wide"
         >
           Commencer
         </Link>

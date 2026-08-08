@@ -15,7 +15,7 @@ export default function Error({
         </p>
         <button
           onClick={reset}
-          className="inline-block bg-gold text-white px-8 py-3.5 rounded-full font-bold hover:bg-gold-dark transition uppercase tracking-wider"
+          className="inline-block bg-gold text-ink px-8 py-3.5 rounded-full font-bold hover:bg-gold-dark transition uppercase tracking-wider"
         >
           Réessayer
         </button>

@@ -55,7 +55,7 @@ export default function LeadMagnetForm() {
         <a
           href={PDF_PATH}
           download
-          className="inline-block bg-gold text-white px-6 py-3 rounded-lg font-bold hover:bg-gold-dark transition"
+          className="inline-block bg-gold text-ink px-6 py-3 rounded-lg font-bold hover:bg-gold-dark transition"
         >
           Télécharger le PDF
         </a>
@@ -93,7 +93,7 @@ export default function LeadMagnetForm() {
       <button
         type="submit"
         disabled={status === "loading" || !email}
-        className="w-full bg-gold text-white px-6 py-3.5 rounded-lg font-bold hover:bg-gold-dark transition disabled:opacity-50 uppercase tracking-wider"
+        className="w-full bg-gold text-ink px-6 py-3.5 rounded-lg font-bold hover:bg-gold-dark transition disabled:opacity-50 uppercase tracking-wider"
       >
         {status === "loading" ? "Envoi…" : "Recevoir ma checklist PDF"}
       </button>

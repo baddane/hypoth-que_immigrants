@@ -28,7 +28,7 @@ export default function WizardCta({
       </p>
       <Link
         href={href}
-        className="inline-block bg-gold text-white px-5 py-2.5 rounded-full text-base font-medium hover:bg-gold-dark transition"
+        className="inline-block bg-gold text-ink px-5 py-2.5 rounded-full text-base font-medium hover:bg-gold-dark transition"
       >
         {buttonText ?? "Commencer le Wizard"} &rarr;
       </Link>

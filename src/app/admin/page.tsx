@@ -136,7 +136,7 @@ export default function AdminPage() {
             className="w-full rounded-lg border border-gray-300 px-4 py-3 text-base mb-4 focus:outline-none focus:border-gold" />
           {error && <p className="text-red-600 text-base mb-4">{error}</p>}
           <button type="submit" disabled={loading || !password}
-            className="w-full bg-gold text-white px-6 py-3 rounded-lg font-bold hover:bg-gold-dark transition disabled:opacity-50">
+            className="w-full bg-gold text-ink px-6 py-3 rounded-lg font-bold hover:bg-gold-dark transition disabled:opacity-50">
             {loading ? "Connexion…" : "Se connecter"}
           </button>
         </form>
@@ -171,15 +171,15 @@ export default function AdminPage() {
         {error && <p className="text-red-600 text-base mb-4">{error}</p>}
         {notice && <p className="text-gold-dark text-base mb-4">{notice}</p>}
 
-        <div className="flex flex-wrap gap-2 mb-6">
+        <div className="flex flex-wrap gap-x-6 gap-y-2 mb-8 border-b border-sand">
           {tabs.map((t) => (
             <button key={t.key} onClick={() => { setTab(t.key); setNotice(""); setError(""); }}
-              className={`px-5 py-2.5 rounded-lg text-base font-semibold transition ${
-                tab === t.key ? "bg-midnight text-white" : "bg-white text-gray-600 border border-gray-200 hover:border-gold/40"
+              className={`pb-3 -mb-px font-mono text-xs uppercase tracking-widest transition border-b-2 ${
+                tab === t.key ? "border-gold text-ink" : "border-transparent text-grey hover:text-ink"
               }`}>
               {t.label}
               {!!t.badge && t.badge > 0 && (
-                <span className="ml-2 inline-flex items-center justify-center bg-gold text-white text-xs font-bold rounded-full px-2 py-0.5">
+                <span className="ml-2 inline-flex items-center justify-center bg-gold text-ink text-xs font-bold rounded-full px-2 py-0.5">
                   {t.badge}
                 </span>
               )}
@@ -246,7 +246,7 @@ function ReplyComposer({ to, messageId, leadId, password, onReplied, setError, s
         className="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm mb-2 focus:outline-none focus:border-gold" />
       <div className="flex gap-2">
         <button onClick={send} disabled={sending || !body.trim()}
-          className="bg-gold text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gold-dark transition disabled:opacity-50">
+          className="bg-gold text-ink px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gold-dark transition disabled:opacity-50">
           {sending ? "Envoi…" : "Envoyer"}
         </button>
         <button onClick={() => setOpen(false)} className="text-sm font-semibold text-gray-500 hover:text-midnight transition">Annuler</button>
@@ -496,7 +496,7 @@ function OutreachTab({ password, setError, setNotice }: { password: string; setE
           <button onClick={() => broadcast("test")} disabled={busy}
             className="bg-white text-gold border border-gold px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gold hover:text-white transition disabled:opacity-50">Test</button>
           <button onClick={() => broadcast("send")} disabled={busy || selected.size === 0}
-            className="bg-gold text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gold-dark transition disabled:opacity-50">
+            className="bg-gold text-ink px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gold-dark transition disabled:opacity-50">
             Envoyer aux {selected.size} sélectionné(s)
           </button>
         </div>
@@ -559,7 +559,7 @@ function NewsletterTab({ password, setError, setNotice }: { password: string; se
         <button onClick={() => run("test")} disabled={busy || selected.size === 0}
           className="bg-white text-gold border border-gold px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gold hover:text-white transition disabled:opacity-50">Test</button>
         <button onClick={() => run("send")} disabled={busy || selected.size === 0}
-          className="bg-gold text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gold-dark transition disabled:opacity-50">Envoyer la campagne</button>
+          className="bg-gold text-ink px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gold-dark transition disabled:opacity-50">Envoyer la campagne</button>
       </div>
     </div>
   );
@@ -600,7 +600,7 @@ function ComposeTab({ password, setError, setNotice }: { password: string; setEr
         className="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm mb-2 focus:outline-none focus:border-gold" />
       <input type="file" multiple onChange={(e) => setFiles(Array.from(e.target.files ?? []))} className="text-sm mb-3" />
       <button onClick={send} disabled={busy || !to || !body.trim()}
-        className="bg-gold text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-gold-dark transition disabled:opacity-50">
+        className="bg-gold text-ink px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-gold-dark transition disabled:opacity-50">
         {busy ? "Envoi…" : "Envoyer"}
       </button>
     </div>
@@ -632,7 +632,7 @@ function ChangePassword({ password, setError, setNotice, onChanged }: {
           <input type="password" value={np} onChange={(e) => setNp(e.target.value)} placeholder="Nouveau mot de passe"
             className="rounded-lg border border-gray-300 px-3 py-2 text-sm focus:outline-none focus:border-gold" />
           <button onClick={change} disabled={busy}
-            className="bg-gold text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gold-dark transition disabled:opacity-50">Valider</button>
+            className="bg-gold text-ink px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gold-dark transition disabled:opacity-50">Valider</button>
           <button onClick={() => setOpen(false)} className="text-sm font-semibold text-gray-500 hover:text-midnight transition">Annuler</button>
         </div>
       )}

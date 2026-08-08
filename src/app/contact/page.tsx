@@ -124,7 +124,7 @@ export default function ContactPage() {
               <button
                 type="submit"
                 disabled={status === "sending"}
-                className="w-full bg-gold text-white py-3.5 rounded-xl font-medium hover:bg-gold-dark transition uppercase text-base tracking-wider disabled:opacity-50"
+                className="w-full bg-gold text-ink py-3.5 rounded-xl font-medium hover:bg-gold-dark transition uppercase text-base tracking-wider disabled:opacity-50"
               >
                 {status === "sending" ? "Envoi en cours..." : "Envoyer"}
               </button>
@@ -137,7 +137,7 @@ export default function ContactPage() {
           <p className="text-base text-gray-500 mb-6">Le moyen le plus rapide est notre wizard. En 5 minutes, vous recevrez des offres personnalisées.</p>
           <Link
             href="/wizard"
-            className="inline-block bg-gold text-white px-6 py-3 rounded-full text-base font-bold hover:bg-gold-dark transition uppercase tracking-wider"
+            className="inline-block bg-gold text-ink px-6 py-3 rounded-full text-base font-bold hover:bg-gold-dark transition uppercase tracking-wider"
           >
             Commencer le Wizard
           </Link>

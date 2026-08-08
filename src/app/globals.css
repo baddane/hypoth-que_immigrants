@@ -1,86 +1,161 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
+/* ============================================================
+   Design system « papier premium / or » (guide-hypotheque.ca)
+   Palette : ink / paper / gold — titres serif Playfair,
+   corps Inter, labels JetBrains Mono.
+   ============================================================ */
 @theme inline {
-  --color-gold: #489D90;
-  --color-gold-dark: #328376;
-  --color-gold-light: #EDF7F5;
-  --color-cream: #F8F8F8;
-  --color-midnight: #212243;
+  /* Or (accent / CTA) — remplace l'ancien vert sarcelle */
+  --color-gold: #c9a84c;
+  --color-gold-dark: #a5842a;
+  --color-gold-light: #f1e6c6;
+  /* Fonds chauds */
+  --color-cream: #fdf8f0;
+  --color-paper: #f5f0e8;
+  /* Encre (texte sombre / header / footer) — remap de « midnight » */
+  --color-midnight: #14120d;
+  --color-ink: #14120d;
+  /* Bordures & neutres chauds */
+  --color-sand: #d9cfb8;
+  --color-grey: #6b6560;
+  --color-red: #8b1a1a;
+  /* Conservés pour compatibilité */
   --color-light-blue: #ECF0F7;
   --color-dark: #1A1A1A;
-  --font-sans: 'Montserrat', sans-serif;
-  --font-mono: var(--font-geist-mono);
+  /* Typographie */
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
 }
 
 body {
-  background: #ffffff;
-  color: #343434;
-  font-family: 'Montserrat', sans-serif;
+  background: #f5f0e8;
+  color: #2a2620;
+  font-family: 'Inter', system-ui, sans-serif;
   font-size: 1rem;
   line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
 }
 
-/* Readable article body */
+/* Titres : Playfair Display, élégance éditoriale */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  font-weight: 800;
+  line-height: 1.15;
+  color: #14120d;
+  letter-spacing: -0.01em;
+}
+
+/* Sur-titre / label mono en MAJUSCULES espacées */
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #c9a84c;
+  font-weight: 500;
+}
+
+::selection {
+  background: #e8d49a;
+  color: #14120d;
+}
+
+/* ============================================================
+   Contenu des articles / guides
+   ============================================================ */
 .blog-article {
   font-size: 1.125rem;
-  line-height: 1.8;
+  line-height: 1.85;
+  color: #2a2620;
 }
 .blog-article h2 {
-  font-size: 1.5rem;
-  margin-top: 2.5rem;
+  font-size: 1.75rem;
+  margin-top: 2.75rem;
   margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-sand);
 }
 .blog-article h3 {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   margin-top: 2rem;
   margin-bottom: 0.75rem;
 }
 .blog-article ul, .blog-article ol {
   font-size: 1.0625rem;
+  padding-left: 1.25rem;
 }
+.blog-article ul { list-style: disc; }
+.blog-article ol { list-style: decimal; }
+.blog-article li { margin-bottom: 0.4rem; }
 .blog-article p {
   margin-bottom: 1.25rem;
 }
+.blog-article strong { color: #14120d; font-weight: 700; }
 
-h1, h2, h3, h4, h5, h6 {
-  line-height: 1.2;
-}
-
-/* Links in article content (exclude buttons/CTAs) */
-.blog-article a:not([class*="bg-"]):not([class*="rounded-lg"]) {
-  color: #489D90;
+/* Liens dans le contenu (hors boutons/CTA) */
+.blog-article a:not([class*="bg-"]):not([class*="rounded-lg"]):not([class*="rounded-2xl"]) {
+  color: #a5842a;
   text-decoration: underline;
-  text-underline-offset: 2px;
+  text-decoration-color: #e8d49a;
+  text-underline-offset: 3px;
   transition: color 0.2s ease;
 }
-.blog-article a:not([class*="bg-"]):not([class*="rounded-lg"]):hover {
-  color: #328376;
+.blog-article a:not([class*="bg-"]):not([class*="rounded-lg"]):not([class*="rounded-2xl"]):hover {
+  color: #14120d;
+  text-decoration-color: #c9a84c;
 }
 
-/* Tables nesto-style */
+/* Citations / encadrés dorés */
+.blog-article blockquote {
+  border-left: 4px solid #c9a84c;
+  background: #fdf8f0;
+  padding: 1rem 1.5rem;
+  margin: 1.75rem 0;
+  border-radius: 0 12px 12px 0;
+  font-style: italic;
+  color: #3a352c;
+}
+.blog-article blockquote p:last-child { margin-bottom: 0; }
+
+/* Tableaux — style papier premium */
 .blog-article table {
-  border: 2px solid #E0E0E0;
+  border: 1px solid var(--color-sand);
   border-collapse: separate;
-  border-radius: 20px;
   border-spacing: 0;
+  border-radius: 14px;
   overflow: hidden;
+  width: 100%;
+  margin: 1.75rem 0;
+  font-size: 1rem;
 }
 .blog-article table th {
-  background: #F8F8F8;
-  font-weight: 600;
-  color: #212243;
+  background: #f5ecd7;
+  font-weight: 700;
+  color: #14120d;
+  text-align: left;
 }
 .blog-article table td,
 .blog-article table th {
   padding: 12px 16px;
-  border-bottom: 1px solid #E0E0E0;
+  border-bottom: 1px solid var(--color-sand);
 }
 .blog-article table tr:last-child td {
   border-bottom: none;
 }
 
-/* Cursor pointer on all interactive elements */
+/* Tableaux défilables sur mobile */
+@media (max-width: 640px) {
+  .blog-article table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
+/* Curseur pointer sur les éléments interactifs */
 a,
 button,
 select,
@@ -97,14 +172,17 @@ summary {
   cursor: pointer;
 }
 
-/* Scrollbar */
+/* Scrollbar dorée */
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #f5f0e8;
 }
 ::-webkit-scrollbar-thumb {
-  background: #489D90;
-  border-radius: 3px;
+  background: #c9a84c;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a5842a;
 }
