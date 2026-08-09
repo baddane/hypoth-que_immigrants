@@ -3299,6 +3299,122 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  "hypotheque-provinces-atlantiques-immigrants": (
+    <>
+      <p>
+        Pendant que les nouveaux arrivants se dirigent en masse vers Toronto, Vancouver ou Montr&eacute;al, les quatre provinces atlantiques &mdash; Nouvelle-&Eacute;cosse, Nouveau-Brunswick, &Icirc;le-du-Prince-&Eacute;douard et Terre-Neuve-et-Labrador &mdash; restent largement sous-estim&eacute;es. Elles combinent pourtant l&rsquo;un des march&eacute;s immobiliers les plus abordables du pays avec un programme d&rsquo;immigration con&ccedil;u sp&eacute;cifiquement pour attirer et retenir de nouveaux r&eacute;sidents. Voici ce qu&rsquo;un immigrant doit savoir avant d&rsquo;acheter &agrave; Halifax, Moncton, Charlottetown ou St. John&rsquo;s.
+      </p>
+
+      <h2>Un march&eacute; immobilier encore accessible dans un pays en crise du logement</h2>
+      <p>
+        Les prix atlantiques ont augment&eacute; depuis la pand&eacute;mie, mais restent tr&egrave;s en de&ccedil;&agrave; des grands centres canadiens. &Agrave; titre indicatif&nbsp;:
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Ville</th>
+            <th>Province</th>
+            <th>Prix m&eacute;dian approximatif</th>
+            <th>Mise de fonds 5&nbsp;%</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Moncton / Dieppe</strong></td>
+            <td>Nouveau-Brunswick</td>
+            <td>~320&nbsp;000&nbsp;$ &agrave; 360&nbsp;000&nbsp;$</td>
+            <td>~16&nbsp;000&nbsp;$ &agrave; 18&nbsp;000&nbsp;$</td>
+          </tr>
+          <tr>
+            <td><strong>Fredericton / Saint John</strong></td>
+            <td>Nouveau-Brunswick</td>
+            <td>~280&nbsp;000&nbsp;$ &agrave; 330&nbsp;000&nbsp;$</td>
+            <td>~14&nbsp;000&nbsp;$ &agrave; 16&nbsp;500&nbsp;$</td>
+          </tr>
+          <tr>
+            <td><strong>Halifax (r&eacute;gion m&eacute;tro)</strong></td>
+            <td>Nouvelle-&Eacute;cosse</td>
+            <td>~450&nbsp;000&nbsp;$ &agrave; 500&nbsp;000&nbsp;$</td>
+            <td>~22&nbsp;500&nbsp;$ &agrave; 25&nbsp;000&nbsp;$</td>
+          </tr>
+          <tr>
+            <td><strong>Charlottetown</strong></td>
+            <td>&Icirc;le-du-Prince-&Eacute;douard</td>
+            <td>~370&nbsp;000&nbsp;$ &agrave; 420&nbsp;000&nbsp;$</td>
+            <td>~18&nbsp;500&nbsp;$ &agrave; 21&nbsp;000&nbsp;$</td>
+          </tr>
+          <tr>
+            <td><strong>St. John&rsquo;s</strong></td>
+            <td>Terre-Neuve-et-Labrador</td>
+            <td>~320&nbsp;000&nbsp;$ &agrave; 370&nbsp;000&nbsp;$</td>
+            <td>~16&nbsp;000&nbsp;$ &agrave; 18&nbsp;500&nbsp;$</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Ces montants restent nettement sous la moyenne nationale, ce qui rend le programme f&eacute;d&eacute;ral d&rsquo;assurance hypoth&eacute;caire &agrave; 5&nbsp;% de mise de fonds particuli&egrave;rement puissant pour un immigrant disposant d&rsquo;&eacute;conomies limit&eacute;es. Comparez avec le march&eacute; du <InternalLink slug="hypotheque-manitoba-immigrants-winnipeg">Manitoba</InternalLink> ou de la <InternalLink slug="hypotheque-saskatchewan-immigrants-regina-saskatoon">Saskatchewan</InternalLink>, deux autres r&eacute;gions abordables souvent recommand&eacute;es aux nouveaux arrivants.
+      </p>
+
+      <WizardCta />
+
+      <h2>Le Programme d&rsquo;immigration au Canada atlantique (PICA)</h2>
+      <p>
+        Lanc&eacute; en projet pilote en 2017 puis rendu permanent en 2022, le <strong>Programme d&rsquo;immigration au Canada atlantique</strong> (PICA, ou <em>Atlantic Immigration Program</em>/AIP en anglais) permet aux employeurs d&eacute;sign&eacute;s des quatre provinces d&rsquo;embaucher directement des travailleurs &eacute;trangers ou des dipl&ocirc;m&eacute;s internationaux, avec un traitement acc&eacute;l&eacute;r&eacute; de la demande de r&eacute;sidence permanente aupr&egrave;s d&rsquo;IRCC.
+      </p>
+      <ul>
+        <li><strong>Trois volets</strong> &mdash; travailleur qualifi&eacute; (Atlantic High-Skilled Program), travailleur interm&eacute;diaire (Atlantic Intermediate-Skilled Program) et dipl&ocirc;m&eacute; international (Atlantic International Graduate Program).</li>
+        <li><strong>Offre d&rsquo;emploi obligatoire</strong> &mdash; d&rsquo;un employeur d&eacute;sign&eacute; par la province, condition centrale du programme.</li>
+        <li><strong>Plan d&rsquo;int&eacute;gration personnalis&eacute;</strong> &mdash; un service de &laquo;&nbsp;settlement&nbsp;&raquo; (&eacute;tablissement) est requis pour aider le candidat et sa famille &agrave; s&rsquo;installer, ce qui inclut souvent de l&rsquo;aide au logement.</li>
+        <li><strong>Permis de travail temporaire pendant le traitement</strong> &mdash; le candidat peut souvent commencer &agrave; travailler avant l&rsquo;obtention de la RP, ce qui ouvre l&rsquo;acc&egrave;s au <InternalLink slug="hypotheque-travailleur-temporaire-5pourcent">financement hypoth&eacute;caire d&egrave;s 5&nbsp;% de mise de fonds pour travailleur temporaire</InternalLink>.</li>
+      </ul>
+      <p>
+        Du point de vue d&rsquo;un pr&ecirc;teur hypoth&eacute;caire, une nomination PICA n&rsquo;acc&eacute;l&egrave;re pas l&rsquo;approbation en soi, mais elle renforce la stabilit&eacute; per&ccedil;ue du dossier &mdash; emploi confirm&eacute; aupr&egrave;s d&rsquo;un employeur d&eacute;sign&eacute;, statut en voie de r&eacute;gularisation. Les crit&egrave;res financiers habituels (revenu, cr&eacute;dit, mise de fonds) restent toutefois d&eacute;terminants, comme l&rsquo;explique notre guide sur ce qui change vraiment au <InternalLink slug="hypotheque-nouveau-resident-permanent-guide-complet">passage au statut de r&eacute;sident permanent</InternalLink>.
+      </p>
+
+      <h2>Nouveau-Brunswick francophone&nbsp;: Moncton, Dieppe et l&rsquo;Acadie</h2>
+      <p>
+        Le Nouveau-Brunswick est la seule province officiellement bilingue du Canada, et le Grand Moncton (Moncton, Dieppe, Riverview) en est le c&oelig;ur francophone&nbsp;: services municipaux, &eacute;coles et institutions financi&egrave;res y fonctionnent couramment en fran&ccedil;ais. C&rsquo;est une destination particuli&egrave;rement attrayante pour les immigrants francophones qui cherchent un co&ucirc;t de la vie abordable sans renoncer aux services en fran&ccedil;ais &mdash; une logique similaire &agrave; celle de notre <InternalLink slug="hypotheque-francophone-quebec">guide hypoth&egrave;que pour francophones au Qu&eacute;bec</InternalLink>, mais avec des prix de propri&eacute;t&eacute; nettement inf&eacute;rieurs.
+      </p>
+      <p>
+        Les caisses populaires acadiennes et les grandes banques canadiennes offrent toutes deux des services en fran&ccedil;ais dans la r&eacute;gion, ce qui facilite grandement les d&eacute;marches pour un dossier hypoth&eacute;caire complexe de nouvel arrivant.
+      </p>
+
+      <WizardCta variant="dark" />
+
+      <h2>Frais de cl&ocirc;ture et taxes de transfert&nbsp;: des r&egrave;gles diff&eacute;rentes par province</h2>
+      <p>
+        Contrairement &agrave; l&rsquo;Ontario ou au Qu&eacute;bec, les provinces atlantiques n&rsquo;imposent g&eacute;n&eacute;ralement pas de lourde taxe de mutation provinciale, mais chacune a ses propres r&egrave;gles&nbsp;:
+      </p>
+      <ul>
+        <li><strong>Nouvelle-&Eacute;cosse</strong> &mdash; une taxe de transfert (<em>deed transfer tax</em>) est per&ccedil;ue au niveau municipal, avec un taux qui varie selon la municipalit&eacute; (souvent entre 0,5&nbsp;% et 1,5&nbsp;% du prix d&rsquo;achat). V&eacute;rifiez le taux exact aupr&egrave;s de votre municipalit&eacute; avant de budg&eacute;ter.</li>
+        <li><strong>Nouveau-Brunswick</strong> &mdash; des droits d&rsquo;enregistrement provinciaux modestes s&rsquo;appliquent sur le plus &eacute;lev&eacute; entre le prix d&rsquo;achat et l&rsquo;&eacute;valuation municipale.</li>
+        <li><strong>&Icirc;le-du-Prince-&Eacute;douard</strong> &mdash; des droits de transfert de propri&eacute;t&eacute; s&rsquo;appliquent, avec une exemption possible pour les premiers acheteurs sous certaines conditions de prix et de r&eacute;sidence. D&eacute;tails compl&eacute;mentaires dans notre <InternalLink slug="droits-mutation-immobiliere-province-rabais-premier-acheteur">guide des droits de mutation par province</InternalLink>.</li>
+        <li><strong>Terre-Neuve-et-Labrador</strong> &mdash; aucune taxe de mutation provinciale distincte, mais des frais d&rsquo;enregistrement de l&rsquo;acte et de l&rsquo;hypoth&egrave;que s&rsquo;appliquent &agrave; la cl&ocirc;ture.</li>
+      </ul>
+      <p>
+        Dans tous les cas, pr&eacute;voyez un budget de <strong>1,5&nbsp;% &agrave; 3&nbsp;%</strong> du prix d&rsquo;achat pour l&rsquo;ensemble des frais de cl&ocirc;ture (avocat, inspection, assurance titre, taxes) &mdash; g&eacute;n&eacute;ralement inf&eacute;rieur &agrave; ce qu&rsquo;exigent l&rsquo;Ontario ou la Colombie-Britannique. Notre <InternalLink slug="frais-caches-achat-maison-immigrant-checklist">checklist des frais cach&eacute;s</InternalLink> couvre l&rsquo;ensemble de ces d&eacute;penses.
+      </p>
+
+      <h2>Programmes f&eacute;d&eacute;raux applicables partout dans l&rsquo;Atlantique</h2>
+      <p>
+        Comme dans le reste du pays, les immigrants des provinces atlantiques ont acc&egrave;s au <InternalLink slug="programme-schl-nouveaux-arrivants-guide-complet">programme SCHL Nouveaux Arrivants</InternalLink> (5&nbsp;% de mise de fonds, cr&eacute;dit alternatif accept&eacute;) ainsi qu&rsquo;au <InternalLink slug="hypotheque-reer-rap-immigrant-premier-achat">R&eacute;gime d&rsquo;accession &agrave; la propri&eacute;t&eacute; (RAP)</InternalLink> et au CELIAPP pour accumuler une mise de fonds &agrave; l&rsquo;abri de l&rsquo;imp&ocirc;t. &Eacute;tant donn&eacute; les prix d&rsquo;achat plus bas de la r&eacute;gion, ces outils permettent souvent d&rsquo;atteindre la mise de fonds n&eacute;cessaire en un temps record compar&eacute; aux grands centres urbains.
+      </p>
+
+      <h2>&Agrave; retenir avant d&rsquo;acheter dans les provinces atlantiques</h2>
+      <ul>
+        <li><strong>March&eacute; d&eacute;tendu, peu de guerres d&rsquo;ench&egrave;res</strong> &mdash; les d&eacute;lais de transaction sont g&eacute;n&eacute;ralement plus longs qu&rsquo;&agrave; Toronto ou Vancouver, ce qui laisse du temps pour n&eacute;gocier et faire inspecter la propri&eacute;t&eacute;.</li>
+        <li><strong>Le PICA exige un employeur d&eacute;sign&eacute;</strong> &mdash; confirmez que votre employeur participe au programme avant de b&acirc;tir votre plan d&rsquo;achat autour de cette voie d&rsquo;immigration.</li>
+        <li><strong>Moncton reste le p&ocirc;le francophone</strong> &mdash; un atout unique hors Qu&eacute;bec pour les immigrants francophones cherchant l&rsquo;abordabilit&eacute;.</li>
+        <li><strong>Confirmez les frais de cl&ocirc;ture aupr&egrave;s de votre municipalit&eacute;</strong> &mdash; en Nouvelle-&Eacute;cosse en particulier, le taux de la taxe de transfert varie d&rsquo;une ville &agrave; l&rsquo;autre.</li>
+      </ul>
+      <p>
+        Sources officielles&nbsp;: <a href="https://www.canada.ca/fr/immigration-refugies-citoyennete/services/immigrer-canada/immigration-atlantique.html" target="_blank" rel="noopener noreferrer">IRCC &mdash; Programme d&rsquo;immigration au Canada atlantique</a> et <a href="https://www.cmhc-schl.gc.ca" target="_blank" rel="noopener noreferrer">SCHL</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
   "hypotheque-saskatchewan-immigrants-regina-saskatoon": (
     <>
       <p>

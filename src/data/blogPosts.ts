@@ -134,7 +134,7 @@ export const blogPosts: BlogPost[] = [
     category: "Province",
     readTime: "8 min",
     wizardVariant: undefined,
-    relatedSlugs: ["hypotheque-alberta-immigrants-calgary-edmonton", "hypotheque-saskatchewan-immigrants-regina-saskatoon", "hypotheque-francophone-quebec"],
+    relatedSlugs: ["hypotheque-alberta-immigrants-calgary-edmonton", "hypotheque-saskatchewan-immigrants-regina-saskatoon", "hypotheque-provinces-atlantiques-immigrants", "hypotheque-francophone-quebec"],
   },
   // ====== ARTICLE #10 ======
   {
@@ -590,7 +590,18 @@ export const blogPosts: BlogPost[] = [
     category: "Province",
     readTime: "9 min",
     wizardVariant: undefined,
-    relatedSlugs: ["hypotheque-manitoba-immigrants-winnipeg", "hypotheque-alberta-immigrants-calgary-edmonton", "programme-schl-nouveaux-arrivants-guide-complet"],
+    relatedSlugs: ["hypotheque-manitoba-immigrants-winnipeg", "hypotheque-provinces-atlantiques-immigrants", "hypotheque-alberta-immigrants-calgary-edmonton", "programme-schl-nouveaux-arrivants-guide-complet"],
+  },
+  // ====== ARTICLE #54 — PROVINCES ATLANTIQUES ======
+  {
+    slug: "hypotheque-provinces-atlantiques-immigrants",
+    title: "Hypothèque Provinces Atlantiques Immigrants : N.-É., N.-B., Î.-P.-É. et T.-N.-L.",
+    subtitle: "Le marché immobilier le plus abordable de l'Est canadien et le Programme d'immigration au Canada atlantique. Ce qu'il faut savoir avant d'acheter à Halifax, Moncton ou St. John's.",
+    description: "Guide hypothèque pour immigrants dans les provinces atlantiques du Canada. Programme d'immigration au Canada atlantique (PICA), marché abordable, Moncton francophone, frais de clôture par province.",
+    category: "Province",
+    readTime: "9 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-manitoba-immigrants-winnipeg", "hypotheque-saskatchewan-immigrants-regina-saskatoon", "hypotheque-francophone-quebec", "programme-schl-nouveaux-arrivants-guide-complet"],
   },
 ];
 
