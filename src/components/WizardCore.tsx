@@ -97,16 +97,26 @@ export default function WizardCore({
     router.push(`/merci?${params.toString()}`);
   };
 
-  // Progress bar component
-  const progressBar = (label: string) => (
-    <div className="mb-10">
-      <div className="flex justify-between text-xs text-gray-400 mb-2">
-        <span>{label}</span>
-        <span>{Math.round(progress)}%</span>
+  // ── Barre de progression (haut d'écran, façon nesto) ──
+  const progressHeader = (label: string) => (
+    <div className="mb-8 sm:mb-10">
+      <div className="flex items-center justify-between mb-2.5">
+        <span className="font-mono text-[11px] sm:text-xs uppercase tracking-[0.2em] text-grey">
+          {label}
+        </span>
+        <span className="font-mono text-[11px] sm:text-xs text-gold-dark font-semibold">
+          {Math.round(progress)}%
+        </span>
       </div>
-      <div className="w-full bg-gray-200 rounded-full h-1.5">
+      <div
+        className="w-full bg-sand/50 rounded-full h-2 overflow-hidden"
+        role="progressbar"
+        aria-valuenow={Math.round(progress)}
+        aria-valuemin={0}
+        aria-valuemax={100}
+      >
         <div
-          className="bg-gold rounded-full h-1.5 transition-all duration-500"
+          className="bg-gold h-2 rounded-full transition-all duration-500 ease-out"
           style={{ width: `${progress}%` }}
         />
       </div>
@@ -115,8 +125,9 @@ export default function WizardCore({
 
   const backButton = (
     <button
+      type="button"
       onClick={() => setStep(step - 1)}
-      className="mt-6 text-sm text-gray-400 hover:text-gray-600 transition flex items-center gap-2"
+      className="inline-flex items-center gap-1.5 text-sm font-medium text-grey hover:text-ink transition"
     >
       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -126,88 +137,104 @@ export default function WizardCore({
   );
 
   const reassurance = (texts: string[]) => (
-    <div className="mt-6 space-y-2">
+    <ul className="mt-8 flex flex-col gap-2">
       {texts.map((text) => (
-        <p key={text} className="flex items-center gap-2 text-xs text-gray-400">
-          <span className="text-green-500">&#10003;</span> {text}
-        </p>
+        <li key={text} className="flex items-center gap-2 text-xs sm:text-sm text-grey">
+          <svg className="w-4 h-4 shrink-0 text-gold-dark" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
+          </svg>
+          {text}
+        </li>
       ))}
-    </div>
+    </ul>
   );
 
-  // Lead form (last step)
+  // ── Étape « coordonnées » (dernière) ──
   if (isLeadForm) {
-    return (
-      <section className="min-h-[85vh] bg-cream flex items-center">
-        <div className="max-w-lg mx-auto px-6 py-20 w-full">
-          {progressBar("Dernière étape !")}
+    const inputClass = (err?: string) =>
+      `w-full rounded-xl border px-4 py-3.5 text-base bg-white transition outline-none focus:border-gold focus:ring-2 focus:ring-gold/25 ${
+        err ? "border-red" : "border-sand"
+      }`;
 
-          <h2 className="font-serif text-2xl md:text-3xl mb-2">Vos coordonnées</h2>
-          <p className="text-sm text-gray-400 mb-8">
+    return (
+      <section className="min-h-[calc(100dvh-124px)] bg-paper">
+        <div className="mx-auto w-full max-w-xl px-4 sm:px-6 py-6 sm:py-10">
+          {progressHeader("Dernière étape")}
+
+          <h2 className="font-serif text-[1.7rem] sm:text-4xl leading-tight text-ink mb-2">
+            Vos coordonnées
+          </h2>
+          <p className="text-sm sm:text-base text-grey mb-7 sm:mb-8">
             Pour recevoir vos options hypothécaires personnalisées, entrez vos coordonnées ci-dessous.
           </p>
 
-          <div className="bg-white rounded-2xl p-8 shadow-sm space-y-5">
-            <div className="grid grid-cols-2 gap-4">
+          <div className="bg-white rounded-3xl p-5 sm:p-8 shadow-sm border border-sand/50 flex flex-col gap-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
-                <label htmlFor="prenom" className="block text-sm font-medium mb-1">Prénom *</label>
+                <label htmlFor="prenom" className="block text-sm font-medium text-ink mb-1.5">Prénom *</label>
                 <input
                   id="prenom"
                   type="text"
+                  autoComplete="given-name"
                   value={formData.prenom}
                   onChange={(e) => setFormData({ ...formData, prenom: e.target.value })}
-                  className={`w-full border rounded-lg px-4 py-3 focus:outline-none focus:border-gold ${formErrors.prenom ? "border-red-400" : "border-gray-200"}`}
+                  className={inputClass(formErrors.prenom)}
                   placeholder="Prénom"
                 />
-                {formErrors.prenom && <p className="text-xs text-red-500 mt-1">{formErrors.prenom}</p>}
+                {formErrors.prenom && <p className="text-xs text-red mt-1">{formErrors.prenom}</p>}
               </div>
               <div>
-                <label htmlFor="nom" className="block text-sm font-medium mb-1">Nom *</label>
+                <label htmlFor="nom" className="block text-sm font-medium text-ink mb-1.5">Nom *</label>
                 <input
                   id="nom"
                   type="text"
+                  autoComplete="family-name"
                   value={formData.nom}
                   onChange={(e) => setFormData({ ...formData, nom: e.target.value })}
-                  className={`w-full border rounded-lg px-4 py-3 focus:outline-none focus:border-gold ${formErrors.nom ? "border-red-400" : "border-gray-200"}`}
+                  className={inputClass(formErrors.nom)}
                   placeholder="Nom"
                 />
-                {formErrors.nom && <p className="text-xs text-red-500 mt-1">{formErrors.nom}</p>}
+                {formErrors.nom && <p className="text-xs text-red mt-1">{formErrors.nom}</p>}
               </div>
             </div>
 
             <div>
-              <label htmlFor="email" className="block text-sm font-medium mb-1">Email *</label>
+              <label htmlFor="email" className="block text-sm font-medium text-ink mb-1.5">Email *</label>
               <input
                 id="email"
                 type="email"
+                inputMode="email"
+                autoComplete="email"
                 value={formData.email}
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                className={`w-full border rounded-lg px-4 py-3 focus:outline-none focus:border-gold ${formErrors.email ? "border-red-400" : "border-gray-200"}`}
+                className={inputClass(formErrors.email)}
                 placeholder="votre@email.com"
               />
-              {formErrors.email && <p className="text-xs text-red-500 mt-1">{formErrors.email}</p>}
+              {formErrors.email && <p className="text-xs text-red mt-1">{formErrors.email}</p>}
             </div>
 
             <div>
-              <label htmlFor="telephone" className="block text-sm font-medium mb-1">Téléphone *</label>
+              <label htmlFor="telephone" className="block text-sm font-medium text-ink mb-1.5">Téléphone *</label>
               <input
                 id="telephone"
                 type="tel"
+                inputMode="tel"
+                autoComplete="tel"
                 value={formData.telephone}
                 onChange={(e) => setFormData({ ...formData, telephone: e.target.value })}
-                className={`w-full border rounded-lg px-4 py-3 focus:outline-none focus:border-gold ${formErrors.telephone ? "border-red-400" : "border-gray-200"}`}
+                className={inputClass(formErrors.telephone)}
                 placeholder="+1 (xxx) xxx-xxxx"
               />
-              {formErrors.telephone && <p className="text-xs text-red-500 mt-1">{formErrors.telephone}</p>}
+              {formErrors.telephone && <p className="text-xs text-red mt-1">{formErrors.telephone}</p>}
             </div>
 
             <div>
-              <label htmlFor="meilleurMoment" className="block text-sm font-medium mb-1">Meilleur moment pour vous contacter</label>
+              <label htmlFor="meilleurMoment" className="block text-sm font-medium text-ink mb-1.5">Meilleur moment pour vous contacter</label>
               <select
                 id="meilleurMoment"
                 value={formData.meilleurMoment}
                 onChange={(e) => setFormData({ ...formData, meilleurMoment: e.target.value })}
-                className="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:border-gold"
+                className="w-full rounded-xl border border-sand px-4 py-3.5 text-base bg-white outline-none transition focus:border-gold focus:ring-2 focus:ring-gold/25"
               >
                 <option>Aujourd&apos;hui</option>
                 <option>Demain</option>
@@ -216,22 +243,23 @@ export default function WizardCore({
               </select>
             </div>
 
-            <label className="flex items-start gap-3 cursor-pointer">
+            <label className="flex items-start gap-3">
               <input
                 type="checkbox"
                 checked={formData.accepteContact}
                 onChange={(e) => setFormData({ ...formData, accepteContact: e.target.checked })}
-                className="mt-0.5 accent-gold"
+                className="mt-0.5 w-5 h-5 accent-gold shrink-0"
               />
-              <span className="text-xs text-gray-500">
+              <span className="text-xs sm:text-sm text-grey leading-relaxed">
                 J&apos;accepte d&apos;être contacté par les courtiers et banques partenaires de guide-hypotheque.ca pour recevoir des offres hypothécaires.
               </span>
             </label>
 
             <button
+              type="button"
               onClick={handleSubmit}
               disabled={submitting}
-              className="w-full bg-gold text-ink py-4 rounded-xl font-bold text-lg hover:bg-gold-dark transition uppercase tracking-wider disabled:opacity-50 shadow-lg shadow-gold/25"
+              className="w-full bg-gold text-ink py-4 rounded-xl font-bold text-base sm:text-lg hover:bg-gold-dark transition uppercase tracking-wider disabled:opacity-50 shadow-lg shadow-gold/20"
             >
               {submitting ? "Envoi en cours..." : ctaText}
             </button>
@@ -243,30 +271,39 @@ export default function WizardCore({
             "Vous pouvez vous désinscrire à tout moment",
           ])}
 
-          {backButton}
+          <div className="mt-6">{backButton}</div>
         </div>
       </section>
     );
   }
 
-  // Wizard steps
+  // ── Étapes questions ──
   const current = stepsToShow[step];
+  const isSlider = "type" in current && current.type === "slider";
+  const options = "options" in current ? current.options ?? [] : [];
+  // Grille 2 colonnes pour les listes longues (ex. provinces) afin que tout
+  // tienne sur un seul écran sans défilement.
+  const twoCol = options.length > 6;
 
   return (
-    <section className="min-h-[85vh] bg-cream flex items-center">
-      <div className="max-w-2xl mx-auto px-6 py-20 w-full">
-        {progressBar(`Étape ${step + 1} / ${totalSteps}`)}
+    <section className="min-h-[calc(100dvh-124px)] bg-paper flex flex-col">
+      <div className="mx-auto w-full max-w-xl px-4 sm:px-6 py-5 sm:py-8 flex-1 flex flex-col">
+        {progressHeader(`Étape ${step + 1} sur ${totalSteps}`)}
 
-        <h2 className="font-serif text-2xl md:text-3xl mb-3">{current.question}</h2>
+        <h2 className="font-serif text-xl sm:text-3xl leading-tight text-ink mb-1.5 sm:mb-2">
+          {current.question}
+        </h2>
         {current.help && (
-          <p className="text-sm text-gray-400 mb-6">{current.help}</p>
+          <p className="text-xs sm:text-sm text-grey mb-4 sm:mb-6 leading-relaxed line-clamp-3 sm:line-clamp-none">
+            {current.help}
+          </p>
         )}
 
-        {"type" in current && current.type === "slider" ? (
-          <div className="space-y-6">
-            <div className="bg-white rounded-2xl p-8 shadow-sm">
+        {isSlider ? (
+          <div className="flex flex-col gap-4">
+            <div className="bg-white rounded-2xl p-5 sm:p-8 shadow-sm border border-sand/50">
               <div className="text-center mb-6">
-                <span className="text-4xl font-serif font-bold text-gold">
+                <span className="font-serif text-4xl sm:text-5xl font-bold text-gold-dark">
                   {sliderValue.toLocaleString("fr-CA")} $
                 </span>
               </div>
@@ -277,47 +314,67 @@ export default function WizardCore({
                 step={current.step}
                 value={sliderValue}
                 onChange={(e) => setSliderValue(Number(e.target.value))}
-                className="w-full accent-gold"
+                className="w-full h-2 accent-gold"
+                aria-label={current.question}
               />
-              <div className="flex justify-between text-xs text-gray-400 mt-2">
+              <div className="flex justify-between text-xs text-grey mt-3 font-mono">
                 <span>{current.min?.toLocaleString("fr-CA")} $</span>
                 <span>{current.max?.toLocaleString("fr-CA")} $+</span>
               </div>
             </div>
             <button
+              type="button"
               onClick={handleSliderSubmit}
-              className="w-full bg-gold text-ink py-4 rounded-xl font-medium hover:bg-gold-dark transition uppercase text-sm tracking-wider"
+              className="w-full bg-gold text-ink py-4 rounded-xl font-bold text-base hover:bg-gold-dark transition uppercase tracking-wider shadow-lg shadow-gold/20"
             >
               Continuer
             </button>
           </div>
         ) : (
-          <div className="space-y-3">
-            {"options" in current &&
-              current.options?.map((option) => (
+          <div className={`grid gap-2.5 ${twoCol ? "grid-cols-2" : "grid-cols-1"}`}>
+            {options.map((option) => {
+              const selected = answers[current.id] === option;
+              return (
                 <button
                   key={option}
+                  type="button"
                   onClick={() => handleSelect(option)}
-                  className="w-full text-left bg-white rounded-xl px-6 py-4 hover:bg-gold hover:text-white transition group border border-gray-100 hover:border-gold"
+                  aria-pressed={selected}
+                  className={`group text-left rounded-xl px-4 py-3 sm:py-3.5 border-2 transition flex items-center justify-between gap-2 ${
+                    selected
+                      ? "border-gold bg-gold-light"
+                      : "border-sand/70 bg-white hover:border-gold hover:bg-gold-light/40"
+                  }`}
                 >
-                  <span className="flex items-center justify-between">
-                    <span>{option}</span>
-                    <svg className="w-4 h-4 text-gray-300 group-hover:text-white transition" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                    </svg>
-                  </span>
+                  <span className="text-sm sm:text-base font-medium text-ink leading-snug">{option}</span>
+                  {!twoCol && (
+                    <span
+                      className={`shrink-0 w-5 h-5 rounded-full border-2 flex items-center justify-center transition ${
+                        selected ? "border-gold bg-gold" : "border-sand group-hover:border-gold"
+                      }`}
+                    >
+                      <span
+                        className={`w-2 h-2 rounded-full bg-ink transition ${
+                          selected ? "opacity-100" : "opacity-0"
+                        }`}
+                      />
+                    </span>
+                  )}
                 </button>
-              ))}
+              );
+            })}
           </div>
         )}
 
-        {step > 0 && backButton}
-
-        {reassurance([
-          "Aucune donnée ne sera partagée sans votre consentement",
-          "Entièrement confidentiel",
-          "Vous pouvez arrêter à tout moment",
-        ])}
+        <div className="mt-auto pt-6 flex items-center justify-between gap-4">
+          {step > 0 ? backButton : <span />}
+          <span className="flex items-center gap-1.5 text-xs text-grey">
+            <svg className="w-3.5 h-3.5 shrink-0 text-gold-dark" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+            </svg>
+            Confidentiel &middot; sans engagement
+          </span>
+        </div>
       </div>
     </section>
   );

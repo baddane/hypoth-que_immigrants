@@ -1,5 +1,8 @@
-@import "tailwindcss";
+/* Les @import tiers (Google Fonts) doivent précéder l'import Tailwind :
+   « @import "tailwindcss" » est expansé inline, donc tout @import placé après
+   se retrouverait après des règles CSS (interdit par la spec → build cassé). */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
 
 /* ============================================================
    Design system « papier premium / or » (guide-hypotheque.ca)
