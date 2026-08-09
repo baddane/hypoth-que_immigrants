@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const wizardLinks = [
@@ -16,6 +17,10 @@ const wizardLinks = [
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [wizardDropdown, setWizardDropdown] = useState(false);
+
+  // La barre CTA fixe du bas est inutile sur le wizard (on y est déjà) : on la masque.
+  const pathname = usePathname();
+  const onWizard = pathname?.startsWith("/wizard") ?? false;
 
   return (
     <>
@@ -124,20 +129,22 @@ export default function Header() {
         )}
       </header>
 
-      {/* Sticky bottom CTA bar */}
-      <div className="fixed bottom-0 left-0 right-0 z-50 bg-ink text-cream border-t border-gold/25 px-6 py-3 flex items-center justify-between text-base">
-        <span>
-          <span className="text-gold font-semibold">Préapprobation Gratuite</span>
-          {" — "}
-          <span className="hidden sm:inline text-cream/80">Découvrez combien vous pouvez emprunter en 5 minutes.</span>
-        </span>
-        <Link
-          href="/wizard"
-          className="bg-gold text-ink px-5 py-2 rounded-md text-sm font-semibold hover:bg-cream hover:text-ink border border-gold transition uppercase tracking-wide"
-        >
-          Commencer
-        </Link>
-      </div>
+      {/* Sticky bottom CTA bar — masquée sur le wizard (redondante une fois lancé) */}
+      {!onWizard && (
+        <div className="fixed bottom-0 left-0 right-0 z-50 bg-ink text-cream border-t border-gold/25 px-6 py-3 flex items-center justify-between text-base">
+          <span>
+            <span className="text-gold font-semibold">Préapprobation Gratuite</span>
+            {" — "}
+            <span className="hidden sm:inline text-cream/80">Découvrez combien vous pouvez emprunter en 5 minutes.</span>
+          </span>
+          <Link
+            href="/wizard"
+            className="bg-gold text-ink px-5 py-2 rounded-md text-sm font-semibold hover:bg-cream hover:text-ink border border-gold transition uppercase tracking-wide"
+          >
+            Commencer
+          </Link>
+        </div>
+      )}
     </>
   );
 }
