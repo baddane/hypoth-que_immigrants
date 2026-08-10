@@ -592,6 +592,17 @@ export const blogPosts: BlogPost[] = [
     wizardVariant: undefined,
     relatedSlugs: ["hypotheque-manitoba-immigrants-winnipeg", "hypotheque-alberta-immigrants-calgary-edmonton", "programme-schl-nouveaux-arrivants-guide-complet"],
   },
+  // ====== ARTICLE #54 ======
+  {
+    slug: "hypotheque-canada-atlantique-immigrants-halifax-moncton",
+    title: "Hypothèque Canada Atlantique Immigrants : Halifax, Moncton et le Programme d'Immigration Atlantique",
+    subtitle: "Marché encore abordable, voie fédérale dédiée à l'emploi désigné : ce qu'il faut savoir avant d'acheter en Nouvelle-Écosse, au Nouveau-Brunswick, à l'Î.-P.-É. ou à Terre-Neuve-et-Labrador.",
+    description: "Guide hypothèque pour immigrants au Canada atlantique. Prix à Halifax, Moncton, Fredericton, Charlottetown et St. John's, Programme d'immigration atlantique (PIA) 2026, taxe pour non-résidents en Nouvelle-Écosse.",
+    category: "Province",
+    readTime: "9 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-saskatchewan-immigrants-regina-saskatoon", "hypotheque-manitoba-immigrants-winnipeg", "interdiction-achat-non-canadien-exemptions-2027"],
+  },
 ];
 
 // Helper: get post by slug

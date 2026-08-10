@@ -3391,4 +3391,110 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  "hypotheque-canada-atlantique-immigrants-halifax-moncton": (
+    <>
+      <p>
+        Pendant que l&rsquo;attention se porte sur Toronto, Vancouver ou m&ecirc;me le Qu&eacute;bec, les quatre provinces de l&rsquo;Atlantique &mdash; Nouvelle-&Eacute;cosse, Nouveau-Brunswick, &Icirc;le-du-Prince-&Eacute;douard et Terre-Neuve-et-Labrador &mdash; offrent une combinaison rare pour les nouveaux arrivants&nbsp;: des prix de propri&eacute;t&eacute; encore relativement accessibles et une voie f&eacute;d&eacute;rale d&rsquo;immigration d&eacute;di&eacute;e, le <strong>Programme d&rsquo;immigration au Canada atlantique (PIA)</strong>. Voici ce qu&rsquo;il faut savoir avant d&rsquo;acheter &agrave; Halifax, Moncton ou ailleurs dans la r&eacute;gion.
+      </p>
+
+      <h2>Un march&eacute; encore abordable, mais qui grimpe rapidement</h2>
+      <p>
+        Apr&egrave;s des ann&eacute;es de hausses marqu&eacute;es port&eacute;es par l&rsquo;exode interprovincial et l&rsquo;immigration, le Canada atlantique demeure n&eacute;anmoins nettement plus abordable que l&rsquo;Ontario ou la Colombie-Britannique. Halifax, la plus grande ville de la r&eacute;gion, a vu son prix de r&eacute;f&eacute;rence (benchmark) d&eacute;passer 570&nbsp;000&nbsp;$ en 2026 &mdash; une hausse consid&eacute;rable par rapport &agrave; il y a cinq ans, mais qui reste sous la moyenne nationale.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Ville</th>
+            <th>Prix moyen approximatif (2026)</th>
+            <th>Mise de fonds 5&nbsp;%</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Halifax (N.-&Eacute;.)</strong></td>
+            <td>~570&nbsp;000&nbsp;$ &agrave; 630&nbsp;000&nbsp;$</td>
+            <td>~28&nbsp;500&nbsp;$ &agrave; 31&nbsp;500&nbsp;$</td>
+          </tr>
+          <tr>
+            <td><strong>Moncton (N.-B.)</strong></td>
+            <td>~400&nbsp;000&nbsp;$</td>
+            <td>~20&nbsp;000&nbsp;$</td>
+          </tr>
+          <tr>
+            <td><strong>Fredericton (N.-B.)</strong></td>
+            <td>~320&nbsp;000&nbsp;$</td>
+            <td>~16&nbsp;000&nbsp;$</td>
+          </tr>
+          <tr>
+            <td><strong>Charlottetown (&Icirc;.-P.-&Eacute;.)</strong></td>
+            <td>~380&nbsp;000&nbsp;$</td>
+            <td>~19&nbsp;000&nbsp;$</td>
+          </tr>
+          <tr>
+            <td><strong>St.&nbsp;John&rsquo;s (T.-N.-L.)</strong></td>
+            <td>~380&nbsp;000&nbsp;$</td>
+            <td>~19&nbsp;000&nbsp;$</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        &Agrave; titre de comparaison, la m&ecirc;me mise de fonds de 5&nbsp;% sur une propri&eacute;t&eacute; torontoise moyenne d&eacute;passe souvent 40&nbsp;000&nbsp;$. Pour un nouvel arrivant qui d&eacute;barque avec une offre d&rsquo;emploi atlantique en poche, cet &eacute;cart peut repr&eacute;senter plusieurs ann&eacute;es d&rsquo;&eacute;pargne gagn&eacute;es &mdash; m&ecirc;me si Halifax en particulier n&rsquo;est plus le march&eacute; tr&egrave;s abordable qu&rsquo;il &eacute;tait il y a une d&eacute;cennie.
+      </p>
+
+      <WizardCta />
+
+      <h2>Le Programme d&rsquo;immigration au Canada atlantique (PIA) : la voie principale</h2>
+      <p>
+        Devenu permanent en 2022 apr&egrave;s plusieurs ann&eacute;es de projet pilote, le PIA est une voie de r&eacute;sidence permanente r&eacute;serv&eacute;e aux quatre provinces atlantiques. Contrairement &agrave; Entr&eacute;e express, il ne repose pas sur un syst&egrave;me de points&nbsp;: il faut une <strong>offre d&rsquo;emploi valide d&rsquo;un employeur d&eacute;sign&eacute;</strong> dans la r&eacute;gion, sans exigence d&rsquo;&Eacute;tude d&rsquo;impact sur le march&eacute; du travail (EIMT). Trois volets existent&nbsp;:
+      </p>
+      <ul>
+        <li><strong>Travailleurs qualifi&eacute;s (hautement qualifi&eacute;s)</strong> &mdash; postes de niveau gestion, professionnel ou technique.</li>
+        <li><strong>Travailleurs qualifi&eacute;s (niveau interm&eacute;diaire)</strong> &mdash; postes exigeant une formation secondaire ou une formation propre au poste.</li>
+        <li><strong>Dipl&ocirc;m&eacute;s internationaux</strong> &mdash; pour les &eacute;tudiants ayant compl&eacute;t&eacute; un programme d&rsquo;au moins deux ans dans une institution d&eacute;sign&eacute;e de la r&eacute;gion.</li>
+      </ul>
+      <p>
+        Le PIA conna&icirc;t d&rsquo;importants changements en 2026 &agrave; int&eacute;grer dans votre planification&nbsp;:
+      </p>
+      <ul>
+        <li><strong>D&eacute;lais de traitement en forte hausse</strong> &mdash; IRCC affichait un d&eacute;lai de traitement de 37&nbsp;mois en mars 2026, contre 13&nbsp;mois un an plus t&ocirc;t. Un dossier hypoth&eacute;caire ne devrait donc pas attendre la confirmation de r&eacute;sidence permanente pour d&eacute;marrer&nbsp;: la plupart des banques acceptent d&eacute;j&agrave; les d&eacute;tenteurs de permis de travail valide.</li>
+        <li><strong>Nouvelle-&Eacute;cosse</strong> &mdash; depuis le 1er&nbsp;mai 2026, les manifestations d&rsquo;int&eacute;r&ecirc;t (EOI) dans le bassin provincial n&rsquo;ont qu&rsquo;une validit&eacute; de 12&nbsp;mois.</li>
+        <li><strong>Nouveau-Brunswick</strong> &mdash; depuis le 3&nbsp;f&eacute;vrier 2026, les endossements ne sont plus attribu&eacute;s au premier arriv&eacute;, premier servi&nbsp;: les candidatures entrent dans un bassin et sont s&eacute;lectionn&eacute;es mensuellement selon les priorit&eacute;s provinciales (sant&eacute;, &eacute;ducation, m&eacute;tiers de la construction).</li>
+      </ul>
+      <p>
+        Une fois votre r&eacute;sidence permanente confirm&eacute;e, consultez notre guide sur ce qui change r&eacute;ellement au <InternalLink slug="hypotheque-nouveau-resident-permanent-guide-complet">passage au statut de r&eacute;sident permanent</InternalLink> &mdash; car contrairement &agrave; une id&eacute;e r&eacute;pandue, le PIA ne change rien aux exigences hypoth&eacute;caires de base (revenu, cr&eacute;dit, mise de fonds).
+      </p>
+
+      <h2>Taxe de mutation municipale et taxe pour non-r&eacute;sidents en Nouvelle-&Eacute;cosse</h2>
+      <p>
+        La Nouvelle-&Eacute;cosse applique une taxe de mutation municipale (<em>Deed Transfer Tax</em>) dont le taux varie selon la municipalit&eacute; &mdash; 1,5&nbsp;% dans le Grand Halifax (Halifax Regional Municipality). Le Nouveau-Brunswick, l&rsquo;&Icirc;le-du-Prince-&Eacute;douard et Terre-Neuve-et-Labrador appliquent des frais d&rsquo;enregistrement similaires, g&eacute;n&eacute;ralement plus mod&eacute;r&eacute;s qu&rsquo;en Ontario ou en Colombie-Britannique.
+      </p>
+      <p>
+        Un pi&egrave;ge important &agrave; conna&icirc;tre&nbsp;: depuis 2022, la Nouvelle-&Eacute;cosse applique en plus une <strong>taxe de mutation provinciale pour non-r&eacute;sidents</strong>, dont le taux a doubl&eacute; le 1er&nbsp;avril&nbsp;2025, passant de 5&nbsp;% &agrave; <strong>10&nbsp;%</strong> du prix d&rsquo;achat. Contrairement &agrave; l&rsquo;interdiction f&eacute;d&eacute;rale d&rsquo;achat pour non-Canadiens, cette taxe provinciale vise <strong>toute personne qui n&rsquo;est pas r&eacute;sidente de la Nouvelle-&Eacute;cosse</strong> &mdash; y compris un citoyen ou un r&eacute;sident permanent canadien qui d&eacute;m&eacute;nage d&rsquo;une autre province. Une exemption existe heureusement&nbsp;: si vous d&eacute;clarez votre intention de vous &eacute;tablir en Nouvelle-&Eacute;cosse dans les 6&nbsp;mois suivant la transaction, la taxe n&rsquo;est pas exigible. C&rsquo;est exactement le cas de la plupart des candidats du PIA qui ach&egrave;tent en vue de leur emploi d&eacute;sign&eacute;. Pour la distinction avec la r&egrave;gle f&eacute;d&eacute;rale, qui elle cible sp&eacute;cifiquement les non-Canadiens, consultez notre guide sur les <InternalLink slug="interdiction-achat-non-canadien-exemptions-2027">exemptions &agrave; l&rsquo;interdiction d&rsquo;achat pour non-Canadiens</InternalLink>.
+      </p>
+
+      <WizardCta variant="dark" />
+
+      <h2>Programmes f&eacute;d&eacute;raux applicables partout au Canada atlantique</h2>
+      <p>
+        Les incitatifs f&eacute;d&eacute;raux pour premiers acheteurs s&rsquo;appliquent int&eacute;gralement dans les quatre provinces atlantiques&nbsp;: le <InternalLink slug="hypotheque-reer-rap-immigrant-premier-achat">R&eacute;gime d&rsquo;accession &agrave; la propri&eacute;t&eacute; (RAP) et le CELIAPP</InternalLink>, ainsi que le <InternalLink slug="programme-schl-nouveaux-arrivants-guide-complet">programme SCHL Nouveaux Arrivants</InternalLink> pour les immigrants au Canada depuis cinq ans ou moins qui n&rsquo;ont pas encore d&rsquo;historique de cr&eacute;dit canadien &eacute;tabli.
+      </p>
+
+      <h2>&Agrave; retenir avant d&rsquo;acheter au Canada atlantique</h2>
+      <ul>
+        <li><strong>March&eacute; encore abordable mais en hausse rapide</strong>, surtout &agrave; Halifax &mdash; ne vous fiez pas aux prix d&rsquo;il y a quelques ann&eacute;es.</li>
+        <li><strong>Le PIA exige une offre d&rsquo;emploi d&eacute;sign&eacute;e</strong>, pas un syst&egrave;me de points &mdash; v&eacute;rifiez le statut d&rsquo;employeur d&eacute;sign&eacute; avant d&rsquo;accepter une offre.</li>
+        <li><strong>D&eacute;lai de r&eacute;sidence permanente d&eacute;sormais tr&egrave;s long</strong> (37&nbsp;mois) &mdash; un dossier hypoth&eacute;caire b&acirc;ti sur un permis de travail temporaire reste souvent la voie la plus rapide vers l&rsquo;achat.</li>
+        <li><strong>En Nouvelle-&Eacute;cosse, documentez votre intention de r&eacute;sidence</strong> dans les 6&nbsp;mois pour &eacute;viter la taxe de 10&nbsp;% pour non-r&eacute;sidents.</li>
+      </ul>
+      <p>
+        Comparez aussi avec le march&eacute; voisin du <InternalLink slug="hypotheque-manitoba-immigrants-winnipeg">Manitoba</InternalLink> et celui de la <InternalLink slug="hypotheque-saskatchewan-immigrants-regina-saskatoon">Saskatchewan</InternalLink> pour situer le Canada atlantique parmi les r&eacute;gions les plus abordables du pays.
+      </p>
+      <p>
+        Sources officielles&nbsp;: <a href="https://www.canada.ca/fr/immigration-refugies-citoyennete/services/immigrer-canada/programme-immigration-atlantique.html" target="_blank" rel="noopener noreferrer">IRCC &mdash; Programme d&rsquo;immigration au Canada atlantique</a>, <a href="https://www.novascotia.ca/non-resident-provincial-deed-transfer-tax" target="_blank" rel="noopener noreferrer">Gouvernement de la Nouvelle-&Eacute;cosse &mdash; Taxe de mutation pour non-r&eacute;sidents</a> et <a href="https://www.cmhc-schl.gc.ca" target="_blank" rel="noopener noreferrer">SCHL</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };
