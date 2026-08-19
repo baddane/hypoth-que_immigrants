@@ -592,6 +592,17 @@ export const blogPosts: BlogPost[] = [
     wizardVariant: undefined,
     relatedSlugs: ["hypotheque-manitoba-immigrants-winnipeg", "hypotheque-alberta-immigrants-calgary-edmonton", "programme-schl-nouveaux-arrivants-guide-complet"],
   },
+  // ====== ARTICLE #54 — NOUVELLE-ÉCOSSE ======
+  {
+    slug: "hypotheque-nouvelle-ecosse-immigrants-halifax",
+    title: "Hypothèque Nouvelle-Écosse Immigrants : Guide Halifax et le Programme Atlantique",
+    subtitle: "Un marché abordable et une voie rapide vers la résidence permanente grâce au Programme d'immigration au Canada atlantique.",
+    description: "Guide hypothèque pour immigrants en Nouvelle-Écosse. Marché Halifax et Dartmouth, Programme d'immigration au Canada atlantique (PICA), frais de transfert de propriété par municipalité et prime SCHL sans taxe provinciale.",
+    category: "Province",
+    readTime: "9 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-saskatchewan-immigrants-regina-saskatoon", "hypotheque-manitoba-immigrants-winnipeg", "hypotheque-nouveau-resident-permanent-guide-complet"],
+  },
 ];
 
 // Helper: get post by slug
