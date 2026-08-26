@@ -3391,4 +3391,101 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  // ====================================================
+  // ARTICLE 54: NOUVELLE-ÉCOSSE / CANADA ATLANTIQUE
+  // ====================================================
+  "hypotheque-nouvelle-ecosse-immigrants-halifax-atlantique": (
+    <>
+      <p>
+        Halifax gagne en popularit&eacute; chez les nouveaux arrivants, mais c&rsquo;est tout le Canada atlantique &mdash; Nouveau-Brunswick, &Icirc;le-du-Prince-&Eacute;douard et Terre-Neuve-et-Labrador inclus &mdash; qui combine des prix d&rsquo;achat parmi les plus bas &agrave; l&rsquo;est de Winnipeg avec l&rsquo;un des programmes d&rsquo;immigration r&eacute;gionaux les plus actifs du pays&nbsp;: le <strong>Programme d&rsquo;immigration au Canada atlantique (PICA)</strong>. Voici ce qu&rsquo;un immigrant doit savoir avant d&rsquo;acheter &agrave; Halifax, Moncton, St. John&rsquo;s ou ailleurs dans la r&eacute;gion.
+      </p>
+
+      <h2>Trois march&eacute;s atlantiques, un seul budget serr&eacute;</h2>
+      <p>
+        Halifax reste la ville la plus ch&egrave;re de la r&eacute;gion, mais demeure nettement plus abordable que Toronto ou Vancouver. Moncton et St. John&rsquo;s offrent des prix encore plus bas, avec des mises de fonds minimales beaucoup plus accessibles pour un nouvel arrivant.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Ville</th>
+            <th>Prix moyen approximatif</th>
+            <th>Mise de fonds 5&nbsp;%</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Halifax (N.-&Eacute;.)</strong></td>
+            <td>~560&nbsp;000&nbsp;$ &agrave; 580&nbsp;000&nbsp;$</td>
+            <td>~28&nbsp;000&nbsp;$ &agrave; 29&nbsp;000&nbsp;$</td>
+          </tr>
+          <tr>
+            <td><strong>Moncton (N.-B.)</strong></td>
+            <td>~400&nbsp;000&nbsp;$ &agrave; 410&nbsp;000&nbsp;$</td>
+            <td>~20&nbsp;000&nbsp;$ &agrave; 20&nbsp;500&nbsp;$</td>
+          </tr>
+          <tr>
+            <td><strong>St. John&rsquo;s (T.-N.-L.)</strong></td>
+            <td>~395&nbsp;000&nbsp;$ &agrave; 405&nbsp;000&nbsp;$</td>
+            <td>~19&nbsp;750&nbsp;$ &agrave; 20&nbsp;250&nbsp;$</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        &Agrave; titre de comparaison, la m&ecirc;me mise de fonds de 5&nbsp;% sur un condo torontois moyen d&eacute;passe souvent 30&nbsp;000&nbsp;$, avec des mensualit&eacute;s bien plus &eacute;lev&eacute;es qu&rsquo;&agrave; Moncton ou St. John&rsquo;s. Pour un nouvel arrivant avec des &eacute;conomies limit&eacute;es, cet &eacute;cart peut faire la diff&eacute;rence entre acheter d&egrave;s l&rsquo;arriv&eacute;e ou louer plusieurs ann&eacute;es de plus.
+      </p>
+
+      <WizardCta />
+
+      <h2>Le Programme d&rsquo;immigration au Canada atlantique (PICA)</h2>
+      <p>
+        Le <a href="https://www.canada.ca/fr/immigration-refugies-citoyennete/services/immigrer-canada/immigration-atlantique.html" target="_blank" rel="noopener noreferrer">Programme d&rsquo;immigration au Canada atlantique</a> (PICA, ou Atlantic Immigration Program en anglais) est devenu permanent et vise environ <strong>4&nbsp;000 nouveaux r&eacute;sidents permanents par ann&eacute;e</strong> selon le Plan des niveaux d&rsquo;immigration 2026-2028, avec une priorit&eacute; accord&eacute;e aux secteurs de la sant&eacute;, des m&eacute;tiers sp&eacute;cialis&eacute;s, de la construction et aux candidats francophones. Contrairement &agrave; un programme provincial classique, le PICA repose enti&egrave;rement sur un <strong>employeur d&eacute;sign&eacute;</strong>&nbsp;: aucune candidature n&rsquo;est possible sans offre d&rsquo;emploi valide d&rsquo;une entreprise accr&eacute;dit&eacute;e dans l&rsquo;une des quatre provinces atlantiques.
+      </p>
+      <ul>
+        <li><strong>Volet travailleur qualifi&eacute;</strong> &mdash; pour les candidats ayant une exp&eacute;rience de travail pertinente et une offre d&rsquo;un employeur d&eacute;sign&eacute;.</li>
+        <li><strong>Volet dipl&ocirc;m&eacute; international</strong> &mdash; pour les personnes ayant termin&eacute; un programme d&rsquo;&eacute;tudes d&rsquo;au moins deux ans dans un &eacute;tablissement postsecondaire atlantique.</li>
+      </ul>
+      <p>
+        Un point important pour planifier votre dossier hypoth&eacute;caire&nbsp;: les d&eacute;lais de traitement du PICA se sont consid&eacute;rablement allong&eacute;s ces derniers mois, IRCC affichant un d&eacute;lai m&eacute;dian de plusieurs dizaines de mois pour la r&eacute;sidence permanente. Concr&egrave;tement, la majorit&eacute; des acheteurs arrivent avec un permis de travail temporaire li&eacute; &agrave; leur offre d&rsquo;emploi bien avant d&rsquo;obtenir leur statut de r&eacute;sident permanent &mdash; consultez notre guide sur l&rsquo;<InternalLink slug="hypotheque-travailleur-temporaire-5pourcent">hypoth&egrave;que avec permis de travail temporaire</InternalLink> pour savoir comment b&acirc;tir un dossier solide d&egrave;s maintenant, sans attendre la RP. Une nomination ou une offre valid&eacute;e sous le PICA renforce la stabilit&eacute; per&ccedil;ue du dossier, mais ne remplace pas les crit&egrave;res financiers habituels des pr&ecirc;teurs (revenu, cr&eacute;dit, mise de fonds) &mdash; voyez ce qui change vraiment au <InternalLink slug="hypotheque-nouveau-resident-permanent-guide-complet">passage au statut de r&eacute;sident permanent</InternalLink>.
+      </p>
+
+      <h2>La taxe de transfert de propri&eacute;t&eacute;&nbsp;: municipale, et provinciale pour les non-r&eacute;sidents</h2>
+      <p>
+        En Nouvelle-&Eacute;cosse, les frais de transfert varient selon deux paliers bien distincts&nbsp;:
+      </p>
+      <ul>
+        <li><strong>Taxe municipale de transfert (Deed Transfer Tax) :</strong> per&ccedil;ue par chaque municipalit&eacute; et g&eacute;n&eacute;ralement comprise entre 0,5&nbsp;% et 1,5&nbsp;% de la valeur d&rsquo;achat &mdash; par exemple 1,5&nbsp;% dans la municipalit&eacute; r&eacute;gionale d&rsquo;Halifax.</li>
+        <li><strong>Taxe provinciale de transfert pour non-r&eacute;sidents :</strong> une taxe distincte de <strong>10&nbsp;%</strong> de la valeur de la propri&eacute;t&eacute; (port&eacute;e de 5&nbsp;% &agrave; 10&nbsp;% en avril 2025), applicable aux acheteurs d&rsquo;un immeuble r&eacute;sidentiel de trois logements ou moins qui ne sont <strong>pas ordinairement r&eacute;sidents</strong> de la Nouvelle-&Eacute;cosse au moment de l&rsquo;achat.</li>
+      </ul>
+      <p>
+        Ce dernier point m&eacute;rite d&rsquo;&ecirc;tre clarifi&eacute;&nbsp;: cette taxe cible les acheteurs qui n&rsquo;ont pas l&rsquo;intention de s&rsquo;&eacute;tablir dans la province (r&eacute;sidences secondaires, investissement &agrave; distance), pas les immigrants qui d&eacute;m&eacute;nagent r&eacute;ellement pour y vivre. Depuis des changements annonc&eacute;s en ao&ucirc;t 2026, le gouvernement provincial a <strong>assoupli les r&egrave;gles pour les nouveaux arrivants</strong>&nbsp;: le d&eacute;lai pour fournir une preuve de r&eacute;sidence et &ecirc;tre exempt&eacute; de la taxe est pass&eacute; de 6 mois &agrave; <strong>1 an</strong> apr&egrave;s la transaction, et le d&eacute;lai pour demander un remboursement est pass&eacute; de 1 &agrave; <strong>2 ans</strong>. Concr&egrave;tement, un immigrant qui ach&egrave;te en pr&eacute;vision de son d&eacute;m&eacute;nagement dispose maintenant de beaucoup plus de temps pour prouver son &eacute;tablissement r&eacute;el dans la province et &eacute;viter cette taxe &mdash; ou en obtenir le remboursement si elle a &eacute;t&eacute; pay&eacute;e par pr&eacute;caution.
+      </p>
+      <p>
+        Cette taxe provinciale est distincte de l&rsquo;<InternalLink slug="hypotheque-taxe-acheteur-etranger-exemption">interdiction f&eacute;d&eacute;rale d&rsquo;achat pour non-Canadiens</InternalLink>, qui s&rsquo;applique &agrave; l&rsquo;ensemble du pays selon un crit&egrave;re de citoyennet&eacute;/statut plut&ocirc;t que de r&eacute;sidence provinciale. Les deux r&eacute;gimes peuvent s&rsquo;appliquer simultan&eacute;ment&nbsp;: consultez notre guide sur la <InternalLink slug="revision-interdiction-achat-non-canadien-2027-nouvelles-regles">r&eacute;vision 2026 de l&rsquo;interdiction f&eacute;d&eacute;rale</InternalLink> pour voir qui est exempt&eacute; selon votre statut d&rsquo;immigration.
+      </p>
+
+      <WizardCta variant="dark" />
+
+      <h2>Programmes f&eacute;d&eacute;raux qui s&rsquo;appliquent aussi au Canada atlantique</h2>
+      <p>
+        Les incitatifs f&eacute;d&eacute;raux s&rsquo;appliquent int&eacute;gralement dans les quatre provinces atlantiques, comme partout ailleurs au pays&nbsp;: le <InternalLink slug="hypotheque-reer-rap-immigrant-premier-achat">R&eacute;gime d&rsquo;accession &agrave; la propri&eacute;t&eacute; (RAP) et le CELIAPP</InternalLink>, le <InternalLink slug="programme-schl-nouveaux-arrivants-guide-complet">programme SCHL Nouveaux Arrivants</InternalLink> pour les immigrants au Canada depuis cinq ans ou moins sans historique de cr&eacute;dit canadien &eacute;tabli, et le nouveau <InternalLink slug="rabais-tps-premier-acheteur-maison-neuve-2026-immigrant">rabais f&eacute;d&eacute;ral sur la TPS/TVH pour premiers acheteurs de maisons neuves</InternalLink>. Ce dernier compte particuli&egrave;rement en Nouvelle-&Eacute;cosse, o&ugrave; la TVH atteint <strong>15&nbsp;%</strong> &mdash; l&rsquo;&eacute;limination de la portion f&eacute;d&eacute;rale sur une maison neuve de moins de 1&nbsp;000&nbsp;000&nbsp;$ repr&eacute;sente une &eacute;conomie substantielle, cumulable avec le rabais provincial pour premiers acheteurs sur les maisons neuves (jusqu&rsquo;&agrave; 3&nbsp;000&nbsp;$).
+      </p>
+
+      <h2>&Agrave; retenir avant d&rsquo;acheter au Canada atlantique</h2>
+      <ul>
+        <li><strong>March&eacute;s parmi les plus abordables &agrave; l&rsquo;est du pays</strong> &mdash; une mise de fonds de 5&nbsp;% reste accessible m&ecirc;me &agrave; Halifax, et encore plus &agrave; Moncton ou St. John&rsquo;s.</li>
+        <li><strong>Le PICA d&eacute;pend d&rsquo;une offre d&rsquo;emploi</strong> &mdash; pr&eacute;voyez d&rsquo;acheter comme travailleur temporaire avant d&rsquo;obtenir la RP, vu l&rsquo;allongement des d&eacute;lais de traitement.</li>
+        <li><strong>Confirmez votre statut de r&eacute;sident</strong> aupr&egrave;s de votre notaire ou avocat avant la cl&ocirc;ture pour &eacute;viter la taxe provinciale de 10&nbsp;% sur les non-r&eacute;sidents &mdash; le nouveau d&eacute;lai d&rsquo;un an pour prouver votre &eacute;tablissement r&eacute;el vous prot&egrave;ge davantage qu&rsquo;avant.</li>
+        <li><strong>Moins de succursales sp&eacute;cialis&eacute;es &laquo;&nbsp;nouveaux arrivants&nbsp;&raquo;</strong> dans les march&eacute;s secondaires &mdash; un <InternalLink slug="courtier-hypothecaire-vs-banque-immigrant">courtier hypoth&eacute;caire</InternalLink> ind&eacute;pendant permet souvent de comparer davantage d&rsquo;options qu&rsquo;en succursale.</li>
+      </ul>
+      <p>
+        Comparez aussi avec d&rsquo;autres march&eacute;s abordables dot&eacute;s de programmes provinciaux actifs, comme la <InternalLink slug="hypotheque-saskatchewan-immigrants-regina-saskatoon">Saskatchewan</InternalLink> et le <InternalLink slug="hypotheque-manitoba-immigrants-winnipeg">Manitoba</InternalLink>, pour situer le Canada atlantique parmi vos options.
+      </p>
+      <p>
+        Sources officielles&nbsp;: <a href="https://www.canada.ca/fr/immigration-refugies-citoyennete/services/immigrer-canada/immigration-atlantique.html" target="_blank" rel="noopener noreferrer">IRCC &mdash; Programme d&rsquo;immigration au Canada atlantique</a>, <a href="https://www.novascotia.ca/finance/en/home/taxation/tax101/non-resident-deed-transfer-tax.html" target="_blank" rel="noopener noreferrer">Gouvernement de la Nouvelle-&Eacute;cosse &mdash; Taxe de transfert pour non-r&eacute;sidents</a> et <a href="https://www.cmhc-schl.gc.ca" target="_blank" rel="noopener noreferrer">SCHL</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };

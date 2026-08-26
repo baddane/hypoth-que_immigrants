@@ -1,5 +1,5 @@
 // ============================================
-// BLOG POSTS METADATA — 34 articles
+// BLOG POSTS METADATA — 54 articles
 // Data-driven: each post has metadata + markdown-like content sections
 // ============================================
 
@@ -591,6 +591,17 @@ export const blogPosts: BlogPost[] = [
     readTime: "9 min",
     wizardVariant: undefined,
     relatedSlugs: ["hypotheque-manitoba-immigrants-winnipeg", "hypotheque-alberta-immigrants-calgary-edmonton", "programme-schl-nouveaux-arrivants-guide-complet"],
+  },
+  // ====== ARTICLE #54 — NOUVELLE-ÉCOSSE / CANADA ATLANTIQUE ======
+  {
+    slug: "hypotheque-nouvelle-ecosse-immigrants-halifax-atlantique",
+    title: "Hypothèque Nouvelle-Écosse Immigrants : Guide Halifax et le Canada Atlantique",
+    subtitle: "Marchés parmi les plus abordables de l'Est, PICA actif et nouvelle taxe pour non-résidents : ce qu'il faut savoir avant d'acheter.",
+    description: "Guide hypothèque pour immigrants en Nouvelle-Écosse et au Canada atlantique. Marché Halifax, Programme d'immigration au Canada atlantique (PICA), taxe de transfert pour non-résidents et programmes fédéraux pour nouveaux arrivants.",
+    category: "Province",
+    readTime: "9 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-saskatchewan-immigrants-regina-saskatoon", "hypotheque-nouveau-resident-permanent-guide-complet", "hypotheque-taxe-acheteur-etranger-exemption"],
   },
 ];
 
