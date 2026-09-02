@@ -1,5 +1,5 @@
 // ============================================
-// BLOG POSTS METADATA — 54 articles
+// BLOG POSTS METADATA — 55 articles
 // Data-driven: each post has metadata + markdown-like content sections
 // ============================================
 
@@ -602,6 +602,17 @@ export const blogPosts: BlogPost[] = [
     readTime: "9 min",
     wizardVariant: undefined,
     relatedSlugs: ["hypotheque-saskatchewan-immigrants-regina-saskatoon", "hypotheque-nouveau-resident-permanent-guide-complet", "hypotheque-taxe-acheteur-etranger-exemption"],
+  },
+  // ====== ARTICLE #55 — PROFESSIONNEL RÉGLEMENTÉ ======
+  {
+    slug: "hypotheque-professionnel-reglemente-immigrant",
+    title: "Hypothèque pour Professionnel Réglementé Immigrant : Médecins, Ingénieurs, Avocats",
+    subtitle: "Votre diplôme n'est pas encore reconnu ? Voici ce que les prêteurs regardent vraiment pendant la période d'agrément.",
+    description: "Guide hypothèque pour professionnels réglementés immigrants au Canada (médecins, ingénieurs, avocats, infirmières). Reconnaissance des titres de compétences, revenu accepté pendant l'agrément, programme SCHL Nouveaux Arrivants.",
+    category: "Situation Spéciale",
+    readTime: "9 min",
+    wizardVariant: "professionnel-reglemente",
+    relatedSlugs: ["hypotheque-travailleur-temporaire-5pourcent", "hypotheque-sans-historique-credit", "preapprobation-hypotheque-immigrant", "hypotheque-travailleur-autonome-freelance"],
   },
 ];
 

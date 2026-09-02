@@ -3488,4 +3488,99 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  // ====================================================
+  // ARTICLE 55: PROFESSIONNEL RÉGLEMENTÉ
+  // ====================================================
+  "hypotheque-professionnel-reglemente-immigrant": (
+    <>
+      <p>
+        M&eacute;decin, ing&eacute;nieur, avocat, pharmacien ou infirmi&egrave;re form&eacute;&nbsp;&agrave;&nbsp;l&rsquo;&eacute;tranger&nbsp;: votre dipl&ocirc;me vous a permis d&rsquo;immigrer, mais il ne vous autorise pas encore &agrave; exercer au Canada. Entre l&rsquo;arriv&eacute;e et l&rsquo;obtention du permis d&rsquo;exercice, ce d&eacute;calage cr&eacute;e une vraie question pour votre dossier hypoth&eacute;caire&nbsp;: quel revenu les pr&ecirc;teurs consid&egrave;rent-ils vraiment pendant cette p&eacute;riode de transition&nbsp;?
+      </p>
+
+      <h2>Le vrai obstacle&nbsp;: l&rsquo;agr&eacute;ment, pas le dipl&ocirc;me</h2>
+      <p>
+        Au Canada, les professions comme la m&eacute;decine, le g&eacute;nie, le droit, la pharmacie et les soins infirmiers sont <strong>r&eacute;glement&eacute;es par les provinces</strong>, pas par le gouvernement f&eacute;d&eacute;ral. Chaque ordre ou coll&egrave;ge professionnel (Coll&egrave;ge des m&eacute;decins, Ordre des ing&eacute;nieurs, Barreau, etc.) &eacute;value ind&eacute;pendamment votre formation, m&ecirc;me si Immigration, R&eacute;fugi&eacute;s et Citoyennet&eacute; Canada (IRCC) a d&eacute;j&agrave; reconnu vos dipl&ocirc;mes aux fins de votre demande de r&eacute;sidence. C&rsquo;est ce qu&rsquo;on appelle la <strong>reconnaissance des titres de comp&eacute;tences &eacute;trangers (RTCE)</strong>, et les d&eacute;lais varient &eacute;norm&eacute;ment selon la profession et la province.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Profession</th>
+            <th>Organisme type</th>
+            <th>D&eacute;lai typique avant exercice complet</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>M&eacute;decin (DIM)</strong></td>
+            <td>Coll&egrave;ge des m&eacute;decins provincial + CaRMS</td>
+            <td>Examens du CMC, jumelage CaRMS, puis 2 &agrave; 5&nbsp;ans de r&eacute;sidence</td>
+          </tr>
+          <tr>
+            <td><strong>Ing&eacute;nieur</strong></td>
+            <td>Ordre provincial (OIQ, PEO, etc.)</td>
+            <td>G&eacute;n&eacute;ralement 2 &agrave; 5&nbsp;ans selon le pays et le domaine d&rsquo;origine</td>
+          </tr>
+          <tr>
+            <td><strong>Avocat</strong></td>
+            <td>Comit&eacute; national des &eacute;quivalences (NCA) + Barreau</td>
+            <td>&Eacute;valuation NCA, puis stage/&eacute;cole du Barreau (souvent 8 &agrave; 12&nbsp;mois suppl&eacute;mentaires)</td>
+          </tr>
+          <tr>
+            <td><strong>Infirmi&egrave;re/infirmier</strong></td>
+            <td>Ordre provincial des infirmi&egrave;res</td>
+            <td>Variable selon la province&nbsp;; permis restreint ou supervis&eacute; possible en attendant</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        La reconnaissance des titres de comp&eacute;tences rel&egrave;ve des provinces, mais le gouvernement f&eacute;d&eacute;ral coordonne l&rsquo;effort et finance des programmes de soutien &mdash; y compris des <strong>micropr&ecirc;ts sans garantie</strong> (par exemple via Windmill Microlending) pour couvrir les frais d&rsquo;examens, de formation d&rsquo;appoint ou de traduction de dipl&ocirc;mes pendant cette p&eacute;riode souvent co&ucirc;teuse.
+      </p>
+
+      <WizardCta />
+
+      <h2>Ce que les pr&ecirc;teurs regardent vraiment</h2>
+      <p>
+        Une hypoth&egrave;que se qualifie sur un <strong>revenu actuel, stable et v&eacute;rifiable</strong> &mdash; pas sur un revenu futur esp&eacute;r&eacute; une fois le permis obtenu. Concr&egrave;tement, pendant l&rsquo;agr&eacute;ment, beaucoup de professionnels occupent un emploi de transition (souvent moins bien r&eacute;mun&eacute;r&eacute; que leur profession d&rsquo;origine)&nbsp;: c&rsquo;est <strong>ce revenu-l&agrave;</strong> que la plupart des pr&ecirc;teurs utilisent pour calculer votre capacit&eacute; d&rsquo;emprunt et vos ratios <InternalLink slug="stress-test-hypothecaire-canada-immigrant-guide">ABD/ATD au stress test</InternalLink>, pas votre salaire potentiel de m&eacute;decin ou d&rsquo;ing&eacute;nieur.
+      </p>
+      <p>
+        Il existe toutefois une exception importante&nbsp;: quand un <strong>contrat d&rsquo;embauche sign&eacute;</strong> confirme un poste r&eacute;glement&eacute; &agrave; une date de d&eacute;but pr&eacute;cise &mdash; par exemple une lettre de jumelage CaRMS pour un poste de r&eacute;sidence, un contrat d&rsquo;ing&eacute;nieur junior chez un employeur accr&eacute;dit&eacute;, ou un contrat de stage confirm&eacute; au Barreau &mdash; certains pr&ecirc;teurs acceptent de consid&eacute;rer ce revenu garanti &agrave; venir, g&eacute;n&eacute;ralement si le d&eacute;but d&rsquo;emploi survient dans les 90&nbsp;jours suivant la cl&ocirc;ture. La diff&eacute;rence cl&eacute; n&rsquo;est donc pas &laquo;&nbsp;esp&eacute;rer&nbsp;&raquo; obtenir un permis un jour, mais bien d&eacute;tenir une <strong>preuve &eacute;crite et dat&eacute;e</strong> d&rsquo;un poste confirm&eacute;.
+      </p>
+      <p>
+        Si vous &ecirc;tes au Canada depuis <strong>5&nbsp;ans ou moins</strong>, vous restez admissible au <InternalLink slug="programme-schl-nouveaux-arrivants-guide-complet">programme SCHL Nouveaux Arrivants</InternalLink> (5&nbsp;% de mise de fonds minimum) m&ecirc;me sans historique de cr&eacute;dit canadien &eacute;tabli, en combinant avec des <InternalLink slug="hypotheque-credit-international-alternative-data">preuves de cr&eacute;dit alternatives</InternalLink> comme votre historique de loyer ou votre rapport de cr&eacute;dit international.
+      </p>
+
+      <h2>Strat&eacute;gies selon votre profession</h2>
+      <ul>
+        <li><strong>M&eacute;decins (DIM)&nbsp;:</strong> une lettre de jumelage CaRMS avec date de d&eacute;but de r&eacute;sidence est souvent le document le plus solide &agrave; pr&eacute;senter &agrave; un pr&ecirc;teur &mdash; bien plus qu&rsquo;une simple inscription aux examens du Conseil m&eacute;dical du Canada.</li>
+        <li><strong>Ing&eacute;nieurs&nbsp;:</strong> le statut de <em>membre stagiaire</em> (junior/EIT) combin&eacute; &agrave; un emploi permanent chez un employeur reconnu par l&rsquo;ordre suffit souvent &agrave; rassurer un pr&ecirc;teur, m&ecirc;me sans le titre complet d&rsquo;ing&eacute;nieur.</li>
+        <li><strong>Avocats&nbsp;:</strong> un contrat de stage confirm&eacute; chez un cabinet, apr&egrave;s &eacute;valuation du NCA, peut &ecirc;tre trait&eacute; comme un revenu garanti &agrave; venir si la date de d&eacute;but est proche.</li>
+        <li><strong>Travailleurs de la sant&eacute; (infirmi&egrave;res, etc.)&nbsp;:</strong> un permis d&rsquo;exercice restreint ou supervis&eacute;, souvent disponible plus t&ocirc;t que le permis complet, permet parfois de d&eacute;marrer un revenu professionnel partiel &mdash; utile en attendant l&rsquo;agr&eacute;ment final.</li>
+        <li>Dans tous les cas, un <InternalLink slug="hypotheque-cosignataire-parent-immigrant">co-signataire</InternalLink> ou un <InternalLink slug="hypotheque-travailleur-temporaire-5pourcent">dossier b&acirc;ti sur votre permis de travail temporaire</InternalLink> peuvent renforcer votre demande pendant la p&eacute;riode de transition, sans attendre l&rsquo;agr&eacute;ment complet.</li>
+      </ul>
+
+      <WizardCta variant="dark" />
+
+      <h2>Erreurs fr&eacute;quentes &agrave; &eacute;viter</h2>
+      <ul>
+        <li><strong>Supposer qu&rsquo;un pr&ecirc;teur acceptera automatiquement votre futur salaire professionnel</strong> sans contrat sign&eacute; ni date de d&eacute;but confirm&eacute;e.</li>
+        <li><strong>Attendre la fin compl&egrave;te de l&rsquo;agr&eacute;ment avant d&rsquo;entamer une <InternalLink slug="preapprobation-hypotheque-immigrant">pr&eacute;approbation</InternalLink></strong> &mdash; il est souvent plus efficace de b&acirc;tir un dossier sur votre revenu actuel, puis de le r&eacute;viser une fois le permis obtenu.</li>
+        <li><strong>Ne pas documenter clairement l&rsquo;&eacute;ch&eacute;ancier</strong> de votre parcours d&rsquo;agr&eacute;ment aupr&egrave;s de votre courtier &mdash; un dossier bien expliqu&eacute; rassure davantage qu&rsquo;un dossier incomplet.</li>
+        <li>Oublier que le statut de <InternalLink slug="hypotheque-nouveau-resident-permanent-guide-complet">nouveau r&eacute;sident permanent</InternalLink> ou de d&eacute;tenteur de permis de travail change certaines r&egrave;gles d&rsquo;admissibilit&eacute;, ind&eacute;pendamment de votre profession.</li>
+      </ul>
+
+      <h2>&Agrave; retenir avant de d&eacute;marrer votre dossier</h2>
+      <ul>
+        <li><strong>L&rsquo;agr&eacute;ment est provincial et propre &agrave; chaque profession</strong> &mdash; informez-vous t&ocirc;t aupr&egrave;s de votre ordre professionnel sur les d&eacute;lais r&eacute;els.</li>
+        <li><strong>Le revenu actuel compte, pas le potentiel</strong> &mdash; sauf preuve &eacute;crite d&rsquo;un poste r&eacute;glement&eacute; confirm&eacute; &agrave; court terme.</li>
+        <li><strong>Le programme SCHL Nouveaux Arrivants reste accessible</strong> pendant votre p&eacute;riode d&rsquo;agr&eacute;ment si vous &ecirc;tes au Canada depuis 5&nbsp;ans ou moins.</li>
+        <li><strong>Des ressources existent</strong> (micropr&ecirc;ts sans garantie, services d&rsquo;aide &agrave; l&rsquo;&eacute;tablissement) pour financer les co&ucirc;ts de reconnaissance de vos titres pendant que vous b&acirc;tissez votre dossier hypoth&eacute;caire.</li>
+      </ul>
+      <p>
+        Sources officielles&nbsp;: <a href="https://www.canada.ca/fr/emploi-developpement-social/programmes/reconnaissance-titres.html" target="_blank" rel="noopener noreferrer">Emploi et D&eacute;veloppement social Canada &mdash; Reconnaissance des titres de comp&eacute;tences &eacute;trangers</a>, <a href="https://www.carms.ca/" target="_blank" rel="noopener noreferrer">CaRMS &mdash; Service canadien de jumelage des r&eacute;sidents</a> et <a href="https://www.cmhc-schl.gc.ca" target="_blank" rel="noopener noreferrer">SCHL</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };

@@ -110,7 +110,7 @@ export const wizardVariants: WizardVariant[] = [
       "Approbation accélérée pour professions réglementées",
     ],
     ctaText: "Accéder Aux Offres Pro",
-    relatedArticles: ["preapprobation-hypotheque-immigrant", "hypotheque-travailleur-temporaire-5pourcent", "hypotheque-sans-historique-credit"],
+    relatedArticles: ["hypotheque-professionnel-reglemente-immigrant", "preapprobation-hypotheque-immigrant", "hypotheque-travailleur-temporaire-5pourcent", "hypotheque-sans-historique-credit"],
   },
   {
     id: "travailleur-autonome",
