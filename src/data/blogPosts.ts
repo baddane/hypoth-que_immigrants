@@ -1,5 +1,5 @@
 // ============================================
-// BLOG POSTS METADATA — 54 articles
+// BLOG POSTS METADATA — 55 articles
 // Data-driven: each post has metadata + markdown-like content sections
 // ============================================
 
@@ -602,6 +602,17 @@ export const blogPosts: BlogPost[] = [
     readTime: "9 min",
     wizardVariant: undefined,
     relatedSlugs: ["hypotheque-saskatchewan-immigrants-regina-saskatoon", "hypotheque-nouveau-resident-permanent-guide-complet", "hypotheque-taxe-acheteur-etranger-exemption"],
+  },
+  // ====== ARTICLE #55 — MISE DE FONDS CADEAU (DON FAMILIAL) ======
+  {
+    slug: "mise-de-fonds-cadeau-don-familial-immigrant-guide",
+    title: "Mise de Fonds Cadeau (Don Familial) : Guide Complet pour Immigrants",
+    subtitle: "Qui peut donner, quelle lettre exiger, quels documents fournir : les règles des prêteurs pour une mise de fonds reçue en cadeau.",
+    description: "Guide sur la mise de fonds cadeau (don familial) pour une hypothèque au Canada. Lettre de don, donateurs admissibles, documents exigés par les prêteurs, particularités pour les immigrants recevant des fonds de l'étranger.",
+    category: "Financement",
+    readTime: "8 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["transferer-mise-de-fonds-etranger-canada", "hypotheque-reer-rap-immigrant-premier-achat", "hypotheque-cosignataire-parent-immigrant"],
   },
 ];
 

@@ -3488,4 +3488,101 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  "mise-de-fonds-cadeau-don-familial-immigrant-guide": (
+    <>
+      <p>
+        Recevoir un don familial pour compl&eacute;ter sa mise de fonds est l&rsquo;une des situations les plus fr&eacute;quentes chez les nouveaux arrivants&nbsp;: parents rest&eacute;s au pays d&rsquo;origine, fr&egrave;re ou s&oelig;ur d&eacute;j&agrave; &eacute;tabli au Canada, grand-parent qui veut aider. Bonne nouvelle&nbsp;: les pr&ecirc;teurs et les assureurs hypoth&eacute;caires (SCHL, Sagen, Canada Guaranty) acceptent un don comme source de mise de fonds &mdash; m&ecirc;me &agrave; 100&nbsp;% &mdash; mais seulement si certaines r&egrave;gles pr&eacute;cises sont respect&eacute;es. Voici comment structurer un don correctement pour &eacute;viter qu&rsquo;il ne retarde ou ne compromette votre approbation.
+      </p>
+
+      <h2>Qui est consid&eacute;r&eacute; comme un donateur admissible&nbsp;?</h2>
+      <p>
+        La quasi-totalit&eacute; des pr&ecirc;teurs et des assureurs hypoth&eacute;caires exigent que le don provienne d&rsquo;un <strong>membre de la famille imm&eacute;diate</strong>&nbsp;: parent, grand-parent, fr&egrave;re ou s&oelig;ur, enfant, ou le conjoint de l&rsquo;un de ceux-ci. Certains pr&ecirc;teurs &eacute;largissent la d&eacute;finition &agrave; un oncle, une tante ou un tuteur l&eacute;gal, mais ce n&rsquo;est pas syst&eacute;matique &mdash; v&eacute;rifiez aupr&egrave;s de votre <InternalLink slug="courtier-hypothecaire-vs-banque-immigrant">courtier ou de votre banque</InternalLink> avant de compter sur ces fonds.
+      </p>
+      <ul>
+        <li><strong>Accept&eacute; presque partout&nbsp;:</strong> parent, grand-parent, fr&egrave;re/s&oelig;ur, enfant majeur.</li>
+        <li><strong>Accept&eacute; selon le pr&ecirc;teur&nbsp;:</strong> oncle/tante, beau-parent, conjoint de fait des personnes ci-dessus.</li>
+        <li><strong>G&eacute;n&eacute;ralement refus&eacute; comme don pur&nbsp;:</strong> ami, cousin &eacute;loign&eacute;, employeur, connaissance sans lien familial direct.</li>
+      </ul>
+      <p>
+        Un don provenant d&rsquo;une personne hors de ce cercle familial risque d&rsquo;&ecirc;tre requalifi&eacute; en <strong>fonds emprunt&eacute;s</strong> par le pr&ecirc;teur, ce qui change compl&egrave;tement l&rsquo;analyse&nbsp;: la somme peut &ecirc;tre exclue de votre mise de fonds admissible, ou ajout&eacute;e &agrave; vos dettes dans le calcul de vos ratios &mdash; consultez notre <InternalLink slug="calculateur-abd-atd">calculateur ABD/ATD</InternalLink> pour voir l&rsquo;impact d&rsquo;une dette suppl&eacute;mentaire sur votre admissibilit&eacute;.
+      </p>
+
+      <WizardCta />
+
+      <h2>La lettre de don&nbsp;: le document non n&eacute;gociable</h2>
+      <p>
+        Aucun pr&ecirc;teur n&rsquo;acceptera un don sans une <strong>lettre de don</strong> (gift letter) sign&eacute;e par le donateur. Ce document, g&eacute;n&eacute;ralement fourni sur le formulaire du pr&ecirc;teur, doit inclure&nbsp;:
+      </p>
+      <ul>
+        <li>Le nom complet du donateur et son lien de parent&eacute; avec vous;</li>
+        <li>Le montant exact du don, en dollars canadiens;</li>
+        <li>L&rsquo;adresse de la propri&eacute;t&eacute; vis&eacute;e par l&rsquo;achat;</li>
+        <li>Une d&eacute;claration explicite que les fonds sont un <strong>don sans obligation de remboursement</strong>, sans int&eacute;r&ecirc;t et sans droit de gage (lien) sur la propri&eacute;t&eacute;;</li>
+        <li>La signature du donateur et, souvent, ses coordonn&eacute;es bancaires.</li>
+      </ul>
+      <p>
+        Cette derni&egrave;re clause est essentielle&nbsp;: si le donateur conserve un droit de recouvrement ou un int&eacute;r&ecirc;t dans la propri&eacute;t&eacute;, le pr&ecirc;teur consid&eacute;rera qu&rsquo;il ne s&rsquo;agit plus d&rsquo;un don mais d&rsquo;un prêt garanti, ce qui peut faire &eacute;chouer l&rsquo;approbation. Un don n&rsquo;est pas non plus la m&ecirc;me chose qu&rsquo;un <InternalLink slug="hypotheque-cosignataire-parent-immigrant">parent cosignataire</InternalLink>&nbsp;: le donateur n&rsquo;a aucune obligation l&eacute;gale envers le pr&ecirc;t hypoth&eacute;caire, alors qu&rsquo;un cosignataire devient responsable des paiements si vous ne pouvez plus les assumer.
+      </p>
+
+      <h2>Prouver la provenance des fonds&nbsp;: le d&eacute;fi pour les familles &agrave; l&rsquo;&eacute;tranger</h2>
+      <p>
+        La lettre de don ne suffit pas &agrave; elle seule. En vertu des r&egrave;gles f&eacute;d&eacute;rales de lutte contre le blanchiment d&rsquo;argent, le pr&ecirc;teur doit retracer le parcours complet des fonds&nbsp;: du compte du donateur jusqu&rsquo;&agrave; votre compte canadien. Pr&eacute;voyez g&eacute;n&eacute;ralement&nbsp;:
+      </p>
+      <ul>
+        <li>Un relev&eacute; bancaire du donateur montrant le retrait ou le virement du montant exact;</li>
+        <li>Le re&ccedil;u de virement bancaire international (SWIFT) ou de la plateforme de transfert utilis&eacute;e;</li>
+        <li>Un relev&eacute; de votre compte canadien confirmant le d&eacute;p&ocirc;t des fonds, id&eacute;alement au moins 15 jours avant la cl&ocirc;ture;</li>
+        <li>Une traduction certifi&eacute;e des documents si le compte du donateur est &agrave; l&rsquo;&eacute;tranger et les relev&eacute;s ne sont pas en fran&ccedil;ais ou en anglais.</li>
+      </ul>
+      <p>
+        Si le don provient d&rsquo;un parent encore &agrave; l&rsquo;&eacute;tranger, les d&eacute;marches ressemblent beaucoup &agrave; celles d&eacute;crites dans notre guide pour <InternalLink slug="transferer-mise-de-fonds-etranger-canada">transf&eacute;rer une mise de fonds de l&rsquo;&eacute;tranger</InternalLink>&nbsp;: pr&eacute;voyez le d&eacute;lai de conversion de devises et gardez tous les re&ccedil;us, m&ecirc;me ceux qui semblent redondants avec la lettre de don. Un dossier bien document&eacute;, contrairement &agrave; un simple d&eacute;p&ocirc;t en esp&egrave;ces impossible &agrave; retracer, ne cr&eacute;e g&eacute;n&eacute;ralement aucun retard suppl&eacute;mentaire dans le traitement.
+      </p>
+
+      <WizardCta variant="dark" />
+
+      <h2>Don &agrave; 100&nbsp;% de la mise de fonds&nbsp;: ce qui change selon le type de pr&ecirc;t</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Type de pr&ecirc;t</th>
+            <th>Don accept&eacute; &agrave; 100&nbsp;% de la mise de fonds&nbsp;?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Hypoth&egrave;que assur&eacute;e (moins de 20&nbsp;% de mise de fonds)</strong></td>
+            <td>Oui, si le donateur est un membre de la famille imm&eacute;diate reconnu par l&rsquo;assureur (SCHL, Sagen, Canada Guaranty).</td>
+          </tr>
+          <tr>
+            <td><strong>Hypoth&egrave;que conventionnelle (20&nbsp;% et plus)</strong></td>
+            <td>G&eacute;n&eacute;ralement oui, mais certains pr&ecirc;teurs demandent qu&rsquo;une partie minimale provienne de vos propres &eacute;conomies pour d&eacute;montrer une capacit&eacute; d&rsquo;&eacute;pargne &mdash; &agrave; confirmer au cas par cas.</td>
+          </tr>
+          <tr>
+            <td><strong>Programme <InternalLink slug="programme-schl-nouveaux-arrivants-guide-complet">SCHL Nouveaux Arrivants</InternalLink></strong></td>
+            <td>Oui, un don familial document&eacute; reste une source valide m&ecirc;me sans historique de cr&eacute;dit canadien.</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Notez qu&rsquo;un don n&rsquo;a aucune incidence fiscale au Canada&nbsp;: il n&rsquo;existe pas d&rsquo;imp&ocirc;t sur les dons entre particuliers ici. Le pays de r&eacute;sidence du donateur peut toutefois avoir ses propres r&egrave;gles &mdash; si vos parents habitent encore &agrave; l&rsquo;&eacute;tranger, il peut &ecirc;tre utile qu&rsquo;ils v&eacute;rifient aupr&egrave;s d&rsquo;un conseiller fiscal local avant d&rsquo;envoyer une somme importante.
+      </p>
+
+      <h2>&Agrave; retenir avant de recevoir un don pour votre mise de fonds</h2>
+      <ul>
+        <li><strong>Confirmez le lien de parent&eacute; admissible</strong> aupr&egrave;s de votre pr&ecirc;teur avant de finaliser vos plans &mdash; les r&egrave;gles varient d&rsquo;une institution &agrave; l&rsquo;autre.</li>
+        <li><strong>Utilisez le formulaire officiel de lettre de don</strong> du pr&ecirc;teur, jamais une lettre maison, pour &eacute;viter les allers-retours.</li>
+        <li><strong>D&eacute;posez les fonds t&ocirc;t</strong> &mdash; au moins 15 jours avant la cl&ocirc;ture &mdash; et conservez chaque re&ccedil;u de virement.</li>
+        <li><strong>Gardez une piste papier compl&egrave;te</strong> si les fonds viennent de l&rsquo;&eacute;tranger&nbsp;: relev&eacute;s du donateur, preuve de conversion de devises et relev&eacute; de d&eacute;p&ocirc;t au Canada.</li>
+      </ul>
+      <p>
+        Si le don ne couvre pas toute votre mise de fonds, combinez-le avec le <InternalLink slug="hypotheque-reer-rap-immigrant-premier-achat">RAP ou le CELIAPP</InternalLink> pour maximiser vos liquidit&eacute;s disponibles &agrave; l&rsquo;achat.
+      </p>
+      <p>
+        Sources officielles&nbsp;: <a href="https://www.cmhc-schl.gc.ca/professionnels/financement-de-projets-et-financement-hypothecaire/assurance-pret-hypothecaire/aph-po-et-petits-immeubles-locatifs/achat" target="_blank" rel="noopener noreferrer">SCHL Achat &mdash; Exigences et sources de mise de fonds</a> et <a href="https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/tout-votre-declaration-revenus/declaration-revenus/remplir-declaration-revenus/revenu-personnel/montants-non-imposables.html" target="_blank" rel="noopener noreferrer">Agence du revenu du Canada &mdash; Montants non d&eacute;clar&eacute;s et non imposables (dons)</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };
