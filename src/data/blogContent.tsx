@@ -3488,4 +3488,104 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  // ====================================================
+  // ARTICLE 55: NOUVEAU-BRUNSWICK
+  // ====================================================
+  "hypotheque-nouveau-brunswick-immigrants-moncton-fredericton": (
+    <>
+      <p>
+        Seule province officiellement bilingue du Canada, le Nouveau-Brunswick attire de plus en plus de nouveaux arrivants francophones et anglophones gr&acirc;ce &agrave; des prix immobiliers encore tr&egrave;s abordables et &agrave; un programme provincial d&rsquo;immigration actif&nbsp;: le <strong>Programme des candidats du Nouveau-Brunswick (PCNB)</strong>. Voici ce qu&rsquo;un immigrant doit savoir avant d&rsquo;acheter &agrave; Moncton, Fredericton, Saint John ou ailleurs dans la province.
+      </p>
+
+      <h2>Trois villes, des prix parmi les plus bas du Canada anglophone</h2>
+      <p>
+        Selon les statistiques de l&rsquo;Association canadienne de l&rsquo;immobilier (ACI), les prix moyens dans les trois principales villes n&eacute;o-brunswickoises restent nettement sous la moyenne nationale, tout en ayant progress&eacute; ces derni&egrave;res ann&eacute;es&nbsp;:
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Ville</th>
+            <th>Prix moyen (juillet 2026)</th>
+            <th>Mise de fonds 5&nbsp;%</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Fredericton</strong></td>
+            <td>~372&nbsp;000&nbsp;$</td>
+            <td>~18&nbsp;600&nbsp;$</td>
+          </tr>
+          <tr>
+            <td><strong>Moncton</strong></td>
+            <td>~384&nbsp;000&nbsp;$</td>
+            <td>~19&nbsp;200&nbsp;$</td>
+          </tr>
+          <tr>
+            <td><strong>Saint John</strong></td>
+            <td>~385&nbsp;000&nbsp;$</td>
+            <td>~19&nbsp;250&nbsp;$</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        &Agrave; titre de comparaison, une mise de fonds de 5&nbsp;% sur un condo torontois moyen d&eacute;passe souvent 30&nbsp;000&nbsp;$, avec des mensualit&eacute;s bien plus &eacute;lev&eacute;es qu&rsquo;&agrave; Moncton ou Fredericton. Pour un nouvel arrivant avec des &eacute;conomies limit&eacute;es, cet &eacute;cart peut repr&eacute;senter plusieurs ann&eacute;es de location &eacute;vit&eacute;es.
+      </p>
+
+      <WizardCta />
+
+      <h2>Le Programme des candidats du Nouveau-Brunswick (PCNB)</h2>
+      <p>
+        Le <a href="https://www2.gnb.ca/content/gnb/en/corporate/promo/immigration/immigrating-to-nb/nb-immigration-program-streams.html" target="_blank" rel="noopener noreferrer">Programme des candidats du Nouveau-Brunswick</a> (PCNB, ou New Brunswick Provincial Nominee Program) fonctionne principalement par trois volets&nbsp;:
+      </p>
+      <ul>
+        <li><strong>Volet travailleur qualifi&eacute;</strong> &mdash; pour les candidats ayant une offre d&rsquo;emploi valide ou un emploi actuel aupr&egrave;s d&rsquo;un employeur n&eacute;o-brunswickois admissible, incluant le sous-volet Exp&eacute;rience Nouveau-Brunswick pour les travailleurs et &eacute;tudiants d&eacute;j&agrave; &eacute;tablis dans la province.</li>
+        <li><strong>Volet Entr&eacute;e express</strong> &mdash; pour les candidats ayant un profil actif dans le bassin f&eacute;d&eacute;ral d&rsquo;Entr&eacute;e express et un lien avec la province&nbsp;; une nomination accorde 600&nbsp;points suppl&eacute;mentaires au syst&egrave;me de classement global.</li>
+        <li><strong>Volet initiative strat&eacute;gique</strong> &mdash; cibl&eacute; vers des besoins de main-d&rsquo;&oelig;uvre pr&eacute;cis, notamment via des ententes avec des employeurs ou des communaut&eacute;s francophones.</li>
+      </ul>
+      <p>
+        Depuis mai 2026, le sous-volet Exp&eacute;rience Nouveau-Brunswick du volet travailleur qualifi&eacute; a resserr&eacute; ses invitations aux candidats œuvrant dans trois secteurs prioritaires&nbsp;: <strong>sant&eacute;, &eacute;ducation et m&eacute;tiers de la construction</strong>. Une nomination PCNB acc&eacute;l&egrave;re le traitement de la demande de r&eacute;sidence permanente aupr&egrave;s d&rsquo;IRCC, ce qui renforce la stabilit&eacute; per&ccedil;ue du dossier par un pr&ecirc;teur &mdash; sans toutefois remplacer les crit&egrave;res financiers habituels (revenu, cr&eacute;dit, mise de fonds). La majorit&eacute; des acheteurs ach&egrave;tent d&rsquo;ailleurs comme travailleurs temporaires bien avant d&rsquo;obtenir leur RP&nbsp;: consultez notre guide sur l&rsquo;<InternalLink slug="hypotheque-travailleur-temporaire-5pourcent">hypoth&egrave;que avec permis de travail temporaire</InternalLink> pour b&acirc;tir un dossier solide d&egrave;s maintenant, et ce qui change vraiment au <InternalLink slug="hypotheque-nouveau-resident-permanent-guide-complet">passage au statut de r&eacute;sident permanent</InternalLink>.
+      </p>
+
+      <h2>Une taxe de transfert simple, et aucune surtaxe pour acheteurs &eacute;trangers</h2>
+      <p>
+        Le Nouveau-Brunswick applique une <strong>taxe de transfert de propri&eacute;t&eacute; (Real Property Transfer Tax)</strong> parmi les plus simples au pays&nbsp;: un taux fixe de <strong>1&nbsp;%</strong> calcul&eacute; sur le plus &eacute;lev&eacute; entre le prix d&rsquo;achat et la valeur d&rsquo;&eacute;valuation municipale, sans palier progressif ni exemption automatique pour premier acheteur.
+      </p>
+      <ul>
+        <li><strong>Taxe de transfert provinciale :</strong> 1&nbsp;% de la valeur la plus &eacute;lev&eacute;e entre le prix pay&eacute; et l&rsquo;&eacute;valuation municipale, per&ccedil;ue au moment de l&rsquo;enregistrement de l&rsquo;acte.</li>
+        <li><strong>Aucune surtaxe pour acheteurs non-r&eacute;sidents ou &eacute;trangers</strong> &mdash; contrairement &agrave; l&rsquo;Ontario, la Colombie-Britannique ou m&ecirc;me la Nouvelle-&Eacute;cosse voisine, le Nouveau-Brunswick n&rsquo;impose aucun pr&eacute;l&egrave;vement suppl&eacute;mentaire bas&eacute; sur le statut de r&eacute;sidence de l&rsquo;acheteur.</li>
+        <li><strong>Honoraires d&rsquo;avocat :</strong> g&eacute;n&eacute;ralement 1&nbsp;000&nbsp;$ &agrave; 1&nbsp;800&nbsp;$ pour la fermeture, obligatoire comme dans le reste du Canada anglophone.</li>
+      </ul>
+      <p>
+        Cette absence de surtaxe ne dispense toutefois pas les acheteurs non-r&eacute;sidents canadiens de l&rsquo;<InternalLink slug="hypotheque-taxe-acheteur-etranger-exemption">interdiction f&eacute;d&eacute;rale d&rsquo;achat pour non-Canadiens</InternalLink>, qui s&rsquo;applique dans les r&eacute;gions m&eacute;tropolitaines et agglom&eacute;rations de recensement de la province jusqu&rsquo;&agrave; son expiration pr&eacute;vue le 1er&nbsp;janvier 2027. Les travailleurs temporaires, r&eacute;sidents permanents et r&eacute;fugi&eacute;s en sont g&eacute;n&eacute;ralement exempt&eacute;s &mdash; v&eacute;rifiez votre admissibilit&eacute; dans notre guide des exemptions.
+      </p>
+
+      <WizardCta variant="dark" />
+
+      <h2>Un atout unique&nbsp;: le bilinguisme officiel</h2>
+      <p>
+        Avec environ le tiers de sa population francophone &mdash; la plus forte proportion hors Qu&eacute;bec &mdash; le Nouveau-Brunswick offre tous ses services gouvernementaux et une bonne partie de ses services financiers en fran&ccedil;ais, notamment dans le sud-est de la province (Moncton, Dieppe, Shediac). Pour un immigrant francophone qui h&eacute;site entre le Qu&eacute;bec et une province anglophone, le Nouveau-Brunswick combine march&eacute; abordable et continuit&eacute; linguistique. Comparez avec les r&egrave;gles et le march&eacute; du <InternalLink slug="hypotheque-francophone-quebec">Qu&eacute;bec pour les immigrants francophones</InternalLink> pour situer vos options.
+      </p>
+      <p>
+        Les incitatifs f&eacute;d&eacute;raux pour premiers acheteurs s&rsquo;appliquent int&eacute;gralement au Nouveau-Brunswick&nbsp;: le <InternalLink slug="hypotheque-reer-rap-immigrant-premier-achat">R&eacute;gime d&rsquo;accession &agrave; la propri&eacute;t&eacute; (RAP) et le CELIAPP</InternalLink>, le <InternalLink slug="programme-schl-nouveaux-arrivants-guide-complet">programme SCHL Nouveaux Arrivants</InternalLink> pour les immigrants au Canada depuis cinq ans ou moins sans historique de cr&eacute;dit canadien &eacute;tabli, et le <InternalLink slug="rabais-tps-premier-acheteur-maison-neuve-2026-immigrant">rabais f&eacute;d&eacute;ral sur la TPS/TVH pour premiers acheteurs de maisons neuves</InternalLink>.
+      </p>
+
+      <h2>&Agrave; retenir avant d&rsquo;acheter au Nouveau-Brunswick</h2>
+      <ul>
+        <li><strong>Parmi les march&eacute;s les plus abordables du Canada anglophone</strong> &mdash; une mise de fonds de 5&nbsp;% reste accessible &agrave; Moncton, Fredericton et Saint John.</li>
+        <li><strong>Taxe de transfert simple &agrave; 1&nbsp;%</strong>, sans surtaxe pour non-r&eacute;sidents ni pour acheteurs &eacute;trangers admissibles.</li>
+        <li><strong>Le PCNB privil&eacute;gie de plus en plus la sant&eacute;, l&rsquo;&eacute;ducation et la construction</strong> depuis le resserrement de mai 2026 &mdash; informez-vous sur les secteurs prioritaires avant de b&acirc;tir votre dossier d&rsquo;immigration.</li>
+        <li><strong>Services bilingues r&eacute;pandus</strong>, particuli&egrave;rement dans le sud-est &mdash; un avantage rare pour un immigrant francophone hors Qu&eacute;bec.</li>
+        <li><strong>Moins de succursales sp&eacute;cialis&eacute;es &laquo;&nbsp;nouveaux arrivants&nbsp;&raquo;</strong> qu&rsquo;en Ontario ou en Colombie-Britannique &mdash; un <InternalLink slug="courtier-hypothecaire-vs-banque-immigrant">courtier hypoth&eacute;caire</InternalLink> ind&eacute;pendant permet souvent de comparer davantage d&rsquo;options.</li>
+      </ul>
+      <p>
+        Comparez aussi avec d&rsquo;autres march&eacute;s atlantiques et abordables, comme la <InternalLink slug="hypotheque-nouvelle-ecosse-immigrants-halifax-atlantique">Nouvelle-&Eacute;cosse</InternalLink> et la <InternalLink slug="hypotheque-saskatchewan-immigrants-regina-saskatoon">Saskatchewan</InternalLink>, pour situer le Nouveau-Brunswick parmi vos options.
+      </p>
+      <p>
+        Sources officielles&nbsp;: <a href="https://www2.gnb.ca/content/gnb/en/corporate/promo/immigration/immigrating-to-nb/nb-immigration-program-streams.html" target="_blank" rel="noopener noreferrer">Gouvernement du Nouveau-Brunswick &mdash; Programme des candidats</a>, <a href="https://www2.gnb.ca/content/gnb/en/departments/finance/taxes/real_property.html" target="_blank" rel="noopener noreferrer">Finances Nouveau-Brunswick &mdash; Taxation de la propri&eacute;t&eacute; r&eacute;elle</a> et <a href="https://www.cmhc-schl.gc.ca" target="_blank" rel="noopener noreferrer">SCHL</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };

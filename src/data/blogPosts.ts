@@ -1,5 +1,5 @@
 // ============================================
-// BLOG POSTS METADATA — 54 articles
+// BLOG POSTS METADATA — 55 articles
 // Data-driven: each post has metadata + markdown-like content sections
 // ============================================
 
@@ -601,7 +601,18 @@ export const blogPosts: BlogPost[] = [
     category: "Province",
     readTime: "9 min",
     wizardVariant: undefined,
-    relatedSlugs: ["hypotheque-saskatchewan-immigrants-regina-saskatoon", "hypotheque-nouveau-resident-permanent-guide-complet", "hypotheque-taxe-acheteur-etranger-exemption"],
+    relatedSlugs: ["hypotheque-nouveau-brunswick-immigrants-moncton-fredericton", "hypotheque-saskatchewan-immigrants-regina-saskatoon", "hypotheque-nouveau-resident-permanent-guide-complet", "hypotheque-taxe-acheteur-etranger-exemption"],
+  },
+  // ====== ARTICLE #55 — NOUVEAU-BRUNSWICK ======
+  {
+    slug: "hypotheque-nouveau-brunswick-immigrants-moncton-fredericton",
+    title: "Hypothèque Nouveau-Brunswick Immigrants : Guide Moncton, Fredericton et Saint John",
+    subtitle: "Seule province officiellement bilingue, marché abordable et PCNB actif : ce qu'il faut savoir avant d'acheter.",
+    description: "Guide hypothèque pour immigrants au Nouveau-Brunswick. Marché Moncton, Fredericton et Saint John, Programme des candidats du Nouveau-Brunswick (PCNB), taxe de transfert et avantage du bilinguisme officiel.",
+    category: "Province",
+    readTime: "9 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-nouvelle-ecosse-immigrants-halifax-atlantique", "hypotheque-saskatchewan-immigrants-regina-saskatoon", "hypotheque-francophone-quebec", "hypotheque-nouveau-resident-permanent-guide-complet"],
   },
 ];
 
