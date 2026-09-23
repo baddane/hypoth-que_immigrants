@@ -603,6 +603,17 @@ export const blogPosts: BlogPost[] = [
     wizardVariant: undefined,
     relatedSlugs: ["hypotheque-saskatchewan-immigrants-regina-saskatoon", "hypotheque-nouveau-resident-permanent-guide-complet", "hypotheque-taxe-acheteur-etranger-exemption"],
   },
+  // ====== ARTICLE #55 — PROFESSIONNEL RÉGLEMENTÉ (MÉDECIN, INGÉNIEUR, AVOCAT) ======
+  {
+    slug: "hypotheque-professionnel-reglemente-medecin-ingenieur-avocat-immigrant",
+    title: "Hypothèque pour Professionnel Réglementé Immigrant : Médecin, Ingénieur, Avocat",
+    subtitle: "Diplôme obtenu à l'étranger, ordre professionnel en cours de reconnaissance : comment bâtir un dossier solide pendant cette période de transition.",
+    description: "Guide hypothèque pour immigrants professionnels réglementés (médecin, ingénieur, avocat, pharmacien, infirmière) au Canada. Reconnaissance des acquis, programmes bancaires spécialisés et stratégies de financement pendant la transition professionnelle.",
+    category: "Situation Spéciale",
+    readTime: "9 min",
+    wizardVariant: "professionnel-reglemente",
+    relatedSlugs: ["hypotheque-revenu-etranger-convert", "hypotheque-sans-historique-credit", "preapprobation-hypotheque-immigrant"],
+  },
 ];
 
 // Helper: get post by slug

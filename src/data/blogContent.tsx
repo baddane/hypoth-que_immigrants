@@ -3488,4 +3488,92 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  // ====================================================
+  // ARTICLE 55: PROFESSIONNEL RÉGLEMENTÉ (MÉDECIN, INGÉNIEUR, AVOCAT)
+  // ====================================================
+  "hypotheque-professionnel-reglemente-medecin-ingenieur-avocat-immigrant": (
+    <>
+      <p>
+        M&eacute;decin, ing&eacute;nieur, avocat, pharmacien ou infirmi&egrave;re form&eacute;&middot;e &agrave; l&rsquo;&eacute;tranger&nbsp;: votre profil pr&eacute;sente un paradoxe pour la plupart des pr&ecirc;teurs. D&rsquo;un c&ocirc;t&eacute;, un potentiel de revenu &eacute;lev&eacute; une fois votre titre reconnu au Canada. De l&rsquo;autre, un revenu actuel souvent modeste pendant la p&eacute;riode de reconnaissance des acquis &mdash; parfois dans un emploi &eacute;loign&eacute; de votre qualification d&rsquo;origine. Voici comment structurer votre dossier hypoth&eacute;caire pendant cette transition.
+      </p>
+
+      <h2>Le paradoxe du professionnel r&eacute;glement&eacute; nouvel arrivant</h2>
+      <p>
+        Environ 20&nbsp;% des emplois au Canada rel&egrave;vent d&rsquo;une <strong>profession r&eacute;glement&eacute;e</strong>&nbsp;: m&eacute;decine, g&eacute;nie, droit, pharmacie, soins infirmiers, comptabilit&eacute; et plusieurs autres domaines encadr&eacute;s par un ordre professionnel provincial (Coll&egrave;ge des m&eacute;decins, Ordre des ing&eacute;nieurs, Barreau, Ordre des pharmaciens, etc.). La responsabilit&eacute; de reconna&icirc;tre vos dipl&ocirc;mes et votre exp&eacute;rience &eacute;trang&egrave;re appartient &agrave; ces ordres, pas &agrave; Immigration, R&eacute;fugi&eacute;s et Citoyennet&eacute; Canada (IRCC), et le processus varie &eacute;norm&eacute;ment d&rsquo;une profession et d&rsquo;une province &agrave; l&rsquo;autre.
+      </p>
+      <p>
+        Le <a href="https://www.cicic.ca/900/determinez_si_votre_profession_est_reglementee.canada" target="_blank" rel="noopener noreferrer">Centre d&rsquo;information canadien sur les dipl&ocirc;mes internationaux (CICIC)</a> offre un outil gratuit pour v&eacute;rifier si votre profession est r&eacute;glement&eacute;e, identifier l&rsquo;ordre responsable dans votre province et conna&icirc;tre le d&eacute;lai et le co&ucirc;t approximatifs de la reconnaissance. Le <a href="https://www.canada.ca/fr/emploi-developpement-social/programmes/reconnaissance-titres-competences-etrangers.html" target="_blank" rel="noopener noreferrer">Programme de reconnaissance des titres de comp&eacute;tences &eacute;trangers</a> d&rsquo;Emploi et D&eacute;veloppement social Canada finance aussi des services d&rsquo;accompagnement pour acc&eacute;l&eacute;rer certaines &eacute;quivalences. Tant que votre dossier est en cours, la plupart des banques traditionnelles &eacute;valuent votre capacit&eacute; d&rsquo;emprunt sur votre <strong>revenu actuel</strong>, pas sur votre revenu futur projet&eacute; &mdash; d&rsquo;o&ugrave; l&rsquo;importance de programmes sp&eacute;cialis&eacute;s.
+      </p>
+
+      <WizardCta />
+
+      <h2>Des programmes bancaires pens&eacute;s pour les professionnels</h2>
+      <p>
+        Plusieurs grandes banques canadiennes offrent des programmes distincts, souvent r&eacute;serv&eacute;s aux m&eacute;decins, dentistes, pharmaciens, avocats et parfois ing&eacute;nieurs, qui tiennent compte d&rsquo;un revenu professionnel appel&eacute; &agrave; augmenter rapidement. La <a href="https://www.scotiabank.com/ca/fr/pro-sante-plus/programme-bancaire-pour-medecins.html" target="_blank" rel="noopener noreferrer">Banque Scotia Pro Sant&eacute;+</a> en est un bon exemple&nbsp;: elle s&rsquo;adresse aux &eacute;tudiants en m&eacute;decine, aux r&eacute;sident&middot;e&middot;s et aux m&eacute;decins en pratique, avec des solutions de financement adapt&eacute;es &agrave; chaque &eacute;tape de carri&egrave;re. La Banque Scotia propose aussi des <a href="https://www.scotiabank.com/ca/fr/commercial-banking/professionnels/architectes-et-ingenieurs.html" target="_blank" rel="noopener noreferrer">solutions bancaires pour les ing&eacute;nieurs et architectes</a> qui d&eacute;marrent ou d&eacute;veloppent leur pratique.
+      </p>
+      <ul>
+        <li><strong>Revenu retenu&nbsp;:</strong> un contrat de r&eacute;sidence sign&eacute;, une lettre d&rsquo;entente avec un employeur ou une preuve d&rsquo;inscription conditionnelle &agrave; l&rsquo;ordre peuvent parfois compter, m&ecirc;me sans deux ann&eacute;es compl&egrave;tes de revenu canadien.</li>
+        <li><strong>Mise de fonds&nbsp;:</strong> le minimum l&eacute;gal de 5&nbsp;% reste la norme g&eacute;n&eacute;rale au Canada pour une propri&eacute;t&eacute; de moins de 1&nbsp;000&nbsp;000&nbsp;$; certains programmes professionnels assouplissent d&rsquo;autres crit&egrave;res (ratios d&rsquo;endettement, historique de cr&eacute;dit) plut&ocirc;t que la mise de fonds elle-m&ecirc;me.</li>
+        <li><strong>Autres banques&nbsp;:</strong> RBC, BMO, TD et CIBC offrent aussi des forfaits &laquo;&nbsp;professionnels&nbsp;&raquo; ou &laquo;&nbsp;nouveaux arrivants&nbsp;&raquo; &mdash; demandez sp&eacute;cifiquement &agrave; votre conseiller si votre profession donne acc&egrave;s &agrave; un programme d&eacute;di&eacute;.</li>
+      </ul>
+
+      <h2>Revenu futur vs revenu actuel&nbsp;: ce que regardent vraiment les pr&ecirc;teurs</h2>
+      <p>
+        Beaucoup de professionnel&middot;le&middot;s immigrant&middot;e&middot;s travaillent, pendant l&rsquo;&eacute;quivalence, dans un emploi &eacute;loign&eacute; de leur qualification d&rsquo;origine &mdash; un revenu plus modeste que celui vis&eacute; &agrave; terme. Un pr&ecirc;teur A (grande banque) exige g&eacute;n&eacute;ralement des talons de paie et un relev&eacute; d&rsquo;emploi correspondant au revenu <em>actuellement gagn&eacute;</em>. Les programmes sp&eacute;cialis&eacute;s pour professionnels, eux, acceptent souvent une <strong>lettre d&rsquo;offre d&rsquo;emploi futur</strong> (par exemple un contrat de r&eacute;sidence en m&eacute;decine ou une offre conditionnelle &agrave; l&rsquo;obtention du permis d&rsquo;exercice) comme preuve de revenu, &agrave; condition que la date de d&eacute;but soit rapproch&eacute;e (souvent dans les 90 jours suivant la cl&ocirc;ture).
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Crit&egrave;re</th>
+            <th>Approche standard</th>
+            <th>Approche &laquo;&nbsp;programme professionnel&nbsp;&raquo;</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Revenu retenu</td>
+            <td>Revenu net actuel, 2 relev&eacute;s de paie</td>
+            <td>Contrat ou lettre d&rsquo;entente sign&eacute;e, revenu futur proche</td>
+          </tr>
+          <tr>
+            <td>Preuve de stabilit&eacute;</td>
+            <td>Historique d&rsquo;emploi canadien</td>
+            <td>Attestation d&rsquo;inscription &agrave; l&rsquo;ordre professionnel</td>
+          </tr>
+          <tr>
+            <td>Interlocuteur</td>
+            <td>Succursale g&eacute;n&eacute;raliste</td>
+            <td>Conseiller d&eacute;di&eacute; au programme professionnel</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <WizardCta variant="dark" />
+
+      <h2>Documents suppl&eacute;mentaires &agrave; pr&eacute;parer</h2>
+      <ul>
+        <li><strong>Preuve d&rsquo;inscription &agrave; l&rsquo;ordre&nbsp;:</strong> permis temporaire, statut de candidat&middot;e ou confirmation d&rsquo;admissibilit&eacute; &eacute;mise par l&rsquo;ordre professionnel de votre province.</li>
+        <li><strong>Contrat ou lettre d&rsquo;entente&nbsp;:</strong> contrat de r&eacute;sidence, offre d&rsquo;emploi conditionnelle ou entente d&rsquo;association, indiquant la date de d&eacute;but et le revenu pr&eacute;vu.</li>
+        <li><strong>&Eacute;valuation compar&eacute;e des dipl&ocirc;mes&nbsp;:</strong> rapport d&rsquo;un organisme reconnu (le CICIC dirige vers l&rsquo;&eacute;valuateur appropri&eacute; selon la province et la profession).</li>
+        <li><strong>Historique de revenu &agrave; l&rsquo;&eacute;tranger&nbsp;:</strong> utile en compl&eacute;ment si vous &ecirc;tes au Canada depuis peu &mdash; voir notre guide sur la <InternalLink slug="hypotheque-revenu-etranger-convert">conversion d&rsquo;un revenu &eacute;tranger</InternalLink>.</li>
+      </ul>
+      <p>
+        Au Qu&eacute;bec, le <a href="https://www.quebec.ca/immigration/aide-organismes-integration-immigration/programme-aide-reconnaissance-competences" target="_blank" rel="noopener noreferrer">Programme d&rsquo;aide &agrave; la reconnaissance des comp&eacute;tences (PARC)</a> peut aussi soutenir financi&egrave;rement vos d&eacute;marches d&rsquo;&eacute;quivalence pendant que vous b&acirc;tissez votre dossier hypoth&eacute;caire.
+      </p>
+
+      <h2>&Agrave; retenir avant de d&eacute;marrer votre dossier</h2>
+      <ul>
+        <li><strong>V&eacute;rifiez votre statut de profession r&eacute;glement&eacute;e</strong> et le d&eacute;lai r&eacute;aliste de reconnaissance avant d&rsquo;estimer votre pouvoir d&rsquo;achat &agrave; court terme.</li>
+        <li><strong>Demandez explicitement</strong> si votre banque a un programme pour votre profession &mdash; il n&rsquo;est pas toujours annonc&eacute; en succursale g&eacute;n&eacute;raliste.</li>
+        <li><strong>Si aucun contrat n&rsquo;est encore sign&eacute;</strong>, votre dossier ressemble &agrave; celui d&rsquo;un <InternalLink slug="hypotheque-sans-historique-credit">nouvel arrivant sans historique de cr&eacute;dit</InternalLink>&nbsp;: b&acirc;tissez votre cr&eacute;dit canadien en parall&egrave;le de vos d&eacute;marches d&rsquo;&eacute;quivalence.</li>
+        <li><strong>Pr&eacute;parez votre demande de <InternalLink slug="preapprobation-hypotheque-immigrant">pr&eacute;approbation</InternalLink></strong> d&egrave;s que votre contrat ou votre date d&rsquo;admissibilit&eacute; &agrave; l&rsquo;ordre est confirm&eacute;e, plut&ocirc;t que d&rsquo;attendre la reconnaissance finale.</li>
+      </ul>
+      <p>
+        Sources officielles&nbsp;: <a href="https://www.cicic.ca/900/determinez_si_votre_profession_est_reglementee.canada" target="_blank" rel="noopener noreferrer">CICIC &mdash; D&eacute;terminez si votre profession est r&eacute;glement&eacute;e</a>, <a href="https://www.canada.ca/fr/emploi-developpement-social/programmes/reconnaissance-titres-competences-etrangers.html" target="_blank" rel="noopener noreferrer">Emploi et D&eacute;veloppement social Canada &mdash; Reconnaissance des titres de comp&eacute;tences &eacute;trangers</a> et <a href="https://www.quebec.ca/immigration/aide-organismes-integration-immigration/programme-aide-reconnaissance-competences" target="_blank" rel="noopener noreferrer">Gouvernement du Qu&eacute;bec &mdash; PARC</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };
