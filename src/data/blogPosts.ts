@@ -1,5 +1,5 @@
 // ============================================
-// BLOG POSTS METADATA — 54 articles
+// BLOG POSTS METADATA — 55 articles
 // Data-driven: each post has metadata + markdown-like content sections
 // ============================================
 
