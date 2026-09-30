@@ -3488,4 +3488,116 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  // ====================================================
+  // ARTICLE 55: OFFRE D'ACHAT, CONDITIONS ET INSPECTION
+  // ====================================================
+  "offre-achat-conditions-inspection-preachat-immigrant": (
+    <>
+      <p>
+        Vous avez votre <InternalLink slug="preapprobation-hypotheque-immigrant">pr&eacute;approbation hypoth&eacute;caire</InternalLink> et vous avez rep&eacute;r&eacute; une propri&eacute;t&eacute; : reste l&rsquo;&eacute;tape o&ugrave; les nouveaux arrivants commettent le plus d&rsquo;erreurs co&ucirc;teuses, l&rsquo;<strong>offre d&rsquo;achat</strong>. Dans un march&eacute; que vous connaissez encore mal, ce document engage votre d&eacute;p&ocirc;t et fixe vos protections. Voici comment le lire, le r&eacute;diger et le n&eacute;gocier.
+      </p>
+
+      <h2>Ce qu&rsquo;est une offre d&rsquo;achat (et ce qu&rsquo;elle engage)</h2>
+      <p>
+        Une offre d&rsquo;achat est un contrat &eacute;crit dans lequel vous proposez un prix, une date de prise de possession et des conditions. Une fois accept&eacute;e sans modification par le vendeur, elle devient <strong>juridiquement contraignante</strong> : si vous vous retirez sans qu&rsquo;une condition le permette, vous risquez de perdre votre d&eacute;p&ocirc;t, voire d&rsquo;&ecirc;tre poursuivi.
+      </p>
+      <ul>
+        <li><strong>Hors Qu&eacute;bec :</strong> on parle d&rsquo;<em>offer to purchase</em> ou d&rsquo;<em>agreement of purchase and sale</em>, habituellement r&eacute;dig&eacute; par votre courtier immobilier sur un formulaire standardis&eacute; de l&rsquo;association immobili&egrave;re provinciale.</li>
+        <li><strong>Au Qu&eacute;bec :</strong> le document s&rsquo;appelle la <strong>promesse d&rsquo;achat</strong>, ses formulaires sont encadr&eacute;s par l&rsquo;OACIQ, et elle prend effet d&egrave;s son acceptation par le vendeur, m&ecirc;me avant la signature chez le notaire.</li>
+      </ul>
+      <p>
+        Faites-vous expliquer chaque clause avant de signer, dans la langue o&ugrave; vous la comprenez le mieux. Un courtier immobilier a l&rsquo;obligation de vous conseiller, et vous pouvez faire relire l&rsquo;offre par un avocat ou un notaire avant de la soumettre.
+      </p>
+
+      <h2>Les &eacute;l&eacute;ments essentiels d&rsquo;une offre solide</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>&Eacute;l&eacute;ment</th>
+            <th>&Agrave; v&eacute;rifier</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Prix</strong></td>
+            <td>Coh&eacute;rent avec les ventes comparables r&eacute;centes de votre courtier, pas seulement avec le prix demand&eacute;.</td>
+          </tr>
+          <tr>
+            <td><strong>D&eacute;p&ocirc;t</strong></td>
+            <td>Montant, d&eacute;lai de versement et fiducie qui le d&eacute;tient. Il s&rsquo;impute ensuite sur votre mise de fonds.</td>
+          </tr>
+          <tr>
+            <td><strong>Dates</strong></td>
+            <td>Date de cl&ocirc;ture et de prise de possession r&eacute;alistes, compatibles avec le d&eacute;lai de votre pr&ecirc;teur.</td>
+          </tr>
+          <tr>
+            <td><strong>Inclusions et exclusions</strong></td>
+            <td>&Eacute;lectrom&eacute;nagers, luminaires, chauffe-eau lou&eacute; ou non : tout ce qui n&rsquo;est pas &eacute;crit peut &ecirc;tre retir&eacute;.</td>
+          </tr>
+          <tr>
+            <td><strong>Conditions</strong></td>
+            <td>Financement, inspection, documents du vendeur, assurance. Chacune a une &eacute;ch&eacute;ance pr&eacute;cise.</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Le d&eacute;p&ocirc;t doit provenir de fonds que vous pouvez documenter. Si votre argent vient de l&rsquo;&eacute;tranger, anticipez les d&eacute;lais &mdash; voyez notre guide sur le <InternalLink slug="transferer-mise-de-fonds-etranger-canada">transfert de la mise de fonds vers le Canada</InternalLink> avant de fixer l&rsquo;&eacute;ch&eacute;ance de versement.
+      </p>
+
+      <WizardCta />
+
+      <h2>La condition de financement : votre filet de s&eacute;curit&eacute;</h2>
+      <p>
+        La <strong>condition de financement</strong> stipule que l&rsquo;offre est valide seulement si vous obtenez votre hypoth&egrave;que selon des modalit&eacute;s d&eacute;finies. Elle est particuli&egrave;rement importante pour un immigrant, dont le dossier (statut temporaire, cr&eacute;dit r&eacute;cent, revenus &agrave; documenter) peut demander une r&eacute;vision approfondie du pr&ecirc;teur.
+      </p>
+      <ul>
+        <li><strong>Une pr&eacute;approbation n&rsquo;est pas une approbation finale.</strong> Le pr&ecirc;teur doit encore valider la propri&eacute;t&eacute; (&eacute;valuation) et l&rsquo;ensemble de vos documents.</li>
+        <li><strong>Pr&eacute;voyez un d&eacute;lai r&eacute;aliste</strong> pour la condition, souvent de quelques jours &agrave; deux semaines selon le march&eacute; et le type de dossier. Un d&eacute;lai trop court est un risque pour vous, pas pour le vendeur.</li>
+        <li><strong>Pour un bien assur&eacute; par la SCHL</strong> (mise de fonds inf&eacute;rieure &agrave; 20&nbsp;%), l&rsquo;assureur intervient aussi dans l&rsquo;approbation &mdash; voyez notre guide sur l&rsquo;<InternalLink slug="assurance-hypothecaire-schl-primes-guide-2026">assurance hypoth&eacute;caire et ses primes</InternalLink>.</li>
+        <li><strong>Renoncer &agrave; cette condition</strong> pour rendre votre offre plus attrayante dans un march&eacute; comp&eacute;titif est une strat&eacute;gie risqu&eacute;e. Si vous ne pouvez plus obtenir le financement, votre d&eacute;p&ocirc;t est en jeu.</li>
+      </ul>
+      <p>
+        Une fois l&rsquo;offre accept&eacute;e, la suite du processus &mdash; d&eacute;lais du pr&ecirc;teur, avocat ou notaire, cl&ocirc;ture &mdash; est d&eacute;taill&eacute;e dans notre article sur le <InternalLink slug="hypotheque-timeline-fermeture-immigrant">calendrier de fermeture d&rsquo;une hypoth&egrave;que</InternalLink>.
+      </p>
+
+      <h2>L&rsquo;inspection pr&eacute;achat : ne la sautez pas</h2>
+      <p>
+        Les crit&egrave;res de construction, de chauffage, de plomberie et d&rsquo;isolation diff&egrave;rent parfois beaucoup de ce que vous connaissez dans votre pays d&rsquo;origine. Une <strong>inspection pr&eacute;achat</strong> par un inspecteur ind&eacute;pendant co&ucirc;te g&eacute;n&eacute;ralement quelques centaines de dollars, soit une fraction infime du prix d&rsquo;une r&eacute;paration majeure d&eacute;couverte apr&egrave;s la vente. Elle fait partie des <InternalLink slug="frais-caches-achat-maison-immigrant-checklist">frais &agrave; pr&eacute;voir lors de l&rsquo;achat</InternalLink>.
+      </p>
+      <ul>
+        <li><strong>Choisissez votre propre inspecteur</strong>, membre d&rsquo;une association professionnelle reconnue dans votre province, jamais celui recommand&eacute; par le vendeur.</li>
+        <li><strong>Assistez &agrave; l&rsquo;inspection</strong> si possible : c&rsquo;est le meilleur moment pour poser des questions sur la toiture, la fondation, l&rsquo;&eacute;lectricit&eacute;, la plomberie et le chauffage.</li>
+        <li><strong>Points de vigilance courants :</strong> infiltrations d&rsquo;eau au sous-sol, &acirc;ge de la toiture et de la fournaise, filage d&rsquo;aluminium ou panneau &eacute;lectrique d&eacute;suet dans les maisons plus anciennes, isolation insuffisante.</li>
+        <li><strong>Pour un condo</strong>, l&rsquo;inspection de l&rsquo;unit&eacute; ne suffit pas : demandez et faites relire les documents de la copropri&eacute;t&eacute; (fonds de pr&eacute;voyance, proc&egrave;s-verbaux, hausses de charges pr&eacute;vues). Voyez aussi notre comparatif <InternalLink slug="hypotheque-maison-vs-condo-immigrant">maison ou condo pour un immigrant</InternalLink>.</li>
+      </ul>
+      <p>
+        Le rapport peut servir &agrave; renrenégociereacute;gocier le prix, &agrave; exiger des r&eacute;parations avant la cl&ocirc;ture ou, si les d&eacute;fauts sont graves, &agrave; vous retirer de la transaction sans p&eacute;nalit&eacute; &mdash; &agrave; condition que l&rsquo;offre comporte une condition d&rsquo;inspection avec une &eacute;ch&eacute;ance suffisante.
+      </p>
+
+      <WizardCta variant="dark" />
+
+      <h2>Erreurs fr&eacute;quentes des nouveaux arrivants</h2>
+      <ul>
+        <li><strong>Signer sans comprendre la langue du contrat.</strong> Demandez une explication d&eacute;taill&eacute;e ou une r&eacute;vision juridique avant d&rsquo;apposer votre signature.</li>
+        <li><strong>Offrir un d&eacute;p&ocirc;t trop &eacute;lev&eacute; ou verser des fonds hors fiducie</strong> : le d&eacute;p&ocirc;t doit &ecirc;tre d&eacute;tenu selon les r&egrave;gles de la province.</li>
+        <li><strong>Oublier les frais de cl&ocirc;ture</strong> (droits de mutation, notaire ou avocat, ajustements de taxes) &mdash; comparez-les selon votre province dans notre guide sur les <InternalLink slug="droits-mutation-immobiliere-province-rabais-premier-acheteur">droits de mutation immobili&egrave;re</InternalLink>.</li>
+        <li><strong>N&eacute;gliger votre statut de r&eacute;sidence.</strong> Selon votre statut, l&rsquo;<InternalLink slug="hypotheque-taxe-acheteur-etranger-exemption">interdiction d&rsquo;achat pour non-Canadiens</InternalLink> peut s&rsquo;appliquer : v&eacute;rifiez votre exemption avant de d&eacute;poser une offre, pas apr&egrave;s.</li>
+        <li><strong>Modifier votre situation financi&egrave;re</strong> (nouvelle carte de cr&eacute;dit, achat d&rsquo;un v&eacute;hicule, changement d&rsquo;emploi) entre l&rsquo;offre et la cl&ocirc;ture, ce qui peut faire &eacute;chouer l&rsquo;approbation finale.</li>
+      </ul>
+
+      <h2>&Agrave; retenir</h2>
+      <ul>
+        <li>Une offre accept&eacute;e est un contrat : chaque clause compte, surtout si le fran&ccedil;ais ou l&rsquo;anglais n&rsquo;est pas votre langue premi&egrave;re.</li>
+        <li>Gardez la condition de financement et la condition d&rsquo;inspection, avec des d&eacute;lais r&eacute;alistes.</li>
+        <li>Faites inspecter la propri&eacute;t&eacute; par un professionnel ind&eacute;pendant que vous choisissez vous-m&ecirc;me.</li>
+        <li>Coordonnez d&egrave;s le d&eacute;but votre courtier immobilier, votre <InternalLink slug="courtier-hypothecaire-vs-banque-immigrant">courtier hypoth&eacute;caire</InternalLink> et votre notaire ou avocat.</li>
+      </ul>
+      <p>
+        Sources officielles&nbsp;: <a href="https://www.oaciq.com" target="_blank" rel="noopener noreferrer">OACIQ</a> (Qu&eacute;bec), <a href="https://www.fcac-acfc.gc.ca/fr/consommateurs/hypotheques" target="_blank" rel="noopener noreferrer">Agence de la consommation en mati&egrave;re financi&egrave;re du Canada &mdash; Hypoth&egrave;ques</a> et <a href="https://www.cmhc-schl.gc.ca" target="_blank" rel="noopener noreferrer">SCHL</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };

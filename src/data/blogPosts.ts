@@ -1,5 +1,5 @@
 // ============================================
-// BLOG POSTS METADATA — 54 articles
+// BLOG POSTS METADATA — 55 articles
 // Data-driven: each post has metadata + markdown-like content sections
 // ============================================
 
@@ -602,6 +602,17 @@ export const blogPosts: BlogPost[] = [
     readTime: "9 min",
     wizardVariant: undefined,
     relatedSlugs: ["hypotheque-saskatchewan-immigrants-regina-saskatoon", "hypotheque-nouveau-resident-permanent-guide-complet", "hypotheque-taxe-acheteur-etranger-exemption"],
+  },
+  // ====== ARTICLE #55 — OFFRE D'ACHAT ET INSPECTION ======
+  {
+    slug: "offre-achat-conditions-inspection-preachat-immigrant",
+    title: "Offre d'Achat au Canada : Conditions, Inspection et Financement pour Immigrants",
+    subtitle: "Conditions de financement, inspection préachat, dépôt : comment rédiger une offre qui vous protège quand vous découvrez le marché.",
+    description: "Guide de l'offre d'achat immobilière au Canada pour immigrants : conditions de financement et d'inspection, dépôt, délais, promesse d'achat au Québec et erreurs à éviter avant la signature.",
+    category: "Processus",
+    readTime: "9 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["preapprobation-hypotheque-immigrant", "hypotheque-timeline-fermeture-immigrant", "frais-caches-achat-maison-immigrant-checklist"],
   },
 ];
 
