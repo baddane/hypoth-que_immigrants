@@ -1,5 +1,5 @@
 // ============================================
-// BLOG POSTS METADATA — 55 articles
+// BLOG POSTS METADATA — 56 articles
 // Data-driven: each post has metadata + markdown-like content sections
 // ============================================
 
@@ -613,6 +613,17 @@ export const blogPosts: BlogPost[] = [
     readTime: "9 min",
     wizardVariant: undefined,
     relatedSlugs: ["preapprobation-hypotheque-immigrant", "hypotheque-timeline-fermeture-immigrant", "frais-caches-achat-maison-immigrant-checklist"],
+  },
+  // ====== ARTICLE #56 — PRÊTEURS ALTERNATIFS ======
+  {
+    slug: "preteurs-alternatifs-b-lenders-prives-immigrant-guide",
+    title: "Prêteurs Alternatifs et Prêteurs Privés au Canada : Guide pour Immigrants",
+    subtitle: "Votre dossier est refusé par les banques ? Prêteurs B, prêteurs privés, coûts réels et stratégie de sortie : ce qu'il faut savoir avant de signer.",
+    description: "Guide des prêteurs alternatifs (B-lenders) et privés au Canada pour immigrants : quand y recourir, taux et frais typiques, mise de fonds exigée, risques et stratégie pour revenir vers une banque.",
+    category: "Financement",
+    readTime: "9 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-apres-faillite-mauvais-credit-immigrant", "courtier-hypothecaire-vs-banque-immigrant", "hypotheque-travailleur-autonome-freelance"],
   },
 ];
 

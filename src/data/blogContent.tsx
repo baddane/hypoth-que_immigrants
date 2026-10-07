@@ -3571,7 +3571,7 @@ export const blogContentMap: Record<string, React.ReactNode> = {
         <li><strong>Pour un condo</strong>, l&rsquo;inspection de l&rsquo;unit&eacute; ne suffit pas : demandez et faites relire les documents de la copropri&eacute;t&eacute; (fonds de pr&eacute;voyance, proc&egrave;s-verbaux, hausses de charges pr&eacute;vues). Voyez aussi notre comparatif <InternalLink slug="hypotheque-maison-vs-condo-immigrant">maison ou condo pour un immigrant</InternalLink>.</li>
       </ul>
       <p>
-        Le rapport peut servir &agrave; renrenégociereacute;gocier le prix, &agrave; exiger des r&eacute;parations avant la cl&ocirc;ture ou, si les d&eacute;fauts sont graves, &agrave; vous retirer de la transaction sans p&eacute;nalit&eacute; &mdash; &agrave; condition que l&rsquo;offre comporte une condition d&rsquo;inspection avec une &eacute;ch&eacute;ance suffisante.
+        Le rapport peut servir &agrave; ren&eacute;gocier le prix, &agrave; exiger des r&eacute;parations avant la cl&ocirc;ture ou, si les d&eacute;fauts sont graves, &agrave; vous retirer de la transaction sans p&eacute;nalit&eacute; &mdash; &agrave; condition que l&rsquo;offre comporte une condition d&rsquo;inspection avec une &eacute;ch&eacute;ance suffisante.
       </p>
 
       <WizardCta variant="dark" />
@@ -3594,6 +3594,107 @@ export const blogContentMap: Record<string, React.ReactNode> = {
       </ul>
       <p>
         Sources officielles&nbsp;: <a href="https://www.oaciq.com" target="_blank" rel="noopener noreferrer">OACIQ</a> (Qu&eacute;bec), <a href="https://www.fcac-acfc.gc.ca/fr/consommateurs/hypotheques" target="_blank" rel="noopener noreferrer">Agence de la consommation en mati&egrave;re financi&egrave;re du Canada &mdash; Hypoth&egrave;ques</a> et <a href="https://www.cmhc-schl.gc.ca" target="_blank" rel="noopener noreferrer">SCHL</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
+  "preteurs-alternatifs-b-lenders-prives-immigrant-guide": (
+    <>
+      <p>
+        Les grandes banques disent non, ou exigent des preuves que vous ne pouvez pas encore fournir : revenus de travail autonome difficiles &agrave; documenter, cr&eacute;dit canadien trop r&eacute;cent, statut temporaire, ant&eacute;c&eacute;dents de paiement en retard. Il existe alors une deuxi&egrave;me voie, celle des <strong>pr&ecirc;teurs alternatifs</strong> et des <strong>pr&ecirc;teurs priv&eacute;s</strong>. Elle peut d&eacute;bloquer un achat, mais elle co&ucirc;te plus cher et demande un plan de sortie. Voici comment la comparer honn&ecirc;tement.
+      </p>
+
+      <h2>Banque, pr&ecirc;teur B, pr&ecirc;teur priv&eacute; : trois niveaux distincts</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Type</th>
+            <th>Profil typique</th>
+            <th>Co&ucirc;t relatif</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Banque / pr&ecirc;teur A</strong></td>
+            <td>Revenus et cr&eacute;dit faciles &agrave; v&eacute;rifier, dossier standard.</td>
+            <td>Taux les plus bas du march&eacute;.</td>
+          </tr>
+          <tr>
+            <td><strong>Pr&ecirc;teur alternatif (B)</strong></td>
+            <td>Revenus atypiques, cr&eacute;dit imparfait ou r&eacute;cent, dossier hors normes bancaires mais solide dans l&rsquo;ensemble.</td>
+            <td>Taux g&eacute;n&eacute;ralement plus &eacute;lev&eacute;s d&rsquo;un ou deux points de pourcentage, plus des frais de pr&ecirc;teur.</td>
+          </tr>
+          <tr>
+            <td><strong>Pr&ecirc;teur priv&eacute;</strong></td>
+            <td>Cas urgent ou tr&egrave;s complexe, cr&eacute;dit s&eacute;v&egrave;rement atteint, financement de court terme.</td>
+            <td>Taux nettement plus &eacute;lev&eacute;s, frais d&rsquo;&eacute;tablissement, terme court.</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Les montants exacts changent selon le march&eacute; et le dossier : demandez toujours une soumission &eacute;crite, avec le taux, les frais et le co&ucirc;t total sur la dur&eacute;e du terme. Pour comparer les circuits d&rsquo;acc&egrave;s, voyez notre article <InternalLink slug="courtier-hypothecaire-vs-banque-immigrant">courtier hypoth&eacute;caire ou banque</InternalLink> : les pr&ecirc;teurs alternatifs passent presque toujours par un courtier.
+      </p>
+
+      <h2>Quand un pr&ecirc;teur alternatif a du sens pour un immigrant</h2>
+      <ul>
+        <li><strong>Revenus de travail autonome ou de multiples sources</strong> que la banque ne reconnait pas pleinement &mdash; voyez notre guide pour le <InternalLink slug="hypotheque-travailleur-autonome-freelance">travailleur autonome et freelance</InternalLink>.</li>
+        <li><strong>Cr&eacute;dit canadien tr&egrave;s r&eacute;cent ou endommag&eacute;</strong> par des retards de paiement ou une proc&eacute;dure d&rsquo;insolvabilit&eacute; : le pr&ecirc;teur B regarde l&rsquo;ensemble du dossier plut&ocirc;t qu&rsquo;un pointage seul. Consultez notre guide sur l&rsquo;<InternalLink slug="hypotheque-apres-faillite-mauvais-credit-immigrant">hypoth&egrave;que apr&egrave;s faillite ou avec mauvais cr&eacute;dit</InternalLink>.</li>
+        <li><strong>Mise de fonds importante mais d&eacute;lais serr&eacute;s</strong> : un pr&ecirc;teur priv&eacute; peut parfois conclure plus vite qu&rsquo;une banque, par exemple pour un d&eacute;lai de cl&ocirc;ture d&eacute;j&agrave; fix&eacute;.</li>
+        <li><strong>Refus bancaire sur un seul crit&egrave;re</strong> (ratio d&rsquo;endettement l&eacute;g&egrave;rement trop &eacute;lev&eacute;, anciennet&eacute; d&rsquo;emploi) alors que le reste du dossier est solide.</li>
+      </ul>
+      <p>
+        &Agrave; l&rsquo;inverse, si votre refus vient simplement d&rsquo;un dossier incomplet ou d&rsquo;un manque de pr&eacute;paration, corrigez d&rsquo;abord le dossier : c&rsquo;est presque toujours moins cher que de payer une prime de risque.
+      </p>
+
+      <WizardCta />
+
+      <h2>Ce que &ccedil;a co&ucirc;te vraiment</h2>
+      <p>
+        Le taux n&rsquo;est qu&rsquo;une partie de la facture. Avant de comparer, additionnez tous les postes :
+      </p>
+      <ul>
+        <li><strong>Frais de pr&ecirc;teur ou d&rsquo;&eacute;tablissement</strong>, souvent calcul&eacute;s en pourcentage du pr&ecirc;t et d&eacute;duits des fonds d&eacute;caiss&eacute;s.</li>
+        <li><strong>Frais de courtage</strong>, parfois pay&eacute;s par le pr&ecirc;teur, parfois par vous : exigez qu&rsquo;ils soient divulgu&eacute;s par &eacute;crit.</li>
+        <li><strong>Frais juridiques et d&rsquo;&eacute;valuation</strong>, g&eacute;n&eacute;ralement plus &eacute;lev&eacute;s qu&rsquo;avec une banque. Comparez avec les autres <InternalLink slug="frais-caches-achat-maison-immigrant-checklist">frais &agrave; pr&eacute;voir &agrave; l&rsquo;achat</InternalLink>.</li>
+        <li><strong>P&eacute;nalit&eacute;s de remboursement anticip&eacute;</strong> et frais de renouvellement ou de prolongation si votre sortie prend plus de temps que pr&eacute;vu.</li>
+      </ul>
+      <p>
+        Un pr&ecirc;t priv&eacute; n&rsquo;est en g&eacute;n&eacute;ral pas assur&eacute; par la SCHL : attendez-vous &agrave; une mise de fonds plus &eacute;lev&eacute;e que le minimum de 5&nbsp;% d&rsquo;un pr&ecirc;t assur&eacute;. Pour comprendre cette diff&eacute;rence, lisez notre guide sur l&rsquo;<InternalLink slug="assurance-hypothecaire-schl-primes-guide-2026">assurance hypoth&eacute;caire et ses primes</InternalLink>. Les pr&ecirc;teurs B et priv&eacute;s sont aussi moins souples sur le <InternalLink slug="stress-test-hypothecaire-canada-immigrant-guide">test de r&eacute;sistance</InternalLink> dans certains cas, mais cela ne remplace pas votre propre calcul de capacit&eacute; de paiement.
+      </p>
+
+      <h2>Le plan de sortie : la vraie condition de r&eacute;ussite</h2>
+      <p>
+        Un pr&ecirc;t alternatif est con&ccedil;u comme un <strong>pont</strong>, pas comme une solution permanente. Les termes sont souvent courts, de six mois &agrave; quelques ann&eacute;es. Sans plan de sortie, le renouvellement se fait &agrave; des conditions que le pr&ecirc;teur choisit.
+      </p>
+      <ol>
+        <li><strong>Fixez l&rsquo;objectif de retour vers une banque</strong> d&egrave;s le premier jour : date vis&eacute;e, crit&egrave;res &agrave; remplir (anciennet&eacute; d&rsquo;emploi, deux ans de d&eacute;clarations de revenus, cr&eacute;dit r&eacute;tabli).</li>
+        <li><strong>Reconstruisez votre dossier de cr&eacute;dit</strong> pendant le terme, en suivant notre guide pour <InternalLink slug="construire-credit-canadien-6-mois-immigrant">construire votre cr&eacute;dit canadien</InternalLink> et en surveillant vos <InternalLink slug="rapport-credit-equifax-transunion-immigrant-canada">rapports Equifax et TransUnion</InternalLink>.</li>
+        <li><strong>Pr&eacute;voyez le renouvellement</strong> : v&eacute;rifiez la p&eacute;nalit&eacute; de sortie et la possibilit&eacute; de refinancer. Notre article sur le <InternalLink slug="hypotheque-refinancement-renouvellement-immigrant">refinancement et le renouvellement</InternalLink> d&eacute;taille la d&eacute;marche.</li>
+        <li><strong>Gardez une r&eacute;serve</strong> pour couvrir quelques mois de paiements plus &eacute;lev&eacute;s si le refinancement tarde.</li>
+      </ol>
+
+      <WizardCta variant="dark" />
+
+      <h2>Pr&eacute;cautions avant de signer</h2>
+      <ul>
+        <li><strong>Passez par un courtier hypoth&eacute;caire</strong> titulaire d&rsquo;un permis dans votre province, et v&eacute;rifiez-le aupr&egrave;s de l&rsquo;organisme de r&eacute;glementation provincial.</li>
+        <li><strong>Ne versez jamais de frais &agrave; l&rsquo;avance</strong> &agrave; un intervenant qui garantit une approbation sans examiner votre dossier : c&rsquo;est un signal d&rsquo;alerte courant de fraude.</li>
+        <li><strong>Faites relire le contrat par un avocat ou un notaire</strong> ind&eacute;pendant, dans la langue que vous ma&icirc;trisez le mieux, surtout les clauses de d&eacute;faut, de p&eacute;nalit&eacute; et de renouvellement.</li>
+        <li><strong>Calculez le co&ucirc;t total</strong> (int&eacute;r&ecirc;ts + frais) sur la dur&eacute;e r&eacute;elle pr&eacute;vue, pas seulement le paiement mensuel.</li>
+        <li><strong>Comparez au moins deux soumissions</strong>, y compris une option bancaire si votre dossier peut devenir admissible dans quelques mois.</li>
+      </ul>
+
+      <h2>&Agrave; retenir</h2>
+      <ul>
+        <li>Les pr&ecirc;teurs B et priv&eacute;s servent les dossiers que les banques ne peuvent pas traiter, au prix d&rsquo;un co&ucirc;t plus &eacute;lev&eacute;.</li>
+        <li>Additionnez taux, frais, p&eacute;nalit&eacute;s et frais juridiques avant de comparer.</li>
+        <li>Pensez le pr&ecirc;t comme une &eacute;tape : sans plan de sortie, le co&ucirc;t s&rsquo;accumule.</li>
+        <li>Un courtier agr&eacute;&eacute; et une relecture juridique ind&eacute;pendante sont vos meilleures protections.</li>
+      </ul>
+      <p>
+        Sources officielles&nbsp;: <a href="https://www.fcac-acfc.gc.ca/fr/consommateurs/hypotheques" target="_blank" rel="noopener noreferrer">Agence de la consommation en mati&egrave;re financi&egrave;re du Canada &mdash; Hypoth&egrave;ques</a>, <a href="https://www.cmhc-schl.gc.ca" target="_blank" rel="noopener noreferrer">SCHL</a> et <a href="https://www.bankofcanada.ca/rates/" target="_blank" rel="noopener noreferrer">Banque du Canada &mdash; Taux</a>.
       </p>
 
       <WizardCta variant="dark" />
