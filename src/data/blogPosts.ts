@@ -625,6 +625,17 @@ export const blogPosts: BlogPost[] = [
     wizardVariant: undefined,
     relatedSlugs: ["hypotheque-apres-faillite-mauvais-credit-immigrant", "courtier-hypothecaire-vs-banque-immigrant", "hypotheque-travailleur-autonome-freelance"],
   },
+  // ====== ARTICLE #57 — NOTAIRE VS AVOCAT ======
+  {
+    slug: "notaire-vs-avocat-cloture-immobiliere-immigrant-guide",
+    title: "Notaire ou Avocat pour Votre Achat Immobilier au Canada : Guide pour Immigrants",
+    subtitle: "Rôle, coût, preuve d'origine des fonds et pièges de fraude : tout ce qu'il faut savoir sur le professionnel qui conclut votre achat.",
+    description: "Notaire ou avocat pour conclure votre achat immobilier au Canada ? Rôles selon la province, honoraires, preuve d'origine des fonds, assurance titres et pièges à éviter pour les immigrants.",
+    category: "Processus",
+    readTime: "8 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-timeline-fermeture-immigrant", "offre-achat-conditions-inspection-preachat-immigrant", "transferer-mise-de-fonds-etranger-canada"],
+  },
 ];
 
 // Helper: get post by slug

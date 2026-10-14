@@ -3701,4 +3701,101 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  "notaire-vs-avocat-cloture-immobiliere-immigrant-guide": (
+    <>
+      <p>
+        &Agrave; la fin de votre processus d&rsquo;achat, un professionnel du droit prend en charge le transfert de propri&eacute;t&eacute; et l&rsquo;inscription de votre hypoth&egrave;que. Selon la province, ce sera un <strong>notaire</strong> ou un <strong>avocat</strong> &mdash; et pour un nouvel arrivant, la diff&eacute;rence de r&ocirc;le prend plusieurs formes inattendues. Voici comment s&rsquo;y retrouver, quoi demander et quels pi&egrave;ges &eacute;viter.
+      </p>
+
+      <h2>Notaire ou avocat : qui fait quoi selon la province</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Province</th>
+            <th>Qui conclut la transaction</th>
+            <th>Particularit&eacute;</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Qu&eacute;bec</strong></td>
+            <td>Notaire</td>
+            <td>L&rsquo;acte de vente et l&rsquo;acte d&rsquo;hypoth&egrave;que sont sign&eacute;s devant notaire. Le notaire est un juriste impartial qui conseille les deux parties.</td>
+          </tr>
+          <tr>
+            <td><strong>Ontario et la plupart des autres provinces</strong></td>
+            <td>Avocat</td>
+            <td>L&rsquo;avocat repr&eacute;sente vos int&eacute;r&ecirc;ts et, tr&egrave;s souvent, ceux du pr&ecirc;teur aussi.</td>
+          </tr>
+          <tr>
+            <td><strong>Colombie-Britannique</strong></td>
+            <td>Notaire public ou avocat</td>
+            <td>Les deux professions peuvent conclure un transfert r&eacute;sidentiel ; v&eacute;rifiez les services inclus.</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Les pratiques exactes varient selon le pr&ecirc;teur et le type de transaction : demandez toujours &agrave; votre courtier ou &agrave; votre pr&ecirc;teur qui est accept&eacute; pour votre dossier. Pour situer cette &eacute;tape dans le calendrier global, consultez notre <InternalLink slug="hypotheque-timeline-fermeture-immigrant">chronologie jusqu&rsquo;&agrave; la cl&ocirc;ture</InternalLink>.
+      </p>
+
+      <h2>Ce que fait concr&egrave;tement le professionnel du droit</h2>
+      <ul>
+        <li><strong>Recherche de titre</strong> : il v&eacute;rifie que le vendeur est bien propri&eacute;taire et que la maison n&rsquo;est pas grev&eacute;e d&rsquo;hypoth&egrave;ques, de servitudes ou de dettes impay&eacute;es.</li>
+        <li><strong>Revue du contrat</strong> : promesse d&rsquo;achat, conditions et ajustements. Voyez aussi notre guide sur l&rsquo;<InternalLink slug="offre-achat-conditions-inspection-preachat-immigrant">offre d&rsquo;achat et ses conditions</InternalLink>.</li>
+        <li><strong>Pr&eacute;paration et signature</strong> des actes, inscription de la vente et de l&rsquo;hypoth&egrave;que aux registres publics.</li>
+        <li><strong>Gestion des fonds</strong> : il re&ccedil;oit votre mise de fonds et les fonds du pr&ecirc;teur, paie le vendeur, puis les taxes et ajustements.</li>
+        <li><strong>Calcul des ajustements</strong> (taxes municipales, frais de copropri&eacute;t&eacute;) et, selon la province, des taxes de transfert &mdash; voyez notre article sur les <InternalLink slug="droits-mutation-immobiliere-province-rabais-premier-acheteur">droits de mutation et rabais premier acheteur</InternalLink>.</li>
+      </ul>
+
+      <WizardCta />
+
+      <h2>Les points d&rsquo;attention propres aux immigrants</h2>
+      <ul>
+        <li><strong>Preuve de l&rsquo;origine des fonds</strong> : la loi oblige les professionnels du droit &agrave; v&eacute;rifier l&rsquo;identit&eacute; de leurs clients et &agrave; documenter la provenance de la mise de fonds. Gardez les relev&eacute;s bancaires, les preuves de vente d&rsquo;un bien &agrave; l&rsquo;&eacute;tranger et les confirmations de virement. Notre guide sur le <InternalLink slug="transferer-mise-de-fonds-etranger-canada">transfert de la mise de fonds depuis l&rsquo;&eacute;tranger</InternalLink> d&eacute;taille cette pr&eacute;paration.</li>
+        <li><strong>Statut et restrictions d&rsquo;achat</strong> : le professionnel peut vous demander une preuve de statut. Si vous n&rsquo;&ecirc;tes ni citoyen ni r&eacute;sident permanent, lisez d&rsquo;abord l&rsquo;article sur l&rsquo;<InternalLink slug="interdiction-achat-non-canadien-exemptions-2027">interdiction d&rsquo;achat pour non-Canadiens et ses exemptions</InternalLink>.</li>
+        <li><strong>Langue</strong> : vous pouvez demander un professionnel qui travaille dans la langue que vous ma&icirc;trisez le mieux, ou &ecirc;tre accompagn&eacute; d&rsquo;un interpr&egrave;te de confiance lors de la signature. Ne signez jamais un acte que vous ne comprenez pas.</li>
+        <li><strong>NAS et identit&eacute;</strong> : pr&eacute;parez deux pi&egrave;ces d&rsquo;identit&eacute; valides et votre <InternalLink slug="numero-assurance-sociale-nas-hypotheque-immigrant">num&eacute;ro d&rsquo;assurance sociale</InternalLink> si on vous le demande.</li>
+      </ul>
+
+      <h2>Combien &ccedil;a co&ucirc;te</h2>
+      <p>
+        Les honoraires d&rsquo;un notaire ou d&rsquo;un avocat pour un achat r&eacute;sidentiel se chiffrent habituellement en centaines, voire en un peu plus d&rsquo;un millier de dollars, auxquels s&rsquo;ajoutent les d&eacute;bours&eacute;s (registres, recherches, certificats). Le co&ucirc;t d&eacute;pend de la province, de la complexit&eacute; du dossier et de la pr&eacute;sence d&rsquo;un pr&ecirc;t. Demandez une <strong>estimation &eacute;crite et d&eacute;taill&eacute;e</strong> avant de vous engager et ajoutez-la &agrave; votre budget de cl&ocirc;ture, avec les autres <InternalLink slug="frais-caches-achat-maison-immigrant-checklist">frais cach&eacute;s de l&rsquo;achat</InternalLink>.
+      </p>
+      <p>
+        Dans certaines provinces, l&rsquo;<strong>assurance titres</strong> peut compl&eacute;ter ou remplacer certaines v&eacute;rifications. Demandez &agrave; votre professionnel ce qu&rsquo;elle couvre, ce qu&rsquo;elle exclut et si elle est exig&eacute;e par votre pr&ecirc;teur.
+      </p>
+
+      <h2>Comment choisir le bon professionnel</h2>
+      <ol>
+        <li><strong>Demandez d&rsquo;abord &agrave; votre courtier ou pr&ecirc;teur</strong> : certains imposent une liste de professionnels approuv&eacute;s. Si vous passez par un courtier, voyez notre comparatif <InternalLink slug="courtier-hypothecaire-vs-banque-immigrant">courtier ou banque</InternalLink>.</li>
+        <li><strong>V&eacute;rifiez le droit de pratique</strong> aupr&egrave;s de l&rsquo;ordre professionnel de la province (Chambre des notaires, barreau ou &eacute;quivalent).</li>
+        <li><strong>Contactez-le t&ocirc;t</strong>, id&eacute;alement d&egrave;s l&rsquo;acceptation de l&rsquo;offre, pour ne pas manquer le d&eacute;lai de cl&ocirc;ture.</li>
+        <li><strong>Posez vos questions sur les d&eacute;lais, les honoraires et la gestion de vos fonds</strong> avant de signer le mandat.</li>
+      </ol>
+
+      <WizardCta variant="dark" />
+
+      <h2>Pi&egrave;ges &agrave; &eacute;viter</h2>
+      <ul>
+        <li>Verser des fonds &agrave; une personne qui n&rsquo;est pas v&eacute;rifiable : la fraude par courriel qui imite un professionnel est r&eacute;pandue. Confirmez toujours les coordonn&eacute;es de virement par t&eacute;l&eacute;phone aupr&egrave;s de l&rsquo;&eacute;tude.</li>
+        <li>Attendre la derni&egrave;re semaine pour fournir les documents : l&rsquo;origine des fonds est souvent ce qui retarde les cl&ocirc;tures.</li>
+        <li>Ne pas relire les montants finaux (ajustements, frais) avant la signature : exigez un d&eacute;compte quelques jours &agrave; l&rsquo;avance.</li>
+        <li>Choisir uniquement selon le prix le plus bas sans v&eacute;rifier ce qui est inclus.</li>
+      </ul>
+
+      <h2>&Agrave; retenir</h2>
+      <ul>
+        <li>Au Qu&eacute;bec, c&rsquo;est un notaire ; ailleurs, le plus souvent un avocat, avec des exceptions comme la Colombie-Britannique.</li>
+        <li>Pr&eacute;parez t&ocirc;t les preuves d&rsquo;identit&eacute;, de statut et d&rsquo;origine des fonds.</li>
+        <li>Obtenez une estimation &eacute;crite des honoraires et des d&eacute;bours&eacute;s.</li>
+        <li>Confirmez les coordonn&eacute;es de virement par t&eacute;l&eacute;phone avant d&rsquo;envoyer des fonds.</li>
+      </ul>
+      <p>
+        Sources officielles&nbsp;: <a href="https://www.cnq.org" target="_blank" rel="noopener noreferrer">Chambre des notaires du Qu&eacute;bec</a>, <a href="https://www.fcac-acfc.gc.ca/fr/consommateurs/hypotheques" target="_blank" rel="noopener noreferrer">Agence de la consommation en mati&egrave;re financi&egrave;re du Canada</a> et <a href="https://www.cmhc-schl.gc.ca" target="_blank" rel="noopener noreferrer">SCHL</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };
