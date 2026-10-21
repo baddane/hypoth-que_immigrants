@@ -636,6 +636,17 @@ export const blogPosts: BlogPost[] = [
     wizardVariant: undefined,
     relatedSlugs: ["hypotheque-timeline-fermeture-immigrant", "offre-achat-conditions-inspection-preachat-immigrant", "transferer-mise-de-fonds-etranger-canada"],
   },
+  // ====== ARTICLE #58 — ASSURANCE VIE HYPOTHÉCAIRE ======
+  {
+    slug: "assurance-vie-hypothecaire-vs-individuelle-immigrant-guide",
+    title: "Assurance Vie Hypothécaire ou Assurance Vie Individuelle : Que Choisir en Tant qu'Immigrant ?",
+    subtitle: "Offerte au moment de signer votre prêt, l'assurance de la banque est-elle la meilleure option ? Comparatif, coûts et questions à poser.",
+    description: "Assurance vie hypothécaire de la banque ou assurance vie individuelle ? Comparatif pour immigrants au Canada : bénéficiaire, prime, souscription, portabilité et erreurs à éviter à la signature.",
+    category: "Financement",
+    readTime: "8 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["courtier-hypothecaire-vs-banque-immigrant", "notaire-vs-avocat-cloture-immobiliere-immigrant-guide", "assurance-habitation-immigrant-guide", "assurance-hypothecaire-schl-primes-guide-2026"],
+  },
 ];
 
 // Helper: get post by slug

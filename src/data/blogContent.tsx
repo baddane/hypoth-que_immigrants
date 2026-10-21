@@ -3798,4 +3798,91 @@ export const blogContentMap: Record<string, React.ReactNode> = {
     </>
   ),
 
+  "assurance-vie-hypothecaire-vs-individuelle-immigrant-guide": (
+    <>
+      <p>
+        Au moment de signer votre hypoth&egrave;que, votre pr&ecirc;teur vous proposera presque toujours une <strong>assurance vie hypoth&eacute;caire</strong>. Pratique et rapide, elle n&rsquo;est pourtant pas la seule fa&ccedil;on de prot&eacute;ger votre famille si un d&eacute;c&egrave;s ou une maladie grave survenait. Voici comment comparer cette offre avec une <strong>assurance vie individuelle</strong>, et ce qu&rsquo;il faut v&eacute;rifier quand on est nouvel arrivant.
+      </p>
+
+      <h2>Ne confondez pas : assurance hypoth&eacute;caire SCHL et assurance vie</h2>
+      <p>
+        L&rsquo;<strong>assurance prêt hypoth&eacute;caire</strong> (SCHL, Sagen, Canada Guaranty) prot&egrave;ge le <em>pr&ecirc;teur</em> en cas de d&eacute;faut et est obligatoire quand la mise de fonds est inf&eacute;rieure &agrave; 20&nbsp;%. L&rsquo;<strong>assurance vie hypoth&eacute;caire</strong>, elle, prot&egrave;ge <em>votre famille</em> et est g&eacute;n&eacute;ralement facultative. Pour la premi&egrave;re, voyez notre guide sur les <InternalLink slug="assurance-hypothecaire-schl-primes-guide-2026">primes d&rsquo;assurance hypoth&eacute;caire</InternalLink>.
+      </p>
+
+      <h2>Comment fonctionne l&rsquo;assurance vie hypoth&eacute;caire du pr&ecirc;teur</h2>
+      <ul>
+        <li><strong>Le pr&ecirc;teur est le b&eacute;n&eacute;ficiaire</strong> : en cas de d&eacute;c&egrave;s, l&rsquo;indemnit&eacute; sert &agrave; rembourser le solde de l&rsquo;hypoth&egrave;que, pas &agrave; aider votre famille.</li>
+        <li><strong>Le capital assur&eacute; diminue</strong> avec le solde du pr&ecirc;t, alors que la prime reste souvent la m&ecirc;me.</li>
+        <li><strong>La souscription peut se faire apr&egrave;s la r&eacute;clamation</strong> : certains produits ne v&eacute;rifient votre dossier m&eacute;dical qu&rsquo;au moment d&rsquo;un sinistre, ce qui peut mener &agrave; un refus. Posez la question pr&eacute;cis&eacute;ment.</li>
+        <li><strong>Elle est li&eacute;e au pr&ecirc;t</strong> : si vous changez de pr&ecirc;teur &agrave; l&rsquo;&eacute;ch&eacute;ance, la protection peut prendre fin ou devoir &ecirc;tre refaite, parfois avec un &acirc;ge et un &eacute;tat de sant&eacute; diff&eacute;rents.</li>
+      </ul>
+
+      <WizardCta />
+
+      <h2>Comment fonctionne l&rsquo;assurance vie individuelle</h2>
+      <ul>
+        <li><strong>Vous choisissez le b&eacute;n&eacute;ficiaire</strong> (conjoint, enfants) qui re&ccedil;oit un capital libre d&rsquo;utilisation : rembourser l&rsquo;hypoth&egrave;que, mais aussi couvrir les &eacute;tudes ou le co&ucirc;t de la vie.</li>
+        <li><strong>Le capital reste g&eacute;n&eacute;ralement fixe</strong> pour la dur&eacute;e du terme choisi (10, 20, 30 ans).</li>
+        <li><strong>La souscription se fait au d&eacute;part</strong> : une fois la police &eacute;mise, elle ne d&eacute;pend plus de votre pr&ecirc;teur.</li>
+        <li><strong>Elle suit votre vie</strong> : changement de banque, renouvellement ou refinancement n&rsquo;affectent pas la protection.</li>
+      </ul>
+
+      <h2>Tableau comparatif</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Crit&egrave;re</th>
+            <th>Assurance du pr&ecirc;teur</th>
+            <th>Assurance individuelle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>B&eacute;n&eacute;ficiaire</strong></td><td>Le pr&ecirc;teur</td><td>La personne de votre choix</td></tr>
+          <tr><td><strong>Capital</strong></td><td>Diminue avec le solde</td><td>Fixe (selon le contrat)</td></tr>
+          <tr><td><strong>Portabilit&eacute;</strong></td><td>Li&eacute;e au pr&ecirc;t</td><td>Ind&eacute;pendante du pr&ecirc;teur</td></tr>
+          <tr><td><strong>Souscription</strong></td><td>Parfois apr&egrave;s r&eacute;clamation</td><td>Au d&eacute;part</td></tr>
+          <tr><td><strong>Simplicit&eacute;</strong></td><td>Tr&egrave;s rapide &agrave; la signature</td><td>Demande m&eacute;dicale possible</td></tr>
+        </tbody>
+      </table>
+      <p>
+        Les produits varient d&rsquo;un assureur &agrave; l&rsquo;autre : comparez toujours les conditions &eacute;crites plut&ocirc;t que les moyennes g&eacute;n&eacute;rales.
+      </p>
+
+      <h2>Points d&rsquo;attention pour les nouveaux arrivants</h2>
+      <ul>
+        <li><strong>Couverture existante</strong> : v&eacute;rifiez si votre employeur offre d&eacute;j&agrave; une assurance vie collective. Elle prend toutefois fin si vous perdez cet emploi &mdash; un risque r&eacute;el avec un <InternalLink slug="hypotheque-travailleur-temporaire-5pourcent">permis de travail temporaire</InternalLink>.</li>
+        <li><strong>Assurance &eacute;trang&egrave;re</strong> : une police souscrite dans votre pays d&rsquo;origine ne couvre pas toujours un d&eacute;c&egrave;s survenu au Canada ni ne se verse facilement &agrave; un b&eacute;n&eacute;ficiaire ici. Faites-la valider.</li>
+        <li><strong>Dossier m&eacute;dical</strong> : les ant&eacute;c&eacute;dents d&eacute;clar&eacute;s doivent l&rsquo;&ecirc;tre fid&egrave;lement ; une d&eacute;claration inexacte peut annuler la protection.</li>
+        <li><strong>Famille dans un autre pays</strong> : pr&eacute;cisez qui sera b&eacute;n&eacute;ficiaire et comment il sera trouv&eacute; et pay&eacute;.</li>
+      </ul>
+
+      <h2>Questions &agrave; poser avant de signer</h2>
+      <ol>
+        <li>Qui est le b&eacute;n&eacute;ficiaire et le capital diminue-t-il ?</li>
+        <li>La souscription est-elle faite maintenant ou seulement au moment d&rsquo;une r&eacute;clamation ?</li>
+        <li>La protection survit-elle si je change de pr&ecirc;teur &agrave; l&rsquo;<InternalLink slug="renouvellement-hypothecaire-guide-eviter-choc-paiement">&eacute;ch&eacute;ance de mon terme</InternalLink> ?</li>
+        <li>Quel est le co&ucirc;t total sur la dur&eacute;e, compar&eacute; &agrave; une police individuelle ?</li>
+        <li>Puis-je refuser sans que cela affecte mon taux ou mon approbation ? (En g&eacute;n&eacute;ral, oui : l&rsquo;assurance du pr&ecirc;teur est facultative.)</li>
+      </ol>
+      <p>
+        Un <InternalLink slug="courtier-hypothecaire-vs-banque-immigrant">courtier hypoth&eacute;caire</InternalLink> peut vous orienter, mais pour une analyse compl&egrave;te de votre protection, consultez un conseiller en assurance de personnes titulaire d&rsquo;un permis. Pensez aussi &agrave; votre <InternalLink slug="assurance-habitation-immigrant-guide">assurance habitation</InternalLink>, obligatoire pour la plupart des pr&ecirc;teurs, et &agrave; vos <InternalLink slug="notaire-vs-avocat-cloture-immobiliere-immigrant-guide">rendez-vous de cl&ocirc;ture</InternalLink> : mieux vaut d&eacute;cider avant, pas sous pression le jour de la signature.
+      </p>
+
+      <WizardCta variant="dark" />
+
+      <h2>&Agrave; retenir</h2>
+      <ul>
+        <li>L&rsquo;assurance vie hypoth&eacute;caire est facultative et prot&egrave;ge d&rsquo;abord le pr&ecirc;teur.</li>
+        <li>Une assurance individuelle offre un b&eacute;n&eacute;ficiaire libre, un capital stable et une portabilit&eacute; accrue.</li>
+        <li>V&eacute;rifiez toujours le moment de la souscription et les exclusions.</li>
+        <li>Ne signez pas sous pression : vous pouvez comparer apr&egrave;s l&rsquo;approbation du pr&ecirc;t.</li>
+      </ul>
+      <p>
+        Sources officielles&nbsp;: <a href="https://www.canada.ca/fr/agence-consommation-matiere-financiere/services/hypotheques.html" target="_blank" rel="noopener noreferrer">Agence de la consommation en mati&egrave;re financi&egrave;re du Canada</a>, <a href="https://www.cmhc-schl.gc.ca" target="_blank" rel="noopener noreferrer">SCHL</a> et <a href="https://www.clhia.ca/web/clhia_lp/web/clhia_fr" target="_blank" rel="noopener noreferrer">Association canadienne des compagnies d&rsquo;assurances de personnes</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
 };
