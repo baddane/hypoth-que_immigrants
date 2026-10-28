@@ -19,6 +19,69 @@ const WizardCta = ({ variant = "light" }: { variant?: "light" | "dark" }) => (
 );
 
 export const blogContentMap: Record<string, React.ReactNode> = {
+  "hypotheque-nouveau-brunswick-immigrants-moncton-fredericton": (
+    <>
+      <p>
+        Seule province officiellement bilingue du Canada, le <strong>Nouveau-Brunswick</strong> attire de plus en plus de nouveaux arrivants francophones et anglophones gr&acirc;ce &agrave; des prix g&eacute;n&eacute;ralement plus bas qu&rsquo;en Ontario ou en Colombie-Britannique. Moncton, Fredericton, Saint-Jean et Dieppe offrent des march&eacute;s accessibles, mais l&rsquo;achat y a ses particularit&eacute;s. Voici ce qu&rsquo;un immigrant doit savoir avant de faire une offre.
+      </p>
+
+      <h2>Un march&eacute; plus abordable, mais pas uniforme</h2>
+      <p>
+        Les prix varient beaucoup selon la r&eacute;gion : le Grand Moncton et Fredericton sont plus actifs et plus chers que le nord ou l&rsquo;est de la province. Un prix d&rsquo;achat plus bas signifie une mise de fonds de 5&nbsp;% plus modeste en dollars, mais aussi un march&eacute; plus petit, avec moins de choix et parfois des d&eacute;lais de revente plus longs. Consultez les statistiques locales de l&rsquo;<a href="https://www.cmhc-schl.gc.ca" target="_blank" rel="noopener noreferrer">SCHL</a> avant de d&eacute;cider.
+      </p>
+      <p>
+        Les r&egrave;gles de base sont celles du reste du pays : 5&nbsp;% de mise de fonds sur la premi&egrave;re tranche de 500&nbsp;000&nbsp;$ et 10&nbsp;% sur la portion suivante jusqu&rsquo;&agrave; 1,5&nbsp;M$, et 20&nbsp;% au-del&agrave;. Sous 20&nbsp;%, l&rsquo;<InternalLink slug="assurance-hypothecaire-schl-primes-guide-2026">assurance hypoth&eacute;caire</InternalLink> est obligatoire, et vous devez r&eacute;ussir le <InternalLink slug="stress-test-hypothecaire-canada-immigrant-guide">test de r&eacute;sistance</InternalLink>.
+      </p>
+
+      <WizardCta />
+
+      <h2>Le Programme d&rsquo;immigration au Canada atlantique</h2>
+      <p>
+        Le <strong>Programme d&rsquo;immigration au Canada atlantique (PICA)</strong>, qui inclut le Nouveau-Brunswick, permet &agrave; des employeurs d&eacute;sign&eacute;s de recruter des travailleurs qualifi&eacute;s et des dipl&ocirc;m&eacute;s internationaux. Il m&egrave;ne &agrave; la r&eacute;sidence permanente, ce qui change votre dossier hypoth&eacute;caire : un r&eacute;sident permanent est trait&eacute; comme un citoyen par la plupart des pr&ecirc;teurs. Voyez notre guide sur l&rsquo;<InternalLink slug="hypotheque-nouveau-resident-permanent-guide-complet">hypoth&egrave;que pour nouveau r&eacute;sident permanent</InternalLink> et, pour la voisine, la <InternalLink slug="hypotheque-nouvelle-ecosse-immigrants-halifax-atlantique">Nouvelle-&Eacute;cosse</InternalLink>.
+      </p>
+
+      <h2>Travailleur temporaire ou &eacute;tudiant</h2>
+      <p>
+        Avec un permis de travail, plusieurs pr&ecirc;teurs exigent une dur&eacute;e de permis restante suffisante et un historique d&rsquo;emploi stable. Les dipl&ocirc;m&eacute;s qui ont un permis postdipl&ocirc;me peuvent aussi &ecirc;tre admissibles, comme l&rsquo;explique notre article sur l&rsquo;<InternalLink slug="hypotheque-etudiant-permis-postdiplome">hypoth&egrave;que avec permis postdipl&ocirc;me</InternalLink>. Le <InternalLink slug="hypotheque-travailleur-temporaire-5pourcent">guide pour travailleurs temporaires</InternalLink> d&eacute;taille les documents attendus.
+      </p>
+
+      <h2>Frais propres au Nouveau-Brunswick</h2>
+      <ul>
+        <li><strong>Taxe de transfert immobilier</strong> : la province pr&eacute;l&egrave;ve une taxe d&rsquo;environ 1&nbsp;% sur la valeur du bien. Confirmez le calcul exact aupr&egrave;s de votre avocat.</li>
+        <li><strong>Taxe fonci&egrave;re</strong> : un taux plus bas s&rsquo;applique en g&eacute;n&eacute;ral aux propri&eacute;taires occup&eacute;s ; les propri&eacute;t&eacute;s non occup&eacute;es par leur propri&eacute;taire sont tax&eacute;es plus lourdement. Faites v&eacute;rifier votre cas.</li>
+        <li><strong>Avocat</strong> : au Nouveau-Brunswick, la cl&ocirc;ture est g&eacute;n&eacute;ralement confi&eacute;e &agrave; un avocat. Voyez notre comparatif <InternalLink slug="notaire-vs-avocat-cloture-immobiliere-immigrant-guide">notaire ou avocat</InternalLink>.</li>
+        <li><strong>Inspection, &eacute;valuation, assurance habitation</strong> : pr&eacute;voyez-les d&egrave;s l&rsquo;offre d&rsquo;achat, voir <InternalLink slug="frais-caches-achat-maison-immigrant-checklist">les frais cach&eacute;s &agrave; anticiper</InternalLink>.</li>
+      </ul>
+      <p>
+        Les r&egrave;gles et montants changent : validez chaque point aupr&egrave;s de votre avocat ou courtier avant de vous engager.
+      </p>
+
+      <h2>Chauffage, eau et inspection</h2>
+      <p>
+        Le climat et le parc immobilier ancien rendent l&rsquo;inspection particuli&egrave;rement importante : chauffage au mazout, puits, fosse septique et isolation peuvent co&ucirc;ter cher. Une inspection pr&eacute;achat est votre meilleure protection. Voir <InternalLink slug="offre-achat-conditions-inspection-preachat-immigrant">offre d&rsquo;achat, conditions et inspection</InternalLink>. Certains pr&ecirc;teurs ou assureurs imposent des exigences sur les maisons chauff&eacute;es au mazout ou au bois.
+      </p>
+
+      <h2>Un atout : le service en fran&ccedil;ais</h2>
+      <p>
+        Dans une province bilingue, vous pouvez g&eacute;n&eacute;ralement obtenir des services gouvernementaux et professionnels en fran&ccedil;ais, ce qui simplifie la compr&eacute;hension des documents juridiques. Demandez-le d&egrave;s votre premi&egrave;re rencontre avec le courtier ou l&rsquo;avocat. Un <InternalLink slug="courtier-hypothecaire-vs-banque-immigrant">courtier hypoth&eacute;caire</InternalLink> peut aussi comparer les pr&ecirc;teurs actifs dans la province, y compris les coop&eacute;ratives de cr&eacute;dit locales.
+      </p>
+
+      <WizardCta variant="dark" />
+
+      <h2>&Agrave; retenir</h2>
+      <ul>
+        <li>Des prix plus bas qu&rsquo;ailleurs, mais un march&eacute; plus petit et variable selon la r&eacute;gion.</li>
+        <li>Le PICA m&egrave;ne &agrave; la r&eacute;sidence permanente, ce qui facilite grandement le financement.</li>
+        <li>Pr&eacute;voyez la taxe de transfert, l&rsquo;avocat et l&rsquo;inspection dans votre budget.</li>
+        <li>Les services en fran&ccedil;ais sont courants : demandez-les.</li>
+      </ul>
+      <p>
+        Sources officielles&nbsp;: <a href="https://www.cmhc-schl.gc.ca" target="_blank" rel="noopener noreferrer">SCHL</a>, <a href="https://www.canada.ca/fr/immigration-refugies-citoyennete.html" target="_blank" rel="noopener noreferrer">Immigration, R&eacute;fugi&eacute;s et Citoyennet&eacute; Canada</a> et <a href="https://www.canada.ca/fr/agence-consommation-matiere-financiere/services/hypotheques.html" target="_blank" rel="noopener noreferrer">Agence de la consommation en mati&egrave;re financi&egrave;re du Canada</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
 
   // ====================================================
   // ARTICLE 1: GUIDE PRINCIPAL (PILIER SEO)

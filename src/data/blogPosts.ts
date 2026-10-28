@@ -1,5 +1,5 @@
 // ============================================
-// BLOG POSTS METADATA — 56 articles
+// BLOG POSTS METADATA — 59 articles
 // Data-driven: each post has metadata + markdown-like content sections
 // ============================================
 
@@ -646,6 +646,17 @@ export const blogPosts: BlogPost[] = [
     readTime: "8 min",
     wizardVariant: undefined,
     relatedSlugs: ["courtier-hypothecaire-vs-banque-immigrant", "notaire-vs-avocat-cloture-immobiliere-immigrant-guide", "assurance-habitation-immigrant-guide", "assurance-hypothecaire-schl-primes-guide-2026"],
+  },
+  // ====== ARTICLE #59 — NOUVEAU-BRUNSWICK ======
+  {
+    slug: "hypotheque-nouveau-brunswick-immigrants-moncton-fredericton",
+    title: "Hypothèque Nouveau-Brunswick pour Immigrants : Guide Moncton, Fredericton et Région",
+    subtitle: "Province bilingue, prix accessibles et PICA : ce qu'il faut savoir pour acheter votre première propriété au Nouveau-Brunswick.",
+    description: "Guide hypothèque pour immigrants au Nouveau-Brunswick. Marché Moncton et Fredericton, Programme d'immigration au Canada atlantique, taxe de transfert, avocat à la clôture et services en français.",
+    category: "Province",
+    readTime: "8 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-nouvelle-ecosse-immigrants-halifax-atlantique", "hypotheque-nouveau-resident-permanent-guide-complet", "hypotheque-francophone-quebec", "notaire-vs-avocat-cloture-immobiliere-immigrant-guide"],
   },
 ];
 
