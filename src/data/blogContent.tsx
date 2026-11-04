@@ -19,6 +19,66 @@ const WizardCta = ({ variant = "light" }: { variant?: "light" | "dark" }) => (
 );
 
 export const blogContentMap: Record<string, React.ReactNode> = {
+  "penalite-remboursement-anticipe-hypotheque-ird-immigrant": (
+    <>
+      <p>
+        Vous venez d&rsquo;&ecirc;tre transf&eacute;r&eacute; dans une autre ville, votre famille s&rsquo;agrandit ou un nouvel emploi vous attend &agrave; l&rsquo;autre bout du pays : vendre avant la fin du terme est fr&eacute;quent chez les nouveaux arrivants. Or, rompre un pr&ecirc;t hypoth&eacute;caire ferm&eacute; entra&icirc;ne une <strong>p&eacute;nalit&eacute; de remboursement anticip&eacute;</strong> qui peut varier de quelques milliers &agrave; plusieurs dizaines de milliers de dollars. Voici comment elle est calcul&eacute;e et comment la limiter.
+      </p>
+
+      <h2>Les deux m&eacute;thodes de calcul</h2>
+      <ul>
+        <li><strong>Taux variable ou ajustable</strong> : la p&eacute;nalit&eacute; est g&eacute;n&eacute;ralement &eacute;gale &agrave; <strong>trois mois d&rsquo;int&eacute;r&ecirc;ts</strong> sur le solde restant.</li>
+        <li><strong>Taux fixe</strong> : le pr&ecirc;teur applique le <strong>plus &eacute;lev&eacute; entre trois mois d&rsquo;int&eacute;r&ecirc;ts et le diff&eacute;rentiel de taux d&rsquo;int&eacute;r&ecirc;t (IRD)</strong>, soit l&rsquo;&eacute;cart entre votre taux et le taux actuel pour la dur&eacute;e restante, multipli&eacute; par le solde.</li>
+      </ul>
+      <p>
+        Exemple simplifi&eacute; : sur un solde de 400&nbsp;000&nbsp;$ &agrave; 5&nbsp;%, trois mois d&rsquo;int&eacute;r&ecirc;ts repr&eacute;sentent environ 5&nbsp;000&nbsp;$. Si les taux ont baiss&eacute; et que l&rsquo;IRD donne un r&eacute;sultat plus &eacute;lev&eacute;, c&rsquo;est ce montant qui s&rsquo;applique. Lisez aussi notre comparatif <InternalLink slug="hypotheque-taux-fixe-variable-immigrant">taux fixe ou variable</InternalLink> avant de choisir votre produit.
+      </p>
+
+      <WizardCta />
+
+      <h2>Pourquoi l&rsquo;IRD varie autant d&rsquo;un pr&ecirc;teur &agrave; l&rsquo;autre</h2>
+      <p>
+        Les grandes banques calculent souvent l&rsquo;IRD &agrave; partir de leurs <em>taux affich&eacute;s</em>, et non du taux r&eacute;ellement consenti : le rabais que vous avez obtenu est alors retranch&eacute; du taux de comparaison, ce qui gonfle la p&eacute;nalit&eacute;. Plusieurs pr&ecirc;teurs monolignes utilisent plut&ocirc;t votre taux contractuel, ce qui donne un r&eacute;sultat g&eacute;n&eacute;ralement plus bas. Cette diff&eacute;rence est rarement expliqu&eacute;e &agrave; la signature : demandez la formule exacte par &eacute;crit. Un <InternalLink slug="courtier-hypothecaire-vs-banque-immigrant">courtier hypoth&eacute;caire</InternalLink> peut comparer les clauses de p&eacute;nalit&eacute; en plus des taux.
+      </p>
+
+      <h2>La portabilit&eacute; : emporter son hypoth&egrave;que</h2>
+      <p>
+        Plusieurs contrats permettent de <strong>transf&eacute;rer</strong> le pr&ecirc;t vers une nouvelle propri&eacute;t&eacute; sans payer de p&eacute;nalit&eacute;, &agrave; condition de conclure le nouvel achat dans un d&eacute;lai pr&eacute;vu (souvent entre 30 et 120 jours) et de se qualifier de nouveau. Si le nouveau pr&ecirc;t est plus &eacute;lev&eacute;, la portion additionnelle est financ&eacute;e au taux courant, ce qui donne un taux m&eacute;lang&eacute;. Cette option est pr&eacute;cieuse si vous pr&eacute;voyez d&eacute;m&eacute;nager : v&eacute;rifiez-la avant la signature, car elle varie selon le pr&ecirc;teur. Le nouveau pr&ecirc;t doit r&eacute;ussir le <InternalLink slug="stress-test-hypothecaire-canada-immigrant-guide">test de r&eacute;sistance</InternalLink> selon les r&egrave;gles en vigueur.
+      </p>
+
+      <h2>Les privil&egrave;ges de remboursement anticip&eacute;</h2>
+      <p>
+        La plupart des pr&ecirc;ts permettent, sans p&eacute;nalit&eacute;, de rembourser chaque ann&eacute;e un pourcentage du capital initial (souvent 10 &agrave; 20&nbsp;%) par versement forfaitaire, et d&rsquo;augmenter les paiements r&eacute;guliers. Utiliser ces privil&egrave;ges r&eacute;duit votre solde, donc votre p&eacute;nalit&eacute; &eacute;ventuelle et vos int&eacute;r&ecirc;ts. Si vous transf&eacute;rez de l&rsquo;argent de l&rsquo;&eacute;tranger, voyez comment <InternalLink slug="transferer-mise-de-fonds-etranger-canada">documenter l&rsquo;origine des fonds</InternalLink>, car un paiement forfaitaire important peut aussi &ecirc;tre examin&eacute;.
+      </p>
+
+      <h2>Comment r&eacute;duire ou &eacute;viter la p&eacute;nalit&eacute;</h2>
+      <ul>
+        <li><strong>Choisir un terme adapt&eacute; &agrave; votre projet</strong> : si un d&eacute;m&eacute;nagement est probable, un terme plus court ou un taux variable limite le risque.</li>
+        <li><strong>Attendre l&rsquo;&eacute;ch&eacute;ance</strong> quand c&rsquo;est possible : voyez notre guide sur le <InternalLink slug="renouvellement-hypothecaire-guide-eviter-choc-paiement">renouvellement hypoth&eacute;caire</InternalLink>.</li>
+        <li><strong>Calculer avant de refinancer</strong> : les &eacute;conomies d&rsquo;un taux plus bas doivent d&eacute;passer la p&eacute;nalit&eacute; et les frais, voir <InternalLink slug="hypotheque-refinancement-renouvellement-immigrant">refinancement et renouvellement</InternalLink>.</li>
+        <li><strong>Demander un d&eacute;compte de p&eacute;nalit&eacute; &eacute;crit</strong> et le faire v&eacute;rifier par un professionnel.</li>
+      </ul>
+      <p>
+        En vertu de la <em>Loi sur l&rsquo;int&eacute;r&ecirc;t</em>, un pr&ecirc;t r&eacute;sidentiel de plus de cinq ans peut g&eacute;n&eacute;ralement &ecirc;tre rembours&eacute; apr&egrave;s cinq ans moyennant au plus trois mois d&rsquo;int&eacute;r&ecirc;ts. Cela concerne surtout les termes tr&egrave;s longs : validez votre situation aupr&egrave;s d&rsquo;un conseiller.
+      </p>
+
+      <WizardCta variant="dark" />
+
+      <h2>&Agrave; retenir</h2>
+      <ul>
+        <li>Variable : environ trois mois d&rsquo;int&eacute;r&ecirc;ts. Fixe : le plus &eacute;lev&eacute; entre trois mois d&rsquo;int&eacute;r&ecirc;ts et l&rsquo;IRD.</li>
+        <li>La m&eacute;thode de calcul de l&rsquo;IRD diff&egrave;re selon le pr&ecirc;teur : comparez-la avant de signer.</li>
+        <li>La portabilit&eacute; et les privil&egrave;ges de remboursement sont vos meilleurs outils pour limiter les co&ucirc;ts.</li>
+        <li>Les clauses varient : lisez votre contrat et faites-vous conseiller.</li>
+      </ul>
+      <p>
+        Sources officielles&nbsp;: <a href="https://www.canada.ca/fr/agence-consommation-matiere-financiere/services/hypotheques.html" target="_blank" rel="noopener noreferrer">Agence de la consommation en mati&egrave;re financi&egrave;re du Canada</a>, <a href="https://www.cmhc-schl.gc.ca" target="_blank" rel="noopener noreferrer">SCHL</a> et <a href="https://laws-lois.justice.gc.ca/fra/lois/i-15/" target="_blank" rel="noopener noreferrer">Loi sur l&rsquo;int&eacute;r&ecirc;t</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
   "hypotheque-nouveau-brunswick-immigrants-moncton-fredericton": (
     <>
       <p>

@@ -658,6 +658,17 @@ export const blogPosts: BlogPost[] = [
     wizardVariant: undefined,
     relatedSlugs: ["hypotheque-nouvelle-ecosse-immigrants-halifax-atlantique", "hypotheque-nouveau-resident-permanent-guide-complet", "hypotheque-francophone-quebec", "notaire-vs-avocat-cloture-immobiliere-immigrant-guide"],
   },
+  // ====== ARTICLE #60 — PÉNALITÉ DE REMBOURSEMENT ANTICIPÉ ======
+  {
+    slug: "penalite-remboursement-anticipe-hypotheque-ird-immigrant",
+    title: "Pénalité de Remboursement Anticipé : IRD, 3 Mois d'Intérêts et Portabilité Expliqués aux Immigrants",
+    subtitle: "Vendre, refinancer ou déménager avant la fin du terme : comment la pénalité est calculée et comment la réduire.",
+    description: "Pénalité hypothécaire au Canada : calcul des 3 mois d'intérêts et de l'IRD, différence entre banques et prêteurs monolignes, portabilité, privilèges de remboursement et conseils pour immigrants qui déménagent ou vendent.",
+    category: "Gestion",
+    readTime: "8 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-taux-fixe-variable-immigrant", "hypotheque-refinancement-renouvellement-immigrant", "renouvellement-hypothecaire-guide-eviter-choc-paiement", "courtier-hypothecaire-vs-banque-immigrant"],
+  },
 ];
 
 // Helper: get post by slug
