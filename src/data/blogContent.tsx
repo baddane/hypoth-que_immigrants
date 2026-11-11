@@ -19,6 +19,82 @@ const WizardCta = ({ variant = "light" }: { variant?: "light" | "dark" }) => (
 );
 
 export const blogContentMap: Record<string, React.ReactNode> = {
+  "louer-ou-acheter-maison-nouvel-arrivant-canada": (
+    <>
+      <p>
+        &Agrave; votre arriv&eacute;e au Canada, la question revient vite&nbsp;: faut-il continuer &agrave; payer un loyer ou acheter le plus t&ocirc;t possible pour &laquo;&nbsp;b&acirc;tir de l&rsquo;&eacute;quit&eacute;&nbsp;&raquo;&nbsp;? Il n&rsquo;existe pas de r&eacute;ponse universelle. Le bon choix d&eacute;pend de votre <strong>horizon de s&eacute;jour</strong>, de la <strong>stabilit&eacute; de votre emploi</strong>, de votre <strong>dossier de cr&eacute;dit canadien</strong> et de la <strong>mise de fonds</strong> dont vous disposez. Voici une m&eacute;thode concr&egrave;te pour trancher sans pression.
+      </p>
+
+      <h2>Comparer les vrais co&ucirc;ts, pas seulement loyer vs paiement</h2>
+      <p>
+        Comparer un loyer de 2&nbsp;000&nbsp;$ &agrave; un paiement hypoth&eacute;caire de 2&nbsp;000&nbsp;$ est trompeur. Une partie du paiement rembourse du capital (c&rsquo;est de l&rsquo;&eacute;pargne forc&eacute;e), mais le propri&eacute;taire assume aussi des <strong>co&ucirc;ts irr&eacute;cup&eacute;rables</strong>&nbsp;:
+      </p>
+      <ul>
+        <li><strong>Int&eacute;r&ecirc;ts hypoth&eacute;caires</strong> et, si votre mise de fonds est inf&eacute;rieure &agrave; 20&nbsp;%, la prime d&rsquo;assurance SCHL ajout&eacute;e au pr&ecirc;t.</li>
+        <li><strong>Taxes municipales et scolaires</strong>, assurance habitation et, pour un condo, les frais de copropri&eacute;t&eacute;.</li>
+        <li><strong>Entretien</strong>&nbsp;: on pr&eacute;voit souvent 1 &agrave; 2&nbsp;% de la valeur de la propri&eacute;t&eacute; par ann&eacute;e.</li>
+        <li><strong>Frais d&rsquo;achat et de revente</strong>&nbsp;: droits de mutation, notaire ou avocat, inspection, puis commission de courtage &agrave; la vente.</li>
+      </ul>
+      <p>
+        Le locataire, lui, paie son loyer et son assurance locataire, mais peut placer la diff&eacute;rence (mise de fonds non investie, frais &eacute;vit&eacute;s). La vraie question est donc&nbsp;: <em>les co&ucirc;ts irr&eacute;cup&eacute;rables de la propri&eacute;t&eacute; sont-ils inf&eacute;rieurs &agrave; votre loyer, une fois l&rsquo;appr&eacute;ciation probable prise en compte&nbsp;?</em> Notre checklist des <InternalLink slug="frais-caches-achat-maison-immigrant-checklist">frais cach&eacute;s de l&rsquo;achat</InternalLink> vous aide &agrave; chiffrer chaque poste.
+      </p>
+
+      <h2>La r&egrave;gle de l&rsquo;horizon&nbsp;: combien de temps resterez-vous&nbsp;?</h2>
+      <p>
+        Les frais d&rsquo;entr&eacute;e et de sortie (souvent l&rsquo;&eacute;quivalent de plusieurs pourcents du prix) doivent &ecirc;tre amortis dans le temps. En pratique, beaucoup de conseillers estiment qu&rsquo;acheter devient int&eacute;ressant si vous pr&eacute;voyez rester <strong>au moins cinq ans</strong> dans la m&ecirc;me r&eacute;gion. Avant ce seuil, une revente rapide peut effacer le capital rembours&eacute;, surtout si le march&eacute; stagne.
+      </p>
+      <p>
+        Pour un nouvel arrivant, cette question est d&eacute;licate&nbsp;: premier emploi parfois temporaire, ville choisie avant de bien conna&icirc;tre le pays, statut d&rsquo;immigration encore en &eacute;volution. Si vous h&eacute;sitez entre deux villes ou deux provinces, louer 12 &agrave; 24 mois est souvent un investissement en information. Gardez aussi en t&ecirc;te qu&rsquo;un d&eacute;m&eacute;nagement avant la fin du terme peut entra&icirc;ner une <InternalLink slug="penalite-remboursement-anticipe-hypotheque-ird-immigrant">p&eacute;nalit&eacute; de remboursement anticip&eacute;</InternalLink>.
+      </p>
+
+      <WizardCta />
+
+      <h2>Les signaux qu&rsquo;il est temps d&rsquo;acheter</h2>
+      <ul>
+        <li><strong>Emploi stable</strong>&nbsp;: p&eacute;riode d&rsquo;essai termin&eacute;e, ou revenu de travailleur autonome d&eacute;clarable sur deux ans.</li>
+        <li><strong>Cr&eacute;dit canadien &eacute;tabli</strong>&nbsp;: plusieurs mois d&rsquo;historique et un pointage solide. Voyez comment <InternalLink slug="construire-credit-canadien-6-mois-immigrant">construire votre cr&eacute;dit en 6 mois</InternalLink>.</li>
+        <li><strong>Mise de fonds pr&ecirc;te et document&eacute;e</strong>, plus une r&eacute;serve pour les frais de cl&ocirc;ture (souvent 1,5 &agrave; 4&nbsp;% du prix selon la province).</li>
+        <li><strong>Paiement total confortable</strong>&nbsp;: vos ratios d&rsquo;endettement respectent les limites et vous passez le test de r&eacute;sistance avec une marge.</li>
+        <li><strong>Projet de vie ancr&eacute;</strong>&nbsp;: quartier choisi, enfants scolaris&eacute;s, intention claire de rester.</li>
+      </ul>
+      <p>
+        Si la plupart de ces cases sont coch&eacute;es, attendre peut co&ucirc;ter plus cher que d&rsquo;acheter. Pour v&eacute;rifier votre capacit&eacute; r&eacute;elle, lisez notre guide <InternalLink slug="puis-je-me-permettre-maison-canada-guide-realiste">puis-je me permettre une maison&nbsp;?</InternalLink>
+      </p>
+
+      <h2>Bien utiliser vos ann&eacute;es de location</h2>
+      <p>
+        Louer n&rsquo;est pas &laquo;&nbsp;jeter son argent par les fen&ecirc;tres&nbsp;&raquo; si la p&eacute;riode sert &agrave; pr&eacute;parer l&rsquo;achat&nbsp;:
+      </p>
+      <ul>
+        <li><strong>Ouvrir un CELIAPP</strong> d&egrave;s que vous &ecirc;tes r&eacute;sident aux fins fiscales&nbsp;: jusqu&rsquo;&agrave; 8&nbsp;000&nbsp;$ par ann&eacute;e, d&eacute;ductibles d&rsquo;imp&ocirc;t et retirables sans imp&ocirc;t pour un premier achat. D&eacute;tails dans notre guide <InternalLink slug="celiapp-rap-immigrant-premier-acheteur-2026">CELIAPP et RAP</InternalLink>.</li>
+        <li><strong>B&acirc;tir votre historique de cr&eacute;dit</strong> avec une carte utilis&eacute;e l&eacute;g&egrave;rement et pay&eacute;e en entier chaque mois.</li>
+        <li><strong>Rapatrier et documenter vos fonds</strong> de l&rsquo;&eacute;tranger bien avant la demande, pour faciliter la v&eacute;rification d&rsquo;origine.</li>
+        <li><strong>Explorer les quartiers</strong>&nbsp;: transport, &eacute;coles, temps de trajet, prix r&eacute;els des ventes.</li>
+        <li><strong>Conserver vos preuves de loyer</strong>&nbsp;: certains pr&ecirc;teurs les consid&egrave;rent comme cr&eacute;dit alternatif pour les nouveaux arrivants.</li>
+      </ul>
+
+      <h2>Et si vous voulez acheter rapidement&nbsp;?</h2>
+      <p>
+        Plusieurs programmes pour nouveaux arrivants permettent d&rsquo;acheter avec 5 &agrave; 10&nbsp;% de mise de fonds sans long historique de cr&eacute;dit canadien, &agrave; condition de pr&eacute;senter des preuves solides (lettre de r&eacute;f&eacute;rence bancaire &eacute;trang&egrave;re, historique de loyer, revenu stable). Les conditions varient selon le pr&ecirc;teur et votre statut&nbsp;: une pr&eacute;approbation vous dira concr&egrave;tement o&ugrave; vous en &ecirc;tes avant m&ecirc;me de visiter.
+      </p>
+
+      <WizardCta variant="dark" />
+
+      <h2>&Agrave; retenir</h2>
+      <ul>
+        <li>Comparez le loyer aux <strong>co&ucirc;ts irr&eacute;cup&eacute;rables</strong> de la propri&eacute;t&eacute;, pas au paiement hypoth&eacute;caire total.</li>
+        <li>Un horizon d&rsquo;au moins cinq ans dans la m&ecirc;me r&eacute;gion rend l&rsquo;achat g&eacute;n&eacute;ralement plus avantageux.</li>
+        <li>Emploi stable, cr&eacute;dit &eacute;tabli et mise de fonds document&eacute;e sont les trois feux verts.</li>
+        <li>Louer quelques ann&eacute;es peut &ecirc;tre strat&eacute;gique si vous en profitez pour &eacute;pargner et b&acirc;tir votre cr&eacute;dit.</li>
+      </ul>
+      <p>
+        Sources officielles&nbsp;: <a href="https://www.canada.ca/fr/agence-consommation-matiere-financiere/services/hypotheques/acheter-louer.html" target="_blank" rel="noopener noreferrer">Agence de la consommation en mati&egrave;re financi&egrave;re du Canada</a>, <a href="https://www.cmhc-schl.gc.ca/consommateurs/acheter-une-maison" target="_blank" rel="noopener noreferrer">SCHL &ndash; Acheter une maison</a> et <a href="https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/compte-epargne-libre-impot-achat-premiere-propriete.html" target="_blank" rel="noopener noreferrer">ARC &ndash; CELIAPP</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
   "penalite-remboursement-anticipe-hypotheque-ird-immigrant": (
     <>
       <p>

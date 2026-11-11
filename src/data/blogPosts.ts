@@ -669,6 +669,17 @@ export const blogPosts: BlogPost[] = [
     wizardVariant: undefined,
     relatedSlugs: ["hypotheque-taux-fixe-variable-immigrant", "hypotheque-refinancement-renouvellement-immigrant", "renouvellement-hypothecaire-guide-eviter-choc-paiement", "courtier-hypothecaire-vs-banque-immigrant"],
   },
+  // ====== ARTICLE #61 — LOUER OU ACHETER ======
+  {
+    slug: "louer-ou-acheter-maison-nouvel-arrivant-canada",
+    title: "Louer ou Acheter au Canada : Le Bon Moment pour un Nouvel Arrivant",
+    subtitle: "Coûts réels, horizon de séjour, crédit et mise de fonds : une méthode simple pour décider si vous devez acheter maintenant ou louer encore un peu.",
+    description: "Louer ou acheter une maison quand on est nouvel arrivant au Canada : comparaison des coûts réels, règle des 5 ans, crédit, mise de fonds, CELIAPP et étapes pour préparer un achat pendant que vous louez.",
+    category: "Processus",
+    readTime: "8 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["puis-je-me-permettre-maison-canada-guide-realiste", "frais-caches-achat-maison-immigrant-checklist", "construire-credit-canadien-6-mois-immigrant", "celiapp-rap-immigrant-premier-acheteur-2026"],
+  },
 ];
 
 // Helper: get post by slug
