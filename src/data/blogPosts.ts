@@ -1,5 +1,5 @@
 // ============================================
-// BLOG POSTS METADATA — 59 articles
+// BLOG POSTS METADATA — 62 articles
 // Data-driven: each post has metadata + markdown-like content sections
 // ============================================
 
@@ -679,6 +679,17 @@ export const blogPosts: BlogPost[] = [
     readTime: "8 min",
     wizardVariant: undefined,
     relatedSlugs: ["puis-je-me-permettre-maison-canada-guide-realiste", "frais-caches-achat-maison-immigrant-checklist", "construire-credit-canadien-6-mois-immigrant", "celiapp-rap-immigrant-premier-acheteur-2026"],
+  },
+  // ====== ARTICLE #62 — FRÉQUENCE DE PAIEMENT ======
+  {
+    slug: "frequence-paiement-hypothecaire-accelere-immigrant",
+    title: "Paiements Hypothécaires Accélérés : Mensuel, aux 2 Semaines ou Hebdomadaire ?",
+    subtitle: "Comment la fréquence de vos paiements change la durée de votre prêt et les intérêts payés, avec un exemple chiffré sur 400 000 $.",
+    description: "Fréquence de paiement hypothécaire au Canada : mensuel, aux deux semaines, hebdomadaire ou accéléré. Exemple chiffré, économies d'intérêts, paiements anticipés et conseils pour nouveaux arrivants.",
+    category: "Gestion",
+    readTime: "8 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["hypotheque-amortissement-duree-choix", "penalite-remboursement-anticipe-hypotheque-ird-immigrant", "renouvellement-hypothecaire-guide-eviter-choc-paiement", "taux-hypothecaires-comprendre-choisir-guide"],
   },
 ];
 

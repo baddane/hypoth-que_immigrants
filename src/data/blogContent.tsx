@@ -19,6 +19,104 @@ const WizardCta = ({ variant = "light" }: { variant?: "light" | "dark" }) => (
 );
 
 export const blogContentMap: Record<string, React.ReactNode> = {
+  "frequence-paiement-hypothecaire-accelere-immigrant": (
+    <>
+      <p>
+        Lors de la signature de votre hypoth&egrave;que, le pr&ecirc;teur vous demandera de choisir une <strong>fr&eacute;quence de paiement</strong>&nbsp;: mensuelle, aux deux semaines, hebdomadaire&hellip; et parfois &laquo;&nbsp;acc&eacute;l&eacute;r&eacute;e&nbsp;&raquo;. Ce d&eacute;tail, souvent coch&eacute; en quelques secondes, peut pourtant <strong>raccourcir votre pr&ecirc;t de plusieurs ann&eacute;es</strong> et vous faire &eacute;conomiser des dizaines de milliers de dollars d&rsquo;int&eacute;r&ecirc;ts. Voici comment choisir, surtout quand on est nouvel arrivant et que l&rsquo;on est pay&eacute; aux deux semaines.
+      </p>
+
+      <h2>Les fr&eacute;quences offertes au Canada</h2>
+      <ul>
+        <li><strong>Mensuelle</strong>&nbsp;: 12 paiements par ann&eacute;e. C&rsquo;est la r&eacute;f&eacute;rence utilis&eacute;e pour calculer votre paiement.</li>
+        <li><strong>Semi-mensuelle</strong>&nbsp;: 24 paiements par ann&eacute;e (par exemple le 1er et le 15). Le total annuel est identique au mensuel.</li>
+        <li><strong>Aux deux semaines (r&eacute;guli&egrave;re)</strong>&nbsp;: 26 paiements, calcul&eacute;s pour que le total annuel reste &agrave; peu pr&egrave;s &eacute;gal au mensuel.</li>
+        <li><strong>Hebdomadaire (r&eacute;guli&egrave;re)</strong>&nbsp;: 52 paiements, m&ecirc;me logique.</li>
+        <li><strong>Aux deux semaines ou hebdomadaire acc&eacute;l&eacute;r&eacute;e</strong>&nbsp;: le paiement mensuel est divis&eacute; par 2 (ou par 4), puis vers&eacute; 26 (ou 52) fois par ann&eacute;e. R&eacute;sultat&nbsp;: vous payez l&rsquo;&eacute;quivalent d&rsquo;<strong>un paiement mensuel de plus chaque ann&eacute;e</strong>, enti&egrave;rement appliqu&eacute; au capital.</li>
+      </ul>
+      <p>
+        La diff&eacute;rence entre &laquo;&nbsp;r&eacute;guli&egrave;re&nbsp;&raquo; et &laquo;&nbsp;acc&eacute;l&eacute;r&eacute;e&nbsp;&raquo; est cruciale&nbsp;: un paiement aux deux semaines r&eacute;gulier ne raccourcit presque pas votre pr&ecirc;t. C&rsquo;est l&rsquo;option acc&eacute;l&eacute;r&eacute;e qui fait le travail.
+      </p>
+
+      <h2>Exemple chiffr&eacute;&nbsp;: un pr&ecirc;t de 400&nbsp;000&nbsp;$</h2>
+      <p>
+        Hypoth&egrave;ses&nbsp;: 400&nbsp;000&nbsp;$ emprunt&eacute;s, taux de 4,5&nbsp;% (capitalis&eacute; semestriellement, comme l&rsquo;exige la loi canadienne pour les taux fixes), <InternalLink slug="hypotheque-amortissement-duree-choix">amortissement de 25 ans</InternalLink>, taux constant sur toute la dur&eacute;e.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Fr&eacute;quence</th>
+            <th>Paiement</th>
+            <th>Dur&eacute;e r&eacute;elle</th>
+            <th>Int&eacute;r&ecirc;ts totaux (approx.)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Mensuelle</strong></td><td>2&nbsp;214&nbsp;$</td><td>25 ans</td><td>264&nbsp;000&nbsp;$</td></tr>
+          <tr><td><strong>Aux 2 semaines r&eacute;guli&egrave;re</strong></td><td>1&nbsp;021&nbsp;$</td><td>25 ans</td><td>263&nbsp;500&nbsp;$</td></tr>
+          <tr><td><strong>Aux 2 semaines acc&eacute;l&eacute;r&eacute;e</strong></td><td>1&nbsp;107&nbsp;$</td><td>&asymp; 21 ans et 8 mois</td><td>224&nbsp;000&nbsp;$</td></tr>
+          <tr><td><strong>Hebdomadaire acc&eacute;l&eacute;r&eacute;e</strong></td><td>553&nbsp;$</td><td>&asymp; 21 ans et 8 mois</td><td>223&nbsp;700&nbsp;$</td></tr>
+        </tbody>
+      </table>
+      <p>
+        Pour environ <strong>86&nbsp;$ de plus aux deux semaines</strong>, vous terminez votre pr&ecirc;t plus de trois ans plus t&ocirc;t et &eacute;conomisez autour de <strong>40&nbsp;000&nbsp;$ d&rsquo;int&eacute;r&ecirc;ts</strong>. Ces chiffres sont illustratifs&nbsp;: en r&eacute;alit&eacute;, votre taux changera &agrave; chaque <InternalLink slug="renouvellement-hypothecaire-guide-eviter-choc-paiement">renouvellement</InternalLink>, mais le principe reste le m&ecirc;me.
+      </p>
+
+      <WizardCta />
+
+      <h2>Pourquoi c&rsquo;est particuli&egrave;rement adapt&eacute; aux nouveaux arrivants</h2>
+      <ul>
+        <li><strong>Calquer le paiement sur la paie</strong>&nbsp;: la majorit&eacute; des employeurs canadiens paient aux deux semaines. Un pr&eacute;l&egrave;vement le lendemain de la paie &eacute;vite les d&eacute;couverts et les frais d&rsquo;effet sans provision, qui peuvent nuire &agrave; un <InternalLink slug="construire-credit-canadien-6-mois-immigrant">cr&eacute;dit canadien encore jeune</InternalLink>.</li>
+        <li><strong>Aucun impact sur la qualification</strong>&nbsp;: le pr&ecirc;teur vous qualifie sur la base du paiement mensuel et du <InternalLink slug="stress-test-hypothecaire-canada-immigrant-guide">test de r&eacute;sistance</InternalLink>. Choisir l&rsquo;option acc&eacute;l&eacute;r&eacute;e ne r&eacute;duit pas le montant que vous pouvez emprunter.</li>
+        <li><strong>&Eacute;pargne forc&eacute;e</strong>&nbsp;: les deux &laquo;&nbsp;mois &agrave; trois paies&nbsp;&raquo; de l&rsquo;ann&eacute;e financent le paiement suppl&eacute;mentaire presque sans qu&rsquo;on le remarque.</li>
+      </ul>
+      <p>
+        Attention toutefois si votre revenu est irr&eacute;gulier (travail autonome, commissions, contrats saisonniers)&nbsp;: un paiement mensuel combin&eacute; &agrave; des remboursements anticip&eacute;s ponctuels peut &ecirc;tre plus souple qu&rsquo;un engagement acc&eacute;l&eacute;r&eacute; fixe.
+      </p>
+
+      <h2>Les autres leviers&nbsp;: paiements anticip&eacute;s et augmentation du paiement</h2>
+      <p>
+        La fr&eacute;quence acc&eacute;l&eacute;r&eacute;e n&rsquo;est qu&rsquo;un des privil&egrave;ges de remboursement. La plupart des contrats permettent aussi&nbsp;:
+      </p>
+      <ul>
+        <li><strong>Un paiement forfaitaire annuel</strong>, souvent de 10 &agrave; 20&nbsp;% du capital initial, sans p&eacute;nalit&eacute;.</li>
+        <li><strong>L&rsquo;augmentation du paiement r&eacute;gulier</strong>, fr&eacute;quemment jusqu&rsquo;&agrave; 10 &agrave; 20&nbsp;% par ann&eacute;e.</li>
+        <li><strong>Le &laquo;&nbsp;double paiement&nbsp;&raquo;</strong> offert par certains pr&ecirc;teurs, ponctuellement.</li>
+      </ul>
+      <p>
+        Ces limites varient d&rsquo;un pr&ecirc;teur &agrave; l&rsquo;autre et sont souvent plus restrictives dans les hypoth&egrave;ques &agrave; rabais ou &laquo;&nbsp;tout inclus&nbsp;&raquo;. D&eacute;passer le plafond peut d&eacute;clencher une <InternalLink slug="penalite-remboursement-anticipe-hypotheque-ird-immigrant">p&eacute;nalit&eacute; de remboursement anticip&eacute;</InternalLink>&nbsp;: lisez la clause avant de signer. Un <InternalLink slug="courtier-hypothecaire-vs-banque-immigrant">courtier hypoth&eacute;caire</InternalLink> peut comparer ces privil&egrave;ges entre plusieurs pr&ecirc;teurs.
+      </p>
+
+      <h2>Acc&eacute;l&eacute;rer le pr&ecirc;t ou garder de la liquidit&eacute;&nbsp;?</h2>
+      <p>
+        Rembourser plus vite n&rsquo;est pas toujours la meilleure priorit&eacute;. Avant de choisir l&rsquo;option acc&eacute;l&eacute;r&eacute;e, v&eacute;rifiez que&nbsp;:
+      </p>
+      <ol>
+        <li>Vous disposez d&rsquo;un <strong>fonds d&rsquo;urgence</strong> de trois &agrave; six mois de d&eacute;penses &mdash; surtout important avec un permis de travail temporaire.</li>
+        <li>Vous n&rsquo;avez pas de <strong>dettes plus co&ucirc;teuses</strong> (carte de cr&eacute;dit, pr&ecirc;t auto &agrave; taux &eacute;lev&eacute;) &agrave; rembourser en premier.</li>
+        <li>Vous profitez d&eacute;j&agrave; des <strong>avantages fiscaux</strong> disponibles (REER avec cotisations de l&rsquo;employeur, CELI).</li>
+        <li>Le paiement acc&eacute;l&eacute;r&eacute; laisse une marge confortable dans votre budget, frais de propri&eacute;t&eacute; compris.</li>
+      </ol>
+      <p>
+        Bonne nouvelle&nbsp;: la fr&eacute;quence peut g&eacute;n&eacute;ralement &ecirc;tre modifi&eacute;e en cours de terme, parfois moyennant de simples frais administratifs. Vous pouvez commencer en mensuel et passer en acc&eacute;l&eacute;r&eacute; une fois votre situation stabilis&eacute;e.
+      </p>
+
+      <WizardCta variant="dark" />
+
+      <h2>&Agrave; retenir</h2>
+      <ul>
+        <li>Seules les options <strong>acc&eacute;l&eacute;r&eacute;es</strong> raccourcissent r&eacute;ellement votre pr&ecirc;t&nbsp;: elles ajoutent l&rsquo;&eacute;quivalent d&rsquo;un paiement mensuel par ann&eacute;e.</li>
+        <li>Sur 400&nbsp;000&nbsp;$ &agrave; 4,5&nbsp;%, l&rsquo;&eacute;conomie approche 40&nbsp;000&nbsp;$ et plus de trois ans de paiements.</li>
+        <li>Aligner les paiements sur votre paie simplifie le budget et prot&egrave;ge votre cr&eacute;dit.</li>
+        <li>Gardez un fonds d&rsquo;urgence et v&eacute;rifiez les privil&egrave;ges de remboursement de votre contrat.</li>
+      </ul>
+      <p>
+        Sources officielles&nbsp;: <a href="https://www.canada.ca/fr/agence-consommation-matiere-financiere/services/hypotheques/options-paiement-hypothecaire.html" target="_blank" rel="noopener noreferrer">Agence de la consommation en mati&egrave;re financi&egrave;re du Canada &ndash; Options de paiement</a>, <a href="https://itools-ioutils.fcac-acfc.gc.ca/MC-CH/MCCalc-CHCalc-fra.aspx" target="_blank" rel="noopener noreferrer">ACFC &ndash; Calculatrice hypoth&eacute;caire</a> et <a href="https://www.cmhc-schl.gc.ca" target="_blank" rel="noopener noreferrer">SCHL</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
   "louer-ou-acheter-maison-nouvel-arrivant-canada": (
     <>
       <p>
