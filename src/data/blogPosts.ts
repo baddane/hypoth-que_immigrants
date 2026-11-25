@@ -1,5 +1,5 @@
 // ============================================
-// BLOG POSTS METADATA — 62 articles
+// BLOG POSTS METADATA — 63 articles
 // Data-driven: each post has metadata + markdown-like content sections
 // ============================================
 
@@ -690,6 +690,17 @@ export const blogPosts: BlogPost[] = [
     readTime: "8 min",
     wizardVariant: undefined,
     relatedSlugs: ["hypotheque-amortissement-duree-choix", "penalite-remboursement-anticipe-hypotheque-ird-immigrant", "renouvellement-hypothecaire-guide-eviter-choc-paiement", "taux-hypothecaires-comprendre-choisir-guide"],
+  },
+  // ====== ARTICLE #63 — ACHAT SUR PLAN / PRÉCONSTRUCTION ======
+  {
+    slug: "acheter-maison-neuve-sur-plan-preconstruction-immigrant",
+    title: "Acheter une Maison Neuve sur Plan (Préconstruction) : Guide pour Immigrants",
+    subtitle: "Dépôts échelonnés, garantie de taux, requalification à la livraison et garanties des maisons neuves : ce qu'il faut savoir avant de signer.",
+    description: "Guide de l'achat sur plan au Canada pour nouveaux arrivants : calendrier des dépôts, financement d'une préconstruction, requalification à la prise de possession, permis de travail, garanties provinciales (GCR, Tarion, 2-5-10) et frais d'ajustement.",
+    category: "Achat",
+    readTime: "10 min",
+    wizardVariant: undefined,
+    relatedSlugs: ["rabais-tps-premier-acheteur-maison-neuve-2026-immigrant", "offre-achat-conditions-inspection-preachat-immigrant", "premier-chez-soi-schl-amortissement-30-ans-guide", "frais-caches-achat-maison-immigrant-checklist"],
   },
 ];
 

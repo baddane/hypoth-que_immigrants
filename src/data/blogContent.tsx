@@ -19,6 +19,112 @@ const WizardCta = ({ variant = "light" }: { variant?: "light" | "dark" }) => (
 );
 
 export const blogContentMap: Record<string, React.ReactNode> = {
+  "acheter-maison-neuve-sur-plan-preconstruction-immigrant": (
+    <>
+      <p>
+        Une maison ou un condo neuf achet&eacute; &laquo;&nbsp;sur plan&nbsp;&raquo; s&eacute;duit beaucoup de nouveaux arrivants&nbsp;: aucune r&eacute;novation &agrave; pr&eacute;voir, des garanties de construction, parfois un <InternalLink slug="rabais-tps-premier-acheteur-maison-neuve-2026-immigrant">rabais de TPS pour premiers acheteurs</InternalLink> et surtout du temps pour &eacute;pargner pendant les travaux. Mais entre la signature et la remise des cl&eacute;s, il peut s&rsquo;&eacute;couler <strong>un &agrave; quatre ans</strong>. Votre emploi, votre statut d&rsquo;immigration et les taux peuvent changer entre-temps &mdash; et c&rsquo;est &agrave; la livraison que le pr&ecirc;teur prend sa d&eacute;cision finale. Voici comment s&eacute;curiser votre projet.
+      </p>
+
+      <h2>Comment fonctionne un achat en pr&eacute;construction</h2>
+      <p>
+        Vous signez une convention d&rsquo;achat avec un constructeur pour une unit&eacute; qui n&rsquo;existe pas encore. Le prix est fix&eacute; aujourd&rsquo;hui, mais le pr&ecirc;t hypoth&eacute;caire ne sera d&eacute;bours&eacute; qu&rsquo;&agrave; la <strong>prise de possession</strong> (ou &agrave; l&rsquo;enregistrement du condo). Entre les deux, vous versez des <strong>d&eacute;p&ocirc;ts</strong> directement au constructeur ou &agrave; son fiduciaire.
+      </p>
+      <ul>
+        <li><strong>Maison individuelle ou en rang&eacute;e</strong>&nbsp;: d&eacute;p&ocirc;ts souvent plus modestes, livraison en 12 &agrave; 24 mois.</li>
+        <li><strong>Condo en tour</strong>&nbsp;: d&eacute;p&ocirc;ts fr&eacute;quemment de 15 &agrave; 20&nbsp;% du prix, &eacute;chelonn&eacute;s sur un ou deux ans, livraison en 3 &agrave; 5 ans dans les grands march&eacute;s comme Toronto ou Vancouver.</li>
+        <li><strong>Occupation interm&eacute;diaire</strong> (Ontario)&nbsp;: dans un condo, vous pouvez emm&eacute;nager avant l&rsquo;enregistrement de l&rsquo;immeuble et payer des &laquo;&nbsp;frais d&rsquo;occupation&nbsp;&raquo; sans b&acirc;tir d&rsquo;&eacute;quit&eacute;, parfois pendant plusieurs mois.</li>
+      </ul>
+      <p>
+        Ces d&eacute;p&ocirc;ts comptent dans votre mise de fonds. Ils doivent donc provenir de <InternalLink slug="transferer-mise-de-fonds-etranger-canada">sources document&eacute;es</InternalLink>&nbsp;: gardez chaque relev&eacute; et chaque re&ccedil;u, car le pr&ecirc;teur v&eacute;rifiera l&rsquo;origine des fonds au moment de l&rsquo;approbation finale.
+      </p>
+
+      <h2>Le vrai risque&nbsp;: la requalification &agrave; la livraison</h2>
+      <p>
+        Une pr&eacute;approbation est g&eacute;n&eacute;ralement valide de 90 &agrave; 120 jours. Pour un projet livr&eacute; dans deux ans, elle ne garantit rien&nbsp;: le pr&ecirc;teur r&eacute;examinera <strong>tout votre dossier</strong> quelques mois avant la prise de possession. Les points qui font d&eacute;railler les dossiers de nouveaux arrivants&nbsp;:
+      </p>
+      <ul>
+        <li><strong>Permis de travail qui expire</strong> avant ou peu apr&egrave;s la livraison, sans renouvellement ou r&eacute;sidence permanente en vue. Planifiez votre d&eacute;marche de <InternalLink slug="hypotheque-nouveau-resident-permanent-guide-complet">r&eacute;sidence permanente</InternalLink> en fonction de la date de livraison pr&eacute;vue.</li>
+        <li><strong>Changement d&rsquo;emploi</strong>&nbsp;: une nouvelle p&eacute;riode d&rsquo;essai ou un passage au <InternalLink slug="hypotheque-travailleur-autonome-freelance">travail autonome</InternalLink> peut rendre le revenu non admissible temporairement.</li>
+        <li><strong>Hausse des taux</strong>&nbsp;: le <InternalLink slug="stress-test-hypothecaire-canada-immigrant-guide">test de r&eacute;sistance</InternalLink> sera calcul&eacute; avec les taux en vigueur &agrave; la livraison, pas ceux du jour de la signature.</li>
+        <li><strong>Nouvelles dettes</strong>&nbsp;: un pr&ecirc;t auto ou des achats de meubles &agrave; cr&eacute;dit avant la livraison font grimper votre ratio ATD.</li>
+        <li><strong>&Eacute;valuation inf&eacute;rieure au prix</strong>&nbsp;: si le march&eacute; recule, le pr&ecirc;teur finance selon la valeur &eacute;valu&eacute;e. La diff&eacute;rence sort de votre poche, en plus de la mise de fonds.</li>
+      </ul>
+      <p>
+        Si vous ne pouvez pas conclure, le constructeur peut conserver vos d&eacute;p&ocirc;ts et, selon le contrat, vous poursuivre pour la perte subie. C&rsquo;est pourquoi il faut b&acirc;tir une <strong>marge de s&eacute;curit&eacute;</strong> d&egrave;s la signature.
+      </p>
+
+      <WizardCta />
+
+      <h2>Financer une pr&eacute;construction&nbsp;: les options</h2>
+      <ul>
+        <li><strong>Garantie de taux prolong&eacute;e</strong>&nbsp;: certains pr&ecirc;teurs offrent des garanties de taux sur de longues p&eacute;riodes pour les constructions neuves, souvent avec un taux l&eacute;g&egrave;rement plus &eacute;lev&eacute;. Comparez avec un <InternalLink slug="courtier-hypothecaire-vs-banque-immigrant">courtier hypoth&eacute;caire</InternalLink>.</li>
+        <li><strong>Pr&ecirc;teur partenaire du constructeur</strong>&nbsp;: pratique et parfois assorti d&rsquo;incitatifs, mais rien ne vous oblige &agrave; l&rsquo;accepter. Faites jouer la concurrence.</li>
+        <li><strong>Pr&ecirc;t &agrave; la construction (d&eacute;caissements progressifs)</strong>&nbsp;: si vous faites b&acirc;tir sur votre propre terrain, le pr&ecirc;t est vers&eacute; par &eacute;tapes selon l&rsquo;avancement des travaux. Les exigences sont plus strictes et les int&eacute;r&ecirc;ts courent pendant la construction.</li>
+        <li><strong>Amortissement de 30 ans</strong>&nbsp;: depuis d&eacute;cembre 2024, les pr&ecirc;ts assur&eacute;s pour l&rsquo;achat d&rsquo;une construction neuve peuvent &ecirc;tre amortis sur 30 ans, ce qui r&eacute;duit le paiement. Voir notre guide <InternalLink slug="premier-chez-soi-schl-amortissement-30-ans-guide">amortissement 30 ans</InternalLink>.</li>
+      </ul>
+      <p>
+        Avec une mise de fonds inf&eacute;rieure &agrave; 20&nbsp;%, le pr&ecirc;t devra &ecirc;tre assur&eacute; (SCHL, Sagen ou Canada Guaranty). Assurez-vous que votre statut et votre historique de cr&eacute;dit correspondent aux crit&egrave;res de l&rsquo;assureur <em>au moment de la livraison</em>.
+      </p>
+
+      <h2>Les garanties des maisons neuves selon la province</h2>
+      <p>
+        Chaque province encadre les constructions neuves, et ces programmes prot&egrave;gent aussi une partie de vos d&eacute;p&ocirc;ts si le constructeur fait faillite&nbsp;&mdash; jusqu&rsquo;&agrave; un plafond qu&rsquo;il faut v&eacute;rifier avant de signer.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Province</th>
+            <th>Programme</th>
+            <th>Points cl&eacute;s</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Qu&eacute;bec</strong></td><td>Garantie de construction r&eacute;sidentielle (GCR)</td><td>Obligatoire pour les maisons neuves et la plupart des copropri&eacute;t&eacute;s&nbsp;; couvre acomptes, parach&egrave;vement, vices et malfa&ccedil;ons.</td></tr>
+          <tr><td><strong>Ontario</strong></td><td>Tarion</td><td>Garanties de 1, 2 et 7 ans&nbsp;; protection des d&eacute;p&ocirc;ts plafonn&eacute;e et indemnisation pour retards de livraison.</td></tr>
+          <tr><td><strong>Colombie-Britannique</strong></td><td>BC Housing (garantie 2-5-10)</td><td>2 ans mat&eacute;riaux et main-d&rsquo;&oelig;uvre, 5 ans enveloppe du b&acirc;timent, 10 ans structure.</td></tr>
+          <tr><td><strong>Alberta</strong></td><td>New Home Warranty (1-2-5-10)</td><td>1 an mat&eacute;riaux et main-d&rsquo;&oelig;uvre, 2 ans syst&egrave;mes, 5 ans enveloppe, 10 ans structure.</td></tr>
+        </tbody>
+      </table>
+      <p>
+        Avant de signer, v&eacute;rifiez que le constructeur est <strong>accr&eacute;dit&eacute; ou titulaire d&rsquo;une licence</strong> aupr&egrave;s de l&rsquo;organisme provincial et consultez son historique de r&eacute;clamations. M&ecirc;me pour du neuf, une inspection ind&eacute;pendante avant la r&eacute;ception des travaux reste recommand&eacute;e&nbsp;: voir notre guide sur l&rsquo;<InternalLink slug="offre-achat-conditions-inspection-preachat-immigrant">inspection pr&eacute;achat</InternalLink>.
+      </p>
+
+      <h2>Les frais qui surprennent &agrave; la cl&ocirc;ture</h2>
+      <p>
+        Le prix affich&eacute; n&rsquo;est presque jamais le montant final. Les conventions de pr&eacute;construction pr&eacute;voient souvent des <strong>ajustements de cl&ocirc;ture</strong>&nbsp;:
+      </p>
+      <ul>
+        <li><strong>Redevances d&rsquo;am&eacute;nagement</strong> municipales refactur&eacute;es &agrave; l&rsquo;acheteur, parfois plusieurs milliers de dollars.</li>
+        <li><strong>Frais de raccordement</strong> (eau, &eacute;lectricit&eacute;, compteurs) et frais d&rsquo;inscription au programme de garantie.</li>
+        <li><strong>Ajustements de taxes</strong> (TPS/TVH selon le rabais applicable) et <InternalLink slug="droits-mutation-immobiliere-province-rabais-premier-acheteur">droits de mutation</InternalLink>.</li>
+        <li><strong>Extras et am&eacute;liorations</strong> choisis au salon de design, payables souvent au comptant.</li>
+      </ul>
+      <p>
+        N&eacute;gociez un <strong>plafond sur les ajustements</strong> d&egrave;s la signature et faites relire le contrat par un avocat ou un notaire. En Ontario et en Colombie-Britannique, la loi pr&eacute;voit une <strong>p&eacute;riode de r&eacute;flexion</strong> pour les condos neufs (respectivement 10 et 7 jours)&nbsp;: profitez-en pour faire valider le financement. Pour le reste, consultez notre <InternalLink slug="frais-caches-achat-maison-immigrant-checklist">checklist des frais cach&eacute;s</InternalLink>.
+      </p>
+
+      <WizardCta variant="dark" />
+
+      <h2>Statut d&rsquo;immigration et interdiction d&rsquo;achat</h2>
+      <p>
+        La <InternalLink slug="interdiction-achat-non-canadien-exemptions-2027">Loi sur l&rsquo;interdiction d&rsquo;achat d&rsquo;immeubles r&eacute;sidentiels par des non-Canadiens</InternalLink> s&rsquo;applique aussi aux unit&eacute;s neuves. Les r&eacute;sidents permanents ne sont pas vis&eacute;s, mais un travailleur temporaire doit respecter les conditions d&rsquo;exemption (permis valide, historique de travail au Canada, une seule propri&eacute;t&eacute;) <strong>&agrave; la date de l&rsquo;achat</strong>. V&eacute;rifiez avec votre avocat ou notaire quelle date est retenue dans votre situation, et n&rsquo;achetez jamais une pr&eacute;construction dans l&rsquo;intention de la revendre avant livraison (cession)&nbsp;: les profits de cession sont impos&eacute;s comme un revenu d&rsquo;entreprise et plusieurs constructeurs l&rsquo;interdisent ou la facturent.
+      </p>
+
+      <h2>&Agrave; retenir</h2>
+      <ul>
+        <li>La d&eacute;cision de financement finale se prend &agrave; la <strong>livraison</strong>, pas &agrave; la signature&nbsp;: gardez emploi, cr&eacute;dit et statut stables.</li>
+        <li>Pr&eacute;voyez une r&eacute;serve pour une &eacute;valuation inf&eacute;rieure au prix et pour les ajustements de cl&ocirc;ture.</li>
+        <li>Documentez l&rsquo;origine de chaque d&eacute;p&ocirc;t et v&eacute;rifiez le plafond de protection de la garantie provinciale.</li>
+        <li>Faites relire la convention d&rsquo;achat avant la fin de la p&eacute;riode de r&eacute;flexion et comparez les garanties de taux.</li>
+      </ul>
+      <p>
+        Sources officielles&nbsp;: <a href="https://www.cmhc-schl.gc.ca/consommateurs/acheter-une-maison" target="_blank" rel="noopener noreferrer">SCHL &ndash; Acheter une maison</a>, <a href="https://www.garantiegcr.com" target="_blank" rel="noopener noreferrer">Garantie de construction r&eacute;sidentielle (Qu&eacute;bec)</a>, <a href="https://www.tarion.com" target="_blank" rel="noopener noreferrer">Tarion (Ontario)</a> et <a href="https://www.bchousing.org/licensing-assurance/home-warranty" target="_blank" rel="noopener noreferrer">BC Housing &ndash; Home Warranty</a>.
+      </p>
+
+      <WizardCta variant="dark" />
+    </>
+  ),
+
   "frequence-paiement-hypothecaire-accelere-immigrant": (
     <>
       <p>
